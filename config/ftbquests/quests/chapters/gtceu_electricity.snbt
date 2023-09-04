@@ -1,0 +1,316 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gtceu_electricity"
+	group: "719BFF182E0820D1"
+	icon: "gtceu:lv_battery_hull"
+	id: "78143C34A257B32B"
+	order_index: 0
+	quest_links: [
+		{
+			id: "1E0BEF514062908F"
+			linked_quest: "6E186F9C57155BFA"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "7A34878030ACD40E"
+			linked_quest: "7B0FF43022F6C2EC"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "2314B5E680199D8B"
+			linked_quest: "6A844F93292A01DC"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			id: "73658F75574096ED"
+			linked_quest: "6C20A9A64C1BE0BF"
+			size: 0.75d
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "3ABFF7620810CE15"
+			linked_quest: "4B8D66A65F102D7E"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			id: "5107BD377C9F044F"
+			linked_quest: "7B472E0AF15726F0"
+			x: 1.0d
+			y: 3.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["6E186F9C57155BFA"]
+			description: [
+				"&1EU&r - the Energy Unit - is transported through direct connection, using &aWires&r or &aCables&r."
+				""
+				"Wires are inferior, as they will &celectrocute&r you and &close more energy&r as the electricity travels through the wire, so you want to use Cables."
+				""
+				"&cCable loss&r means you will have to stick your Machines close to your Generators, but that kind of issue is only for the early game. If you look up ahead, you will be able to obtain &6Superconductors&r down the line, sidestepping this issue!"
+			]
+			icon: "gtceu:aluminium_single_cable"
+			id: "3A37D379DDBD548D"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "6A64F735F925A515"
+				type: "checkmark"
+			}]
+			title: "EU Transportation"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7B0FF43022F6C2EC"]
+			description: [
+				"You have likely realised by now that the Energy system in &2GregTech&r is &cnowhere near as simple&r as the &1RF&r you may be used to using in modded Minecraft!"
+				""
+				"&1EU&r mechanics have a certain... depth to them, and are not dissimilar to real electricity. It can also be &4dangerous and punishing&r if mishandled. However, the power system does give the player a lot of &6satisfaction&r when harnessed well."
+				""
+				"This Quest serves as a quick guide to &9GregTech Amperage&r. As for the &dVoltage&r mechanics, that will be explained once you reach &bMV&r."
+				"{@pagebreak}"
+				"&bLore:&r The Amperage bug, exploit or feature (call it whatever you want!) from GTCE has been &lfixed&r in GTCEu. The Energy network now works as intended."
+			]
+			icon: "gtceu:lv_transformer_2a"
+			id: "6232BD50F5411201"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "4DBE489DA7F13C93"
+				title: "Amperage"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7B0FF43022F6C2EC"]
+			description: [
+				"Each single-block Generator in GregTech is configured to produce &91 Amp&r of its voltage tier. For &7LV&r, that results in &232EU/t&r."
+				""
+				"If a machine requires 16EU/t, one packet of 32EU is sent &6every other tick&r (assuming no cable loss)."
+				""
+				"A Battery Buffer with &94&r Batteries can produce up to &94 Amps&r for &2128EU/t&r as &7LV&r power, which is important for the &3Electric Blast Furnace&r - or to run multiple machines simultaneously."
+				""
+				"Generic machines are configured to draw up to &92 Amps&r to account for cable loss. Other machines have specific &9Amps IN&r, described in the tooltip."
+			]
+			id: "10122F79C49896DA"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "3259A966A14903AE"
+				type: "checkmark"
+			}]
+			title: "Machine Amps"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7B0FF43022F6C2EC"]
+			description: [
+				"The most critical thing to know is that &acables&r have an &9Amperage &climit&r. Attempting to transport more Amps than this limit will &4burn your cable up&r."
+				""
+				"&9Amps&r are drawn &oonly&r through the &aCables&r connecting the Producers and Consumers directly, and &oonly drawn&r if the Consumers are active."
+				""
+				"This means you can safely step down your Cables in certain places - feel free to experiment!"
+			]
+			icon: "minecraft:campfire"
+			id: "1D4CB1889C44E8AB"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "485F963DA6CD1B10"
+				type: "checkmark"
+			}]
+			title: "Cable Burning"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6A844F93292A01DC"]
+			description: [
+				"Starting with some basic physics:"
+				""
+				"° &9Power&r = &2Voltage&r * &dAmperage&r"
+				"° &1Energy&r = &9Power&r * &6Time&r"
+				""
+				"&8Resistance&r is an excluded concept in GregTech, instead being partially simulated as cable loss."
+				""
+				"The units are defined as such:"
+				""
+				"- &1EU&r is the unit of &1Energy&r."
+				"- &9EU/t&r is the &9Power&r."
+				"- &dA&r or &dAmp&r is the &dAmperage&r."
+				"- &2V&r &owould&r be the &2Voltage&r, but we prefer referring to it as &7LV&r, &bMV&r, &6HV&r... as those are the relevant values for gameplay (technically: &7LV&r \\u003d 32V \\u003d 32EU/t/A)."
+			]
+			icon: "minecraft:apple"
+			id: "51E9035AA830A859"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "3FC502CEBAE1B0DA"
+				type: "checkmark"
+			}]
+			title: "Basic Physics"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6A844F93292A01DC"]
+			description: [
+				"Here comes the &4dangerous&r part, so read carefully:"
+				""
+				"&9-&r &aCables&r and &aWires&r which receive &2higher Voltage&r than their rating will &cburn&r, in addition to burning if they receive too many &dAmps&r."
+				"&9-&r &3Machines&r which receive a &2higher Voltage&r than their Tier will &cexplode&r. Kaboom! Extra &dAmps&r will not have an adverse affect, as they consume only what they need."
+			]
+			icon: "ae2:tiny_tnt"
+			id: "144F1F475735CFE3"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "24AA0FBE677C12E9"
+				type: "checkmark"
+			}]
+			title: "Explosion!"
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6A844F93292A01DC"]
+			description: ["Every &6tick&r, &1EU&r &apackets&r attempt to transfer themselves from Energy Producers to Consumers. These &apackets&r have two parameters: a &2Voltage&r tier determined by the tier of the Producer, and &dAmperage&r. This determines how much &9Power&r can actually be transferred. There are no partial Amps, meaning Energy is transferred only if the full Amp &apacket&r can be received."]
+			icon: "minecraft:sticky_piston"
+			id: "21165FF6B466E115"
+			size: 0.75d
+			tasks: [{
+				id: "38F603FF520379B8"
+				type: "checkmark"
+			}]
+			title: "Ticks"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"6A844F93292A01DC"
+				"21165FF6B466E115"
+				"51E9035AA830A859"
+				"144F1F475735CFE3"
+			]
+			description: [
+				"In summary, Energy is transported in &apackets&r of &132EU&r for &7LV&r, &1128EU&r for &bMV&r... so on and so forth. The amount of energy that is actually received by a machine can end up being lower than energy sent, due to cable loss."
+				""
+				"Machine Energy Input is limited by &2Voltage&r (too high and, well, &6boom&r!), and by &dAmperage&r. Thus, a &bMV&r Machine with &d2A&r Input connected to a &7LV&r line will never accept more than &964EU/t&r."
+				""
+				"It is still possible to run &bMV&r Machines on &7LV&r lines, but only if the recipes are low enough &9Power&r, or if you have a &3MV Battery&r in the charging slot. The machine will only accept &d1A&r when idle, and so the &3Battery&r will recharge at a maximum rate of &932EU/t&r."
+			]
+			icon: "minecraft:book"
+			id: "626DCB7567936888"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "2312782365B0DB34"
+				type: "checkmark"
+			}]
+			title: "In summary..."
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7B0FF43022F6C2EC"]
+			description: ["&6Superconductors&r are special Wires available for each Voltage tier. They do not have any Cable counterpart, but that isn't necessary, as they have absolutely &6zero cable loss&r! They also don't damage you when you touch them. They are objectively the best choice for wiring, if not a little expensive in comparison to the other wires."]
+			icon: "gtceu:mercury_barium_calcium_cuprate_single_wire"
+			id: "15FE6124D69B7FB5"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "4EB334D0DA04D848"
+				title: "Superconductors"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6E186F9C57155BFA"]
+			description: [
+				"Changing and limiting amperage/voltage may seem intimidating, but there are many tools to help prevent mistakes."
+				""
+				"Read on to learn more..."
+			]
+			icon: {
+				Count: 1b
+				id: "gtceu:iron_wrench"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "25BFD5598A82C056"
+			shape: "rsquare"
+			tasks: [{
+				id: "54F553DB043ECD55"
+				title: "Manipulating Power"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7B472E0AF15726F0"]
+			description: [
+				"Each tier above the recipe tier allows one overclock. Each overclock implies:"
+				"&9-&r 2x recipe speed"
+				"&9-&r 4x power consumption"
+				"&9->&r 2x total energy cost"
+				""
+				"As you can see, there are upsides and downsides. It is a game of balance: ask yourself if you want to cut time duration at the cost of greater consumption."
+				""
+				"You and only you can answer this question."
+			]
+			icon: {
+				Count: 1b
+				id: "gtceu:programmed_circuit"
+				tag: {
+					Configuration: 0
+				}
+			}
+			id: "3C28D51ABB1635D0"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "6A8626DC27760924"
+				type: "checkmark"
+			}]
+			title: "The mathematics of overclocking"
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7B472E0AF15726F0"]
+			description: [
+				"&9Pro Tip:&r for automated setups, overclock as little as possible!"
+				""
+				"Machines have a button to set the maximum voltage tier it will Overclock to. Click on it to cycle through all the available Voltages, and set it on &dX&r to disable Overclocking."
+			]
+			icon: "minecraft:obsidian"
+			id: "3BD55CCFE642A6F3"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "5BEA9540C9836982"
+				title: "Limiting your overclocks"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+	]
+	subtitle: ["All you could ever wish to know about EU"]
+	title: "Electricity"
+}

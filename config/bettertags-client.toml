@@ -1,0 +1,22 @@
+
+["NBT Tags"]
+	#Show mod name in tooltip.  Default: false
+	showModName = false
+	#Show nbt length, in bytes, in the tooltip.  Default: true
+	showNBTLength = true
+	#Show NBT and Tags only if Advanced Tooltips (F3 + h) is on.  Default: false
+	showAsAdvanced = false
+	#Show Clock Day and Time.  Default: true
+	showInfoClock = true
+	#Show Recovery Compass players death location.  Default: true
+	showInfoRecovery = true
+	#Show Suspicious Stew effects.  Default: true
+	showInfoStew = true
+	#Show Bees Nest/Hive information.  Default: true
+	showInfoBees = true
+
+["Clock Time Format"]
+	#Show 12 or 24 hour clock format.  Default: false
+	#true for 12 hour, false for 24 hour
+	isTwelves = false
+

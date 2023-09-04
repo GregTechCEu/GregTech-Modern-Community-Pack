@@ -1,0 +1,94 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "large_turbines"
+	group: "719BFF182E0820D1"
+	id: "52E70B217806A134"
+	order_index: 5
+	quest_links: [{
+		id: "6CC3CC0770652DD9"
+		linked_quest: "188A8C3DD38C2762"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["188A8C3DD38C2762"]
+			description: [
+				"&3Rotor Holders&r above the tier of the &3Large Turbine&r will &6double&r the production for every tier, multiplicatively."
+				"&3Rotor Holders&r above the tier of the &3Large Turbine&r will increase the efficiency by 10% for every tier, additively."
+			]
+			id: "4F5DD5816D242E7D"
+			tasks: [{
+				id: "600E11FFBAC10C1C"
+				type: "checkmark"
+			}]
+			title: "Rotor Holders"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["188A8C3DD38C2762"]
+			description: [
+				"&aRotors&r have a &9Power&r, &dEfficiency&r and &4Durability&r that are based on tool stats."
+				"&9Power&r multiplies the production of the &3Turbine&r. This stacks multiplicatively with the &3Rotor Holder&r."
+				"&dEfficiency&r reduces the fuel consumption. This stacks multiplicatively with the &3Rotor Holder&r."
+				"&4Durability&r is the lifetime of the &aRotor&r in seconds, when the &3Turbine&r&r is active."
+			]
+			id: "44D051EC36AE418F"
+			tasks: [{
+				id: "169057975DC345BA"
+				title: "Rotors"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["188A8C3DD38C2762"]
+			description: [
+				"The &9Power&r output affects both the fuel consumption and the EU/t generation. It is calculated with the following formula:"
+				"&eproduction = baseEUt * rotorPower * 2^(rotorHolderTier - turbineTier)&r"
+				""
+				"The &dEfficiency&r reduces the fuel consumption, but does not alter the EU/t generation. It is calculated with the following formula:"
+				"&eefficiency = rotorEfficiency * (1 + 0.1 * (rotorHolderTier - turbineTier))&r"
+			]
+			id: "1CE29CDDAED21346"
+			tasks: [{
+				id: "7DE01F7FA5E97F0B"
+				title: "In summary..."
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CE29CDDAED21346"]
+			description: [
+				"Large Steam Turbine, with Ultimet Rotor and EV Rotor Holder:"
+				"Production = 1024 * 1.60 * 2 = 3276 EU/t"
+				"Efficiency = 1.30 * 1.10 = 143%"
+				"(Steam consumption = 4582 L/t, this is above a Titanium Boiler, or a TungstenSteel Boiler with ~70% throttle)"
+				""
+				"Large Gas Turbine, with Chrome Rotor and EV Rotor Holder:"
+				"Production = 4096 * 1.70 * 1 = 5325 EU/t"
+				"Efficiency = 1.55 * 1.00 = 155%"
+				"(The same fuel consumption would produce 3435 EU/t using 6.7 Turbo Gas Turbines)"
+				""
+				"Large Plasma Turbine, with HSS-S Rotor and ZPM Rotor Holder:"
+				"Production = 16834 * 2.50 * 4 = 168340 EU/t"
+				"Efficiency = 1.80 * 1.20 = 216%"
+				"(This is more than a ZPM Amp!)"
+			]
+			id: "392D915D3389DC66"
+			tasks: [{
+				id: "3CBCA60F3007AB27"
+				title: "...and some examples!"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+	title: "Large Turbines"
+}

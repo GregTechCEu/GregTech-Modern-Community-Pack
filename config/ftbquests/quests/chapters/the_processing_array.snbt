@@ -1,0 +1,55 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_processing_array"
+	group: "719BFF182E0820D1"
+	id: "1BE6B65467FD55C5"
+	order_index: 7
+	quest_links: [
+		{
+			id: "029075CD5A9C46C8"
+			linked_quest: "2DAC91AF2EBB68E2"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4974A0B5AD3D6ED5"
+			linked_quest: "4194EC9F1C6632E4"
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["2DAC91AF2EBB68E2"]
+			description: [
+				"&9-&r &4Parallelization is superior&r to oveclocking. Use it for passive setups such as Ore Processing or Oil Distilling."
+				"&9-&r &6Distinct buses&r: a &3PA&r can accept up to 10 &3Input Buses&r. Use it for your pattern automation with &3Extruder&r, &3Engraver&r, and many other."
+			]
+			id: "4C9DA2CEE4432B8D"
+			tasks: [{
+				id: "70D6D60322EDDA8C"
+				type: "checkmark"
+			}]
+			title: "Why go parallel?"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DAC91AF2EBB68E2"]
+			description: [
+				"Power cost is based on the current recipe being run, times the number of &4parallel&r being performed."
+				"As an &9example&r, &316 LV Distilleries&r will require an &3HV Energy Hatch&r in order to run effectively."
+			]
+			id: "1A9F4087799316AF"
+			tasks: [{
+				id: "14C2CA8E400CDB01"
+				type: "checkmark"
+			}]
+			title: "Power Usage"
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	title: "The Processing Array"
+}

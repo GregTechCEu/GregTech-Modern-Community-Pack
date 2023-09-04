@@ -1,0 +1,8 @@
+
+[FunctionalStorageConfig]
+	#Armory slot amount
+	#Range: > 1
+	ARMORY_CABINET_SIZE = 4096
+	#Linking range radius
+	DRAWER_CONTROLLER_LINKING_RANGE = 12
+

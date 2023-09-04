@@ -1,0 +1,282 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ore_processing"
+	group: "719BFF182E0820D1"
+	id: "0E06BF868110DE7D"
+	order_index: 6
+	quest_links: [
+		{
+			id: "04819432FE9587C7"
+			linked_quest: "7813F183681E0342"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3B2C62C12C9D0E89"
+			linked_quest: "701BCADAE5CF6CA5"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "53D184106CC9B6CF"
+			linked_quest: "724FB950CC472BB4"
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["7813F183681E0342"]
+			description: ["The main purpose of GregTech Ore Processing is to provide &abyproducts&r on top of the initial outcome. At Steam Age, none of the byproducts are obtainable, but this will become relevant soon."]
+			icon: "minecraft:iron_ore"
+			id: "21CFDD8EBE0B7E16"
+			tasks: [{
+				id: "02A8D13462465EA6"
+				type: "checkmark"
+			}]
+			title: "Why process my ore?"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21CFDD8EBE0B7E16"]
+			description: [
+				"&9The steps available in the Steam Age go as follows:&r"
+				""
+				"One Ore (block) &9->&r Two Crushed Ores (Macerator)"
+				""
+				"One Crushed Ore &9->&r One Impure Dust (Hammer)"
+				""
+				"One Impure Dust &9->&r One Dust (&oIn world crafting explained on the next page&r)"
+				""
+				"One Dust &9->&r One Ingot (Furnace, you should know this one)"
+			]
+			icon: "minecraft:furnace"
+			id: "4A33704406C739B9"
+			tasks: [{
+				id: "2C83DD7D9E8354BF"
+				type: "checkmark"
+			}]
+			title: "How should I go about processing?"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A33704406C739B9"]
+			description: ["A pickaxe or mining hammer enchanted with Hammering, or a GregTech Hammer directly, gives Crushed Ores from breaking Ore blocks, but only at a 1:1 ratio. The Fortune enchantment can increase this ratio to up to 2x with Fortune III, matching the Macerator."]
+			icon: {
+				Count: 1b
+				id: "gtceu:iron_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3ED1A3C91E61A743"
+			tasks: [{
+				id: "381606975644082E"
+				type: "checkmark"
+			}]
+			title: "Screw processing, I have a hammer"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3ED1A3C91E61A743"]
+			description: ["The rule bends for ores giving more than two dusts (such as Redstone), and for dusts that cannot be smelted (redstone... again!). However, you can still smelt the ore directly to get half the amount you would from the full processing."]
+			icon: "minecraft:redstone"
+			id: "2E76BE047DF1D122"
+			tasks: [{
+				id: "725B270DD71523D4"
+				type: "checkmark"
+			}]
+			title: "Rule Breakers"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E76BE047DF1D122"]
+			description: ["&dJEI does not indicate Impure Dust to Clean Dust conversion&r, so keep that in mind that you can &athrow them into filled cauldrons&r (use full stacks in throws to use less water)."]
+			icon: "minecraft:cauldron"
+			id: "7154673D09A83CE6"
+			tasks: [{
+				id: "553EB70A11F58C0F"
+				type: "checkmark"
+			}]
+			title: "Impure Washing"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7154673D09A83CE6"]
+			description: ["There, take this nice reward for wrapping your head around this beautiful mess!"]
+			icon: "minecraft:diamond"
+			id: "4F46E1D6E1EC1AF1"
+			tasks: [{
+				id: "1D9FB31ABCCC0F2F"
+				type: "checkmark"
+			}]
+			title: "You're an expert now!"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["724FB950CC472BB4"]
+			description: [
+				"What you will &4&lneed&r to automate &6Ore Processing&r on a large scale:"
+				""
+				"&9-&r One or few &3IV Macerators&r (or higher tier)."
+				"&9-&r A few &3Processing Arrays&r (PA), to place your low tier machines inside, &eor&r use the &2Gregicality Multiblocks&r variants."
+				"&9-&r 16 LV &3Thermal Centrifuges&r in a PA (upgradable to 64 with the Advanced PA)."
+				"&9-&r One or a few MV &3Electrolyzers&r, possibly in a PA."
+				"&9-&r A &3Multi Smelter&r."
+				"&9-&r A &3Packager&r of any tier."
+				"&9-&r Inventories acting as a large buffer, such as &3TungstenSteel Crates&r."
+				"&9-&r &3ME Storage Buses&r or a lot of &3Item Pipes&r + &aFilters&r covers, &aOreDict Filters&r and possibly &aSmart Filter&r."
+			]
+			icon: "gtceu:iv_macerator"
+			id: "53F18E5FB7DF495A"
+			tasks: [{
+				id: "2F1660ADE2D388EF"
+				type: "checkmark"
+			}]
+			title: "What's needed?"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["724FB950CC472BB4"]
+			description: [
+				"What you may &eoptionally&r add:"
+				""
+				"&9-&r A few LV &3Ore Washers&r for quick washing purposes."
+				"&9-&r Up to 16 LV &3Ore Washers&r in a PA, accompanied with a set of &3Distilleries&r for &dDistilled Water&r."
+				"&9-&r Up to 16 LV &3Centrifuges&r in a PA, for impure/purified dusts."
+				"&9-&r &3&3Chemical Baths&r for the special Byproducts using &dMercury&r or &dSodium Persulfate&r."
+				"&9-&r &3Sifters&r of any tier (higher tier = better chanced output), for gem ores."
+				"&9-&r &3Electromagnetic Separators&r."
+			]
+			icon: "gtceu:lv_ore_washer"
+			id: "53F38229646F8F5F"
+			tasks: [{
+				id: "4FF2D0ED901A1470"
+				type: "checkmark"
+			}]
+			title: "Optional Additions"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["724FB950CC472BB4"]
+			description: [
+				"Overclocking is not energy efficient, which is why it is generally better to go for low tier machines in passive setups. One could also argue they are cheaper."
+				""
+				"&3Processing Arrays&r make up for the sheer amount of machines you are making. If you wish, you can still use higher tier machines, but the power draw will be bigger."
+				""
+				"If you have &2Gregicality Multiblocks&r, just use those instead."
+			]
+			icon: "gtceu:lv_machine_hull"
+			id: "6AA18111842A6DEC"
+			subtitle: "But I wanna go fast..."
+			tasks: [{
+				id: "1D1E97D3F3752429"
+				type: "checkmark"
+			}]
+			title: "Why &7LV&r Machines?"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["724FB950CC472BB4"]
+			description: [
+				"Yes. Obtaining most Byproducts or getting better yields are completely up to you."
+				""
+				"&3Thermal Centrifuges&r are close to mandatory, as they unlock a &6unique Byproduct&r from the maceration step."
+			]
+			icon: "gtceu:iv_thermal_centrifuge"
+			id: "4ACCF2E25AA67A9E"
+			tasks: [{
+				id: "43352FC6E613CC9D"
+				type: "checkmark"
+			}]
+			title: "Should I go for the optional byproducts?"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["724FB950CC472BB4"]
+			description: [
+				"There are crucial ores and Byproducts to not miss out."
+				""
+				"Chalcopyrite, Chalcocite, Bornite, Tetrahedrite, Pentlandite and Sheldonite ores should all be turned into &dPurified Crushed&r and sent to the &6Platinum Group Metal&r chain."
+				""
+				"Purified Crushed Galena and Sphalerite may be reserved for Indium, until you have the Naquadah chain."
+				""
+				"&aGallium&r, &aChrome&r, &aNiobium&r, &aRare Earths&r, &aGlowstone&r are &6Byproducts&r you want to prioritise (&oif I am missing any, hit us up on Discord and I may add it!&r)."
+			]
+			icon: "gtceu:chalcopyrite_ore"
+			id: "562FC71B18D4ABC8"
+			tasks: [{
+				id: "71AA29BFA1530399"
+				type: "checkmark"
+			}]
+			title: "What ores should I prioritise?"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["724FB950CC472BB4"]
+			description: [
+				"As you may know, automating with AE2 is very powerful."
+				""
+				"&3ME Storage Buses&r can route items effortlessly. They also have a huge whitelist or blacklist configuration. Put them on the &3TungstenSteel Crates&r, to buffer the items... or use a dedicated AE2 network, you choose."
+				""
+				"To combine &aTiny Dusts&r into full &aDusts&r, you will want a &3Storage Bus&r on high priority paired with an &dOre Dict&r filter for &e&ldustTiny*&r. (Or you can reverse this... using a ME OreDict Storage Bus... Up to you!). Note that a few Tiny Dusts are needed for the PBI chain, so you can blacklist them from this if it's your main network."
+			]
+			icon: "ae2:storage_bus"
+			id: "4FF46725A4529902"
+			tasks: [{
+				id: "74BA1EE90A4913D1"
+				type: "checkmark"
+			}]
+			title: "Storage Buses?"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["724FB950CC472BB4"]
+			description: [
+				"For ores that you want to process but don't want the Byproducts as it would take too long in the machines, prioritize filtering them for quick washing."
+				""
+				"The typically \\\"best\\\" path is: Macerator -> Ore Washing -> Thermal Centrifuge -> Macerator. If you deviate from it for various reasons, you will have to set filters &emanually&r."
+			]
+			icon: "minecraft:dirt"
+			id: "0D39EBC7CAF44B44"
+			tasks: [{
+				id: "685CDC1B793E59CA"
+				type: "checkmark"
+			}]
+			title: "What if I can't be bothered?"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["724FB950CC472BB4"]
+			description: [
+				"The &aSmart Filter&r&r can be used for Electrolyzable items (refer back to the \\\"200 IQ Quest\\\" with the Smart Filter), but you may prefer setting up filter &emanually&r for that."
+				""
+				"The &aSmart Filter&r can also be used to be configured to filter &dsiftable Purified Crushed Ores&r."
+			]
+			icon: "gtceu:item_filter"
+			id: "2DEB437DB63CB097"
+			tasks: [{
+				id: "56D9C33A6CE55EAA"
+				type: "checkmark"
+			}]
+			title: "Smart Filtering"
+			x: 10.5d
+			y: 3.0d
+		}
+	]
+	title: "Ore Processing"
+}
