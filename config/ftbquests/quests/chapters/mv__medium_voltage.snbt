@@ -29,16 +29,16 @@
 				""
 				"You will need to take a peek at the &9Distillation&r Quest to get to grips with the power of distillation..."
 				"{@pagebreak}"
-				"There are recipes that can accept &bNitrogen&r to double the speed. This is not quite worth pursuing right now, but Nitrogen will eventually be free and infinite."
+				"There are recipes that can accept &bNitrogen&r to double the speed. This isn't quite worth pursuing right now, but Nitrogen will eventually be free and infinite."
 				""
-				"You should be more than fine with just one &3LV Energy Hatch&r and Superconductors to supply a steady &d64 EU/t&r. Additionally, &3Cupronickel Coils&r are perfect when you're getting used to the Pyrolyse Oven, but you may want to upgrade to &bKanthal&r eventually."
+				"You should be more than fine with a single &3LV Energy Hatch&r, and Superconductors to supply a steady &d64 EU/t&r. Additionally, &3Cupronickel Coils&r are perfect when you're getting used to the Pyrolyse Oven, but you may want to upgrade to &bKanthal&r eventually."
 				""
 				"{@pagebreak}"
 				"&9&lNote:&r&l The Plant path is one path you can take towards &9&lEthylene&r&l, which is a necessary chemical in progressing to HV. The other path involves Oil.&r"
 				""
 				"The Pyrolyse Oven remains &doptional&r. However, it is very rewarding to construct one either for Power, or for the various Byproducts, and we highly recommend you give it a look."
 				""
-				"&bLore:&r In GT5u, the structure for the Pyrolyse Oven was infamously a giant box with only 9 coils inside. Players usually spent several minutes debugging what is wrong due to the lack of JEI preview."
+				"&bLore:&r In GT5u, the structure for the Pyrolyse Oven was infamously a giant box with only 9 coils inside. Players usually spent several minutes debugging what is wrong due to a lack of a JEI preview."
 			]
 			icon: "gtceu:pyrolyse_oven"
 			id: "53DC6E32C41C94C3"
@@ -58,7 +58,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Processing organic products by thermal decomposition in an inert environment!"
+			subtitle: "Thermal Decomposition"
 			tasks: [{
 				id: "0FD2962C232149F8"
 				item: "gtceu:pyrolyse_oven"
@@ -74,13 +74,11 @@
 				"1A29EFBCEA017F99"
 			]
 			description: [
-				"&oDoesn't quite sound industrial enough!&r"
+				"Welcome to the natural Ethylene route! This method uses &9plant matter&r to produce Ethanol."
 				""
-				"Welcome to the natural route to Ethylene!. This method makes use of &9plant matter&r to produce Ethanol."
+				"Before we get ahead of ourselves, &aSugar Cane&r works fine in a &3Brewery&r for a decent yield of Biomass."
 				""
-				"Before I get ahead of myself, &aSugar Cane&r works fine in a &3Brewery&r for a decent yield of Biomass."
-				""
-				"Othe&rrwise, you may go the \"&dPlantball&r into &dBio Chaff&r\" route, and then turn it into Biomass, either in the &3Brewery&r or the &3Pyrolyse Oven&r - the latter being more efficient."
+				"Othe&rrwise, you may go the \"&o&dPlantball into Bio Chaff&r\" route, and then turn it into Biomass, either in the &3Brewery&r or the &3Pyrolyse Oven&r - the latter being more efficient."
 				""
 				"&9Note:&r Only one Bio Chaff can be obtained from maceration&r until the &3HV Macerator&r."
 				"{@pagebreak}"
@@ -89,7 +87,7 @@
 			icon: "gtceu:plant_ball"
 			id: "6EB68C28BEE24DEF"
 			size: 0.75d
-			subtitle: "Turning plant matter into fuel? "
+			subtitle: "Plants aren't industrial enough!"
 			tasks: [{
 				amount: 1000L
 				fluid: "gtceu:biomass"
@@ -103,13 +101,13 @@
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"The Brewery can be used to make &aLubricant&r from &aRedstone&r and &aCreosote&r/&aOil&r."
+				"The Brewery can be used to make &aLubricant&r from &aRedstone&r and &aCreosote&r/&aOil&r. Lubricant has some niche uses, namely being used in the &3Cutter&r to significantly reduce the duration of its recipes."
 				""
-				"Lubricant has some niche uses, but is mostly used in the &3Cutter&r to significantly reduce the duration of its recipes."
+				"The Brewery is a very very slow machine, but it requires almost no power. Building &2many Breweries&r will help you obtain enough Biomass on your quest for plastic."
+				""
+				"&9Note:&r The Brewery \"unlocks\" the Biomass path towards &9Ethylene&r. The same can be done in the &3Pyrolyse Oven&r. The other path involves Oil.&r"
 				"{@pagebreak}"
-				"&9Note:&r The Brewery enables the Biomass path towards &9Ethylene&r. The same can be done in the &3Pyrolyse Oven&r. The other path involves Oil.&r"
-				""
-				"&bLore:&r &oYou can make your own Brewery if you want to build up a company and start selling Booze... Oh, wait. Never mind, that's in GregTech 6.&r"
+				"&bLore:&r &oYou could make your own Brewery if you want to build up a company and start selling Booze... in GregTech 6.&r"
 			]
 			icon: "gtceu:mv_brewery"
 			id: "1A29EFBCEA017F99"
@@ -125,6 +123,7 @@
 					amount: 1000L
 					fluid: "gtceu:lubricant"
 					id: "1C0C8D71AF8C41C2"
+					optional_task: true
 					type: "fluid"
 				}
 			]
@@ -139,9 +138,9 @@
 				"316FF60D6FFE97CE"
 			]
 			description: [
-				"&oCongratulations on making it here!&r"
+				"Our warmest congratulations on making it here."
 				""
-				"The way to obtain &aEthylene&r is described in the previous Quest, depending on the route you chose."
+				"The way you should obtain &aEthylene&r was described in the previous Quest, depending on the route you chose."
 				""
 				"&aEthylene&r will shortly be used in polymer production. It is also useful in a few other reactions."
 			]
@@ -168,9 +167,11 @@
 			description: [
 				"Put your previously made &aBiomass&r into a &3MV Distillery&r to make &aEthanol&r."
 				""
-				"You will need this for &dEthylene&r by reacting it with &aSulfuric Acid&r in a &3MV Chemical Reactor&r... unless you chose the Oil path."
+				"You will need this for &dEthylene&r by reacting it with &aSulfuric Acid&r in a &3MV Chemical Reactor&r... unless you chose to go down the Oil path."
 				""
-				"&cDo not try&r to use Ethanol as a Power source... it's quite possibly its worst use. If you want organic based &9Power&r, I suggest &dBenzene&r instead!"
+				"Once you have a hefty starting stock of Ethanol, consider making and distilling &9Fermented Biomass&r in a &3Distillation Tower&r (when you get there!) for extra chemicals."
+				""
+				"&cDo not try&r to use Ethanol as a Power source... it's quite possibly its worst use. If you want organic based &9Power&r, we suggest taking a look at &dBenzene&r instead!"
 			]
 			id: "5D9D01EF219A31C5"
 			size: 0.75d
@@ -188,8 +189,6 @@
 		{
 			dependencies: ["6A304E453D74C57C"]
 			description: [
-				"&oIf you didn't... get on it, pronto!&r"
-				""
 				"Distillating &aOil&r will give you Fuel that you will need to desulfurize."
 				""
 				"&aHydrogen Sulfide&r is perfectly &drecycled&r in an &3Electrolyzer&r."
@@ -201,7 +200,6 @@
 			icon: "gtceu:naphtha_bucket"
 			id: "6238B2A7ED1BE5A1"
 			size: 0.75d
-			subtitle: "If you read the previous Quest, this shouldn't be too bad."
 			tasks: [
 				{
 					amount: 1000L
@@ -223,20 +221,20 @@
 		{
 			dependencies: ["6238B2A7ED1BE5A1"]
 			description: [
-				"&oDon't fret! It's mostly done to get hydrocarbons.&r"
+				"Don't fret! It's mostly done to get hydrocarbons."
 				""
 				"There are many ways to acquire &dEthylene&r from Oil processing. It's easy to get lost in all the options and recipes!"
 				""
 				"The best way is to steam-crack &aNaphtha&r in a &3Chemical Reactor&r. Be sure to make the &aSeverely Steam-Cracked&r version for a higher yield of Ethylene."
 				"{@pagebreak}"
-				"Once in the &6HV&r Age, you will have the option to do this recipe in the &3Cracking Unit&r at 100% efficiency. The recipes you are doing with the Chemical Reactor have an unfortunate loss of &450%&r!"
+				"Once in the &6HV&r Age, you will have the option to do this recipe in the &3Cracking Unit&r at 100% efficiency. The recipes you are doing with the Chemical Reactor unfortunately have a loss of &450%&r."
 				""
-				"&9Note:&r All of this looks and feels terribly inefficient - I hope that's strong motivation to tier up! The tantalizing &3Distillation Tower&r process for Oil products is sadly not available... yet. You will have to use a &3Distillery&r to get &dEthylene&r."
+				"&9Note:&r All of this looks and feels terribly inefficient - I hope that's strong motivation to tier up! The &3Distillation Tower&r will be a huge upgrade for petrochem, but you're not quite there... yet. Right now, you'll have to use a &3Distillery&r to get &dEthylene&r."
 			]
 			icon: "gtceu:severely_steam_cracked_naphtha_bucket"
 			id: "3E2E161F8CE35138"
 			size: 0.75d
-			subtitle: "Fuel and Oil cracking can get complicated..."
+			subtitle: "Fuel and oil cracking can get complicated..."
 			tasks: [{
 				amount: 1000L
 				fluid: "gtceu:severely_steam_cracked_naphtha"
@@ -251,11 +249,18 @@
 			dependencies: [
 				"0DBC148D92A9F69F"
 				"7567E885B7166603"
+				"6E186F9C57155BFA"
 			]
 			description: [
-				"Higher-tier Generators will increase their fuel consumption proportionally to their Generation rate, keeping the duration of fuels and the specific amount of energy from fuels the same. The &3Advanced Steam Turbine&r will use &d5,120 mB Steam&r per second, equivalent to &d256 mB/t&r.\\n\\nGet &eany&r of the generators to complete this quest, but you may prefer starting off with the &3Advanced Steam Turbine&r.\\n\\nThere are a few new power options available for the &9&bMV&r age. Selecting the Generators and pressing &4U&r will let you see which fuels count as &aCombustion&r or &aGas&r."
+				"Higher-tier Generators will increase their fuel consumption proportionally to their Generation rate, keeping the duration of fuels and the specific amount of energy from fuels the same. The &3Advanced Steam Turbine&r will use &d5,120 mB Steam&r per second, equivalent to &d256 mB/t&r."
 				""
-				"Quests in the top left corner of this Chapter are for the valuable Power options.\\n\\nIf you stick to &9Steam&r Power generation, you will probably need a &3Large Boiler&r."
+				"Get &eany&r of the generators to complete this quest, but you may prefer starting off with the &3Advanced Steam Turbine&r."
+				"{@pagebreak}"
+				"There are a few new power options available for the &9&bMV&r age. Selecting the Generators and pressing &4U&r will let you see which fuels count as &aCombustion&r or &aGas&r."
+				""
+				"Quests in the top left corner of this Chapter are for the valuable Power options."
+				""
+				"If you stick to &9Steam&r Power generation, you will probably need a &3Large Boiler&r."
 			]
 			icon: "gtceu:mv_steam_turbine"
 			id: "583D0CC4FAA4FC98"
@@ -277,7 +282,7 @@
 					type: "item"
 				}
 			]
-			title: "Actual MV Power Generation"
+			title: "Electricity Generation in MV"
 			x: 1.125d
 			y: -0.75d
 		}
@@ -287,11 +292,11 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"&oThe concepts presented are for the curious players. Don't read past the TL;DR if you are not interested.&r"
+				"This Quest will go into the Energy mechanics in more detail. If you have a basic understanding of electricity in &ereal life&r, the GT EU system is not too different!"
 				""
 				"&6&lTL;DR:&r For your safety, match the &2Voltage&r of every Consumer and Producer, unless you really, REALLY like &cfireworks&r..."
 				""
-				"This Quest will go into the Energy mechanics in more detail. If you have a basic understanding of electricity in &ereal life&r, the GT EU system is not too different!"
+				"&6This quest unlocks a new tutorial in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
 			]
 			icon: "minecraft:tnt"
 			id: "6A844F93292A01DC"
@@ -299,6 +304,7 @@
 			subtitle: "Electricity For The Modern Minecrafter"
 			tasks: [{
 				id: "4932FC4DDDDAD647"
+				title: "No machine explosions under MY watch."
 				type: "checkmark"
 			}]
 			title: "Voltage and more Energy Concepts"
@@ -308,7 +314,7 @@
 		{
 			dependencies: ["2AD44111B9B39C90"]
 			description: [
-				"Any Steel you may encounter in everyday's life is most likely &7Stainless Steel&r. It is extremely resilient against corrosion.&r"
+				"Any Steel you encounter in day-to-day life is most likely &7Stainless Steel&r. It is extremely resilient against corrosion.&r"
 				""
 				"Stainless Steel is the material for &6HV&r components, like Aluminium for &bMV&r and Steel for &7LV&r. It is also used in high quantities for the &3Distillation Tower&r."
 				""
@@ -316,7 +322,7 @@
 				"{@pagebreak}"
 				"Smelting Stainless Steel requires &dHV Power&r, which I highly doubt you have at this point. Scaling Power Production is crucial!"
 				""
-				"If you &9haven't already&r, it would be a good idea to get a second EBF going. They can share blocks, so that is only a &a10 Cupronickel Coil&r requirement instead of 16."
+				"If you &9haven't already&r, it would be a good idea to get a second EBF going. They can share blocks, so that means your second EBF only requires &a10 Cupronickel Coils&r instead of 16."
 				""
 				"Have one EBF run off MV for Aluminium and any other recipes requiring MV Power, and one running off HV with &32 MV Energy Hatches&r."
 			]
@@ -324,7 +330,7 @@
 			id: "16A6AE5C770DB83A"
 			shape: "gear"
 			size: 1.5d
-			subtitle: "On the way to HV"
+			subtitle: "HV is in your grasp"
 			tasks: [{
 				id: "3192FF80FBDC7A28"
 				item: "gtceu:stainless_steel_ingot"
@@ -337,11 +343,13 @@
 		{
 			dependencies: ["6A844F93292A01DC"]
 			description: [
-				"Why is every machine duplicated across tiers? Because you might want them for overclocking!"
+				"Why does every machine have a million variants across each tier? Well, overclocking is one reason!"
 				""
-				"Overclocking is a mechanic that happens when you try to run a recipe in a machine &dthat is higher tier than the recipe itself.&r"
+				"Overclocking is a mechanic that happens when you try to run a recipe in a machine &dthat is higher tier than the recipe itself.&r The recipe will use an increased amount of energy, but the recipe time will be cut based on how many tiers you're overclocking by."
+				""
+				"&6This quest unlocks a new tutorial in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
 				"{@pagebreak}"
-				"&bLore:&r GTCE overclocking was extremely awkward... if the recipe consumed 16EU/t or below, it would do a classic overclock. However if the recipe consumed more than 16EU/t, every Overclock would be 2.8x faster! GTCEu has a config to select the Overclock speed bonus."
+				"&bLore:&r GTCE overclocking was extremely awkward. If the recipe consumed 16EU/t or below, it would do a classic 2.0x overclock. However if the recipe consumed more than 16EU/t, every Overclock would be 2.8x faster! GTCEu has a config to select the Overclock speed bonus."
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:clock"
@@ -349,6 +357,7 @@
 			shape: "square"
 			tasks: [{
 				id: "030D3F930CB06A26"
+				title: "My machines are feeling the need for speed."
 				type: "checkmark"
 			}]
 			title: "Overclocking"
@@ -361,9 +370,9 @@
 				"25BFD5598A82C056"
 			]
 			description: [
-				"&3Transformers&r allow you to step up and down Voltage tiers safely. They change the power they receive into an equivalent amount of power 1 voltage tier above or below the input voltage."
+				"&3Transformers&r allow you to step up and down safely between Voltage tiers. They convert the power they receive into an equivalent amount of power 1 voltage tier above or below the input voltage."
 				""
-				"Apart from running machines on different voltage tiers, Transformers come in handy for transporting power across longer distances, as cable loss has less of an effect at higher voltages."
+				"Apart from running machines on different voltage tiers, Transformers come in handy for transporting power across longer distances, as cable loss has less of an effect at higher voltages. Just like real life!"
 				"{@pagebreak}"
 				"Transformers have 5 low voltage sides, and 1 high voltage side."
 				""
@@ -394,7 +403,7 @@
 			icon: "gtceu:mv_mixer"
 			id: "4A92AFD2532EED26"
 			shape: "square"
-			subtitle: "More complex alloys require higher Tier machines to mix dusts together"
+			subtitle: "Mixing more complex alloys"
 			tasks: [{
 				id: "31B514C75B302F25"
 				item: "gtceu:mv_mixer"
@@ -407,11 +416,9 @@
 		{
 			dependencies: ["7567E885B7166603"]
 			description: [
-				"&oThey're back, and stronger!&r"
+				"Here's a list of the components you will need in the &bMV&r Age. To alleviate the pain, be sure to autocraft or &dbulk-craft&r these parts, especially &aMotors&r."
 				""
-				"Here is a list of the components you will need in the &bMV&r Age. To alleviate the pain, be sure to autocraft or &dbulk-craft&r these parts, especially &aMotors&r."
-				""
-				"Note the appearance of the &aEmitter&r? This one requires a &dFlawless Emerald&r which will be only attainable with the &3Sifting Machine&r for now."
+				"Familiar with the &aEmitter&r? This tier's Emitter requires a &dFlawless Emerald&r in its recipe which will be only attainable with the &3Sifting Machine&r for now."
 				""
 				"Conveyors, Pumps and Robot Arms are objective upgrades to &7LV&r versions if you use them as covers."
 			]
@@ -460,15 +467,11 @@
 				"7567E885B7166603"
 				"0DBC148D92A9F69F"
 			]
-			description: [
-				"&oIt told you that you had to wait until MV and, well... here we are.&r"
-				""
-				"The Advanced Electrolyzer allows you to decompose &6all&r Dusts. This will make getting materials such as &aAluminium&r&o a lot easier!"
-			]
+			description: ["The Advanced Electrolyzer allows you to decompose &6all&r Dusts. This will make getting materials such as &aAluminium&r&o a lot easier!"]
 			icon: "gtceu:mv_electrolyzer"
 			id: "0EFEE489906256AA"
 			shape: "square"
-			subtitle: "Remember the Ore Processing Quest referencing the Electrolyzer?"
+			subtitle: "We made it to MV, and, well..."
 			tasks: [{
 				id: "151788F66BAD5F97"
 				item: "gtceu:mv_electrolyzer"
@@ -481,13 +484,13 @@
 		{
 			dependencies: ["0EFEE489906256AA"]
 			description: [
-				"All four output Dusts are great."
+				"All four output Dusts obtained from Clay electrolysis are immensely useful."
 				""
 				"You will need &a&ra total of &a416 Clay Dust&r for this quest. You may also want to look into other sources of similar materials, such as &aSodalite&r. Check JEI for some ideas."
 				""
 				"You should use Sodium and/or Lithium to make some &6MV Batteries&r."
 				""
-				"Grr, all this useless &dWater&r you are getting... you could deal with it by using a &3Voiding Cover&r."
+				"Grr, all this useless &dWater&r you're getting keeps clogging the machine! You could deal with it by using a &3Voiding Cover&r."
 			]
 			icon: "minecraft:clay_ball"
 			id: "2273DD7E5CD49017"
@@ -530,63 +533,22 @@
 			y: 2.625d
 		}
 		{
-			dependencies: ["0EFEE489906256AA"]
-			description: [
-				"The &9Smart Item Filter&r is a filter based on Recipe Maps. Placed on the side of a machine, this Filter can be selected to \"&3Electrolyzer&r\" to allow insertion of electrolyzable Items specifically."
-				"No need to filter manually!"
-				"{@pagebreak}"
-				"It gets better. If combined with a &aRobot Arm&r, it will automatically supply the &6&6exact amount&r of items to the machine that correspond to the desired recipe."
-				""
-				"Place the &aRobot Arm&r on your Electrolyzer, open and it place the &9smart filter&r inside its GUI."
-				""
-				"Next, configure it to &d&lImport&r and &d&lSupply Exact&r."
-				""
-				"Finally, attach any inventory (a chest will do) on the side where you placed the &aRobot Arm&r."
-				""
-				"TADAA! You have made automatic smart insertion that will handle &6all&r Electrolyzer recipes!"
-				"{@pagebreak}"
-				"&9Note:&r The Robot Arm has to facilitate the Item transferral itself for its functionality to work! Inserting directly into the machine will ignore the Robot Arm's &dSupply Exact&r."
-				""
-				"As for the output of the &3Electrolyzer&r, you may want to route the Fluids to several Tanks, or even &3Super Tanks&r. I highly recommend &cto not void&r the Fluids, except for Water (for obvious reasons)."
-			]
-			icon: "gtceu:item_filter"
-			id: "458CD005DE30B88A"
-			size: 0.75d
-			subtitle: "This quest acts as a brief tutorial to help with automation of the Electrolyser!"
-			tasks: [{
-				id: "25E25D1955A2D60C"
-				item: "gtceu:item_filter"
-				type: "item"
-			}]
-			title: "200IQ"
-			x: -1.125d
-			y: 3.75d
-		}
-		{
 			dependencies: [
 				"7567E885B7166603"
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"&5Player:&r &oBah... I can't stand mining! I want to batch some &bMV&r Pistons!&r"
-				""
-				"&5Writer:&r &oHuh? I gave you Mining Hammers, and you're still complaining?!&r"
-				""
-				"&5Player:&r &oI. Hate. Mining!&r"
-				""
-				"&5Writer:&r &oFine! I guess we do have a solution for you! Say hello to the &3&oMiner&r&o, &myou lazybones&r."
-				""
 				"This kind soul&r will mine ores for you when placed above a vein."
 				""
-				"Vertical range is unlimited. Horizontal range is written on the tooltip."
+				"Vertical range is unlimited below the miner. Horizontal range is displayed in the tooltip."
 				""
 				"The &bMV&r variant may not have the range to mine a full vein, but the &6HV&r variant does, so you may wish hold off for now. Get &eeither&r to complete this Quest."
 				"{@pagebreak}"
 				"You will need &9Power&r. &aCharged Batteries&r may work but they may also run out which is a bit inconvenient."
 				""
-				"My top suggestion is to use a filled &3Drum&r of some kind of fuel (if you are using Steam, out of luck!) and a &3Generator&r. "
+				"My top suggestion is to use a filled &3Drum&r of some kind of fuel (if you are using Steam, no dice!) and a &3Generator&r. "
 				""
-				"Place the Drum above your Generator and right-click it with a &5Screwdriver&r to auto-output into the Generator. &oYou had forgotten about that feature didn't you?&r"
+				"Place the Drum above your Generator and right-click it with a &5Screwdriver&r to auto-output into the Generator."
 				"{@pagebreak}"
 				"&cNote:&r Do not forget to &dchunkload&r all 9 chunks of the ore vein with FTB Utilities (open the map in the top left corner, claim the chunks with left-click, and enable force loading with shift-left-click)."
 				""
@@ -630,9 +592,9 @@
 		{
 			dependencies: ["4A92AFD2532EED26"]
 			description: [
-				"&o...such as &1Blue&r&o Steel, &4Red&r&o Steel, &0Black&r&o Steel... the list goes on.&r"
-				""
 				"Vanadiumsteel is required in small quantities in progression. It is &6nearly four times as durable&r as Steel if used in GregTech tools. The Vanadium comes from &aVanadium Magnetite&r, which you may have encountered in Magnetite veins."
+				""
+				"Other Steel alloys include Blue Steel, Red Steel, and Black Steel!"
 				""
 				"Take some Blue Steel free of charge - it's twice as durable as Steel."
 			]
@@ -641,12 +603,11 @@
 			rewards: [{
 				count: 16
 				id: "2000E0E550142D12"
-				item: "gtceu:blue_alloy_ingot"
+				item: "gtceu:blue_steel_ingot"
 				type: "item"
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Steel can form a lot of alloys..."
 			tasks: [{
 				count: 4L
 				id: "2E6C71CB2E5EEAC7"
@@ -670,6 +631,7 @@
 				"Using higher-tier materials in crafting will yield more Molecular Assemblers."
 				"{@pagebreak}"
 				"&cWarning:&r Try to avoid using GT tools in AE2 autocrafting! It causes AE2 to freak out... you may or may not destroy the TPS, or even worse, end up having thousands of tools being crafted as soon as one of them breaks."
+				""
 				"If you're stubborn enough to &oreally&r want to use GT tools in AE2 autocrafting, prioritise encoding recipes that use tools with high durability, but &4do not&r setup autocrafting for the tools themselves. Instead, use the alternate &3Assembling Machine&r recipes."
 			]
 			icon: "ae2:molecular_assembler"
@@ -692,7 +654,7 @@
 				""
 				"AE2 &9Printed Circuits&r are now made in the &3Forming Press&r."
 				""
-				"Look in the &e&dAE2 quest tab&r for more details on how to use each piece (once it's done)."
+				"Look in the &e&dAE2 quest tab&r for more details on how to use each piece."
 			]
 			icon: "ae2:silicon_press"
 			id: "5401AB5E399E7BEA"
@@ -729,7 +691,7 @@
 			description: [
 				"The &bMV &3Cutter&r is required to cut &7Silicon Boules&r to prepare them for &aLaser Engraving&r."
 				""
-				"I recommend you run this machine with &dLubricant&r to cut down on the processing time."
+				"We recommend you supply this machine with a steady stream of &dLubricant&r to cut down on the processing time."
 				""
 				"Lubricant can be &3brewed&r from &eOil&r and &aTalc&r, &2Soapstone&r or &cRedstone&r."
 			]
@@ -750,7 +712,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			subtitle: "More upgrades..!"
+			subtitle: "Upgrades, people, upgrades!"
 			tasks: [{
 				id: "2AFB7F9BD4D82974"
 				item: "gtceu:mv_cutter"
@@ -818,7 +780,9 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"The &3Assembler&r is a staple for every Tier; an important goal to unlock more recipes and progress further into the Age."
+				"The &3Assembler&r is a staple for every Tier; an important goal to unlock more recipes and progress further into the Age. Many in the community see crafting a voltage tier's Assembler as a sign of properly reaching said voltage."
+				""
+				"That being said, welcome to &bMV&r!"
 				""
 				"The &bMV &3Assembler&r unlocks &eTransistors&r, &eCapacitors&r and &eInductors&r, used for the next tiers of Circuits."
 			]
@@ -840,20 +804,21 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"&oGregTech cannot yet provide ways to farm plants or trees, so here we come with a custom multiblock for the modpack!&r"
+				"GregTech doesn't provide ways to farm plants or trees, so we made a custom multiblock for the modpack!"
 				""
-				"The multiblock &3Greenhouse&r will be your source of &aWood&r, and other plants if you wish."
+				"The multiblock &3Greenhouse&r will be your source of &aWood&r and other plants if you wish."
 				""
-				"The &aWood&r production is enough to keep running &32 Pyrolyse Ovens&r at their lowest Power."
-				"You can also use this for automated &aResin&r. The yields are kept low to incentivize other rubber sources, later in the game."
+				"The &aWood&r production should be enough to run &32 Pyrolyse Ovens&r at their lowest Power."
 				""
-				"At &d40EU/t&r, it can run off a single LV Energy Hatch."
+				"You can also use this for automated &aResin&r. The yields are kept low to incentivize other rubber sources later in the game."
+				"{@pagebreak}"
+				"&9Note: &rWith &d40EU/t&r recipes, it needs either 1 &bMV&r energy hatch or 2 LV energy hatches. Multiblocks will &cnot&r use 2A of one tier to reach the next one for recipe voltage minimums. "
+				""
+				"In other words, the controller needs to say at least \"&bMV&r\" in the gui to run recipes which say \"&bMV&r\" in JEI, even if they can draw enough EU/t with a lower tier hatch configuration."
 				""
 				"&9Note:&r The structure requires a lot of &9Wrought Iron&r. Make sure you have an &3Arc Furnace&r for that."
-				""
-				""
-				"&bLore:&r We originally implemented a Chemical Reactor recipe for wood in the modpack to give options to the players. However they turned out to be completely busted, so we decided that a rebalance was due. I wonder if that's still busted? Probably less than the Fluid Rig!"
-				"Special thanks to the MBT dev for releasing a version that is working with GTCEu."
+				"{@pagebreak}"
+				"&bLore:&r We originally implemented a Chemical Reactor recipe for wood in the modpack to solve the tree problem. Our implementation turned out to be completely busted, so we decided that a rebalance was due. Hopefully, the Greenhouse is a happy middle ground!"
 			]
 			icon: "minecraft:oak_sapling"
 			id: "2655B72C9FF3B372"
@@ -887,9 +852,9 @@
 				"66805BB78A828C00"
 			]
 			description: [
-				"&3Kanthal Heating Coils&r are the next major step in progression. This increases the temperature of your &3Blast Furnace&r to &d2,700K&r, allowing you to process new materials. They may also &eaccelerate&r less hot recipes - check the quest above for details."
+				"&3Kanthal Heating Coils&r are the next major step in progression. They increase the temperature of your &3Blast Furnace&r to &d2,700K&r, allowing you to process new materials. They may also &eaccelerate&r less hot recipes - check the quest to the top-left for details."
 				""
-				"You will need a staggering &a128 Ingots&r for a full set of Coils, which will easily take over an hour. We advise that you move on to other projects while your &3EBF&r is hard at work."
+				"You will need a staggering &a128 Ingots&r for a full set of Coils, which will easily take over an hour. We advise that you move on to other projects while your &3EBF&r is hard at work - that or build another one!"
 				""
 				"An &3MV Chemical Bath&r is required to cool &cHot Ingots&r down. They're &chot&r when held, as the name implies. &oMaybe you should save your hands and automate this...&r"
 				""
@@ -912,7 +877,9 @@
 		{
 			dependencies: ["1C55AE6AD5BDE304"]
 			description: [
-				"The &3Electric Blast Furnace&r, &3Pyrolyse Oven, &b&aMulti Smelter&r, and &3Cracking Unit&r all require heating Coils. But why should you bother upgrading to higher tiers of Coil?"
+				"The &3Electric Blast Furnace&r, &3Pyrolyse Oven, &b&aMulti Smelter&r, and &3Cracking Unit&r all require Heating Coils. But why should you bother upgrading to higher tiers of Coil?"
+				""
+				"&6This quest unlocks a new tutorial in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
 				""
 				"Coil progression can be viewed in the Milestones tab."
 			]
@@ -923,6 +890,7 @@
 			subtitle: "Coils For The Modern Minecrafter"
 			tasks: [{
 				id: "0A1CE64966A6D2FE"
+				title: "I was getting tired of Cupronickel anyway."
 				type: "checkmark"
 			}]
 			title: "Coils Behaviour"
@@ -932,11 +900,11 @@
 		{
 			dependencies: ["1C55AE6AD5BDE304"]
 			description: [
-				"&oThis is a guide on how to automatically route &lall&r&o your Hot Ingots to your Chemical Bath, while keeping everything automated in tip-top shape.&r"
+				"This is a guide on how to automatically route &lall&r&o your Hot Ingots to your Chemical Bath, while keeping everything automated in tip-top shape."
 				""
-				"The cheap way would be to use filters, and manually add Hot Ingots one by one... which is so boring! Let's do something much better."
+				"The cheap way would be to use filters, and manually add Hot Ingots one by one... which is so boring! Let's try the fun option."
 				""
-				"Install an &aItem Tag Filter&r Cover on the side of your &3Chemical Bath&r, open it and set it to whitelist &e&lingots/hot&r."
+				"Install an &aItem Tag Filter&r Cover on the side of your &3Chemical Bath&r, open it and set it to whitelist \"&e&lingots/hot&r\"."
 				""
 				"From here, you can route with &9any logistics system&r of your choice."
 				"{@pagebreak}"
@@ -945,7 +913,7 @@
 				""
 				"&l&9Note:&r If you wish to know more tags for more automation setups, they will display if you press Shift when hovering over an item. For instance, an item tagged with &e&o#forge:plates/copper&r would be filtered as &e&lplates/copper&r."
 				""
-				"&9Other Note:&r The Ore Dictionary Filter partially supports &dregex&r. Hover over the info icon for more information."
+				"&9Other Note:&r The Item Tag Filter partially supports &dregex&r. Hover over the info icon for more information."
 			]
 			icon: "gtceu:item_tag_filter"
 			id: "13A976D0D612BC84"
@@ -986,14 +954,13 @@
 				"1E7BF65DB32B8B3E"
 			]
 			description: [
-				"&oAlright... technically, obtaining HV Circuits and Stainless Steel lets you progress to HV... but let's not rush things.&r"
+				"Alright... technically, obtaining HV Circuits and Stainless Steel lets you progress to HV - but let's not rush things."
 				""
 				"The first thing you should make with these is a &3MV Circuit Assembler&r to unlock the new tier of Circuits right away; cheaper recipes is the &dreal payoff&r here."
 			]
 			icon: "gtceu:advanced_integrated_circuit"
 			id: "26394C1290D70AB6"
 			shape: "square"
-			size: 0.75d
 			subtitle: "...but hold on before getting too giddy"
 			tasks: [{
 				id: "75EB5730046212D0"
@@ -1006,12 +973,12 @@
 		}
 		{
 			dependencies: ["315169840E06110F"]
-			description: ["&a&lRandom Access Memory&r is required for more advanced Electronic Components."]
+			description: ["&aRandom Access Memory&r is required for more advanced Electronic Components."]
 			icon: "gtceu:ram_chip"
 			id: "1E7BF65DB32B8B3E"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Harder, Better, Faster, Stronger"
+			subtitle: "Random Access Memories"
 			tasks: [
 				{
 					id: "40E0E6FD45AEC7B1"
@@ -1039,9 +1006,9 @@
 			description: [
 				"The Integrated Logic Circuit is an alternate &7LV &aCircuit&r, which is easier to mass-produce, and can be upgraded to &bMV&r (and then &6HV&r)."
 				""
-				"&9Note:&r This is not a strict upgrade to the cost of Circuits - you would need to get to the next Tier for that, just slightly further down in the MV Age. Why would you need this Circuit type, then? You need it to get to &6HV circuits&r."
-				""
-				"&bLore:&r The circuit progression in GTCEu is mostly based on GT5u's progression. It has been rebalanced to not be as painful. &lSpecifically&r this circuit tier, which was a complete bait!"
+				"&9Note:&r This is not a strict upgrade to the cost of Circuits - you would need to get to the next Tier for that, just slightly further down in the MV Age. It is still an important upgrade, and is required to get to &6HV circuits&r."
+				"{@pagebreak}"
+				"&bLore:&r The circuit progression in GTCEu is mostly based on GT5u's progression. It has been rebalanced to not be as painful. &lSpecifically&r this circuit tier, which was a trap!"
 			]
 			icon: "gtceu:basic_integrated_circuit"
 			id: "5C17BF90DA2AAEEE"
@@ -1079,19 +1046,21 @@
 				"1E9BE8D3F8A602DC"
 			]
 			description: [
-				"&9Silicon Boules&r are made in the &3EBF&r with half a stack of &aSilicon Dust&r and a pinch of &aGallium Arsenide&r."
+				"&9Silicon Boules&r are made in the &3EBF&r with half a stack of &aSilicon Dust&r and a pinch of &aGallium Arsenide&r. Their primary purpose is engraving &6Circuit Wafers&r."
 				""
 				"After making the Boule, process it in the &3Cutter&r to get 16 Silicon Wafers ready for engraving."
 				""
 				"The recommended &aSilicon&r source at this point would be... hm, either &dGlass Dust&r or &dSodalite&r."
 				""
-				"&cWarning:&r Each Silicon Boule takes &47.5 minutes&r to make at 120 EU/t, or 1,080,000 EU! If the EBF loses power midway, the recipe will start to &close progress&r. Be sure you have enough power before starting."
+				"&cWarning:&r Each Silicon Boule takes &47.5 minutes&r to make at 120 EU/t, or 1,080,000 EU! If the EBF loses power midway, the recipe will start to &close progress&r."
+				""
+				"With that being said, Silicon Boules take an absolute age to craft, so consider parallelizing the recipe in multiple &3EBF&rs and stockpiling them."
 			]
 			icon: "gtceu:silicon_boule"
 			id: "71412502C81F21C1"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Just joking, these wafers are fully fungible"
+			subtitle: "These wafers are fully fungible"
 			tasks: [
 				{
 					id: "1A18D503A429CC17"
@@ -1112,9 +1081,7 @@
 		{
 			dependencies: ["26394C1290D70AB6"]
 			description: [
-				"&o...I hope you get the gist of it and don't need much more explained.&r"
-				""
-				"As is common for every tier, the &3Circuit Assembler&r is an essential part of Progression, always opening up a new Tier of circuits."
+				"As is common for every tier, the &3Circuit Assembler&r is an essential part of progression, always opening up a new Tier of circuits."
 				""
 				"At this point you should be placing an &3Extractor&r next to your Circuit Assembler. Send off dozens of stacks of &aSoldering Alloy&r Ingots, and you won't have to worry about refilling again."
 			]
@@ -1127,7 +1094,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			subtitle: "I'm running out of things to say on these quests..."
+			subtitle: "Yippee, yahoo"
 			tasks: [{
 				id: "7ED7103DAF7E4413"
 				item: "gtceu:mv_circuit_assembler"
@@ -1142,7 +1109,7 @@
 			description: [
 				"At its lowest power (Cupronickel coils and LV Voltage), the &dMulti Smelter&r smelts 32 items in just 12 seconds - equivalent to &926.7 Furnaces&r, or 3.3 Steam Ovens!"
 				""
-				"If that wasn't good enough, standard &aoverclocks&r are in effect."
+				"If that wasn't good enough, standard &aoverclocks&r can be applied with sufficient voltage."
 				""
 				"And even better - higher tier &3Coils&r increase the amount of items it can smelt in &dparallel&r!"
 			]
@@ -1166,9 +1133,11 @@
 				"0DE5C3FBC9A6A690"
 			]
 			description: [
-				"&6The best LV Circuits&r! You will be making these for the remainder of the game."
+				"&6The best LV Circuits&r! You can start to churn these guys out, as you'll be making them for the rest of the game."
 				""
-				"Reaching the &5EV&r Age will make them even cheaper."
+				"Try to keep a stockpile of these crafted at all times - making these on-demand can take a while."
+				""
+				"Reaching the &5EV&r Age will unlock methods to make them even cheaper."
 			]
 			icon: "gtceu:microchip_processor"
 			id: "5E76D4C24026157D"
@@ -1217,7 +1186,6 @@
 			icon: "gtceu:micro_processor_computer"
 			id: "4AFD3073C731A1E4"
 			shape: "square"
-			size: 0.75d
 			subtitle: "Your first EV Circuit gets a unique texture"
 			tasks: [{
 				id: "34EA9B71F8BF607F"
@@ -1234,7 +1202,7 @@
 				"3DFFA8F91452C62A"
 			]
 			description: [
-				"Better HV Circuits, much &6cheaper&r and easier to make than before."
+				"Better HV Circuits - much &6cheaper&r and easier to make than before."
 				""
 				"&6You should now be ready to move on the HV Chapter&r, unless you're yet to scale up your Power Production."
 			]
@@ -1256,12 +1224,12 @@
 				"375684F9CBEF9132"
 				"10FB27DD3C7BEC2F"
 			]
-			description: ["A circuit component that you can now produce thanks to the &3MV Assembler&r."]
+			description: ["A circuit component that you can now produce thanks to the &3MV Assembler&r!"]
 			icon: "gtceu:capacitor"
 			id: "6E9E15DA847DD0A1"
 			shape: "square"
 			size: 0.75d
-			subtitle: "No cap"
+			subtitle: "No cap, bussin frfr"
 			tasks: [{
 				id: "60D8154F5C9C0EAC"
 				item: "gtceu:capacitor"
@@ -1319,13 +1287,11 @@
 		{
 			dependencies: ["6BB98D128822730E"]
 			description: [
-				"&oIf you want to be less fancy, just call it plastic.&r"
+				"If you want to be less fancy, just call it plastic."
 				""
 				"For the polymerization process, add &aOxygen&r, which gives better returns than Air, then solidify like you would with Rubber."
 				""
-				"&aPolyethylene (PE)&r is the key to unlocking &6many new things&r. It's used mostly as &dSheets&r, or &dFluid&r form."
-				""
-				"&4No spoilers here&r! Let's have you figure out what it does by nosing around the surrounding quests.."
+				"&aPolyethylene (PE)&r is the key to unlocking &6many new things&r. It's commonly used as &dSheets&r, or in &dFluid&r form."
 				""
 				"&bLore:&r The OreDict and fluid name for Polyethylene in 1.12.2 GTCEu was &oplastic&r, for cross-mod compatibility."
 			]
@@ -1366,9 +1332,9 @@
 		{
 			dependencies: ["10FB27DD3C7BEC2F"]
 			description: [
-				"&oNo, but seriously.&r"
+				"No, but seriously."
 				""
-				"This is the &cu&r&6l&r&et&r&ai&r&bm&r&9a&r&5t&r&4e&r portable Fluid storage solution. &64,000 buckets storage&r - in one single block!"
+				"This is the &cu&6l&et&ai&bm&9a&5t&4e&r portable Fluid storage solution. &64,000 buckets of storage&r - in one single block!"
 				""
 				"Like Drums, Super Tanks &6keep their fluids when broken&r, and can be cleared in the crafting grid."
 				""
@@ -1390,7 +1356,7 @@
 		{
 			dependencies: ["10FB27DD3C7BEC2F"]
 			description: [
-				"&aPolyvinyl Chloride (PVC)&r is the 3rd-most produced plastic in real life. Here in GTCEu, it can be substituted for Polyethylene in production of &aPlastic Circuit Boards&r and other items to increase the yield. It is required at &5EV&r tier and above to wrap Cables."
+				"&aPolyvinyl Chloride (PVC)&r is the 3rd-most produced plastic in real life. Here in CEu, it can be substituted for Polyethylene in the production of &aPlastic Circuit Boards&r and other items to increase the yield. It is required at &5EV&r tier and above to wrap Cables."
 				""
 				"PVC item pipes also have the &6highest throughput&r available for a while, but most of your setups right now won't need such speed. Still, it's good to keep this knowledge in your pocket."
 				""
@@ -1416,7 +1382,7 @@
 				"10FB27DD3C7BEC2F"
 			]
 			description: [
-				"At this point, you have all the tools available to make Plastic Boards."
+				"At this point, you have all the tools available to start making Plastic Boards."
 				""
 				"The recipe chains are starting to get pretty long, so I recommend processing large batches in two dedicated &3Chemical Reactors&r."
 			]
@@ -1446,11 +1412,9 @@
 				"3D98819A799D2E64"
 			]
 			description: [
-				"&o...or something like that.&r"
-				""
 				"&aSodium Persulfate&r can be used in &9Ore Processing&r in the &3Chemical Bath&r to get various bonus outputs you would not normally obtain. It is completely optional, but pretty rewarding."
 				""
-				"&lThat's a distraction, however&r - the real topic of this Quest is thus:"
+				"&lWait, stop! That's only a distraction&r - the real topic of this Quest is..."
 				""
 				"&aSodium Persulfate&r and &aIron III Chloride&r are used to make cheaper &9Good Circuit Boards&r, as their inclusion cuts Silver usage by a factor of four."
 				""
@@ -1472,7 +1436,7 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "These acids are used to etch Copper off Circuit Boards..."
+			subtitle: "Let's etch some Copper off Circuit Boards!"
 			tasks: [
 				{
 					amount: 1000L
@@ -1497,24 +1461,21 @@
 				"1A77CA35F054F988"
 			]
 			description: [
-				"&o...so I'll go through the best path for Sulfuric Acid here.&r"
+				"JEI might look a little overwhelming here, so we'll go through the best path for Sulfuric Acid here."
 				""
 				"Making &eSulfuric Acid&r is a three step process. It is used in many important reactions, so you should automate its production ASAP."
 				"{@pagebreak}"
-				"To automate it, you will need &3three LV Chemical Reactors&r. I would recommend building an dedicated setup somewhere with &3a single LV Generator&r to power all three machines. You can then spaghetti the pipes to handle input and output &m...or simply use AE2&r."
+				"To automate it, you will need &3three LV Chemical Reactors&r. We would recommend building a dedicated setup somewhere with &3a single LV Generator&r to power all three machines. You can then spaghetti your pipes to handle input and output &m...or simply use AE2&r."
 				""
 				"&9-&r Step 1: React &aSulfur&r with &bOxygen&r to form &aSulfur Dioxide&r."
 				"&9-&r Step 2: React &aSulfur Dioxide&r with more &bOxygen&r to form &aSulfur Trioxide&r."
 				"&9-&r Step 3: React &aSulfur Trioxide&r with &bWater&r to form &eSulfuric Acid&r."
-				""
-				"Why didn't I just present these steps in the retrieval tasks...? Simply, just so you don't have to make sure to submit every single one of them. Goodness gracious, it would be tedious if &6&levery&r quest were like that!"
 				"{@pagebreak}"
 				"&bLore:&r GregTech 5's Chemical Reactor only had one Fluid slot. To circumvent that, they would do &dcell chemistry&r. The way you would automate Sulfuric Acid was by having one cell travel from machine to machine and then loop back to its starting position. A somewhat fun and interesting automation challenge, but also a chore!"
 			]
 			id: "316FF60D6FFE97CE"
 			shape: "square"
 			size: 0.75d
-			subtitle: "JEI will probably overwhelm you..."
 			tasks: [{
 				amount: 1000L
 				fluid: "gtceu:sulfuric_acid"
@@ -1531,8 +1492,6 @@
 				"3D98819A799D2E64"
 			]
 			description: [
-				"&o...it's in your stomach as part of gastric acid.&r"
-				""
 				"Obtain &9Hydrochloric Acid&r by mixing &aHydrogen&r and &aChlorine&r."
 				""
 				"This acid is also obtained as waste from a lot of reactions involving &aChlorine&r. Depending on your setups, you may never need to produce it directly."
@@ -1542,11 +1501,12 @@
 				"\"&b&oDo not attempt this in real life - it is not only illegal, but also stupidly dangerous&r\"."
 				""
 				"This applies to toying with chemicals. Please don't do it."
+				""
+				"Side note - we can guarantee you have a sample of this with you right now! It's in your stomach as a part of gastric acid."
 			]
 			icon: "gtceu:hydrochloric_acid_bucket"
 			id: "64CACABB48635904"
 			size: 0.75d
-			subtitle: "We can guarantee you have a sample of this with you right now! "
 			tasks: [{
 				amount: 1000L
 				fluid: "gtceu:hydrochloric_acid"
@@ -1573,7 +1533,7 @@
 				"{@pagebreak}"
 				"You have three options for acid storage at around this point: &dGlass Vials&r, &dGold Drums&r, or &dSuper Tanks&r. Glass Vials are like &9Fluid Cells&r, and are made to store acids. Gold Drums are self-explanatory. Super Tanks will be unlocked after &9Polyethylene&r, and can store any fluid without restriction."
 				""
-				"&cWARNING:&r Acids in the wrong pipes will cause &cvoiding&r, &cpipe burning&r, and high rates of &cdeath&r! Be careful!"
+				"&cWARNING:&r Acids in the wrong pipes will cause &cvoiding&r, &cpipe burning&r, and high chance of &cdeath&r! Be careful!"
 				""
 				"&bLore:&r The acid transportation and storage mechanics originate from GregTech 6."
 			]
@@ -1595,11 +1555,11 @@
 				"6D9D54FAB21EC086"
 			]
 			description: [
-				"&bMV&r Batteries will be convenient to buffer Energy, just like it was useful for &7LV&r."
+				"&bMV&r Batteries will be convenient to buffer Energy, just like &7LV&r."
 				""
-				"The cost in &aSodium&r, &aLithium&r or &aCadmium&r bumps to 8 dusts, so you may use whatever you have the most of."
+				"The cost in &aSodium&r, &aLithium&r or &aCadmium&r jumps up to 8 dusts, so you may use whatever you have the most of."
 				""
-				"The difference in storage is not that huge after all..."
+				"The difference in capacity is not that huge after all."
 				""
 				"Get &eeither&r Battery to complete the Quest."
 			]
@@ -1607,24 +1567,19 @@
 			id: "2202AA5DC6DB0A26"
 			shape: "square"
 			size: 0.75d
-			tasks: [
-				{
-					id: "5FEE671A75766B78"
-					item: "gtceu:mv_sodium_battery"
-					task_screen_only: true
-					type: "item"
+			tasks: [{
+				id: "5FEE671A75766B78"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:batteries/mv"
+					}
 				}
-				{
-					id: "0C00EC639C8853AE"
-					item: "gtceu:mv_lithium_battery"
-					type: "item"
-				}
-				{
-					id: "732DE3287CAF7AD7"
-					item: "gtceu:mv_cadmium_battery"
-					type: "item"
-				}
-			]
+				task_screen_only: true
+				title: "Any #forge:batteries/mv"
+				type: "item"
+			}]
 			title: "Better Batteries"
 			x: 4.5d
 			y: -1.875d
@@ -1635,7 +1590,7 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"&oI SINCERELY hope at no point you made the LV Extruder, because only the MV Extruder is actually useful. If you did, immediately recycle it through the Arc Furnace.&r"
+				"We &lSINCERELY&r hope at &cno&r point you made the &7LV&r Extruder, because only the &bMV&r Extruder is actually useful. If you did, immediately &arecycle it&r through the Arc Furnace."
 				""
 				"The Extruder shapes solid materials into (almost!) any form using &aIngots&r. This is a great way to reduce the amount of microcrafting, as well as keeping a high conversion ratio."
 				""
@@ -1673,7 +1628,7 @@
 			description: [
 				"Aluminium Cells are a big upgrade over the Steel Cells or Universal Fluid Cells."
 				""
-				"They can hold any fraction of Fluid - up to &d32 buckets&r"
+				"They can hold any fraction of Fluid - up to &d32 buckets&r!"
 			]
 			icon: "gtceu:aluminium_fluid_cell"
 			id: "53B0D08DB90EC369"
@@ -1693,7 +1648,7 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"It is quite the investment to own a &3Fluid Drilling Rig&r, but it is &oby far&r the most prominent &6source of Oil&r."
+				"It's quite the investment to own a &3Fluid Drilling Rig&r, but it is &oby far&r the most prominent &6source of Oil&r."
 				""
 				"It pumps fluids from underneath Bedrock itself. Note that the fluids aren't actually there, instead being simulated."
 				""
@@ -1724,7 +1679,7 @@
 			icon: "gtceu:mv_fluid_drilling_rig"
 			id: "05ADBAE5B6F38956"
 			shape: "square"
-			subtitle: "Finally, Fluid Drilling Rigs in GTCEu!"
+			subtitle: "Fluid Drilling Rigs in CEu!"
 			tasks: [{
 				id: "3FB527F5B10381D2"
 				item: "gtceu:mv_fluid_drilling_rig"
@@ -1737,19 +1692,17 @@
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"&o...or stumbled across a \"natural\" oil spout?&r"
-				""
-				"Get any kind of &3Pump&r, place it above an Oil spout and Power it!&r Do &cnot&r pump above an Ocean, as there is currently a flaw in the pump's logic, and it will attempt to pull water, resulting in getting the Pump stuck. Sorry!"
+				"Get any kind of &3Pump&r, place it above an Oil spout and power it!&r Do &cnot&r pump above an Ocean, as the pump will attempt to pull water, resulting in getting the pump stuck. Sorry!"
 				"{@pagebreak}"
 				"Each Oil deposit can have between &63,000&r and &69,200&r buckets of Oil, which is a LOT! Refining the Oil&r onsite into either &aLight Fuel&r or &aDiesel&r (or both) is perfectly viable. The next few Quests will explain each type's pros and cons."
 				""
-				"Store any obtained Oil in &3Drums&r, but you would do yourself a favour to use a &3Super Tank&r as soon as you unlock it."
+				"Store any obtained Oil in &3Drums&r, but you would do yourself a favour to use a &3Super Tank&r as soon as you can make them."
 				""
 				"&cWarning: &rDo not forget to &dchunkload&r with FTB Utilities (open the map in the top left corner, claim the chunks with left-click, and enable force loading with shift-left-click)."
 				"{@pagebreak}"
 				"&9&lNote:&r&l The Oil path is one path towards &9&lEthylene&r&l. The other paths involve getting natural with some Ethanol.&r"
 				""
-				"For now, Oil is &doptional&r. But it will become mandatory starting with &5EV&r Age, much later."
+				"For now, Oil is &doptional&r. It becomes mandatory much later when you get to the &5EV&r Age."
 				""
 				"Oil can also be refined in the form of &aLight Fuel&r, &aDiesel&r or even &aGasoline&r, which are excellent power options."
 				""
@@ -1757,7 +1710,7 @@
 				""
 				"Oil spouts are a &6great starting point&r - they will tide you over until you unlock Fluid Drilling Rigs."
 				"{@pagebreak}"
-				"&bLore:&r Oil geysers were originally from Buildcraft. If you played a GregTech 5 modpack &cwithout&r Buildcraft, you needed to use the Fluid Rig and tap randomly to try and get lucky... or wait until HV age, at which prospecting for fluids was available."
+				"&bLore:&r Oil geysers were originally from Buildcraft. If you played a GregTech 5 modpack &cwithout&r Buildcraft, you needed to use the Fluid Rig and tap randomly to try and get lucky, or wait until HV age, at which prospecting for fluids was available."
 			]
 			icon: "gtceu:oil_bucket"
 			id: "0774EC59CD3DD7A5"
@@ -1787,13 +1740,13 @@
 				""
 				"&9&lNote:&r&l The Oil path is one path towards &9&lEthylene&r&l. The other paths involve getting natural with some Ethanol.&r"
 				""
-				"For now, Oil is &doptional&r. But it will become mandatory starting with &5EV&r Age, much later."
+				"For now, Oil is &doptional&r. It becomes mandatory much later when you get to the &5EV&r Age."
 				""
 				"Oil can also be refined in the form of &aLight Fuel&r, &aDiesel&r or even &aGasoline&r, which are excellent power options."
 				""
 				"If you chose this path, you should use it for both Power and Ethylene."
 				""
-				"Oilsands is a &6great starting point&r - they will tide you over until you unlock Fluid Drilling Rigs."
+				"Oilsands are a &6great starting point&r - they will tide you over until you unlock Fluid Drilling Rigs."
 			]
 			icon: "gtceu:oilsands_ore"
 			id: "575B07D390D9D079"
@@ -1836,7 +1789,7 @@
 				"05ADBAE5B6F38956"
 			]
 			description: [
-				"Before we start, here's something to consider if you're aiming to make Ethylene:"
+				"Before we start, here's some important information if you're aiming to make Ethylene:"
 				""
 				"Taking the &aOil&r route will require &oat least&r a &3LV Distillery&r."
 				""
@@ -1844,13 +1797,13 @@
 				""
 				"Get &eeither&r to complete this quest."
 				"{@pagebreak}"
-				"Now, let's discuss a complex topic: &9Distillation&r. This guide will help you understand how and why the &aJEI&r recipes are the way they are, so stick with me!"
+				"Got all that? &6Alright&r! Now, let's discuss a complex topic: &9Distillation&r. This guide will help you understand how and why the &aJEI&r recipes are the way they are, so stick with me!"
 				""
 				"Nearly all the &3Distillery&r recipes are duplicates from the &3Distillation Tower&r, except that they only have one Fluid output, and void everything else."
 				""
 				"In other words, you could argue the &3Distillery&r is an &dinferior&r &3Distillation Tower&r."
 				"{@pagebreak}"
-				"This doesn't mean that the &3Distillery&r is always inferior though. It is unlocked earlier, and it is &dsmaller&r, &dcheaper&r, and &dmore energy efficient&r per recipe."
+				"This doesn't mean that the &3Distillery&r is the worse of the two. It is unlocked earlier, and it is &dsmaller&r, &dcheaper&r, and &dmore energy efficient&r per recipe."
 				""
 				"Hell, in many cases, you won't even mind losing the other Fluids."
 				""
@@ -1882,7 +1835,7 @@
 			description: [
 				"&aRefinery Gas&r, &aLPG&r and &aMethane&r are &9Gas Fuels&r. LPG (Liquid Petroleum Gas) is a mix of hydrocarbons typically used in heating appliances."
 				""
-				"Refinery Gas is obtained either through &dNatural Gas&r or &dLight Oil&r, the latter yielding more yet requiring a distillation step."
+				"Refinery Gas is obtained either through &dNatural Gas&r or &dLight Oil&r, the latter yielding more, yet requiring an extra step of distillation."
 				""
 				"Use of a &3Centrifuge&r to separate into &aLPG&r and &aMethane&r should always be done, as it is practically free."
 				""
@@ -1921,11 +1874,11 @@
 		{
 			dependencies: ["6A304E453D74C57C"]
 			description: [
-				"&aBenzene&r is also a &9Gas Fuel&r. To skip some frustration, let's check out the two best ways to obtain it."
+				"&aBenzene&r is a &9Gas Fuel&r. To skip some frustration, let's check out the two best ways to obtain it."
 				""
-				"This Power option is typically &dWood based&r. Put Logs in the &3Pyrolyse Oven&r for &9Wood Tar&r. The Charcoal you obtain can then be processed in &3Extractors&r for even more &9Wood Tar&r, which you &3distill&r for &aBenzene&r."
+				"The first option is typically &dWood based&r. Put Logs in the &3Pyrolyse Oven&r for &9Wood Tar&r. The Charcoal you obtain can then be processed in &3Extractors&r for even more &9Wood Tar&r, which you &3distill&r for &aBenzene&r."
 				""
-				"This Power option can also be &dHeavy Oil based&r. Put Heavy Oil in a &3Distillery&r for &9Heavy Fuel&r, which you &aseverely steam-crack&r and &3distill&r again for &aBenzene&r."
+				"Your second option is &dHeavy Oil based&r. Put Heavy Oil in a &3Distillery&r for &9Heavy Fuel&r, which you &aseverely steam-crack&r and &3distill&r again for &aBenzene&r."
 				"{@pagebreak}"
 				"For information on how to process Oil, check the Light Fuel and Naphtha Quests."
 				""
@@ -1936,7 +1889,6 @@
 			icon: "gtceu:benzene_bucket"
 			id: "00E1A728E6F6D6A0"
 			size: 0.75d
-			subtitle: "Benzene causes leukemia, even at low concentrations..."
 			tasks: [{
 				amount: 1000L
 				fluid: "gtceu:benzene"
@@ -1956,7 +1908,7 @@
 				""
 				"To automate this process, simply place your &3Chemical Reactor&r and your &3Electrolyzer&r next to each other. Be sure to use your &5Screwdriver&r to &4enable input from the output side&r."
 				""
-				"&aLight Fuel&r is a good &9Power&r option. But there is something even greater... Check the Quest to the top left."
+				"&aLight Fuel&r is a good &9Power&r option, but there is something even greater... Check the Quest to the left."
 			]
 			icon: "gtceu:lightly_hydro_cracked_heavy_fuel_bucket"
 			id: "61972B16805FC9EE"
@@ -1982,9 +1934,7 @@
 		{
 			dependencies: ["61972B16805FC9EE"]
 			description: [
-				"&o...but thankfully, you've already made Light Fuel... phew!&r"
-				""
-				"&aDiesel&r is a &9Combustion Fuel&r. It is &dOil based&r."
+				"&aDiesel&r is a &dOil-based &9Combustion Fuel&r."
 				""
 				"To mix &aLight Fuel&r and &aHeavy Fuel&r, the right ratio for &3Distilleries&r is &63:2&r from &dOil&r or &dRaw Oil&r."
 				""
@@ -1992,9 +1942,9 @@
 				"{@pagebreak}"
 				"You can cut the amount of &dOil&r required &6drastically&r by using &dHeavy Oil&r for &aHeavy Fuel&r specifically. &dOilsands&r is a great option if you wish to go down this route!"
 				""
-				"(For the math nerds, you go from 8.33 Oil -> 6 Diesel, to 5 Oil + 0.4 Heavy Oil -> 6 Diesel) "
+				"&o(For the math nerds, you go from 8.33 Oil -> 6 Diesel, to 5 Oil + 0.4 Heavy Oil -> 6 Diesel)&r"
 				""
-				"&cNote: Do &cnot attempt&r to put Oil in the &3Distillation Tower&r You might think it's a good idea because it gives both Light Fuel and Heavy Fuel. However, this process requires a lot of overclocking, and you will lose more energy than what the byproducts are worth."
+				"&cNote: Do &cnot attempt&r to put Oil in the &3Distillation Tower&r You might think it's a good idea because it gives both Light Fuel and Heavy Fuel. However, this process requires a lot of overclocking to be worth your time, and you will lose more energy than what the byproducts are worth."
 				"{@pagebreak}"
 				"In general, it is better to prioritize placing down more machines (&dparallelisation&r) over overclocking the recipes. That way, you end up losing less energy processing the resources."
 				""
@@ -2017,7 +1967,7 @@
 				type: "item"
 			}]
 			size: 0.75d
-			subtitle: "I was scared of having to explain how Diesel is made..."
+			subtitle: "Mother, how is diesel made?"
 			tasks: [{
 				amount: 30000L
 				fluid: "gtceu:diesel"
@@ -2051,7 +2001,7 @@
 				""
 				"&3Quadruple Fluid Pipes&r can transfer four different types of fluids. &3Nonuple Fluid Pipes&r can transfer nine different types! Useful for compact setups."
 				""
-				"&3Nonuple Fluid Pipes&r will be useful in &5EV&r Age for handling the many &3Distillation Tower&r outputs."
+				"&3Nonuple Fluid Pipes&r will be useful in &5EV&r Age for handling the many outputs of the &3Distillation Tower&r."
 				""
 				"Get &eeither&r to finish this quest."
 			]
@@ -2090,11 +2040,13 @@
 				{
 					id: "295D2CE93D4CE067"
 					item: "gtceu:ruby_lens"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "675EBF60F3465538"
 					item: "gtceu:ilc_wafer"
+					optional_task: true
 					type: "item"
 				}
 				{

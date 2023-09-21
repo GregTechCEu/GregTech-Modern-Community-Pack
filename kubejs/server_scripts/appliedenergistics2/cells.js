@@ -38,4 +38,17 @@ ServerEvents.recipes(event => {
     W: "#forge:wires/fine/red_alloy",
     C: "#forge:circuits/lv"
   })
+
+  //Fluid Storage Housing
+  event.remove({output: "ae2:fluid_cell_housing"})
+  event.shaped("2x ae2:fluid_cell_housing", [
+    'GPG',
+    'WCW',
+    'PPP'
+  ] , {
+    G: "ae2:quartz_glass",
+    P: "#forge:plates/ruby",
+    W: "gtceu:simple_soc",
+    C: "#forge:circuits/ev"
+  })
 })

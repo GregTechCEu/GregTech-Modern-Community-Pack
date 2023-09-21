@@ -5,13 +5,22 @@
 	group: "719BFF182E0820D1"
 	icon: "gtceu:cleanroom"
 	id: "0BAC8DF374B76B5B"
-	order_index: 3
-	quest_links: [{
-		id: "5210A5C3BA01CF5E"
-		linked_quest: "3568BC9742092FC5"
-		x: 0.0d
-		y: 0.0d
-	}]
+	order_index: 2
+	quest_links: [
+		{
+			id: "5210A5C3BA01CF5E"
+			linked_quest: "3568BC9742092FC5"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "03B35F98E6C63D52"
+			linked_quest: "690E013DFCB060ED"
+			shape: "square"
+			x: 0.0d
+			y: 2.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["3568BC9742092FC5"]
@@ -26,6 +35,8 @@
 			]
 			icon: "gtceu:cleanroom_glass"
 			id: "6177B1FCB7B40394"
+			shape: "rsquare"
+			size: 0.75d
 			tasks: [{
 				id: "5EE7BD66449FD7E0"
 				type: "checkmark"
@@ -47,6 +58,8 @@
 			]
 			icon: "gtceu:hv_machine_hull"
 			id: "2BF9C20DA4E90CBD"
+			shape: "rsquare"
+			size: 0.75d
 			tasks: [{
 				id: "02853DDB6A2695D7"
 				type: "checkmark"
@@ -66,6 +79,8 @@
 			]
 			icon: "gtceu:enriched_naquadah_waste_bucket"
 			id: "18CD802C3969DB32"
+			shape: "rsquare"
+			size: 0.75d
 			tasks: [{
 				id: "408CB4A735CE5C75"
 				type: "checkmark"
@@ -79,12 +94,14 @@
 			description: ["&9&eConfigs:&r If you dislike the Cleanroom mechanics, it can be toggled off in the config file with &5\\\"B:enableCleanroom\\\"&r. Multiblocks can be made to ignore cleanroom requirements with &5\\\"B:cleanMultiblocks\\\"&r. We encourage you to try it out before deciding."]
 			icon: "gtceu:steel_gear"
 			id: "0F1D3BA47B60D6BC"
+			shape: "rsquare"
+			size: 0.75d
 			tasks: [{
 				id: "78DFE2BB7633A4DF"
 				type: "checkmark"
 			}]
 			title: "Hate the Cleanroom?"
-			x: -1.0d
+			x: -1.5d
 			y: 1.5d
 		}
 		{
@@ -96,6 +113,8 @@
 			]
 			icon: "gtceu:empty_spray_can"
 			id: "165E801D13F0B4EF"
+			shape: "rsquare"
+			size: 0.75d
 			tasks: [{
 				id: "425E0C8681F149A8"
 				type: "checkmark"
@@ -113,6 +132,8 @@
 			]
 			icon: "gtceu:plascrete"
 			id: "3B486F6488B4A0D9"
+			shape: "rsquare"
+			size: 0.75d
 			tasks: [{
 				id: "1A794CA8C97A8CF7"
 				type: "checkmark"
@@ -126,6 +147,8 @@
 			description: ["Placing &3Generators&r or &3Mufflers&r inside is &cnot allowed&r. The Cleanroom will unform."]
 			icon: "minecraft:barrier"
 			id: "5A3AC1DD5EC6E4C3"
+			shape: "rsquare"
+			size: 0.75d
 			tasks: [{
 				id: "2BC9545B0432B74C"
 				title: "No-nos"
@@ -140,16 +163,20 @@
 				"A clean room is a well-isolated room which maintains a very low concentration of dust and airborne particles. They're normally used for scientific research, and in real-life semiconductor manufacturing. Clean rooms are specifically designed to keep out as many airborne particulates as can be. "
 				"{@pagebreak}"
 				"Clean rooms are also sometimes used with the purpose of preventing materials from escaping! This is often the primary aim in fields such as pharmaceutics, nuclear work, and hazardous biology."
+				""
+				"The more you know!"
 			]
 			icon: "gtceu:stem_cells"
 			id: "5C02D6C42B3D3C7F"
+			shape: "rsquare"
+			size: 0.75d
 			subtitle: "A little bit of real life science"
 			tasks: [{
 				id: "61882D46EB1E5F4F"
 				type: "checkmark"
 			}]
 			title: "What is a Cleanroom, anyway?"
-			x: 1.0d
+			x: 1.5d
 			y: 1.5d
 		}
 	]

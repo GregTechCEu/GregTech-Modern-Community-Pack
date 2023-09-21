@@ -3,8 +3,9 @@
 	default_quest_shape: ""
 	filename: "assembly_line"
 	group: "719BFF182E0820D1"
+	icon: "gtceu:assembly_line"
 	id: "151AFC4ABEAA40FA"
-	order_index: 4
+	order_index: 3
 	quest_links: [{
 		id: "08754CC4871D9234"
 		linked_quest: "77B7B1EDD19831E0"
@@ -15,20 +16,33 @@
 		{
 			dependencies: ["77B7B1EDD19831E0"]
 			description: [
-				"There are many ways to automate Ordered Items: GT item pipes, redstone, other mods, you name it! This quest will give a specific recommendation using &3AE2&r."
+				"There are many ways to automate Ordered Items: GT item pipes, Redstone, other mods, you name it! This quest will attempt to guide you through a setup using &3AE2&r."
 				""
-				"Have your Interface containing the patterns face an &3Item P2P&r. Set two output P2Ps: one into the first &3Input Bus&r, and the other into &3Item Pipes&r. Make your Item Pipes connect to all Input Buses including the first."
-				"Do not forget &dBlocking Mode&r, and you have got yourself an easy automation! This will also work flawlessly once we inevitably add ordered item inputs."
+				"Have the Pattern Provider face an &3Item P2P&r. Set two output P2Ps: one into the first &3Input Bus&r, and the other into &3Item Pipes&r. Make your Item Pipes connect to all Input Buses including the first. Don't forget &dBlocking Mode&r! "
+				""
+				"With this setup, assembly items should be fully automated! This will also work flawlessly once we inevitably add ordered item inputs."
 			]
+			icon: "ae2:pattern_provider"
 			id: "34330FFE65CEF94C"
+			shape: "rsquare"
+			size: 0.75d
 			title: "Automating ordered items"
 			x: -1.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["77B7B1EDD19831E0"]
-			description: ["This one is... more difficult. Fluid Pipes behave very different compared to Item Pipes, so you &4cannot&r use the same solution as above. You can automate the fluids in a few different ways: &3crafting cells of fluids&r or AE2FCR with &3Fluid Packet Decoders&r. This quest won't explain how to do this entirely due to it being off by default, so the full solution is left as an exercize to the reader."]
+			description: [
+				"Whilst item automation was relatively simple, fluid automation is slightly harder."
+				""
+				"Fluid Pipes behave very different compared to Item Pipes, so you &4cannot&r use the same solution as above. "
+				""
+				"This quest won't explain how to do this entirely due to it being off by default, so the full solution is left as an exercise to the reader."
+			]
+			icon: "gtceu:lv_fluid_regulator"
 			id: "71B685FD0D345A6F"
+			shape: "rsquare"
+			size: 0.75d
 			tasks: [{
 				id: "783A286488B14D3C"
 				title: "Automating fluid inputs"
@@ -43,10 +57,11 @@
 				"Scanning is the first step for research. Take the item shown in JEI and put it with a &3Data Stick&r to scan it. This will &4consume&r the item and put Data on the Data Stick. Pretty straightforward, right?"
 				""
 				"You will need at least an &6HV Scanner&r to progress to &dLuV&r, an &5EV Scanner&r for &aLuV Energy Hatches&r, and an &1IV Scanner&r for &aFusion Reactors&r. You can make any one of them to complete this quest."
-				""
-				"See the next quest for how to use these &3Data Sticks&r."
 			]
+			icon: "gtceu:data_stick"
 			id: "1E2F30D4C7B06D6E"
+			shape: "rsquare"
+			size: 0.75d
 			tasks: [{
 				id: "52CF08D5F20BC96B"
 				type: "checkmark"
@@ -62,7 +77,10 @@
 				""
 				"&4Important&r: Using two different data sticks with data on them will cause one to &4overwrite&r the other. Be careful!"
 			]
+			icon: "gtceu:computer_monitor_cover"
 			id: "703F095364D11A05"
+			shape: "rsquare"
+			size: 0.75d
 			tasks: [{
 				id: "5CE0257C8A80645A"
 				title: "Data Manipulation"
@@ -74,7 +92,10 @@
 		{
 			dependencies: ["77B7B1EDD19831E0"]
 			description: ["Later on, recipes will require different &aData Storage Items&r for research, such as the &3Data Orb&r. This process will remain the same, but will use different Data Storage Items instead. They can also be copied the same way, but you cannot copy between different types of storage items."]
+			icon: "gtceu:data_orb"
 			id: "7E1BAD5DA18A8E20"
+			shape: "rsquare"
+			size: 0.75d
 			tasks: [{
 				id: "319107A4A77839E7"
 				title: "Storage Types"

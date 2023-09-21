@@ -85,4 +85,10 @@ ServerEvents.recipes(event => {
   .inputFluids("gtceu:rocket_fuel 1000", "gtceu:nether_air 8000")
   .itemOutputs("2x gtceu:nether_star_dust")
   .duration(200).EUt(7680)
+
+  // Netherite
+  greg.alloy_smelter("gtceu:better_netherite")
+  .itemInputs("2x netherite_scrap", "2x #forge:ingots/gold")
+  .itemOutputs("1x netherite_ingot")
+  .duration(150).EUt(100)
 })

@@ -59,8 +59,14 @@
 				"&bLore:&r The Hang Glider originally came from a mod known as OpenBlocks. Due to great utility of the Hang Glider, it was ported all the way up to 1.19.2. Shoutout to Fuzs_!"
 			]
 			id: "0C301014EC4D17B8"
+			rewards: [{
+				count: 8
+				id: "1A39F42877915C72"
+				item: "minecraft:leather"
+				type: "item"
+			}]
 			shape: "rsquare"
-			size: 0.75d
+			size: 0.66d
 			subtitle: "No, it's Steve with a glider!"
 			tasks: [{
 				id: "1D0F8D4470DFFD19"
@@ -133,13 +139,13 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["57E23DFE35DEBCF3"]
+			dependencies: ["07415D6305C3B1D2"]
 			description: [
 				"The &3Primitive Blast Furnace&r (&3PBF&r for short) is a multiblock you will become very familiar with in the next few hours. It is important that you look at getting a &3Macerator&r before tackling this quest - if you do not have one yet, this multiblock will be &lfour times as expensive&r."
 				""
 				"Using the &3Macerator&r, you will need &d132 Clay&r, split into &d66 Clay Dusts&r and &d66 Brick Dusts&r."
 				""
-				"Build the structure using &4JEI's Multiblock preview tab&r. Don't forget the lava source block in the centre!"
+				"Build the structure using &4JEI's Multiblock preview tab&r."
 				"{@pagebreak}"
 				"Steel will be &9of utmost importance&r throughout the entire game, so make sure you keep that PBF running!"
 				""
@@ -268,6 +274,7 @@
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "01DEABF7BF6C5413"
+				title: "Take a trip to the Nether"
 				type: "dimension"
 			}]
 			title: "Journey to the Nether"
@@ -332,6 +339,12 @@
 			]
 			icon: "gtceu:lv_electric_motor"
 			id: "5A8F0124E07D5025"
+			rewards: [{
+				count: 3
+				id: "405DCE51B96EB09A"
+				item: "gtceu:steel_block"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "One of the gates to the LV Age... you're getting close."
@@ -370,6 +383,12 @@
 				"&bLore:&r In GTCEu 1.12.2, Paper Dust was instead named Chad, prompting this quest to be full of memes."
 			]
 			id: "76B70EF552B35779"
+			rewards: [{
+				count: 32
+				id: "42FE9060BBF29DAF"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
 			shape: "square"
 			size: 0.75d
 			subtitle: "#realism"
@@ -386,15 +405,15 @@
 		{
 			dependencies: ["5DD49D500327A0E2"]
 			description: [
-				"GregTech can quickly get overwhelming with the plethora of fluids it introduces, so you may be looking for a way to store them. "
+				"&6GregTech&r can quickly get &4overwhelming&r with the plethora of fluids it introduces, so you may be looking for a way to store them. "
 				""
-				"Introducing... drums! They have large internal buffers, and any Drum can be broken and picked up and will keep the fluid inside."
-				""
-				"Additionally, internal tanks from machines will interact with items containing fluid. This is great for manual crafting - this means you can use fluid trums in the place of multiple buckets in crafting. To void fluid contained in a Drum, place it alone in any crafting grid."
-				""
-				"Pssst: A right-click with a Screwdriver allows a Drum to drain its content into another container placed under it. This is great to keep Liquid Boilers fueled for longer."
+				"Introducing... &aDrums&r! They have large internal buffers, and any &aDrum&r can be broken and picked up and will &dkeep the fluid&r inside."
 				"{@pagebreak}"
-				"Lore: The Drums are actually ported from GregTech 6!"
+				"Additionally, &binternal tanks&r from machines will interact with items containing fluid. This is great for manual crafting - this means you can use fluid drums instead of multiple buckets in crafting. To &5void fluid&r contained in a Drum, place it alone in any crafting grid."
+				""
+				"&o&7Pssst:&r &oA right-click with a Screwdriver allows a Drum to drain its content into another container placed under it. This is great to keep Liquid Boilers fueled for longer."
+				"{@pagebreak}"
+				"&bLore:&r The Drums are actually ported from GregTech 6!"
 			]
 			id: "2B74E56C9E138F18"
 			rewards: [{
@@ -417,17 +436,17 @@
 		{
 			dependencies: ["5DD49D500327A0E2"]
 			description: [
-				"The Primitive Water Pump is an easy way to automatically generate water for your boilers. It does not pump water from the world, instead simply creating it. Therefore, you do not need access to a body of water to make use of it!"
+				"The &bPrimitive Water Pump&r is an easy way to automatically generate water for your boilers. It does not pump water from the world, instead generating it &einternally&r. Therefore, you do not need access to a &3body of water&r to make use of it!"
 				""
-				"It's' a multiblock, so consult JEI for the structure. Also, multiblocks can be previewed in world if you sneak right-click the main Block with an empty hand (in this case, the main block is the Primitive Water Pump itself). Its functionality is fully explained in the description page in JEI."
+				"It's a multiblock, so &5consult JEI&r for the structure. Also, multiblocks can be previewed in-world if you sneak right-click the \"&a&ocontroller&r\" block with an empty hand (in this case, the controller block is the &bPrimitive Water Pump&r itself). Its functionality is fully explained in the description page in JEI."
 				""
-				"Small tip for you: no need to worry about Biome for now, as your boilers will need very little water to keep up."
+				"&6Small tip for you:&r no need to worry about your base's biome for now, as your boilers will need very little water to keep up."
 				"{@pagebreak}"
-				"The Output Hatch is where water will be generated. You may have it face up or down to auto-output water into your pipes."
+				"The &cOutput Hatch&r is where water will be generated. You can make it face up or down to auto-output water into your pipes."
 				""
-				"Reminder: Use a Wrench to rotate GregTech blocks (sneak right-click)."
+				"&2Reminder:&r Use a Wrench to rotate GregTech blocks (sneak right-click)."
 				""
-				"Lore: This Multiblock was ported from GT IMPACT, a 1.7.10 GregTech modpack which we appreciate and respect greatly."
+				"&bLore:&r This Multiblock was ported from GT IMPACT, a 1.7.10 GregTech modpack which we appreciate and respect."
 			]
 			id: "13901DA3D4F5C5A6"
 			rewards: [{
@@ -437,7 +456,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			subtitle: "Free water"
+			subtitle: "No such thing as free water!"
 			tasks: [{
 				id: "03501AB173BA60EE"
 				item: "gtceu:primitive_pump"
@@ -445,25 +464,6 @@
 			}]
 			title: "Primitive Water Pump"
 			x: 0.0d
-			y: -0.375d
-		}
-		{
-			dependencies: ["03DBF1961AE21C76"]
-			description: [
-				"The Steam Compressor is used for recipes involving... well, compression!"
-				""
-				"That's it, nothing fancier. However, it's a big step in progression - you're on your way to your first ingot of Steel!"
-			]
-			id: "57E23DFE35DEBCF3"
-			shape: "square"
-			subtitle: "Compression obsession"
-			tasks: [{
-				id: "17DB32B45B48D0D6"
-				item: "gtceu:lp_steam_compressor"
-				type: "item"
-			}]
-			title: "steam.zip"
-			x: 1.125d
 			y: -0.375d
 		}
 		{
@@ -514,8 +514,6 @@
 		{
 			dependencies: ["249374557D095913"]
 			description: [
-				"&o...Wait, no, this was the subtitle one chapter ago!&r"
-				""
 				"Not many items are made in the &3Extractor&r during the &6Steam Age&r, but it is used for &9Rubber&r, which you will need after Steel."
 				""
 				"You can also process Dirt in the Extractor for &aBones&r, which makes getting &aBone Meal&r a lot easier for Peaceful players."
@@ -619,6 +617,12 @@
 				"This wire recipe is sadly quite expensive, but once you get to LV, it will become a lot cheaper."
 			]
 			id: "391E853DCE86BFD0"
+			rewards: [{
+				count: 4
+				id: "0AEE150D99E66D54"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
 			shape: "square"
 			size: 0.75d
 			subtitle: "The easier component for circuits"
@@ -634,19 +638,17 @@
 		{
 			dependencies: ["5DD49D500327A0E2"]
 			description: [
-				"Fluid Pipes will transport Steam between machines for you."
+				"&bFluid Pipes&r will transport &7Steam&r between machines for you."
 				""
-				"Each Pipe has a certain throughput in L/t (mB/t), and a Temperature Limit (this is relevant right now, as Steam will burn Wooden Pipes). Some pipes have special attributes you don't need to worry about for now."
+				"Each Pipe has a certain throughput in L/t (mB/t), and a &6Temperature Limit&r (this is relevant right now, as Steam will burn Wooden Pipes). Some pipes have &bspecial&r attributes you don't need to worry about for now."
 				""
-				"Each material has several sizes for Pipes. The bigger the Pipe, the higher the throughput, but the more expensive the craft."
+				"Each material has several sizes for Pipes. The bigger the Pipe, the &ahigher&r the throughput, but the more &dexpensive&r the craft. For example, a normal &6Bronze Fluid Pipe&r transfers 120 L/t. (It also has a 1,200 L internal buffer!)"
 				""
-				"For example, a normal Bronze Fluid Pipe transfers 120 L/t. It also has a 1,200 L internal buffer."
-				""
-				"Get either a Small, or Normal Bronze Fluid Pipe to complete this quest. Both are used in crafting."
+				"Get either a Small or Normal &6Bronze Fluid Pipe&r to complete this quest. Both are used in crafting."
 				"{@pagebreak}"
-				"Reminder: 1 second = 20 ticks... assuming the server does not lag!"
+				"&aReminder:&r 1 second = 20 ticks... assuming the server does not lag!"
 				""
-				"Note: GT6-style Pipes are enabled. It means that placing Pipes connects them only to the block they were placed against. To open more connections, use your Wrench on the pipe."
+				"&dNote:&r GT6-style Pipes are enabled. It means that placing Pipes connects them only to the block they were placed against. To open more connections, use your Wrench on the pipe."
 				""
 				"You can also shift-right click with your Wrench to disable input from a side. This can help counteract sloshing (liquids travelling in an undesired direction)."
 			]
@@ -680,21 +682,23 @@
 		{
 			dependencies: ["315DBB3B23F95E0D"]
 			description: [
-				"The Solid Boiler is the only available Boiler for now, as the Glass needed for the others is not available just yet. You can get by with only one, but I would recommend making a second."
+				"The &dSolid Boiler&r is the only available Boiler for now, as the &aGlass&r needed for the others is not available just yet. You can get by with only one, but we would recommend making a second."
 				""
-				"Important: Boilers can explode! This still catches out experienced GT players, so keep this quest in mind when setting your Boiler up. Water does not gel well with high temperatures, and a steam explosion may occur under the following conditions:"
+				"Important: Boilers can explode! This still catches out &eexperienced GT players&r, so keep this quest in mind when setting your Boiler up. "
+				"{@pagebreak}"
+				"Water does not gel well with &6high temperatures&r, and a &csteam explosion&r may occur under the following conditions:"
 				""
-				"- The Boiler is overheating. Its temperature is indicated by the red bar in the GUI!"
+				"- The Boiler is &4overheating.&r Its temperature is indicated by the &cred bar&r in the GUI!"
 				"...and..."
-				"- The Boiler does not have any water. This is signified by the absence of a blue bar in the GUI."
+				"- The Boiler does not have any &bwater&r. This is signified by the absence of a &bblue bar&r in the GUI."
 				"...AND..."
-				"- The Boiler receives water whilst both conditions are true."
-				""
-				"You can avoid a catastrophe by filling the boiler with water before heating it up, and making sure it constantly has water. The drain is slow - 1 mB of Water boils into 160 mB of Steam - so you shouldn't have to worry too much about running out."
+				"- The Boiler receives water whilst &6both&r conditions are &2true&r."
+				"{@pagebreak}"
+				"You can avoid a catastrophe by filling the boiler with water before heating it up, and making sure the water supply is constant. The drain is slow - &b1 mB&r of Water boils into &7160 mB&r of Steam - so you shouldn't have to worry too much about running out."
 				""
 				"The Boiler can auto eject steam on all its faces except the bottom. For automated Water input, use the bottom face."
 				""
-				"Note: In this modpack, explosions are configured to not damage any block or entity, but you will still lose your machine!"
+				"&3Note:&r In this modpack, explosions are configured to &cnot&r damage any block or entity, but you will &dstill lose&r your machine!"
 			]
 			id: "5DD49D500327A0E2"
 			shape: "square"
@@ -711,9 +715,9 @@
 		{
 			dependencies: ["5DD49D500327A0E2"]
 			description: [
-				"Steam Machines accept Steam piped from nearby Boilers into their internal storage tank. They will run recipes from JEI up to 32 EU/t (LV-tier voltage)."
+				"&dSteam Machines&r accept any Steam that is pumped from nearby Boilers into their internal storage tank. They will run recipes from JEI up to 32 EU/t (&7LV&r-tier)."
 				""
-				"This quest unlocks a plethora of information in the Tutorial tab - check it out to learn more about how Steam works."
+				"&6This quest unlocks a new tutorial in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
 			]
 			id: "03DBF1961AE21C76"
 			shape: "square"
@@ -729,11 +733,17 @@
 		{
 			dependencies: ["03DBF1961AE21C76"]
 			description: [
-				"The Alloy Smelter is used for alloys. You will want it for the efficient Bronze recipe, and for Red Alloy in the near future."
+				"The &bAlloy Smelter&r is used for, well, alloys. You will want it for the efficient &6Bronze&r recipe, and for &4Red Alloy&r in the near future."
 				""
-				"Out of all the Steam Age machines, this is the most steam-hungry. If you ever find yourself runing out of steam, give your machine a love-tap with any Soft Mallet to momentarily pause it."
+				"Out of all the &6Steam Age&r machines, this is the most steam-hungry. If you ever find yourself running out of steam, give your machine a &alove-tap&r with &dany Soft Mallet&r to momentarily pause it."
 			]
 			id: "48AED37B4E20A99A"
+			rewards: [{
+				count: 8
+				id: "241026922AD16AB3"
+				item: "gtceu:bronze_plate"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "The Alloy Smelter makes alloys..."
 			tasks: [{
@@ -755,8 +765,14 @@
 				"Vacuum Tubes are also technically your first Ultra Low Voltage (&8ULV&r) Circuit! Congratulations! You won't find very much use for these by themselves though."
 			]
 			id: "3CF550B81716B8B9"
+			rewards: [{
+				count: 32
+				id: "259F8029A6ED0C85"
+				item: "minecraft:glass_pane"
+				type: "item"
+			}]
 			shape: "square"
-			size: 0.75d
+			size: 0.66d
 			subtitle: "The harder component for circuits"
 			tasks: [{
 				count: 2L
@@ -822,7 +838,7 @@
 		{
 			dependencies: ["48AED37B4E20A99A"]
 			description: [
-				"Red Alloy is an alloy of Copper and Redstone, prized in the GregTech universe for its conductivity."
+				"&4Red Alloy&r is an alloy of Copper and Redstone, prized in the GregTech universe for its conductivity."
 				""
 				"You will need some for &9Electronic Circuits&r."
 				""
@@ -903,15 +919,15 @@
 		{
 			dependencies: ["1FFD2242B94A7378"]
 			description: [
-				"Potin Fluid Pipes have a very high throughput for the material tier and cost. You may want to look into making some of these to aid with fluid logistics."
+				"&dPotin Fluid Pipes&r have a &avery high throughput&r for the material tier and cost. You may want to look into making some of these to aid with fluid logistics."
 				""
-				"To get Potin, you should start by crafting its Dust form."
+				"To get &dPotin&r, you should start by crafting its &eDust&r form."
 				""
 				"This quest calls for either the small or normal pipe. Get either size to complete it."
 				"{@pagebreak}"
-				"Lore: Potin Fluid Pipes were originally created in GT++, and were a huge power spike for players in a little pack called GT:NH. We wanted to spread some of that joy!"
+				"&bLore:&r &dPotin Fluid Pipes&r were originally created in &9GT++&r, and were a huge power spike for players in a little pack called &4GT:NH&r. We wanted to spread some of that joy!"
 				""
-				"Additionally, in the real world, Potin is an alloy used in coins, not pipes! GTCEu logic is truly wild."
+				"Additionally, in the real world, &dPotin&r is an alloy used in coins, not pipes! GTCEu logic is truly wild."
 			]
 			icon: "gtceu:potin_normal_fluid_pipe"
 			id: "3C70B0717E9377A4"
@@ -945,11 +961,11 @@
 			description: [
 				"With the creation of this machine, many recipes that once required you to use a hammer can instead be made here!"
 				""
-				"It can process Cobblestone into Gravel, and Gravel into Sand - and it's zippy at that to boot!"
+				"It can process &bCobblestone into Gravel&r, and &dGravel into Sand&r - and it's zippy at that to boot!"
 				""
-				"Last but not least, it makes Plates at a better ratio: three Ingots for two Plates. A worthwhile investment!"
+				"Last but not least, it makes &aPlates&r at a better ratio: &6three Ingots for two Plates&r. A worthwhile investment!"
 				""
-				"You know what? Bonus! We'll give you the anvil back if you craft it. (This is a small reminder that you can repair GregTech tools using an Anvil)"
+				"You know what? &aBonus&r! We'll give you the &8anvil&r back if you craft it. (This is a small reminder that you can repair GregTech tools using an Anvil)"
 			]
 			id: "1931FC6DEAC29646"
 			rewards: [{
@@ -971,15 +987,21 @@
 		{
 			dependencies: ["03DBF1961AE21C76"]
 			description: [
-				"The Macerator frees you from the painful process of grinding stuff into dust with a Mortar, but at the steep cost of time. Processing a single piece of iron ore in this machine will take twenty seconds - twice the time it takes to smelt an ingot in a furnace!"
+				"The &bMacerator&r frees you from the painful process of &egrinding stuff into dust&r with a &3Mortar&r, but at the steep cost of time. Processing a single piece of iron ore in this machine will take &ctwenty seconds&r - twice the time it takes to smelt an ingot in a furnace!"
 				""
-				"The Macerator also marks the advent of Ore Processing, but that's a scary topic that we'll dip our toes into in the next quest."
+				"The Macerator also marks the advent of &eOre Processing&r, but that's a scary topic that we'll dip our toes into in the next quest."
 				"{@pagebreak}"
-				"The macerator will output only the first item shown in recipes from JEI! The other slots are locked until you make a HV Macerator."
+				"The macerator will output only the first item shown in recipes from JEI. The other slots are locked until you make a &6HV&r Macerator."
 				""
-				"Our (important!) advice: it is better to keep directly smelting ores for now! The efficiency loss is made up with faster mining. Use the macerator for things like Clay Dust instead!"
+				"Our (&oimportant!&r) advice: it is better to keep directly smelting ores for now! The efficiency loss is made up with faster mining. Use the macerator for things like &aClay Dust&r instead!"
 			]
 			id: "1C50A758A1DE25CB"
+			rewards: [{
+				count: 32
+				id: "26175A33C13BBF0C"
+				item: "gtceu:clay_dust"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "The Macerator macerates..."
 			tasks: [{
@@ -1019,7 +1041,7 @@
 						value: "forge:ingots/invar"
 					}
 				}
-				title: "Any #forge:ingots/invar"
+				title: "Invar Ingot"
 				type: "item"
 			}]
 			title: "Invar"
@@ -1040,13 +1062,27 @@
 			]
 			icon: "gtceu:resin_printed_circuit_board"
 			id: "4ED5A9AEF7B928BA"
+			rewards: [{
+				count: 4
+				id: "2A1EAEB72424AFB9"
+				item: "gtceu:wood_plate"
+				type: "item"
+			}]
 			shape: "square"
 			size: 0.75d
 			subtitle: "The circuit-er part of circuits..."
 			tasks: [
 				{
 					id: "3704C06203B7485A"
-					item: "gtceu:wood_plate"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:plates/wood"
+						}
+					}
+					optional_task: true
+					title: "Wood Plates"
 					type: "item"
 				}
 				{
@@ -1064,55 +1100,22 @@
 			description: [
 				"In its simplest form, Ore Processing in GregTech boils down to &aconverting one ore into two ingots through two dusts&r, like several other tech mods. "
 				""
-				"The added spice is the amount of steps, either optional or required. This quest unlocks a tutorial that serves as a &dprimer on Ore Processing&r."
+				"The added spice is the amount of steps, either optional or required."
 				""
 				"Ore Processing will be explained further once you get into LV Age."
+				""
+				"&6This quest unlocks a new tutorial in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
 			]
 			icon: "gtceu:gold_crushed_ore"
 			id: "7813F183681E0342"
-			rewards: [
-				{
-					count: 48
-					id: "0916B8798C1F929D"
-					item: "gtceu:chalcopyrite_ore"
-					type: "item"
-				}
-				{
-					count: 8
-					id: "6EEF8D39A54C47D3"
-					item: "gtceu:cassiterite_ore"
-					type: "item"
-				}
-				{
-					count: 32
-					id: "5F9FD07C4D7CAE20"
-					item: "minecraft:iron_ore"
-					type: "item"
-				}
-			]
 			shape: "square"
 			size: 0.75d
 			subtitle: "...and how do I get rid of it?"
-			tasks: [
-				{
-					count: 10L
-					id: "6934B8078274627B"
-					item: "gtceu:redstone_crushed_ore"
-					type: "item"
-				}
-				{
-					count: 10L
-					id: "27B78DF0D5DF95A5"
-					item: "gtceu:redstone_impure_dust"
-					type: "item"
-				}
-				{
-					count: 10L
-					id: "701F05D30FCF869C"
-					item: "minecraft:redstone"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1C4CFA0AD3125A6D"
+				title: "Oh god, what have I gotten myself into!?"
+				type: "checkmark"
+			}]
 			title: "What is this Mess?!"
 			x: 0.0d
 			y: 3.0d
@@ -1266,7 +1269,63 @@
 			x: 5.25d
 			y: 1.3125d
 		}
+		{
+			dependencies: ["03DBF1961AE21C76"]
+			description: ["The Steam Compressor unlocks some tantalising new recipes that will help you to progress towards Steel!"]
+			id: "07415D6305C3B1D2"
+			rewards: [{
+				id: "1F47D2A131498C25"
+				item: "gtceu:wrought_iron_block"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.9d
+			subtitle: "The Steam Compressor compresses..."
+			tasks: [{
+				id: "21C99D59F1BE48A3"
+				item: "gtceu:lp_steam_compressor"
+				type: "item"
+			}]
+			title: "Steam Compressor"
+			x: 1.125d
+			y: -0.375d
+		}
+		{
+			dependencies: ["40DE888E6025C646"]
+			description: [
+				"With your first &8Steel&r under your belt, you can make a &bTool Belt&r to free up inventory space if you're carrying around many tools. It can be equipped in its own &ddedicated Curio slot&r."
+				""
+				"By default, the hotkey to open the belt is &eR&r, but you can rebind it if you're unhappy. From this menu, you can place tools inside the belt's storage, and swap them with your &dmain-hand tool&r whenever is convenient."
+				""
+				"The belt has a small initial inventory of a single tool. This can be expanded by combining the belt with &bBelt Pouches&r in an &aAnvil&r - the maximum storage a belt holds is &69 slots&r."
+			]
+			icon: "toolbelt:belt"
+			id: "4A993CC40AB6D35C"
+			rewards: [{
+				id: "38A84272E0407C69"
+				item: "toolbelt:pouch"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Take some weight off your inventory"
+			tasks: [
+				{
+					id: "281B54469C34A5E2"
+					item: "toolbelt:belt"
+					type: "item"
+				}
+				{
+					id: "5FFC5866C6E85F86"
+					item: "toolbelt:pouch"
+					type: "item"
+				}
+			]
+			title: "Tool Belt"
+			x: 1.98d
+			y: -2.31d
+		}
 	]
-	subtitle: ["Use rudimentary technology and work towards industrialisation"]
+	subtitle: ["Harness the power of Steam and learn the basics"]
 	title: "Steam Age"
 }

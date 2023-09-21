@@ -39,9 +39,9 @@
 		{
 			dependencies: ["25289F9E8AE01C29"]
 			description: [
-				"A Minecraft adventure starting with Wood? How &ooriginal,&r I want a refund!"
+				"A Minecraft adventure starting with Wood? How &ooriginal&r. I want a refund!"
 				""
-				"If you're familiar with GregTech, you may be aware of its &cmany nerfs&r to vanilla recipes. GTCEu does include some - take a look at the crafting recipes for &eBuckets,&r or &ePaper&r. However, we've been merciful, and 1 Log will give you 4 Planks. &aRejoice!&r"
+				"If you're familiar with GregTech, you may be aware of its &cmany nerfs&r to vanilla recipes. GTCEu does include its fair share - take a look at the crafting recipes for &eBuckets,&r or &ePaper&r. However, we'll ease off in earlygame, and 1 Log will give you 4 Planks. &aRejoice!&r"
 				""
 				"Here, take some food for your troubles. If you're playing on &aPeaceful&r difficulty, stash it away in a chest for later."
 			]
@@ -68,7 +68,7 @@
 						}
 					}
 					match_nbt: false
-					title: "Any #minecraft:logs"
+					title: "Punch some trees!"
 					type: "item"
 				}
 				{
@@ -141,35 +141,20 @@
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"&oSome of the details are repeated from the introduction quest, but we feel like we needed to expand on the explanation if you want to know all the details!&r"
+				"The ore generation in &2GregTech&r is very different to vanilla or normal modded Minecraft. All ores generate in &6huge veins&r which can contain &dthousands&o&r of ore blocks!"
 				""
-				"Ore veins and their details can be found in &2JEI&r. They contain up to four different ores."
-				"In &2JEI&r, press U on any raw material and navigate to the &aOre Page&r. "
+				"The full extent of ore generation is explained in the Tips and Tricks tab, but here is what you need to know:"
 				""
-				"This page contains details on what types of ores generate, their generation patterns, their spawning dimension and Y-level range, and their spawning weight, which is the chance of it spawning."
-				"{@pagebreak}"
-				"In more detail, ore veins generate in a &4Grid&r. Every vein is spaced by 3 chunks from one to another in a cardinal direction. A vein will spawn at the &4Center&r of Chunks which have both their X and Z coordinates at &b1 plus a multiple of 3&r (-8, -5, -2, 1, 4, 7, ...)."
+				"&9-&r Ore veins generate in a &4Grid&r. Every vein is &9spaced by 3 chunks&r from one to another in a cardinal direction. We have added &2In Game Info&r to display if you are located in an Ore vein in the top-left corner of your screen, as seen in GregTech: New Horizons."
 				""
-				"It will be simpler if you simply rely on &2In Game Info&r on the F3 screen or Xaero's Minimap. However, Ore veins may be deleted by caves, Oil deposits, or from trying to generate above the ground."
-				""
-				"It's a good practice to make &dWaypoints&r to every vein you find, and to label their type. You may want to come back to them several times to fully mine them out."
-				"{@pagebreak}"
-				"Each Ore vein is always &d7 blocks&r tall, and ores generate in 4 different patterns:"
-				"- The &9Top Ore&r generates in the higher 4 layers of the vein."
-				"- The &9Bottom Ore&r generates in the lower 3 layers of the vein."
-				"- The &9Between Ore&r generates in the middle 3 layers of the vein."
-				"- The &9Sporadic Ore&r generates anywhere in the vein. There will be the least amount of this ore in a vein. "
-				""
-				"The same ore type can be in 2 different generation patterns, such as in Cassiterite veins."
-				""
-				"Finally, in the &6LV&r Age, you can craft an Ore Prospector to assist yourself in finding ores."
-				"{@pagebreak}"
+				"&9-&r It's a good practice to make &dWaypoints&r (default &4B&r) for every vein you find, and to label their type. You may want to come back to the vein several times."
 			]
 			icon: "gtceu:cobaltite_ore"
 			id: "0C690272ED4FB1C3"
 			size: 0.75d
 			tasks: [{
 				id: "3FA401CACE8BBE5D"
+				title: "Woah, ores sure sound exciting."
 				type: "checkmark"
 			}]
 			title: "Ore Generation"
@@ -181,9 +166,9 @@
 			description: [
 				"Did you know &aGregTech&r comes with tools equivalent to vanilla tools? And did you know that some of them are actually &6&lstronger&r than their vanilla equivalents?"
 				""
-				"For example, take a look at this Axe - it's a true beast. If you mine a Wood Log, it'll fell the &2entire tree&r for you. &oWho needs &bVeinminer&r&o?&r"
+				"For example, here's this Axe - it's a true beast. If you mine a Wood Log, it'll fell the &2entire tree&r for you. &oWho needs &bVeinminer&r&o?&r"
 				""
-				"Constant lumberjack activity will eat through an Axe's &9durability&r in no time, so you may want to make your Axe out of &estronger material&r such as &bDiamond&r (but make sure you don't make a vanilla diamond Axe!)."
+				"Constant lumberjacking will eat through an Axe's &9durability&r in no time, so you may want to make your Axe out of &estronger material&r such as &bDiamond&r (but make sure you don't make a vanilla diamond Axe!)."
 				""
 				"Take these &2Spruce saplings&r for some giant trees. There's a lot of smelting coming up, and wooden planks are a surprisingly &deffective&r fuel source!"
 			]
@@ -212,7 +197,7 @@
 						value: "forge:tools/tree_felling"
 					}
 				}
-				title: "Any #forge:tools/tree_felling"
+				title: "Grab any Lumber Axe!"
 				type: "item"
 			}]
 			title: "Axe To Grind"
@@ -251,7 +236,7 @@
 						value: "forge:ingots/wrought_iron"
 					}
 				}
-				title: "Any #forge:ingots/wrought_iron"
+				title: "Wrought Iron Ingot"
 				type: "item"
 			}]
 			title: "Better Than Iron"
@@ -268,6 +253,12 @@
 				"As a sidenote on all &aGregTech&r tools, you can repair them in an Anvil using the material of the tool itself, just like any vanilla tool. If you are finding yourself short on experience, &eBottles o' Enchanting&r are now craftable."
 			]
 			id: "7DEB73FD649BDFB6"
+			rewards: [{
+				id: "6C50A2A3D43D3FEE"
+				item: "gtceu:iron_plate"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 0.75d
 			subtitle: "Your first GT Tool!"
@@ -287,7 +278,7 @@
 						value: "forge:tools/hammers"
 					}
 				}
-				title: "Any #forge:tools/hammers"
+				title: "Any Hammer!"
 				type: "item"
 			}]
 			title: "STOP! Hammer time!"
@@ -331,7 +322,7 @@
 						value: "forge:tools/mining_hammers"
 					}
 				}
-				title: "Any #forge:tools/mining_hammers"
+				title: "Any Mining Hammer will do."
 				type: "item"
 			}]
 			title: "Hammer down!"
@@ -438,7 +429,7 @@
 							value: "forge:tools/wrenches"
 						}
 					}
-					title: "Any #forge:tools/wrenches"
+					title: "Any Wrench!"
 					type: "item"
 				}
 				{
@@ -450,7 +441,7 @@
 							value: "forge:tools/files"
 						}
 					}
-					title: "Any #forge:tools/files"
+					title: "Any File!"
 					type: "item"
 				}
 				{
@@ -462,7 +453,7 @@
 							value: "forge:tools/saws"
 						}
 					}
-					title: "Any #forge:tools/saws"
+					title: "Any Saw!"
 					type: "item"
 				}
 			]
@@ -495,7 +486,7 @@
 				""
 				"&9&lButchery Knife:&r A weapon that comes pre-enchanted with &6Looting III&r. You might want to use it to gather leather and food."
 				"{@pagebreak}"
-				"&e&lNote:&r This quest's reward is &3Damascus Steel&r - a rare material which can only be found in overworld loot. It far surpasses the materials you have now, so be sure to use it!"
+				"&e&lNote:&r This quest's reward is &3Damascus Steel&r - a rare material which can only be found as overworld loot. It far surpasses the materials you have now, so be sure to use it!"
 			]
 			icon: {
 				Count: 1b
@@ -522,7 +513,7 @@
 							value: "forge:tools/screwdrivers"
 						}
 					}
-					title: "Any #forge:tools/screwdrivers"
+					title: "Any Screwdriver!"
 					type: "item"
 				}
 				{
@@ -534,7 +525,7 @@
 							value: "forge:tools/wire_cutters"
 						}
 					}
-					title: "Any #forge:tools/wire_cutters"
+					title: "Any Wire Cutter!"
 					type: "item"
 				}
 				{
@@ -546,7 +537,7 @@
 							value: "forge:tools/mortars"
 						}
 					}
-					title: "Any #forge:tools/mortars"
+					title: "Any Mortar!"
 					type: "item"
 				}
 				{
@@ -558,7 +549,7 @@
 							value: "forge:tools/knives"
 						}
 					}
-					title: "Any #forge:tools/knives"
+					title: "Any Knife!"
 					type: "item"
 				}
 				{
@@ -570,7 +561,7 @@
 							value: "forge:tools/mallets"
 						}
 					}
-					title: "Any #forge:tools/mallets"
+					title: "Any Soft Mallet!"
 					type: "item"
 				}
 			]
@@ -586,7 +577,7 @@
 				"It is used to make &aCoke&r from &eCoal&r, or &aCharcoal&r from &eWood&r, in addition to &dliquid Creosote&r as a &3bonus&r output."
 				""
 				"Take a look at the &6Multiblock Preview&r tab in JEI to see the structure pattern. There is also a dedicated quest tab for the &bCoke Oven&r in the &6Multiblock Dilemma&r tab - future multiblocks will also be documented for your enjoyment."
-				""
+				"{@pagebreak}"
 				"&o&l&3Lore:&r &oThe concept of multiblocks is a modded Minecraft classic. Think of IC2's Nuclear Reactor, or Railcraft's Coke Oven - truly revolutionary at the time!&r"
 			]
 			icon: "gtceu:coke_oven"
@@ -744,7 +735,7 @@
 						value: "minecraft:logs"
 					}
 				}
-				title: "Any #minecraft:logs"
+				title: "We demand more logs."
 				type: "item"
 			}]
 			title: "Charcoal?"
@@ -784,6 +775,7 @@
 			subtitle: "Omw to install DecoCraft"
 			tasks: [{
 				id: "70C69E5432F6C3BE"
+				title: "I accept responsibility for any mod conflicts ;)"
 				type: "checkmark"
 			}]
 			title: "More mods?"
@@ -974,15 +966,19 @@
 		}
 		{
 			description: [
-				"Be sure to &aproperly&r read this quest - it has some &dimportant information&r that will be relevant all throughout your playthrough."
+				"Be sure to &aproperly&r read &lthis&r quest - it has some &dimportant information&r that will remain relevant all throughout your playthrough."
 				""
 				"Informative quests such as this will appear in the chapter they are unlocked. You can also consult the &o&b\"Tips and Tricks\"&r page if you feel like you're forgetting something."
 				""
-				"The quest structure is intended to guide you through the major milestones in &aGregTech&r progression. Every single quest should be &2beneficial&r to look at in some way - if something is 100% optional, we'll mention it, so don't worry about missing any tricks."
+				"The quest structure is intended to guide you through all the major milestones in &aGregTech&r progression. Every single quest should be &2beneficial&r to look at in some way - if something is 100% optional, we'll mention it, so don't worry about missing any tricks."
 				"{@pagebreak}"
-				"The &aGTCEu Community Pack&r can be played on &dPeaceful,&r and we highly urge you to do so. You may also want to use &o/keepInventory&r, &o/sethome&r, and abuse minimap teleport as you see fit. Although these features won't ruin your day if you choose not to use them, this modpack is &4not&r focused on providing a punishing &eSurvival&r experience, but more so learning the ins and outs of &aGregTech.&r"
+				"The &aGTCEu Community Pack&r can be played on &dPeaceful,&r and we highly urge you to do so, as there is little benefit from mobs and their drops. You may also want to use &o/keepInventory&r, &o/sethome&r, and abuse minimap teleport as you see fit."
+				""
+				"Although these features won't ruin your day if you choose not to use them, this modpack is &4not&r focused on providing a punishing &eSurvival&r experience, but more so learning the ins and outs of &aGregTech.&r"
 				"{@pagebreak}"
-				"Lastly, it's good to be &lsavvy&r with &eJEI.&r &aGregTech&r items will frequently have several recipes, so do not assume the first recipe &eJEI&r shows you will be the most efficient. Good &eJEI&r usage involves the &bidentification of patterns&r in autogenerated recipes (example: all the Iron related items &6macerate&r into Iron Dust). When complex recipes arise - and yes, &aGTCEu&r can be intimidating - we will make sure to point out &5efficient routes&r you can take - however, we urge you to experiment on your own. It's no fun to follow the quest book by rote!"
+				"Lastly, it's good to be &lsavvy&r with &eJEI.&r &aGregTech&r items will frequently have several recipes, so do not assume the first recipe &eJEI&r shows you will be the most efficient. Good &eJEI&r usage involves the &bidentification of patterns&r in autogenerated recipes (example: all the Iron related items &6macerate&r into Iron Dust)."
+				""
+				"When complex recipes arise - and yes, &aGTCEu&r can be intimidating - we will make sure to point out &5efficient routes&r you can take - however, we urge you to experiment on your own. It's no fun to follow the quest book by rote!"
 			]
 			icon: "ftbquests:book"
 			id: "13E9DF7E980CFC5B"
@@ -990,6 +986,7 @@
 			subtitle: "Read this, and read it again!"
 			tasks: [{
 				id: "04CC2E592A648F06"
+				title: "I have read this page multiple times"
 				type: "checkmark"
 			}]
 			title: "Important Information"
@@ -1015,6 +1012,29 @@
 			title: "Crafting Station"
 			x: 3.75d
 			y: -4.5d
+		}
+		{
+			description: [
+				"New to this updated pack is a Tutorials tab. The information inside is available to view at any time, but whenever it becomes relevant, you will be directed towards it for some light reading."
+				""
+				"The information found inside may interest you if you would like a deeper insight into some of GTCEu's mechanics, and in some cases is absolutely indispensable."
+				""
+				"Quests that unlock a tutorial node will have an orange-ish descriptor at the bottom of the quest description. You can immediately travel to the tutorial tab by clicking on the quest link at the top right of the quest's box!"
+				""
+				"Get reading!"
+			]
+			icon: "minecraft:lectern"
+			id: "008ABF78E56209F7"
+			size: 0.75d
+			subtitle: "Tips and tricks to help you prosper"
+			tasks: [{
+				id: "4EBD5D697E085217"
+				title: "I have read this page multiple times"
+				type: "checkmark"
+			}]
+			title: "Tutorialised"
+			x: -2.25d
+			y: 0.0d
 		}
 	]
 	subtitle: ["Welcome to &6GTCP&r! Glad to have you here."]

@@ -40,19 +40,17 @@
 		{
 			dependencies: ["6F15D7574B8F6DB5"]
 			description: [
-				"Crafting the &aUltimate Battery&r is the end of GTCEu and the GregTech Community Modpack. &6Congratulations!&r"
+				"Crafting the &aUltimate Battery&r marks the end of GTCEu and the GregTech Community Modpack. &6Congratulations!&r"
 				""
 				"Now that you've finished the mod, there's a few things you should do:"
 				""
-				"- &9Join the GTCEu Discord&r and tell us about how your playthrough went! Also show off your battery :) "
-				"   &9Link&r: TODO"
+				"- &9Join the GTCEu Discord&r and tell us about how your playthrough went! Feel free to show off your battery :) "
 				""
-				"- &eGo outside&r (and start playing GregTech in real life, right?)"
+				"- &eGo outside&r (and start playing GregTech in real life, right?). Integrate back into regular society."
 				""
-				"- &cBlow up your world with TNT and GT Dynamite&r. &nMake a backup first!!!&r"
+				"- &cBlow up your world with TNT and GT Dynamite&r. &nPlease, please, PLEASE make a backup first!!!&r"
 				""
-				""
-				"&6Thank you for playing the pack!&r"
+				"&6&lThank you for playing the pack! :D&r"
 				"- The GregTech Community Pack Dev Team"
 			]
 			icon: {
@@ -83,12 +81,18 @@
 			]
 			description: [
 				"This Maintenance Hatch is an upgrade to the Automatic Maintenance Hatch."
-				"It allows your Multiblock to run regular &aCleanroom recipes&r, but not Sterilized."
+				""
+				"It allows your Multiblock to run regular &aCleanroom recipes&r when not contained inside one - but not Sterilized recipes."
 			]
 			id: "1976F9B2220BBEDE"
 			shape: "rsquare"
 			size: 0.66d
-			title: "Filtration Maintenance Hatch"
+			tasks: [{
+				id: "244FC822F724507F"
+				item: "gtceu:cleaning_maintenance_hatch"
+				type: "item"
+			}]
+			title: "Cleaning Maintenance Hatch"
 			x: 5.61d
 			y: 3.63d
 		}
@@ -100,7 +104,7 @@
 			]
 			description: [
 				"The &aUV Lapotronic Orb&r is even better than the &cZPM&r one! It of course comes at a price..."
-				""
+				"{@pagebreak}"
 				"&bLore&r: Imagine making 512 IV or 64 LuV Orbs or 8 ZPM Orbs for just one of these! See the Lore for the LuV orb for details."
 			]
 			id: "3D9D27F29D9D12F6"
@@ -121,10 +125,15 @@
 				"0009F48B6E385A47"
 			]
 			description: [
-				"The amount of EU stored is the max value of a Long Integer in Java."
-				"Don't try to win Minecraft, you can't."
+				"The amount of EU this battery can storage is the max value of a Long Integer in Java."
 				""
-				"&bLore&r: You're probably tired of this by now, but things are different with the battery lore this time. I promise. GTCEu's ultimate battery uses 16 UV orbs. GTNH's only uses 8. However, GTNH also has a &lReally Ultimate Battery&r made of 8 Ultimate Batteries! It's not useful at all, but still exists... They recently added an &lExtremely Ultimate Battery&r made of 8 Really Ultimate Batteries, which is ludicrously expensive."
+				"Don't try to win Minecraft - you can't."
+				"{@pagebreak}"
+				"&bLore&r: You're probably tired of this by now, but things are different with the battery lore this time. We promise."
+				""
+				"GTCEu's ultimate battery uses 16 UV orbs. GTNH's only uses 8. However, GTNH also has a &lReally Ultimate Battery&r made of 8 Ultimate Batteries! It's not useful at all, but still exists..."
+				""
+				"They also added an &lExtremely Ultimate Battery&r made of 8 Really Ultimate Batteries, which is ludicrously expensive."
 			]
 			id: "6F15D7574B8F6DB5"
 			rewards: [{
@@ -165,11 +174,15 @@
 				"45E300FD7CD05A37"
 				"359121584E056022"
 			]
-			description: ["This is a huge accomplishment, nice job!"]
+			description: [
+				"This is a huge accomplishment, nice job!"
+				""
+				"The only ingredient that should be new to you are the &4Tritanium Frames&r."
+			]
 			id: "3B49BD004F38E1A2"
 			shape: "gear"
-			size: 1.75d
-			subtitle: "&oThe &6&ofinal&r &ocircuit&r"
+			size: 1.5d
+			subtitle: "The &6final&r circuit"
 			tasks: [{
 				id: "433027F7B7C732A1"
 				item: "gtceu:wetware_processor_mainframe"
@@ -195,9 +208,11 @@
 		{
 			dependencies: ["023FF9633765A0EB"]
 			description: [
-				"&aNeutronium&r is made entirely from Neutrons, and is found in the center of Neutron Stars. It is the final primary material in GTCEu."
-				""
+				"&6Neutronium&r is a hyper-dense material normally found in the hearts of neutron stars: the collapsed cores of stars between ten and thirty times the size of the sun. It is the final primary material in GTCEu."
+				"{@pagebreak}"
 				"&bLore&r: In GCYL, Neutronium is unlocked at UMV-tier (called UXV in CEu). There is also Cosmic Neutronium, which is equivalent to Avaritia's Neutronium in GT5u, which was unlocked even later in GCYL!"
+				""
+				"&bMore lore&r: Fun fact: a single neutronium block is approximately 2884 million metric tons and somewhere around 600000K, yet you're somehow capable of holding one with your bare hands. Don't think about it too much."
 			]
 			id: "6DBF61D4F94BC851"
 			size: 1.1d
@@ -238,10 +253,12 @@
 		{
 			dependencies: ["6DBF61D4F94BC851"]
 			description: [
-				"A goal if you like memes."
-				"It takes almost real 10 days in an UV machine."
-				"If you overclock a Gregicality Multiblock to UEV (4A UHV hatch), it will still take 2.5 days!"
+				"A goal if you really want to make a point."
 				""
+				"If you make this in a UV machine, it will take you 10 days."
+				""
+				"If you overclock a Gregicality Multiblock to UEV (4A UHV hatch), it will still take 2.5 days!"
+				"{@pagebreak}"
 				"&bLore:&r The NAN Certificate comes from Crops++, a GT5u addon that adds a wide variety of IC2 crops."
 			]
 			id: "3ED40CE1E4476C99"
@@ -265,13 +282,14 @@
 				"0199DBC46D7BC2B9"
 			]
 			description: [
-				"&3UV&r Components are a little bit harder than &cZPM&r. "
+				"&3UV&r Components are a tad harder than &cZPM&r. "
 				""
 				"They use lots of &9Tritanium&r and &9Naquadria&r, so make sure your have enough Fusion Reactors, and a fast enough Naquadah Plant."
 				""
 				"They also need a lot more &9Computation&r, which means &3Advanced HPCA Components&r are now required!"
 				""
 				"Computation Needs for Early UV:"
+				""
 				"- &a32 CWU/t&r: Basic &3UV&r Components and the Network Switch"
 				"- &a48 CWU/t&r: &3UV&r Sensor, Emitter, and Field Generator"
 			]
@@ -346,9 +364,9 @@
 		{
 			dependencies: ["6AF3A40BC9CE7122"]
 			description: [
-				"&aUV Superconductors&r are a big requirement for making a &9Fusion Reactor Mk3&r. You will need &ea lot&r&r of them. "
+				"&aUV Superconductors&r show up a lot in recipes when making a &9Fusion Reactor Mk3&r. You will need &ea lot&r&r of them. "
 				""
-				"You can also use them to make &9Superconducting Coils&r for even cheaper."
+				"You can also use them to cheapen &9Superconducting Coils&r even further."
 			]
 			id: "3CDA855A045A9F4D"
 			shape: "rsquare"
@@ -367,7 +385,7 @@
 			description: [
 				"This Quest will be completed with &eeither&r a &3UHV Energy Hatch&r&r... or a &3UHV Dynamo Hatch&r for your Multiblock Generators."
 				""
-				"These are the final energy hatches in GTCEu. "
+				"These are the final energy hatches in GTCEu. It's been a pleasure upgrading our multiblocks together o7"
 				""
 				"Don't forget about the &d16 amp&r versions!"
 			]
@@ -393,35 +411,32 @@
 		}
 		{
 			dependencies: ["6DBF61D4F94BC851"]
-			description: ["This is the &afinal silicon boule&r, which produces a ton of wafers! It also unlocks the recipe for the &aHighly Advanced SoC&r, which is used to make cheaper &4wetware circuits&r."]
+			description: [
+				"This is the &afinal silicon boule&r, which will allow you to produce a ton of wafers."
+				""
+				"It also unlocks the recipe for the &aHighly Advanced SoC&r, which is used to make cheaper &4wetware circuits&r."
+			]
 			icon: "gtceu:neutronium_boule"
 			id: "3F058322E1A8D5EC"
 			shape: "rsquare"
 			size: 0.66d
 			subtitle: "Neutron -> Electron Holes"
-			tasks: [
-				{
-					id: "74712C8E9A6561A0"
-					item: "gtceu:neutronium_boule"
-					type: "item"
-				}
-				{
-					id: "412D5DE35E91D230"
-					item: "gtceu:highly_advanced_soc"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "74712C8E9A6561A0"
+				item: "gtceu:neutronium_boule"
+				type: "item"
+			}]
 			title: "Neutronium-doped Silicon Boule"
 			x: 7.26d
 			y: -1.32d
 		}
 		{
 			dependencies: ["0009F48B6E385A47"]
-			description: ["The &aCreative Energy Cell&r is one of the few craftable creative items. It provides infinite energy to your AE system, so you don't have to worry about adding any more &9Dense Energy Cells&r, or using &9Energy Acceptors&r anymore."]
+			description: ["The &aCreative Energy Cell&r is one of the few craftable creative items. It provides infinite energy to your AE system, so you don't have to worry about blackouts or power anymore."]
 			id: "428C62749A1A1BAB"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Ok, maybe there are Creative items..."
+			subtitle: "Ok, maybe there are Creative items."
 			tasks: [{
 				id: "392079FDF410B9FD"
 				item: "ae2:creative_energy_cell"
@@ -436,7 +451,7 @@
 			description: ["The &aGravi Star&r is the final upgraded Nether Star in GTCEu. It's needed for &3UV&r Sensors, Emitters, and Field Generators."]
 			id: "0009F48B6E385A47"
 			size: 0.66d
-			subtitle: "Unfortunately doesn't make you float"
+			subtitle: "Unfortunately, doesn't make you float"
 			tasks: [{
 				id: "06668056CFF73DBD"
 				item: "gtceu:gravi_star"
@@ -453,7 +468,8 @@
 				"762C48F0C2EA6B81"
 			]
 			description: [
-				"Build the structure taking Fusion Glass in &aJEI&r."
+				"Build the structure displayed with Fusion Glass in &aJEI&r."
+				""
 				"To save on Fusion Casings, fit Input + Output Hatches wherever you can (as displayed in the structure)."
 				""
 				"The &aFusion Reactor Mk3&r is even more expensive than the Mk2! The key difference is that it has a higher &6Energy To Start&r than the Mk2, allowing you to run new recipes."
@@ -474,7 +490,11 @@
 		}
 		{
 			dependencies: ["6DBF61D4F94BC851"]
-			description: ["You probably don't even need these, but &aUHV Superconductors&r exist, and are used for a few things, which you also probably don't even need..."]
+			description: [
+				"You probably don't even need these, but &aUHV Superconductors&r exist, and are used for a few things, which you also probably don't need..."
+				""
+				"Craft these if you feel like flexing."
+			]
 			id: "616DB394EB7D81D6"
 			shape: "rsquare"
 			size: 0.66d
@@ -488,7 +508,28 @@
 			x: 5.94d
 			y: -2.64d
 		}
+		{
+			dependencies: ["3F058322E1A8D5EC"]
+			description: [
+				"&aHighly Advanced SoC&rs will make crafting &4wetware circuits&r much easier."
+				""
+				"The drawback is that the recipe requires UV power, but that's no problem to you, right?"
+			]
+			icon: "gtceu:highly_advanced_soc"
+			id: "0D3B74E82F1CFE8A"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Can we get much higher?"
+			tasks: [{
+				id: "493CC040B9974B42"
+				item: "gtceu:highly_advanced_soc"
+				type: "item"
+			}]
+			title: "Highly Advanced SoCs"
+			x: 7.26d
+			y: -0.33d
+		}
 	]
-	subtitle: ["Rewrite Physics and conclude your journey"]
+	subtitle: ["Bring your long journey to a well-deserved end"]
 	title: "&3UV&r - Ultimate Voltage"
 }
