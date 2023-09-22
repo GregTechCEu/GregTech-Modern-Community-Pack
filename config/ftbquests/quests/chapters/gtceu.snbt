@@ -16,6 +16,10 @@
 	quests: [
 		{
 			description: [
+				"&lJust so you're aware - this modpack is currently in early Alpha. Just be prepared for some things to be broken - it's only really out so people can poke their noses around."
+				""
+				"Got all that? Read on."
+				"{@pagebreak}"
 				"This modpack is intended as a guide on &a&lGregtech: Community Edition Unofficial Modern&r&r (also known as &aGTCEu Modern&r or &aCEu Modern&r), a continuation of &aGTCE&r - which is in itself a fork of Gregtech. &aCEu Modern&r brings the mod up to date with &erecent versions&r of Minecraft &o(as of writing this)&r, and fleshes out the original GregTech experience considerably. New content has been added to each and every tier, even going up to &3Ultimate Voltage,&r and there is also a non-negligible amount of &dQuality of Life&r."
 				"{@pagebreak}"
 				"This is a &2pure &lTech&r&2 modpack&r, focused on GregTech and its progression. You'll find &6no better place&r to learn about this mod and all the features it adds!"
