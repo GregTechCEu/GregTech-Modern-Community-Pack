@@ -64,8 +64,9 @@
 			size: 0.75d
 			subtitle: "If you're still running off Steam... boy, do we have a solution for you!"
 			tasks: [{
-				id: "0BD22FCDE067DDEF"
-				type: "checkmark"
+				id: "793B9FC5F9ACCCC7"
+				item: "gtceu:steam_large_turbine"
+				type: "item"
 			}]
 			title: "Large Steam Turbine"
 			x: 0.75d
@@ -119,8 +120,9 @@
 			size: 0.75d
 			subtitle: "Perfectly regular progression"
 			tasks: [{
-				id: "2FCAA31723679BB7"
-				type: "checkmark"
+				id: "1696F760B75B3544"
+				item: "gtceu:ev_energy_input_hatch"
+				type: "item"
 			}]
 			title: "Upgrading your EBF III"
 			x: 1.875d
@@ -142,8 +144,9 @@
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [{
-				id: "642A654610B7B859"
-				type: "checkmark"
+				id: "7243C47692B04E81"
+				item: "gtceu:gas_large_turbine"
+				type: "item"
 			}]
 			title: "Large Gas Turbine"
 			x: 1.875d
@@ -170,10 +173,19 @@
 			icon: "gtceu:mpic_chip"
 			id: "35E7E45987D9B1F6"
 			size: 0.75d
-			tasks: [{
-				id: "1936CD166437631F"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "2475364829C80B50"
+					item: "gtceu:mpic_chip"
+					type: "item"
+				}
+				{
+					id: "1225B9C57910A98A"
+					item: "gtceu:brown_glass_lens"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "Power Integrated Circuit"
 			x: 3.0d
 			y: 1.875d
@@ -201,10 +213,19 @@
 			icon: "gtceu:large_combustion_engine"
 			id: "1AD309112ADD8D8D"
 			size: 0.75d
-			tasks: [{
-				id: "46D20AEC162613E1"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "4B0E8EBCA3950AA0"
+					item: "gtceu:large_combustion_engine"
+					type: "item"
+				}
+				{
+					id: "38A33D0B4E9CD811"
+					item: "gtceu:ev_energy_output_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "Large Combustion"
 			x: 3.0d
 			y: 0.75d
@@ -254,7 +275,7 @@
 				"&9-&r &aOil&r can be used for &dDiesel&r and &dCetane-Boosted Diesel&r to run in &3Large Combustion Engines&r."
 				"&9-&r &aHeavy Oil&r can be used for &dNitrobenzene&r to run in &3Large Gas Turbines&r."
 			]
-			icon: "gtceu:ev_fluid_drilling_rig"
+			icon: "gtceu:hv_fluid_drilling_rig"
 			id: "10987A49F647279E"
 			shape: "rsquare"
 			size: 0.75d
@@ -287,10 +308,19 @@
 			icon: "gtceu:platinum_ingot"
 			id: "3398FC108D9DCB46"
 			size: 0.75d
-			tasks: [{
-				id: "5048D441AC2F6CCE"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "422782D7BAC8024B"
+					item: "gtceu:platinum_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "20DD24EB9315C33B"
+					item: "gtceu:platinum_ingot"
+					type: "item"
+				}
+			]
 			title: "Platinum"
 			x: 4.125d
 			y: 3.0d
@@ -337,8 +367,9 @@
 			id: "7A55CC71442CC854"
 			subtitle: "Pushing into EV"
 			tasks: [{
-				id: "3E4B8B394A81A9AC"
-				type: "checkmark"
+				id: "2F60DE9B52FDEFFC"
+				item: "gtceu:ev_assembler"
+				type: "item"
 			}]
 			title: "EV Assembler"
 			x: 4.125d
@@ -355,8 +386,9 @@
 			id: "69E384F389B0D07B"
 			size: 0.75d
 			tasks: [{
-				id: "2711C410D0C3104F"
-				type: "checkmark"
+				id: "3DF109921CA21ADB"
+				item: "gtceu:lapotron_crystal"
+				type: "item"
 			}]
 			title: "Extreme Batteries"
 			x: 4.125d
@@ -389,11 +421,26 @@
 			hide_dependency_lines: true
 			icon: "gtceu:tungsten_dust"
 			id: "271CE5C2B78A1EDC"
+			rewards: [
+				{
+					count: 6
+					id: "7987EDE1771A5BEE"
+					item: "gtceu:endstone_scheelite_ore"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "45F295D16818D055"
+					item: "gtceu:endstone_tungstate_ore"
+					type: "item"
+				}
+			]
 			size: 0.75d
 			subtitle: "All in one!"
 			tasks: [{
-				id: "630E1AFC0F339D24"
-				type: "checkmark"
+				id: "6BA811C086B5CF00"
+				item: "gtceu:tungsten_dust"
+				type: "item"
 			}]
 			title: "Tungsten Chain"
 			x: 6.375d
@@ -409,8 +456,9 @@
 			size: 0.75d
 			subtitle: "Beginning to notice a pattern?"
 			tasks: [{
-				id: "61CF6DA7801B3305"
-				type: "checkmark"
+				id: "0E0232ACC9B93FE4"
+				item: "gtceu:ev_mixer"
+				type: "item"
 			}]
 			title: "Extreme Mixing"
 			x: 5.25d
@@ -432,10 +480,19 @@
 			shape: "gear"
 			size: 1.5d
 			subtitle: "The main &1IV&r Material!"
-			tasks: [{
-				id: "62508B289FA0A800"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "4BEA3166CD486845"
+					item: "gtceu:tungsten_steel_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6D93081E44DD9678"
+					item: "gtceu:tungsten_steel_ingot"
+					type: "item"
+				}
+			]
 			title: "Tungstensteel"
 			x: 7.125d
 			y: 1.875d
@@ -450,8 +507,9 @@
 			icon: "gtceu:tungsten_ingot"
 			id: "0B25A282F677744B"
 			tasks: [{
-				id: "1221E7004373CAA1"
-				type: "checkmark"
+				id: "5D897ADB4F7D9920"
+				item: "gtceu:tungsten_ingot"
+				type: "item"
 			}]
 			title: "Tungsten"
 			x: 7.875d
@@ -472,8 +530,9 @@
 			size: 0.75d
 			subtitle: "Fear not, channels are gone"
 			tasks: [{
-				id: "68941CD7C25627F1"
-				type: "checkmark"
+				id: "578F4D24289C544E"
+				item: "ae2:me_p2p_tunnel"
+				type: "item"
 			}]
 			title: "P2P Tunnels"
 			x: 6.375d
@@ -549,10 +608,26 @@
 			id: "4B8D66A65F102D7E"
 			shape: "rsquare"
 			size: 0.75d
-			tasks: [{
-				id: "047566E89CA356A2"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "465414A0E1FADED3"
+					item: "gtceu:hv_diode"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2DC589A19B085EE9"
+					item: "gtceu:ev_diode"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "23F7A084E66CFA40"
+					item: "gtceu:iv_diode"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "Diode"
 			x: 1.5d
 			y: 5.25d
