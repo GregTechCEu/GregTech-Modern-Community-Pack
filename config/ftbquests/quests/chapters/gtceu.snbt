@@ -170,11 +170,11 @@
 			description: [
 				"Did you know &aGregTech&r comes with tools equivalent to vanilla tools? And did you know that some of them are actually &6&lstronger&r than their vanilla equivalents?"
 				""
-				"For example, here's this Axe - it's a true beast. If you mine a Wood Log, it'll fell the &2entire tree&r for you. &oWho needs &bVeinminer&r&o?&r"
+				"For example, look at the selection of GTCEu Axes. If you mine a Wood Log, it'll fell the &2entire tree&r for you."
 				""
 				"Constant lumberjacking will eat through an Axe's &9durability&r in no time, so you may want to make your Axe out of &estronger material&r such as &bDiamond&r (but make sure you don't make a vanilla diamond Axe!)."
 				""
-				"Take these &2Spruce saplings&r for some giant trees. There's a lot of smelting coming up, and wooden planks are a surprisingly &deffective&r fuel source!"
+				"Take these &2Spruce saplings&r and grow some giant trees. There'll be a lot of smelting in the near future, and wooden planks are a surprisingly &deffective&r fuel source!"
 			]
 			icon: {
 				Count: 1b
@@ -191,7 +191,7 @@
 				type: "item"
 			}]
 			size: 0.75d
-			subtitle: "Timber!"
+			subtitle: "Who needs Veinminer?"
 			tasks: [{
 				id: "3880A08A72884627"
 				item: {
@@ -204,7 +204,7 @@
 				title: "Grab any Lumber Axe!"
 				type: "item"
 			}]
-			title: "Axe To Grind"
+			title: "Timber!"
 			x: -2.25d
 			y: -4.5d
 		}
@@ -290,7 +290,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["7DEB73FD649BDFB6"]
+			dependencies: ["2001CB4968D3E0A2"]
 			description: [
 				"This hammer is very different from the one you'll use for crafting. It actually works as a &d3x3 pickaxe&r!"
 				""
@@ -330,7 +330,7 @@
 				type: "item"
 			}]
 			title: "Hammer down!"
-			x: 0.75d
+			x: 2.25d
 			y: -4.5d
 		}
 		{
@@ -338,7 +338,7 @@
 			description: [
 				"In the real world, iron isn't &oonly&r found as pure Iron Ore. Instead, it's found in a &avariety&r of &eoxide forms&r or &eminerals&r."
 				""
-				"You'll want to go and collect quite a bit of Iron, because you're going to need &9a bunch&r very soon. If you're not having any luck mining, the &aOre Generation&r quest tab holds a lot of information on &eore veins&r. Take a look at the tabs for Iron - any of the raw ores we're asking for in this quest can be directly smelted into Iron. That comes to &dfour different veins&r that can give you Iron!"
+				"You'll want to go and collect quite a bit of Iron, because you're going to need &9a bunch&r very soon. If you're not having any luck mining, the &aOre Generation&r quest tab holds a lot of information on &eore veins&r. Any of the raw ores we're asking for in this quest can be directly smelted into Iron. That comes to &dfour different veins&r that can give you Iron!"
 				"{@pagebreak}"
 				"Whilst it may be common habit to hoard ore in &bmodded Minecraft&r prior to unlocking some kind of &aore multiplication&r, don't worry about ore processing yet. Direct smelting will be &ohead-and-shoulders&r the most efficient method for a long, &olong&r while, given how easy it is to obtain a lot of ore in a &emining trip&r."
 				""
@@ -354,56 +354,51 @@
 			}]
 			size: 0.75d
 			subtitle: "Isn't it ironic... don't you think?"
-			tasks: [
-				{
-					id: "6DF647364D2F5AFF"
-					item: "minecraft:raw_iron"
-					optional_task: true
-					type: "item"
+			tasks: [{
+				id: "063705687ED657F5"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:raw_iron"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_yellow_limonite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_magnetite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_basaltic_mineral_sand"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_granitic_mineral_sand"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_pyrite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_goethite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_hematite"
+							}
+						]
+					}
 				}
-				{
-					id: "0367CDC34B952E8B"
-					item: "gtceu:raw_yellow_limonite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "3FA217DC59010068"
-					item: "gtceu:raw_magnetite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "5A0C753755A13DC5"
-					item: "gtceu:raw_pyrite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "0A88CD1C7C8E568A"
-					item: "gtceu:raw_granitic_mineral_sand"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "72AD74FF600EC431"
-					item: "gtceu:raw_basaltic_mineral_sand"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "25202728EA4EE4C3"
-					item: "gtceu:raw_goethite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "6A7997DDEE66DB6C"
-					item: "gtceu:raw_hematite"
-					optional_task: true
-					type: "item"
-				}
-			]
+				title: "Gather any type of Raw Iron Ore"
+				type: "item"
+			}]
 			title: "Iron, Iron, Iron!"
 			x: 0.75d
 			y: -3.0d
@@ -595,12 +590,6 @@
 			icon: "gtceu:coke_oven"
 			id: "4946FC5BCA4CCA88"
 			min_required_dependencies: 1
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6173C0148C9B42EB"
-				table_id: 2473364131152564805L
-				type: "choice"
-			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Your first big project... hopefully"
@@ -1011,11 +1000,13 @@
 				"Crafting can quickly get &etiresome&r. How about making use of your &2new saw&r to make this Crafting table?"
 				""
 				"It allows you to craft from adjacent inventories, making classic &aGregTech&r microcrafting so much less &4tedious&r."
+				""
+				"Saw the table again for a lower-profile Slab version."
 			]
 			icon: "craftingstation:crafting_station"
 			id: "411AB552514EA14C"
 			size: 0.75d
-			subtitle: "No, Tinkers is not in this modpack"
+			subtitle: "No, Tinkers' is not in this modpack"
 			tasks: [{
 				id: "30D40010C8E6E115"
 				item: "craftingstation:crafting_station"
