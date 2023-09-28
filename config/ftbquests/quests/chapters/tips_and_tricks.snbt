@@ -423,7 +423,32 @@
 			x: 7.5d
 			y: 5.5d
 		}
+		{
+			dependencies: ["77EA56D16A9B3BFC"]
+			description: [
+				"In the absence of CEu Item Pipes in 1.19.2, we present a reskinned and rebalanced Pipez mod!"
+				""
+				"The upgrades scale by tier and are reduced in efficiency in an attempt to match the power granted by 1.12.2 pipes."
+				""
+				"If you would like to play with the cooler GT pipes, please don't hesistate to play the 1.12.2 pack instead - they have some interesting priority mechanics based on pipe material!"
+			]
+			id: "53E4B7425B3EE587"
+			rewards: [{
+				id: "6B15EF4E93681C66"
+				item: "pipez:wrench"
+				type: "item"
+			}]
+			subtitle: "Item Transportation"
+			tasks: [{
+				id: "6D723192E44717A5"
+				item: "pipez:item_pipe"
+				type: "item"
+			}]
+			title: "Pipez"
+			x: 1.0d
+			y: 2.5d
+		}
 	]
 	subtitle: ["Useful GregTech mechanics and tips for the budding engineer"]
-	title: "Tips and Tricks"
+	title: "Useful Information"
 }
