@@ -26,10 +26,10 @@
 				""
 				"The questbook you are reading is &ebrimming with information&r to guide you through the modpack, so check it out if you find yourself getting lost. It's been written with both &dold-school veterans&r and &bnewcomers&r in mind."
 			]
-			icon: "gtceu:gravi_star"
+			icon: "kubejs:greg_icon"
 			id: "25289F9E8AE01C29"
 			shape: "rsquare"
-			size: 0.75d
+			size: 0.9d
 			subtitle: "We hope you enjoy your stay"
 			tasks: [{
 				id: "6C1F570DB9013DE7"
