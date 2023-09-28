@@ -201,6 +201,10 @@
 			]
 			id: "468EEFD9D2F69014"
 			subtitle: "Your research adventures continue!"
+			tasks: [{
+				id: "61F7812F0FB70497"
+				type: "checkmark"
+			}]
 			title: "Research Station"
 			x: -5.28d
 			y: 2.31d
@@ -262,6 +266,10 @@
 			shape: "rsquare"
 			size: 0.66d
 			subtitle: "Increased storage density!"
+			tasks: [{
+				id: "4090DF7C2B0FCF27"
+				type: "checkmark"
+			}]
 			title: "Advanced Data Access Hatch"
 			x: -2.64d
 			y: 0.99d
@@ -445,6 +453,10 @@
 			]
 			id: "1D6CC3C7F6BE4055"
 			subtitle: "That's no Quantum Computer..."
+			tasks: [{
+				id: "0415DB1D2067171F"
+				type: "checkmark"
+			}]
 			title: "HPCA"
 			x: -3.96d
 			y: 2.31d
@@ -623,6 +635,10 @@
 			id: "0199DBC46D7BC2B9"
 			size: 0.66d
 			subtitle: "Time for some computational advancement!"
+			tasks: [{
+				id: "2C8331B09F698CCA"
+				type: "checkmark"
+			}]
 			title: "Advanced HPCA Components"
 			x: -5.28d
 			y: 3.63d

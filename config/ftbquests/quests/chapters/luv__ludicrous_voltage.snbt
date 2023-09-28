@@ -129,6 +129,10 @@
 			shape: "rsquare"
 			size: 0.66d
 			subtitle: "Absolutely beneficial for the environment"
+			tasks: [{
+				id: "75FD9D0D9F78A41E"
+				type: "checkmark"
+			}]
 			title: "Dielectric PCB Coolant"
 			x: 2.31d
 			y: 0.0d
@@ -150,6 +154,10 @@
 			shape: "rsquare"
 			size: 1.1d
 			subtitle: "More than a large transformer"
+			tasks: [{
+				id: "0A0A8E96C95EE141"
+				type: "checkmark"
+			}]
 			title: "Active Transformer"
 			x: 3.63d
 			y: 0.0d
@@ -178,6 +186,10 @@
 			id: "42760D3A86EFDCA3"
 			size: 1.1d
 			subtitle: "Time for a server room"
+			tasks: [{
+				id: "56D3B40470528839"
+				type: "checkmark"
+			}]
 			title: "Mass Data Storage"
 			x: 4.95d
 			y: 0.0d
@@ -195,6 +207,10 @@
 			shape: "rsquare"
 			size: 0.66d
 			subtitle: "Time for some lasers!"
+			tasks: [{
+				id: "407ED1D738EA10D1"
+				type: "checkmark"
+			}]
 			title: "Laser Power Transmission"
 			x: 3.63d
 			y: -1.32d
@@ -609,6 +625,10 @@
 			id: "79192BA29BE69170"
 			shape: "rsquare"
 			size: 0.66d
+			tasks: [{
+				id: "3DFCDF1B24506A8A"
+				type: "checkmark"
+			}]
 			title: "PackagedWho?"
 			x: 3.63d
 			y: 6.6d
@@ -712,6 +732,10 @@
 			shape: "rsquare"
 			size: 0.66d
 			subtitle: "Finally..."
+			tasks: [{
+				id: "47927C54DE11BD02"
+				type: "checkmark"
+			}]
 			title: "Best Flight"
 			x: 7.59d
 			y: 6.6d

@@ -828,6 +828,10 @@
 			]
 			id: "04E9D2F484702965"
 			subtitle: "Centralised power, at last"
+			tasks: [{
+				id: "6F18E4631B04E636"
+				type: "checkmark"
+			}]
 			title: "Power Substation"
 			x: 5.28d
 			y: 1.32d
