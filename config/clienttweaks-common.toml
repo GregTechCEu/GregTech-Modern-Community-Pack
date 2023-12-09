@@ -20,6 +20,8 @@
 	noOffhandTorchWithEmptyHand = false
 	#This restricts torches to be placed from the offhand only when you're holding a tool in your main hand.
 	offhandTorchWithToolOnly = false
+	#This prevents fireworks from being launched from your off hand if you are wearing an Elytra, unless you're flying.
+	noOffhandFireworksWithElytra = true
 	#This option will disable step assist added by other mods.
 	disableStepAssist = false
 	#This option will disable log stripping.
@@ -42,4 +44,6 @@
 	shieldWeapons = ["tetra:modular_sword"]
 	#Items that count as shields for the offhand-shield hiding tweak options.
 	shieldItems = ["basicshields:wooden_shield", "basicshields:golden_shield", "basicshields:diamond_shield", "basicshields:netherite_shield"]
+	#Items that count as fireworks for the offhand-firework tweak options.
+	fireworkItems = ["minecraft:firework_rocket"]
 

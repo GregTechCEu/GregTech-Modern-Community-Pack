@@ -11,30 +11,30 @@
 			id: "2583D0B64E51FAC8"
 			linked_quest: "5063FDFFBE3E4855"
 			size: 0.75d
-			x: 9.0d
-			y: -6.75d
+			x: 7.875d
+			y: -5.25d
 		}
 		{
 			id: "47BF469B9B0EB28A"
 			linked_quest: "4AFD3073C731A1E4"
-			size: 1.1d
-			x: 9.0d
-			y: -5.625d
+			size: 0.75d
+			x: 7.875d
+			y: -4.125d
 		}
 		{
 			id: "6C3B2B8F8B6646EA"
 			linked_quest: "6DDDE2268B691F74"
-			shape: "rsquare"
+			shape: "square"
 			size: 0.75d
 			x: 0.0d
-			y: -3.375d
+			y: -3.0d
 		}
 		{
 			id: "306AB6B6B81566DA"
 			linked_quest: "16A6AE5C770DB83A"
 			shape: "gear"
-			size: 1.5d
-			x: 0.0d
+			size: 1.2d
+			x: 2.25d
 			y: -1.875d
 		}
 	]
@@ -54,7 +54,7 @@
 				item: "gtceu:advanced_integrated_circuit"
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "square"
 			size: 0.75d
 			tasks: [{
 				count: 6L
@@ -64,49 +64,21 @@
 			}]
 			title: "High Voltage Machines"
 			x: 1.125d
-			y: -0.75d
+			y: -1.875d
 		}
 		{
 			dependencies: ["0021051273D48936"]
-			description: ["&aEnergium Crystals&r store a significant amount of &9EU&r. They are also arguably cheaper!"]
+			description: ["&aEnergium Crystals&r store a significant amount of &9EU&r. They're also arguably cheaper."]
 			icon: "gtceu:energy_crystal"
 			id: "55552589C581EE9E"
 			size: 0.75d
 			subtitle: "Science-fiction batteries!"
 			tasks: [{
-				id: "3FE646E607B19ACD"
+				id: "35D2AE2899F60BC3"
 				item: "gtceu:energy_crystal"
 				type: "item"
 			}]
 			title: "Super Batteries"
-			x: 2.25d
-			y: -3.0d
-		}
-		{
-			dependencies: ["55552589C581EE9E"]
-			description: [
-				"You probably don't have mobs to fight, but this armor provides nice QoL that you may enjoy!"
-				""
-				"&9Helmet:&r Provides &dNight vision&r (default keybind &4M&r but check for conflicts)"
-				""
-				"&9Chestplate:&r Provides nothing interesting, but can be further upgraded into the &aAdvanced&r version at the very end of &6HV&r Age."
-				""
-				"&9Leggings:&r Provides nothing special, perhaps we should have given it a small speed boost?"
-				""
-				"&9Boots:&r Provides &dStep Assist&r. You read that right!"
-				""
-				""
-				"&bLore:&r This armor is originally inspired by IndustrialCraft, but its first implementation within the GTCE environment came with Nuke Powered Utils, an addon mod to GTCE."
-			]
-			id: "773C23C341F563DE"
-			shape: "rsquare"
-			size: 0.75d
-			subtitle: "Not a registered trademark"
-			tasks: [{
-				id: "5CCCB3EA90795A4A"
-				type: "checkmark"
-			}]
-			title: "NanoMuscle"
 			x: 3.375d
 			y: -3.0d
 		}
@@ -116,9 +88,9 @@
 				"16A6AE5C770DB83A"
 			]
 			description: [
-				"The &3HV Autoclave&r - despite being optional - is a machine you will definitively want to grab."
+				"The &3HV Autoclave&r - despite being optional - is a machine you'll definitively want to grab."
 				""
-				"This unlocks unique Batteries that are &6far superior&r to standard Batteries."
+				"This unlocks unique Batteries that are &6far superior&r to their standard counterparts."
 			]
 			icon: "gtceu:hv_autoclave"
 			id: "0021051273D48936"
@@ -130,7 +102,7 @@
 				type: "item"
 			}]
 			title: "HV Autoclave"
-			x: 1.125d
+			x: 2.25d
 			y: -3.0d
 		}
 		{
@@ -150,50 +122,50 @@
 				type: "item"
 			}]
 			title: "High Voltage Bathing"
-			x: 3.375d
+			x: 4.5d
 			y: -1.875d
 		}
 		{
 			dependencies: ["26394C1290D70AB6"]
 			description: [
-				"If you're still running off the &3Large Bronze Boiler&r, you may want to upgrade to the &3Large Steel Boiler&r."
+				"If you're &lstill&r running off the &3Large Bronze Boiler&r, you may want to upgrade to the &3Large Steel Boiler&r."
 				""
-				"It is slightly more efficient than the &3LBB&r, and produces &d900 EU/t worth of Steam&r."
+				"It's slightly more efficient than the &3LBB&r, and produces &d900 EU/t worth of Steam&r."
 				""
-				"We would recommend you try other power options at this point, though!"
+				"We'd recommend you try other power options at this point."
 			]
 			icon: "gtceu:steel_large_boiler"
 			id: "1BB40CCF17D00719"
 			shape: "rsquare"
-			size: 0.75d
+			size: 0.66d
 			tasks: [{
 				id: "3872B1D118426B33"
 				item: "gtceu:steel_large_boiler"
 				type: "item"
 			}]
 			title: "One Hundred Million Pressure Cookers"
-			x: -1.125d
-			y: -3.0d
+			x: 1.125d
+			y: -0.75d
 		}
 		{
 			dependencies: ["16A6AE5C770DB83A"]
 			description: [
 				"You now have access to two &3new Maintenance Hatches&r. Both hatches &6do not require Maintenance&r when first placed in a Multiblock."
 				""
-				"The &3Automatic Maintenance Hatch&r is pretty simple - it eliminates the need for Maintenance, &6forever&r!"
+				"The &3Automatic Maintenance Hatch&r is pretty simple - it eliminates the need for Maintenance, &6forever&r."
 				""
 				"The &3Configurable Maintenance Hatch&r is more interesting. You can configure it to cut off &a10% duration&r on recipes, at the cost of making Maintenance happen three times as fast. That is &d16 real hours&r of activity."
 				""
 				"&9Reminder:&r You can put Tape in the maintenance Hatch to automatically fix problems."
 				"{@pagebreak}"
-				"&bLore:&r The Automatic Maintenance Hatch texture and mechanic comes from TecTech, an addon mod originally made for GregTech: New Horizons. "
+				"&l&3Lore:&r&o The Automatic Maintenance Hatch texture and mechanic comes from TecTech, an addon mod originally made for GregTech: New Horizons. "
 				""
-				"More TecTech references coming up if you stick with us with the late game!"
+				"&oYou'll see more from TecTech if you stick with us with the late game."
 			]
 			icon: "gtceu:configurable_maintenance_hatch"
 			id: "15645E46CC0E6764"
 			shape: "rsquare"
-			size: 0.75d
+			size: 0.66d
 			tasks: [
 				{
 					id: "4BE8DFB45A1BFC09"
@@ -207,13 +179,13 @@
 				}
 			]
 			title: "Advanced Maintenance"
-			x: -1.125d
-			y: -0.75d
+			x: 1.125d
+			y: -3.0d
 		}
 		{
 			dependencies: ["16A6AE5C770DB83A"]
 			description: [
-				"Just like in &bMV&r, here are more higher-tier components."
+				"Just like &bMV&r, you'll need to make higher-tier components."
 				""
 				"The painful &dFlawless Gems&r have been replaced with slightly-more-painful &dEyes of Ender&r. Also notice that the &aMotors&r require &d2x Silver Cables&r."
 				""
@@ -227,7 +199,7 @@
 			icon: "gtceu:hv_electric_motor"
 			id: "029CF0D9E5097F87"
 			shape: "rsquare"
-			size: 0.75d
+			size: 0.66d
 			tasks: [
 				{
 					id: "5B6D9DD390CC3184"
@@ -267,25 +239,25 @@
 			]
 			title: "We call this \"fun\""
 			x: 0.0d
-			y: -0.375d
+			y: -1.875d
 		}
 		{
 			dependencies: [
 				"26394C1290D70AB6"
 				"16A6AE5C770DB83A"
 			]
-			description: ["The &3HV Assembling Machine&r is the next step in progression, but also unlocks a handful of useful utilities."]
+			description: ["The &3HV Assembling Machine&r is the next step in progression, but also unlocks a handful of useful utilities - check around this quest for more."]
 			icon: "gtceu:hv_assembler"
 			id: "16B735F9C391D260"
-			size: 1.1d
+			size: 0.75d
 			tasks: [{
 				id: "1B70E35262CA2CB8"
 				item: "gtceu:hv_assembler"
 				type: "item"
 			}]
 			title: "HV Assembling Machine"
-			x: 0.0d
-			y: 0.75d
+			x: 2.25d
+			y: -0.75d
 		}
 		{
 			dependencies: ["16B735F9C391D260"]
@@ -293,14 +265,14 @@
 			icon: "gtceu:digital_interface_cover"
 			id: "111877E2F16AD71C"
 			shape: "rsquare"
-			size: 0.75d
+			size: 0.66d
 			tasks: [{
 				id: "505B2CDC455C36C5"
 				item: "gtceu:digital_interface_cover"
 				type: "item"
 			}]
 			title: "Digital Interface Cover"
-			x: -1.125d
+			x: 1.125d
 			y: 0.375d
 		}
 		{
@@ -313,40 +285,27 @@
 			icon: "gtceu:infinite_water_cover"
 			id: "78464574AF8A27AC"
 			shape: "rsquare"
-			size: 0.75d
+			size: 0.66d
 			tasks: [{
 				id: "3CE1967A82B9ED45"
 				item: "gtceu:infinite_water_cover"
 				type: "item"
 			}]
 			title: "Infinite Water"
-			x: -1.125d
-			y: 1.5d
-		}
-		{
-			dependencies: ["16B735F9C391D260"]
-			id: "357C4FAED27019CF"
-			shape: "rsquare"
-			size: 0.75d
-			tasks: [{
-				id: "658FBBCA404480B0"
-				type: "checkmark"
-			}]
-			title: "Central Monitor"
-			x: 0.0d
-			y: 1.875d
+			x: 2.25d
+			y: 0.375d
 		}
 		{
 			dependencies: ["124B32A0583A636A"]
 			description: [
 				"The &aSimple System on Chip&r will be used for the best &dULV Circuit&r recipe."
 				""
-				"I would also recommend going ahead and making all the other useful colored Lenses ahead of time. They are listed here in an &eoptional&r task."
+				"We'd also recommend going out of your way to make all the other useful colored Lenses ahead of time. They are listed here in an &eoptional&r task."
 			]
 			icon: "gtceu:cyan_glass_lens"
 			id: "6975F16F5B50F17F"
 			shape: "rsquare"
-			size: 0.75d
+			size: 0.66d
 			tasks: [
 				{
 					count: 20L
@@ -369,8 +328,8 @@
 				}
 			]
 			title: "I see the world in colour"
-			x: 2.25d
-			y: -0.75d
+			x: 4.5d
+			y: 0.375d
 		}
 		{
 			dependencies: [
@@ -380,15 +339,15 @@
 			description: ["&8ULV&r Circuits are used in some AE2 recipes, such as the &aAnnihilation Core&r and &aFormation Core&r."]
 			icon: "gtceu:nand_chip"
 			id: "15EC934CE8F4DC86"
-			size: 0.66d
+			size: 0.75d
 			tasks: [{
 				id: "6B595E3904B796C3"
 				item: "gtceu:nand_chip"
 				type: "item"
 			}]
 			title: "Best ULV Circuits!"
-			x: 3.375d
-			y: -0.75d
+			x: 4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -403,15 +362,15 @@
 			icon: "ae2:fluid_cell_housing"
 			id: "26E8E5C163340E5A"
 			shape: "rsquare"
-			size: 0.75d
+			size: 0.66d
 			tasks: [{
 				id: "4717CD0721804BAC"
 				item: "ae2:fluid_cell_housing"
 				type: "item"
 			}]
 			title: "Digital Fluid Storage"
-			x: 2.25d
-			y: 0.75d
+			x: 3.375d
+			y: -0.75d
 		}
 		{
 			dependencies: [
@@ -451,8 +410,8 @@
 				}
 			]
 			title: "Upgrade your EBF II"
-			x: 3.375d
-			y: 0.75d
+			x: 4.5d
+			y: -0.75d
 		}
 		{
 			dependencies: [
@@ -462,13 +421,14 @@
 			description: [
 				"The &3HV Chemical Reactor&r unlocks a ton of new recipes. Ah, who doesn't love the ever-growing demand on more advanced Chemistry?"
 				""
-				"&9Note:&r A lot of content is unlocked in the &6HV&r Age. However, not all of them are useful just yet! It would make HV too dense to include all of them here."
+				"&9Note:&r A lot of content is unlocked by reaching &6HV&r. However, not every processing line or item is crucial right now. It'd make &6HV&r too dense to include all of them here."
 				""
-				"Go check out the &5EV&r Chapter for what you have available!"
+				"Go check out the &5EV&r Chapter if you want to push yourself."
 			]
-			icon: "gtceu:hv_chemical_bath"
+			icon: "gtceu:hv_chemical_reactor"
 			id: "390E59F05132FCB8"
 			shape: "square"
+			size: 0.75d
 			tasks: [{
 				id: "652CFAE1FA60F3E2"
 				item: "gtceu:hv_chemical_reactor"
@@ -486,7 +446,7 @@
 				"Rutile, a form of Titanium Dioxide, cannot be electrolyzed directly - it has to be obtained from other Ores."
 				""
 				"The next steps are described in the next Quest. No need to rush things."
-				""
+				"{@pagebreak}"
 				"Bauxite is also an &6excellent source of Aluminium&r."
 				""
 				"Going to &dThe End&r will give you access to a better Bauxite vein, as well as &9Ilmenite&r, an even better source of Rutile."
@@ -496,13 +456,14 @@
 			icon: "gtceu:rutile_dust"
 			id: "59DFC4DA7D29C315"
 			shape: "rsquare"
-			size: 0.75d
+			size: 0.66d
 			subtitle: "...means it WASN'T Titanium!"
 			tasks: [
 				{
 					count: 15L
 					id: "7046AD026C55153C"
 					item: "gtceu:bauxite_dust"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -526,11 +487,11 @@
 				""
 				"The &dCarbon&r, &dChlorine&r, &dOxygen&r, and &dMagnesium&r used in the process can be &6perfectly recovered&r from the byproduct &dCarbon Monoxide&r and &dMagnesium Chloride&r with no loss. Set up a system to recover them and you can process an indefinite amount of Rutile in a closed loop!"
 				"{@pagebreak}"
-				"&aTitanium Tetrachloride&r also acts as a catalyst in the production of plastics. A small amount of &aTiCl₄ &rin the polymerisation process increases the polymer yield to &6133%&r&r. This is totally and completely optional, though."
+				"&aTitanium Tetrachloride&r also acts as a catalyst in the production of plastics. A small amount of &aTiCl₄ &rin the polymerisation process increases the polymer yield to &6133%&r&r. This is totally and completely optional."
 			]
 			icon: "gtceu:titanium_tetrachloride_bucket"
 			id: "727075AAF9F91FAE"
-			size: 1.1d
+			size: 0.75d
 			tasks: [{
 				amount: 1000L
 				fluid: "gtceu:titanium_tetrachloride"
@@ -553,15 +514,15 @@
 			icon: "gtceu:mercury_barium_calcium_cuprate_double_wire"
 			id: "45F9AAE4ABE32033"
 			shape: "rsquare"
-			size: 0.75d
+			size: 0.66d
 			tasks: [{
 				id: "2C582DDA7BC36951"
 				item: "gtceu:mercury_barium_calcium_cuprate_single_wire"
 				type: "item"
 			}]
 			title: "HV Superconductors"
-			x: 3.375d
-			y: -4.5d
+			x: 4.5d
+			y: -4.125d
 		}
 		{
 			dependencies: [
@@ -574,7 +535,7 @@
 				""
 				"Despite not being required &oyet&r, it still is a good idea to upgrade your primary &3EBF&r for those sweet, sweet &6Coil bonuses&r."
 				"{@pagebreak}"
-				"&bLore:&r In the original GregTech 5, there were only three types of coils. This was the last tier."
+				"&l&3Lore:&r&o In the original GregTech 5, there were only three types of coils. This was the last tier."
 			]
 			icon: "gtceu:nichrome_coil_block"
 			id: "6B08799BCFD01D3D"
@@ -587,8 +548,8 @@
 				type: "item"
 			}]
 			title: "Nichrome Coils"
-			x: 3.375d
-			y: -5.625d
+			x: 4.5d
+			y: -5.25d
 		}
 		{
 			dependencies: [
@@ -600,13 +561,14 @@
 				""
 				"Be sure your closed loop for Rutile is ready, and prepare to run a dedicated &3EBF&r for hours."
 				""
-				"The &5EV&r Age marks the end for single block generators! You will need to run several &3HV Generators&r to keep up - and later, upgrades to Multiblock Generators will be necessitated."
+				"&5EV&r marks the end for single block generators! You'll need to run several &3HV Generators&r to keep up - and later, upgrades to Multiblock Generators will be required."
+				""
 				"While Multiblock generators are much more expensive, they have the ability to be much more energy efficient!"
 			]
 			icon: "gtceu:titanium_ingot"
 			id: "7FA0ACB7F161F378"
 			shape: "gear"
-			size: 1.5d
+			size: 1.2d
 			tasks: [{
 				id: "6D3E269567F419DE"
 				item: "gtceu:titanium_ingot"
@@ -614,7 +576,7 @@
 			}]
 			title: "Titanium"
 			x: 5.625d
-			y: -5.625d
+			y: -5.25d
 		}
 		{
 			dependencies: ["6958029B5514D4EC"]
@@ -639,15 +601,15 @@
 			icon: "gtceu:item_tag_filter"
 			id: "717099CE2CB9A0ED"
 			shape: "rsquare"
-			size: 0.75d
+			size: 0.66d
 			tasks: [{
 				id: "497959F0CC572A68"
 				item: "gtceu:item_tag_filter"
 				type: "item"
 			}]
 			title: "300IQ"
-			x: 2.25d
-			y: -5.625d
+			x: 3.375d
+			y: -5.25d
 		}
 		{
 			dependencies: ["4AFD3073C731A1E4"]
@@ -660,7 +622,7 @@
 			]
 			icon: "gtceu:vacuum_freezer"
 			id: "6958029B5514D4EC"
-			size: 1.1d
+			size: 0.75d
 			subtitle: "Did you know vacuums actually make things hotter?"
 			tasks: [{
 				id: "784C1A8A77AD314E"
@@ -668,27 +630,27 @@
 				type: "item"
 			}]
 			title: "Ice Cold"
-			x: 7.125d
-			y: -5.625d
+			x: 6.75d
+			y: -5.25d
 		}
 		{
 			dependencies: [
 				"1C55AE6AD5BDE304"
 				"6958029B5514D4EC"
 			]
-			description: ["&a4A&r of &bMV&r energy transmission may be appealing, but you probably don't need these at this point. The option is always there if you need it!"]
+			description: ["&a4A&r of &bMV&r energy transmission may be appealing, but you probably don't need these at this point. The option is always there if you need it."]
 			icon: "gtceu:magnesium_diboride_double_wire"
 			id: "72F0DFAF5CC6D0FE"
 			shape: "rsquare"
-			size: 0.75d
+			size: 0.66d
 			tasks: [{
 				id: "4CCBDA5AC16CBB48"
 				item: "gtceu:magnesium_diboride_single_wire"
 				type: "item"
 			}]
 			title: "MV Superconductors"
-			x: 7.125d
-			y: -6.75d
+			x: 6.75d
+			y: -4.125d
 		}
 		{
 			dependencies: [
@@ -702,28 +664,15 @@
 			]
 			icon: "gtceu:hv_circuit_assembler"
 			id: "6B1595678ECB7AC8"
-			size: 1.1d
+			size: 0.75d
 			tasks: [{
 				id: "337D8EF42A7BD3A2"
 				item: "gtceu:hv_circuit_assembler"
 				type: "item"
 			}]
 			title: "HV Circuit Assembler"
-			x: 9.0d
-			y: -3.75d
-		}
-		{
-			dependencies: ["41D32C5178760F47"]
-			id: "4451E884F1807526"
-			shape: "rsquare"
-			size: 0.75d
-			tasks: [{
-				id: "1D9090BAEB920C42"
-				type: "checkmark"
-			}]
-			title: "Auto-build"
-			x: 10.125d
-			y: -2.25d
+			x: 7.875d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -751,7 +700,7 @@
 				title: "Nearest Stronghold location printed in chat"
 				type: "command"
 			}]
-			size: 1.1d
+			size: 0.75d
 			tasks: [{
 				count: 12L
 				id: "30A89DD2A22EE314"
@@ -759,7 +708,7 @@
 				type: "item"
 			}]
 			title: "The End"
-			x: 9.0d
+			x: 7.875d
 			y: -1.875d
 		}
 		{
@@ -770,9 +719,9 @@
 			description: [
 				"The first &1IV&r circuit. Congratulations on making it this far!"
 				""
-				"This will be used in the &5EV&r tier."
+				"This will be used when you get to &5EV&r."
 				""
-				"&bLore:&r The texture for the Mainframes is taken from an image of an IBM zEnterprise mainframe."
+				"&l&3Lore:&r&o The original texture for the Mainframes was taken from an image of an IBM zEnterprise mainframe."
 			]
 			icon: "gtceu:micro_processor_mainframe"
 			id: "14D277A164202FF8"
@@ -783,8 +732,8 @@
 				type: "item"
 			}]
 			title: "Mainframes - first IV Circuits!"
-			x: 10.125d
-			y: -5.625d
+			x: 9.0d
+			y: -4.125d
 		}
 		{
 			dependencies: [
@@ -796,15 +745,15 @@
 				""
 				"Creating it will put your &aPolyethylene&r automation to the test for all the &dPlascrete&r and/or &dCleanroom Glass&r you will make."
 				""
-				"We will start off with a 5x5x5 Cleanroom, but you should upgrade its size when you start feeling cramped."
+				"We'll start you off with a 5x5x5 Cleanroom, but you should upgrade its size when you start feeling cramped."
 				""
-				"&6This quest unlocks a new tutorial in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
+				"&6This quest unlocks a new tutorial on the Cleanroom in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
 				"{@pagebreak}"
-				"&bLore:&r The Cleanroom comes from GregTech 5, but as is often the case, the GT5 implementation is much more punishing. The recipes would run without regard to cleanliness, but had a % chance of completion equal to the cleanliness of the Cleanroom. This caused a lot of accidental voiding!"
+				"&l&3Lore:&r&o The Cleanroom comes from GregTech 5, but as is often the case, the GT5 implementation is much more punishing. The recipes would run without regard to cleanliness, but had a % chance of completion equal to the cleanliness of the Cleanroom. This caused a lot of accidental voiding."
 				""
-				"Furthermore, if the Cleanroom had a maintenance issue, the cleanliness would cap out at 90%, which means 10% of items would be voided!"
+				"&oFurthermore, if the Cleanroom had a maintenance issue, the cleanliness would cap out at 90%, which means 10% of items would be voided."
 				""
-				"The GTCEu Cleanroom will &6never void&r recipe outputs."
+				"&oThe GTCEu Cleanroom will &6never void&f recipe outputs."
 			]
 			icon: "gtceu:cleanroom"
 			id: "3568BC9742092FC5"
@@ -837,8 +786,8 @@
 				}
 			]
 			title: "The Cleanroom"
-			x: 7.5d
-			y: -4.125d
+			x: 6.75d
+			y: -3.0d
 		}
 		{
 			dependencies: ["41D32C5178760F47"]
@@ -856,15 +805,15 @@
 			icon: "gtceu:prospector.hv"
 			id: "2124BF15006733D5"
 			shape: "rsquare"
-			size: 0.75d
+			size: 0.66d
 			tasks: [{
 				id: "1ED12D379EEE0CBA"
 				item: "gtceu:prospector.hv"
 				type: "item"
 			}]
 			title: "HV Prospector"
-			x: 10.125d
-			y: -1.5d
+			x: 9.0d
+			y: -1.875d
 		}
 		{
 			dependencies: ["0EFEE489906256AA"]
@@ -876,7 +825,7 @@
 			icon: "gtceu:fluorine_bucket"
 			id: "42FB276AB16258D9"
 			shape: "rsquare"
-			size: 0.75d
+			size: 0.66d
 			tasks: [{
 				amount: 16000L
 				fluid: "gtceu:fluorine"
@@ -884,8 +833,8 @@
 				type: "fluid"
 			}]
 			title: "Fluorine"
-			x: 6.375d
-			y: 0.375d
+			x: 5.625d
+			y: -0.75d
 		}
 		{
 			dependencies: [
@@ -899,7 +848,7 @@
 				""
 				"&bFluorine&r will also be used in the &aUranium&r and &7Naquadah&r refinement processes."
 				""
-				"&9Tip:&r From this point onwards, I would recommend solidifying Polymers as &dBar&r (Ingot) form, as they can easily be shaped to whichever form you will need using the &3Extruder&r."
+				"&9Tip:&r From this point onwards, you should be solidifying Polymers as &dBar&r (Ingot) form, as they can easily be shaped to whichever form you will need using the &3Extruder&r."
 			]
 			icon: "gtceu:polytetrafluoroethylene_plate"
 			id: "7CC79617A4965F25"
@@ -910,7 +859,7 @@
 				type: "item"
 			}]
 			size: 0.75d
-			subtitle: "This is what you may know as Teflon!"
+			subtitle: "A.K.A - Teflon"
 			tasks: [
 				{
 					amount: 1000L
@@ -934,12 +883,12 @@
 			]
 			title: "Polytetrafluoroethylene"
 			x: 5.625d
-			y: -0.375d
+			y: 0.375d
 		}
 		{
 			dependencies: ["04F6E968CEEC3D49"]
 			description: [
-				"Making &aNitrobenzene&r will boost the energy efficiency of &aBenzene&r roughly &6fourfold&r! You love to see it."
+				"Making &aNitrobenzene&r will boost the energy efficiency of &aBenzene&r roughly &6fourfold&r. You love to see it."
 				""
 				"The catch here is that it takes &dDistilled Water&r and consumes a bit of &dSulfur&r every step."
 			]
@@ -955,7 +904,7 @@
 			}
 			id: "56E7A3A0CC690C8A"
 			shape: "rsquare"
-			size: 0.75d
+			size: 0.66d
 			tasks: [{
 				amount: 40000L
 				fluid: "gtceu:nitrobenzene"
@@ -963,8 +912,8 @@
 				type: "fluid"
 			}]
 			title: "Benzene Nitro"
-			x: 10.125d
-			y: 1.875d
+			x: 9.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7CC79617A4965F25"]
@@ -985,18 +934,18 @@
 				""
 				"The &3LCR&r has yet another &6advantage&r. You can use &32 Energy Hatches&r to allow it to run recipes of the &5next tier&r, similar to the &3Electric Blast Furnace&r."
 				"{@pagebreak}"
-				"&9Tip:&r Given the amount of LCRs you may end up using, I would recommend utilising &dwallsharing&r to its full potential."
+				"&9Tip:&r Given the amount of LCRs you may end up using, why not try utilising &dwallsharing&r to its full potential?"
 				""
-				"You may share one 2A (standard) &3Energy Hatch&r with 2 LCRs."
+				"You could share one 2A (standard) &3Energy Hatch&r between 2 LCRs."
 				""
-				"You may share &3Input/Output Hatches&r, but be careful to make sure each LCR is running the correct recipe."
+				"You might want to share &3Input/Output Hatches&r, but make sure each LCR is running the correct recipe."
 				""
 				"Keep in mind Maintenance hatches are not sharable."
 			]
 			icon: "gtceu:large_chemical_reactor"
 			id: "528CE69DA4358B2E"
 			shape: "gear"
-			size: 1.5d
+			size: 1.3d
 			tasks: [
 				{
 					id: "4738F666E22B212B"
@@ -1027,17 +976,15 @@
 			description: [
 				"&cTNT&r (Trinitrotoluene) can't be prepared with the usual Gunpowder and Sand anymore. Instead, you'll have to produce &aGelled Toluene&r and react it with Sulfuric Acid to make TNT."
 				""
-				"Using the &3HV Chemical Reactor&r recipe will double the yield of &aGelled Toluene&r, at the cost of requiring additional inputs."
+				"Using the &3HV Chemical Reactor&r recipe will double the yield of &aGelled Toluene&r at the cost of requiring additional inputs."
 				"{@pagebreak}"
 				"We don't have any easy tips to give you for &aToluene&r. It's going to be tricky no matter which route you take."
 				""
 				"That being said, don't miss out on the direct &aHeavy Fuel&r to &aToluene&r recipe in the single block &3Distillery&r."
 				""
-				"&aToluene&r can also optionally be used in the &5EV&r Age to make &dGasoline&r."
+				"&aToluene&r can also optionally be used in &5EV&r to make &dGasoline&r."
 				""
 				"&cTNT&r is used in the &3Implosion Compressor&r to make Gems. It also blows stuff up."
-				""
-				"Technically, you could also use Dynamite... but that's even more inconvenient to obtain than TNT."
 			]
 			icon: "minecraft:tnt"
 			id: "2B7B214EDE0B45A2"
@@ -1062,15 +1009,15 @@
 				}
 			]
 			title: "TNT"
-			x: 9.0d
-			y: 0.75d
+			x: 7.875d
+			y: 0.375d
 		}
 		{
 			dependencies: ["390E59F05132FCB8"]
 			description: [
 				"If you've killed a Blaze before, you may have noticed it dropped &eSulfur Dust&r instead of a &cBlaze Rod&r."
 				""
-				"In order to get &6Blaze Powder&r, you must instead combine &7Carbon Dust&r and &eSulfur Dust&r in an &6HV &3Chemical Reactor&r."
+				"In order to get &6Blaze Powder&r, you must instead combine &7Carbon Dust&r and &eSulfur Dust&r in a &3HV Chemical Reactor&r."
 			]
 			icon: "minecraft:blaze_powder"
 			id: "16E3465CF94E2BDD"
@@ -1082,7 +1029,7 @@
 				type: "item"
 			}]
 			title: "Blaze Powder"
-			x: 7.125d
+			x: 6.75d
 			y: -1.875d
 		}
 		{
@@ -1114,8 +1061,8 @@
 				}
 			]
 			title: "Ender Pearls"
-			x: 9.0d
-			y: -0.375d
+			x: 7.875d
+			y: -0.75d
 		}
 		{
 			dependencies: ["3568BC9742092FC5"]
@@ -1124,9 +1071,9 @@
 				""
 				"&7Silicon&r can be doped with small amounts of &ePhosphorus&r to make a better &eSilicon Boule&r."
 				""
-				"Phosphorus-doped Silicon Boules typically yield &68 times&r more wafers than their non-doped counterparts. However, they are not strictly needed until the &5EV&r age, where they will be used in more complex wafers."
+				"Phosphorus-doped Silicon Boules typically yield &68 times&r more wafers than their non-doped counterparts. However, they are not strictly needed until &5EV&r, where they'll be used in more complex wafers."
 				""
-				"&9Note&r: All processing of Phosphorus Boules and Wafers requires a &dCleanroom&r!"
+				"&9Note&r: All processing of Phosphorus Boules and Wafers will require a &dCleanroom&r."
 			]
 			icon: "gtceu:phosphorus_boule"
 			id: "017019EB38F7A18C"
@@ -1150,29 +1097,29 @@
 				}
 			]
 			title: "Phosphorus Boules"
-			x: 7.875d
-			y: -2.625d
+			x: 9.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["26394C1290D70AB6"]
 			description: [
 				"The &3Implosion Compressor&r turns the Dust form of Gems into their Gem form."
 				""
-				"It is required to get &aEnder Pearls&r."
+				"It's required to get &aEnder Pearls&r."
 				""
-				"&cTNT&r or &cDynamite&r can be used for the Implosion."
+				"&cTNT&r can be used for the Implosion."
 			]
 			icon: "gtceu:implosion_compressor"
 			id: "1137D2BA7E03D685"
-			size: 1.1d
+			size: 0.75d
 			tasks: [{
 				id: "52E617BBF3718471"
 				item: "gtceu:implosion_compressor"
 				type: "item"
 			}]
 			title: "Implosion Compressor"
-			x: 10.125d
-			y: -0.375d
+			x: 9.0d
+			y: -0.75d
 		}
 		{
 			dependencies: [
@@ -1180,15 +1127,15 @@
 				"528CE69DA4358B2E"
 			]
 			description: [
-				"However, Nitric Acid's fumes are extremely toxic! It is also a very potent oxidizer."
+				"Nitric Acid's fumes are extremely toxic! It's also a very potent oxidizer."
 				""
 				"&aNitric Acid&r is used in:"
 				""
 				"&9-&r Cetane-Boosted Diesel, a better Diesel fuel that you'll get to soon."
 				"&9-&r Nitrobenzene, a better Gas fuel that we're not far off making."
 				"&9-&r The optional gem slurry chains."
-				"&9-&r The Platinum Group Sludge chain in the &1IV&r Age."
-				"&9-&r Polybenzimidazole (gah, bit my tongue pronouncing that!), in &1IV&r Age."
+				"&9-&r The Platinum Group Sludge chain in &1IV&r."
+				"&9-&r Polybenzimidazole (try saying that ten times fast!) in &1IV&r."
 				"{@pagebreak}"
 				"There are two main ways to make &aNitric Acid&r - &othe &agood&f way and the &4bad&f ways!&r"
 				""
@@ -1209,7 +1156,7 @@
 				type: "fluid"
 			}]
 			title: "Nitric Acid"
-			x: 7.5d
+			x: 6.75d
 			y: 1.5d
 		}
 		{
@@ -1231,7 +1178,7 @@
 			}
 			id: "04F6E968CEEC3D49"
 			shape: "rsquare"
-			size: 0.75d
+			size: 0.66d
 			subtitle: "This is to go further beyond"
 			tasks: [{
 				amount: 50000L
@@ -1240,17 +1187,17 @@
 				type: "fluid"
 			}]
 			title: "Cetane-boosted Diesel"
-			x: 9.0d
-			y: 1.875d
+			x: 7.875d
+			y: 1.5d
 		}
 		{
 			dependencies: ["16B735F9C391D260"]
 			description: [
-				"The &eSMD&r (surface-mount device) &aComponents&r are CEU-exclusive components that are required for the next tier of circuits (&5Nano&r). They can also be used in place of their non-SMD counterparts in most Circuit recipes."
+				"The &eSMD&r (surface-mount device) &aComponents&r are CEu-exclusive components that are required for the next tier of circuits (&5Nano&r). They can also be used in place of their non-SMD counterparts in most Circuit recipes."
 				""
 				"Of course they're more complicated to make, this is GregTech! What did you expect?"
 				""
-				"Invest in automation for these - you won't stop needing them!"
+				"Invest in automation for these - you won't stop needing them."
 			]
 			icon: "gtceu:smd_transistor"
 			id: "4C3805F75C9EE3DD"
@@ -1274,15 +1221,15 @@
 				}
 			]
 			title: "SMD Components"
-			x: 1.875d
-			y: 1.875d
+			x: 3.375d
+			y: 0.375d
 		}
 		{
 			dependencies: ["4C3805F75C9EE3DD"]
 			description: [
 				"&aPlatinum&r (needed for SMD Diodes) has its own dedicated Quest in the &5EV&r tab."
 				""
-				"&bLore:&r The SMD Inductors make an appearance in GTCEu for the first time. It's more consistent and convenient to have all Circuit components get a SMD counterpart."
+				"&l&3Lore:&r&o The SMD Inductors make an appearance in GTCEu for the first time. It's more consistent and convenient to have all Circuit components receive an SMD counterpart."
 			]
 			icon: "gtceu:smd_capacitor"
 			id: "7F272A099E65F848"
@@ -1301,7 +1248,7 @@
 			]
 			title: "More SMD Components"
 			x: 3.375d
-			y: 1.875d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -1311,14 +1258,14 @@
 			description: [
 				"The &3HV Macerator&r finally unlocks more of the slots shown in JEI. With this, the first &9three&r slots are now available. This allows you to receive the &6unique ore Byproduct&r from macerating &dThermal &dCentrifuged Ore&r."
 				""
-				"Macerating Ores costs &a32 EU/t&r with &5both overclocks&r, which makes this machine able to fit in LV lines - convenient!"
+				"Macerating Ores costs &a32 EU/t&r with &5two overclocks&r, which makes this machine able to fit in &7LV&r lines - very, very convenient."
 				""
-				"Despite the signicant improvements this machine provides, it is still not completely worth it to set up advanced processing for every single ores. Energy and time are a huge factor to never neglect, so only process the ores that produce &6Byproducts&r you care for."
-				""
-				"&bLore:&r In GregTech 5u, the HV macerator only gave two slots. Who needed that stone dust anyways?"
+				"Despite the signicant improvements this machine provides, it still isn't completely worth it to set up advanced processing for every single ore. Energy and time are still things to consider, so only process the ores that produce &6Byproducts&r you care for."
+				"{@pagebreak}"
+				"&l&3Lore:&r&o In GregTech 5u, the &6HV&r&o Macerator only gave two slots. Urgh... we weren't planning on using that Stone Dust, anyway..."
 			]
 			id: "6B7762F672BAE76F"
-			size: 1.1d
+			size: 0.75d
 			subtitle: "Shredding your Ores with byproducts"
 			tasks: [{
 				id: "76DAF1C1B90EFE87"
@@ -1326,7 +1273,7 @@
 				type: "item"
 			}]
 			title: "Universal Macerator"
-			x: -1.5d
+			x: -1.125d
 			y: -1.875d
 		}
 		{
@@ -1335,21 +1282,21 @@
 				"390E59F05132FCB8"
 			]
 			description: [
-				"&aAmmonia&r is &doptional&r in the &6HV&r Age."
+				"&aAmmonia&r is &doptional&r in &6HV&r."
 				""
 				"You may use it in the production of:"
 				"&9-&r Nitric Acid, although unrecommended."
-				"&9-&r Rocket Fuel, required for Nether Stars, in &1IV&r Age."
-				"&9-&r Polybenzimidazole (almost bit my tongue saying that!), in &1IV&r Age."
+				"&9-&r Rocket Fuel, required for Nether Stars in &1IV&r."
+				"&9-&r Polybenzimidazole (now THAT'S a tongue twister!) in &1IV&r."
 				""
-				"The recipe that will give you the least headaches is the one in the &3HV Chemical Reactor&r. Make sure your &aHydrogen&r production (mostly from &aWater electrolysis&r) is keeping up."
+				"The \"least painful\" recipe should be the one in the &3HV Chemical Reactor&r. Make sure your &aHydrogen&r production (mostly from &aWater electrolysis&r) is keeping up."
 				""
-				"It will also be obtained as a waste product from &dPlatinum Group Sludge&r processing."
+				"You can also obtain &aAmmonia&r as a waste product from &dPlatinum Group Sludge&r processing."
 			]
 			icon: "gtceu:ammonia_bucket"
 			id: "4343746E706264E6"
 			shape: "rsquare"
-			size: 0.75d
+			size: 0.66d
 			tasks: [{
 				amount: 1000L
 				fluid: "gtceu:ammonia"
@@ -1357,8 +1304,48 @@
 				type: "fluid"
 			}]
 			title: "Ammonia"
-			x: 7.5d
-			y: -0.375d
+			x: 6.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["6958029B5514D4EC"]
+			description: [
+				"With your new &bVacuum Freezer&r, you can now \"&ofreeze&r\" air into &aLiquid Air&r, granting access to &6Creative Flight&r! Do be sure to have a look at processing some additional &aLiquid Air&r - the products of its distillation are very appealing."
+				""
+				"&dXP Drain&r whilst flying has been &cdisabled&r in this pack."
+			]
+			icon: "better_angel_ring:angel_ring"
+			id: "4B4F53FB33DE1C62"
+			shape: "rsquare"
+			size: 0.66d
+			tasks: [{
+				id: "6E9FE61644EE53AB"
+				item: "better_angel_ring:angel_ring"
+				type: "item"
+			}]
+			title: "I believe I can fly"
+			x: 9.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["4024C831C77101CA"]
+			description: [
+				"If you're looking for a change of scene, the &5Void Dimension&r is a perfectly empty area for you to build your factory."
+				""
+				"It wouldn't be unwise to procure some manner of &aflight&r before venturing here - maybe look around and see if this pack has &6any options&r."
+			]
+			icon: "javd:portal_block"
+			id: "1011551290D3D7EA"
+			shape: "rsquare"
+			size: 0.66d
+			tasks: [{
+				id: "19CC2402A14AE77C"
+				item: "javd:portal_block"
+				type: "item"
+			}]
+			title: "Void Dimension Portal"
+			x: 9.0d
+			y: 0.375d
 		}
 	]
 	subtitle: ["Scale up your power and begin advanced chemistry"]

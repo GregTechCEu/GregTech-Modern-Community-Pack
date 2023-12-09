@@ -2,11 +2,14 @@ ServerEvents.recipes(event => {
   let yeet = (recipeTag) => {
     event.remove({id: recipeTag})
   }
+  let yote = (itemName) => {
+    event.remove({output: itemName})
+    event.remove({input: itemName})
+  }
   event.remove({type: "ae2:transform"})
   event.remove({type: "ae2:entropy"})
   event.remove({type: "ae2:charger"})
   event.remove({type: "ae2:inscriber"})
-  event.remove({mod: "ae2additions"})
   yeet("ae2:network/blocks/inscribers")
   yeet("ae2:network/blocks/crystal_processing_charger")
   yeet("ae2:misc/deconstruction_certus_quartz_pillar")
@@ -24,4 +27,16 @@ ServerEvents.recipes(event => {
   yeet("ae2:tools/matter_cannon")
   yeet("ae2:shaped/not_so_mysterious_cube")
   yeet("ae2:network/blocks/crystal_processing_quartz_growth_accelerator")
+
+  yote("ae2:cut_quartz_block")
+  yote("ae2:chiseled_quartz_block")
+  yote('ae2:quartz_stairs')
+  yote('ae2:quartz_bricks')
+  yote('ae2:quartz_pillar')
+  yote('ae2:smooth_quartz_block')
+  yote('ae2:quartz_wall')
+  yote('ae2:quartz_slab')
+
+
+
 })

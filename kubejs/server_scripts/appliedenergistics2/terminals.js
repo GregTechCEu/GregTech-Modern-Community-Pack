@@ -66,7 +66,7 @@ ServerEvents.recipes(event => {
   ] , {
     E: "gtceu:lv_electric_piston",
     F: "ae2:formation_core",
-    C: "ae2:fluix_crystal",
+    C: "#forge:gears/fluix",
     P: "#forge:plates/steel"
   })
 
@@ -78,7 +78,7 @@ ServerEvents.recipes(event => {
   ] , {
     E: "gtceu:lv_electric_piston",
     F: "ae2:annihilation_core",
-    C: "ae2:fluix_crystal",
+    C: "#forge:gears/fluix",
     P: "#forge:plates/steel"
   })
 

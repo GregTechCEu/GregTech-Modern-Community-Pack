@@ -2,12 +2,13 @@ ServerEvents.recipes(event => {
   event.remove({id: "toolbelt:belt"})
   event.shaped("toolbelt:belt", [
     'SLS',
-    'L L',
+    'C C',
     'LIL'
   ] , {
     S: "minecraft:string",
     L: "minecraft:leather",
-    I: "#forge:plates/iron"
+    I: "#forge:plates/steel",
+    C: "#forge:screws/steel"
   })
   event.remove({id: "toolbelt:pouch"})
   event.shaped("toolbelt:pouch", [
@@ -15,7 +16,7 @@ ServerEvents.recipes(event => {
     'LSL',
     '   '
   ] , {
-    G: "#forge:ingots/gold",
+    G: "#forge:rings/gold",
     L: "minecraft:leather",
     S: "#forge:plates/steel"
   })

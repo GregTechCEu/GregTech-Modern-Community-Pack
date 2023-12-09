@@ -1,5 +1,5 @@
-ServerEvents.recipes(event => {
-  const greg = event.recipes.gtceu
+ServerEvents.recipes((event) => {
+  const greg = event.recipes.gtceu;
   const dyes = [
     "white",
     "orange",
@@ -16,28 +16,29 @@ ServerEvents.recipes(event => {
     "brown",
     "green",
     "red",
-    "black" ]
-  event.remove({mod: "elevatorid"})
-  dyes.forEach(dyes => {
-    greg.chemical_bath(dyes + "_elevator")
+    "black",
+  ];
+  event.remove({ mod: "elevatorid" });
+  dyes.forEach((dyes) => {
+    greg
+      .chemical_bath(dyes + "_elevator")
+      .itemInputs("#elevatorid:elevators")
+      .inputFluids("gtceu:" + dyes + "_dye 18")
+      .itemOutputs("elevatorid:elevator_" + dyes)
+      .duration(20)
+      .EUt(7);
+  });
+  greg
+    .chemical_bath("elevator_washing")
     .itemInputs("#elevatorid:elevators")
-    .inputFluids("gtceu:" + dyes + "_dye 18")
-    .itemOutputs("elevatorid:elevator_" + dyes)
-    .duration(20).EUt(7)
-  })
-  greg.chemical_bath("elevator_washing")
-  .itemInputs("#elevatorid:elevators")
-  .inputFluids("gtceu:chlorine 50")
-  .itemOutputs("elevatorid:elevator_gray")
-  .duration(400).EUt(2)
+    .inputFluids("gtceu:chlorine 50")
+    .itemOutputs("elevatorid:elevator_gray")
+    .duration(400)
+    .EUt(2);
 
-  event.shaped("elevatorid:elevator_gray", [
-    'PPP',
-    'GFG',
-    'PPP'
-  ] , {
+  event.shaped("elevatorid:elevator_gray", ["PPP", "GFG", "PPP"], {
     P: "#forge:plates/steel",
     G: "#forge:gears/small/steel",
-    F: "#forge:frames/steel"
-  })
-})
+    F: "#forge:frames/steel",
+  });
+});

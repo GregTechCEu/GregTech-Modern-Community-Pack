@@ -10,14 +10,14 @@
 	emergency_items_cooldown: 300
 	grid_scale: 0.5d
 	icon: "kubejs:greg_icon"
-	lock_message: "e"
+	lock_message: "eSFSDF"
 	loot_crate_no_drop: {
 		boss: 0
 		monster: 600
 		passive: 4000
 	}
 	pause_game: false
-	progression_mode: "linear"
+	progression_mode: "default"
 	title: "GregTech Community Pack"
 	version: 13
 }

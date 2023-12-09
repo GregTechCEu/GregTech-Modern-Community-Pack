@@ -61,18 +61,4 @@ ServerEvents.recipes(event => {
   event.shapeless("ae2:redstone_card", [
     "ae2:basic_card", "#forge:plates/red_alloy"
   ])
-
-  // Quantum Card
-  event.remove({id: "aeinfinitybooster:infinity_card"})
-  event.remove({id: "aeinfinitybooster:dimension_card"})
-  event.shaped("aeinfinitybooster:dimension_card", [
-    'AS ',
-    'Ed '
-  ] , {
-    A: "ae2:advanced_card",
-    S: "gtceu:luv_sensor",
-    E: "gtceu:luv_emitter",
-    d: "#forge:tools/screwdrivers"
-  })
-
 })

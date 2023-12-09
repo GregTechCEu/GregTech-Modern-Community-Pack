@@ -10,30 +10,30 @@
 		{
 			id: "5232A33368566616"
 			linked_quest: "6988AE94BE7B461F"
-			size: 0.66d
-			x: 5.61d
-			y: 4.95d
+			size: 0.75d
+			x: 5.625d
+			y: 3.75d
 		}
 		{
 			id: "194EA210B37DFEA0"
 			linked_quest: "762C48F0C2EA6B81"
-			size: 0.66d
-			x: 4.29d
-			y: 3.63d
+			size: 0.75d
+			x: 4.5d
+			y: 2.625d
 		}
 		{
 			id: "5BB69AB0561DAE36"
 			linked_quest: "0199DBC46D7BC2B9"
-			size: 0.66d
-			x: 6.93d
-			y: 2.31d
+			size: 0.75d
+			x: 6.75d
+			y: 1.5d
 		}
 		{
 			id: "395B2149ABE3A85F"
 			linked_quest: "42760D3A86EFDCA3"
-			size: 1.1d
-			x: 2.6083333333333556d
-			y: 1.3080612244897978d
+			size: 0.75d
+			x: 3.375d
+			y: 1.5d
 		}
 	]
 	quests: [
@@ -62,15 +62,15 @@
 			}
 			id: "6E8F257261F93501"
 			shape: "heart"
-			size: 5.0d
+			size: 4.0d
 			subtitle: "Is this... the end?"
 			tasks: [{
 				id: "3BE7164F661251AD"
 				type: "checkmark"
 			}]
 			title: "The Finale"
-			x: 12.371904761904801d
-			y: 1.3464285714285893d
+			x: 10.125d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -93,8 +93,8 @@
 				type: "item"
 			}]
 			title: "Cleaning Maintenance Hatch"
-			x: 5.61d
-			y: 3.63d
+			x: 5.625d
+			y: 2.625d
 		}
 		{
 			dependencies: [
@@ -105,10 +105,10 @@
 			description: [
 				"The &aUV Lapotronic Orb&r is even better than the &cZPM&r one! It of course comes at a price..."
 				"{@pagebreak}"
-				"&bLore&r: Imagine making 512 IV or 64 LuV Orbs or 8 ZPM Orbs for just one of these! See the Lore for the LuV orb for details."
+				"&l&3Lore:&r&o Imagine making 512 &1IV&f Orbs, or 64 &dLuV&f Orbs... or 8 &cZPM&f Orbs.... for just one of these! See the Lore for the LuV orb for details."
 			]
 			id: "3D9D27F29D9D12F6"
-			size: 0.66d
+			size: 0.75d
 			subtitle: "It holds way too much power!"
 			tasks: [{
 				id: "3A3B82E7FEE173C3"
@@ -116,8 +116,8 @@
 				type: "item"
 			}]
 			title: "Ultimate Battery?"
-			x: 8.58d
-			y: 3.63d
+			x: 7.875d
+			y: 2.625d
 		}
 		{
 			dependencies: [
@@ -129,11 +129,11 @@
 				""
 				"Don't try to win Minecraft - you can't."
 				"{@pagebreak}"
-				"&bLore&r: You're probably tired of this by now, but things are different with the battery lore this time. We promise."
+				"&l&3Lore:&r&o You're probably tired of this by now, but things are different with the battery lore this time. We promise."
 				""
-				"GTCEu's ultimate battery uses 16 UV orbs. GTNH's only uses 8. However, GTNH also has a &lReally Ultimate Battery&r made of 8 Ultimate Batteries! It's not useful at all, but still exists..."
+				"&oGTCEu's ultimate battery uses 16 &3UV&f orbs. GTNH's only uses 8. However, GTNH also has a &lReally Ultimate Battery&r&o made of 8 Ultimate Batteries! It's not useful at all, but still exists..."
 				""
-				"They also added an &lExtremely Ultimate Battery&r made of 8 Really Ultimate Batteries, which is ludicrously expensive."
+				"&oThey also added an &lExtremely Ultimate Battery&r&o made of 8 Really Ultimate Batteries, which is ludicrously expensive."
 			]
 			id: "6F15D7574B8F6DB5"
 			rewards: [{
@@ -142,7 +142,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.75d
+			size: 1.3d
 			subtitle: "Consider touching some grass"
 			tasks: [{
 				id: "5EDF6F9FD702E463"
@@ -150,8 +150,8 @@
 				type: "item"
 			}]
 			title: "Ultimate Battery!"
-			x: 8.58d
-			y: 1.32d
+			x: 7.875d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3CDA855A045A9F4D"]
@@ -163,11 +163,11 @@
 				"HPCAs cannot connect to &3Network Switches&r by default, and each connected HPCA requires an &3HPCA Bridge Component&r to enable this functionality."
 			]
 			id: "0BADFBA6F96E457E"
-			size: 1.1d
+			size: 0.75d
 			subtitle: "With our powers combined..."
 			title: "Network Switch"
-			x: 0.99d
-			y: 0.33d
+			x: 2.25d
+			y: 0.375d
 		}
 		{
 			dependencies: [
@@ -181,7 +181,7 @@
 			]
 			id: "3B49BD004F38E1A2"
 			shape: "gear"
-			size: 1.5d
+			size: 1.2d
 			subtitle: "The &6final&r circuit"
 			tasks: [{
 				id: "433027F7B7C732A1"
@@ -189,8 +189,8 @@
 				type: "item"
 			}]
 			title: "Wetware Mainframe - The UHV Circuit"
-			x: 2.64d
-			y: -1.32d
+			x: 3.375d
+			y: -0.75d
 		}
 		{
 			dependencies: [
@@ -199,23 +199,23 @@
 			]
 			description: ["The &3Data Module&r is required for Endgame Research. &aAssembly Lines&r cannot read from it using &aData Access Hatches&r directly, and instead require the &9Data Bank&r."]
 			id: "45E300FD7CD05A37"
-			size: 0.66d
+			size: 0.75d
 			subtitle: "Data storage sure is expensive..."
 			title: "Data Module"
-			x: 2.6399999999999997d
-			y: 0.33d
+			x: 3.375d
+			y: 0.375d
 		}
 		{
 			dependencies: ["023FF9633765A0EB"]
 			description: [
 				"&6Neutronium&r is a hyper-dense material normally found in the hearts of neutron stars: the collapsed cores of stars between ten and thirty times the size of the sun. It is the final primary material in GTCEu."
 				"{@pagebreak}"
-				"&bLore&r: In GCYL, Neutronium is unlocked at UMV-tier (called UXV in CEu). There is also Cosmic Neutronium, which is equivalent to Avaritia's Neutronium in GT5u, which was unlocked even later in GCYL!"
+				"&l&3Lore:&r&o In GCYL, Neutronium is unlocked at UMV-tier (called UXV in CEu). There is also Cosmic Neutronium, which is equivalent to Avaritia's Neutronium in GT5u, which was unlocked even later in GCYL!"
 				""
-				"&bMore lore&r: Fun fact: a single neutronium block is approximately 2884 million metric tons and somewhere around 600000K, yet you're somehow capable of holding one with your bare hands. Don't think about it too much."
+				"&l&More Lore:&r&o Fun fact: a single neutronium block is approximately 2884 million metric tons and somewhere around 600000K, yet you're somehow capable of holding one with your bare hands. Don't think about it too much."
 			]
 			id: "6DBF61D4F94BC851"
-			size: 1.1d
+			size: 0.75d
 			subtitle: "Pure Neutrons"
 			tasks: [{
 				id: "0454B12D9A5C9795"
@@ -223,8 +223,8 @@
 				type: "item"
 			}]
 			title: "Neutronium"
-			x: 5.94d
-			y: -1.32d
+			x: 5.625d
+			y: -0.75d
 		}
 		{
 			dependencies: [
@@ -238,7 +238,7 @@
 				"These coils aren't needed for much, but they'll provide another perfect overclock for most recipes!"
 			]
 			id: "6AF3A40BC9CE7122"
-			size: 1.1d
+			size: 0.75d
 			subtitle: "Why would you even need something this hot?!"
 			tasks: [{
 				count: 16L
@@ -247,23 +247,23 @@
 				type: "item"
 			}]
 			title: "Tritanium Coils"
-			x: 4.29d
-			y: 2.31d
+			x: 4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6DBF61D4F94BC851"]
 			description: [
 				"A goal if you really want to make a point."
 				""
-				"If you make this in a UV machine, it will take you 10 days."
+				"If you make this in a &3UV&r machine, it'll take you 10 days."
 				""
-				"If you overclock a Gregicality Multiblock to UEV (4A UHV hatch), it will still take 2.5 days!"
+				"If you overclock a Gregicality Multiblock to UEV (by using a 4A &4UHV&r hatch), you'll still be waiting for 2.5 days!"
 				"{@pagebreak}"
-				"&bLore:&r The NAN Certificate comes from Crops++, a GT5u addon that adds a wide variety of IC2 crops."
+				"&l&3Lore:&r&o The NAN Certificate comes from Crops++, a GT5u addon that adds a wide variety of IC2 crops."
 			]
 			id: "3ED40CE1E4476C99"
 			shape: "rsquare"
-			size: 1.1d
+			size: 0.66d
 			subtitle: "GGEZ"
 			tasks: [{
 				id: "29384189E33C8CB1"
@@ -271,8 +271,8 @@
 				type: "item"
 			}]
 			title: "Certificate of not being a Noob anymore"
-			x: 5.94d
-			y: 0.33d
+			x: 5.625d
+			y: 0.375d
 		}
 		{
 			dependencies: [
@@ -288,7 +288,7 @@
 				""
 				"They also need a lot more &9Computation&r, which means &3Advanced HPCA Components&r are now required!"
 				""
-				"Computation Needs for Early UV:"
+				"Computation Needs for early &3UV&r:"
 				""
 				"- &a32 CWU/t&r: Basic &3UV&r Components and the Network Switch"
 				"- &a48 CWU/t&r: &3UV&r Sensor, Emitter, and Field Generator"
@@ -326,8 +326,8 @@
 				}
 			]
 			title: "Total Euphoria"
-			x: 4.29d
-			y: 4.95d
+			x: 5.625d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -339,7 +339,7 @@
 				""
 				"Don't forget that &d16 Amp&r variants exist!"
 				""
-				"Don't forget that these hatches require a &9Data Orb&r for research."
+				"Additionally, remember that these hatches require a &9Data Orb&r for research."
 			]
 			icon: "gtceu:uv_energy_input_hatch"
 			id: "2F2F82D9DE3C798C"
@@ -358,13 +358,13 @@
 				}
 			]
 			title: "Upgrading your Assembly Line III"
-			x: 4.29d
-			y: 0.33d
+			x: 4.5d
+			y: 0.375d
 		}
 		{
 			dependencies: ["6AF3A40BC9CE7122"]
 			description: [
-				"&aUV Superconductors&r show up a lot in recipes when making a &9Fusion Reactor Mk3&r. You will need &ea lot&r&r of them. "
+				"&aUV Superconductors&r show up a lot in recipes when making a &9Fusion Reactor Mk3&r. Better get ready to make a boatload..."
 				""
 				"You can also use them to cheapen &9Superconducting Coils&r even further."
 			]
@@ -377,8 +377,8 @@
 				type: "item"
 			}]
 			title: "UV Superconductors"
-			x: 0.99d
-			y: 2.31d
+			x: 2.25d
+			y: 1.5d
 		}
 		{
 			dependencies: ["616DB394EB7D81D6"]
@@ -406,8 +406,8 @@
 				}
 			]
 			title: "Upgrading your Assembly Line for the Last Time"
-			x: 7.26d
-			y: -2.64d
+			x: 6.75d
+			y: -1.875d
 		}
 		{
 			dependencies: ["6DBF61D4F94BC851"]
@@ -427,8 +427,8 @@
 				type: "item"
 			}]
 			title: "Neutronium-doped Silicon Boule"
-			x: 7.26d
-			y: -1.32d
+			x: 6.75d
+			y: -0.75d
 		}
 		{
 			dependencies: ["0009F48B6E385A47"]
@@ -443,14 +443,14 @@
 				type: "item"
 			}]
 			title: "Creative ME Energy"
-			x: 8.58d
-			y: -2.64d
+			x: 7.875d
+			y: -1.875d
 		}
 		{
 			dependencies: ["6DBF61D4F94BC851"]
 			description: ["The &aGravi Star&r is the final upgraded Nether Star in GTCEu. It's needed for &3UV&r Sensors, Emitters, and Field Generators."]
 			id: "0009F48B6E385A47"
-			size: 0.66d
+			size: 0.75d
 			subtitle: "Unfortunately, doesn't make you float"
 			tasks: [{
 				id: "06668056CFF73DBD"
@@ -458,8 +458,8 @@
 				type: "item"
 			}]
 			title: "Gravi Star"
-			x: 8.58d
-			y: -1.32d
+			x: 7.875d
+			y: -0.75d
 		}
 		{
 			dependencies: [
@@ -477,7 +477,7 @@
 				"It can also overclock lower voltage recipes, such as those in the Mk1 or Mk2 reactor. See the Mk1's quest for how these mechanics work."
 			]
 			id: "023FF9633765A0EB"
-			size: 1.1d
+			size: 0.75d
 			subtitle: "The most expensive form of Fusion"
 			tasks: [{
 				id: "571672CEA7362C63"
@@ -485,8 +485,8 @@
 				type: "item"
 			}]
 			title: "Fusion Reactor III"
-			x: 4.29d
-			y: -1.32d
+			x: 4.5d
+			y: -0.75d
 		}
 		{
 			dependencies: ["6DBF61D4F94BC851"]
@@ -505,8 +505,8 @@
 				type: "item"
 			}]
 			title: "UHV Superconductors"
-			x: 5.94d
-			y: -2.64d
+			x: 5.625d
+			y: -1.875d
 		}
 		{
 			dependencies: ["3F058322E1A8D5EC"]
@@ -526,8 +526,8 @@
 				type: "item"
 			}]
 			title: "Highly Advanced SoCs"
-			x: 7.26d
-			y: -0.33d
+			x: 6.75d
+			y: 0.375d
 		}
 	]
 	subtitle: ["Bring your long journey to a well-deserved end"]

@@ -10,6 +10,8 @@ multipartDeduplication = true
 blockstateCacheDeduplication = true
 #Avoid creation of new strings when creating ModelResourceLocations
 modelResourceLocations = true
+#Use smaller data structures for "simple" models, especially models with few side-specific faces
+modelSides = true
 #Replace the blockstate neighbor table
 replaceNeighborLookup = true
 #Populate the neighbor table used by vanilla. Enabling this slightly increases memory usage, but can help with issues in the rare case where mods access it directly.

@@ -188,7 +188,7 @@
 			description: [
 				"A great vein for the early game. Copper and Tin to make Bronze, Realgar for your first source of Arsenic, and Zeolite for... nothing much."
 				"{@pagebreak}"
-				"&bLore:&r Due to auto-generated recipes, Zeolite used to be electrolyzed in batches of 141. Oops!"
+				"&l&3Lore:&r&o Due to auto-generated recipes, Zeolite used to be electrolyzed in batches of 141. Oops!"
 			]
 			icon: "gtceu:chalcopyrite_ore"
 			id: "4826DCD2FC457EA5"
@@ -936,7 +936,7 @@
 				""
 				"Saltpeter is used in a few reactions, and the other two ores here are pretty bad."
 				"{@pagebreak}"
-				"&bLore:&r Does Nikolite ring a bell? It was the ancestor of Electrotine in RedPower."
+				"&l&3Lore:&r&o Does Nikolite ring a bell? It was the ancestor of Electrotine in RedPower."
 			]
 			icon: "gtceu:netherrack_saltpeter_ore"
 			id: "1F572D638AAACA21"
@@ -1199,7 +1199,7 @@
 				""
 				"The Platinum Group Sludge chain becomes a requirement in &1IV&r, and Sheldonite is the best ore to kickstart your processing."
 				"{@pagebreak}"
-				"&bLore:&r The actual name for Sheldonite ore is actually Cooperite. GregoriusT thought it was haha funny to make jokes about Sheldon Cooper, despite &lnot&r being the person the ore was named after! And so we kept the haha funny joke going."
+				"&l&3Lore:&r&o The actual name for Sheldonite ore is actually Cooperite. GregoriusT thought it was haha funny to make jokes about Sheldon Cooper, despite &lnot&r being the person the ore was named after! And so we kept the haha funny joke going."
 			]
 			icon: "gtceu:endstone_cooperite_ore"
 			id: "4D76C334B251EB3A"

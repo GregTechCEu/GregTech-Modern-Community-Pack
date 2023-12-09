@@ -1,16 +1,5 @@
 {
   "attributes": {
-    "forge:attack_range": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "forge:step_height_addition": {
       "enabled": false,
       "min": {
@@ -35,17 +24,6 @@
     },
     "minecraft:generic.flying_speed": {
       "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
-    "forge:reach_distance": {
-      "enabled": false,
       "min": {
         "default": 0,
         "value": 0
@@ -86,6 +64,17 @@
       "max": {
         "default": 8,
         "value": 8
+      }
+    },
+    "forge:block_reach": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "minecraft:generic.max_health": {
@@ -207,6 +196,17 @@
       "max": {
         "default": 20,
         "value": 1000000
+      }
+    },
+    "forge:entity_reach": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     }
   }

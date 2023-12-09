@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
   // View Cell
   event.remove({output: "ae2:view_cell"})
   greg.canner("gtceu:view_cell")
-    .itemInputs("ae2:item_cell_housing", "#forge:gems/certus_quartz")
+    .itemInputs("ae2:item_cell_housing", 'gtceu:certus_quartz_gem')
     .itemOutputs("ae2:view_cell")
     .duration(100).EUt(4)
   // add fluid cells!

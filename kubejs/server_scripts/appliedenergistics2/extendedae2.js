@@ -36,4 +36,12 @@ ServerEvents.recipes(event => {
     .inputFluids("minecraft:lava 5000")
     .itemOutputs(Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:i",id:"minecraft:cobblestone"}}'))
     .duration(100).EUt(600)
+
+  event.remove({id: "expatternprovider:wireless_connector"})
+  greg.assembly_line('gtceu:extended_card')
+    .itemInputs("gtceu:luv_machine_casing", "2x gtceu:luv_sensor", "gtceu:luv_emitter", "gtceu:quantum_star")
+    .inputFluids("gtceu:radon 1000")
+    .itemOutputs("2x expatternprovider:wireless_connect")
+    .duration(200)
+    .EUt(8192)
 })

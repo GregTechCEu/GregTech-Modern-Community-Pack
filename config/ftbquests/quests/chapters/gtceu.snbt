@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "square"
 	filename: "gtceu"
 	group: ""
 	icon: {
@@ -16,20 +16,20 @@
 	quests: [
 		{
 			description: [
-				"&lJust so you're aware - this modpack is currently in early Alpha. Just be prepared for some things to be broken - it's only really out so people can poke their noses around."
+				"This modpack is intended as a guide on &b&lGregtech: Community Edition Unofficial Modern&r&r (also known as &aGTCEu Modern&r or &aCEu Modern&r), a continuation of &aGTCE&r - which is in itself a fork of Gregtech."
 				""
-				"Got all that? Read on."
-				"{@pagebreak}"
-				"This modpack is intended as a guide on &a&lGregtech: Community Edition Unofficial Modern&r&r (also known as &aGTCEu Modern&r or &aCEu Modern&r), a continuation of &aGTCE&r - which is in itself a fork of Gregtech. &aCEu Modern&r brings the mod up to date with &erecent versions&r of Minecraft &o(as of writing this)&r, and fleshes out the original GregTech experience considerably. New content has been added to each and every tier, even going up to &3Ultimate Voltage,&r and there is also a non-negligible amount of &dQuality of Life&r."
+				"New content has been added to each and every tier, even going up to &3Ultimate Voltage,&r and there is also a non-negligible amount of &dQuality of Life&r."
+				""
+				"&aCEu Modern&r brings the mod up to date with &erecent versions&r of Minecraft &o(as of writing this)&r."
 				"{@pagebreak}"
 				"This is a &2pure &lTech&r&2 modpack&r, focused on GregTech and its progression. You'll find &6no better place&r to learn about this mod and all the features it adds!"
 				""
-				"The questbook you are reading is &ebrimming with information&r to guide you through the modpack, so check it out if you find yourself getting lost. It's been written with both &dold-school veterans&r and &bnewcomers&r in mind."
+				"The questbook you're reading is &ebrimming with information&r to guide you through the modpack, so check it out if you find yourself getting lost. We wrote it with both &dold-school veterans&r and &bnewcomers&r in mind."
 			]
 			icon: "kubejs:greg_icon"
 			id: "25289F9E8AE01C29"
 			shape: "rsquare"
-			size: 0.9d
+			size: 1.2d
 			subtitle: "We hope you enjoy your stay"
 			tasks: [{
 				id: "6C1F570DB9013DE7"
@@ -43,11 +43,11 @@
 		{
 			dependencies: ["25289F9E8AE01C29"]
 			description: [
-				"A Minecraft adventure starting with Wood? How &ooriginal&r. I want a refund!"
+				"&o\"My adventure starts with some tree punching!? Huh, I thought GregTech was supposed to shake things up a bit...\"&r"
 				""
-				"If you're familiar with GregTech, you may be aware of its &cmany nerfs&r to vanilla recipes. GTCEu does include its fair share - take a look at the crafting recipes for &eBuckets,&r or &ePaper&r. However, we'll ease off in earlygame, and 1 Log will give you 4 Planks. &aRejoice!&r"
+				"If you're familiar with GregTech, you may be aware of its &cmany nerfs&r to vanilla recipes. GTCEu does include its fair share - take a look at the crafting recipes for &eBuckets&r or &ePaper&r. However, we'll ease off in earlygame, and 1 Log will give you 4 Planks. &aRejoice!&r"
 				""
-				"Here, take some food for your troubles. If you're playing on &aPeaceful&r difficulty, stash it away in a chest for later."
+				"Here, get some food in your system. If you're playing on &aPeaceful&r difficulty, stash it away in a chest for later."
 			]
 			icon: "minecraft:oak_log"
 			id: "0EAF2C5B5EB755C5"
@@ -57,7 +57,7 @@
 				item: "minecraft:carrot"
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "square"
 			size: 0.75d
 			subtitle: "Begin your playthrough as before"
 			tasks: [
@@ -72,7 +72,7 @@
 						}
 					}
 					match_nbt: false
-					title: "Punch some trees!"
+					title: "Any Logs"
 					type: "item"
 				}
 				{
@@ -88,13 +88,11 @@
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"Here's a &6nifty&r list of some resources that will come in handy for early-game. Collect more than we're asking for in this quest - you'll end up running out before you know it, and it's always a good habit to get more resources than you need in &aGregTech&r."
+				"Here's a &6nifty&r list of some resources that you'll need in bulk for early-game. Collect more than we're asking for in this quest - you'll end up running out before you know it, and it's always a good habit to gather more than you need in &aGregTech&r."
 				""
-				"We would advise that you &etackle this quest first&r and claim the reward. That way, you can do a little bit of main (read: &ointeresting&r) progression &4&lBEFORE&r you're forced to go mining."
+				"We'd actually advise that you &etackle this quest first&r, so that you can claim its &breward&r. That way, you can do a little bit of main (read: &ointeresting&r) progression &4&lBEFORE&r you're forced to go mining."
 				""
-				"Rubber trees can be found in &aForest&r, &2Jungle&r or &aSwamp&r biomes."
-				""
-				"Eight furnaces might seem &cexcessive&r if you're new to &aGregTech,&r but trust us, you can never have too many."
+				"Eight furnaces might seem &cexcessive&r if you're new to &aGregTech,&r but trust us... you can never have too many."
 			]
 			icon: "minecraft:sugar_cane"
 			id: "0436F7B60BDEB091"
@@ -104,7 +102,8 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			size: 0.75d
+			shape: "rsquare"
+			size: 0.66d
 			subtitle: "Gather some resources!"
 			tasks: [
 				{
@@ -145,17 +144,18 @@
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"The ore generation in &2GregTech&r is very different to vanilla or normal modded Minecraft. All ores generate in &6huge veins&r which can contain &dthousands&o&r of ore blocks!"
+				"The ore generation in &2GregTech&r is very different to vanilla or normal modded Minecraft. All ores generate in &6huge veins&r, which can contain &dthousands&o&r of ore blocks."
 				""
 				"The full extent of ore generation is explained in the Tips and Tricks tab, but here is what you need to know:"
 				""
-				"&9-&r Ore veins generate in a &4Grid&r. Every vein is &9spaced by 3 chunks&r from one to another in a cardinal direction. We have added &2In Game Info&r to display if you are located in an Ore vein in the top-left corner of your screen, as seen in GregTech: New Horizons."
+				"&9-&r Ore veins generate in a &4Grid&r. Every vein is &9spaced by 3 chunks&r from one to another in a cardinal direction."
 				""
 				"&9-&r It's a good practice to make &dWaypoints&r (default &4B&r) for every vein you find, and to label their type. You may want to come back to the vein several times."
 			]
 			icon: "gtceu:cobaltite_ore"
 			id: "0C690272ED4FB1C3"
-			size: 0.75d
+			shape: "rsquare"
+			size: 0.66d
 			tasks: [{
 				id: "3FA401CACE8BBE5D"
 				title: "Woah, ores sure sound exciting."
@@ -168,13 +168,13 @@
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"Did you know &aGregTech&r comes with tools equivalent to vanilla tools? And did you know that some of them are actually &6&lstronger&r than their vanilla equivalents?"
+				"Were you aware that &aGregTech&r comes with its own set of tools? If not, you'll be pleasantly surprised to hear that they &6&lsurpass&r their vanilla equivalents."
 				""
-				"For example, look at the selection of GTCEu Axes. If you mine a Wood Log, it'll fell the &2entire tree&r for you."
+				"Let's use the GregTech Axe as an example. If you use one to mine a log in a tree, it'll fell the &2entire tree&r for you. Timber!"
 				""
-				"Constant lumberjacking will eat through an Axe's &9durability&r in no time, so you may want to make your Axe out of &estronger material&r such as &bDiamond&r (but make sure you don't make a vanilla diamond Axe!)."
+				"Constant \"lumberjacking\" will eat through your Axe's &9durability&r in seconds, so you may want to make your Axe out of a &estronger material&r such as &bDiamond&r. Just be careful you don't make a vanilla Diamond Axe!"
 				""
-				"Take these &2Spruce saplings&r and grow some giant trees. There'll be a lot of smelting in the near future, and wooden planks are a surprisingly &deffective&r fuel source!"
+				"As a reward, take these &2Spruce saplings&r and use them to make some big trees. You'll need to do a lot of smelting in the near future, and planks will tide you over as an &deffective&r fuel source!"
 			]
 			icon: {
 				Count: 1b
@@ -190,7 +190,8 @@
 				item: "minecraft:spruce_sapling"
 				type: "item"
 			}]
-			size: 0.75d
+			shape: "rsquare"
+			size: 0.66d
 			subtitle: "Who needs Veinminer?"
 			tasks: [{
 				id: "3880A08A72884627"
@@ -204,7 +205,7 @@
 				title: "Grab any Lumber Axe!"
 				type: "item"
 			}]
-			title: "Timber!"
+			title: "Lumbering On"
 			x: -2.25d
 			y: -4.5d
 		}
@@ -216,9 +217,9 @@
 				""
 				"&aGregTech&r tools made of Wrought Iron are &650% more durable&r than their Iron cousins. You might want to consider using Wrought Iron until you unlock &2something better&r."
 				""
-				"To obtain Wrought Iron, you can &6smelt&r Iron Nuggets into Wrought Iron Nuggets, then recombine them into an ingot. Make sure you don't convert all of your Iron supply, as the two are &4&lnot&r interchangeable."
+				"To obtain Wrought Iron, you can &6smelt&r Iron Nuggets into Wrought Iron Nuggets, then recombine them into an ingot. Make sure you don't convert all of your Iron supply, as the two &4&laren't&r interchangeable."
 				""
-				"This may be time-consuming, but rest assured that you will unlock a &ebetter way&r to produce Wrought Iron before long."
+				"This may be time-consuming, but rest assured, you'll unlock a &ebetter way&r to produce Wrought Iron before long."
 			]
 			icon: "gtceu:wrought_iron_ingot"
 			id: "563C96885A227C9F"
@@ -229,7 +230,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 0.75d
+			size: 0.66d
 			subtitle: "Murder, she Wrought"
 			tasks: [{
 				id: "3DAB1D757B3B049D"
@@ -250,7 +251,9 @@
 		{
 			dependencies: ["1ECBA1CBFFB9F625"]
 			description: [
-				"Alright - your first &oproper&r &aGregTech&r tool! GT tools can be made out of many different materials. When used in crafting recipes, they are &bnot consumed&r, instead losing durability. The first type is Iron - but you could opt for Wrought Iron if you already tackled that quest."
+				"Alright - your first &oproper&r &aGregTech&r tool. The first of &dmany&r."
+				""
+				"GT tools can be made out of many different materials. When used in crafting recipes, they &baren't consumed&r, instead losing durability. You'll want to start with an Iron tool - but you could opt for Wrought Iron if you already tackled that quest."
 				""
 				"&9&lHammer&f:&r A crafting tool that shows up in a lot of earlygame recipes. Its secondary function is muting machines by &msmacking&r right-clicking them."
 				""
@@ -263,7 +266,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "square"
 			size: 0.75d
 			subtitle: "Your first GT Tool!"
 			tasks: [{
@@ -292,13 +295,13 @@
 		{
 			dependencies: ["2001CB4968D3E0A2"]
 			description: [
-				"This hammer is very different from the one you'll use for crafting. It actually works as a &d3x3 pickaxe&r!"
+				"This hammer isn't quite like the ones you'll use for crafting. It actually works as a &d3x3 pickaxe&r!"
 				""
-				"If you are familiar with &a&lTinker's Construct&r, it behaves &esimilarly&r to hammers from that mod."
+				"If you're familiar with &a&lTinker's Construct&r, it behaves &esimilarly&r to hammers from that mod."
 				""
-				"Make &bgood use&r of these hammers! This bad boy will help you to clear out an entire vein in &6record time&r."
+				"Make &bgood use&r of these hammers! They'll help you to clear out an entire vein in &6record time&r."
 				""
-				"Note: Any quest with GregTech tools can be complete with tools crafted from any material - not just the one displayed."
+				"&eNote:&r Any quest with GregTech tools can be complete with tools crafted from any material - not just the one displayed."
 			]
 			icon: {
 				Count: 1b
@@ -308,7 +311,8 @@
 				}
 			}
 			id: "4A365A7CC9E374F9"
-			size: 0.75d
+			shape: "rsquare"
+			size: 0.66d
 			subtitle: "Mining just became efficient"
 			tasks: [{
 				icon: {
@@ -338,9 +342,11 @@
 			description: [
 				"In the real world, iron isn't &oonly&r found as pure Iron Ore. Instead, it's found in a &avariety&r of &eoxide forms&r or &eminerals&r."
 				""
-				"You'll want to go and collect quite a bit of Iron, because you're going to need &9a bunch&r very soon. If you're not having any luck mining, the &aOre Generation&r quest tab holds a lot of information on &eore veins&r. Any of the raw ores we're asking for in this quest can be directly smelted into Iron. That comes to &dfour different veins&r that can give you Iron!"
+				"You'll want to go and collect quite a bit of Iron, because you're going to need &9a bunch&r very soon. If you're struggling to find some, the &aOre Generation&r quest tab contains a lot of information on &eore veins&r. You may also want to check the Ore Spawn Information and Ore Byproduct List tabs in &2JEI&r."
+				""
+				"Any of the raw ores we're asking for can be directly smelted into Iron. That comes to &dfour different veins&r that can give you Iron."
 				"{@pagebreak}"
-				"Whilst it may be common habit to hoard ore in &bmodded Minecraft&r prior to unlocking some kind of &aore multiplication&r, don't worry about ore processing yet. Direct smelting will be &ohead-and-shoulders&r the most efficient method for a long, &olong&r while, given how easy it is to obtain a lot of ore in a &emining trip&r."
+				"Whilst it may be common habit to hoard ore in &bmodded Minecraft&r prior to unlocking some kind of &aore multiplication&r, don't worry about ore processing yet. Direct smelting remains the most efficient method for a long, &olong&r while, given how easy it is to obtain a lot of ore in a &emining trip&r."
 				""
 				"Gather &l&cany&r of the requested &dRaw Ores&r to complete this quest!"
 			]
@@ -396,7 +402,7 @@
 						]
 					}
 				}
-				title: "Gather any type of Raw Iron Ore"
+				title: "Iron-bearing Ores"
 				type: "item"
 			}]
 			title: "Iron, Iron, Iron!"
@@ -408,11 +414,11 @@
 			description: [
 				"More GregTech tools are required for progression - here are the ones to lay eyes on."
 				""
-				"&9&lWrench:&r A crafting tool, but also a mining tool for GregTech machines (perfect if you think using pickaxes is unethical). It also boasts right click functions to double as a &6wrench for other mods&r. Right-click also allows you to set the output side of GregTech machines, and sneak-right-clicking rotates machines."
+				"&9&lWrench:&r A crafting tool, but also the correct tool for GregTech machines... perfect if you think using pickaxes is unethical. It can also double as a &6wrench for other mods&r. Right-click allows you to set the output side of GregTech machines, and sneak-right-clicking rotates machines."
 				""
 				"&9&lFile:&r A crafting tool... and that's it. Yay!"
 				""
-				"&9&lSaw:&r Yet another crafting tool. If we were any more evil, we would force its use if you wanted to obtain 4 planks and 4 sticks from their respective crafting recipes. That being said, you can instead use it to get &a6 Planks per Log&r, if you wish."
+				"&9&lSaw:&r Yet another crafting tool. If we were any more evil, we would force its use if you wanted to obtain 4 Planks and 4 Sticks from their respective crafting recipes. That being said, you can still use it to get &a6 Planks per Log&r, if you wish."
 				"{@pagebreak}"
 				"&eNote:&r Any Quest with GregTech tools can be completed with the tool crafted from any material, not just the one displayed."
 			]
@@ -424,7 +430,7 @@
 				}
 			}
 			id: "2001CB4968D3E0A2"
-			shape: "rsquare"
+			shape: "square"
 			size: 0.75d
 			tasks: [
 				{
@@ -493,7 +499,7 @@
 				""
 				"&9&lButchery Knife:&r A weapon that comes pre-enchanted with &6Looting III&r. You might want to use it to gather leather and food."
 				"{@pagebreak}"
-				"&e&lNote:&r This quest's reward is &3Damascus Steel&r - a rare material which can only be found as overworld loot. It far surpasses the materials you have now, so be sure to use it!"
+				"&e&lNote:&r This quest's reward is &3Damascus Steel&r - a rare material which can only be found as overworld loot. It far surpasses the materials you have now, so be sure to use it."
 			]
 			icon: {
 				Count: 1b
@@ -583,15 +589,21 @@
 				""
 				"It is used to make &aCoke&r from &eCoal&r, or &aCharcoal&r from &eWood&r, in addition to &dliquid Creosote&r as a &3bonus&r output."
 				""
-				"Take a look at the &6Multiblock Preview&r tab in JEI to see the structure pattern. There is also a dedicated quest tab for the &bCoke Oven&r in the &6Multiblock Dilemma&r tab - future multiblocks will also be documented for your enjoyment."
+				"Take a look at the &6Multiblock Preview&r tab in JEI to see the structure pattern."
 				"{@pagebreak}"
-				"&o&l&3Lore:&r &oThe concept of multiblocks is a modded Minecraft classic. Think of IC2's Nuclear Reactor, or Railcraft's Coke Oven - truly revolutionary at the time!&r"
+				"&9Note:&r &lAny&r Brick block can be replaced with a &3Coke Oven Hatch&r. You can have up to five of them."
+				""
+				"The Hatch allows for automation - it'll &dauto-export&r both Fluid and Items! It also works for insertion into the Coke Oven (you can use Hoppers)."
+				""
+				"If the Coke Oven happens to fully fill up on &eCreosote&r that you are not using, break and replace the Coke Oven block. &3Automated fluid voiding&r is available later in the game."
+				"{@pagebreak}"
+				"&l&3Lore:&r&o The concept of multiblocks is a modded Minecraft classic. Think of IC2's Nuclear Reactor, or Railcraft's Coke Oven - truly revolutionary at the time!&r"
 			]
 			icon: "gtceu:coke_oven"
 			id: "4946FC5BCA4CCA88"
 			min_required_dependencies: 1
 			shape: "gear"
-			size: 1.5d
+			size: 1.2d
 			subtitle: "Your first big project... hopefully"
 			tasks: [{
 				id: "3545479A7C09CDFC"
@@ -607,7 +619,7 @@
 			description: [
 				"More resources are always nice. You're getting close to entering the &6age of Steam&r - Copper and Tin are required in many &6Steam Age&r machines, so check the ore tab to find out what veins they can be found in, and get mining!"
 				""
-				"If the different ore names are &bconfusing&r, you can tell which elements an ore holds at a glance by reading the &dmolecular formula&r in its tooltip. Copper is &oCu&r, Tin is &oSn&r, Iron is &oFe&r, and you can consult a &3periodic table&r for the rest. It's time to brush up on your chemistry - you'll need it for &llater&r!"
+				"If the different ore names are &bconfusing&r, you can tell which elements an ore holds at a glance by reading the &dmolecular formula&r in its tooltip. Copper is &oCu&r, Tin is &oSn&r, Iron is &oFe&r, and you can consult a &3periodic table&r for the rest. It's time to brush up on your chemistry - you'll need it for &llater&r."
 				""
 				"This quest can be completed with &9either metal&r, so you can claim the metal you're missinng as the reward. Be sure to find a source of both soon, as a &a&ocertain&r&a Copper-Tin alloy&r will be needed to get through the &6Steam Age&r."
 			]
@@ -644,11 +656,11 @@
 			description: [
 				"&6Bronze&r is an &2alloy&r of Copper and Tin. Grind down 3 parts Copper and 1 part Tin into dust, then combine and smelt them. If you are confused on how this is done, take a look at the &o\"&dMore Tools&r&o\"&r quest."
 				""
-				"Aim to make &amany more&r Bronze ingots than is called for here. This is the main material for the &6Steam Age&r, and you will need LOTS of it."
+				"Aim to make &amany more&r Bronze Ingots than is called for here. This is the main material for the &6Steam Age&r, and you will need LOTS of it."
 				""
 				"&6&lThe progression now continues in the Steam Age chapter.&r"
 				"{@pagebreak}"
-				"&l&3Lore&r: Bronze in real life is closer to a ratio of 7:1 for Copper to Tin. Here &o(and in most of modded Minecraft)&r this is &4not&r the case for the sake of game balance. There are a lot of things like this that need to be tweaked - &eno realism here&r."
+				"&l&3Lore:&r&o Bronze in real life is closer to a ratio of 7:1 for Copper to Tin. Here (and in most of modded Minecraft) this is &4not&f the case for the sake of game balance. There are a lot of things like this that need to be tweaked - &eno realism here&f."
 			]
 			icon: "gtceu:bronze_ingot"
 			id: "315DBB3B23F95E0D"
@@ -659,7 +671,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.75d
+			size: 1.3d
 			subtitle: "Humanity's first alloy - and yours too!"
 			tasks: [{
 				count: 24L
@@ -674,11 +686,11 @@
 		{
 			dependencies: ["7DEB73FD649BDFB6"]
 			description: [
-				"The bucket recipe has been &d&lchanged.&r It now requires plates - &owahoo&r!"
+				"The bucket recipe has been &d&lchanged.&r It now requires plates - &owahoo&r."
 				""
 				"Plates are used absolutely &beverywhere&r in &aGregTech&r. Combining two ingots with your new &9hammer&r in a crafting table will make a plate. This ratio is kind of &cexpensive,&r but better recipes for plates will come later."
 				""
-				"Here, take this &6Wooden Barrel&r full of &bwater&r as a reward. Huh... isn't that an odd reward? Well, it's here just to teach you that all &aGTCEu&r tanks are portable!"
+				"Take this &6Wooden Barrel&r full of &bWater&r as a reward. Huh... isn't that an odd reward? We just wanted to show you that all &aGTCEu&r tanks are portable."
 			]
 			icon: "minecraft:bucket"
 			id: "592BD683A48C2AA2"
@@ -696,7 +708,8 @@
 				}
 				type: "item"
 			}]
-			size: 0.75d
+			shape: "rsquare"
+			size: 0.66d
 			subtitle: "#realism"
 			tasks: [{
 				id: "5DD165E4EB34C022"
@@ -710,7 +723,7 @@
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"Okay, we were generous enough to &cnot nerf&r wood ratios, but this is GregTech - charcoal smelting is &4&lnot possible&r in a Furnace! You will need to make a &d&lCoke Oven&r to start getting your grubby hands on some &6charcoal&r."
+				"Okay, we were generous enough to leave Wood-to-Plank-ratios &cuntouched&r, but this is GregTech - charcoal smelting is &4&lnot possible&r in a Furnace. You'll need to make a &d&lCoke Oven&r to get your grubby hands on some &6charcoal&r."
 				""
 				"Wooden planks are still pretty good as &6furnace fuel&r, especially since you get &l&3four&r from one log."
 				""
@@ -724,7 +737,8 @@
 				item: "minecraft:coal"
 				type: "item"
 			}]
-			size: 0.75d
+			shape: "rsquare"
+			size: 0.66d
 			subtitle: "Not here!"
 			tasks: [{
 				count: 48L
@@ -744,35 +758,22 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["25289F9E8AE01C29"]
-			description: [""]
-			icon: "gtceu:terminal"
-			id: "5E3DB52E778FE6FE"
-			size: 0.75d
-			tasks: [{
-				id: "7F78101DF197EAF3"
-				type: "checkmark"
-			}]
-			title: "The Terminal"
-			x: -0.75d
-			y: 0.0d
-		}
-		{
 			dependencies: ["45969FFBF88F4FBB"]
 			description: [
 				"In this &blightweight&r modpack, we've included enough QoL to &o(hopefully)&r fit your needs, and the pack is &aperfectly playable&r as is."
 				""
-				"&dFunctional Storage&r and &dApplied Energistics 2&r make appearances to help with &estorage&r and &6logistics.&r Their recipes have been modified to fit progression, but you won't need to play 50 hours to make your first &5Molecular Assembler&r. There are also a few other mods that you may wish to pursue for some &ahelpful QoL&r."
+				"&dStorage Drawers&r and &dApplied Energistics 2&r make an appearance to help with &estorage&r and &6logistics&r. Their recipes have been modified to fit progression, but you hopefully won't need to play 50 hours to make your first &5Molecular Assembler&r. There are also a few other mods that you may wish to pursue for some &ahelpful QoL&r."
 				"{@pagebreak}"
 				"But maybe you require... &osomething more&r?"
 				""
-				"If you're playing solo, feel free to &aadd mods&r to your instance. More &bQoL&r... more &3tech&r... maybe even some &5magic mods&r. As long as you don't add &eProjectE&r... promise?"
+				"If you're playing solo, feel free to &aadd mods&r to your instance. Some more &bQoL&r could be nice... more &3Tech&r could sate your cravings... maybe even some &5magic mods&r, as long as you don't add &eProjectE&r. Promise?"
 				""
 				"On the 1.12.2 version of &aGregtech: CEu&r, there were multiple &aGregTech&r addons that may be ported to 1.19.2 in future. Rest assured that this pack will do its &dbest&r to support them if they make it to this version!"
 			]
 			icon: "minecraft:structure_void"
 			id: "1283B4D7B5D82193"
-			size: 0.75d
+			shape: "rsquare"
+			size: 0.66d
 			subtitle: "Omw to install DecoCraft"
 			tasks: [{
 				id: "70C69E5432F6C3BE"
@@ -786,9 +787,9 @@
 		{
 			dependencies: ["45969FFBF88F4FBB"]
 			description: [
-				"Don't worry, these crafts are actually useful - you'll be required to make &ehundreds more&r of these components, so it's good to get in the habit!"
+				"Don't worry, these crafts are actually useful - you'll be required to make &ehundreds more&r of these components. It's good to start building the habit."
 				""
-				"It's generally good to get familiar with the idea of &o\"&bbulk-crafting&r&o\"&r - if you need 1 plate, try making 8, etc. This means you'll have lots of these &dintermediates&r ready for future crafts. It might seem unreasonable to craft &astacks of rods&r or &ascrews&r especially this early on, but they will always end up being used, saving you a lot of micro-crafting in the future."
+				"It's generally wise to get familiar with the idea of &o\"&bbulk-crafting&r&o\"&r - if you need 1 plate, try making 8, etc. This means you'll have lots of these &dintermediates&r ready for future crafts. It might seem unreasonable to craft &astacks of rods&r or &ascrews&r especially this early on, but they will always end up being used, saving you a lot of micro-crafting in the future."
 				""
 				"If you needed &6any more&r convincing, take a peek at the &drewards&r for this quest."
 			]
@@ -842,7 +843,8 @@
 					type: "item"
 				}
 			]
-			size: 0.75d
+			shape: "rsquare"
+			size: 0.66d
 			subtitle: "Put your micro-crafting talent to the task!"
 			tasks: [
 				{
@@ -927,8 +929,9 @@
 					type: "item"
 				}
 			]
-			size: 0.75d
-			subtitle: "Sometimes you gotta be inefficient to be efficient!"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Sometimes, you gotta be inefficient... to be efficient!"
 			tasks: [
 				{
 					count: 64L
@@ -969,20 +972,21 @@
 			description: [
 				"Be sure to &aproperly&r read &lthis&r quest - it has some &dimportant information&r that will remain relevant all throughout your playthrough."
 				""
-				"Informative quests such as this will appear in the chapter they are unlocked. You can also consult the &o&b\"Tips and Tricks\"&r page if you feel like you're forgetting something."
+				"Informative quests such as this will appear in the chapter they are unlocked. You can also consult the &b\"Useful Information\"&r page if you feel like you're forgetting something."
 				""
-				"The quest structure is intended to guide you through all the major milestones in &aGregTech&r progression. Every single quest should be &2beneficial&r to look at in some way - if something is 100% optional, we'll mention it, so don't worry about missing any tricks."
+				"The quest structure is intended to guide you through all the major milestones in &aGregTech&r progression. Every single quest should be &2beneficial&r to look at in some way - if something is 100% optional, we'll mention it, so don't worry about missing anything crucial."
 				"{@pagebreak}"
-				"The &aGTCEu Community Pack&r can be played on &dPeaceful,&r and we highly urge you to do so, as there is little benefit from mobs and their drops. You may also want to use &o/keepInventory&r, &o/sethome&r, and abuse minimap teleport as you see fit."
+				"There are no drawbacks to playing this modpack in &dPeaceful&r - in fact, we highly urge you to do so, as there is little benefit from hostile mobs. Feel free to also to use &o/keepInventory&r, &o/sethome&r, and abuse minimap teleport as you see fit."
 				""
-				"Although these features won't ruin your day if you choose not to use them, this modpack is &4not&r focused on providing a punishing &eSurvival&r experience, but more so learning the ins and outs of &aGregTech.&r"
+				"Although we won't force these settings onto you, we &4don't&r intend for this modpack to provide a punishing &eSurvival&r experience, but more so help you learn the ins and outs of &aGregTech CEu&r."
 				"{@pagebreak}"
-				"Lastly, it's good to be &lsavvy&r with &eJEI.&r &aGregTech&r items will frequently have several recipes, so do not assume the first recipe &eJEI&r shows you will be the most efficient. Good &eJEI&r usage involves the &bidentification of patterns&r in autogenerated recipes (example: all the Iron related items &6macerate&r into Iron Dust)."
+				"Lastly, it's good to be &lsavvy&r with &eJEI.&r &aGregTech&r items will frequently have several recipes, so you should never assume the first recipe &eJEI&r displays is the most efficient. \"Professional\" &eJEI&r usage involves the &bidentification of patterns&r in autogenerated recipes (example: all the Iron related items &6macerate&r into Iron Dust)."
 				""
-				"When complex recipes arise - and yes, &aGTCEu&r can be intimidating - we will make sure to point out &5efficient routes&r you can take - however, we urge you to experiment on your own. It's no fun to follow the quest book by rote!"
+				"When complex recipes arise - and we won't sugarcoat, &aGTCEu&r can be intimidating - we'll make sure to direct you towards the more &5efficient routes&r. However, we urge you to experiment on your own. It's no fun to follow the quest book by rote, right?"
 			]
 			icon: "ftbquests:book"
 			id: "13E9DF7E980CFC5B"
+			shape: "circle"
 			size: 0.75d
 			subtitle: "Read this, and read it again!"
 			tasks: [{
@@ -1005,7 +1009,8 @@
 			]
 			icon: "craftingstation:crafting_station"
 			id: "411AB552514EA14C"
-			size: 0.75d
+			shape: "rsquare"
+			size: 0.66d
 			subtitle: "No, Tinkers' is not in this modpack"
 			tasks: [{
 				id: "30D40010C8E6E115"
@@ -1018,26 +1023,50 @@
 		}
 		{
 			description: [
-				"New to this updated pack is a Tutorials tab. The information inside is available to view at any time, but whenever it becomes relevant, you will be directed towards it for some light reading."
+				"New to this updated pack is a &dTips and Tricks&r tab. The information inside is available to view at any time, but whenever it becomes relevant, you will be &6directed towards it&r for some light reading."
 				""
-				"The information found inside may interest you if you would like a deeper insight into some of GTCEu's mechanics, and in some cases is absolutely indispensable."
+				"The information found inside may interest you if you would like a &adeeper insight&r into some of &bGTCEu's mechanics&r, and in some cases is absolutely indispensable."
 				""
-				"Quests that unlock a tutorial node will have an orange-ish descriptor at the bottom of the quest description. You can immediately travel to the tutorial tab by clicking on the quest link at the top right of the quest's box!"
+				"Quests that unlock a tutorial node will have an &6orange-ish descriptor&r at the bottom of the quest description."
 				""
 				"Get reading!"
 			]
 			icon: "minecraft:lectern"
 			id: "008ABF78E56209F7"
+			shape: "circle"
 			size: 0.75d
 			subtitle: "Tips and tricks to help you prosper"
 			tasks: [{
-				id: "4EBD5D697E085217"
-				title: "I have read this page multiple times"
+				id: "382566FB9E8CFE29"
+				title: "Alright, I get it, I get it"
 				type: "checkmark"
 			}]
 			title: "Tutorialised"
-			x: -2.25d
+			x: -0.75d
 			y: 0.0d
+		}
+		{
+			dependencies: ["0EAF2C5B5EB755C5"]
+			description: [
+				"Rubber Trees can be found in &aForest&r, &2Jungle&r or &aSwamp&r biomes."
+				""
+				"Breaking Rubber Logs will yield &6Resin,&r which will be important moving forwards."
+				""
+				"The logs also offer &duseful resources&r when processed in future."
+			]
+			id: "5193DD03C0742548"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "No, this isn't IC2"
+			tasks: [{
+				count: 8L
+				id: "76851CD51E99CA38"
+				item: "gtceu:rubber_sapling"
+				type: "item"
+			}]
+			title: "Gettin' Shaded under a Rubber Tree"
+			x: 0.75d
+			y: -4.5d
 		}
 	]
 	subtitle: ["Welcome to &6GTCP&r! Glad to have you here."]

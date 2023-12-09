@@ -5,12 +5,12 @@
     "matterCannonBlockDamage": true,
     "tinyTntBlockDamage_comment": "Enables the ability of Tiny TNT to break blocks.",
     "tinyTntBlockDamage": true,
-    "serverOpsIgnoreSecurity_comment": "Server operators are not restricted by ME security terminal settings.",
-    "serverOpsIgnoreSecurity": true,
     "channels_comment": "Changes the channel capacity that cables provide in AE2.",
-    "channels": "infinite",
+    "channels": "default",
     "pathfindingStepsPerTick_comment": "The number of pathfinding steps that are taken per tick and per grid that is booting. Lower numbers will mean booting takes longer, but less work is done per tick.",
-    "pathfindingStepsPerTick": 4
+    "pathfindingStepsPerTick": 4,
+    "spatialAnchorEnableRandomTicks_comment": "Whether Spatial Anchors should force random chunk ticks and entity spawning.",
+    "spatialAnchorEnableRandomTicks": true
   },
   "automation": {
     "formationPlaneEntityLimit": 128
@@ -35,7 +35,6 @@
     "spatialPowerExponent": 1.35
   },
   "logging": {
-    "securityAuditLog": false,
     "blockUpdateLog": false,
     "packetLog": false,
     "craftingLog": false,
@@ -55,8 +54,7 @@
     "matterCannon": 200000
   },
   "worldGen": {
-    "spawnPressesInMeteorites": true,
-    "generateMeteorites": true
+    "spawnPressesInMeteorites": true
   },
   "wireless": {
     "wirelessBaseCost": 8.0,
@@ -73,7 +71,9 @@
   },
   "PowerRatios": {
     "ForgeEnergy": 0.5,
-    "UsageMultiplier": 1.0
+    "UsageMultiplier": 1.0,
+    "GridEnergyStoragePerNode_comment": "How much energy can the internal grid buffer storage per node attached to the grid.",
+    "GridEnergyStoragePerNode": 25.0
   },
   "Condenser": {
     "MatterBalls": 256,
@@ -92,7 +92,7 @@
     "METunnelMin": 5,
     "METunnelMax": 20,
     "InscriberMin": 1,
-    "InscriberMax": 1,
+    "InscriberMax": 20,
     "ChargerMin": 10,
     "ChargerMax": 10,
     "IOPortMin": 1,
@@ -108,11 +108,11 @@
   },
   "vibrationChamber": {
     "_comment": "Settings for the Vibration Chamber",
-    "energyPerFuelTick_comment": "AE energy produced per fuel burn tick (reminder: coal \u003d 1600, block of coal \u003d 16000, lava bucket \u003d 20000 burn ticks)",
-    "energyPerFuelTick": 5.0,
+    "baseEnergyPerFuelTick_comment": "AE energy produced per fuel burn tick (reminder: coal \u003d 1600, block of coal \u003d 16000, lava bucket \u003d 20000 burn ticks)",
+    "baseEnergyPerFuelTick": 5.0,
     "minEnergyPerGameTick_comment": "Minimum amount of AE/t the vibration chamber can slow down to when energy is being wasted.",
     "minEnergyPerGameTick": 4,
-    "maxEnergyPerGameTick_comment": "Maximum amount of AE/t the vibration chamber can speed up to when generated energy is being fully consumed.",
-    "maxEnergyPerGameTick": 40
+    "baseMaxEnergyPerGameTick_comment": "Maximum amount of AE/t the vibration chamber can speed up to when generated energy is being fully consumed.",
+    "baseMaxEnergyPerGameTick": 40
   }
 }

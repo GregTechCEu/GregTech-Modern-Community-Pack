@@ -39,6 +39,7 @@ ServerEvents.recipes(event => {
     F: "ae2:fluix_glass_cable"
   })
 
+  /*
   // Security Terminal
   event.remove({id: "ae2:network/blocks/security_station"})
   event.shaped("ae2:security_station", [
@@ -52,6 +53,7 @@ ServerEvents.recipes(event => {
     A: "ae2:cell_component_16k",
     E: "ae2:engineering_processor"
   })
+  */
 
   // Quantum Ring
   event.remove({id: "ae2:network/blocks/quantum_ring"})
@@ -156,7 +158,7 @@ ServerEvents.recipes(event => {
     'PFP'
   ] , {
     P: "#forge:plates/steel",
-    F: "#forge:gems/fluix",
+    F: "#forge:plates/fluix",
     V: "gtceu:lv_voltage_coil"
   })
 
@@ -221,6 +223,7 @@ ServerEvents.recipes(event => {
     U: "gtceu:uv_field_generator"
   })
   
+  /*
   // Biometric Card
   event.remove({id: "ae2:tools/network_biometric_card"})
   event.shaped("ae2:biometric_card", [
@@ -233,6 +236,7 @@ ServerEvents.recipes(event => {
     W: "#forge:wires/fine/gold",
     P: "#forge:plates/iron"
   })
+  */
 
   // Memory Card
   event.remove({id: "ae2:tools/network_memory_card"})
@@ -264,7 +268,7 @@ ServerEvents.recipes(event => {
   event.remove({id: "ae2:inscriber/fluix_dust"})
   greg.mixer("gtceu:fluix_dust")
     .itemInputs("#forge:dusts/nether_quartz", "#forge:dusts/certus_quartz", "#forge:dusts/redstone")
-    .itemOutputs("3x ae2:fluix_dust")
+    .itemOutputs("3x gtceu:fluix_dust")
     .duration(200).EUt(16)
 
   // Charged Certus Quartz
@@ -364,7 +368,7 @@ ServerEvents.recipes(event => {
 
   // Fluix Crystals
   greg.autoclave("gtceu:fluix_crystal")
-    .itemInputs("ae2:fluix_dust")
+    .itemInputs("gtceu:fluix_dust")
     .inputFluids("water 100")
     .itemOutputs("ae2:fluix_crystal")
     .duration(200).EUt(24)
