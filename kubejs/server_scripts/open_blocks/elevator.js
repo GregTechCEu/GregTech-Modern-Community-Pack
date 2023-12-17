@@ -21,10 +21,10 @@ ServerEvents.recipes((event) => {
   event.remove({ mod: "elevatorid" });
   dyes.forEach((dyes) => {
     greg
-      .chemical_bath(dyes + "_elevator")
+      .chemical_bath(`${dyes}_elevator`)
       .itemInputs("#elevatorid:elevators")
-      .inputFluids("gtceu:" + dyes + "_dye 18")
-      .itemOutputs("elevatorid:elevator_" + dyes)
+      .inputFluids(`gtceu:${dyes}_dye 18"`)
+      .itemOutputs(`elevatorid:elevator_${dyes}`)
       .duration(20)
       .EUt(7);
   });
