@@ -107,14 +107,22 @@
 				"{@pagebreak}"
 				"&l&3Lore:&r&o Imagine making 512 &1IV&f Orbs, or 64 &dLuV&f Orbs... or 8 &cZPM&f Orbs.... for just one of these! See the Lore for the LuV orb for details."
 			]
+			icon: "gtceu:energy_cluster"
 			id: "3D9D27F29D9D12F6"
 			size: 0.75d
 			subtitle: "It holds way too much power!"
-			tasks: [{
-				id: "3A3B82E7FEE173C3"
-				item: "gtceu:energy_cluster"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3A3B82E7FEE173C3"
+					item: "gtceu:energy_cluster"
+					type: "item"
+				}
+				{
+					id: "57D8084A5AA960F8"
+					item: "gtceu:uv_lapotronic_battery"
+					type: "item"
+				}
+			]
 			title: "Ultimate Battery?"
 			x: 7.875d
 			y: 2.625d

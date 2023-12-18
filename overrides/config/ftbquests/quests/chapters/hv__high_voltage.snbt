@@ -421,9 +421,9 @@
 			description: [
 				"The &3HV Chemical Reactor&r unlocks a ton of new recipes. Ah, who doesn't love the ever-growing demand on more advanced Chemistry?"
 				""
-				"&9Note:&r A lot of content is unlocked by reaching &6HV&r. However, not every processing line or item is crucial right now. It'd make &6HV&r too dense to include all of them here."
+				"&9Note:&r We've actually unlocked a ton of new content by reaching &6HV&r. However, not every processing line or item is crucial right now. It'd make the &6HV&r chapter far too dense if we included everything!"
 				""
-				"Go check out the &5EV&r Chapter if you want to push yourself."
+				"You could still check out the &5EV&r Chapter if you want to push yourself."
 			]
 			icon: "gtceu:hv_chemical_reactor"
 			id: "390E59F05132FCB8"
@@ -441,17 +441,15 @@
 		{
 			dependencies: ["0EFEE489906256AA"]
 			description: [
-				"Titanium requires a slightly more involved process than the previous materials to process. First you need &aRutile&r, obtained from &aBauxite&r."
+				"Titanium requires a slightly more &binvolved&r process than the previous materials to process. To get started, you'll need &aRutile&r, which can be obtained by processing &aBauxite&r."
 				""
-				"Rutile, a form of Titanium Dioxide, cannot be electrolyzed directly - it has to be obtained from other Ores."
-				""
-				"The next steps are described in the next Quest. No need to rush things."
+				"Once you've gotten enough &5Rutile&r, your journey to &6Titanium&r continues in the next quest. There's no need to rush things."
 				"{@pagebreak}"
-				"Bauxite is also an &6excellent source of Aluminium&r."
+				"You may have already noticed that Bauxite is also an &6excellent source of Aluminium&r."
 				""
-				"Going to &dThe End&r will give you access to a better Bauxite vein, as well as &9Ilmenite&r, an even better source of Rutile."
+				"Visiting &dThe End&r allows you to access a richer Bauxite vein, as well as &9Ilmenite&r - an even better source of Rutile."
 				""
-				"&9Tip:&r Ore processing for &aBauxite&r is ridiculously good! Doing the &3Thermal Centrifuge&r step will easily &6triple&r your &aRutile&r yield."
+				"&9Tip:&r Ore processing for &aBauxite&r is ridiculously good! Including the &3Thermal Centrifuge&r step easily &6triples&r your &aRutile&r yield."
 			]
 			icon: "gtceu:rutile_dust"
 			id: "59DFC4DA7D29C315"
@@ -483,11 +481,11 @@
 				"1C55AE6AD5BDE304"
 			]
 			description: [
-				"To get your grubby hands on some Titanium, &aRutile&r must first be reduced to &aTitanium Tetrachloride&r in an &3HV Chemical Reactor&r, and then reduced again in the &3EBF&r with &dMagnesium&r to finally arrive at Titanium."
+				"To get your grubby hands on some Titanium, &aRutile&r must first be reduced to &aTitanium Tetrachloride&r in an &3HV Chemical Reactor&r, then reduced again in an &3EBF&r with &dMagnesium&r to finally arrive at Titanium."
 				""
-				"The &dCarbon&r, &dChlorine&r, &dOxygen&r, and &dMagnesium&r used in the process can be &6perfectly recovered&r from the byproduct &dCarbon Monoxide&r and &dMagnesium Chloride&r with no loss. Set up a system to recover them and you can process an indefinite amount of Rutile in a closed loop!"
+				"The &dCarbon&r, &dChlorine&r, &dOxygen&r, and &dMagnesium&r used in the process can be &6perfectly recovered&r from the byproduct &dCarbon Monoxide&r and &dMagnesium Chloride&r with no loss. If you set up a system to recover them, &athe only material&r that you'll need to provide for Titanium is &dRutile&r!"
 				"{@pagebreak}"
-				"&aTitanium Tetrachloride&r also acts as a catalyst in the production of plastics. A small amount of &aTiCl₄ &rin the polymerisation process increases the polymer yield to &6133%&r&r. This is totally and completely optional."
+				"&aTitanium Tetrachloride&r also acts as a catalyst in the production of plastics. A touch of &aTiCl₄&r in the polymerisation process can increase the polymer yield to &6133%&r&r. Naturally, this is completely optional."
 			]
 			icon: "gtceu:titanium_tetrachloride_bucket"
 			id: "727075AAF9F91FAE"
@@ -557,13 +555,13 @@
 				"727075AAF9F91FAE"
 			]
 			description: [
-				"&aTitanium&r has the highest corrosion resistance and strength-to-density ratio of any metallic element, so it's only natural that it's the main material for &5EV&r machines."
+				"&aTitanium&r has the highest corrosion resistance and strength-to-density ratio of any metallic element, so it's only natural that we'll be using it as the main material in our &5EV&r machinery."
 				""
-				"Be sure your closed loop for Rutile is ready, and prepare to run a dedicated &3EBF&r for hours."
+				"Confirm that your closed loop for &aRutile&r is up to standard, and prepare to run a dedicated &3EBF&r for hours."
 				""
-				"&5EV&r marks the end for single block generators! You'll need to run several &3HV Generators&r to keep up - and later, upgrades to Multiblock Generators will be required."
+				"A quick aside - now we're at &5EV&r, single block generators are about to fall out of style! You'll need to run several &3HV Generators&r to keep up - later, upgrades to Multiblock Generators will be required."
 				""
-				"While Multiblock generators are much more expensive, they have the ability to be much more energy efficient!"
+				"Whilst Multiblock generators are much more expensive, you'll find them to be much more energy efficient!"
 			]
 			icon: "gtceu:titanium_ingot"
 			id: "7FA0ACB7F161F378"
@@ -792,15 +790,15 @@
 		{
 			dependencies: ["41D32C5178760F47"]
 			description: [
-				"This prospector has a &6higher range&r than the &7LV&r one."
+				"This prospector boasts a &6higher range&r than its &7LV&r counterpart."
 				""
-				"Shift right-clicking on it will change the mod to &6Fluid Prospection&r. This will tell you the base &dyield&r of Fluid veins, along with how full they are."
+				"Sneak right-clicking with the Prospector in your hand will change its mode to &6Fluid Prospection&r. This will instead display the base &dyield&r of Fluid veins, along with how full they are."
 				""
-				"&9Reminder:&r The yield of &3Fluid Drilling Rigs&r is proportional to the fullness of the vein. When low enough, it defaults to yield defined in the config file."
+				"&9Reminder:&r The yield of a &3Fluid Drilling Rig&r is directly proportional to the \"fullness\" of the vein. When low enough, the output will default to a yield that can be defined in the CEu config."
 				"{@pagebreak}"
-				"&9Tip:&r When the fullness drops below 30% (rough estimation), you should consider moving to another vein for the sake of power-to-yield efficiency. Aiming for the &3Advanced Fluid Drilling Rig&r in &5EV&r will be a nice goal, as not only it boosts the output significantly, but it also reduces the drain rate."
+				"&9Tip:&r When the fullness drops below 30% (alright, rough estimate), you should consider moving to another vein for the sake of power-to-yield efficiency. Aiming for the &3Advanced Fluid Drilling Rig&r in &5EV&r may interest you, as not only does it significantly boost the output, but it also reduces the rate at which it drains the vein!"
 				""
-				"&cCaution:&r Due to a bug, the prospector is offset by one chunk, so avoid placing your rig in the corners of the 8x8 chunk area, or you may end up pumping from another vein!"
+				"&cCaution:&r Due to a bug, the Prospector display may be offset by one chunk, so avoid placing your Rig in the corners of a fluid vein. or you may end up pumping the wrong fluid!"
 			]
 			icon: "gtceu:prospector.hv"
 			id: "2124BF15006733D5"
@@ -890,7 +888,7 @@
 			description: [
 				"Making &aNitrobenzene&r will boost the energy efficiency of &aBenzene&r roughly &6fourfold&r. You love to see it."
 				""
-				"The catch here is that it takes &dDistilled Water&r and consumes a bit of &dSulfur&r every step."
+				"The catch here is that it takes &dDistilled Water&r, and consumes a bit of &dSulfur&r with every step."
 			]
 			icon: {
 				Count: 1b
@@ -1285,13 +1283,13 @@
 				"&aAmmonia&r is &doptional&r in &6HV&r."
 				""
 				"You may use it in the production of:"
-				"&9-&r Nitric Acid, although unrecommended."
+				"&9-&r Nitric Acid, although we don't recommend this."
 				"&9-&r Rocket Fuel, required for Nether Stars in &1IV&r."
 				"&9-&r Polybenzimidazole (now THAT'S a tongue twister!) in &1IV&r."
 				""
-				"The \"least painful\" recipe should be the one in the &3HV Chemical Reactor&r. Make sure your &aHydrogen&r production (mostly from &aWater electrolysis&r) is keeping up."
+				"The \"least painful\" recipe should be the one in the &3HV Chemical Reactor&r. Make sure your &aHydrogen&r production (mostly from &aWater electrolysis&r) is enough to support the demand."
 				""
-				"You can also obtain &aAmmonia&r as a waste product from &dPlatinum Group Sludge&r processing."
+				"You could also obtain &aAmmonia&r as a waste product from &dPlatinum Group Sludge&r processing."
 			]
 			icon: "gtceu:ammonia_bucket"
 			id: "4343746E706264E6"

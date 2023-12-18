@@ -49,7 +49,6 @@
 				}
 				{
 					id: "7AD0E74B9CD9AFAE"
-					optional_task: true
 					type: "checkmark"
 				}
 			]
@@ -352,11 +351,19 @@
 			id: "690A51204DF5D469"
 			size: 0.75d
 			subtitle: "A power singularity!"
-			tasks: [{
-				id: "41813C4D68B991D7"
-				item: "gtceu:energy_module"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "41813C4D68B991D7"
+					item: "gtceu:energy_module"
+					type: "item"
+				}
+				{
+					id: "705422BF26C76199"
+					item: "gtceu:zpm_lapotronic_battery"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "Mega Batteries"
 			x: -1.5d
 			y: 1.125d

@@ -50,7 +50,7 @@
 				"&9-&r &aNeodymium&r normally makes the strongest magnets, but gameplay balance... y'know."
 				"&9-&r &aCadmium&r is not particularly useful."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Rare Earth Elements (REE) contain a lot more metals than these, but we are struggling as is to give them use."
+				"&l&3Lore:&r&o Rare Earth Elements (REE) contain a lot more metals than these, but we're struggling as is to give them use."
 			]
 			id: "300348B1238BCB9A"
 			size: 0.75d
@@ -77,7 +77,7 @@
 				""
 				"At this point, you may go back to using only one &3Electric Blast Furnace&r for your entire base, powering with the highest available Voltage you have."
 				""
-				"&6Hot Metals&r will start taking longer to cool down, as the &3Vacuum Freezer&r doesn't get perfect overclocks. For that you will probably want a dual (or quad) &3Vacuum Freezer&r."
+				"&6Hot Metals&r will start taking longer to cool down, as the &3Vacuum Freezer&r doesn't get perfect overclocks. For that, you probably want a dual (or quad) &3Vacuum Freezer&r."
 			]
 			icon: "gtceu:hssg_coil_block"
 			id: "7A1E3C3A2D699C5B"
@@ -99,7 +99,7 @@
 				""
 				"If you previously made &dUltimet&r for whatever reason, you've already acquired &aMolybdenum&r. Otherwise, it can be found in a Nether vein."
 				""
-				"We hope you have a lot of &9Tungstensteel&r, because you're still gonna need more! It is used for the creation of &aHSS&r alloys - presently &aHSS-G&r."
+				"We hope you have a lot of &9Tungstensteel&r, because you're still gonna need more! It's used for the creation of &aHSS&r alloys - in this case, &aHSS-G&r."
 			]
 			hide_dependency_lines: true
 			id: "1776FA1F3255731E"
@@ -184,8 +184,6 @@
 				"You should have all the tools available to produce &aPolybenzimidazole&r on your own!"
 				""
 				"&aPBI&r only becomes mandatory to progress from &dLuV&r to &cZPM&r, but tackling it earlier will unlock the &6Advanced SMDs&r."
-				""
-				"The Quest can be completed with &eany&r form of PBI. You'll probably want Bars for automation purposes."
 			]
 			icon: "gtceu:polybenzimidazole_plate"
 			id: "7CFC112B8F460549"
@@ -196,11 +194,13 @@
 					amount: 1000L
 					fluid: "gtceu:polybenzimidazole"
 					id: "5971118ED25AC71A"
+					optional_task: true
 					type: "fluid"
 				}
 				{
 					id: "7C5D37940A0C8409"
 					item: "gtceu:polybenzimidazole_ingot"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -221,7 +221,7 @@
 			description: [
 				"Better &aSMDs&r to make far more complex Circuits at a much cheaper price."
 				""
-				"You will require Alloys that you have not made yet, most of which will be common in &dLuV&r and onwards."
+				"These'll require Alloys that you have not made yet, most of which will be common in &dLuV&r and onwards."
 				""
 				"&aAdvanced SMDs&r are required for the &dCrystal&r Circuit line."
 			]
@@ -417,7 +417,7 @@
 		{
 			dependencies: ["30A6EDDF25A5E5F8"]
 			description: [
-				"&1IV&r Components - fortunately for you - are not a big step up in terms of complexity."
+				"&1IV&r Components - fortunately for you - aren't a massive step up in terms of complexity."
 				""
 				"However, the amount of &dTungsten&r required in crafting these is huge."
 				""
@@ -427,6 +427,43 @@
 			id: "01AB252C72B565FE"
 			shape: "rsquare"
 			size: 0.66d
+			tasks: [
+				{
+					id: "382B9759383E1AC3"
+					item: "gtceu:iv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "0C74DFC662ECC366"
+					item: "gtceu:iv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "519AC26F40AFFB88"
+					item: "gtceu:iv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "36CA1AAFADE476FF"
+					item: "gtceu:iv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "27DB5DDEF05DDC0D"
+					item: "gtceu:iv_robot_arm"
+					type: "item"
+				}
+				{
+					id: "165F27AC399EC0FD"
+					item: "gtceu:iv_emitter"
+					type: "item"
+				}
+				{
+					id: "6AD8B7D88D9E10F5"
+					item: "gtceu:iv_sensor"
+					type: "item"
+				}
+			]
 			title: "There is no limit to \"Fun\""
 			x: 0.375d
 			y: 6.0d
@@ -528,7 +565,7 @@
 				"{@pagebreak}"
 				"&l&3Lore:&r&o In GregTech 5, the Data Orb was used in the Matter Replicator to store the \"data\" of the material you wanted to replicate. There is no replication here - the Orb is now a mere crafting component."
 				""
-				"Additionally, GregTech 5's PA and other Multiblocks acted as a Cleanroom. There is no such thing here!"
+				"&oAdditionally, GregTech 5's PA and other Multiblocks acted as a Cleanroom. There's no such thing here!"
 			]
 			id: "2DAC91AF2EBB68E2"
 			size: 0.75d
@@ -549,7 +586,7 @@
 				"69E384F389B0D07B"
 			]
 			description: [
-				"250,000,000 EU in a Battery? That's 25 minutes of Power when drained constantly. That's more than your average iPhone."
+				"&o&7\"250,000,000 EU in a Battery? That's 25 minutes of Power when drained constantly.\""
 				""
 				"The &aLapotronic Energy Orb&r should be the beginning of the end of your energy storage struggles."
 				""
@@ -570,6 +607,7 @@
 				{
 					id: "529358AADE55D801"
 					item: "gtceu:iv_lapotronic_battery"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -611,6 +649,7 @@
 				{
 					id: "71D5FE3076C1F56C"
 					item: "gtceu:nether_star_dust"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -622,7 +661,7 @@
 							value: "forge:gems/nether_star"
 						}
 					}
-					title: "Any #forge:gems/nether_star"
+					title: "Nether Star"
 					type: "item"
 				}
 			]
@@ -673,9 +712,9 @@
 				"528CE69DA4358B2E"
 			]
 			description: [
-				"This part of the chain starts by obtaining some &aRarest Metal Residue&r."
+				"This part of the chain starts by obtaining some &aRarest Metal Mixture&r."
 				""
-				"You will need at least an &1IV&r &3Large Chemical Reactor&r, but the average power draw isn't too bad."
+				"You'll need at least an &1IV&r &3Large Chemical Reactor&r, but the average power draw isn't too bad."
 				""
 				"&dChlorine&r is fully looped, and &dHydrogen&r is slightly negative (&ounless you put Acidic Osmium Solution in the Distillation Tower and electrolyze the water back... on second thoughts, don't do that&r)."
 				""
@@ -998,18 +1037,27 @@
 			id: "48DEABA155605D23"
 			shape: "rsquare"
 			size: 0.66d
-			tasks: [
-				{
-					id: "5A16A90F5B6FBDA9"
-					item: "gtceu:iv_energy_input_hatch"
-					type: "item"
+			tasks: [{
+				id: "2EC4E901B2CD35FA"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:iv_energy_input_hatch"
+							}
+							{
+								Count: 1b
+								id: "gtceu:iv_energy_output_hatch"
+							}
+						]
+					}
 				}
-				{
-					id: "04CFDD86ADF6B918"
-					item: "gtceu:iv_energy_output_hatch"
-					type: "item"
-				}
-			]
+				title: "IV Dynamo/Energy Hatch"
+				type: "item"
+			}]
 			title: "Upgrading your EBF for the millionth time"
 			x: 3.75d
 			y: 3.75d

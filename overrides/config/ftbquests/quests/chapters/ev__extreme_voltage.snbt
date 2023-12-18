@@ -1,4 +1,5 @@
 {
+	autofocus_id: "01E88C8523658529"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ev__extreme_voltage"
@@ -48,17 +49,17 @@
 		{
 			dependencies: ["16B735F9C391D260"]
 			description: [
-				"However... if we were honest... Steam as a power option really isn't worth it at this point anymore. "
+				"It's time to be blunt - Steam as a power option really isn't worth it at this point anymore. "
 				""
-				"The &3Large Steam Turbine&r is a multiblock Steam Turbine for &6HV&r power. It's quite an expensive multiblock to build just to generate a measly 1024 EU/t, but it also boasts the powerful ability to scale to &9higher Power Production and higher Efficiency&r."
+				"The &3Large Steam Turbine&r acts as a multiblock Steam Turbine for &6HV&r power. It's quite an expensive multiblock to build just for a measly 1024 EU/t, but it also boasts the powerful ability to scale to &9higher Power Production and higher Efficiency&r."
 				"{@pagebreak}"
-				"The Turbine will output &dDistilled Water&r if given an &3Output Hatch&r. You can loop this back to your &3Large Boilers&r. We don't entirely endorse this, as your Boilers will end up exploding if the system fails..."
+				"The Turbine outputs &dDistilled Water&r if given an &3Output Hatch&r, which you could loop back to your &3Large Boilers&r. We don't entirely endorse this, as your Boilers will end up exploding if the system fails."
 				""
-				"Each Large Turbine will require a &aTurbine Rotor&r and a &3Rotor Holder&r. More on the Turbine mechanics in the &lnext&r Quest."
+				"Each Large Turbine will require a &aTurbine Rotor&r and a &3Rotor Holder&r. You can find out more about the Turbine mechanics in the &lnext&r Quest."
 				"{@pagebreak}"
-				"&9Note:&r This Quest &eonly&r requires the Controller, but you still need all the multiblock parts to construct the Turbine."
+				"&9Note:&r This Quest &eonly&r requires the Controller, but you'll still need all the multiblock parts to construct the Turbine."
 				""
-				"Turbines &cvoid&r energy if they're unable to output. If you plan on using this with HV power, use a Rotor with close to 100% Power stat."
+				"Turbines &cvoid&r energy if they're unable to output. If you plan on using this with &6HV&r power, use a Rotor close to a 100% Power stat."
 			]
 			icon: "gtceu:steam_large_turbine"
 			id: "189F84D6C76CDC8B"
@@ -366,11 +367,19 @@
 			id: "69E384F389B0D07B"
 			shape: "rsquare"
 			size: 0.66d
-			tasks: [{
-				id: "3DF109921CA21ADB"
-				item: "gtceu:lapotron_crystal"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3DF109921CA21ADB"
+					item: "gtceu:lapotron_crystal"
+					type: "item"
+				}
+				{
+					id: "486FD2A6FCEFDFEF"
+					item: "gtceu:ev_lapotronic_battery"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "Extreme Batteries"
 			x: 4.5d
 			y: 1.125d
@@ -448,7 +457,7 @@
 		{
 			dependencies: ["478B0D55369C0F7F"]
 			description: [
-				"&aTungstensteel&r is composed half of Steel... suffice to say, you will need large quantities of both &aIron&r and &aTungsten&r!"
+				"&aTungstensteel&r is composed half of Steel... suffice to say, you'll need large quantities of both &aIron&r and &aTungsten&r!"
 				""
 				"Right now, you will need it for &3Energy&r or &3Dynamo Hatches&r... one step closer to moving away from those pesky single block Generators."
 				""
@@ -529,7 +538,7 @@
 				""
 				"You'll need to make use of many new &9alloys&r to build the new Multiblocks. Yay, more content!"
 				""
-				"&6This quest unlocks a new tutorial on the GCYM mechanics the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
+				"&6This quest unlocks a new tutorial on the GCYM mechanics in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
 			]
 			icon: "gtceu:vibration_safe_casing"
 			id: "3B2D2C47BEBCFFA7"
@@ -542,7 +551,7 @@
 			}]
 			title: "Gregicality Multiblocks"
 			x: 9.0d
-			y: 6.75d
+			y: 6.6d
 		}
 		{
 			dependencies: [
@@ -1166,7 +1175,7 @@
 							value: "forge:ingots/plutonium"
 						}
 					}
-					title: "Any #forge:ingots/plutonium"
+					title: "Plutonium Ingot"
 					type: "item"
 				}
 				{
@@ -1222,13 +1231,13 @@
 		{
 			dependencies: ["390E59F05132FCB8"]
 			description: [
-				"Go for the &3LCR&r recipe."
+				"You're going to want to use the &3LCR&r recipe for your first &aEpichlorohydrin&r."
 				""
-				"This requires &aPropene&r, which means &dOil Processing&r and &dFuel Cracking&r are necessary. Sorry if you had been putting that off..."
+				"This recipe requires &aPropene&r, which means that &dOil Processing&r and &dFuel Cracking&r are now necessary ventures. We're truly sorry if you've been dragging your heels!"
 				""
-				"We highly recommend that you get the &3Distillation Tower&r before progressing in this direction."
+				"It's quite important that you make your first &3Distillation Tower&r before progressing to the right."
 				""
-				"If you hadn't noticed, you can loop the &dSalt Water&r for the &dSodium Hydroxide&r."
+				"Last of all, if you haven't noticed, you can loop the &dSalt Water&r byproduct to bootstrap the &dSodium Hydroxide&r."
 			]
 			id: "1F571B9E1555DA04"
 			shape: "rsquare"
@@ -1249,18 +1258,24 @@
 				"Obtain &aPhenol&r from:"
 				""
 				"&91 -&r &aWood Tar&r distillation."
-				"&92 -&r Reacting &aBenzene&r with &dChlorine&r and &dSodium Hydroxide&r (performed in an &3LCR&r, Chlorine is perfectly looped)."
-				"&93 -&r Doing the above shortcut recipe which skips using &dSodium Hydroxide&r, but is lossy on &dChlorine&r."
-				"&94 -&r Reacting &aBenzene&r, &dPropene&r and &dOxygen&r using a small amount of &4Phosphoric Acid&r, normally a catalyst, but consumed in small quantity. This is called the Cumene process."
-				"{@pagebreak}"
-				"If you're having trouble deciding between the options presented, here's why each route could suit you:"
 				""
-				"&91 -&r Great if you have &3Pyrolyse&r + &3Distillation Tower&r combo."
-				"&92 -&r Our preference! You can use the &dSalt&r to make &dSalt Water&r and electrolyze it as a loop."
-				"&93 -&r Great if you have infinite supply of &dChlorine&r thanks to a &3Fluid Drilling Rig&r on Salt Water."
-				"&94 -&r &4Phosphoric Acid&r is a pain to produce. You'd be mad to consider this."
+				"&92 -&r Reacting &aBenzene&r with &dChlorine&r and &dSodium Hydroxide&r This should be performed in an &3LCR&r, and the Chlorine is perfectly looped."
+				""
+				"&93 -&r Shortcutting the above recipe by ignoring the &dSodium Hydroxide&r. This is net negative on &dChlorine&r."
+				""
+				"&94 -&r Reacting &aBenzene&r, &dPropene&r and &dOxygen&r using a small amount of &4Phosphoric Acid&r - normally a catalyst, but consumed here in small quantities. This is called the Cumene process."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o The Benzene + Oxygen recipe was added in GTCE as part of its chemical fixes, as the Large Chemical Reactor didn't exist. Now that there are more realistic options, that recipe might be removed."
+				"If you're having trouble deciding between the options presented, here's the appeal of each route:"
+				""
+				"&91 -&r Great if you're willing to set up a &3Pyrolyse Oven&r + &3Distillation Tower&r combo."
+				""
+				"&92 -&r This one's our preference! You can use the &dSalt&r to make more &dSalt Water&r, then electrolyze to create a loop."
+				""
+				"&93 -&r Very appealing if you have an infinite supply of &dChlorine&r. You could achieve this by setting up a &3Fluid Drilling Rig&r on a Salt Water vein."
+				""
+				"&94 -&r ...&4Phosphoric Acid&r is a pain to produce. You'd be mad to consider this."
+				"{@pagebreak}"
+				"&l&3Lore:&r&o The Benzene + Oxygen recipe was added in GTCE with the intent of fixing missing chemical recipes, as the Large Chemical Reactor didn't exist. Now that CEu provides more realistic options, we may remove the recipe in future."
 			]
 			id: "4CD9F6D1B4CC7D81"
 			shape: "rsquare"
@@ -1306,13 +1321,11 @@
 			description: [
 				"Silicone Rubber has its uses in Cable insulation, Conveyor recipes, and more."
 				""
-				"We would recommend holding off for now, as it's a pretty severe &dChlorine&r sink."
-				""
-				"Collect &eany&r of these forms of Rubber to complete this Quest."
+				"You may want to shelve this quest for now, as tackling Silicone Rubber can be a pretty severe &dChlorine&r sink."
 				"{@pagebreak}"
-				"&9Note:&r Rubber will have to be replaced with either &a&aSilicone Rubber&r or &aStyrene-Butadienne Rubber&r for &1IV&r Cables."
+				"&9Note:&r Rubber will eventually be usurped by either &aSilicone Rubber&r or &aStyrene-Butadienne Rubber&r for &1IV&r Cables."
 				""
-				"Both &aSilicone Rubber&r and &aStyrene-Butadienne Rubber&r will be required in &dLuV&r."
+				"Both these rubbers will be required once you make it to &dLuV&r."
 			]
 			icon: "gtceu:silicone_rubber_plate"
 			id: "1A4AD56965407DC5"
@@ -1323,6 +1336,7 @@
 					amount: 1296L
 					fluid: "gtceu:silicone_rubber"
 					id: "3C29253DA5DAF778"
+					optional_task: true
 					type: "fluid"
 				}
 				{
@@ -1334,7 +1348,8 @@
 							value: "forge:ingots/silicone_rubber"
 						}
 					}
-					title: "Any #forge:ingots/silicone_rubber"
+					optional_task: true
+					title: "Silicone Rubber Ingot"
 					type: "item"
 				}
 				{
@@ -1346,7 +1361,7 @@
 							value: "forge:plates/silicone_rubber"
 						}
 					}
-					title: "Any #forge:plates/silicone_rubber"
+					title: "Silicone Rubber Plate"
 					type: "item"
 				}
 			]
@@ -1361,13 +1376,11 @@
 				""
 				"It can be used in place of Rubber in most recipes, and is &6four times more efficient&r at &ainsulating Cables&r. It is also strictly required for certain higher-tier recipes."
 				""
-				"This isn't exactly worth making until you get the &3Distillation Tower&r, but it eventually becomes great with &dFuel Cracking&r."
-				""
-				"Collect &eany&r of these forms of Rubber to complete this Quest."
+				"This isn't exactly worth making until you get the &3Distillation Tower&r, but it eventually becomes easier with &dFuel Cracking&r."
 				"{@pagebreak}"
-				"&9Note:&r Rubber will have to be replaced with either &a&aSilicone Rubber&r or &aStyrene-Butadiene Rubber&r for &1IV&r Cables."
+				"&9Note:&r Rubber will eventually be usurped by either &aSilicone Rubber&r or &aStyrene-Butadienne Rubber&r for &1IV&r Cables."
 				""
-				"Both &aSilicone Rubber&r and &aStyrene-Butadiene Rubber&r will be required in &dLuV&r."
+				"Both these rubbers will be required once you make it to &dLuV&r."
 			]
 			id: "77070668969E31BF"
 			size: 0.75d
@@ -1685,28 +1698,6 @@
 		{
 			dependencies: ["39E7997F3080250A"]
 			description: [
-				"To turn a P2P Tunnel into a &aGTEU P2P Tunnel&r, right-click it in the world with a &dWire&r or &dCable&r."
-				""
-				"This is ideal in lategame situations to save you from spamming Cables or Transformers. You can also use them in conjunction with the AE2 Quantum Bridge to power your high tier Miners and Drills outside your base."
-				""
-				"There is a &45% Voltage Tax&r on the output side of the P2P, resulting in 5% energy loss."
-			]
-			icon: "ae2:me_p2p_tunnel"
-			id: "4793384CD9764AC6"
-			shape: "rsquare"
-			size: 0.66d
-			subtitle: "EU and U: Transferring energy"
-			tasks: [{
-				id: "6EEAAFA1EAC9DEDA"
-				type: "checkmark"
-			}]
-			title: "GTEU P2P Tunnels"
-			x: 7.875d
-			y: 5.625d
-		}
-		{
-			dependencies: ["39E7997F3080250A"]
-			description: [
 				"To turn a P2P Tunnel into an &aItem P2P Tunnel&r, right-click it in the world with a &dvanilla Chest&r."
 				""
 				"Item P2P Tunnels are useful in a more abstract way so let's start with an example."
@@ -1737,6 +1728,69 @@
 			title: "Item P2P Tunnels"
 			x: 7.875d
 			y: 4.5d
+		}
+		{
+			dependencies: ["3B2D2C47BEBCFFA7"]
+			description: [
+				"The &aAlloy Blast Smelter&r is the only main &2GCYM&r machine available in &5EV&r. You can use it to produce any alloy that you'd normally use the Mixer for. "
+				""
+				"Instead of producing &6Hot Ingots&r, the ABS produces &9Molten Fluids&r if the recipe is \"hot\" enough. These fluids require cooling with a &bVacuum Freezer&r. Otherwise, it produces regular liquids."
+				""
+				"Don't let the long smelting times scare you off. This machine incorporates the &dMixer step&r directly into the smelting recipe, and actually saves you quite a bit of time over smelting the dust in an EBF!"
+				""
+				"Nearly every &2GCYM&r material is produced in this machine, so if you have trouble finding a Mixer recipe, look for a Molten Fluid!"
+				"{@pagebreak}"
+				"&l&3Lore:&r&o This multiblock was inspired by GT++. It didn't use any heating coils, had no temperature requirements, and only produced regular liquids for all materials. It was pretty OP back in the day, but it eventually got restricted to only a single Energy Hatch to balance it out. For some reason, it also allowed you to melt any dust... into liquid...?"
+			]
+			id: "5979B0E13A1EDC9C"
+			shape: "square"
+			size: 0.75d
+			subtitle: "Visions of GT++"
+			tasks: [{
+				id: "1493AF342D999313"
+				item: "gtceu:alloy_blast_smelter"
+				type: "item"
+			}]
+			x: 7.875d
+			y: 6.75d
+		}
+		{
+			dependencies: ["3B2D2C47BEBCFFA7"]
+			description: [
+				"You probably have some old machines lying around, right?"
+				""
+				"You most likely know by now that Arc Furnaces can recycle machines, but by &5EV&r, they upgrade to &a9 slots&r!"
+				""
+				"&eNote&r: This quest accepts either an &5EV&r or &9IV&r Arc Furnace. You don't have to make both."
+			]
+			icon: "gtceu:iv_arc_furnace"
+			id: "6FEF59B8F571359D"
+			shape: "rsquare"
+			size: 0.66d
+			tasks: [{
+				id: "35CAC76B502E12FF"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:ev_arc_furnace"
+							}
+							{
+								Count: 1b
+								id: "gtceu:iv_arc_furnace"
+							}
+						]
+					}
+				}
+				title: "Arc Furnace"
+				type: "item"
+			}]
+			title: "Getting Rid of Those Old Machines"
+			x: 7.875d
+			y: 5.625d
 		}
 	]
 	subtitle: ["Improve your infrastructure and parallelise your setups"]

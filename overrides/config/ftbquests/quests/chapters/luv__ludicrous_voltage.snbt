@@ -436,6 +436,7 @@
 				{
 					id: "48F555D3FC7EA449"
 					item: "gtceu:trinium_sulfide_dust"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -695,14 +696,23 @@
 				"{@pagebreak}"
 				"&l&3Lore:&r&o In older versions of GT, such as GTNH in the past or in GCYL, these orbs were ludicrously expensive! They required 8 orbs of the previous tier! Thankfully, those days are long past."
 			]
+			icon: "gtceu:lapotronic_energy_orb_cluster"
 			id: "0D7C978F9CDF771B"
 			size: 0.75d
 			subtitle: "Even more power!"
-			tasks: [{
-				id: "6D1376BF3CEA87A7"
-				item: "gtceu:lapotronic_energy_orb_cluster"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6D1376BF3CEA87A7"
+					item: "gtceu:lapotronic_energy_orb_cluster"
+					type: "item"
+				}
+				{
+					id: "66D5D76676D27388"
+					item: "gtceu:luv_lapotronic_battery"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "Ludicrous Batteries"
 			x: 6.75d
 			y: 4.5d
