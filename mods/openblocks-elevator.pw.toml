@@ -1,0 +1,13 @@
+name = "OpenBlocks Elevator"
+filename = "elevatorid-1.20.1-lex-1.9.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "04f3ee97d8881f4dd6b4e2c8c5ba4e1785e2f2c7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4837768
+project-id = 250832

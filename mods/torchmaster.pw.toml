@@ -1,0 +1,13 @@
+name = "Torchmaster"
+filename = "torchmaster-20.1.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5cb257626093409d35701aaa307b8eecef6ecd31"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4817795
+project-id = 254268

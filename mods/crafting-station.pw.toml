@@ -1,0 +1,13 @@
+name = "Crafting Station"
+filename = "craftingstation-1.20.1-1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "56b186b8037b307a7fd3b55dfde6ad4bb618231f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4770683
+project-id = 318551

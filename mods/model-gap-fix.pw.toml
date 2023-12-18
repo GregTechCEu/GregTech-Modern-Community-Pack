@@ -1,0 +1,13 @@
+name = "Model Gap Fix"
+filename = "modelfix-1.14.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f11c4d7010f9572bd2e2ed64c15e544816226e0b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4607206
+project-id = 676136

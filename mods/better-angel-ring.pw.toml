@@ -1,0 +1,13 @@
+name = "Better Angel Ring"
+filename = "better_angel_ring-1.20.1-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "abee07cc2beb239776c69007b3fff7510e6b46c0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4801662
+project-id = 904974

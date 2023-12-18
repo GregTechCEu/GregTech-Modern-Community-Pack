@@ -1,0 +1,13 @@
+name = "Trenzalore"
+filename = "trenzalore-forge-3.3.10+mc1.20.1-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7295788df92b75b49affb11d13f9fcf0385017fc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4848244
+project-id = 870210
