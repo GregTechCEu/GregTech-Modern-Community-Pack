@@ -4,7 +4,7 @@ Repository for the Modern fork of the GregTech Community Modpack - a minecraft m
 
 ## Playing
 
-The modpack should - eventually - be available on Curseforge.
+The modpack is available on [Curseforge](https://legacy.curseforge.com/minecraft/modpacks/gregtech-community-pack-modern).
 
 ## Building
 
