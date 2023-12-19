@@ -17,19 +17,14 @@ jobs:
         with: 
           go-version: '>=1.19.0'
       
-      - name: Install Packwiz & Dasel
+      - name: Install Packwiz
         run: |
           go install github.com/packwiz/packwiz@latest
-          go install github.com/mikefarah/yq/v4@latest
 
       - name: Build pack
-        run: |
-          packwiz curseforge export
-          sudo apt install unzip
-          unzip GregTech\ CEu\ Modern\ Community\ Pack-*.zip -d "GregTech CEu Modern Community Pack-$(yq '.version' pack.toml)"
-          rm GregTech\ CEu\ Modern\ Community\ Pack-*.zip
+        run: packwiz curseforge export
       
       - name: Upload pack to actions
         uses: actions/upload-artifact@v3
         with:
-          path: GregTech CEu Modern Community Pack-*
+          path: GregTech CEu Modern Community Pack-*.zip
