@@ -172,6 +172,8 @@
 				"52D952ADBEB67454"
 			]
 			description: [
+				"&4&l[ NOT YET IMPLEMENTED ]&r"
+				""
 				"The &3Data Bank&r is a multiblock capable of storing huge amounts of data. You can fill it with &aData Access Hatches&r, and fill those with &aData Storage Items&r."
 				""
 				"After that, you'll need power, and then a way to connect it to your Assembly Line! This is done through &3Optical Fiber Cables&r, which can be used to link &3Optical Data Hatches together&r."

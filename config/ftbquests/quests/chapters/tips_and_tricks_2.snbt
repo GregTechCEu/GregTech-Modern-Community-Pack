@@ -474,6 +474,7 @@
 			icon: "gtceu:data_orb"
 			id: "6DA28F169CED9C7D"
 			size: 0.75d
+			subtitle: "Not Yet Implemented"
 			tasks: [{
 				id: "5626378FBFA6241A"
 				title: "Research"

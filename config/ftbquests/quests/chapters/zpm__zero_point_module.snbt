@@ -191,6 +191,8 @@
 				"2587BFD0D9F3FF4A"
 			]
 			description: [
+				"&4&l[ NOT YET IMPLEMENTED ]&r"
+				""
 				"The &3Research Station&r is the upgrade to the Scanner. It's used for more advanced forms of research, and will finally allow you to perform research which requires &aData Orbs and Modules&r."
 				""
 				"When running the &3Research Station&r, energy and &9Computation&r is needed. The latter is provided through an &9HPCA&r, which is explained in the next quest. It is recieved with a &3Computation Data Reception Hatch&r. Note that only one Reception Hatch is allowed in a Research Station."
@@ -262,6 +264,8 @@
 		{
 			dependencies: ["1D6CC3C7F6BE4055"]
 			description: [
+				"&4&l[ NOT YET IMPLEMENTED ]&r"
+				""
 				"This hatch allows you to store more &aData Storage Items&r than the basic one."
 				""
 				"Don't forget that this hatch requires a &9Data Orb&r for research."
@@ -431,6 +435,8 @@
 		{
 			dependencies: ["468EEFD9D2F69014"]
 			description: [
+				"&4&l[ NOT YET IMPLEMENTED ]&r"
+				""
 				"The &3High Performance Computation Array&r, also known as the &3HPCA&r, is the multiblock used to create &9Computation&r, measured in CWU/t (Compute-Work Units per tick)."
 				""
 				"The HPCA is a modular multiblock with many unique components you've likely not seen before. There are &a9 slots available&r for different components, and there are some example layouts in the JEI previews, so reviewing these may help if you feel confused."
@@ -644,6 +650,8 @@
 		{
 			dependencies: ["79E4E53E9DF45549"]
 			description: [
+				"&4&l[ NOT YET IMPLEMENTED ]&r"
+				""
 				"&3Advanced HPCA Components&r are improved versions of their regular counterparts, and allow for increasing the computation you can produce from an HPCA."
 				""
 				"The &3HPCA Advanced Computation Component&r produces &a4x&r the computation for only &a2x&r the Cooling!"
