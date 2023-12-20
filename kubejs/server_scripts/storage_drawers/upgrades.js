@@ -81,7 +81,7 @@ ServerEvents.recipes((event) => {
     T: "storagedrawers:upgrade_template",
   });
 
-  // Void Upgrade
+  // Drawer Key
   event.shaped("storagedrawers:drawer_key", [" BP", "TPP", "Gs "], {
     B: "#forge:bolts/gold",
     T: "storagedrawers:upgrade_template",
