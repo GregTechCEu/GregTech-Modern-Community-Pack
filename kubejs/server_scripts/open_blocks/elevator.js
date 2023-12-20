@@ -38,7 +38,7 @@ ServerEvents.recipes((event) => {
 
   event.shaped("elevatorid:elevator_gray", ["PPP", "GFG", "PPP"], {
     P: "#forge:plates/steel",
-    G: "#forge:gears/small/steel",
+    G: "#forge:small_gears/steel",
     F: "#forge:frames/steel",
   });
 });

@@ -42,7 +42,7 @@ ServerEvents.recipes((event) => {
   event.shaped("ae2:item_cell_housing", ["GPG", "WCW", "PPP"], {
     G: "ae2:quartz_glass",
     P: "#forge:plates/steel",
-    W: "#forge:wires/fine/red_alloy",
+    W: "#forge:fine_wires/red_alloy",
     C: "#forge:circuits/lv",
   });
 

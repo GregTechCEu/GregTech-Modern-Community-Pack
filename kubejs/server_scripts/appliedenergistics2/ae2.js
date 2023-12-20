@@ -191,7 +191,7 @@ ServerEvents.recipes((event) => {
   ] , {
     E: "ae2:engineering_processor",
     C: "#forge:circuits/lv",
-    W: "#forge:wires/fine/gold",
+    W: "#forge:fine_wires/gold",
     P: "#forge:plates/iron"
   })
   */
@@ -201,7 +201,7 @@ ServerEvents.recipes((event) => {
   event.shaped("ae2:memory_card", ["EC ", "WP ", "   "], {
     E: "ae2:calculation_processor",
     C: "#forge:circuits/lv",
-    W: "#forge:wires/fine/gold",
+    W: "#forge:fine_wires/gold",
     P: "#forge:plates/iron",
   });
 
@@ -291,16 +291,16 @@ ServerEvents.recipes((event) => {
   //Illuminated Panel
   event.remove({ id: "ae2:network/parts/panels_semi_dark_monitor" });
   event.shaped("ae2:semi_dark_monitor", ["WSG"], {
-    W: "#forge:wires/fine/tin",
+    W: "#forge:fine_wires/tin",
     S: "gtceu:computer_monitor_cover",
     G: "ae2:quartz_vibrant_glass",
   });
   event.shaped("ae2:semi_dark_monitor", ["mWG", "TCV", "xWG"], {
     m: "#forge:tools/mallets",
     x: "#forge:tools/wire_cutters",
-    W: "#forge:wires/fine/copper",
+    W: "#forge:fine_wires/copper",
     G: "#forge:plates/glass",
-    T: "#forge:wires/fine/tin",
+    T: "#forge:fine_wires/tin",
     C: "#forge:circuits/lv",
     V: "ae2:quartz_vibrant_glass",
   });

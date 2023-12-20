@@ -8,7 +8,7 @@ ServerEvents.recipes((event) => {
   //Ghast Tear
   greg
     .chemical_reactor("gtceu:ghast_tear")
-    .itemInputs("#forge:dusts/tiny/potassium", "#forge:dusts/tiny/lithium")
+    .itemInputs("#forge:tiny_dusts/potassium", "#forge:tiny_dusts/lithium")
     .inputFluids("gtceu:salt_water 1000")
     .itemOutputs("minecraft:ghast_tear")
     .duration(400)
@@ -104,8 +104,8 @@ ServerEvents.recipes((event) => {
     .large_chemical_reactor("gtceu:bottle_o_enchanting")
     .itemInputs(
       "glass_bottle",
-      "#forge:dusts/tiny/gold",
-      "#forge:dusts/tiny/sugar"
+      "#forge:tiny_dusts/gold",
+      "#forge:tiny_dusts/sugar"
     )
     .inputFluids("water 100")
     .itemOutputs("experience_bottle")

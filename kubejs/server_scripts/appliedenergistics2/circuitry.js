@@ -9,7 +9,7 @@ ServerEvents.recipes((event) => {
       "ae2:printed_silicon",
       "#forge:circuits/lv",
       "#gtceu:resistors",
-      "2x #forge:wires/fine/tin"
+      "2x #forge:fine_wires/tin"
     )
     .itemOutputs("4x ae2:logic_processor")
     .duration(200)
@@ -23,7 +23,7 @@ ServerEvents.recipes((event) => {
       "ae2:printed_silicon",
       "#forge:circuits/lv",
       "#gtceu:resistors",
-      "2x #forge:wires/fine/tin"
+      "2x #forge:fine_wires/tin"
     )
     .itemOutputs("4x ae2:engineering_processor")
     .duration(200)
@@ -37,7 +37,7 @@ ServerEvents.recipes((event) => {
       "ae2:printed_silicon",
       "#forge:circuits/lv",
       "#gtceu:resistors",
-      "2x #forge:wires/fine/tin"
+      "2x #forge:fine_wires/tin"
     )
     .itemOutputs("4x ae2:calculation_processor")
     .duration(200)
