@@ -49,7 +49,7 @@
     "wirelessTerminal": 1600000,
     "chargedStaff": 8000,
     "entropyManipulator": 200000,
-    "portableCell": 20000,
+    "portableCell": 200000,
     "colorApplicator": 20000,
     "matterCannon": 200000
   },
