@@ -586,6 +586,11 @@ hash = "f56c370b32425962d0fe4a46b16a2e62fc50dc91ab415cd6ff1ae9630bddee70"
 metafile = true
 
 [[files]]
+file = "mods/corail-tombstone.pw.toml"
+hash = "b873e902aed9cfd7c61903b906de6be326b892c85cb873deccbf57c30de4c8a3"
+metafile = true
+
+[[files]]
 file = "mods/crafting-station.pw.toml"
 hash = "14bb3c0b1c9038810143f3bc8dc6dbee6561a5cdf8a7eabc12d01eadd82310e5"
 metafile = true
@@ -738,6 +743,11 @@ metafile = true
 [[files]]
 file = "mods/modernfix.pw.toml"
 hash = "33b2fa2141943ff710cbf01f7fa0a2cd90d1b0b1a388c61371f62f816f7e641e"
+metafile = true
+
+[[files]]
+file = "mods/more-overlays-updated.pw.toml"
+hash = "e60cf1198500d7664b621be42a6fb1986e3830f009e08b7f4696240535e6e175"
 metafile = true
 
 [[files]]
