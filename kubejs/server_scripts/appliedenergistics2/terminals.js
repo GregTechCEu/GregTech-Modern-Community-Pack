@@ -16,7 +16,7 @@ ServerEvents.recipes((event) => {
   event.shaped("ae2:wireless_crafting_terminal", ["TC ", "Kd ", "   "], {
     d: "#forge:tools/screwdrivers",
     T: "ae2:wireless_terminal",
-    C: "gtceu:crafting_table_cover",
+    C: "crafting_table",
     K: "ae2:fluix_glass_cable",
   });
 
@@ -83,7 +83,7 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "ae2:network/parts/terminals_crafting" });
   event.shaped("ae2:crafting_terminal", ["PB ", "Cd "], {
     P: "ae2:terminal",
-    B: "gtceu:crafting_table_cover",
+    B: "crafting_table",
     C: "ae2:calculation_processor",
     d: "#forge:tools/screwdrivers",
   });

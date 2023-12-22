@@ -91,7 +91,7 @@ ServerEvents.recipes((event) => {
       Potion: "minecraft:long_fire_resistance",
     }),
     [
-      Item.of("minecraft:potion", '{Potion:"minecraft:water"}'),
+      Item.of('minecraft:potion', '{Potion:"minecraft:water"}'),
       "#forge:dusts/redstone",
       "#forge:dusts/sugar",
       "#forge:dusts/stone",
