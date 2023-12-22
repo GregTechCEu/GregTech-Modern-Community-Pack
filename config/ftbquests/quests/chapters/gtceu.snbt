@@ -47,14 +47,19 @@
 				""
 				"If you're familiar with GregTech, you may be aware of its &cmany nerfs&r to vanilla recipes. GTCEu does include its fair share - take a look at the crafting recipes for &eBuckets&r or &ePaper&r. However, we'll ease off in earlygame, and 1 Log will give you 4 Planks. &aRejoice!&r"
 				""
-				"Here, get some food in your system. If you're playing on &aPeaceful&r difficulty, stash it away in a chest for later."
+				"Here, take this Prospector. You can use it to scan for ores underground - this should give you a small boost."
 			]
 			icon: "minecraft:oak_log"
 			id: "0EAF2C5B5EB755C5"
 			rewards: [{
-				count: 12
-				id: "450D8183B7515C1D"
-				item: "minecraft:carrot"
+				id: "1D434B1A3A4A1E6A"
+				item: {
+					Count: 1b
+					id: "gtceu:prospector.lv"
+					tag: {
+						Charge: 100000
+					}
+				}
 				type: "item"
 			}]
 			shape: "square"
@@ -1075,6 +1080,48 @@
 			title: "Gettin' Shaded under a Rubber Tree"
 			x: 0.75d
 			y: -4.5d
+		}
+		{
+			description: [
+				"Has this pack made you want to try some other GregTech Modern modpacks?"
+				""
+				"Here are some curated recommendations!"
+				"{@pagebreak}"
+				"&lCosmic Frontiers"
+				"- &7Ghostipedia et al."
+				""
+				"&dCosmic Frontiers&r is a 1.20.1 modpack centered around &bdifficult gameplay&r and the interactions of many mods alongside GTCEu Modern. You'll explore the stars above and travel to the depths below, all whilst managing your &esanity and needs&r against the &ahorrors&r trapped in your universe!"
+				""
+				"In its current state, the pack is considered to be in &2early alpha&r. However, you can still progress through base CEu to &3UHV&r."
+				"{@pagebreak}"
+				"&lAll the Mods: Gravitas 2"
+				"- &7ATMTeam"
+				""
+				"Starting from &6primitive stone age technology&r, hand-knapping your tools and foraging for food, you'll need to progress through the ages covering many &bclassic and new&r mods. This is seamlessly complemented by mods such as TerraFirmaCraft, Create New Age, Stargate Journey and &8(obviously)&r GregTech."
+				""
+				"You'll find yourself transitioning from a &2primitive beginning&r, smashing rocks together, to smashing atoms together, soon &dpowering your voyages&r to the stars and beyond!"
+				"{@pagebreak}"
+				"&lStar Technology"
+				"- &7trulyno"
+				""
+				"&6Star Technology&r is a 1.19.2 GregTech &dskyblock modpack&r where you play as a scientist stranded in an &balternate dimension&r after a dimensional travel experiment &4catastrophically fails&r."
+				""
+				"Progression in this pack will take you above and beyond &3UHV&r, with numerous unique &aStargates&r to craft, and even a remixed &o\"Gregified\"&r Mystical Agriculture."
+				""
+				"It's important to note that the pack is still under &eheavy development&r, but you should be able to achieve the &o\"Classic Stargate\"&r as of version BETA 1!"
+			]
+			icon: "minecraft:netherite_upgrade_smithing_template"
+			id: "63DC162144871509"
+			shape: "circle"
+			size: 0.75d
+			tasks: [{
+				id: "3E3D67B53234AD1A"
+				title: "Whoah, these sound cool."
+				type: "checkmark"
+			}]
+			title: "What Else Can I Play?"
+			x: -2.25d
+			y: 0.0d
 		}
 	]
 	subtitle: ["Welcome to &6GTCP&r! Glad to have you here."]

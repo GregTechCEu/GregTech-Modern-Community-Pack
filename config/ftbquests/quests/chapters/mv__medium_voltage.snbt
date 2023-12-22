@@ -1744,12 +1744,14 @@
 							value: "forge:ores/oilsands"
 						}
 					}
+					optional_task: true
 					title: "Oilsands Ore"
 					type: "item"
 				}
 				{
 					id: "1838F842C9D12880"
 					item: "gtceu:oilsands_dust"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -2059,11 +2061,13 @@
 				{
 					id: "6D4D63F75646DB1C"
 					item: "gtceu:sapphire_lens"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "6705F883970BDD89"
 					item: "gtceu:ulpic_wafer"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -2138,6 +2142,35 @@
 			title: "Long-Distance Fluids"
 			x: -3.375d
 			y: -0.75d
+		}
+		{
+			dependencies: ["682C26579EDDCA76"]
+			description: [
+				"Tired of running around your base yet? &3Travel Anchors&r make their introduction in the latest update!"
+				""
+				"Aim the &aTravel Staff&r at a placed Anchor, then &6sneak-right-click&r to teleport on top. You can &bcustomise the appearance&r of a Travel Anchor by right-clicking it with a block in your off-hand, and you can &9rename&r Anchors in their GUI."
+				""
+				"The &dEnder Pearls&r necessary to craft more Anchors won't be available yet - take a small handful of Anchors to make life a &olittle&r easier."
+			]
+			icon: "travelanchors:travel_anchor"
+			id: "350E8A014DD8C838"
+			rewards: [{
+				count: 3
+				id: "45B4F45CE10CD806"
+				item: "travelanchors:travel_anchor"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "pshhh... nothin personnel... kid"
+			tasks: [{
+				id: "132FA856BB60C546"
+				item: "travelanchors:travel_staff"
+				type: "item"
+			}]
+			title: "Travel Anchors"
+			x: 1.125d
+			y: 3.75d
 		}
 	]
 	subtitle: ["Venture into petrochemistry and refine electronics"]

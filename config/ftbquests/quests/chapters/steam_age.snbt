@@ -159,7 +159,9 @@
 		{
 			dependencies: ["03DBF1961AE21C76"]
 			description: [
-				"The &3Primitive Blast Furnace&r (&3PBF&r for short) is a multiblock you will become very familiar with in the next few hours. It is important that you get a &3Macerator&r before tackling this quest - if you haven't made one yet, this multiblock will be &lfour times as expensive&r."
+				"The &3Primitive Blast Furnace&r (&3PBF&r for short) is a multiblock you will become very familiar with in the next few hours."
+				""
+				"It is &cimportant&r that you get a &3Macerator&r before tackling this quest - if you haven't made one yet, this multiblock will be &lfour times as expensive&r."
 				""
 				"Using your fancy new &3Macerator&r, you'll need to process &d132 Clay&r, split into &d66 Clay Dusts&r and &d66 Brick Dusts&r."
 				""
@@ -428,6 +430,8 @@
 				""
 				"Introducing... &aDrums&r! They have large internal buffers, and any &aDrum&r can be broken and picked up and will &dkeep the fluid&r inside."
 				"{@pagebreak}"
+				"&l&4[ NOT YET IMPLEMENTED ]"
+				""
 				"Additionally, &binternal tanks&r from machines will interact with items containing fluid. This is great for manual crafting - this means you can use fluid drums instead of multiple buckets in crafting. To &5void fluid&r contained in a Drum, place it alone in any crafting grid."
 				""
 				"&o&7Pssst:&r &oA right-click with a Screwdriver allows a Drum to drain its content into another container placed under it. This is great if you want to keep your Liquid Boilers fueled for longer."
@@ -1287,7 +1291,7 @@
 				"54AF8696674766B4"
 			]
 			description: [
-				"The &9Portable Cell&r serves as an early-game backpack! It holds up to &a54&r types of items."
+				"The &9Portable Cell&r serves as an early-game digital backpack alternative! It holds up to &a54&r types of items."
 				""
 				"What's more, it acts just like a regular AE2 Storage Cell. Once you get an ME System running, you can simply drop it into an &aME Drive&r or &b&aME IO Port&r for convenience."
 				""
@@ -1307,7 +1311,7 @@
 			id: "7DDCB711526F37A0"
 			shape: "circle"
 			size: 0.66d
-			subtitle: "A higher-tech backpack! "
+			subtitle: "A higher-tech Backpack! "
 			tasks: [{
 				id: "459D19A750BB8440"
 				item: {
@@ -1330,8 +1334,8 @@
 				item: "gtceu:wrought_iron_block"
 				type: "item"
 			}]
-			shape: "square"
-			size: 0.75d
+			shape: "rsquare"
+			size: 0.66d
 			subtitle: "The Steam Compressor compresses..."
 			tasks: [{
 				id: "21C99D59F1BE48A3"
@@ -1431,6 +1435,36 @@
 			}]
 			title: "Item Pipes"
 			x: 3.375d
+			y: 1.875d
+		}
+		{
+			dependencies: ["54AF8696674766B4"]
+			description: [
+				"After &lmany&r requests, &6Sophisticated Backpacks&r has now been integrated!"
+				""
+				"Backpacks scale alongside &aPortable Cell&r tiering, with modular upgrades that can be inserted to provide new &dBackpack functionalities&r."
+				""
+				"Before you reach &7LV&r, the upgrade options are &cquite limited&r. However, you should be able to upgrade the starter backpack &eonce&r before you make your first electric machine!"
+			]
+			icon: "sophisticatedbackpacks:backpack"
+			id: "5E89BDA8943534AF"
+			rewards: [{
+				count: 4
+				id: "7193C5F82152C3EB"
+				item: "minecraft:leather"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "circle"
+			size: 0.66d
+			subtitle: "A lower-tech Personal Cell!"
+			tasks: [{
+				id: "193A62DF98B59838"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "Backpacks"
+			x: 4.5d
 			y: 1.875d
 		}
 	]
