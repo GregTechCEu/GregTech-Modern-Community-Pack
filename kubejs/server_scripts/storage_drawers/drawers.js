@@ -22,7 +22,7 @@ ServerEvents.recipes((event) => {
         C: "#forge:chests/wooden",
         r: "#forge:tools/mallets",
       }
-    );
+    ).noMirror();
     greg
       .assembler(`storagedrawers:${woodType}_full_drawers_1`)
       .itemInputs(`6x minecraft:${woodType}_planks`, "#forge:chests/wooden")
@@ -40,7 +40,7 @@ ServerEvents.recipes((event) => {
         C: "#forge:chests/wooden",
         r: "#forge:tools/mallets",
       }
-    );
+    ).noMirror();
     greg
       .assembler(`storagedrawers:${woodType}_full_drawers_2`)
       .itemInputs(`6x minecraft:${woodType}_planks`, "#forge:chests/wooden")
@@ -77,7 +77,7 @@ ServerEvents.recipes((event) => {
         C: "#forge:chests/wooden",
         r: "#forge:tools/mallets",
       }
-    );
+    ).noMirror();
     greg
       .assembler(`storagedrawers:${woodType}_half_drawers_1`)
       .itemInputs(`6x minecraft:${woodType}_slab`, "#forge:chests/wooden")
@@ -95,7 +95,7 @@ ServerEvents.recipes((event) => {
         C: "#forge:chests/wooden",
         r: "#forge:tools/mallets",
       }
-    );
+    ).noMirror();
     greg
       .assembler(`storagedrawers:${woodType}_half_drawers_2`)
       .itemInputs(`6x minecraft:${woodType}_slab`, "#forge:chests/wooden")

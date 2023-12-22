@@ -254,7 +254,7 @@
 				"6E186F9C57155BFA"
 			]
 			description: [
-				"wHigher-tier Generators will increase their fuel consumption proportionally to their Generation rate, keeping the duration of fuels and the specific amount of energy from fuels the same. The &3Advanced Steam Turbine&r will use &d5,120 mB Steam&r per second, equivalent to &d256 mB/t&r."
+				"Higher-tier Generators will increase their fuel consumption proportionally to their Generation rate, keeping the duration of fuels and the specific amount of energy from fuels the same. The &3Advanced Steam Turbine&r will use &d5,120 mB Steam&r per second, equivalent to &d256 mB/t&r."
 				""
 				"Get &eany&r of the generators to complete this quest, but you may prefer starting off with the &3Advanced Steam Turbine&r."
 				"{@pagebreak}"
@@ -268,23 +268,31 @@
 			id: "583D0CC4FAA4FC98"
 			shape: "square"
 			size: 0.75d
-			tasks: [
-				{
-					id: "3DD5CB982E251AFF"
-					item: "gtceu:mv_steam_turbine"
-					type: "item"
+			tasks: [{
+				id: "1F170291094582D6"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:mv_steam_turbine"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_gas_turbine"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_combustion"
+							}
+						]
+					}
 				}
-				{
-					id: "5F7E86EB5C72805E"
-					item: "gtceu:mv_gas_turbine"
-					type: "item"
-				}
-				{
-					id: "22A31EDC2B2DF508"
-					item: "gtceu:mv_combustion"
-					type: "item"
-				}
-			]
+				title: "MV Generators"
+				type: "item"
+			}]
 			title: "Electricity Generation in MV"
 			x: 2.25d
 			y: -1.875d

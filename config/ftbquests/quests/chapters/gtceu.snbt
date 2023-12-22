@@ -144,7 +144,7 @@
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"The ore generation in &2GregTech&r is very different to vanilla or normal modded Minecraft. All ores generate in &6huge veins&r, which can contain &dthousands&o&r of ore blocks."
+				"The ore generation in &2GregTech&r is very different to vanilla or normal modded Minecraft. All ores generate in &6huge veins&r, which can contain &dhundreds&o&r of ore blocks."
 				""
 				"The full extent of ore generation is explained in the Tips and Tricks tab, but here is what you need to know:"
 				""
@@ -633,20 +633,28 @@
 			}]
 			size: 0.75d
 			subtitle: "Gather more resources!"
-			tasks: [
-				{
-					count: 32L
-					id: "1AD2D9534B7E5EE6"
-					item: "minecraft:copper_ingot"
-					type: "item"
+			tasks: [{
+				count: 32L
+				id: "616556ECE4DB6103"
+				item: {
+					Count: 32b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:copper_ingot"
+							}
+							{
+								Count: 1b
+								id: "gtceu:tin_ingot"
+							}
+						]
+					}
 				}
-				{
-					count: 32L
-					id: "42CED8D2386E0F14"
-					item: "gtceu:tin_ingot"
-					type: "item"
-				}
-			]
+				title: "32 Copper or Tin"
+				type: "item"
+			}]
 			title: "Onwards to the Age of Bronze!"
 			x: 3.75d
 			y: -1.5d
