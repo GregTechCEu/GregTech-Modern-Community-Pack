@@ -98,7 +98,7 @@ hash = "5ef887e6666e5b7e3985a4b194817c5827cbf3b81b9a6e29469a7187fdfd618c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gtceu.snbt"
-hash = "0c08373af67f428e6ea9c0deba28afd3c71c40b05c0de2fe56ef666fc1151bba"
+hash = "79c149def4995ee5d095d284da52ecd7899e74bec5daec48359c353bfc08f872"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/heating_coils.snbt"
@@ -126,7 +126,7 @@ hash = "bd199f957ff8f5982cf8f8bb880106edd553d9c9de5bd42f7cf24db8b3aa05d7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mv__medium_voltage.snbt"
-hash = "ef9de143d8d90cb3ec922b1d726d709da3afa2f2893e0d2b893d612c550161e8"
+hash = "295a942b57c9f1ed23ec8b4beecccf10539279124e91423c27c32965402d298a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ore_generation.snbt"
@@ -466,7 +466,7 @@ hash = "16c37a09defdfbff42e5c7fac948317f1831a425c49db86d4681743437f36127"
 
 [[files]]
 file = "kubejs/server_scripts/storage_drawers/drawers.js"
-hash = "77017cc9dc32bdca9932808e997fc9a32fe229718e07b022063473d0bc5ac980"
+hash = "5b315204f668b4a2fcccd592ded02b5b49a83ef490f298a7a45bcf2625a0275f"
 
 [[files]]
 file = "kubejs/server_scripts/storage_drawers/upgrades.js"
