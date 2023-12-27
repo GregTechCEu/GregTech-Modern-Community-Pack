@@ -630,6 +630,8 @@
 				"{@pagebreak}"
 				"A pickaxe or mining hammer enchanted with Hammering, or a GregTech Hammer directly, gives Crushed Ores from breaking Ore blocks, but only at a 1:1 ratio."
 				""
+				"Silk Touch is essential to obtain an ore block - this pack includes a recipe for the book."
+				""
 				"The Fortune enchantment can increase this ratio to up to 2x with Fortune III, matching the Macerator."
 				"{@pagebreak}"
 				"The rule bends for ores giving more than two dusts (such as &cRedstone&r), and for dusts that cannot be smelted (&cRedstone&r... again!)."
