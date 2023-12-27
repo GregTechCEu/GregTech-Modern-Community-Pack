@@ -268,7 +268,7 @@
 				""
 				"The &4Nether&r has more veins to mine, and with those veins, new ores to discover. Check the Ore Tab to learn more about the Nether Veins."
 				""
-				"Additionally, &6Nether Ores are worth two Overworld Ores&r."
+				"Additionally, &6Nether Ores are worth two Overworld Ores&r if mined with &3Silk Touch&r."
 				"{@pagebreak}"
 				"&4Nether&r veins will take more effort to find - and are more dangerous to mine - than &2Overworld&r veins. Keep on top of your mining by using Waypoints."
 				""
@@ -278,17 +278,33 @@
 			]
 			icon: "minecraft:netherrack"
 			id: "7CAD6FF241A827F7"
-			rewards: [{
-				id: "235ABC3543BF8285"
-				item: {
-					Count: 1b
-					id: "gtceu:red_steel_pickaxe"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "235ABC3543BF8285"
+					item: {
+						Count: 1b
+						id: "gtceu:red_steel_pickaxe"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1A074EA36535C8B0"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:silk_touch"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.75d
 			subtitle: "Why WOULDN'T it be made of Steel?"
@@ -387,7 +403,7 @@
 				""
 				"You'll need to grind &aSugar Canes&r into &aPaper Dust&r, and then smush the dust with a mallet and water."
 				"{@pagebreak}"
-				"&9Note 1:&r Don't worry, we're not cruel enough to have the recipe consume the bucket. You can use other fluid containers in the recipe, like Wooden Barrels, to streamline this process."
+				"&9Note 1:&r Don't worry, we're not cruel enough to have the recipe consume the bucket."
 				"{@pagebreak}"
 				"&9Note 2:&r Make a manual Sugar Cane farm. You could also automate one with Observers and Pistons. Shoutout to any &aNomifactory&r veterans."
 				"{@pagebreak}"
