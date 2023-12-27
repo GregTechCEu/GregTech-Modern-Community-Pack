@@ -80,7 +80,9 @@ ServerEvents.recipes((event) => {
       Potion: "minecraft:fire_resistance",
     }),
     [
-      Item.of("minecraft:potion", '{Potion:"minecraft:water"}'),
+      Item.of("minecraft:potion").withNBT({
+        Potion: "minecraft:water",
+      }),
       "#forge:dusts/sugar",
       "#forge:dusts/stone",
       "#forge:dusts/lead",
@@ -91,7 +93,9 @@ ServerEvents.recipes((event) => {
       Potion: "minecraft:long_fire_resistance",
     }),
     [
-      Item.of('minecraft:potion', '{Potion:"minecraft:water"}'),
+      Item.of("minecraft:potion").withNBT({
+        Potion: "minecraft:water",
+      }),
       "#forge:dusts/redstone",
       "#forge:dusts/sugar",
       "#forge:dusts/stone",
@@ -101,7 +105,7 @@ ServerEvents.recipes((event) => {
 
   // XP
   greg
-    .large_chemical_reactor("gtceu:bottle_o_enchanting")
+    .chemical_reactor("gtceu:bottle_o_enchanting")
     .itemInputs(
       "glass_bottle",
       "#forge:tiny_dusts/gold",
@@ -128,4 +132,11 @@ ServerEvents.recipes((event) => {
     .itemOutputs("1x netherite_ingot")
     .duration(150)
     .EUt(100);
+
+  event.shaped(Item.of('minecraft:enchanted_book').enchant('minecraft:silk_touch', 1), ["RWR", "WBW", "RmR"], {
+    R: "#forge:plates/rubber",
+    W: "#minecraft:wool",
+    B: "minecraft:book",
+    m: "#forge:tools/mallets"
+  });
 });
