@@ -138,11 +138,11 @@ hash = "47e88e7a8d0c748f0e37daea33671095265cc3e6c1c7b5273cc6102dae489b79"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/steam_age.snbt"
-hash = "c8574fec8a092ea6b24dea928187352ee20e91405496e074542d217b24d4cd47"
+hash = "1a82550a17fd7024698bb0f95de697079366ae863cded9daf105d58a89058550"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks_2.snbt"
-hash = "41677afceaba93b50b088267102c31b9043c79e07ccee3d07b711554f9f93735"
+hash = "f3061c7dfada42ed43d8c0d7ec2a04942b598d2505c1f8dba3605834bcf4ea74"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uv__ultimate_voltage.snbt"
@@ -490,7 +490,7 @@ hash = "2d279bca4ea7cd1435025cd206133a7b1a1eb8cb5b248cbeeee5225a2dd74d93"
 
 [[files]]
 file = "kubejs/server_scripts/sophisticated_backpacks/backpacks.js"
-hash = "64aa1631fcdb0aa7c05d6c83a8df43db0cabc64042974f12a0e60f1593fa403c"
+hash = "a2a84a4db6cb29cbbd68e8a7a84f079a173aa4a84b8f621451c32cb9f6ab9206"
 
 [[files]]
 file = "kubejs/server_scripts/sophisticated_backpacks/upgrades.js"
@@ -530,7 +530,7 @@ hash = "c462deca9489ce3ef2e1ad5e15316e93c13993671a20d6ad26e809a5506ebfe3"
 
 [[files]]
 file = "kubejs/server_scripts/vanilla/mob_drops.js"
-hash = "4993000f745c4800772eda2af88cb91c6a0958cb4681aac11227a8ff1c16d9a1"
+hash = "36faf79be6c156af3ac922cf01f25c980fa4b6f4eac11ed9609b86f266a23b3d"
 
 [[files]]
 file = "kubejs/startup_scripts/components/hsla-steel.js"
