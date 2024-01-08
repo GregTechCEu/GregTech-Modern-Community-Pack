@@ -11,11 +11,11 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     )
     .pattern((definition) =>
       FactoryBlockPattern.start()
-        .aisle("#BBB#", "#BBB#", "#BBB#", "#BBB#")
+        .aisle("0BBB0", "0BBB0", "0BBB0", "0BBB0")
         .aisle("BBBBB", "BDDDB", "B###B", "BGGGB")
         .aisle("BBBBB", "BDDDB", "B###B", "BGGGB")
         .aisle("BBBBB", "BDDDB", "B###B", "BGGGB")
-        .aisle("#BBB#", "#BEB#", "#BBB#", "#BBB#")
+        .aisle("0BBB0", "0BEB0", "0BBB0", "0BBB0")
         .where("E", Predicates.controller(Predicates.blocks(definition.get())))
         .where("D", Predicates.blocks("minecraft:dirt"))
         .where("G", Predicates.blocks("gtceu:tempered_glass"))
@@ -26,6 +26,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
             .or(Predicates.autoAbilities(definition.getRecipeTypes()))
         )
         .where("#", Predicates.air())
+        .where("0", Predicates.any())
         .build()
     )
     .workableCasingRenderer(
