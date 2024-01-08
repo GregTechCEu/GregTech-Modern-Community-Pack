@@ -397,14 +397,13 @@
 					type: "item"
 				}
 				{
-					amount: 1000L
-					fluid: "gtceu:sodium_potassium"
-					id: "2DF33EF0321AB809"
+					id: "3CB30E3B0B6353C2"
+					item: "gtceu:sodium_potassium_bucket"
 					optional_task: true
-					type: "fluid"
+					type: "item"
 				}
 				{
-					id: "22E204ADB8257706"
+					id: "1ABDABD68D1C6E50"
 					item: "gtceu:hv_energy_input_hatch"
 					type: "item"
 				}
@@ -491,10 +490,9 @@
 			id: "727075AAF9F91FAE"
 			size: 0.75d
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:titanium_tetrachloride"
-				id: "7C9AC37E86D3398F"
-				type: "fluid"
+				id: "334DB53CC12726B0"
+				item: "gtceu:titanium_tetrachloride_bucket"
+				type: "item"
 			}]
 			title: "Almost Titanium²"
 			x: 5.625d
@@ -825,10 +823,9 @@
 			shape: "rsquare"
 			size: 0.66d
 			tasks: [{
-				amount: 16000L
-				fluid: "gtceu:fluorine"
-				id: "27DBF159ADE55257"
-				type: "fluid"
+				id: "4ABE8033182CF48D"
+				item: "gtceu:fluorine_bucket"
+				type: "item"
 			}]
 			title: "Fluorine"
 			x: 5.625d
@@ -860,21 +857,19 @@
 			subtitle: "A.K.A - Teflon"
 			tasks: [
 				{
-					amount: 1000L
-					fluid: "gtceu:hydrofluoric_acid"
-					id: "39D0D1DEEFAD2830"
+					id: "24886FDFB1DE74E0"
+					item: "gtceu:hydrofluoric_acid_bucket"
 					optional_task: true
-					type: "fluid"
+					type: "item"
 				}
 				{
-					amount: 1000L
-					fluid: "gtceu:chloroform"
-					id: "28B5614D97C82AB8"
+					id: "690DEB428063A459"
+					item: "gtceu:chloroform_bucket"
 					optional_task: true
-					type: "fluid"
+					type: "item"
 				}
 				{
-					id: "62C0D8E62DC90BD5"
+					id: "3B4E4FCF434149E8"
 					item: "gtceu:polytetrafluoroethylene_plate"
 					type: "item"
 				}
@@ -904,10 +899,9 @@
 			shape: "rsquare"
 			size: 0.66d
 			tasks: [{
-				amount: 40000L
-				fluid: "gtceu:nitrobenzene"
-				id: "0BC043068EE4C69A"
-				type: "fluid"
+				id: "2A28EC2D53F6AF99"
+				item: "gtceu:nitrobenzene_bucket"
+				type: "item"
 			}]
 			title: "Benzene Nitro"
 			x: 9.0d
@@ -988,13 +982,6 @@
 			id: "2B7B214EDE0B45A2"
 			size: 0.75d
 			tasks: [
-				{
-					amount: 1000L
-					fluid: "gtceu:toluene"
-					id: "1B1BAB5824FA20A9"
-					optional_task: true
-					type: "fluid"
-				}
 				{
 					id: "1CB85F57BA45252D"
 					item: "gtceu:gelled_toluene"
@@ -1091,6 +1078,7 @@
 				{
 					id: "2CD60F6FFD4C1DFF"
 					item: "gtceu:hv_laser_engraver"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1148,10 +1136,9 @@
 			size: 0.75d
 			subtitle: "This won't eat your skin"
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:nitric_acid"
-				id: "30DA5B5D735254AD"
-				type: "fluid"
+				id: "0C851DC9BF5BBC3D"
+				item: "gtceu:nitric_acid_bucket"
+				type: "item"
 			}]
 			title: "Nitric Acid"
 			x: 6.75d
@@ -1179,10 +1166,9 @@
 			size: 0.66d
 			subtitle: "This is to go further beyond"
 			tasks: [{
-				amount: 50000L
-				fluid: "gtceu:cetane_boosted_diesel"
-				id: "150FF5579CA17796"
-				type: "fluid"
+				id: "122E070F32AB100B"
+				item: "gtceu:cetane_boosted_diesel_bucket"
+				type: "item"
 			}]
 			title: "Cetane-boosted Diesel"
 			x: 7.875d
@@ -1283,8 +1269,11 @@
 				"&aAmmonia&r is &doptional&r in &6HV&r."
 				""
 				"You may use it in the production of:"
+				""
 				"&9-&r Nitric Acid, although we don't recommend this."
+				""
 				"&9-&r Rocket Fuel, required for Nether Stars in &1IV&r."
+				""
 				"&9-&r Polybenzimidazole (now THAT'S a tongue twister!) in &1IV&r."
 				""
 				"The \"least painful\" recipe should be the one in the &3HV Chemical Reactor&r. Make sure your &aHydrogen&r production (mostly from &aWater electrolysis&r) is enough to support the demand."
@@ -1296,10 +1285,9 @@
 			shape: "rsquare"
 			size: 0.66d
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:ammonia"
-				id: "5D4330FDC189D42D"
-				type: "fluid"
+				id: "54C9440D952AD14D"
+				item: "gtceu:ammonia_bucket"
+				type: "item"
 			}]
 			title: "Ammonia"
 			x: 6.75d

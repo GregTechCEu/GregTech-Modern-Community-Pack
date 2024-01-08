@@ -1063,7 +1063,7 @@
 				""
 				"You could then make use of an &3Assembler&r to use your molten Rubber for &aCables&r. This isn't important for Tin Cables, but better cables will &eneed&r to be made in the Assembler."
 				""
-				"&eNote:&r Submit a fluid by having it stored in &lany&r tank in your inventory. A Drum is the perfect candidate."
+				"&eNote:&r Submit a fluid by having it stored in a &lbucket&r in your inventory. Sorry - it's an FTB Quests quirk."
 			]
 			icon: "gtceu:lv_chemical_reactor"
 			id: "3D98819A799D2E64"
@@ -1076,10 +1076,9 @@
 					type: "item"
 				}
 				{
-					amount: 1296L
-					fluid: "gtceu:rubber"
-					id: "75DD10F659BA5406"
-					type: "fluid"
+					id: "52581CFF25BC339F"
+					item: "gtceu:rubber_bucket"
+					type: "item"
 				}
 			]
 			title: "Basic Chemical Reactor"
@@ -1558,7 +1557,7 @@
 				""
 				"The fourth best source according to us (!) is &ato not void&r it, EVER! Any Oxygen obtained from any source is worth something and should be stored in Tanks."
 				""
-				"&eNote:&r Submit a fluid by having it stored in &lany&r tank in your inventory. A bucket will also work."
+				"&eNote:&r Submit a fluid by having it stored in a &lbucket&r in your inventory. Sorry - it's an FTB Quests quirk."
 			]
 			icon: "gtceu:oxygen_bucket"
 			id: "1A77CA35F054F988"
@@ -1566,10 +1565,9 @@
 			size: 0.66d
 			subtitle: "Achtually, it's Dioxygen..."
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:oxygen"
-				id: "70F00C67C9698A78"
-				type: "fluid"
+				id: "1F76ED94CDBD13E1"
+				item: "gtceu:oxygen_bucket"
+				type: "item"
 			}]
 			title: "Breath of Fresh Oxygen"
 			x: -1.125d
@@ -1582,7 +1580,7 @@
 				""
 				"Give yourself a headstart and get on producing Glue. You can use it to make &6cheaper Resistors&r, as well as &6cheaper Circuit Boards&r in the &3Assembling Machine&r (and it is especially useful &oin the near future&r)."
 				""
-				"&eNote:&r Submit a fluid by having it stored in &lany&r tank in your inventory. A bucket will also work."
+				"&eNote:&r Submit a fluid by having it stored in a &lbucket&r in your inventory. Sorry - it's an FTB Quests quirk."
 			]
 			icon: "gtceu:glue_bucket"
 			id: "0EAC071414AEC07E"
@@ -1595,10 +1593,9 @@
 			size: 0.75d
 			subtitle: "Extractor? I hardly knew 'er!"
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:glue"
-				id: "3DD156ECA99FFA11"
-				type: "fluid"
+				id: "284F6584EEEF3AD6"
+				item: "gtceu:glue_bucket"
+				type: "item"
 			}]
 			title: "Glued"
 			x: 0.0d

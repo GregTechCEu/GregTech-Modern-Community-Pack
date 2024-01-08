@@ -131,17 +131,21 @@
 		}
 		{
 			dependencies: ["6958029B5514D4EC"]
+			description: ["Nichrome will require your &aElectric Blast Furnace&r to be at least &6HV&r, with &bKanthal&r coils to boot."]
 			id: "1CBA5477CB7C45E7"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "Operation Nichrome Dome"
 			tasks: [{
 				id: "1104AC52E0A0A472"
 				item: "gtceu:nichrome_ingot"
 				type: "item"
 			}]
+			title: "Nichrome"
 			x: 0.5d
 			y: -6.5d
 		}
 	]
+	subtitle: ["Coil Headed"]
 	title: "Heating Coils"
 }

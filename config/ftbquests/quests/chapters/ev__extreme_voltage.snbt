@@ -469,7 +469,7 @@
 			id: "30A6EDDF25A5E5F8"
 			shape: "gear"
 			size: 1.3d
-			subtitle: "The main &1IV&r Material!"
+			subtitle: "The main &9IV&r Material!"
 			tasks: [
 				{
 					id: "4BEA3166CD486845"
@@ -563,7 +563,7 @@
 			description: [
 				"&aTungstensteel Coils&r raise the Heat Capacity to a scorching &d4,500K&r."
 				""
-				"This will be required in &1IV&r, but as always, you should still get this earlier for the &6Coil bonuses&r."
+				"These will be required in &9IV&r, but as always, you should still get them earlier for the &6Coil bonuses&r."
 			]
 			icon: "gtceu:tungstensteel_coil_block"
 			id: "069FD86133D7D582"
@@ -1128,15 +1128,13 @@
 					type: "item"
 				}
 				{
-					amount: 1000L
-					fluid: "gtceu:uranium_hexafluoride"
-					id: "59D6B7142C0174BA"
+					id: "19027B3E2E43BAFF"
+					item: "gtceu:uranium_hexafluoride_bucket"
 					optional_task: true
-					title: "Uranium Hexafluoride"
-					type: "fluid"
+					type: "item"
 				}
 				{
-					id: "39E343FCB7B1646D"
+					id: "63142D5387BB1D3E"
 					item: "gtceu:uranium_dust"
 					type: "item"
 				}
@@ -1179,10 +1177,9 @@
 					type: "item"
 				}
 				{
-					amount: 1000L
-					fluid: "gtceu:radon"
-					id: "1C084B65DE6E73E8"
-					type: "fluid"
+					id: "1797D435B5058938"
+					item: "gtceu:radon_bucket"
+					type: "item"
 				}
 			]
 			title: "Radon"
@@ -1243,10 +1240,9 @@
 			shape: "rsquare"
 			size: 0.66d
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:epichlorohydrin"
-				id: "6F7D0A5B17A27928"
-				type: "fluid"
+				id: "45620325962A91D0"
+				item: "gtceu:epichlorohydrin_bucket"
+				type: "item"
 			}]
 			title: "Epichlorohydrin"
 			x: 2.25d
@@ -1281,10 +1277,9 @@
 			shape: "rsquare"
 			size: 0.66d
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:phenol"
-				id: "6255085946669894"
-				type: "fluid"
+				id: "5F713348547742D9"
+				item: "gtceu:phenol_bucket"
+				type: "item"
 			}]
 			title: "Phenol"
 			x: 2.25d
@@ -1307,10 +1302,9 @@
 			shape: "rsquare"
 			size: 0.66d
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:acetone"
-				id: "1E3E5800E5C37353"
-				type: "fluid"
+				id: "78BFA0425B39316A"
+				item: "gtceu:acetone_bucket"
+				type: "item"
 			}]
 			title: "Acetone"
 			x: 2.25d
@@ -1332,13 +1326,6 @@
 			size: 0.75d
 			subtitle: "An alternate rubber"
 			tasks: [
-				{
-					amount: 1296L
-					fluid: "gtceu:silicone_rubber"
-					id: "3C29253DA5DAF778"
-					optional_task: true
-					type: "fluid"
-				}
 				{
 					id: "3E2FBCED1C782E7C"
 					item: {
@@ -1410,10 +1397,9 @@
 			shape: "rsquare"
 			size: 0.66d
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:gasoline"
-				id: "020DE8D27206C260"
-				type: "fluid"
+				id: "2D073A538A19BCDD"
+				item: "gtceu:gasoline_bucket"
+				type: "item"
 			}]
 			title: "Gasoline"
 			x: 1.125d
@@ -1432,10 +1418,9 @@
 			shape: "rsquare"
 			size: 0.66d
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:high_octane_gasoline"
-				id: "19A221C5CEFBFBFD"
-				type: "fluid"
+				id: "5C03BCF778B6293A"
+				item: "gtceu:high_octane_gasoline_bucket"
+				type: "item"
 			}]
 			title: "High Octane Gasoline"
 			x: 0.0d
@@ -1492,28 +1477,24 @@
 			size: 0.66d
 			tasks: [
 				{
-					amount: 1000000L
-					fluid: "gtceu:oxygen"
-					id: "1EE14254AE07512F"
-					type: "fluid"
+					id: "692E848C43205905"
+					item: "gtceu:oxygen_bucket"
+					type: "item"
 				}
 				{
-					amount: 1000000L
-					fluid: "gtceu:nitrogen"
-					id: "5B8A8FE5DEFE0671"
-					type: "fluid"
+					id: "1EF11FF81D5E6135"
+					item: "gtceu:nitrogen_bucket"
+					type: "item"
 				}
 				{
-					amount: 64000L
-					fluid: "gtceu:helium"
-					id: "3ED5E362F1E5D701"
-					type: "fluid"
+					id: "2654CD00A7193574"
+					item: "gtceu:helium_bucket"
+					type: "item"
 				}
 				{
-					amount: 32000L
-					fluid: "gtceu:argon"
-					id: "67F58B2FC8210270"
-					type: "fluid"
+					id: "2C54EC0AABA91D39"
+					item: "gtceu:argon_bucket"
+					type: "item"
 				}
 			]
 			title: "True Distillation: Air"
@@ -1564,28 +1545,24 @@
 			size: 0.66d
 			tasks: [
 				{
-					amount: 40000L
-					fluid: "gtceu:benzene"
-					id: "6584A238101E369D"
-					type: "fluid"
+					id: "1B0AD1105DEBBBC2"
+					item: "gtceu:benzene_bucket"
+					type: "item"
 				}
 				{
-					amount: 10000L
-					fluid: "gtceu:butadiene"
-					id: "1698E9791C31C10E"
-					type: "fluid"
+					id: "109534199B99AD2A"
+					item: "gtceu:butadiene_bucket"
+					type: "item"
 				}
 				{
-					amount: 64000L
-					fluid: "gtceu:ethylene"
-					id: "4274E80169CCBDE5"
-					type: "fluid"
+					id: "33D42013817BF007"
+					item: "gtceu:ethylene_bucket"
+					type: "item"
 				}
 				{
-					amount: 64000L
-					fluid: "gtceu:methane"
-					id: "3CB67401C15B84A7"
-					type: "fluid"
+					id: "0A3EED37CD163A73"
+					item: "gtceu:methane_bucket"
+					type: "item"
 				}
 			]
 			title: "True Distillation: Fuel"
@@ -1620,53 +1597,39 @@
 			size: 0.66d
 			tasks: [
 				{
-					amount: 16000L
-					fluid: "gtceu:phenol"
-					id: "09C91BF9591202CC"
-					title: "Phenol"
-					type: "fluid"
+					id: "50A51E293CF77CDC"
+					item: "gtceu:phenol_bucket"
+					type: "item"
 				}
 				{
-					amount: 64000L
-					fluid: "gtceu:benzene"
-					id: "2272D1322991506C"
-					title: "Benzene"
-					type: "fluid"
+					id: "1A3F5CC1F2AE86D7"
+					item: "gtceu:benzene_bucket"
+					type: "item"
 				}
 				{
-					amount: 16000L
-					fluid: "gtceu:toluene"
-					id: "6B0F17B12A7E541A"
-					title: "Toluene"
-					type: "fluid"
+					id: "69FFE6E6FD6E2198"
+					item: "gtceu:toluene_bucket"
+					type: "item"
 				}
 				{
-					amount: 32000L
-					fluid: "gtceu:dimethylbenzene"
-					id: "0D90630744975DF9"
-					title: "Dimethylbenzene"
-					type: "fluid"
+					id: "4CEA0DC5DED2BC42"
+					item: "gtceu:dimethylbenzene_bucket"
+					type: "item"
 				}
 				{
-					amount: 16000L
-					fluid: "gtceu:acetic_acid"
-					id: "40A54366F789C104"
-					title: "Acetic Acid"
-					type: "fluid"
+					id: "6649B70C143E163A"
+					item: "gtceu:acetic_acid_bucket"
+					type: "item"
 				}
 				{
-					amount: 32000L
-					fluid: "gtceu:methanol"
-					id: "7064FF6DA67EFC0B"
-					title: "Methanol"
-					type: "fluid"
+					id: "73AEFD316B4C5605"
+					item: "gtceu:methanol_bucket"
+					type: "item"
 				}
 				{
-					amount: 8000L
-					fluid: "gtceu:acetone"
-					id: "209CCB68CBB8E9CD"
-					title: "Acetone"
-					type: "fluid"
+					id: "50ACCD4B9ACD8C13"
+					item: "gtceu:acetone_bucket"
+					type: "item"
 				}
 			]
 			title: "True Distillation: Organic"
@@ -1790,6 +1753,52 @@
 			}]
 			title: "Getting Rid of Those Old Machines"
 			x: 7.875d
+			y: 5.625d
+		}
+		{
+			dependencies: [
+				"4AFD3073C731A1E4"
+				"7FA0ACB7F161F378"
+			]
+			description: [
+				"Need to handle &6multiple&r fluid inputs and outputs? Look no further - these &aFluid Hatches&r can handle more than one fluid at once!"
+				""
+				"These cannot be used in a &bDistillation Tower&r, but may be particularly useful in &5Large Chemical Reactors&r."
+			]
+			id: "6BB13E775A579F2E"
+			shape: "rsquare"
+			size: 0.66d
+			tasks: [{
+				id: "3B898812B1C35440"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:ev_input_hatch_4x"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ev_input_hatch_9x"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ev_output_hatch_4x"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ev_output_hatch_9x"
+							}
+						]
+					}
+				}
+				title: "Multiple Fluid Hatches"
+				type: "item"
+			}]
+			title: "Multiple Fluid Hatches"
+			x: 6.75d
 			y: 5.625d
 		}
 	]

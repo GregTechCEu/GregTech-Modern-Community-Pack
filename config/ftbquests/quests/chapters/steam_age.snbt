@@ -104,10 +104,13 @@
 				""
 				"The &3Liquid Boiler&r burns either &dLava&r or &dCreosote&r."
 				""
+				"The &3Solar Boiler&r burns nothing - it's fueled by the sun."
+				""
 				"Looking for a recommendation? Honestly, either goes, as both boilers are equivalent in generation. Craft the boiler that best suits your preferred resource."
 				""
 				"Get &eeither&r of the two proposed boilers to complete this quest."
 			]
+			icon: "gtceu:hp_steam_solid_boiler"
 			id: "2FD75E4BD95F6645"
 			rewards: [
 				{
@@ -132,7 +135,7 @@
 			shape: "square"
 			size: 0.75d
 			tasks: [{
-				id: "527DBAE609FF5B13"
+				id: "0DC74FB54995F3F1"
 				item: {
 					Count: 1b
 					id: "itemfilters:or"
@@ -146,10 +149,14 @@
 								Count: 1b
 								id: "gtceu:hp_steam_liquid_boiler"
 							}
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_solar_boiler"
+							}
 						]
 					}
 				}
-				title: "Any boiler works here."
+				title: "High Pressure Boilers"
 				type: "item"
 			}]
 			title: "High Pressure"
@@ -268,7 +275,7 @@
 				""
 				"The &4Nether&r has more veins to mine, and with those veins, new ores to discover. Check the Ore Tab to learn more about the Nether Veins."
 				""
-				"Additionally, &6Nether Ores are worth two Overworld Ores&r if mined with &3Silk Touch&r."
+				"Additionally, &6Nether Ores are worth two Overworld Ores&r if mined with &3Silk Touch&r. It'd be great if you could craft the book directly, huh? ;)"
 				"{@pagebreak}"
 				"&4Nether&r veins will take more effort to find - and are more dangerous to mine - than &2Overworld&r veins. Keep on top of your mining by using Waypoints."
 				""
@@ -286,6 +293,9 @@
 						id: "gtceu:red_steel_pickaxe"
 						tag: {
 							Damage: 0
+							GT.Tool: {
+								Damage: 0
+							}
 						}
 					}
 					type: "item"
@@ -633,6 +643,7 @@
 				{
 					id: "04946F2F0923EFFE"
 					item: "gtceu:rubber_ingot"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1092,6 +1103,9 @@
 							id: "minecraft:efficiency"
 							lvl: 1s
 						}]
+						GT.Tool: {
+							Damage: 0
+						}
 					}
 				}
 				type: "item"

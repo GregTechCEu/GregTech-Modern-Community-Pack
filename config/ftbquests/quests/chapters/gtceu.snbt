@@ -8,6 +8,9 @@
 		id: "gtceu:iron_wrench"
 		tag: {
 			Damage: 0
+			GT.Tool: {
+				Damage: 0
+			}
 		}
 	}
 	id: "2F8B0AFE317363C9"
@@ -45,9 +48,9 @@
 			description: [
 				"&o\"My adventure starts with some tree punching!? Huh, I thought GregTech was supposed to shake things up a bit...\"&r"
 				""
-				"If you're familiar with GregTech, you may be aware of its &cmany nerfs&r to vanilla recipes. GTCEu does include its fair share - take a look at the crafting recipes for &eBuckets&r or &ePaper&r. However, we'll ease off in earlygame, and 1 Log will give you 4 Planks. &aRejoice!&r"
+				"If you're familiar with GregTech, you may be aware of its &cmany nerfs&r to vanilla recipes. GTCEu does include its fair share - take a look at the crafting recipes for &eBuckets&r or &ePaper&r. However, we'll ease off the insanity in earlygame, and 1 Log will give you 4 Planks. &aRejoice!&r"
 				""
-				"Here, take this Prospector. You can use it to scan for ores underground - this should give you a small boost."
+				"Here, take this &6Prospector&r. You can use it to scan for ores underground - this should give you a small boost."
 			]
 			icon: "minecraft:oak_log"
 			id: "0EAF2C5B5EB755C5"
@@ -153,7 +156,7 @@
 				""
 				"The full extent of ore generation is explained in the Tips and Tricks tab, but here is what you need to know:"
 				""
-				"&9-&r Ore veins generate in a &4Grid&r. Every vein is &9spaced by 3 chunks&r from one to another in a cardinal direction."
+				"&9-&r Ore veins generate in a &4Grid&r. Every vein is &9spaced by (approximately) 3 chunks&r from one to another in a cardinal direction."
 				""
 				"&9-&r It's a good practice to make &dWaypoints&r (default &4B&r) for every vein you find, and to label their type. You may want to come back to the vein several times."
 			]
@@ -186,6 +189,9 @@
 				id: "gtceu:steel_axe"
 				tag: {
 					Damage: 0
+					GT.Tool: {
+						Damage: 0
+					}
 				}
 			}
 			id: "13354F24F80F65FB"
@@ -280,6 +286,9 @@
 					id: "gtceu:steel_hammer"
 					tag: {
 						Damage: 0
+						GT.Tool: {
+							Damage: 0
+						}
 					}
 				}
 				id: "1A4DDB914D7D2F3C"
@@ -313,6 +322,9 @@
 				id: "gtceu:steel_mining_hammer"
 				tag: {
 					Damage: 0
+					GT.Tool: {
+						Damage: 0
+					}
 				}
 			}
 			id: "4A365A7CC9E374F9"
@@ -325,6 +337,9 @@
 					id: "gtceu:steel_mining_hammer"
 					tag: {
 						Damage: 0
+						GT.Tool: {
+							Damage: 0
+						}
 					}
 				}
 				id: "4F372C393ADC6CE2"
@@ -432,6 +447,9 @@
 				id: "gtceu:iron_wrench"
 				tag: {
 					Damage: 0
+					GT.Tool: {
+						Damage: 0
+					}
 				}
 			}
 			id: "2001CB4968D3E0A2"
@@ -511,6 +529,9 @@
 				id: "gtceu:iron_screwdriver"
 				tag: {
 					Damage: 0
+					GT.Tool: {
+						Damage: 0
+					}
 				}
 			}
 			id: "5C3501DD3B4788FA"
@@ -785,6 +806,11 @@
 			]
 			icon: "minecraft:structure_void"
 			id: "1283B4D7B5D82193"
+			rewards: [{
+				id: "460EC827273306A5"
+				item: "storagedrawers:quantify_key"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 0.66d
 			subtitle: "Omw to install DecoCraft"
@@ -840,6 +866,9 @@
 						id: "gtceu:iron_shovel"
 						tag: {
 							Damage: 0
+							GT.Tool: {
+								Damage: 0
+							}
 						}
 					}
 					type: "item"
@@ -851,6 +880,9 @@
 						id: "gtceu:iron_axe"
 						tag: {
 							Damage: 0
+							GT.Tool: {
+								Damage: 0
+							}
 						}
 					}
 					type: "item"

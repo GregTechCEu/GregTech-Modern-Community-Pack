@@ -64,15 +64,13 @@
 				"{@pagebreak}"
 				"It's a good practice to make &dWaypoints&r to every vein you find, and to label their type. You may want to come back to it several times."
 				""
-				"Each Ore vein is always &d7 blocks&r tall, and ores generate in 4 different patterns:"
+				"A typical Ore vein is &d7 blocks&r tall, and ores generate in 4 different patterns:"
 				"- The &9Top Ore&r generates in the higher 4 layers of the vein."
 				"- The &9Bottom Ore&r generates in the lower 3 layers of the vein."
 				"- The &9Between Ore&r generates in the middle 3 layers of the vein."
 				"- The &9Sporadic Ore&r generates anywhere in the vein. There will be the least amount of this ore in a vein."
 				""
 				"The same ore type can be in 2 different generation patterns, such as in Cassiterite veins."
-				""
-				"In &6LV&r Age, you can craft an Ore Prospector to assist yourself in finding ores."
 			]
 			icon: "gtceu:cobalt_ore"
 			id: "41730E340B3D8EDA"
@@ -1315,5 +1313,6 @@
 			y: 3.0d
 		}
 	]
+	subtitle: ["Ores galore, and so much more"]
 	title: "Ore Generation"
 }

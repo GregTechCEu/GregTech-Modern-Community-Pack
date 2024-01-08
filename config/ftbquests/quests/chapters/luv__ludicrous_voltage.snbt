@@ -130,10 +130,9 @@
 			size: 0.66d
 			subtitle: "Absolutely beneficial for the environment"
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:pcb_coolant"
-				id: "32BCECCE276F913D"
-				type: "fluid"
+				id: "10FAF765725C7790"
+				item: "gtceu:pcb_coolant_bucket"
+				type: "item"
 			}]
 			title: "Dielectric PCB Coolant"
 			x: 2.25d
@@ -409,10 +408,9 @@
 			size: 0.75d
 			subtitle: "Do not touch the acid"
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:fluoroantimonic_acid"
-				id: "0495EEA395A1B5EC"
-				type: "fluid"
+				id: "1D674C3951223E8C"
+				item: "gtceu:fluoroantimonic_acid_bucket"
+				type: "item"
 			}]
 			title: "Naquadah Chain"
 			x: 1.125d
