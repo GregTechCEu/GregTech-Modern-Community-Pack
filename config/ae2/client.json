@@ -50,6 +50,6 @@
     "maxCellContentShown_comment": "The maximum number of content entries to show in the tooltip of storage cells, color applicators and matter cannons",
     "maxCellContentShown": 5,
     "enableGuideHotkey_comment": "Enables the \u0027hold key to show guide\u0027 functionality in tooltips",
-    "enableGuideHotkey": true
+    "enableGuideHotkey": false
   }
 }
