@@ -646,11 +646,19 @@
 			shape: "rsquare"
 			size: 0.66d
 			subtitle: "We're gonna need more charcoal"
-			tasks: [{
-				id: "7D2406F7A603AAAE"
-				item: "gtceu:titanium_large_boiler"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7D2406F7A603AAAE"
+					item: "gtceu:titanium_large_boiler"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7A6913316A12A7DB"
+					title: "I wasn't going to craft one anyway"
+					type: "checkmark"
+				}
+			]
 			title: "Worse Combustion"
 			x: 3.375d
 			y: 5.625d

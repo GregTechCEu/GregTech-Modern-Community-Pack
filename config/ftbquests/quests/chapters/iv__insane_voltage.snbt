@@ -301,10 +301,12 @@
 				{
 					id: "4C89839747EDFFF5"
 					item: "gtceu:tungstensteel_large_boiler"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "4F863C04757556B2"
+					title: "Yup, totally crafted one."
 					type: "checkmark"
 				}
 			]
