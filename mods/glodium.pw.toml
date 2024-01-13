@@ -1,0 +1,13 @@
+name = "Glodium"
+filename = "Glodium-1.20-1.2-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bcbb514917d9e2c1446132ddbe5e3d475aff2df9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5024300
+project-id = 957920
