@@ -98,7 +98,7 @@ hash = "80faf53e7f05923bb7705c5f2d9c3aba1d0b0d1ff48dbbdb5a1152e59af50e4a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gtceu.snbt"
-hash = "48d9121374234478bf49e45059b58af49ec1e40eabf5d2cdf0e87509efbb764e"
+hash = "0beeec1bc0b161a71b09f6e40ebd2b5a149abf89341f9d0a8ede9288d42dd977"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/heating_coils.snbt"
@@ -916,3 +916,7 @@ metafile = true
 file = "mods/yeetusexperimentus.pw.toml"
 hash = "cc9ecde0ae976a3ddb83540500de206c9a9694ddf66b9b8fdcba38cfe23be293"
 metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "caebe73a999f04375ed78201836ddfd25a8b380e549fad2a2fb4a369ed89b4bf"
