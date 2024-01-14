@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
     P: "#forge:plates/glowstone",
     R: "#forge:rings/steel",
     I: "#forge:rods/steel",
-    N: "#forge:springs/small/gold",
+    N: "#forge:small_springs/gold",
   });
 
   // Frozen Pearl
