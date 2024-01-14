@@ -522,7 +522,7 @@ hash = "998fa8dce80ef55b911dd560f35741d78a9b6b4f9283f03e3c26a3b9240ae4b5"
 
 [[files]]
 file = "kubejs/server_scripts/torchmaster.js"
-hash = "2f723053cab143dea0729c9965a06bb54374e4fe873338f680e59536720f7483"
+hash = "3662a4a03d284fb042e8abe6f1a6e6afcaf51bbce9aae5f1d613d6e8910a6a66"
 
 [[files]]
 file = "kubejs/server_scripts/vanilla/loot_drops.js"
