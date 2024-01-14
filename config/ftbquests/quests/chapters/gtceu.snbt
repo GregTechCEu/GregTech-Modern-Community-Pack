@@ -158,7 +158,7 @@
 				""
 				"&9-&r Ore veins generate in a &4Grid&r. Every vein is &9spaced by (approximately) 3 chunks&r from one to another in a cardinal direction."
 				""
-				"&9-&r It's a good practice to make &dWaypoints&r (default &4B&r) for every vein you find, and to label their type. You may want to come back to the vein several times."
+				"&9-&r It's a good practice to make &dWaypoints&r (default &4N&r) for every vein you find, and to label their type. You may want to come back to the vein several times."
 			]
 			icon: "gtceu:cobaltite_ore"
 			id: "0C690272ED4FB1C3"
