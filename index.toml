@@ -465,8 +465,8 @@ file = "kubejs/server_scripts/gregtech/inscriber.js"
 hash = "f145c934308bdc1ed48d30ec81ac0a686ed40d27d0c3d0a615f08f0e8c2e2975"
 
 [[files]]
-file = "kubejs/server_scripts/gregtech/tools.js"
-hash = "4004e28e5013f9e43638e10c3587abcd8c671b43464071b189e582a528d0f9e6"
+file = "kubejs/server_scripts/gregtech/temporary_fixes.js"
+hash = "dcaa3921a844900f7c8c5445662c53567947bbeedb1ddcd024e029153cccda83"
 
 [[files]]
 file = "kubejs/server_scripts/gregtech/wood_unification.js"
@@ -623,8 +623,8 @@ hash = "82ae6d431f59a49d311f0579dec737f17b064ba74969adcad50a633757cf72eb"
 metafile = true
 
 [[files]]
-file = "mods/crafting-station.pw.toml"
-hash = "14bb3c0b1c9038810143f3bc8dc6dbee6561a5cdf8a7eabc12d01eadd82310e5"
+file = "mods/crafting-station-jei-edition.pw.toml"
+hash = "c388769db447bd2b3b55f1f966ceb6df5011d0f4ab019b8930f927893331a694"
 metafile = true
 
 [[files]]
