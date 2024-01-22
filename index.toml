@@ -114,7 +114,7 @@ hash = "bc5dd63057716c12f145968883288f4b88db0e558936b2f24f21d30c62bd1485"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/luv__ludicrous_voltage.snbt"
-hash = "d753664dec07735ceac21227caafb2256c62734c61ffd4b368ddcebcebd22f57"
+hash = "8326a6b98dd477bde2e4044eec2ea566d2b25d3be3a12c052b19190a50c626d9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv__low_voltage.snbt"
@@ -929,4 +929,4 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "caebe73a999f04375ed78201836ddfd25a8b380e549fad2a2fb4a369ed89b4bf"
+hash = "9ad020d960364a18e37ebb61dbe96fb2ead8c450983ad7af7f67a6c078decc3e"
