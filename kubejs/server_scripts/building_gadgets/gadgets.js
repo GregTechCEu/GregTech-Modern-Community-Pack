@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
     P: "#forge:plates/steel",
     L: "#forge:plates/lapis",
     D: "#forge:plates/diamond",
-    C: "#forge:circuits/lv",
+    C: "#gtceu:circuits/lv",
     K: "gtceu:tin_single_cable",
   });
   // Exchanging Tool
@@ -14,7 +14,7 @@ ServerEvents.recipes((event) => {
     P: "#forge:plates/steel",
     L: "#forge:plates/gold",
     D: "#forge:plates/diamond",
-    C: "#forge:circuits/lv",
+    C: "#gtceu:circuits/lv",
     K: "gtceu:tin_single_cable",
   });
   // Copy-paste Tool
@@ -23,7 +23,7 @@ ServerEvents.recipes((event) => {
     P: "#forge:plates/steel",
     L: "#forge:plates/redstone",
     D: "#forge:plates/emerald",
-    C: "#forge:circuits/lv",
+    C: "#gtceu:circuits/lv",
     K: "gtceu:tin_single_cable",
   });
 
@@ -31,7 +31,7 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "buildinggadgets2:template_manager" });
   event.shaped("buildinggadgets2:template_manager", ["KCK", "CHC", "KCK"], {
     K: "gtceu:tin_single_cable",
-    C: "#forge:circuits/lv",
+    C: "#gtceu:circuits/lv",
     H: "gtceu:lv_machine_hull",
   });
 
@@ -41,7 +41,7 @@ ServerEvents.recipes((event) => {
     P: "#forge:plates/aluminium",
     L: "#forge:plates/nether_quartz",
     D: "#forge:plates/ender_pearl",
-    C: "#forge:circuits/mv",
+    C: "#gtceu:circuits/mv",
     K: "gtceu:copper_single_cable",
   });
 
@@ -51,7 +51,7 @@ ServerEvents.recipes((event) => {
     P: "#forge:plates/aluminium",
     L: "#forge:plates/lapis",
     D: "gtceu:iron_buzz_saw_blade",
-    C: "#forge:circuits/mv",
+    C: "#gtceu:circuits/mv",
     K: "gtceu:copper_single_cable",
   });
 });

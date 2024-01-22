@@ -77,4 +77,29 @@ ServerEvents.recipes((event) => {
     .itemOutputs("ae2:fluix_covered_cable")
     .duration(150)
     .EUt(8);
+
+  event.remove({ id: "ae2:network/cables/smart_fluix" });
+  event.recipes.gtceu
+    .assembler("gtceu:smart_cable")
+    .itemInputs("8x ae2:fluix_covered_cable", "#gtceu:circuits/lv")
+    .itemOutputs("8x ae2:fluix_smart_cable")
+    .duration(200)
+    .EUt(8);
+
+  event.remove({ id: "ae2:network/cables/dense_covered_fluix" });
+  event.recipes.gtceu
+    .compressor("gtceu:dense_cable")
+    .itemInputs("4x ae2:fluix_covered_cable")
+    .itemOutputs("ae2:fluix_covered_dense_cable")
+    .duration(400)
+    .EUt(2);
+
+  event.remove({ id: "ae2:network/cables/dense_smart_fluix" });
+  event.remove({ id: "ae2:network/cables/dense_smart_from_smart" });
+  event.recipes.gtceu
+    .assembler("gtceu:smart_dense")
+    .itemInputs("8x ae2:fluix_covered_dense_cable", "#gtceu:circuits/mv")
+    .itemOutputs("8x ae2:fluix_smart_dense_cable")
+    .duration(200)
+    .EUt(8);
 });

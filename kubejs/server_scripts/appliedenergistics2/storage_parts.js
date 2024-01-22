@@ -7,7 +7,7 @@ ServerEvents.recipes((event) => {
     .itemInputs(
       "gtceu:cpu_chip",
       "#forge:plates/certus_quartz",
-      "#forge:circuits/lv"
+      "#gtceu:circuits/lv"
     )
     .itemOutputs("ae2:cell_component_1k")
     .duration(200)
@@ -17,7 +17,7 @@ ServerEvents.recipes((event) => {
     .itemInputs(
       "16x #gtceu:resistors",
       "#forge:plates/certus_quartz",
-      "2x #forge:circuits/lv"
+      "2x #gtceu:circuits/lv"
     )
     .inputFluids("gtceu:red_alloy 288")
     .itemOutputs("ae2:cell_component_1k")
@@ -31,7 +31,7 @@ ServerEvents.recipes((event) => {
     .itemInputs(
       "gtceu:ram_chip",
       "3x ae2:cell_component_1k",
-      "#forge:circuits/mv"
+      "#gtceu:circuits/mv"
     )
     .itemOutputs("ae2:cell_component_4k")
     .duration(200)
@@ -44,7 +44,7 @@ ServerEvents.recipes((event) => {
     .itemInputs(
       "gtceu:ulpic_chip",
       "3x ae2:cell_component_4k",
-      "#forge:circuits/hv"
+      "#gtceu:circuits/hv"
     )
     .itemOutputs("ae2:cell_component_16k")
     .duration(200)
@@ -57,7 +57,7 @@ ServerEvents.recipes((event) => {
     .itemInputs(
       "gtceu:lpic_chip",
       "3x ae2:cell_component_16k",
-      "#forge:circuits/ev"
+      "#gtceu:circuits/ev"
     )
     .itemOutputs("ae2:cell_component_64k")
     .duration(200)
@@ -70,7 +70,7 @@ ServerEvents.recipes((event) => {
     .itemInputs(
       "gtceu:qbit_cpu_chip",
       "3x ae2:cell_component_64k",
-      "#forge:circuits/iv"
+      "#gtceu:circuits/iv"
     )
     .itemOutputs("ae2:cell_component_256k")
     .duration(200)

@@ -43,7 +43,7 @@ ServerEvents.recipes((event) => {
     G: "ae2:quartz_glass",
     P: "#forge:plates/steel",
     W: "#forge:fine_wires/red_alloy",
-    C: "#forge:circuits/lv",
+    C: "#gtceu:circuits/lv",
   });
 
   //Fluid Storage Housing
@@ -52,6 +52,6 @@ ServerEvents.recipes((event) => {
     G: "ae2:quartz_glass",
     P: "#forge:plates/ruby",
     W: "gtceu:simple_soc",
-    C: "#forge:circuits/ev",
+    C: "#gtceu:circuits/ev",
   });
 });

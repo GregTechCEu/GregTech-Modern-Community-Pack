@@ -8,7 +8,7 @@ ServerEvents.recipes((event) => {
       "3x #forge:plates/steel",
       "2x #forge:plates/polyethylene",
       "4x #forge:fine_wires/red_alloy",
-      "#forge:circuits/mv"
+      "#gtceu:circuits/mv"
     )
     .itemOutputs("ae2:blank_pattern")
     .duration(200)
@@ -20,7 +20,7 @@ ServerEvents.recipes((event) => {
       "3x #forge:plates/steel",
       "2x #forge:plates/polyvinyl_chloride",
       "4x #forge:fine_wires/red_alloy",
-      "#forge:circuits/mv"
+      "#gtceu:circuits/mv"
     )
     .itemOutputs("4x ae2:blank_pattern")
     .duration(200)
@@ -32,7 +32,7 @@ ServerEvents.recipes((event) => {
       "3x #forge:plates/steel",
       "2x #forge:plates/polytetrafluoroethylene",
       "4x #forge:fine_wires/red_alloy",
-      "#forge:circuits/mv"
+      "#gtceu:circuits/mv"
     )
     .itemOutputs("16x ae2:blank_pattern")
     .duration(200)
@@ -44,7 +44,7 @@ ServerEvents.recipes((event) => {
       "3x #forge:plates/steel",
       "2x #forge:plates/polybenzimidazole",
       "4x #forge:fine_wires/red_alloy",
-      "#forge:circuits/mv"
+      "#gtceu:circuits/mv"
     )
     .itemOutputs("64x ae2:blank_pattern")
     .duration(200)

@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
     w: "#forge:tools/wrenches",
     R: "ae2:wireless_receiver",
     d: "#forge:tools/screwdrivers",
-    C: "#forge:circuits/hv",
+    C: "#gtceu:circuits/hv",
     T: "ae2:terminal",
     K: "ae2:fluix_glass_cable",
     L: "gtceu:lapotron_crystal",
@@ -66,11 +66,11 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "ae2:network/parts/terminals" });
   event.shaped("ae2:terminal", ["BCB", "xPd", "CDC"], {
     B: "#forge:bolts/tin_alloy",
-    C: "#forge:circuits/lv",
+    C: "#gtceu:circuits/lv",
     x: "#forge:tools/wire_cutters",
     P: "ae2:semi_dark_monitor",
     d: "#forge:tools/screwdrivers",
-    D: "#forge:plates/double/steel",
+    D: "#forge:double_plates/steel",
   });
   event.shaped("ae2:terminal", ["PB ", "Cd "], {
     B: "ae2:calculation_processor",

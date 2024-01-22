@@ -77,7 +77,7 @@ ServerEvents.recipes((event) => {
     P: "#forge:plates/steel",
     E: "ae2:engineering_processor",
     K: "ae2:fluix_glass_cable",
-    C: "#forge:circuits/lv",
+    C: "#gtceu:circuits/lv",
   });
 
   // ME Chest
@@ -86,7 +86,7 @@ ServerEvents.recipes((event) => {
     G: "ae2:quartz_glass",
     T: "ae2:terminal",
     K: "ae2:fluix_glass_cable",
-    C: "#forge:circuits/ulv",
+    C: "#gtceu:circuits/ulv",
     P: "#forge:plates/steel",
     F: "#forge:gems/fluix",
   });
@@ -118,7 +118,7 @@ ServerEvents.recipes((event) => {
   event.shaped("ae2:condenser", ["PCP", "CHC", "PCP"], {
     P: "#forge:plates/stainless_steel",
     C: "gtceu:hv_electric_piston",
-    H: "#forge:circuits/hv",
+    H: "#gtceu:circuits/hv",
   });
 
   // Energy Acceptor
@@ -153,7 +153,7 @@ ServerEvents.recipes((event) => {
     P: "#forge:plates/aluminium",
     C: "ae2:calculation_processor",
     K: "ae2:fluix_glass_cable",
-    M: "#forge:circuits/mv",
+    M: "#gtceu:circuits/mv",
     L: "ae2:logic_processor",
   });
 
@@ -190,7 +190,7 @@ ServerEvents.recipes((event) => {
     '   '
   ] , {
     E: "ae2:engineering_processor",
-    C: "#forge:circuits/lv",
+    C: "#gtceu:circuits/lv",
     W: "#forge:fine_wires/gold",
     P: "#forge:plates/iron"
   })
@@ -200,7 +200,7 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "ae2:tools/network_memory_card" });
   event.shaped("ae2:memory_card", ["EC ", "WP ", "   "], {
     E: "ae2:calculation_processor",
-    C: "#forge:circuits/lv",
+    C: "#gtceu:circuits/lv",
     W: "#forge:fine_wires/gold",
     P: "#forge:plates/iron",
   });
@@ -210,7 +210,7 @@ ServerEvents.recipes((event) => {
   event.shaped("ae2:network_tool", ["wC ", "EP ", "   "], {
     w: "#forge:tools/wrenches",
     E: "ae2:calculation_processor",
-    C: "#forge:circuits/lv",
+    C: "#gtceu:circuits/lv",
     P: "#ae2:illuminated_panel",
   });
 
@@ -248,7 +248,7 @@ ServerEvents.recipes((event) => {
   // Wireless Receiver
   event.remove({ id: "ae2:network/wireless_part" });
   event.shaped("ae2:wireless_receiver", ["CPC", "RSR", "   "], {
-    C: "#forge:circuits/ev",
+    C: "#gtceu:circuits/ev",
     P: "ae2:fluix_pearl",
     R: "#forge:rods/titanium",
     S: "gtceu:hv_sensor",
@@ -257,14 +257,14 @@ ServerEvents.recipes((event) => {
   // Annihilation Core
   event.remove({ id: "ae2:materials/annihilationcore" });
   event.shaped("ae2:annihilation_core", ["CPB"], {
-    C: "#forge:circuits/ulv",
+    C: "#gtceu:circuits/ulv",
     P: "ae2:logic_processor",
     B: "#forge:dusts/nether_quartz",
   });
   // Formation Core
   event.remove({ id: "ae2:materials/formationcore" });
   event.shaped("ae2:formation_core", ["CPB"], {
-    C: "#forge:circuits/ulv",
+    C: "#gtceu:circuits/ulv",
     P: "ae2:logic_processor",
     B: "#forge:dusts/certus_quartz",
   });
@@ -301,7 +301,7 @@ ServerEvents.recipes((event) => {
     W: "#forge:fine_wires/copper",
     G: "#forge:plates/glass",
     T: "#forge:fine_wires/tin",
-    C: "#forge:circuits/lv",
+    C: "#gtceu:circuits/lv",
     V: "ae2:quartz_vibrant_glass",
   });
 
