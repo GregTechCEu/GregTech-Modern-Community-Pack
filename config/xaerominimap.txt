@@ -111,10 +111,10 @@ displayCurrentClaim:true
 claimsFillOpacity:46
 claimsBorderOpacity:80
 infoDisplayOrder:coords:biome:real_time:time:overworld_coords:chunk_coords:angles:dimension:weather:light_level:highlights:light_overlay_indicator:manual_cave_mode_indicator:custom_sub_world
-infoDisplay:coords:true:6:-1
-infoDisplay:biome:true:6:-1
-infoDisplay:real_time:1:14:-1
-infoDisplay:time:1:14:-1
+infoDisplay:coords:true:11:-1
+infoDisplay:biome:true:11:-1
+infoDisplay:real_time:2:11:-1
+infoDisplay:time:2:11:-1
 infoDisplay:overworld_coords:false:15:-1
 infoDisplay:chunk_coords:false:15:-1
 infoDisplay:angles:false:15:-1
@@ -125,9 +125,9 @@ infoDisplay:highlights:true:15:-1
 infoDisplay:light_overlay_indicator:true:15:-1
 infoDisplay:manual_cave_mode_indicator:true:15:-1
 infoDisplay:custom_sub_world:true:15:-1
-interface:dummy:0:36:true:false:false:false
-interface:dummy:0:10000:true:false:false:false
 interface:dummy:0:0:false:false:true:false
-interface:dummy:0:36:true:false:false:false
-interface:gui.xaero_minimap:90:-64:false:false:true:false
+interface:dummy:0:135:false:false:false:false
+interface:dummy:120:0:true:false:false:false
+interface:dummy:0:50:true:false:false:false
+interface:gui.xaero_minimap:0:0:false:false:true:false
 #WAYPOINTS HAVE BEEN MOVED TO /XaeroWaypoints
