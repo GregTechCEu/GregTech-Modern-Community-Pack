@@ -13,4 +13,18 @@ ItemEvents.tooltip((event) => {
     ],
     Text.red("Disabled in this modpack!").bold(true)
   );
+
+  event.add(
+    ["simplemagnets:basicmagnet", "simplemagnets:advancedmagnet"],
+    Text.red(
+      "Will be removed in a future release! Place in crafting grid to recycle."
+    ).bold(true)
+  );
+
+  event.add(
+    "ae2:controller",
+    Text.gray(
+      "Channels are §cdisabled§7."
+    )
+  );
 });

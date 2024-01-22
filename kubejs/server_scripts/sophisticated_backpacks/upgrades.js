@@ -60,7 +60,7 @@ ServerEvents.recipes((event) => {
     .assembler("magnet_upgrade")
     .itemInputs(
       "sophisticatedbackpacks:upgrade_base",
-      "simplemagnets:basicmagnet"
+      'gtceu:lv_item_magnet'
     )
     .itemOutputs("sophisticatedbackpacks:magnet_upgrade")
     .duration(50)
@@ -73,7 +73,7 @@ ServerEvents.recipes((event) => {
     .assembler("advanced_magnet_upgrade")
     .itemInputs(
       "sophisticatedbackpacks:magnet_upgrade",
-      "simplemagnets:advancedmagnet"
+      'gtceu:hv_item_magnet'
     )
     .itemOutputs("sophisticatedbackpacks:advanced_magnet_upgrade")
     .duration(50)

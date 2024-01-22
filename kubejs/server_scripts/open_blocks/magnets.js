@@ -1,18 +1,11 @@
 ServerEvents.recipes((event) => {
   // Worst magnet
   event.remove({ id: "simplemagnets:basicmagnet" });
-  event.shaped("simplemagnets:basicmagnet", ["R R", "RwR", "BPB"], {
-    R: "#forge:rods/magnetic_steel",
-    w: "#forge:tools/wrenches",
-    B: "#forge:bolts/tin",
-    P: "#forge:plates/steel",
-  });
+  event.shapeless("gtceu:lv_item_magnet", "simplemagnets:basicmagnet");
   // King magnet
   event.remove({ output: "simplemagnets:advancedmagnet" });
-  event.shaped("simplemagnets:advancedmagnet", ["R R", "RwR", "BPB"], {
-    R: "#forge:rods/magnetic_samarium",
-    w: "#forge:tools/wrenches",
-    B: "#forge:bolts/gold",
-    P: "#forge:plates/stainless_steel",
-  });
+  event.shapeless("gtceu:hv_item_magnet", "simplemagnets:advancedmagnet");
+
+  event.remove({id: "simplemagnets:basic_demagnetization_coil"})
+  event.remove({id: "simplemagnets:advanced_demagnetization_coil"})
 });
