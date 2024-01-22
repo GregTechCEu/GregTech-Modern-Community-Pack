@@ -127,7 +127,7 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "storagedrawers:storage_controller" });
   event.shaped("storagedrawers:controller", ["PCP", "KDK", "OPO"], {
     P: "#forge:plates/diamond",
-    C: "#forge:circuits/lv",
+    C: "#gtceu:circuits/lv",
     K: "gtceu:red_alloy_single_wire",
     D: "#storagedrawers:drawers",
     O: "#forge:plates/obsidian",
@@ -136,7 +136,7 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "storagedrawers:controller_slave" });
   event.shaped("storagedrawers:controller_slave", ["OPO", "KDK", "PCP"], {
     P: "#forge:plates/diamond",
-    C: "#forge:circuits/lv",
+    C: "#gtceu:circuits/lv",
     K: "gtceu:red_alloy_single_wire",
     D: "#storagedrawers:drawers",
     O: "#forge:plates/obsidian",
