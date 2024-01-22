@@ -672,7 +672,6 @@
 				""
 				"&l&3Lore:&r&o There may be a rebalance for these in the future. See the Multiblock Miner quest for details."
 			]
-			hide: true
 			id: "1BE779AF4487E3EB"
 			shape: "rsquare"
 			size: 0.66d
@@ -946,6 +945,47 @@
 			title: "IV Magnetism"
 			x: 0.375d
 			y: 3.75d
+		}
+		{
+			dependencies: ["77B7B1EDD19831E0"]
+			description: [
+				"Let's go over some uses!"
+				""
+				"&2Blank Pattern Storage:&r"
+				""
+				"Right-clicking with the tool in your hand will open a GUI where you can insert &9Blank Patterns&r. There's a considerable amount of storage space for transport of Patterns!"
+				"{@pagebreak}"
+				"&2Bulk Pattern Modification:&r"
+				""
+				"Inserting &9Encoded Patterns&r instead of blank ones will allow you to multiply/divide them all at once in bulk. This is particularly useful when multiplying up your Patterns for parallel on-demand machinery."
+				""
+				"Patterns can also be cleared in bulk with the \"Clear\" button. There isn't any confirmation after clicking it, so use with caution."
+				"{@pagebreak}"
+				"&2Item Search and Replace:&r"
+				""
+				"Right-clicking the tool and clicking the &aChange Mode button&r will bring up a new GUI. This GUI will allow you to replace all occurances of one item with another for the &9Encoded Patterns&r stored within the tool."
+				""
+				"This is particularly useful for &eupgrading GT circuits&r, such as transitioning from Nano to Quantum &5EV&r circuits."
+				"{@pagebreak}"
+				"&2Easy Pattern Transfer:&r"
+				""
+				"Shift-left-clicking Patterns will move them between the Player Inventory and the Modifier where possible. This means you can easily move Patterns around between Interfaces and Terminals without clogging your inventory."
+				"{@pagebreak}"
+				"&bLore&r: Neeve, the author of the NAE2 mod suggested tiering this item at &eUXV&r tier, because it \"gives the player way too much power.\" For reference, &eUXV&r is 4 tiers past &3UV&r tier - two tiers before &c&lMAX&r voltage."
+			]
+			icon: "expatternprovider:pattern_modifier"
+			id: "602DA4B4820E9088"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "The &aPattern Modifier&r does A LOT!"
+			tasks: [{
+				id: "7695773132A6DFD3"
+				item: "expatternprovider:pattern_modifier"
+				type: "item"
+			}]
+			title: "Pattern Modifier"
+			x: 4.5d
+			y: 6.0d
 		}
 	]
 	subtitle: ["Investigate the scientific and fuse elements"]
