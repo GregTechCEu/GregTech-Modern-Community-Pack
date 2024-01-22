@@ -53,6 +53,9 @@
 				"&6&lThank you for playing the pack! :D&r"
 				"- The GregTech Community Pack Dev Team"
 			]
+			hide: true
+			hide_details_until_startable: true
+			hide_text_until_complete: true
 			icon: {
 				Count: 1b
 				id: "gtceu:iron_wrench"
@@ -68,7 +71,8 @@
 			size: 4.0d
 			subtitle: "Is this... the end?"
 			tasks: [{
-				id: "3BE7164F661251AD"
+				id: "0BE31C55310D03A8"
+				title: "Thanks for playing!"
 				type: "checkmark"
 			}]
 			title: "The Finale"

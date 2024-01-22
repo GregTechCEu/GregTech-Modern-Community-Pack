@@ -23,11 +23,11 @@
 				""
 				"New content has been added to each and every tier, even going up to &3Ultimate Voltage,&r and there is also a non-negligible amount of &dQuality of Life&r."
 				""
-				"&aCEu Modern&r brings the mod up to date with &erecent versions&r of Minecraft &o(as of writing this)&r."
+				"&aCEu Modern&r brings the mod up to date with &erecent versions&r of Minecraft &o(as of writing this)&r. You can open the questbook with the default keybind &6F4&r, but feel free to change it if it isn't to your tastes."
 				"{@pagebreak}"
 				"This is a &2pure &lTech&r&2 modpack&r, focused on GregTech and its progression. You'll find &6no better place&r to learn about this mod and all the features it adds!"
 				""
-				"The questbook you're reading is &ebrimming with information&r to guide you through the modpack, so check it out if you find yourself getting lost. We wrote it with both &dold-school veterans&r and &bnewcomers&r in mind."
+				"The questbook you're reading is &ebrimming with information&r to guide you through the modpack, so check it out if you find yourself getting lost.  We wrote it with both &dold-school veterans&r and &bnewcomers&r in mind."
 			]
 			icon: "kubejs:greg_icon"
 			id: "25289F9E8AE01C29"
@@ -46,7 +46,7 @@
 		{
 			dependencies: ["25289F9E8AE01C29"]
 			description: [
-				"&o\"My adventure starts with some tree punching!? Huh, I thought GregTech was supposed to shake things up a bit...\"&r"
+				"&o&7\"My adventure starts with some tree punching!? Huh, I thought GregTech was supposed to shake things up a bit...\"&r"
 				""
 				"If you're familiar with GregTech, you may be aware of its &cmany nerfs&r to vanilla recipes. GTCEu does include its fair share - take a look at the crafting recipes for &eBuckets&r or &ePaper&r. However, we'll ease off the insanity in earlygame, and 1 Log will give you 4 Planks. &aRejoice!&r"
 				""
@@ -208,9 +208,468 @@
 				id: "3880A08A72884627"
 				item: {
 					Count: 1b
-					id: "itemfilters:tag"
+					id: "itemfilters:or"
 					tag: {
-						value: "forge:tools/tree_felling"
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:aluminium_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 767
+										ToolSpeed: 8.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:vanadium_steel_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 1535
+										ToolSpeed: 5.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:naquadah_alloy_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										RelocateMinedBlocks: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 5
+										MaxDamage: 3071
+										ToolSpeed: 42.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:flint_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 63
+										ToolSpeed: 3.5f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:red_steel_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 2559
+										ToolSpeed: 9.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:blue_steel_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 1023
+										ToolSpeed: 17.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:rose_gold_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									Enchantments: [{
+										id: "minecraft:fortune"
+										lvl: 2s
+									}]
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 767
+										ToolSpeed: 14.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:hsse_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 4
+										MaxDamage: 3071
+										ToolSpeed: 7.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:iron_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 255
+										ToolSpeed: 4.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:titanium_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 1535
+										ToolSpeed: 10.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:neutronium_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										RelocateMinedBlocks: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 6
+										MaxDamage: 65534
+										ToolSpeed: 182.0f
+									}
+									HideFlags: 2
+									Unbreakable: 1b
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:duranium_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										RelocateMinedBlocks: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 5
+										MaxDamage: 8191
+										ToolSpeed: 16.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:bronze_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 191
+										ToolSpeed: 5.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:invar_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									Enchantments: [
+										{
+											id: "minecraft:efficiency"
+											lvl: 1s
+										}
+										{
+											id: "minecraft:bane_of_arthropods"
+											lvl: 3s
+										}
+									]
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 383
+										ToolSpeed: 6.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:sterling_silver_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									Enchantments: [{
+										id: "minecraft:smite"
+										lvl: 3s
+									}]
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 767
+										ToolSpeed: 5.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:cobalt_brass_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 1023
+										ToolSpeed: 4.5f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:tungsten_steel_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 4
+										MaxDamage: 2047
+										ToolSpeed: 11.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:damascus_steel_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									Enchantments: [{
+										id: "minecraft:fortune"
+										lvl: 3s
+									}]
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 1023
+										ToolSpeed: 8.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:tungsten_carbide_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 4
+										MaxDamage: 1023
+										ToolSpeed: 62.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:wrought_iron_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 383
+										ToolSpeed: 4.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:ultimet_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 4
+										MaxDamage: 2047
+										ToolSpeed: 12.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:steel_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 511
+										ToolSpeed: 7.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:stainless_steel_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 1023
+										ToolSpeed: 9.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:diamond_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 767
+										ToolSpeed: 8.0f
+									}
+									HideFlags: 2
+								}
+							}
+						]
 					}
 				}
 				title: "Grab any Lumber Axe!"
@@ -848,14 +1307,8 @@
 					type: "item"
 				}
 				{
-					count: 64
+					count: 128
 					id: "725FA988559A2A06"
-					item: "minecraft:sand"
-					type: "item"
-				}
-				{
-					count: 64
-					id: "1B905198676EE81A"
 					item: "minecraft:sand"
 					type: "item"
 				}
@@ -920,26 +1373,14 @@
 			id: "62212F2B51AC779E"
 			rewards: [
 				{
-					count: 64
+					count: 128
 					id: "2C6F42288FF9B7DA"
 					item: "minecraft:sand"
 					type: "item"
 				}
 				{
-					count: 64
-					id: "2FF0438B7858734E"
-					item: "minecraft:sand"
-					type: "item"
-				}
-				{
-					count: 64
+					count: 128
 					id: "5242721C19BCC092"
-					item: "minecraft:clay_ball"
-					type: "item"
-				}
-				{
-					count: 64
-					id: "51A749E4F6186DBC"
 					item: "minecraft:clay_ball"
 					type: "item"
 				}
@@ -1115,9 +1556,9 @@
 		}
 		{
 			description: [
-				"Has this pack made you want to try some other GregTech Modern modpacks?"
+				"Has this pack made you want to try some other &bGregTech Modern&r modpacks?"
 				""
-				"Here are some curated recommendations!"
+				"Here are some &acurated&r recommendations!"
 				"{@pagebreak}"
 				"&lCosmic Frontiers"
 				"- &7Ghostipedia et al."

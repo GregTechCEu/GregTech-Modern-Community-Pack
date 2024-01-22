@@ -464,7 +464,7 @@
 		{
 			dependencies: ["29379C91D6E00436"]
 			description: [
-				"&dSneak right-click&r when in hand to activate your Magnet. Do it again to deactivate. This magnet will also work from your Curio slots."
+				"&dSneak right-click&r when in hand to activate your Magnet. Do it again to deactivate. The battery capacity of your magnet depends on the battery used to craft it."
 				""
 				"&9Note:&r If you're worried about getting overwhelmed by Cobblestone or Netherrack, use the trash can from FTB Utilities (top left corner of your inventory) to void them."
 			]
@@ -473,12 +473,8 @@
 			size: 0.66d
 			subtitle: "Why can't these items I mine behave and enter my inventory!?"
 			tasks: [{
-				id: "2F5FB2546075FFE0"
-				item: {
-					Count: 1b
-					id: "simplemagnets:basicmagnet"
-					tag: { }
-				}
+				id: "14E4C5F6C88F5358"
+				item: "gtceu:lv_item_magnet"
 				type: "item"
 			}]
 			title: "Magnet"
@@ -746,23 +742,31 @@
 			icon: "gtceu:lv_battery_buffer_4x"
 			id: "6431381FBE07D6EF"
 			size: 0.75d
-			tasks: [
-				{
-					id: "23FCFCA69488AA2B"
-					item: "gtceu:lv_battery_buffer_4x"
-					type: "item"
+			tasks: [{
+				id: "35FEF4BB8295416C"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_battery_buffer_4x"
+							}
+							{
+								Count: 1b
+								id: "gtceu:lv_battery_buffer_8x"
+							}
+							{
+								Count: 1b
+								id: "gtceu:lv_battery_buffer_16x"
+							}
+						]
+					}
 				}
-				{
-					id: "2D59C65816F60CEF"
-					item: "gtceu:lv_battery_buffer_8x"
-					type: "item"
-				}
-				{
-					id: "679E89402D7ECE10"
-					item: "gtceu:lv_battery_buffer_16x"
-					type: "item"
-				}
-			]
+				title: "LV Battery Buffer"
+				type: "item"
+			}]
 			title: "Battery Buffer"
 			x: 6.75d
 			y: 3.375d
@@ -842,7 +846,7 @@
 				""
 				"&cNote:&r Don't get too preoccupied with Ore Processing! It's very slow at this point, and somewhat power hungry. Around 90% of ores are not important enough to warrant going out of your way to obtain their byproducts. That's a legitimate stat, by the way."
 			]
-			icon: "gtceu:sulfur_crushed_ore"
+			icon: "gtceu:crushed_sulfur_ore"
 			id: "701BCADAE5CF6CA5"
 			shape: "circle"
 			size: 0.66d
@@ -1415,18 +1419,27 @@
 			shape: "rsquare"
 			size: 0.66d
 			subtitle: "The best mechanic - making an item or fluid disappear!"
-			tasks: [
-				{
-					id: "69BC88293080C522"
-					item: "gtceu:item_voiding_cover"
-					type: "item"
+			tasks: [{
+				id: "4AA56628D87A3AF9"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:fluid_voiding_cover"
+							}
+							{
+								Count: 1b
+								id: "gtceu:item_voiding_cover"
+							}
+						]
+					}
 				}
-				{
-					id: "4787AD5F61E1914E"
-					item: "gtceu:fluid_voiding_cover"
-					type: "item"
-				}
-			]
+				title: "Voiding Covers"
+				type: "item"
+			}]
 			title: "Voiding Covers"
 			x: 5.625d
 			y: 6.75d
@@ -1803,7 +1816,7 @@
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"&oThis quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&r"
+				"&o&7This quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&r"
 				""
 				"The &3Rock Breaker&r generates different types of igneous Rocks. In order to operate, &9Water&r and &cLava&r (doesn't need to be source blocks) must both be adjacent to it. Those rocks might be pulverized and electrolyzed into certain materials."
 				""
@@ -1818,48 +1831,51 @@
 			id: "1F2359106FC95603"
 			shape: "rsquare"
 			size: 0.66d
-			tasks: [
-				{
-					id: "0A2A4C60994B0FE8"
-					item: "gtceu:lv_rock_crusher"
-					type: "item"
+			tasks: [{
+				id: "10F588EB061EB2EA"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_rock_crusher"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_rock_crusher"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hv_rock_crusher"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ev_rock_crusher"
+							}
+							{
+								Count: 1b
+								id: "gtceu:iv_rock_crusher"
+							}
+							{
+								Count: 1b
+								id: "gtceu:luv_rock_crusher"
+							}
+							{
+								Count: 1b
+								id: "gtceu:zpm_rock_crusher"
+							}
+							{
+								Count: 1b
+								id: "gtceu:uv_rock_crusher"
+							}
+						]
+					}
 				}
-				{
-					id: "335EA991E1B8C91F"
-					item: "gtceu:mv_rock_crusher"
-					type: "item"
-				}
-				{
-					id: "1AB3C8D744EABAA3"
-					item: "gtceu:hv_rock_crusher"
-					type: "item"
-				}
-				{
-					id: "558BDEA1E084DD84"
-					item: "gtceu:ev_rock_crusher"
-					type: "item"
-				}
-				{
-					id: "56F4B7D4AA38798A"
-					item: "gtceu:iv_rock_crusher"
-					type: "item"
-				}
-				{
-					id: "22C42CA726A1F45F"
-					item: "gtceu:luv_rock_crusher"
-					type: "item"
-				}
-				{
-					id: "17E26A869F5E9019"
-					item: "gtceu:zpm_rock_crusher"
-					type: "item"
-				}
-				{
-					id: "495C9E1656091F34"
-					item: "gtceu:uv_rock_crusher"
-					type: "item"
-				}
-			]
+				title: "Rock Crusher"
+				type: "item"
+			}]
 			title: "Cobble is Life"
 			x: 4.5d
 			y: 0.0d
@@ -1867,7 +1883,7 @@
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"&oThis quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&r"
+				"&o&7This quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&r"
 				""
 				"The &3Turbo Charger&r charges &6RF and EU&r items such as &9Drills&r extremely quickly."
 				"It accepts up to 4 Amps for every item it charges, making it &6twice as fast&r as the &3Battery Buffer&r. It cannot discharge, though."
@@ -1879,58 +1895,59 @@
 			id: "2DB259568F347C0E"
 			shape: "rsquare"
 			size: 0.66d
-			tasks: [
-				{
-					id: "66D61D09EE54B27B"
-					item: "gtceu:ulv_charger_4x"
-					type: "item"
+			tasks: [{
+				id: "07BF7F14849A3027"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:ulv_charger_4x"
+							}
+							{
+								Count: 1b
+								id: "gtceu:lv_charger_4x"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_charger_4x"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hv_charger_4x"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ev_charger_4x"
+							}
+							{
+								Count: 1b
+								id: "gtceu:iv_charger_4x"
+							}
+							{
+								Count: 1b
+								id: "gtceu:luv_charger_4x"
+							}
+							{
+								Count: 1b
+								id: "gtceu:zpm_charger_4x"
+							}
+							{
+								Count: 1b
+								id: "gtceu:uv_charger_4x"
+							}
+							{
+								Count: 1b
+								id: "gtceu:uhv_charger_4x"
+							}
+						]
+					}
 				}
-				{
-					id: "61A83D76ED64541B"
-					item: "gtceu:lv_charger_4x"
-					type: "item"
-				}
-				{
-					id: "53F46FB26DAD3CB0"
-					item: "gtceu:mv_charger_4x"
-					type: "item"
-				}
-				{
-					id: "62572E97F72BD831"
-					item: "gtceu:hv_charger_4x"
-					type: "item"
-				}
-				{
-					id: "3FB57522BADB33B4"
-					item: "gtceu:ev_charger_4x"
-					type: "item"
-				}
-				{
-					id: "3A1B648C445D3C5A"
-					item: "gtceu:iv_charger_4x"
-					type: "item"
-				}
-				{
-					id: "719832D62AE242FE"
-					item: "gtceu:luv_charger_4x"
-					type: "item"
-				}
-				{
-					id: "1FC410D2E3DEB33B"
-					item: "gtceu:zpm_charger_4x"
-					type: "item"
-				}
-				{
-					id: "6474F0A518A20386"
-					item: "gtceu:uv_charger_4x"
-					type: "item"
-				}
-				{
-					id: "096A77845F50C0DE"
-					item: "gtceu:uhv_charger_4x"
-					type: "item"
-				}
-			]
+				title: "Turbo Charger"
+				type: "item"
+			}]
 			title: "Turbo Charger"
 			x: 5.625d
 			y: 0.0d
@@ -1938,7 +1955,7 @@
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"&oThis quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&r"
+				"&o&7This quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&r"
 				""
 				"The &3Fisher&r catches fish from Water. It requires a 5x5 area of Water directly below to operate. It uses the same loot table as normal Fishing, so it can catch things like &dEnchanted Books&r. Each operation consumes 1 String and EU equivalent to its tier (32 for &7LV&r, etc.) That's about it."
 				""
@@ -1951,28 +1968,35 @@
 			id: "3B26CA44EA955B07"
 			shape: "rsquare"
 			size: 0.66d
-			tasks: [
-				{
-					id: "5FE21AF40C603AD0"
-					item: "gtceu:lv_fisher"
-					type: "item"
+			tasks: [{
+				id: "07BA97A0F04F0876"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_fisher"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_fisher"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hv_fisher"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ev_fisher"
+							}
+						]
+					}
 				}
-				{
-					id: "73279793E571A6E0"
-					item: "gtceu:mv_fisher"
-					type: "item"
-				}
-				{
-					id: "385ED95E8F39CB6D"
-					item: "gtceu:hv_fisher"
-					type: "item"
-				}
-				{
-					id: "0C30563A771CF7F6"
-					item: "gtceu:ev_fisher"
-					type: "item"
-				}
-			]
+				title: "Fisher"
+				type: "item"
+			}]
 			title: "Fishing 50"
 			x: 6.75d
 			y: 0.0d

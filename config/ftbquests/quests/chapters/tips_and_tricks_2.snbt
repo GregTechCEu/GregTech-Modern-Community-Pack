@@ -642,7 +642,7 @@
 				"{@pagebreak}"
 				"Take this reward for listening to us waffle on WITHOUT nodding off!"
 			]
-			icon: "gtceu:redstone_crushed_ore"
+			icon: "gtceu:crushed_redstone_ore"
 			id: "189612F2C7C60E81"
 			rewards: [
 				{
@@ -661,13 +661,13 @@
 			size: 0.66d
 			tasks: [
 				{
-					id: "703A616325ECD10C"
-					item: "gtceu:redstone_crushed_ore"
+					id: "26D2F1DD581B726D"
+					item: "gtceu:crushed_redstone_ore"
 					type: "item"
 				}
 				{
-					id: "05F8B17137376E83"
-					item: "gtceu:redstone_pure_dust"
+					id: "48BC67DA4DD081A6"
+					item: "gtceu:pure_redstone_dust"
 					type: "item"
 				}
 			]
@@ -732,7 +732,7 @@
 				""
 				"The typically \\\"best\\\" path is: Macerator -> Ore Washing -> Thermal Centrifuge -> Macerator. If you deviate from it for various reasons, you will have to set filters &emanually&r."
 			]
-			icon: "gtceu:diamond_crushed_ore"
+			icon: "gtceu:crushed_diamond_ore"
 			id: "7FCFE4C40837CF5E"
 			size: 0.75d
 			tasks: [{

@@ -506,9 +506,9 @@
 				""
 				"The &bMV&r variant may not have the range to mine a full vein, but the &6HV&r variant does, so you may wish hold off for now. Get &eeither&r to complete this Quest."
 				"{@pagebreak}"
-				"You will need &9Power&r. &aCharged Batteries&r may work but they may also run out which is a bit inconvenient."
+				"You will need &9Power&r. &aCharged Batteries&r may work, but they tend to run out of power, which is a bit inconvenient."
 				""
-				"Our top suggestion is to use a filled &3Drum&r of some kind of fuel (if you are using Steam, no dice!) and a &3Generator&r. "
+				"Our top suggestion is to use a filled &3Drum&r of some kind of fuel (if you're using Steam, no dice!) and a &3Generator&r. "
 				""
 				"Place the Drum above your Generator and right-click it with a &5Screwdriver&r to auto-output into the Generator."
 				"{@pagebreak}"
@@ -1640,6 +1640,8 @@
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
+				"&4Oil Spouts unfortunately &lhaven't&r&4 been implemented yet, but the information here is still useful."
+				""
 				"Get any kind of &3Pump&r, place it above an Oil spout and... give it some power."
 				""
 				"Do &cnot&r pump above an Ocean, as the pump will attempt to pull water, resulting in getting the pump stuck. Sorry!"

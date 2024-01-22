@@ -351,6 +351,7 @@
 				"{@pagebreak}"
 				"&l&3Lore:&r&o Imagine making 64 &1IV&f or 8 &dLuV&f Orbs for just one of these! See the Lore for the &dLuV&f orb for details."
 			]
+			icon: "gtceu:energy_module"
 			id: "690A51204DF5D469"
 			size: 0.75d
 			subtitle: "A power singularity!"
