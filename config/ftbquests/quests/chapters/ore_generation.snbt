@@ -186,7 +186,7 @@
 			description: [
 				"A great vein for the early game. Copper and Tin to make Bronze, Realgar for your first source of Arsenic, and Zeolite for... nothing much."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Due to auto-generated recipes, Zeolite used to be electrolyzed in batches of 141. Oops!"
+				"&l&3Lore:&r&o As GregTech used to auto-generate its recipes, Zeolite used to electrolyze in batches of 141 dust at a time. Whoops!"
 			]
 			icon: "gtceu:chalcopyrite_ore"
 			id: "4826DCD2FC457EA5"
@@ -280,7 +280,7 @@
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
-			description: ["Coal as an ore is hardly worth it because of the additional step(s) required to turn it into usable fuel, but it's still good to have some in your back pocket."]
+			description: ["As an ore, Coal is hardly worth large-scale processing, because there are too many additional steps. required to turn it into usable fuel. It's still good to have some in your back pocket."]
 			icon: "minecraft:coal_ore"
 			id: "1E27C654E2F6FFF2"
 			size: 0.9d
@@ -370,9 +370,9 @@
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"This vein is only ever good for its Magnesium starting in the mid game."
+				"This vein is only ever good for its Magnesium starting in the midgame."
 				""
-				"However, Olivine has its uses, as it can substitute Emerald in many recipes."
+				"However, Olivine has its uses, as it can substitute &aEmerald&r in many recipes."
 			]
 			icon: "gtceu:olivine_ore"
 			id: "7C1B5559A03F6E02"
@@ -510,7 +510,7 @@
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"Both Sapphire variants serve as your primary source of Aluminium until you can unlock other electrolysis recipes in MV."
+				"Both Sapphire variants serve as your primary source of Aluminium until you can unlock other electrolysis recipes in &bMV&r."
 				""
 				"The other two gems are mediocre at best."
 			]
@@ -566,7 +566,11 @@
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
-			description: ["This one's nothing but a meme. It's literally called a Lubricant vein."]
+			description: [
+				"This one's nothing but a meme. It's literally called a Lubricant vein."
+				""
+				"With that being said, Lubricant is always useful."
+			]
 			icon: "gtceu:soapstone_ore"
 			id: "676667089653641C"
 			size: 0.9d
@@ -602,7 +606,7 @@
 			description: [
 				"Did you know Lazurite and Sodalite can substitute Lapis in enchanting?"
 				""
-				"Sodalite is the most valuable Ore here, thanks to its electrolysis in the MV Age."
+				"Sodalite is the most valuable Ore here, thanks to its useful electrolysis recipe when you get to &bMV&r."
 			]
 			icon: "gtceu:lapis_ore"
 			id: "39A58AFE2E0C13EB"
@@ -637,9 +641,9 @@
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"Pyrolusite is what you're here for. It smelts directly into Manganese, which is needed in bulk for the &6HV&r Age."
+				"Pyrolusite is what you're here for. It smelts directly into Manganese, which you'll be needing in bulk for &6HV&r."
 				""
-				"Tantalite eventually becomes extremely valuable thanks to Niobium byproducts."
+				"Tantalite will eventually become extremely valuable, thanks to its Niobium byproducts."
 			]
 			icon: "gtceu:pyrolusite_ore"
 			id: "2C75A50B17AA9AF1"
@@ -737,7 +741,7 @@
 			description: [
 				"A source of Bauxite for your first ever Titanium."
 				""
-				"Kyanite and Mica have decent decompositions, but there are better options."
+				"Kyanite and Mica have decent decompositions if you electrolyze them, but there are definitely better options, so you shouldn't hunt them down if you want their byproducts."
 			]
 			icon: "gtceu:mica_ore"
 			id: "0B4BA438FE7F3640"
@@ -804,7 +808,7 @@
 		}
 		{
 			dependencies: ["7CAD6FF241A827F7"]
-			description: ["Rare Earth vein for progression in the &5EV&r age and onwards."]
+			description: ["The de-facto Rare Earth vein for progression in &5EV&r... and onwards."]
 			icon: "gtceu:netherrack_bastnasite_ore"
 			id: "2171AF09E76A5968"
 			size: 0.9d
@@ -832,7 +836,7 @@
 		}
 		{
 			dependencies: ["7CAD6FF241A827F7"]
-			description: ["Emerald is the useful ore here. It's used in small quantities in &bMV&r Age, and is a part of the Crystal process for Crystal and Wetware circuits much later on."]
+			description: ["Emerald is the useful ore here. It's used in small quantities in &bMV&r, and is a part of the Crystal process for Crystal and Wetware circuits much later on."]
 			icon: "gtceu:netherrack_emerald_ore"
 			id: "594D84730913698A"
 			size: 0.9d
@@ -861,7 +865,7 @@
 		{
 			dependencies: ["7CAD6FF241A827F7"]
 			description: [
-				"This vein is very rare!"
+				"This vein is very rare! Congratulations on stumbling upon one."
 				""
 				"It's basically Molybdenum, plus less important materials."
 			]
@@ -898,9 +902,9 @@
 		{
 			dependencies: ["7CAD6FF241A827F7"]
 			description: [
-				"Your ticket into Applied Energistics 2 is to mine some of that Certus Quartz."
+				"Your ticket into &bApplied Energistics 2&r rests within a Certus Quartz vein."
 				""
-				"Barite electrolyses into Barium, which you will need at some point."
+				"Barite electrolyses into Barium, which you will need to make some higher tier Superconductors."
 			]
 			icon: "gtceu:netherrack_certus_quartz_ore"
 			id: "517D50E748A129AB"
@@ -930,11 +934,11 @@
 		{
 			dependencies: ["7CAD6FF241A827F7"]
 			description: [
-				"Electrotine is important for progression in the &6HV&r Age. It centrifuges into Electrum, a source of Gold and Silver, and Redstone."
+				"Electrotine is important for progression in &6HV&r. It centrifuges into Electrum (a source of Gold and Silver) and Redstone."
 				""
-				"Saltpeter is used in a few reactions, and the other two ores here are pretty bad."
+				"Saltpeter is used in a few reactions, and... the other two ores here are pretty bad."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Does Nikolite ring a bell? It was the ancestor of Electrotine in RedPower."
+				"&l&3Lore:&r&o Does the word \"Nikolite\" ring a bell? It's pretty much Electrotine's great ancestor, hailing from RedPower."
 			]
 			icon: "gtceu:netherrack_saltpeter_ore"
 			id: "1F572D638AAACA21"
@@ -1006,9 +1010,9 @@
 		{
 			dependencies: ["7CAD6FF241A827F7"]
 			description: [
-				"Almost a pure Copper vein."
+				"Almost a pure Copper vein. Damn you, Stibnite!"
 				""
-				"Stibnite smelts directly into Antimony, which you will want in the &7LV&r Age."
+				"Stibnite smelts directly into Antimony, which you will want in &7LV&r for your Batteries."
 			]
 			icon: "gtceu:netherrack_tetrahedrite_ore"
 			id: "45B62B35180593EA"
@@ -1038,9 +1042,9 @@
 		{
 			dependencies: ["7CAD6FF241A827F7"]
 			description: [
-				"This Nether Limonite vein variant is not to be slept on."
+				"This Nether Limonite vein variant isn't to be slept on."
 				""
-				"Thanks to the 2x yield, this is an excellent source of Iron and Gold."
+				"Thanks to the &adoubled yield&r, this is an excellent source of Iron and Gold."
 			]
 			icon: "gtceu:netherrack_yellow_limonite_ore"
 			id: "0AFADD21454D968E"
@@ -1070,7 +1074,7 @@
 		{
 			dependencies: ["7CAD6FF241A827F7"]
 			description: [
-				"Your first Nether expedition will be for Sulfur, which is found in this vein!"
+				"Your first Nether expedition should be for &eSulfur&r - which is found in this vein! Be careful, as this vein usually spawns from y-levels of 10 to 30."
 				""
 				"Sphalerite is extremely valuable, as its ore processing gives Gallium. It also smelts directly into Zinc."
 			]
@@ -1129,7 +1133,7 @@
 		{
 			dependencies: ["41D32C5178760F47"]
 			description: [
-				"You may already have Iron, but don't sleep on this vein."
+				"You may already have boatloads of Iron by the time you make it here, but don't overlook the utility of this vein."
 				""
 				"Chromite is an excellent source of Chrome, and Vanadium is needed in higher quantities in the late game."
 			]
@@ -1165,11 +1169,11 @@
 		{
 			dependencies: ["41D32C5178760F47"]
 			description: [
-				"Naquadah from the TV series Stargate! An essential material from &dLuV&r Age onwards."
+				"Yes - that's &2Naquadah&r from the TV series Stargate! You'll find this becomes an essential material from &dLuV&r onwards."
 				""
-				"Naquadah can be processed in &dLuV&r Age for Titanium, Trinium, Barium, Gallium, Indium, Phosphorus, Enriched Naquadah, and Naquadria. Versatile!"
+				"Naquadah can be processed in &dLuV&r for Titanium, Trinium, Barium, Gallium, Indium, Phosphorus, Enriched Naquadah, and Naquadria. Versatile!"
 				""
-				"Plutonium is used to start the Radon loop, required in &1IV&r Age."
+				"Moving the spotlight to the other ore, &cPlutonium&r is used to start the Radon loop, required in &9IV&r."
 			]
 			icon: "gtceu:endstone_naquadah_ore"
 			id: "143B1AE1F3CF53EF"
@@ -1197,11 +1201,11 @@
 				""
 				"The Platinum Group Sludge chain becomes a requirement in &1IV&r, and Sheldonite is the best ore to kickstart your processing."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o The actual name for Sheldonite ore is actually Cooperite. GregoriusT thought it was haha funny to make jokes about Sheldon Cooper, despite &lnot&r being the person the ore was named after! And so we kept the haha funny joke going."
+				"&l&3Lore:&r&o The real-world name for Sheldonite ore is actually Cooperite. GregoriusT thought it was \"haha, funny\" to make it a reference to Sheldon Cooper, despite &lnot&r&o being the person the ore was named after!  We kept the \"haha, funny\" joke going."
 			]
 			icon: "gtceu:endstone_cooperite_ore"
 			id: "4D76C334B251EB3A"
-			subtitle: "Source of a lot, again"
+			subtitle: "Source of a lot, again..."
 			tasks: [
 				{
 					id: "4547E85950CB15E4"
@@ -1231,9 +1235,9 @@
 		{
 			dependencies: ["41D32C5178760F47"]
 			description: [
-				"Your one and only Tungsten source! (You could technically get Tungstate from macerating End Stone... but the yield is tiny.)"
+				"Your one and only &9Tungsten&r source! Whilst you could technically get your Tungstate from macerating &eEnd Stone,&r the yield is tiny. Process these ores instead!"
 				""
-				"An extremely important veinm, as Tungsten is used in vast amounts in &1IV&r Age and onwards."
+				"An extremely important vein, as Tungsten is used in vast amounts in &9IV&r and onwards."
 			]
 			icon: "gtceu:endstone_scheelite_ore"
 			id: "5AA98D1298FD90BA"
@@ -1261,7 +1265,11 @@
 		}
 		{
 			dependencies: ["41D32C5178760F47"]
-			description: ["This is a much more sane vein to mine to get Aluminium and Titanium over the Overworld Mica vein."]
+			description: [
+				"The vein to mine for &bAluminium&r and &dTitanium&r if you're a well-adjusted person."
+				""
+				"Ditch those Mica veins - Bauxite is the future!"
+			]
 			icon: "gtceu:endstone_bauxite_ore"
 			id: "40B40DF0D1295A90"
 			subtitle: "Source of Aluminium, Titanium, Gallium"
@@ -1291,7 +1299,9 @@
 			description: [
 				"The one and only vein for Uranium!"
 				""
-				"Uranium has a few minor uses in &5EV&r Age and beyond. Nuclear Reactors are planned for GTCEu in the future... keep your eyes peeled."
+				"Uranium has a few minor uses in &5EV&r and beyond."
+				""
+				"Did you know that Nuclear Reactors might be making their way to &bGTCEu&r in the future?"
 			]
 			icon: "gtceu:endstone_pitchblende_ore"
 			id: "5ED483A04095EFA3"
