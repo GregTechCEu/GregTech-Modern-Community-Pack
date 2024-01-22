@@ -8,7 +8,7 @@ ServerEvents.recipes((event) => {
       "ae2:pattern_provider",
       "4x ae2:engineering_processor",
       "gtceu:soc",
-      "#forge:circuits/hv"
+      "#gtceu:circuits/hv"
     )
     .itemOutputs("expatternprovider:ex_pattern_provider")
     .duration(200)
@@ -20,7 +20,7 @@ ServerEvents.recipes((event) => {
       "ae2:interface",
       "4x ae2:logic_processor",
       "gtceu:soc",
-      "#forge:circuits/hv"
+      "#gtceu:circuits/hv"
     )
     .itemOutputs("expatternprovider:ex_interface")
     .duration(200)
@@ -33,7 +33,7 @@ ServerEvents.recipes((event) => {
     .itemInputs(
       "4x ae2:engineering_processor",
       "gtceu:soc",
-      "#forge:circuits/hv"
+      "#gtceu:circuits/hv"
     )
     .itemOutputs("expatternprovider:pattern_provider_upgrade")
     .duration(180)
@@ -41,7 +41,7 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "expatternprovider:ei_upgrade" });
   greg
     .assembler("extended_interface_upgrade")
-    .itemInputs("4x ae2:logic_processor", "gtceu:soc", "#forge:circuits/hv")
+    .itemInputs("4x ae2:logic_processor", "gtceu:soc", "#gtceu:circuits/hv")
     .itemOutputs("expatternprovider:interface_upgrade")
     .duration(180)
     .EUt(50);
@@ -86,4 +86,14 @@ ServerEvents.recipes((event) => {
     .itemOutputs("2x expatternprovider:wireless_connect")
     .duration(200)
     .EUt(8192);
+
+  event.remove({ id: "expatternprovider:pattern_modifier" });
+  event.shaped("expatternprovider:pattern_modifier", ["PDP", "AKB", "PCP"], {
+    P: "#forge:plates/ultimet",
+    D: "gtceu:computer_monitor_cover",
+    A: "ae2:logic_processor",
+    K: "#gtceu:circuits/luv",
+    B: "ae2:engineering_processor",
+    C: "ae2:calculation_processor",
+  });
 });
