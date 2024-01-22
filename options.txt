@@ -244,7 +244,7 @@ key_key.ftbchunks.minimap.zoomIn:key.keyboard.equal
 key_key.ftbchunks.minimap.zoomOut:key.keyboard.minus
 key_key.ftbchunks.add_waypoint:key.keyboard.unknown
 key_key.ftbchunks.waypoint_manager:key.keyboard.unknown
-key_key.ftbquests.quests:key.keyboard.unknown
+key_key.ftbquests.quests:key.keyboard.f4
 key_key.inventoryessentials.single_transfer:key.mouse.left:CONTROL
 key_key.inventoryessentials.bulk_transfer:key.mouse.left:SHIFT
 key_key.inventoryessentials.bulk_transfer_modifier:key.keyboard.left.control
