@@ -1,6 +1,6 @@
 name = "Embeddium"
 filename = "embeddium-0.2.18+mc1.20.1.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"
