@@ -73,7 +73,11 @@
 				"2DAC91AF2EBB68E2"
 				"1783D89CE81C8E2E"
 			]
-			description: ["The &aAdvanced Processing Array&r is an upgrade to the regular version. It can now handle a maximum of &a64&r machines, instead of 16."]
+			description: [
+				"The &aAdvanced Processing Array&r is an upgrade to the regular version. It can now handle a maximum of &a64&r machines, instead of 16."
+				""
+				"As with the Processing Array, this machine &4won't be making it&r into future versions of the mod. You can skip this quest with the checkmark."
+			]
 			id: "4194EC9F1C6632E4"
 			shape: "rsquare"
 			size: 0.66d

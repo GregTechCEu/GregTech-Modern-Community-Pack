@@ -145,7 +145,7 @@
 			]
 			icon: "gtceu:ethylene_bucket"
 			id: "6BB98D128822730E"
-			min_required_dependencies: 2
+			min_required_dependencies: 1
 			shape: "square"
 			size: 0.75d
 			subtitle: "One of many hydrocarbons"
@@ -1783,6 +1783,7 @@
 			]
 			icon: "gtceu:mv_distillery"
 			id: "6A304E453D74C57C"
+			min_required_dependencies: 2
 			shape: "square"
 			size: 0.75d
 			tasks: [{
