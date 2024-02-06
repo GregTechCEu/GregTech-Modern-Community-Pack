@@ -714,7 +714,7 @@
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "forge:batteries/lv"
+						value: "gtceu:batteries/lv"
 					}
 				}
 				title: "Any LV Battery"
