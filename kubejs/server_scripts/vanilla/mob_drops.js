@@ -105,7 +105,7 @@ ServerEvents.recipes((event) => {
 
   // XP
   greg
-    .chemical_reactor("gtceu:bottle_o_enchanting")
+    .large_chemical_reactor("gtceu:bottle_o_enchanting")
     .itemInputs(
       "glass_bottle",
       "#forge:tiny_dusts/gold",
