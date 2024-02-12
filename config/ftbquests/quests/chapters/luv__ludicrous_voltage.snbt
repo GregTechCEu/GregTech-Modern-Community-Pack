@@ -78,15 +78,23 @@
 				""
 				"As with the Processing Array, this machine &4won't be making it&r into future versions of the mod. You can skip this quest with the checkmark."
 			]
+			icon: "gtceu:luv_processing_array"
 			id: "4194EC9F1C6632E4"
 			shape: "rsquare"
 			size: 0.66d
 			subtitle: "Your blue cube is now green!"
-			tasks: [{
-				id: "356EC5387BA79103"
-				item: "gtceu:luv_processing_array"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "356EC5387BA79103"
+					item: "gtceu:luv_processing_array"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3BB99A624A81A93E"
+					type: "checkmark"
+				}
+			]
 			title: "Advanced Processing Array"
 			x: 1.125d
 			y: 0.0d
@@ -236,6 +244,7 @@
 			id: "3F31E99D0284A60A"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "Doper than ever before"
 			tasks: [{
 				id: "2F8C92A86CAF338F"
 				item: "gtceu:naquadah_boule"
@@ -725,6 +734,7 @@
 			description: ["Cheaper &dLuV&r circuits! These'll take some of the edge out of those brutal Robot Arm recipes."]
 			id: "47087361D6DE7DCF"
 			size: 0.75d
+			subtitle: "Yup... another circuit upgrade"
 			tasks: [{
 				id: "3CF7F369F390A3E5"
 				item: "gtceu:crystal_processor_assembly"
@@ -743,6 +753,7 @@
 			]
 			id: "7AE681E2AB31EA0D"
 			size: 0.75d
+			subtitle: "...wait, why'd things end here?"
 			tasks: [{
 				id: "0E274B445A95250A"
 				item: "gtceu:crystal_processor_computer"
@@ -784,6 +795,7 @@
 			]
 			id: "42CD789B8C40E424"
 			size: 0.75d
+			subtitle: "I know where this is going!"
 			tasks: [{
 				id: "6357389871CE70C2"
 				item: "gtceu:crystal_processor"
@@ -804,6 +816,7 @@
 			]
 			id: "6C241455C5434C2E"
 			size: 0.75d
+			subtitle: "M-L F-R PCB"
 			tasks: [{
 				id: "5B8C1C15E5413CEC"
 				item: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
@@ -882,6 +895,7 @@
 			id: "12FEE0A47E4658D5"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "Cables need better coating now"
 			tasks: [{
 				id: "4CAD2BE5558D7501"
 				item: "gtceu:polyphenylene_sulfide_foil"

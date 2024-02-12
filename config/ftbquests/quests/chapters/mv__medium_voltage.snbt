@@ -198,6 +198,7 @@
 			icon: "gtceu:naphtha_bucket"
 			id: "6238B2A7ED1BE5A1"
 			size: 0.66d
+			subtitle: "We're still confused on how this is pronounced"
 			tasks: [
 				{
 					id: "01BF2D557A9EF2B0"
@@ -262,6 +263,7 @@
 			id: "583D0CC4FAA4FC98"
 			shape: "square"
 			size: 0.75d
+			subtitle: "Things are 'boutta get rough"
 			tasks: [{
 				id: "1F170291094582D6"
 				item: {
@@ -342,6 +344,7 @@
 			icon: "gtceu:mv_transformer_1a"
 			id: "6C20A9A64C1BE0BF"
 			size: 0.75d
+			subtitle: "LV In Disguise"
 			tasks: [{
 				id: "6C36867EB98E772D"
 				item: "gtceu:lv_transformer_1a"
@@ -579,6 +582,7 @@
 			}]
 			shape: "square"
 			size: 0.75d
+			subtitle: "Steel Your Heart"
 			tasks: [{
 				count: 4L
 				id: "2E6C71CB2E5EEAC7"
@@ -761,6 +765,7 @@
 			id: "75F38905DEA60F15"
 			shape: "square"
 			size: 0.75d
+			subtitle: "Assengers, Avemble"
 			tasks: [{
 				id: "2396FECF2A11AA8E"
 				item: "gtceu:mv_assembler"
@@ -843,7 +848,7 @@
 				""
 				"The cheap way would be to use filters, and manually add Hot Ingots one by one... which is so boring! Let's try the fun option."
 				""
-				"Install an &aItem Tag Filter&r Cover on the side of your &3Chemical Bath&r, open it and set it to whitelist \"&e&lingots/hot&r\"."
+				"Install an &aItem Tag Filter&r Cover on the side of your &3Chemical Bath&r, open it and set it to whitelist \"&e&lhot_ingots&r\"."
 				""
 				"From here, you can route with &9any logistics system&r of your choice."
 				"{@pagebreak}"
@@ -857,6 +862,7 @@
 			icon: "gtceu:item_tag_filter"
 			id: "13A976D0D612BC84"
 			size: 0.66d
+			subtitle: "Stop burning your darn hands!"
 			tasks: [{
 				id: "76A20EE57CB39857"
 				item: "gtceu:item_tag_filter"
@@ -972,6 +978,7 @@
 			id: "60D7F6C1EE918B66"
 			shape: "square"
 			size: 0.75d
+			subtitle: "More... I demand more!"
 			tasks: [{
 				id: "0622E51767B0AB58"
 				item: "gtceu:good_integrated_circuit"
@@ -1086,6 +1093,7 @@
 			id: "5E76D4C24026157D"
 			shape: "square"
 			size: 0.75d
+			subtitle: "It Feels Good to be the Best"
 			tasks: [{
 				id: "4E076080D7B23372"
 				item: "gtceu:microchip_processor"
@@ -1110,6 +1118,7 @@
 			id: "38DE506FF5B32031"
 			shape: "square"
 			size: 0.75d
+			subtitle: "MV has peaked"
 			tasks: [{
 				id: "120B63C2E40D359A"
 				item: "gtceu:micro_processor"
@@ -1134,6 +1143,7 @@
 			id: "4AFD3073C731A1E4"
 			shape: "square"
 			size: 0.75d
+			subtitle: "Standing out amongst the rest"
 			tasks: [{
 				id: "34EA9B71F8BF607F"
 				item: "gtceu:micro_processor_computer"
@@ -1157,6 +1167,7 @@
 			id: "5063FDFFBE3E4855"
 			shape: "square"
 			size: 0.75d
+			subtitle: "On that HV grind"
 			tasks: [{
 				id: "2FE33281A44C34F6"
 				item: "gtceu:micro_processor_assembly"
@@ -1202,6 +1213,7 @@
 			icon: "gtceu:blue_alloy_ingot"
 			id: "1FCF2C103E25972B"
 			size: 0.66d
+			subtitle: "You're blue now... that's my alloy"
 			tasks: [{
 				id: "15C7369398FAB8DB"
 				item: "gtceu:blue_alloy_ingot"
@@ -1222,6 +1234,7 @@
 			id: "3DFFA8F91452C62A"
 			shape: "square"
 			size: 0.75d
+			subtitle: "Z = jwL"
 			tasks: [{
 				id: "6690451CCAB62CA1"
 				item: "gtceu:inductor"
@@ -1337,6 +1350,7 @@
 			id: "4600221BF0A30C3A"
 			shape: "square"
 			size: 0.75d
+			subtitle: "It's a Casio on a Plastic Board"
 			tasks: [
 				{
 					id: "68B5E2667EDAE895"
@@ -1422,6 +1436,7 @@
 			id: "316FF60D6FFE97CE"
 			shape: "square"
 			size: 0.75d
+			subtitle: "\"...what he thought was H2O was H2SO4!\""
 			tasks: [{
 				id: "06B5F04DEFC12458"
 				item: "gtceu:sulfuric_acid_bucket"
@@ -1452,6 +1467,7 @@
 			icon: "gtceu:hydrochloric_acid_bucket"
 			id: "64CACABB48635904"
 			size: 0.66d
+			subtitle: "You'll need a lot of this!"
 			tasks: [{
 				id: "34147C1DD7B8DE55"
 				item: "gtceu:hydrochloric_acid_bucket"
@@ -1485,6 +1501,7 @@
 			id: "079442C113D54856"
 			shape: "circle"
 			size: 0.66d
+			subtitle: "...if you don't read this quest."
 			tasks: [{
 				id: "2D0DE3FB6E5E4146"
 				title: "I'm an acid professional, don't worry"
@@ -1512,6 +1529,7 @@
 			id: "2202AA5DC6DB0A26"
 			shape: "square"
 			size: 0.75d
+			subtitle: "Baby Got Battery"
 			tasks: [{
 				id: "5FEE671A75766B78"
 				item: {
@@ -1578,6 +1596,7 @@
 			icon: "gtceu:aluminium_fluid_cell"
 			id: "53B0D08DB90EC369"
 			size: 0.66d
+			subtitle: "Like cells... only larger!"
 			tasks: [{
 				id: "105EA8621A99C1EC"
 				item: "gtceu:aluminium_fluid_cell"
@@ -1726,6 +1745,7 @@
 			icon: "gtceu:oilsands_ore"
 			id: "575B07D390D9D079"
 			size: 0.66d
+			subtitle: "This quest was sponsored by the US Military"
 			tasks: [
 				{
 					id: "7B6C7E6C11D68E06"
@@ -1786,6 +1806,7 @@
 			min_required_dependencies: 2
 			shape: "square"
 			size: 0.75d
+			subtitle: "The Illusion of Free Choice"
 			tasks: [{
 				id: "685043442271A0D0"
 				item: {
@@ -1867,6 +1888,7 @@
 			icon: "gtceu:benzene_bucket"
 			id: "00E1A728E6F6D6A0"
 			size: 0.66d
+			subtitle: "In the end, it's always Benzene"
 			tasks: [{
 				id: "4E9EBCCCC7BBAFDD"
 				item: "gtceu:benzene_bucket"
@@ -1890,6 +1912,7 @@
 			icon: "gtceu:lightly_hydro_cracked_heavy_fuel_bucket"
 			id: "61972B16805FC9EE"
 			size: 0.66d
+			subtitle: "Turn up the Lights in here, baby"
 			tasks: [
 				{
 					id: "6E4D818CE088D7D4"
@@ -1968,6 +1991,7 @@
 			icon: "gtceu:tungsten_steel_quadruple_fluid_pipe"
 			id: "66041DE10C882382"
 			size: 0.66d
+			subtitle: "\"I thought channels were disabled!\""
 			tasks: [{
 				id: "2620FA131244B3DA"
 				item: {
@@ -2037,6 +2061,7 @@
 			icon: "gtceu:ulpic_chip"
 			id: "16A1EF8B80A96633"
 			size: 0.66d
+			subtitle: "Pickin' up Chips"
 			tasks: [
 				{
 					id: "6D4D63F75646DB1C"
@@ -2056,7 +2081,7 @@
 					type: "item"
 				}
 			]
-			title: "IC Chips"
+			title: "ULPIC Chips"
 			x: 4.5d
 			y: 0.375d
 		}
@@ -2128,7 +2153,7 @@
 			description: [
 				"Tired of running around your base yet? &3Travel Anchors&r make their introduction in the latest update!"
 				""
-				"Aim the &aTravel Staff&r at a placed Anchor, then &6sneak-right-click&r to teleport on top. You can &bcustomise the appearance&r of a Travel Anchor by right-clicking it with a block in your off-hand, and you can &9rename&r Anchors in their GUI."
+				"Aim the &aTravel Staff&r at a placed Anchor, then &6sneak-right-click&r to teleport on top. You can &bcustomise the appearance&r of a Travel Anchor by right-clicking it with a block in your off-hand, and you can &9rename&r Anchors in their GUI. The effective tool for breaking them is the &bWrench&r."
 				""
 				"The &dEnder Pearls&r necessary to craft more Anchors won't be available yet - take a small handful of Anchors to make life a &olittle&r easier."
 			]

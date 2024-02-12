@@ -56,14 +56,6 @@
 			y: -7.5d
 		}
 		{
-			id: "1EA07F998161450C"
-			linked_quest: "30A6EDDF25A5E5F8"
-			shape: "rsquare"
-			size: 0.66d
-			x: 2.0d
-			y: -6.5d
-		}
-		{
 			id: "532482B324E31386"
 			linked_quest: "1776FA1F3255731E"
 			shape: "rsquare"
@@ -143,6 +135,24 @@
 			}]
 			title: "Nichrome"
 			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"2F9D9AAB27E6534D"
+				"0B25A282F677744B"
+			]
+			description: ["You're gonna need to start on your &dPlatinum&r processing, or \"&bPlatline&r\", if you want to get your hands on these."]
+			id: "3856DBCCAA6D2A58"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Tungstensteel is dead, long live RTM"
+			tasks: [{
+				id: "76DE4924186D83C2"
+				item: "gtceu:rtm_alloy_ingot"
+				type: "item"
+			}]
+			x: 2.0d
 			y: -6.5d
 		}
 	]

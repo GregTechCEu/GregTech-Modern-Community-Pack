@@ -54,6 +54,7 @@
 			]
 			id: "300348B1238BCB9A"
 			size: 0.75d
+			subtitle: "It's got \"rare\" in the name... oh no."
 			tasks: [{
 				count: 64L
 				id: "0BC7D23CA52A619D"
@@ -105,6 +106,7 @@
 			hide_dependency_lines: true
 			id: "1776FA1F3255731E"
 			size: 0.75d
+			subtitle: "This time, we're going at HIGH speed!"
 			tasks: [{
 				id: "7F7D77145AC8197E"
 				item: "gtceu:hssg_ingot"
@@ -126,6 +128,7 @@
 			id: "1783D89CE81C8E2E"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "Turbine Upgrade, perhaps?"
 			tasks: [{
 				id: "096C0C576B0F3358"
 				item: "gtceu:hsse_ingot"
@@ -328,6 +331,7 @@
 			]
 			id: "12B4423F055BFBF5"
 			size: 0.75d
+			subtitle: "Another Polymer Rises From The Darkness"
 			tasks: [{
 				id: "2358A62B80B56238"
 				item: "gtceu:laminated_glass"
@@ -423,6 +427,7 @@
 			id: "01AB252C72B565FE"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "...and if you disagree, you'll see the light soon enough"
 			tasks: [
 				{
 					id: "382B9759383E1AC3"
@@ -501,6 +506,7 @@
 			id: "724FB950CC472BB4"
 			shape: "circle"
 			size: 0.66d
+			subtitle: "I've been waiting for this!"
 			tasks: [{
 				id: "496C00BA0D8F5445"
 				type: "checkmark"
@@ -625,6 +631,7 @@
 			description: ["The &aZPM Mainframe&r is used to make the &3LuV Circuit Assembler&r (of course), but also allows you to step into &3Fusion&r."]
 			id: "327C3E02CD751453"
 			size: 0.75d
+			subtitle: "Zero Point Module is (almost) mine!"
 			tasks: [{
 				id: "59901F46ED2C46DF"
 				item: "gtceu:quantum_processor_mainframe"
@@ -676,45 +683,9 @@
 		}
 		{
 			dependencies: [
-				"64CACABB48635904"
-				"5BACED5AE350EAB1"
-			]
-			description: [
-				"The &aPlatinum Group Metals&r are six rare metals with useful catalytic properties. They are &3Ruthenium&r, &dRhodium&r, &7Palladium&r, &9Osmium&r, &bIridium&r, and &ePlatinum&r."
-				""
-				"You will need to &4automate&r this entire process, as every single one of these metals will be used extensively in the late game."
-				"{@pagebreak}"
-				"To begin, treat various PGM-bearing &aPurified Crushed Ores&r with &dNitric Acid&r to produce &aPlatinum Group Sludge&r."
-				""
-				"Then, centrifuge it with &dAqua Regia&r to produce the various PGM salts."
-				""
-				"&dChlorine&r can be perfectly recycled from the &eRaw Platinum Powder&r."
-				""
-				"&dNitric Acid&r is &osort of&r recycled from &7Raw Palladium Powder&r through &dAmmonia&r, though we'd recommend keeping the excess Ammonia for other uses (Rocket Fuel and PBI)."
-				""
-				"The other PGM salts have their own special mini-chain associated to them - more on this in the next quests."
-				"{@pagebreak}"
-				"&9Note:&r &ePlatinum&r and &7Palladium&r can also be obtained from The End or through normal Ore Processing."
-				""
-				"&l&3Lore:&r&o Heard of the infamous \"Platline\" from either Gregicality or GregTech: New Horizons? The extremely daunting chain was added in GT:NH through Bartworks. The concept is amazing, but we had to tune it down significantly to make entering late game in GTCEu much smoother."
-			]
-			icon: "gtceu:platinum_group_sludge_dust"
-			id: "635D14B8E9F996FD"
-			size: 0.75d
-			tasks: [{
-				id: "4303DF66EBD3032C"
-				item: "gtceu:platinum_group_sludge_dust"
-				type: "item"
-			}]
-			title: "Platinum Group Processing"
-			x: 3.75d
-			y: 1.5d
-		}
-		{
-			dependencies: [
-				"635D14B8E9F996FD"
 				"7820DF52516344F4"
 				"528CE69DA4358B2E"
+				"57D4E09A9CAB150C"
 			]
 			description: [
 				"This part of the chain starts by obtaining some &aRarest Metal Mixture&r."
@@ -750,45 +721,7 @@
 			y: 2.625d
 		}
 		{
-			dependencies: [
-				"635D14B8E9F996FD"
-				"528CE69DA4358B2E"
-				"069FD86133D7D582"
-				"5DBBD9B1F5B01F4E"
-			]
-			description: [
-				"This part of the chain starts with &aInert Metal Mixture&r."
-				""
-				"&dSulfuric Acid&r can be perfectly recycled. You will produce excess &dOxygen&r and &dHydrogen&r that can be stored."
-				""
-				"&aRuthenium&r and &aRhodium&r are gatekeepers to &dLuV&r. If you automate them now, you won't need to do it later!"
-			]
-			icon: "gtceu:ruthenium_ingot"
-			id: "214783B2BB6730C5"
-			size: 0.75d
-			tasks: [
-				{
-					id: "08FEDEE28C37331F"
-					item: "gtceu:ruthenium_dust"
-					type: "item"
-				}
-				{
-					id: "014BD952B8944694"
-					item: "gtceu:rhodium_dust"
-					type: "item"
-				}
-				{
-					id: "38D0B4A76E4436F8"
-					item: "gtceu:inert_metal_mixture_dust"
-					type: "item"
-				}
-			]
-			title: "Ruthenium and Rhodium"
-			x: 3.75d
-			y: 0.375d
-		}
-		{
-			dependencies: ["214783B2BB6730C5"]
+			dependencies: ["2F9D9AAB27E6534D"]
 			description: [
 				"Progressing into &dLuV&r will require more than &aRhodium Plated Palladium&r and &9LuV Circuits&r alone. You'll also need the &3Assembly Line&r."
 				""
@@ -811,8 +744,8 @@
 				type: "item"
 			}]
 			title: "Rhodium-Plated Palladium"
-			x: 4.875d
-			y: 0.375d
+			x: 3.75d
+			y: 1.5d
 		}
 		{
 			dependencies: ["216E5A3574AC08BF"]
@@ -943,6 +876,7 @@
 			]
 			id: "49C1D61741AA288E"
 			size: 0.75d
+			subtitle: "Quantum Processing"
 			tasks: [{
 				id: "4E109F0F515B210F"
 				item: "gtceu:quantum_processor"
@@ -985,6 +919,7 @@
 			]
 			id: "0338C9219DC2F819"
 			size: 0.75d
+			subtitle: "The biggest upgrade you've ever seen"
 			tasks: [{
 				id: "7092FDCCDDC53679"
 				item: "gtceu:reinforced_epoxy_resin_plate"
@@ -999,6 +934,7 @@
 			description: ["Good news for any mainframe haters out there - &dLuV&r Circuits that aren't mainframes!"]
 			id: "145F71A817C5996E"
 			size: 0.75d
+			subtitle: "Spread the LuV"
 			tasks: [{
 				id: "0205E6C037A453A8"
 				item: "gtceu:quantum_processor_computer"
@@ -1017,6 +953,7 @@
 			]
 			id: "698B5F65F2DE4439"
 			size: 0.75d
+			subtitle: "IV, but it's green now"
 			tasks: [{
 				id: "3B46E4592A6AC60E"
 				item: "gtceu:quantum_processor_assembly"
@@ -1042,6 +979,7 @@
 			id: "48DEABA155605D23"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "This is second nature at this point"
 			tasks: [{
 				id: "2EC4E901B2CD35FA"
 				item: {

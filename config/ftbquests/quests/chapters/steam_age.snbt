@@ -134,6 +134,7 @@
 			]
 			shape: "square"
 			size: 0.75d
+			subtitle: "Pressure! Pushin' down on me..."
 			tasks: [{
 				id: "0DC74FB54995F3F1"
 				item: {
@@ -784,6 +785,7 @@
 			id: "03DBF1961AE21C76"
 			shape: "square"
 			size: 0.75d
+			subtitle: "Surprisingly Steamy"
 			tasks: [{
 				id: "03BA041BE9C347FD"
 				item: "gtceu:bronze_machine_casing"
@@ -1438,6 +1440,7 @@
 			id: "539CF1B85725786D"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "All your logistics woes are solved"
 			tasks: [{
 				id: "158F4EEDC214A3BA"
 				item: {

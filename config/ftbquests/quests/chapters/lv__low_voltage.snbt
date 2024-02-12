@@ -116,7 +116,7 @@
 			rewards: [{
 				count: 4
 				id: "05D8932AEED073F8"
-				item: "gtceu:steel_small_gear"
+				item: "gtceu:small_steel_gear"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -531,6 +531,7 @@
 			id: "46AD7A6F3B6775F5"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "We aren't losing a single Amp more"
 			tasks: [{
 				id: "4477AB06651827D6"
 				item: "gtceu:manganese_phosphide_single_wire"
@@ -551,6 +552,7 @@
 			]
 			id: "772F7CD63D31966A"
 			size: 0.75d
+			subtitle: "No, not THAT kind of Thermal"
 			tasks: [{
 				id: "10AB20A316EA688F"
 				item: "gtceu:lv_thermal_centrifuge"
@@ -573,6 +575,7 @@
 			]
 			id: "7A64425597F58015"
 			size: 0.75d
+			subtitle: "You're as Exquisite as the gems you sift!"
 			tasks: [{
 				id: "2D87ADACFE1EF8E5"
 				item: "gtceu:lv_sifter"
@@ -621,6 +624,7 @@
 			]
 			id: "58BA62A3A8A32C24"
 			size: 0.75d
+			subtitle: "Wash that mouth out"
 			tasks: [{
 				id: "1C03C5F3E5196342"
 				item: "gtceu:lv_ore_washer"
@@ -814,6 +818,7 @@
 			]
 			id: "22A1A629AF754066"
 			size: 0.75d
+			subtitle: "\"Oops, I turned my Diamonds into dust\""
 			tasks: [{
 				id: "30C94122AD446D9B"
 				item: "gtceu:lv_autoclave"
@@ -828,6 +833,7 @@
 			description: ["A rarely used machine. It uses magnetism to separate some Magnetic ores and gain additional &6Byproducts&r you would not obtain otherwise."]
 			id: "24B4D9608718EE27"
 			size: 0.75d
+			subtitle: "Magnets... how do they work"
 			tasks: [{
 				id: "3162F3E3D12E00FB"
 				item: "gtceu:lv_electromagnetic_separator"
@@ -923,6 +929,7 @@
 			id: "2E36E5755B2F551C"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "(Ok, maybe not)"
 			tasks: [{
 				id: "1AC97E61EF4958C8"
 				item: "gtceu:prospector.lv"
@@ -1017,6 +1024,7 @@
 			id: "15928F50AE80A5CF"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "Time to sell some Air"
 			tasks: [{
 				id: "5710E0C2A7441809"
 				item: "gtceu:lv_gas_collector"
@@ -1045,6 +1053,7 @@
 			]
 			id: "3F123950216DF93B"
 			size: 0.75d
+			subtitle: "Look who's packing"
 			tasks: [{
 				id: "33AEA84A406741FF"
 				item: "gtceu:lv_packer"
@@ -1202,6 +1211,7 @@
 				type: "item"
 			}]
 			size: 0.75d
+			subtitle: "One Step Closer To MV"
 			tasks: [{
 				count: 6L
 				id: "3B6DC3146DB686BF"
@@ -1233,6 +1243,7 @@
 				type: "item"
 			}]
 			size: 0.75d
+			subtitle: "Separating anything you can think of"
 			tasks: [{
 				id: "536874A8C35E1C86"
 				item: "gtceu:lv_electrolyzer"
@@ -1289,6 +1300,7 @@
 				type: "item"
 			}]
 			size: 0.75d
+			subtitle: "Jack of Many Trades"
 			tasks: [{
 				id: "20EDB55B8D5CDAD6"
 				item: "gtceu:lv_centrifuge"
@@ -1382,6 +1394,7 @@
 			]
 			shape: "gear"
 			size: 1.2d
+			subtitle: "Assemblers, Avenge!"
 			tasks: [{
 				id: "6B5537B80EB05B30"
 				item: "gtceu:lv_assembler"
@@ -1517,6 +1530,7 @@
 				type: "item"
 			}]
 			size: 0.75d
+			subtitle: "Here lies Plasma Furnace"
 			tasks: [{
 				id: "2374C06C5E1EFC24"
 				item: "gtceu:lv_arc_furnace"
@@ -1621,7 +1635,7 @@
 			]
 			description: [
 				"Many materials going forward cannot be smelted directly from any Ores! They are instead obtained as byproducts from processing of other ores. Gallium and Arsenic are &4among&r these materials."
-				""
+				"{@pagebreak}"
 				"For &dGallium&r, you may, ranged from worst to best (compromising difficulty and yields):"
 				""
 				"&9- &3Electrolyze &aSphalerite&r for a low chance of small dust. Note that you lose out on direct smelting value."
@@ -1667,6 +1681,7 @@
 				type: "item"
 			}]
 			size: 0.75d
+			subtitle: "A Good Board"
 			tasks: [{
 				id: "2DE7B75F25A4AB9E"
 				item: "gtceu:phenolic_printed_circuit_board"
@@ -1703,6 +1718,7 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "Time to ditch those chests"
 			tasks: [{
 				id: "2080D5BB367332D3"
 				item: "ae2:cell_component_1k"
@@ -1785,6 +1801,7 @@
 			hide_dependent_lines: true
 			id: "45B71324028F6E68"
 			size: 0.75d
+			subtitle: "Aluminium, not \"Aluminum\""
 			tasks: [{
 				id: "144F4F8EF61BEEA5"
 				item: "gtceu:aluminium_dust"
@@ -1805,6 +1822,7 @@
 			icon: "gtceu:heatproof_machine_casing"
 			id: "2FC7B1E867E4194E"
 			size: 0.75d
+			subtitle: "By the end of this, you'll be an expert"
 			tasks: [{
 				id: "2AA5580CDD655FBC"
 				type: "checkmark"
@@ -1831,6 +1849,7 @@
 			id: "1F2359106FC95603"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "What is this, Skyblock?"
 			tasks: [{
 				id: "10F588EB061EB2EA"
 				item: {
@@ -1895,6 +1914,7 @@
 			id: "2DB259568F347C0E"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "100% Battery"
 			tasks: [{
 				id: "07BF7F14849A3027"
 				item: {
@@ -1968,6 +1988,7 @@
 			id: "3B26CA44EA955B07"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "Women want me, fish fear me"
 			tasks: [{
 				id: "07BA97A0F04F0876"
 				item: {
@@ -2000,6 +2021,70 @@
 			title: "Fishing 50"
 			x: 6.75d
 			y: 0.0d
+		}
+		{
+			dependencies: ["46AD7A6F3B6775F5"]
+			description: [
+				"&o&7This quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&r"
+				""
+				"The &3World Accelerator&r... well, accelerates the world. Placing it down and powering it will cause it to tick-accelerate any Tile Entities around it. Using a Screwdriver, you can also toggle it to tick-accelerate random blocks in its area, such as farmland. "
+				""
+				"Keep in mind that GregTech machines are blacklisted from tick acceleration - this is for the better, as tick-accelerating a GregTech machine can lead to it consuming many Amps at once and nuking your power system."
+			]
+			hide_dependency_lines: false
+			icon: "gtceu:lv_world_accelerator"
+			id: "113F3D2E48F62CBB"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "I Have Become Chronos"
+			tasks: [{
+				id: "5924F0A33AD22EC9"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_world_accelerator"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_world_accelerator"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hv_world_accelerator"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ev_world_accelerator"
+							}
+							{
+								Count: 1b
+								id: "gtceu:iv_world_accelerator"
+							}
+							{
+								Count: 1b
+								id: "gtceu:luv_world_accelerator"
+							}
+							{
+								Count: 1b
+								id: "gtceu:zpm_world_accelerator"
+							}
+							{
+								Count: 1b
+								id: "gtceu:uv_world_accelerator"
+							}
+						]
+					}
+				}
+				title: "World Accelerators"
+				type: "item"
+			}]
+			title: "At The Speed Of Light"
+			x: 7.875d
+			y: 1.125d
 		}
 	]
 	subtitle: ["Tame electricity and make your first machines"]

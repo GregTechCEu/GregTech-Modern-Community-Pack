@@ -96,6 +96,7 @@
 			id: "0021051273D48936"
 			shape: "rsquare"
 			size: 0.75d
+			subtitle: "The Road To Power Storage"
 			tasks: [{
 				id: "51F819B8083DC13A"
 				item: "gtceu:hv_autoclave"
@@ -132,12 +133,13 @@
 				""
 				"It's slightly more efficient than the &3LBB&r, and produces &d900 EU/t worth of Steam&r."
 				""
-				"We'd recommend you try other power options at this point."
+				"We'd politely recommend that you try other power options at this point."
 			]
 			icon: "gtceu:steel_large_boiler"
 			id: "1BB40CCF17D00719"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "Steam isn't the only answer, but we won't stop you"
 			tasks: [{
 				id: "3872B1D118426B33"
 				item: "gtceu:steel_large_boiler"
@@ -150,7 +152,7 @@
 		{
 			dependencies: ["16A6AE5C770DB83A"]
 			description: [
-				"You now have access to two &3new Maintenance Hatches&r. Both hatches &6do not require Maintenance&r when first placed in a Multiblock."
+				"You now have access to two &3new Maintenance Hatches&r. Both hatches &6do not require Maintenance&r when first placed in a Multiblock. We're going to ask for both here."
 				""
 				"The &3Automatic Maintenance Hatch&r is pretty simple - it eliminates the need for Maintenance, &6forever&r."
 				""
@@ -166,6 +168,7 @@
 			id: "15645E46CC0E6764"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "Huge News for Maintenance Haters"
 			tasks: [
 				{
 					id: "4BE8DFB45A1BFC09"
@@ -200,6 +203,7 @@
 			id: "029CF0D9E5097F87"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "Wouldn't you agree? Fun!"
 			tasks: [
 				{
 					id: "5B6D9DD390CC3184"
@@ -246,7 +250,7 @@
 				"26394C1290D70AB6"
 				"16A6AE5C770DB83A"
 			]
-			description: ["The &3HV Assembling Machine&r is the next step in progression, but also unlocks a handful of useful utilities - check around this quest for more."]
+			description: ["The &3HV Assembling Machine&r is the next step in progression, but also unlocks a handful of useful utilities - snoop around this quest for more."]
 			icon: "gtceu:hv_assembler"
 			id: "16B735F9C391D260"
 			size: 0.75d
@@ -286,6 +290,7 @@
 			id: "78464574AF8A27AC"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "Truly revolutionary - water"
 			tasks: [{
 				id: "3CE1967A82B9ED45"
 				item: "gtceu:infinite_water_cover"
@@ -306,6 +311,7 @@
 			id: "6975F16F5B50F17F"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "...and it's beautiful"
 			tasks: [
 				{
 					count: 20L
@@ -340,6 +346,7 @@
 			icon: "gtceu:nand_chip"
 			id: "15EC934CE8F4DC86"
 			size: 0.75d
+			subtitle: "Good on you for making these!"
 			tasks: [{
 				id: "6B595E3904B796C3"
 				item: "gtceu:nand_chip"
@@ -363,6 +370,7 @@
 			id: "26E8E5C163340E5A"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "\"Fluid Discretizer\"? Who's that?"
 			tasks: [{
 				id: "4717CD0721804BAC"
 				item: "ae2:fluid_cell_housing"
@@ -428,6 +436,7 @@
 			id: "390E59F05132FCB8"
 			shape: "square"
 			size: 0.75d
+			subtitle: "Chemistry-heads rejoice!"
 			tasks: [{
 				id: "652CFAE1FA60F3E2"
 				item: "gtceu:hv_chemical_reactor"
@@ -489,6 +498,7 @@
 			icon: "gtceu:titanium_tetrachloride_bucket"
 			id: "727075AAF9F91FAE"
 			size: 0.75d
+			subtitle: "Nope, still not Titanium"
 			tasks: [{
 				id: "334DB53CC12726B0"
 				item: "gtceu:titanium_tetrachloride_bucket"
@@ -565,6 +575,7 @@
 			id: "7FA0ACB7F161F378"
 			shape: "gear"
 			size: 1.2d
+			subtitle: "Titanite Slab"
 			tasks: [{
 				id: "6D3E269567F419DE"
 				item: "gtceu:titanium_ingot"
@@ -581,7 +592,7 @@
 				""
 				"You already know the drill from the Chemical Bath, so let's get right to the chase."
 				"{@pagebreak}"
-				"Install an &aItem Tag Filter&r Cover on the &3Input Bus&r of your &3Vacuum Freezer&r, open it and set to whitelist &e&lingots/hot&r. The slot is to &dtest&r items to make sure you configured the Filter properly in case you forgot. Drag ingots from JEI!"
+				"Install an &aItem Tag Filter&r Cover on the &3Input Bus&r of your &3Vacuum Freezer&r, open it and set to whitelist &e&lhot_ingots&r. The slot is to &dtest&r items to make sure you configured the Filter properly in case you forgot. Drag ingots from JEI!"
 				""
 				"From here, you now have the option to route either with &9Item Pipes&r or &9AE2&r."
 				"{@pagebreak}"
@@ -598,6 +609,7 @@
 			id: "717099CE2CB9A0ED"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "Can we get much smarter? Apparently so"
 			tasks: [{
 				id: "497959F0CC572A68"
 				item: "gtceu:item_tag_filter"
@@ -697,6 +709,7 @@
 				type: "command"
 			}]
 			size: 0.75d
+			subtitle: "...but not the end of your playthrough"
 			tasks: [{
 				count: 12L
 				id: "30A89DD2A22EE314"
@@ -722,6 +735,7 @@
 			icon: "gtceu:micro_processor_mainframe"
 			id: "14D277A164202FF8"
 			size: 0.75d
+			subtitle: "Whoah, what a unique... texture"
 			tasks: [{
 				id: "71E3128BA0CAC113"
 				item: "gtceu:micro_processor_mainframe"
@@ -802,6 +816,7 @@
 			id: "2124BF15006733D5"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "Fluids just got easier"
 			tasks: [{
 				id: "1ED12D379EEE0CBA"
 				item: "gtceu:prospector.hv"
@@ -898,6 +913,7 @@
 			id: "56E7A3A0CC690C8A"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "Click this link for free Nitro"
 			tasks: [{
 				id: "2A28EC2D53F6AF99"
 				item: "gtceu:nitrobenzene_bucket"
@@ -934,10 +950,13 @@
 				""
 				"Keep in mind Maintenance hatches are not sharable."
 			]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
 			icon: "gtceu:large_chemical_reactor"
 			id: "528CE69DA4358B2E"
 			shape: "gear"
 			size: 1.3d
+			subtitle: "The Magic Box to end all Magic Boxes"
 			tasks: [
 				{
 					id: "4738F666E22B212B"
@@ -966,21 +985,22 @@
 				"6A304E453D74C57C"
 			]
 			description: [
-				"&cTNT&r (Trinitrotoluene) can't be prepared with the usual Gunpowder and Sand anymore. Instead, you'll have to produce &aGelled Toluene&r and react it with Sulfuric Acid to make TNT."
+				"&cTNT&r (Trinitrotoluene, to be pedantic) can't be prepared with the usual \"Gunpowder and Sand\" routine anymore. Instead, you'll have to produce &aGelled Toluene&r and react it with Sulfuric Acid to make TNT."
 				""
 				"Using the &3HV Chemical Reactor&r recipe will double the yield of &aGelled Toluene&r at the cost of requiring additional inputs."
 				"{@pagebreak}"
-				"We don't have any easy tips to give you for &aToluene&r. It's going to be tricky no matter which route you take."
+				"We don't have any easy tips to give you for &aToluene&r. We regret to inform you that making TNT is going to be tricky no matter which route you take."
 				""
 				"That being said, don't miss out on the direct &aHeavy Fuel&r to &aToluene&r recipe in the single block &3Distillery&r."
 				""
 				"&aToluene&r can also optionally be used in &5EV&r to make &dGasoline&r."
 				""
-				"&cTNT&r is used in the &3Implosion Compressor&r to make Gems. It also blows stuff up."
+				"&cTNT&r is used in the &3Implosion Compressor&r to make Gems. It also blows stuff (and your friends) up."
 			]
 			icon: "minecraft:tnt"
 			id: "2B7B214EDE0B45A2"
 			size: 0.75d
+			subtitle: "An explosive discovery"
 			tasks: [
 				{
 					id: "1CB85F57BA45252D"
@@ -1007,6 +1027,7 @@
 			icon: "minecraft:blaze_powder"
 			id: "16E3465CF94E2BDD"
 			size: 0.75d
+			subtitle: "Took a while to get some of this, right?"
 			tasks: [{
 				count: 12L
 				id: "00CC416ACB6CA99F"
@@ -1032,6 +1053,7 @@
 			icon: "minecraft:ender_pearl"
 			id: "4024C831C77101CA"
 			size: 0.75d
+			subtitle: "Darn \"artificial gating\""
 			tasks: [
 				{
 					id: "3DC62CA60F006A06"
@@ -1098,6 +1120,7 @@
 			icon: "gtceu:implosion_compressor"
 			id: "1137D2BA7E03D685"
 			size: 0.75d
+			subtitle: "Controlled GregTech Explosion"
 			tasks: [{
 				id: "52E617BBF3718471"
 				item: "gtceu:implosion_compressor"
@@ -1284,6 +1307,7 @@
 			id: "4343746E706264E6"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "The Nectar of the Gods"
 			tasks: [{
 				id: "54C9440D952AD14D"
 				item: "gtceu:ammonia_bucket"
@@ -1304,6 +1328,7 @@
 			id: "4B4F53FB33DE1C62"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "Modern-day Icarus"
 			tasks: [{
 				id: "6E9FE61644EE53AB"
 				item: "better_angel_ring:angel_ring"
@@ -1324,6 +1349,7 @@
 			id: "1011551290D3D7EA"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "Goodbye, cruel Overworld"
 			tasks: [{
 				id: "19CC2402A14AE77C"
 				item: "javd:portal_block"

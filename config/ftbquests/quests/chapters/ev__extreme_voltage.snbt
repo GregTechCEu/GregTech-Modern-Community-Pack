@@ -146,6 +146,7 @@
 			id: "0F539EC8D2361791"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "Gassed Up"
 			tasks: [{
 				id: "7243C47692B04E81"
 				item: "gtceu:gas_large_turbine"
@@ -209,8 +210,6 @@
 				""
 				"The &3LCE&r is also void-free, unlike Large Turbines. Any energy that cannot be output will momentarily pause the multiblock."
 				"{@pagebreak}"
-				"&9Note:&r This Quest requires &eany&r task to be completed, but you should still need all the parts."
-				""
 				"To harness the 6144 EU/t Power output, you will need a &34A EV Dynamo Hatch&r or an &3IV Dynamo Hatch&r."
 			]
 			icon: "gtceu:large_combustion_engine"
@@ -230,7 +229,7 @@
 				}
 			]
 			title: "Large Combustion"
-			x: 3.375d
+			x: 2.25d
 			y: 1.125d
 		}
 		{
@@ -271,7 +270,9 @@
 			dependencies: [
 				"330BDB559A7BAB35"
 				"41D32C5178760F47"
+				"57D4E09A9CAB150C"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"How do you get Platinum?"
 				""
@@ -315,7 +316,7 @@
 				""
 				"Ores are mined as if they were &amacerated&r, but they yield &6three times&r as many &dCrushed ores&r."
 				""
-				"You will need to have automated &aDrilling Fluid&r to run this."
+				"You will need to ensure that &aDrilling Fluid&r is fully automated before you run this."
 				""
 				"You might also want to use a &3Quantum Tunnel&r from AE2 and &3GTEU P2P Tunnels&r to transfer the items and to power it up."
 				"{@pagebreak}"
@@ -381,7 +382,7 @@
 				}
 			]
 			title: "Extreme Batteries"
-			x: 4.5d
+			x: 3.375d
 			y: 1.125d
 		}
 		{
@@ -497,6 +498,7 @@
 			icon: "gtceu:tungsten_ingot"
 			id: "0B25A282F677744B"
 			size: 0.75d
+			subtitle: "Wolfram Alpha"
 			tasks: [{
 				id: "5D897ADB4F7D9920"
 				item: "gtceu:tungsten_ingot"
@@ -558,24 +560,29 @@
 				"7A55CC71442CC854"
 				"478B0D55369C0F7F"
 				"6B08799BCFD01D3D"
-				"30A6EDDF25A5E5F8"
+				"2F9D9AAB27E6534D"
+				"3856DBCCAA6D2A58"
 			]
 			description: [
-				"&aTungstensteel Coils&r raise the Heat Capacity to a scorching &d4,500K&r."
+				"&aRTM Alloy Coils&r raise the Heat Capacity to a scorching &d4,500K&r."
 				""
 				"These will be required in &9IV&r, but as always, you should still get them earlier for the &6Coil bonuses&r."
+				""
+				"&l&3Lore:&r&o These coils used to be Tungstensteel Coils. This however made most of the EV tier very easy to skip over and postpone to IV, so they were changed to the new RTM Alloy. GTNH was the first to make this change, and used TPV Alloy instead, made from Titanium, Platinum, and Vanadium."
+				""
+				"&o&7Which coil do you prefer?"
 			]
-			icon: "gtceu:tungstensteel_coil_block"
+			icon: "gtceu:rtm_alloy_coil_block"
 			id: "069FD86133D7D582"
 			size: 0.75d
-			subtitle: "Wow, that's hot :flushed:"
+			subtitle: "What happened to my Tungstensteel!?"
 			tasks: [{
 				count: 16L
 				id: "16A26A909A8CE527"
-				item: "gtceu:tungstensteel_coil_block"
+				item: "gtceu:rtm_alloy_coil_block"
 				type: "item"
 			}]
-			title: "Tungstensteel Coils"
+			title: "RTM Alloy Coils"
 			x: 9.0d
 			y: 2.25d
 		}
@@ -642,6 +649,7 @@
 				"{@pagebreak}"
 				"&l&3Lore:&r&o In GT5u, players can construct another multiblock - the Large Heat Exchanger. It's also constructed with titanium, but produced Superheated Steam from hot IC2 coolant, or lava. This was a much better than regular steam, and was actually viable! This might make its way to CEu in the future."
 			]
+			icon: "gtceu:titanium_large_boiler"
 			id: "249FA99AADAC3710"
 			shape: "rsquare"
 			size: 0.66d
@@ -681,6 +689,7 @@
 			id: "26575D4FEB3D3F62"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "Wait, no, don't leave!"
 			tasks: [
 				{
 					id: "0D12376158C00640"
@@ -755,12 +764,13 @@
 			]
 			id: "7B23AF5B6B62BC19"
 			size: 0.75d
+			subtitle: "Avarice and hedonism in a single block"
 			tasks: [{
 				id: "4EC5F44332F7533B"
 				item: "gtceu:ev_macerator"
 				type: "item"
 			}]
-			title: "Even more byproducts"
+			title: "Even More Byproducts"
 			x: 5.625d
 			y: 6.75d
 		}
@@ -802,6 +812,7 @@
 			id: "7D15EEE81B1A3100"
 			shape: "square"
 			size: 0.75d
+			subtitle: "Chemistry gets even harder"
 			tasks: [{
 				id: "0AF5929611BCDF2C"
 				item: "gtceu:ev_chemical_reactor"
@@ -865,6 +876,7 @@
 			]
 			id: "196FC518F744B983"
 			size: 0.75d
+			subtitle: "The Pinnacle... the Zenith"
 			tasks: [{
 				id: "028DC1BC1D3E1381"
 				item: "gtceu:nano_processor"
@@ -908,6 +920,7 @@
 			id: "6781213726919716"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "Where's the Chip on System?"
 			tasks: [{
 				id: "29BA6B4E01C4AFB6"
 				item: "gtceu:soc"
@@ -947,6 +960,7 @@
 			description: ["Entering &1IV&r with these Circuits shouldn't be too painful."]
 			id: "5CC9B0E832545569"
 			size: 0.75d
+			subtitle: "Set sail, IV is on the horizon"
 			tasks: [{
 				id: "2E0E4FF63368E44C"
 				item: "gtceu:nano_processor_computer"
@@ -981,6 +995,7 @@
 			description: ["Save two of these for the &3IV Circuit Assembler&r."]
 			id: "58BBD540D7D4FF01"
 			size: 0.75d
+			subtitle: "I LuV GregTech"
 			tasks: [{
 				id: "40A35927E6D7848D"
 				item: "gtceu:nano_processor_mainframe"
@@ -999,6 +1014,7 @@
 			id: "4A96337843BAC13A"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "Power Creep"
 			tasks: [{
 				id: "478E2D7B59664F86"
 				item: "gtceu:uranium_triplatinum_double_wire"
@@ -1027,6 +1043,7 @@
 			id: "23A7E6D95549B1F8"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "Ender? I ha- Ok, this joke is old"
 			tasks: [{
 				id: "5FBC61FAAD7AA1D8"
 				item: "gtceu:ender_fluid_link_cover"
@@ -1076,6 +1093,7 @@
 			icon: "ae2:quantum_link"
 			id: "46C7E1D5E37B1ED2"
 			size: 0.75d
+			subtitle: "[-h^2/2m∇^2 + V(x,t)]ψ(x,t) = iht'ψ(x,t)"
 			tasks: [
 				{
 					count: 2L
@@ -1247,6 +1265,7 @@
 			id: "1F571B9E1555DA04"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "Putting the \"Epic\" in \"Epichlorohydrin\""
 			tasks: [{
 				id: "45620325962A91D0"
 				item: "gtceu:epichlorohydrin_bucket"
@@ -1284,6 +1303,7 @@
 			id: "4CD9F6D1B4CC7D81"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "But that's just how I Phenol"
 			tasks: [{
 				id: "5F713348547742D9"
 				item: "gtceu:phenol_bucket"
@@ -1425,6 +1445,7 @@
 			id: "046B4A0B2639B16A"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "Fetch me my Draconium!"
 			tasks: [{
 				id: "5C03BCF778B6293A"
 				item: "gtceu:high_octane_gasoline_bucket"
@@ -1526,6 +1547,7 @@
 			id: "6D12CE80F92FC485"
 			shape: "circle"
 			size: 0.66d
+			subtitle: "You won't find it here"
 			tasks: [{
 				id: "5C8340E344B1EA59"
 				type: "checkmark"
@@ -1738,6 +1760,7 @@
 			id: "6FEF59B8F571359D"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "I never liked them anyway..."
 			tasks: [{
 				id: "35CAC76B502E12FF"
 				item: {
@@ -1776,6 +1799,7 @@
 			id: "6BB13E775A579F2E"
 			shape: "rsquare"
 			size: 0.66d
+			subtitle: "One-To-Many, Many-To-One"
 			tasks: [{
 				id: "3B898812B1C35440"
 				item: {
@@ -1808,6 +1832,102 @@
 			title: "Multiple Fluid Hatches"
 			x: 6.75d
 			y: 5.625d
+		}
+		{
+			dependencies: [
+				"64CACABB48635904"
+				"5BACED5AE350EAB1"
+			]
+			description: [
+				"The &aPlatinum Group Metals&r are six rare metals with useful catalytic properties. They are &3Ruthenium&r, &dRhodium&r, &7Palladium&r, &9Osmium&r, &bIridium&r, and &ePlatinum&r."
+				""
+				"You will need to &4automate&r this entire process, as every single one of these metals will be used extensively in the late game."
+				"{@pagebreak}"
+				"To begin, treat various PGM-bearing &aPurified Crushed Ores&r with &dNitric Acid&r to produce &aPlatinum Group Sludge&r."
+				""
+				"Then, centrifuge it with &dAqua Regia&r to produce the various PGM salts."
+				""
+				"&dChlorine&r can be perfectly recycled from the &eRaw Platinum Powder&r."
+				""
+				"&dNitric Acid&r is &osort of&r recycled from &7Raw Palladium Powder&r through &dAmmonia&r, though we'd recommend keeping the excess Ammonia for other uses (Rocket Fuel and PBI)."
+				""
+				"The other PGM salts have their own special mini-chain associated to them - more on this in the next quests."
+				"{@pagebreak}"
+				"&9Note:&r &ePlatinum&r and &7Palladium&r can also be obtained from The End or through normal Ore Processing."
+				""
+				"&l&3Lore:&r&o Heard of the infamous \"Platline\" from either Gregicality or GregTech: New Horizons? The extremely daunting chain was added in GT:NH through Bartworks. The concept is amazing, but we had to tune it down significantly to make entering late game in GTCEu much smoother."
+			]
+			icon: "gtceu:platinum_group_sludge_dust"
+			id: "57D4E09A9CAB150C"
+			size: 0.75d
+			subtitle: "Platline in 50 hours"
+			tasks: [{
+				id: "7A55DBCFDA2131AD"
+				item: "gtceu:platinum_group_sludge_dust"
+				type: "item"
+			}]
+			title: "Platinum Group Processing"
+			x: 4.5d
+			y: 1.125d
+		}
+		{
+			dependencies: [
+				"57D4E09A9CAB150C"
+				"528CE69DA4358B2E"
+				"5DBBD9B1F5B01F4E"
+			]
+			description: [
+				"This part of the chain starts with &aInert Metal Mixture&r."
+				""
+				"&dSulfuric Acid&r can be perfectly recycled. You will produce excess &dOxygen&r and &dHydrogen&r that can be stored."
+				""
+				"&aRhodium&r and &aRuthenium&r are gatekeepers to &9IV&r and &dLuV&r respectively. If you automate them now, you won't need to do it later!"
+			]
+			hide_dependency_lines: false
+			icon: "gtceu:ruthenium_ingot"
+			id: "2F9D9AAB27E6534D"
+			size: 0.75d
+			subtitle: "Ru-Rho, Rhaggy"
+			tasks: [
+				{
+					id: "2A321C86ED69AA1A"
+					item: "gtceu:inert_metal_mixture_dust"
+					type: "item"
+				}
+				{
+					id: "27FC363C81A1A8C2"
+					item: "gtceu:ruthenium_dust"
+					type: "item"
+				}
+				{
+					id: "087DC7E9E964176C"
+					item: "gtceu:rhodium_dust"
+					type: "item"
+				}
+			]
+			title: "Ruthenium and Rhodium"
+			x: 7.875d
+			y: 1.125d
+		}
+		{
+			dependencies: ["2F9D9AAB27E6534D"]
+			description: [
+				"A quick note on &aIridium&r and &aOsmium&r. "
+				""
+				"You can technically obtain these materials now, but you should wait until you reach &9IV&r tier. Producing these materials takes a lot of power, and you won't be able to smelt them into ingots until &9IV&r anyway."
+			]
+			icon: "gtceu:iridium_dust"
+			id: "28ED66F775111A17"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Hold your fire just for now"
+			tasks: [{
+				id: "3680AE17E8BA3E4E"
+				type: "checkmark"
+			}]
+			title: "Iridium, Osmium, and EV"
+			x: 6.75d
+			y: 1.125d
 		}
 	]
 	subtitle: ["Improve your infrastructure and parallelise your setups"]
