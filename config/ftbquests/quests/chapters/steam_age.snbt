@@ -1095,19 +1095,31 @@
 			description: ["Invar has &650% more durability&r when used in GregTech tools compared to Iron (yes, that is the same as &aWrought Iron&r), and comes with inherent &bEfficiency I&r. Great for mining - you might want to consider using this in your tools if you &5haven't unlocked&r Steel."]
 			id: "76F61E499780C30B"
 			rewards: [{
-				id: "1676C6078C5910CE"
+				id: "15C0F36A7E35F7A6"
 				item: {
 					Count: 1b
 					id: "gtceu:invar_mining_hammer"
 					tag: {
-						Damage: 0
+						DisallowContainerItem: 0b
 						Enchantments: [{
 							id: "minecraft:efficiency"
 							lvl: 1s
 						}]
+						GT.Behaviours: {
+							AoEColumn: 1
+							AoELayer: 0
+							AoERow: 1
+							MaxAoEColumn: 1
+							MaxAoELayer: 0
+							MaxAoERow: 1
+						}
 						GT.Tool: {
 							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 1151
+							ToolSpeed: 5.6f
 						}
+						HideFlags: 2
 					}
 				}
 				type: "item"
