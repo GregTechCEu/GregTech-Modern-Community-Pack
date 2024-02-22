@@ -114,11 +114,11 @@ hash = "d7eb0cb4c3240e8d43648ecc2688ee61ff5a3b57a82e43979be85f3845013cdf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/luv__ludicrous_voltage.snbt"
-hash = "8c7bbe4fa584e75e08b2e9f45175a00bbcb744eceba1d71bcda0432fbc5635d5"
+hash = "ff708c114134e49ac09cb2216a098da8ba599922a317d01de0e8d7169172bbc5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv__low_voltage.snbt"
-hash = "80b9f8690ea3ba16d922f6413b628258ec5a2688b04e1e8823e022e634319917"
+hash = "8e30937856ec8fb7955cc46e4a80288ee010f5778eebdf39ccacb35aa94d445d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblock_dilemma.snbt"
@@ -134,7 +134,7 @@ hash = "a86dadc7476295792662f61d6b441dce1ea03a89b889734af74664b7397dc79a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/progression.snbt"
-hash = "47e88e7a8d0c748f0e37daea33671095265cc3e6c1c7b5273cc6102dae489b79"
+hash = "bfc72afbb8f085eae524df1557fd584bb2268383ea6c7b8d1733e4244a57fc2a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/steam_age.snbt"
@@ -179,6 +179,14 @@ hash = "5461e6a5d55833ac4e7c4147a41661fa77ae4b921e7beae7f1d307416a7c517a"
 [[files]]
 file = "config/inventoryessentials-common.toml"
 hash = "2696133bf8a18d3811868bbbc8bba93a3d79dda3aadeaa81ed78984b0538833b"
+
+[[files]]
+file = "config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json"
+hash = "ca413dea02cce69c69dccdc525fb0ec013236876eff2d142772c68db3d772d3a"
+
+[[files]]
+file = "config/inventoryprofilesnext/inventoryprofiles.json"
+hash = "1e9b3951bb8860fa39e43ca4fb4762ba88e6abd647814ad4b94768ea6776a6d6"
 
 [[files]]
 file = "config/inventorysorter-client.toml"
@@ -354,7 +362,7 @@ hash = "9e5046ac0b9f6d27945b689657835bff24310aec7b11f7461c972b514d0e0658"
 
 [[files]]
 file = "defaultconfigs/sophisticatedbackpacks-server.toml"
-hash = "91a9ad910bb50d97676856edbdc0d3447c4e4feef4ae380f05723f50211ae2c8"
+hash = "7cf18b5c9343f3b86a0150951f01afd890420ea38ff1049870260fa7ad5eef82"
 
 [[files]]
 file = "kubejs/assets/ftbquests/textures/items/recipestudy/clay_overview.png"
@@ -367,6 +375,38 @@ hash = "b868233dffaff6cc39c38483c2e26cd7764287d16fa22b93154e456b12637f4d"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/greg_icon.png"
 hash = "7feb964f52bb75d57247d068c9b71db39fd6e4a59206382085cfb802f150fe74"
+
+[[files]]
+file = "kubejs/assets/sophisticatedbackpacks/lang/en_us.json"
+hash = "5b59e5067cd2d39c51dcf8e76e3c5b4b2d5ddfa3e453702464d5c56ed3c2f289"
+
+[[files]]
+file = "kubejs/assets/sophisticatedbackpacks/textures/block/copper_clips.png"
+hash = "8eb8512eef24ab42e2f6d472e113c2813dc890c3366a9c60717ae5fd68915086"
+
+[[files]]
+file = "kubejs/assets/sophisticatedbackpacks/textures/block/diamond_clips.png"
+hash = "ca999afdbf87d258fef6413658b6535a35a46f67f3747a8fcb994c535e27fc49"
+
+[[files]]
+file = "kubejs/assets/sophisticatedbackpacks/textures/block/gold_clips.png"
+hash = "0182317806107cb9f9baf67be430eda4a881e5b3ffb0f42676edf2730160e611"
+
+[[files]]
+file = "kubejs/assets/sophisticatedbackpacks/textures/block/iron_clips.png"
+hash = "1fe376279daea41d6e4e32a7781f51f671e10778201d297b75ad8ebf3f09878d"
+
+[[files]]
+file = "kubejs/assets/sophisticatedbackpacks/textures/block/leather_clips.png"
+hash = "507e35931caff57f9a9af727086dc1def66255a0bf1ebb231918e57ad1d13b09"
+
+[[files]]
+file = "kubejs/assets/sophisticatedbackpacks/textures/block/netherite_clips.png"
+hash = "c065b796f20c74d17770b301d60e6b0595c40334381903d1df987b42ccabb6e6"
+
+[[files]]
+file = "kubejs/assets/sophisticatedbackpacks/textures/entity/backpack.png"
+hash = "a3f24536d05bd0dd3e98ecbb9479806e0df26be7ad7595dca92c469a3f4cc035"
 
 [[files]]
 file = "kubejs/client_scripts/example.js"
@@ -394,7 +434,7 @@ hash = "6ce6ecdeec19fe783f40622f0e6aafa0222da4529cab99499b3520e65598045c"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/ae2.js"
-hash = "2ebc77e96fe47ac66de0af7715316b9fe026697ff7591e8a698a8b5868b6cd78"
+hash = "7cc070ed2c7466ad5d1f7185152c5685f2e93fe04a0b75c2835eada3d332065f"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/cables.js"
@@ -446,7 +486,7 @@ hash = "4a7d34021202b814ad578b2c217c6e4e893d232ef7e4cb4bd5ab793aec5a34ae"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/removals.js"
-hash = "72bee502356991cc10bf9ed8fb9dd213749e63671ef0b775b8db9b56920f0f98"
+hash = "e314925512773f259e666d14c60af9124121a400140914645401c7558ad89da0"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/storage_parts.js"
@@ -502,11 +542,11 @@ hash = "cb12aa7dfdceb9a7017aa51de2859f84a561f906dd39434e66329346cba0281e"
 
 [[files]]
 file = "kubejs/server_scripts/removals.js"
-hash = "2d279bca4ea7cd1435025cd206133a7b1a1eb8cb5b248cbeeee5225a2dd74d93"
+hash = "968450442f137a9afd5066fd50b488dfb88bd86cd619c5e22b5be75c362564fc"
 
 [[files]]
 file = "kubejs/server_scripts/sophisticated_backpacks/backpacks.js"
-hash = "a2a84a4db6cb29cbbd68e8a7a84f079a173aa4a84b8f621451c32cb9f6ab9206"
+hash = "a5e64fde318c02eba3e0958b578caf02a3d9055f6436e105d5be73843c1e329d"
 
 [[files]]
 file = "kubejs/server_scripts/sophisticated_backpacks/upgrades.js"
@@ -584,7 +624,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
-hash = "67adf512a1b219f400cca4a1954115eb09f352868b38299969a0e34fcd52dcfa"
+hash = "a966c2d3be76c854dcf6d30963ad7d495b5f8d87217431e441a652c3e4cdc92c"
 metafile = true
 
 [[files]]
@@ -659,12 +699,12 @@ metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "fb529895a347a9ee0827999259eac9ab2aab28dab9a3045ecd17166787a4a742"
+hash = "f7db01d61d3fd350bbd15da1d1ad91c05a7d747b8311005c02595f8d34470677"
 metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "2373c9f0ae56d4595ef16bc289cca49a095e324fb4a013ba4d36c041f7184289"
+hash = "44d71ce7b1833540fd263d72d5c82aeb6ad5da74157fe4f8c9c2c6bcf516a076"
 metafile = true
 
 [[files]]
@@ -763,8 +803,8 @@ hash = "b6f36cf3cb4231f16fa828d3d1a1a552769849b5d80efeeaa116713a61ebd20a"
 metafile = true
 
 [[files]]
-file = "mods/inventory-sorter.pw.toml"
-hash = "a709ef9491ad84dc838c11f305772dfe06de6eb1ec8550c3a2d410ff1503b08b"
+file = "mods/inventory-profiles-next.pw.toml"
+hash = "21964bfd2ab6c9afcdad8b2e5d873b3eeb65691d21913d21e1d6a36f4ec925db"
 metafile = true
 
 [[files]]
@@ -788,8 +828,18 @@ hash = "b9e82527f9d5d2152c4e095c00a3d0a30a29825479fd73e7e24a2634bde112be"
 metafile = true
 
 [[files]]
+file = "mods/kotlin-for-forge.pw.toml"
+hash = "826c59a1e607641acb85f1e23a2bb7183a2f0a9ccd19ea4f01bbc9d94d480acf"
+metafile = true
+
+[[files]]
 file = "mods/kubejs.pw.toml"
-hash = "b5d96b5c0efce6d8a3c53b2879846f294d403f6d8650054f53923bd39c228551"
+hash = "1c579abc5087a9fefa92484a76a2c9a7bef46ba14fb431d452aad806be15fd3a"
+metafile = true
+
+[[files]]
+file = "mods/libipn.pw.toml"
+hash = "e124c9b28a45af3d7f401f71d526b5e18cc5ec90b31208cd7f0f7555b0d17df1"
 metafile = true
 
 [[files]]
@@ -844,7 +894,7 @@ metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
-hash = "7a3bf97693ed052edf97f53e38a035244415b8fc0db346c8bac6efab2f457d94"
+hash = "f4f6d4a3ea0bb499b3f66fca415131701d6e039debca3548210f818f544358ea"
 metafile = true
 
 [[files]]
@@ -859,7 +909,7 @@ metafile = true
 
 [[files]]
 file = "mods/shimmer.pw.toml"
-hash = "9a315e55de5d44fd817c72eaf02c622a97e735f7395d25f4bc8d11c541a3a34f"
+hash = "735c14b511f9725c369f77fbf43cedc07bdb382f0bb9f072573a884f9135f54b"
 metafile = true
 
 [[files]]
@@ -869,12 +919,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "d93b370935b00d2460bc6a29d1e04af19606962524e5e9dae5eb2fc232f3711c"
+hash = "f6c7896e6fd5ea1d9f9334ca51d44020e4564eb62b6eb5ac684842703ca8fd17"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "0efaf17ef62391554f3f4fb43c2892df00006a0bb25d74c83891721340c821cb"
+hash = "04dfd3580332c4d67a86009b8c1a22db329d9c38bc45f8fce9514dde92e5cd35"
 metafile = true
 
 [[files]]
