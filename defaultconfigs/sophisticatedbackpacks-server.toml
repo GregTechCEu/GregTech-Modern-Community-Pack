@@ -29,6 +29,15 @@
 		#Range: 0 ~ 10
 		upgradeSlotCount = 1
 
+	#Copper Backpack Settings
+	[server.copperBackpack]
+		#Number of inventory slots in the backpack
+		#Range: 1 ~ 144
+		inventorySlotCount = 36
+		#Number of upgrade slots in the backpack
+		#Range: 0 ~ 10
+		upgradeSlotCount = 1
+
 	#Iron Backpack Settings
 	[server.ironBackpack]
 		#Number of inventory slots in the backpack
@@ -425,4 +434,3 @@
 		slownessLevelsPerAdditionalBackpack = 1.0
 		#Determines if active upgrades will only work in the backpack that's worn by the player. Active upgrades are for example magnet, pickup, cooking, feeding upgrades.
 		onlyWornBackpackTriggersUpgrades = false
-
