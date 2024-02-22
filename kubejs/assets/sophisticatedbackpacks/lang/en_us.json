@@ -1,0 +1,20 @@
+{
+  "block.sophisticatedbackpacks.backpack":"Wrought Iron Backpack",
+  "item.sophisticatedbackpacks.backpack":"Wrought Iron Backpack",
+  
+  "block.sophisticatedbackpacks.copper_backpack":"Bronze Backpack",
+  "item.sophisticatedbackpacks.copper_backpack":"Bronze Backpack",
+  
+  "block.sophisticatedbackpacks.iron_backpack":"Steel Backpack",
+  "item.sophisticatedbackpacks.iron_backpack":"Steel Backpack",
+  
+  "block.sophisticatedbackpacks.gold_backpack":"Aluminium Backpack",
+  "item.sophisticatedbackpacks.gold_backpack":"Aluminium Backpack",
+  
+  "block.sophisticatedbackpacks.diamond_backpack":"Stainless Steel Backpack",
+  "item.sophisticatedbackpacks.diamond_backpack":"Stainless Steel Backpack",
+
+
+  "block.sophisticatedbackpacks.netherite_backpack":"Titanium Backpack",
+  "item.sophisticatedbackpacks.netherite_backpack":"Titanium Backpack"
+}
