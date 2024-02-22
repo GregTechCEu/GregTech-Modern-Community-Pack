@@ -619,7 +619,7 @@
 				"77B7B1EDD19831E0"
 				"46C7E1D5E37B1ED2"
 			]
-			description: ["The &aWireless Connector&r is an upgrade to the &9Quantum Link Tunnel&r, giving &9Wireless Terminals&r access to your AE system with unlimited range, and from any dimension."]
+			description: ["The &aWireless Connector&r will help with logistics, giving &9Wireless Transfer&r for your ME Network with unlimited range. The energy cost scales exponentially with transfer distance."]
 			id: "7E2076D45F83D9C3"
 			shape: "rsquare"
 			size: 0.66d
@@ -629,7 +629,7 @@
 				item: "expatternprovider:wireless_connect"
 				type: "item"
 			}]
-			title: "Infinite Wireless Range"
+			title: "Wireless Range"
 			x: 3.375d
 			y: 4.5d
 		}
