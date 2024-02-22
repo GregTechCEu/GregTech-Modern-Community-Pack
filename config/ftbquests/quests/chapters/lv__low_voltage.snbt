@@ -1708,6 +1708,13 @@
 				"&6-&r ME Chest"
 				"{@pagebreak}"
 				"&9Note:&r This pack includes &5Fluix Crystals&r, but they are generated as a GT material, rather than the default AE2 Fluix Crystals. To get them, put &dFluix Dust&r in the &aAutoclave&r, which is made from &7Certus Quartz Dust&r, &eNether Quartz Dust&o&r and &cRedstone&r in a &aMixer&r. No need to charge the Certus Quartz. It gets... charged in the Mixer... or something like that."
+				"{@pagebreak}"
+				"Additionally - a &6warning&r. Clicking on the Guide button in Applied Energistics 2 machine GUIs will most likely &ccrash your game&r due to an incompatibility with &eStarlight&r. If you're looking for guides on &bApplied Energistics 2&r, more information can be found:"
+				""
+				"The official &dApplied Energistics 2&r website: &9https://appliedenergistics.org/guides&r"
+				""
+				"An &binstructionary video&r made by &aPansmith&r, which covers Applied Energistics 2 on &6Minecraft 1.12.2&r. The fundamentals are still near-identical, however."
+				"&9https://www.youtube.com/watch?v=u0ouTWgdcXk&r"
 			]
 			id: "0E72017800A9766C"
 			rewards: [{
