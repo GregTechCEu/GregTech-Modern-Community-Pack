@@ -1546,7 +1546,7 @@
 				""
 				"Be sure to check out the &3Destruction Gadget&r and the &3Copy Paste Gadget&r."
 				""
-				"Charge this in the charger slot of any GregTech machine."
+				"You &6should&r be able to charge this in the charger slot of any &bGregTech machine&r, but unfortunately, this is currently &cbugged&r. Have a look at the &dTurbo Charger&r quest in the top-right of this page if you want to charge this."
 			]
 			id: "0DAD0A6360448B39"
 			rewards: [{
