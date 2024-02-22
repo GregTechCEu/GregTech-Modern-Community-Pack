@@ -6,7 +6,6 @@ ServerEvents.recipes((event) => {
     event.remove({ output: itemName });
     event.remove({ input: itemName });
   };
-  event.remove({ type: "ae2:transform" });
   event.remove({ type: "ae2:entropy" });
   event.remove({ type: "ae2:charger" });
   event.remove({ type: "ae2:inscriber" });

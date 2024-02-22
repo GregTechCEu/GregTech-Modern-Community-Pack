@@ -322,8 +322,10 @@ ServerEvents.recipes((event) => {
     .duration(200)
     .EUt(24);
 
-  greg.lathe("fluix_lathing")
-  .itemInputs("ae2:fluix_crystal")
-  .itemOutputs("gtceu:fluix_rod")
-  .duration(200).EUt(8)
+  greg
+    .lathe("fluix_lathing")
+    .itemInputs("ae2:fluix_crystal")
+    .itemOutputs("gtceu:fluix_rod")
+    .duration(200)
+    .EUt(8);
 });
