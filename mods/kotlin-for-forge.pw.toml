@@ -1,0 +1,13 @@
+name = "Kotlin for Forge"
+filename = "kotlinforforge-4.10.0-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5981310618ebe818177bb2a703f8a7fb01bc8efc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4983659
+project-id = 351264

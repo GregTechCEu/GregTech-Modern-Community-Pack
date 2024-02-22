@@ -1,0 +1,13 @@
+name = "libIPN"
+filename = "libIPN-forge-1.20-4.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b3e9a4dc275ce8ee78321a1b9611ed93253bc6d1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4870127
+project-id = 679177
