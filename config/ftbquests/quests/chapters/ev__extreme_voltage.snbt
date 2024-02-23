@@ -157,10 +157,7 @@
 			y: 3.375d
 		}
 		{
-			dependencies: [
-				"30A6EDDF25A5E5F8"
-				"7A55CC71442CC854"
-			]
+			dependencies: ["7A55CC71442CC854"]
 			description: [
 				"New Cutting Machine? &a✓&r"
 				""
