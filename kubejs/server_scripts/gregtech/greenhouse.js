@@ -26,14 +26,7 @@ ServerEvents.recipes((event) => {
     ["minecraft:nether_wart", "minecraft:nether_wart", 12],
     ["minecraft:bamboo", "minecraft:bamboo", 16],
   ];
-
-  event.shaped("gtceu:greenhouse", ["GGG", "CHC", "PUP"], {
-    G: "gtceu:tempered_glass",
-    C: "#gtceu:circuits/mv",
-    H: "gtceu:mv_machine_hull",
-    P: "gtceu:mv_electric_piston",
-    U: "gtceu:mv_electric_pump",
-  });
+  
   trees.forEach((woodType) => {
     greg
       .greenhouse(woodType[0])
