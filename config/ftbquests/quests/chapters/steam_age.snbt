@@ -1490,6 +1490,10 @@
 				"Backpacks scale alongside &aPortable Cell&r tiering, with modular upgrades that can be inserted to provide new &dBackpack functionalities&r."
 				""
 				"Before you reach &7LV&r, the upgrade options are &cquite limited&r. However, you should be able to upgrade the starter backpack &eonce&r before you make your first electric machine!"
+				"{@pagebreak}"
+				"Just so you know - backpacks have been configured and will &cnot&r interact with a connected &bStorage Bus&r. If you want the power of digital storage, you'll have to work for it!"
+				""
+				"Oh, and holding one too many backpacks will &6slow you down&r."
 			]
 			icon: "sophisticatedbackpacks:backpack"
 			id: "5E89BDA8943534AF"
