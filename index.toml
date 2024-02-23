@@ -49,6 +49,10 @@ file = "config/curios-client.toml"
 hash = "9c0985b85e67e704a3640d028186dc0b220fa69404b9555244add55eaf5d4794"
 
 [[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "30b404e7b7dd5bca82b5452fe5cfe55e160fb7b1740bab94ba85018141746c0a"
+
+[[files]]
 file = "config/expatternprovider-common.toml"
 hash = "14ef0bbe6e5eeb3be38eb0cc02dcf7390343df816df23d01e032311298911464"
 
@@ -106,7 +110,7 @@ hash = "361146f955ecfb471443eb6f464f3f7f0360dcde9b85d5e18097e700fc55c80c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv__high_voltage.snbt"
-hash = "85ad40befecd5d5e171748f383bdb8cd45ba86430a044bf7d3c3baf4e7d00207"
+hash = "70e3f120d338b71db90d7e58075ccb4d2f47a2759a08e30552364bb718d49ed3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv__insane_voltage.snbt"
@@ -118,7 +122,7 @@ hash = "ff708c114134e49ac09cb2216a098da8ba599922a317d01de0e8d7169172bbc5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv__low_voltage.snbt"
-hash = "8e30937856ec8fb7955cc46e4a80288ee010f5778eebdf39ccacb35aa94d445d"
+hash = "96ea75774482c3c485ef82b966516a0a77865b52ba5638acbd77b75c9e031de7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblock_dilemma.snbt"
@@ -138,7 +142,7 @@ hash = "bfc72afbb8f085eae524df1557fd584bb2268383ea6c7b8d1733e4244a57fc2a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/steam_age.snbt"
-hash = "63edf9a86c1651ff223861680ecb251f90392b91951e6e6858a217b29e4ecc45"
+hash = "07713cdc58d3dae0a23f989167ce739291c4afb66e01857f19d9b0b46aff9ebf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks_2.snbt"
@@ -185,8 +189,12 @@ file = "config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.js
 hash = "ca413dea02cce69c69dccdc525fb0ec013236876eff2d142772c68db3d772d3a"
 
 [[files]]
+file = "config/inventoryprofilesnext/integrationHints/player-defined.json"
+hash = "57f84e86ccb662569f4fb2d85e728ec454c26af7214f5e145133a34980be2847"
+
+[[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
-hash = "1e9b3951bb8860fa39e43ca4fb4762ba88e6abd647814ad4b94768ea6776a6d6"
+hash = "931a431c8ab1613633e6000bb4ccca1a29558f877eb88ba9e2d2728ed0dcefab"
 
 [[files]]
 file = "config/inventorysorter-client.toml"
@@ -362,7 +370,7 @@ hash = "9e5046ac0b9f6d27945b689657835bff24310aec7b11f7461c972b514d0e0658"
 
 [[files]]
 file = "defaultconfigs/sophisticatedbackpacks-server.toml"
-hash = "7cf18b5c9343f3b86a0150951f01afd890420ea38ff1049870260fa7ad5eef82"
+hash = "16064257078b72734d0d52c8c85333f06d9f017bbaf6646c366f3803a510962d"
 
 [[files]]
 file = "kubejs/assets/ftbquests/textures/items/recipestudy/clay_overview.png"
@@ -370,7 +378,7 @@ hash = "f81e174e6dc95332d5434480210b0a4f6e9d08f8cdc89928317653fd00225d2d"
 
 [[files]]
 file = "kubejs/assets/gtceu/lang/en_us.json"
-hash = "b868233dffaff6cc39c38483c2e26cd7764287d16fa22b93154e456b12637f4d"
+hash = "25e2553126d265f172c796248a12c65e15565026edc83d035c21102d282c55c1"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/greg_icon.png"
@@ -409,16 +417,12 @@ file = "kubejs/assets/sophisticatedbackpacks/textures/entity/backpack.png"
 hash = "a3f24536d05bd0dd3e98ecbb9479806e0df26be7ad7595dca92c469a3f4cc035"
 
 [[files]]
-file = "kubejs/client_scripts/example.js"
-hash = "152019ed6e0410a82805a95ea10f1ad1a17beaf2b50864d89b8fa9d172129ac7"
-
-[[files]]
 file = "kubejs/client_scripts/jei_hidden.js"
 hash = "dd3951e38c6791116454de2b4390e43028e5d0eb59a6b43e72da3f89f5e4c0b1"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "0dcfefbad1c82cd4962c0161c60037e9cbcfa8f9ac35521da3f7f59490dcca53"
+hash = "ae040908fab2d58a9a9cf2f0f6cd44718c96554be06d357a7931484576c50bb7"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -497,6 +501,10 @@ file = "kubejs/server_scripts/appliedenergistics2/terminals.js"
 hash = "7588ffcb734f4ba3caecea9259dff93d4b66b4e7ebc1fe254645a6fb3fa3fa89"
 
 [[files]]
+file = "kubejs/server_scripts/architects_palette.js"
+hash = "eb90430a40b8404b2348bf7bdd4186ab9faaaff93d1a26f3284ff3a2a01e484c"
+
+[[files]]
 file = "kubejs/server_scripts/building_gadgets/gadgets.js"
 hash = "9a309f6c36b3232028bbdf9720098913bdf8faafe7372a14cc41217f9548cd65"
 
@@ -514,11 +522,15 @@ hash = "27e03a94b49b3d9373dc14c3dd763c01ae084260500ab525bec00171c047d57f"
 
 [[files]]
 file = "kubejs/server_scripts/gregtech/greenhouse.js"
-hash = "e7bacba0fcda43b530b8505ec467471577f915b073b56f7a62448fa33d1b37af"
+hash = "adae0e40013f2c6cecd213c106f0f3f7cdafc04edda8e3bf24ab5bb856f9d06e"
 
 [[files]]
 file = "kubejs/server_scripts/gregtech/inscriber.js"
 hash = "f145c934308bdc1ed48d30ec81ac0a686ed40d27d0c3d0a615f08f0e8c2e2975"
+
+[[files]]
+file = "kubejs/server_scripts/gregtech/machines.js"
+hash = "e533b6ba1ecf4b040a381378904cbaa71ca1071de3c7f000991c7cf08e91f71c"
 
 [[files]]
 file = "kubejs/server_scripts/gregtech/temporary_fixes.js"
@@ -593,6 +605,10 @@ file = "kubejs/server_scripts/vanilla/mob_drops.js"
 hash = "61cd02dea78ba9a592305f77581b2e043237a2a3a8a3baf3026b66617d266474"
 
 [[files]]
+file = "kubejs/server_scripts/xtones.js"
+hash = "6e22a8a969766e2dfdac6ca108643406a06a2835975a52d6be44ccf9873ffa94"
+
+[[files]]
 file = "kubejs/startup_scripts/components/hsla-steel.js"
 hash = "2df8bceaa0bcb871203b094c657461eb9b78cc4fc20d63d95388d2e1d0f95a2e"
 
@@ -601,12 +617,20 @@ file = "kubejs/startup_scripts/icons.js"
 hash = "509f876d9767bf536a5452021bef3dff8cf1d10345f2b4aba8d2df529763edbe"
 
 [[files]]
+file = "kubejs/startup_scripts/machinery/construction_core.js"
+hash = "fc81a75b152e2fdf89ffa3d82ed7de62b736689efc83d7447551db97dc597793"
+
+[[files]]
 file = "kubejs/startup_scripts/machinery/greenhouse.js"
 hash = "9e96db0992d5265e60b1a5f86b853222825b96593e05fa7c06b46617c9fe02e5"
 
 [[files]]
 file = "kubejs/startup_scripts/material_testing/material.js"
 hash = "1251ce19a3fb1d2b029c1cb2b1ed3020e07e514eaad8786b5a3c96e4a1e0713a"
+
+[[files]]
+file = "kubejs/startup_scripts/recipes/construction_core.js"
+hash = "b611e4931649648378da167b2cd2c4574614d4efec579959e2d1c87e995f04af"
 
 [[files]]
 file = "kubejs/startup_scripts/recipes/greenhouse.js"
@@ -625,6 +649,11 @@ metafile = true
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
 hash = "a966c2d3be76c854dcf6d30963ad7d495b5f8d87217431e441a652c3e4cdc92c"
+metafile = true
+
+[[files]]
+file = "mods/architects-palette.pw.toml"
+hash = "ea0e1047f953916c926acb92182c550ddfb93d1ac67b490a0d6b3f4627ba80aa"
 metafile = true
 
 [[files]]
@@ -698,13 +727,18 @@ hash = "36672819f67335f5cdd349f49faa27582d6f7f68955c2a3d0e62584b6d6735ee"
 metafile = true
 
 [[files]]
+file = "mods/default-options.pw.toml"
+hash = "1cb1ed842db59e479dc2b21cf8afb8eeb9ff4577d292e6b51ed8df98e24411d5"
+metafile = true
+
+[[files]]
 file = "mods/embeddium.pw.toml"
-hash = "f7db01d61d3fd350bbd15da1d1ad91c05a7d747b8311005c02595f8d34470677"
+hash = "6e3abb88c7b5bc23d371ada2a6078ac8d209355064b1d07badd27967630338cf"
 metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "44d71ce7b1833540fd263d72d5c82aeb6ad5da74157fe4f8c9c2c6bcf516a076"
+hash = "81421c0deada48cf87c48c6dfa27cb0a14c9cea6d700a740ee24aaed7f06cc8e"
 metafile = true
 
 [[files]]
@@ -981,7 +1015,3 @@ metafile = true
 file = "mods/yeetusexperimentus.pw.toml"
 hash = "cc9ecde0ae976a3ddb83540500de206c9a9694ddf66b9b8fdcba38cfe23be293"
 metafile = true
-
-[[files]]
-file = "options.txt"
-hash = "9ad020d960364a18e37ebb61dbe96fb2ead8c450983ad7af7f67a6c078decc3e"
