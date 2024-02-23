@@ -1718,9 +1718,12 @@
 			]
 			id: "0E72017800A9766C"
 			rewards: [{
-				count: 16
-				id: "6511637BCAB0EC18"
-				item: "gtceu:certus_quartz_gem"
+				id: "73455D7AB7929E27"
+				item: {
+					Count: 1b
+					id: "ae2:item_storage_cell_1k"
+					tag: { }
+				}
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -2092,6 +2095,32 @@
 			title: "At The Speed Of Light"
 			x: 7.875d
 			y: 1.125d
+		}
+		{
+			dependencies: ["46AD7A6F3B6775F5"]
+			description: [
+				"If you're a builder, &bweep no more&r - this custom multiblock, freshly made with the powers of &dKubeJS&r, is made for you."
+				""
+				"By providing the multiblock with a near-negligible amount of &6Construction Foam&r, you'll gain access to increased yields of many different &bbuilding blocks&r to spice up your base."
+				""
+				"Don't go too crazy!"
+				""
+				"&8(Crazy? I was crazy once!)&r"
+			]
+			hide_dependency_lines: false
+			icon: "gtceu:construction_core"
+			id: "11989C3388C969DF"
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "If you build it, they will come"
+			tasks: [{
+				id: "5635E327260121C3"
+				item: "gtceu:construction_core"
+				type: "item"
+			}]
+			title: "Building Resources"
+			x: 8.91d
+			y: 1.65d
 		}
 	]
 	subtitle: ["Tame electricity and make your first machines"]
