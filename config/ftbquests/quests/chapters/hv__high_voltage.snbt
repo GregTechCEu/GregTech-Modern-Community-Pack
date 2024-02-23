@@ -783,15 +783,26 @@
 					type: "item"
 				}
 				{
-					count: 40L
-					id: "18AECBFB42064D4E"
-					item: "gtceu:plascrete"
-					type: "item"
-				}
-				{
-					count: 10L
-					id: "4DA87A845076183A"
-					item: "gtceu:cleanroom_glass"
+					count: 50L
+					id: "73EB2C49B40116E2"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:cleanroom_glass"
+								}
+								{
+									Count: 1b
+									id: "gtceu:plascrete"
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "Plascrete or Cleanroom Glass"
 					type: "item"
 				}
 			]
@@ -894,7 +905,7 @@
 			y: 0.375d
 		}
 		{
-			dependencies: ["04F6E968CEEC3D49"]
+			dependencies: ["5BACED5AE350EAB1"]
 			description: [
 				"Making &aNitrobenzene&r will boost the energy efficiency of &aBenzene&r roughly &6fourfold&r. You love to see it."
 				""
