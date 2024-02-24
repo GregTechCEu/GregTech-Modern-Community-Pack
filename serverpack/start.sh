@@ -29,6 +29,6 @@ if [ ! -f packwiz-installer-bootstrap.jar ]; then
     curl -OJL https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar
 fi
 
-java -jar packwiz-installer-bootstrap.jar -g -s server https://raw.githubusercontent.com/TacoMonkey11/GregTech-Modern-Community-Pack/fix-git-again/pack.toml
+java -jar packwiz-installer-bootstrap.jar -g -s server https://raw.githubusercontent.com/GregTechCEu/GregTech-Modern-Community-Pack/main/pack.toml
 
 java @user_jvm_args.txt @libraries/net/neoforged/forge/$FORGE_VERSION/unix_args.txt nogui
