@@ -11,7 +11,7 @@ fi
 # Function to download with either curl or wget
 download() {
     if command -v curl >/dev/null 2>&1; then
-        curl -OJ "$1"
+        curl -OJL "$1"
     elif command -v wget >/dev/null 2>&1; then
         wget "$1"
     else
