@@ -47,7 +47,7 @@ if (!(Test-Path "mods\findme-$FINDME_VERSION-forge.jar")) {
 
   $FINDME_ID = "rEuzehyH"
   $FINDME_QUERY = @{
-    versions = "[`"$GAME_VERSION`"]"
+    "game_versions" = "[`"$GAME_VERSION`"]"
     loaders = '["forge"]'
   }
 
