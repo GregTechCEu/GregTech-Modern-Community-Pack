@@ -30,7 +30,7 @@ fi
 # FindMe does not allow distribution on curseforge
 if [ ! -f mods/findme-3.1.1-forge.jar ]; then
     mkdir -p mods
-    download "https://mediafilez.forgecdn.net/files/4960/678/findme-3.1.1-forge.jar" -O mods/findme-3.1.1-forge.jar
+    download "https://mediafilez.forgecdn.net/files/5074/609/findme-3.2.1-forge.jar" -O mods/findme-3.2.1-forge.jar
 fi
 
 # Install packwiz if needed

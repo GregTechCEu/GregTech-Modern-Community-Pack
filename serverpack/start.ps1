@@ -1,6 +1,6 @@
 $GAME_VERSION = "1.20.1"
 $FORGE_VERSION = "1.20.1-47.1.84"
-$FINDME_VERSION = "3.1.0"
+$FINDME_VERSION = "3.2.1"
 
 $PACK_URI = "https://raw.githubusercontent.com/GregTechCEu/GregTech-Modern-Community-Pack/main/pack.toml"
 
