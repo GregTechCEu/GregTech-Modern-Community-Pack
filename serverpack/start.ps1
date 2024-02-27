@@ -1,6 +1,6 @@
 $GAME_VERSION = "1.20.1"
-$FORGE_VERSION = "1.20.1-47.1.84"
-$FINDME_VERSION = "3.2.1d"
+$FORGE_VERSION = "1.20.1-47.2.0"
+$FINDME_VERSION = "1.20.1-3.2.1d"
 
 $PACK_URI = "https://raw.githubusercontent.com/GregTechCEu/GregTech-Modern-Community-Pack/main/pack.toml"
 
@@ -8,33 +8,34 @@ $PACK_URI = "https://raw.githubusercontent.com/GregTechCEu/GregTech-Modern-Commu
 if (!(Get-Command java)) {
   Write-Host -ForegroundColor Red "Java 17, which is a requirement for Minecraft, was not detected on this system."
   Write-Host -ForegroundColor Green "On windows you can install it via the winget windows package manager by running:"
-  Write-Host -ForegroundColor Green "winget install -e --id EclipseAdoptium.Temurin.17.JRE"
+  Write-Host -ForegroundColor Green "winget install -e --id Microsoft.OpenJDK.17"
   Write-Host -ForegroundColor Green "On other systems, via your platform's package manager."
   exit 1
 }
 
 # Install (Neo)Forge
 if (!(Test-Path "forge-$FORGE_VERSION-installer.jar")) {
+  # Neoforge maven, might come in handy later.
+  # $FORGE_URI = "https://maven.neoforged.net/releases/net/neoforged/forge/$FORGE_VERSION/forge-$FORGE_VERSION-installer.jar"
+  $FORGE_URI = "https://maven.minecraftforge.net/net/minecraftforge/forge/$FORGE_VERSION/forge-$FORGE_VERSION-installer.jar"
 
-  $FORGE_URI = "https://maven.neoforged.net/releases/net/neoforged/forge/$FORGE_VERSION/forge-$FORGE_VERSION-installer.jar"
-
-  Write-Host -ForegroundColor Yellow "Clearing potentially incorrect versions of NeoForge..."
+  Write-Host -ForegroundColor Yellow "Clearing potentially incorrect versions of Forge..."
   Get-ChildItem -Path ".\" -Filter "forge-*-installer.jar" | Remove-Item | Out-Null
 
-  Write-Host -ForegroundColor Blue "Fetching NeoForge Version $FORGE_VERSION"
+  Write-Host -ForegroundColor Blue "Fetching Forge Version $FORGE_VERSION"
   Invoke-WebRequest -Uri $FORGE_URI -OutFile "forge-$FORGE_VERSION-installer.jar"
 
-  Write-Host -ForegroundColor Blue "Installing NeoForge as server, this will take a few minutes."
+  Write-Host -ForegroundColor Blue "Installing Forge as server, this will take a few minutes."
 
   java -jar "forge-$FORGE_VERSION-installer.jar" --installServer 2>&1 | ForEach-Object {
-    Write-Progress -Activity "Installing NeoForge" -Status $_
+    Write-Progress -Activity "Installing Forge" -Status $_
   }
 
   if ($LASTEXITCODE -eq 0) {
-    Write-Host -ForegroundColor Green "NeoForge installation completed successfully."
+    Write-Host -ForegroundColor Green "Forge installation completed successfully."
     Write-Progress -Completed -Activity "Removing progress bar."
   } else {
-    Write-Host -ForegroundColor Red "NeoForge installation failed with exit code $LASTEXITCODE."
+    Write-Host -ForegroundColor Red "Forge installation failed with exit code $LASTEXITCODE."
     exit 1
   }
 
@@ -126,4 +127,4 @@ if ($PSVersionTable.Platform.startsWith("Win")) {
 }
 
 Write-Host "Running the server..."
-java @( "@user_jvm_args.txt", "@libraries/net/neoforged/forge/$FORGE_VERSION/$PLATFORM_ARGS" ) nogui %*
+java @( "@user_jvm_args.txt", "@libraries/net/minecraftforge/forge/$FORGE_VERSION/$PLATFORM_ARGS" ) nogui %*
