@@ -1,4 +1,4 @@
-Included is a serverpack installer for the GregTech Community pack, kindly provided by @umaibo
+Included is a serverpack installer for the GregTech Community pack, kindly provided by GlitchWitch on GitHub (https://github.com/Glitch-Witch)
 
 For Windows users: Run start.ps1 to generate the server pack
 For Mac/Linux/etc users: Run start.sh to generate the server pack
