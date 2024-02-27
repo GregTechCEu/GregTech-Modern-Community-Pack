@@ -225,7 +225,7 @@ machines:
 
   # Whether search for recipes asynchronously.
   #  Default: true
-  asyncRecipeSearching: true
+  asyncRecipeSearching: false
 
 client:
   # Whether or not to enable Emissive Textures for GregTech Machines.
@@ -320,4 +320,3 @@ dev:
   # Dump all registered GT models/blockstates/etc?
   # Default: false
   dumpAssets: false
-

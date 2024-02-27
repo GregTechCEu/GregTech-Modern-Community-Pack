@@ -170,7 +170,7 @@ hash = "9abe2c7f784810cac3ca71c74d02aacd5fe6861d744cb143d077a525a2b42e76"
 
 [[files]]
 file = "config/gtceu.yaml"
-hash = "379ee4ed64eeeca5ac1374add8cedafabbfa9b785db4cce5643f2d8a3db764e0"
+hash = "e76d614de599c73e9729032156877152c662f90764875275bc41d5f06248bc41"
 
 [[files]]
 file = "config/hangglider-client.toml"
@@ -728,7 +728,7 @@ metafile = true
 
 [[files]]
 file = "mods/default-options.pw.toml"
-hash = "1cb1ed842db59e479dc2b21cf8afb8eeb9ff4577d292e6b51ed8df98e24411d5"
+hash = "bace9ac545c5db24d350a955565157500cdcedc8db6a8e78ff6118d97748eb2a"
 metafile = true
 
 [[files]]
@@ -758,7 +758,7 @@ metafile = true
 
 [[files]]
 file = "mods/ferritecore.pw.toml"
-hash = "0ad2cb032bed6c15eff1327392b16e404a9d8e787fec7c32764d142978c92583"
+hash = "5bd0506bc0be25116b234f2b5af9447f60d82ae1cb6c5be4e12d8841f6c2501c"
 metafile = true
 
 [[files]]
@@ -838,7 +838,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-profiles-next.pw.toml"
-hash = "21964bfd2ab6c9afcdad8b2e5d873b3eeb65691d21913d21e1d6a36f4ec925db"
+hash = "1932e511c9ad771547e4b2cde97dd98e224fcd98a4ad964c612df704de3e4e91"
 metafile = true
 
 [[files]]
