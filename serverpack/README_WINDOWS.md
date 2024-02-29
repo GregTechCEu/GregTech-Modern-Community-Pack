@@ -17,7 +17,7 @@ The only one that matters for this installation is the one simply titled `Window
 After you click on `Windows Powershell` you may run the following command to install the correct version of Powershell.
 
 ```
-winget install -e --id Microsoft.Powershell
+winget install -e --id Microsoft.PowerShell
 ```
 
 Once the installation has finished, repeat the steps in Section 1.
