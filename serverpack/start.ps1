@@ -102,7 +102,7 @@ if ($LASTEXITCODE -eq 0) {
 
 
 # Inform about the EULA and either force agree or exit.
-if (!(Test-Path "eula.txt") -or (Get-Content eula.txt | ConvertFrom-StringData).eula) {
+if (!(Test-Path "eula.txt") -or ((Get-Content eula.txt | ConvertFrom-StringData).eula -eq $false)) {
   Write-Host -ForegroundColor Yellow "In order to run a Minecraft server, you need to agree to the Minecraft EULA."
   Write-Host -ForegroundColor Yellow "You can read the Minecraft EULA here: https://aka.ms/MinecraftEULA"
   Write-Host -ForegroundColor Yellow "For your convenience, this script can automatically agree for you."

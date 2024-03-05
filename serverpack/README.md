@@ -1,6 +1,7 @@
 Included is a serverpack installer for the GregTech Community pack, kindly provided by GlitchWitch on GitHub (https://github.com/Glitch-Witch)
 
-For Windows users: Run start.ps1 to generate the server pack
+For Windows users: Please refer to the [Windows Specific Readme File](https://github.com/GregTechCEu/GregTech-Modern-Community-Pack/blob/main/serverpack/README_WINDOWS.md)
+
 For Mac/Linux/etc users: Run start.sh to generate the server pack
 
 Please report any issues on our GitHub!
