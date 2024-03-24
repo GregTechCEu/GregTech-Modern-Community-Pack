@@ -3,6 +3,10 @@
         "highlight_foused_items": {
             "value": false
         },
+        "enable_auto_refill": {
+            "value": false
+        },
+        "for_modpack_devs": true,
         "first_run": false
     },
     "GuiSettings": {

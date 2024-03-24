@@ -1,5 +1,32 @@
 {
     "com.lowdragmc.lowdraglib.gui.modular.ModularUIGuiContainer": {
         "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerExInterface": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerExPatternProvider": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerModStorageBus": {
+        "ignore": true
+    },
+    "appeng.menu.implementations.StorageBusMenu": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerTagStorageBus": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerPreciseExportBus": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerModExportBus": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerTagExportBus": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerExIOBus": {
+        "ignore": true
     }
 }
