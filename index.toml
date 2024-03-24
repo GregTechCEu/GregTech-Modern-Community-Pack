@@ -106,7 +106,7 @@ hash = "c5eade3c373eff018f9439f88eef98991d16613bd1ffd5fef088c52aeb42323e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gtceu.snbt"
-hash = "7262cd8ff0145bddcc4dcdf01b367d670a5edafc1882512da10b4ba55803d5a3"
+hash = "91fac9e5d48a70a6fe0633dabcd200de36ccc1d2d682f41225e7c040ddd2f427"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/heating_coils.snbt"
@@ -189,16 +189,20 @@ file = "config/inventoryessentials-common.toml"
 hash = "2696133bf8a18d3811868bbbc8bba93a3d79dda3aadeaa81ed78984b0538833b"
 
 [[files]]
+file = "config/inventoryprofilesnext/integrationHints/ae2.json"
+hash = "9e20c2ca2dbd1a0cf159dc97a2a522dba0d2d9e989fe4634229a124e69b085a1"
+
+[[files]]
 file = "config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json"
 hash = "ca413dea02cce69c69dccdc525fb0ec013236876eff2d142772c68db3d772d3a"
 
 [[files]]
 file = "config/inventoryprofilesnext/integrationHints/player-defined.json"
-hash = "57f84e86ccb662569f4fb2d85e728ec454c26af7214f5e145133a34980be2847"
+hash = "05817cc08fce1aba90b0adf4b6cde4c0e6e759f106fe29ed803f0da624a92ab4"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
-hash = "d0b78f65147af6aeb3d88f12d5d03ccb3181a408acd347bf1ab3522a13023ca7"
+hash = "b9e0000c9454f164d8b7995b7097cf8aeabdb15c97c42fb3bb0704da26af276f"
 
 [[files]]
 file = "config/inventorysorter-client.toml"
@@ -513,6 +517,10 @@ file = "kubejs/server_scripts/building_gadgets/gadgets.js"
 hash = "9a309f6c36b3232028bbdf9720098913bdf8faafe7372a14cc41217f9548cd65"
 
 [[files]]
+file = "kubejs/server_scripts/charcoal.js"
+hash = "f1dcf9f1880d2e35f61c38e70fbbbb5038332ab709b1689cee3b8bb5a45579a1"
+
+[[files]]
 file = "kubejs/server_scripts/crafting_station/recipes.js"
 hash = "0fd47c3d6d427f14069e11bfb089e90834a4ddfb8c2984ec27af9a89715e9e89"
 
@@ -558,7 +566,7 @@ hash = "cb12aa7dfdceb9a7017aa51de2859f84a561f906dd39434e66329346cba0281e"
 
 [[files]]
 file = "kubejs/server_scripts/removals.js"
-hash = "968450442f137a9afd5066fd50b488dfb88bd86cd619c5e22b5be75c362564fc"
+hash = "ce46d81c81949057c97c0ffdfa0ae336c6fe61a4833eafe591b9349a09bafd6c"
 
 [[files]]
 file = "kubejs/server_scripts/sophisticated_backpacks/backpacks.js"
@@ -602,7 +610,7 @@ hash = "3662a4a03d284fb042e8abe6f1a6e6afcaf51bbce9aae5f1d613d6e8910a6a66"
 
 [[files]]
 file = "kubejs/server_scripts/vanilla/loot_drops.js"
-hash = "c462deca9489ce3ef2e1ad5e15316e93c13993671a20d6ad26e809a5506ebfe3"
+hash = "86a7d1aedc582604057fe23eed46a91e65484eb308945fa94d07567e61f5bf67"
 
 [[files]]
 file = "kubejs/server_scripts/vanilla/mob_drops.js"
@@ -652,7 +660,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
-hash = "a966c2d3be76c854dcf6d30963ad7d495b5f8d87217431e441a652c3e4cdc92c"
+hash = "c3bc7548b0d066bea1d23964297174231607bf3032264aa2a2ab2bbf80925f97"
 metafile = true
 
 [[files]]
@@ -662,7 +670,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "960890be34fda21cd78de480ca9dc367b518500efde04fc7fc34bc94ac383d89"
+hash = "8a27a482bf7dbf9b8a96fe9a3e8bf8e08ca1d376c6cf13bccf49f0d5191d56fa"
 metafile = true
 
 [[files]]
@@ -677,7 +685,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "ce81008dd88e316783a8d8b924aae994dbf612a8b15289edd111a1b751def448"
+hash = "d02b891b8549c4bacda20466c941001255efd7f184f5ff6bd662ef90c9f6de95"
 metafile = true
 
 [[files]]
@@ -692,7 +700,7 @@ metafile = true
 
 [[files]]
 file = "mods/building-gadgets.pw.toml"
-hash = "f1dd98ba8f2f3812a881fb7c7c06d27e6d45eaee31499b83f90f9de2e76c1d50"
+hash = "8461b7344559646b5051a6d812e2cd4d43e62c8c817d17f0b2552f65306f43d4"
 metafile = true
 
 [[files]]
@@ -722,12 +730,12 @@ metafile = true
 
 [[files]]
 file = "mods/crafting-tweaks.pw.toml"
-hash = "7a714914113053d985ee70cb8f5bbd66ac29e04f2617499c50100f2be1b13cd5"
+hash = "78cacc203857570841308fa2b833f50b5bec688dd326ac2f3be50d3b4c60f3cd"
 metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "36672819f67335f5cdd349f49faa27582d6f7f68955c2a3d0e62584b6d6735ee"
+hash = "ead7066d6c446bdfed73aca9617f070b8a034545f8d30125228cd4fc42e44e70"
 metafile = true
 
 [[files]]
@@ -737,12 +745,12 @@ metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "6e3abb88c7b5bc23d371ada2a6078ac8d209355064b1d07badd27967630338cf"
+hash = "3d96079b4e2a4cd6c3c69f077f531d24d4b70df01278c5c9af16d98c7314bfbd"
 metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "81421c0deada48cf87c48c6dfa27cb0a14c9cea6d700a740ee24aaed7f06cc8e"
+hash = "f5aa06bc23007aa709580322df367a6097ff5fdbfa202f403a640cdc489102b1"
 metafile = true
 
 [[files]]
@@ -777,7 +785,7 @@ metafile = true
 
 [[files]]
 file = "mods/framedblocks.pw.toml"
-hash = "ae7bd3a09b94c160299977848c666e6ae50776ad27b658b083b81cfa6be49df2"
+hash = "045f6b80e4bdfb10e54faf545afa1625ddb2a2843387a6abc6f01f35cba9c340"
 metafile = true
 
 [[files]]
@@ -787,7 +795,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
-hash = "03007dbec06967fadd517024dc8b8b1e1b01696fd79965fa8403da6585d161fa"
+hash = "98ac0a9562199351363057715f9f9964c0d101e871a06302cd261baab08aac0d"
 metafile = true
 
 [[files]]
@@ -802,12 +810,12 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "33ffd605258873979cdecfd043e4db743bc051271db2b868f200a69200de10d0"
+hash = "d5ccef95f428e293519e95aef7f8f61d3a8253c7ce1339ad3b9b1af2c313cd22"
 metafile = true
 
 [[files]]
 file = "mods/ftb-teams-forge.pw.toml"
-hash = "ec09e436407a4921b5b5517dadb9fb16fbf7e6d60ad91313c99e6cdad611c1ac"
+hash = "479d003b5d24de8793019d37d2c36a679f3a7e8d9a1604aefcfe61a981fe354d"
 metafile = true
 
 [[files]]
@@ -822,7 +830,7 @@ metafile = true
 
 [[files]]
 file = "mods/gregtechceu-modern.pw.toml"
-hash = "cee31ab80f287855dc0ec3c7e2e3879f2f4265b05c38066aca9f3f419cf2e278"
+hash = "079fd65808c8ad682c04ca1390592109e728f6316bbb52a21fefa3ab040cc067"
 metafile = true
 
 [[files]]
@@ -832,12 +840,12 @@ metafile = true
 
 [[files]]
 file = "mods/iceberg.pw.toml"
-hash = "3db42f2d7f5cdeaf022017cec2a8e97be64092f20ab9368e03b4b6d6de3144f4"
+hash = "ad39b6fb2bc55933c421297e8ecf931d82dcb056a5513ba3f3b407fdeaef7b02"
 metafile = true
 
 [[files]]
 file = "mods/inventory-essentials.pw.toml"
-hash = "b6f36cf3cb4231f16fa828d3d1a1a552769849b5d80efeeaa116713a61ebd20a"
+hash = "c6b7d674814f31cc4882b6882ab52a103caae5df11f2881b356c1018ca3b832f"
 metafile = true
 
 [[files]]
@@ -882,7 +890,7 @@ metafile = true
 
 [[files]]
 file = "mods/libx.pw.toml"
-hash = "9b5a6ac3393657b99df90d49aa61c3e5afad176abf370c30c10e289c34e9ce08"
+hash = "2c255a6aff5c016d8769777fd9e23f4bbc256d103fb45eef12b1d6af77249ba1"
 metafile = true
 
 [[files]]
@@ -892,12 +900,12 @@ metafile = true
 
 [[files]]
 file = "mods/model-gap-fix.pw.toml"
-hash = "fc1540d695355081fa6c81b97d10efba751302bfbd2fb30f742551b997ac1a8f"
+hash = "0bb674b857580f12bd2c422af10506d98948b65838992fa7fc53c2e597cdbc56"
 metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "e2f9da0b7207068d53b206da56989d85983525a704e55e7368928288ddae0251"
+hash = "049b2cb43144e1137204f579574a94c8520b33e3d6a39d6ad309f498b9387e40"
 metafile = true
 
 [[files]]
@@ -922,7 +930,7 @@ metafile = true
 
 [[files]]
 file = "mods/polylib.pw.toml"
-hash = "fddb460180a419e8e9fa292c465c7d41f6826e4c25e4be7a016d580390bf225c"
+hash = "9d26d299e4d43a7857f69ca1e97b04696ad42df7069fd1962fa62848b833a9ef"
 metafile = true
 
 [[files]]
@@ -932,7 +940,7 @@ metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
-hash = "f4f6d4a3ea0bb499b3f66fca415131701d6e039debca3548210f818f544358ea"
+hash = "b7051b4c2310e1566a96e72b525469b460ed1132e393f3865b798bc3d80386f0"
 metafile = true
 
 [[files]]
@@ -957,12 +965,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "f6c7896e6fd5ea1d9f9334ca51d44020e4564eb62b6eb5ac684842703ca8fd17"
+hash = "23661f3668182ddd1793565ee2e55e57f5644021f863e5481909c09d742c105f"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "04dfd3580332c4d67a86009b8c1a22db329d9c38bc45f8fce9514dde92e5cd35"
+hash = "7b6c59b1a6411b599cc95793bc7a9ef2fda525ef30d185afe08c6fee99031920"
 metafile = true
 
 [[files]]
@@ -972,7 +980,7 @@ metafile = true
 
 [[files]]
 file = "mods/storage-drawers.pw.toml"
-hash = "1e8d380f87ee5ccfa0531a4336db370ecd33784ef713aa733474de570ffed52b"
+hash = "ce92a2870c50085508caf9b680efffdfdd50b54e240e7bf047b6833c66ac139e"
 metafile = true
 
 [[files]]
@@ -1002,12 +1010,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "3e5deb38abf19119c4d067aeb0785ef9839d978629bde2ef9ddddd26b15cf8bc"
+hash = "80c7d761356e9d6cdb0cc3d30a9b7eeee8aa6513e420a4d26e3539d631ed5790"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "d486e3494073296119eaaec54bbc66edc901053ec3bf6e3240d4faa6dcb7a747"
+hash = "5a95fc8fb25a0a75895b612b44dfdb677bc958972c2b527efbf732ffe48caae7"
 metafile = true
 
 [[files]]

@@ -1,13 +1,13 @@
 name = "Iceberg [Forge]"
-filename = "Iceberg-1.20.1-forge-1.1.18.jar"
+filename = "Iceberg-1.20.1-forge-1.1.21.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "1d1b54b5a5b03c37f89ee6505198b6f50b63e853"
+hash = "1692af84ef74a07b1f2e5dcdbff821effafdd24b"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4953572
+file-id = 5138899
 project-id = 520110
