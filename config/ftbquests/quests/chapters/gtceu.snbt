@@ -1220,7 +1220,7 @@
 				""
 				"Wooden planks are still pretty good as &6furnace fuel&r, especially since you get &l&3four&r from one log."
 				""
-				"If this displeases you, you can &brevert this back&r to vanilla behaviour in the &aGTCEu&r configs."
+				"If this displeases you - normally you'd be able to &brevert this back&r to vanilla behaviour in the &aGTCEu&r configs, but the configuration option is bugged. To &erevert&r the nerf, you can delete the \"charcoal.js\" script in &bkubejs/server_scripts&r!"
 			]
 			icon: "minecraft:charcoal"
 			id: "36DD94945D5B4A80"
@@ -1327,15 +1327,23 @@
 					type: "item"
 				}
 				{
-					id: "7E804AA7B8F3B145"
+					id: "2B1124C773D1E30F"
 					item: {
 						Count: 1b
 						id: "gtceu:iron_axe"
 						tag: {
-							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								DisableShields: 1b
+								TreeFelling: 1b
+							}
 							GT.Tool: {
 								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 4.0f
 							}
+							HideFlags: 2
 						}
 					}
 					type: "item"
