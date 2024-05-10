@@ -72,8 +72,8 @@
 				type: "item"
 			}]
 			title: "Large Steam Turbine"
-			x: 3.375d
-			y: 4.5d
+			x: 1.1530612244897895d
+			y: 4.494897959183675d
 		}
 		{
 			dependencies: [
@@ -111,7 +111,10 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["35E7E45987D9B1F6"]
+			dependencies: [
+				"35E7E45987D9B1F6"
+				"30A6EDDF25A5E5F8"
+			]
 			description: [
 				"Starting from here, &3Energy&r and &3Dynamo Hatches&r can be upgraded to a &d4A&r variant."
 				""
@@ -174,6 +177,7 @@
 			icon: "gtceu:mpic_chip"
 			id: "35E7E45987D9B1F6"
 			size: 0.75d
+			subtitle: "No one machine should have all this power!"
 			tasks: [
 				{
 					id: "2475364829C80B50"
@@ -253,7 +257,7 @@
 			id: "10987A49F647279E"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Extreme is an apt descriptor"
+			subtitle: "\"Extreme\" is an apt descriptor"
 			tasks: [{
 				id: "3FE1F17DD37F0A56"
 				item: "gtceu:hv_fluid_drilling_rig"
@@ -1473,6 +1477,12 @@
 				"However, the DT is &6very valuable&r when extracting Cracked Fuels and Pyrolyse products."
 			]
 			id: "48141DBA683F6B5A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2893ECAD2905293A"
+				table_id: 4190763620137969664L
+				type: "choice"
+			}]
 			shape: "gear"
 			size: 1.3d
 			subtitle: "Time for a real oil refinery!"
@@ -1856,6 +1866,12 @@
 			]
 			icon: "gtceu:platinum_group_sludge_dust"
 			id: "57D4E09A9CAB150C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "766886CFFF5CDC23"
+				table_id: 1971029833527055160L
+				type: "choice"
+			}]
 			size: 0.75d
 			subtitle: "Platline in 50 hours"
 			tasks: [{
@@ -1925,6 +1941,47 @@
 			title: "Iridium, Osmium, and EV"
 			x: 6.75d
 			y: 1.125d
+		}
+		{
+			dependencies: [
+				"3398FC108D9DCB46"
+				"55552589C581EE9E"
+				"14D277A164202FF8"
+				"124B32A0583A636A"
+			]
+			description: [
+				"The Advanced Nano Chestplate combines protection, a personal battery and an &6enhanced Jetpack&r, all in one."
+				""
+				"To &denable charging&r, sneak right-click with it in your hand, then equip it (There may be an occasional bug where it refuses to charge, but you'll forgive us, right?)."
+				""
+				"Note that this stores &oa lot&r of energy, and uses it fairly fast. You may want to invest in a &3HV Turbo Charger&r."
+			]
+			icon: {
+				Count: 1b
+				id: "gtceu:avanced_nanomuscle_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2423918C4C6A18A5"
+			min_required_dependencies: 1
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Quite the microcrafting project... but worth it"
+			tasks: [{
+				id: "3D2600C788928F76"
+				item: {
+					Count: 1b
+					id: "gtceu:avanced_nanomuscle_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Better Flight!"
+			x: 3.357142857142847d
+			y: 4.494897959183675d
 		}
 	]
 	subtitle: ["Improve your infrastructure and parallelise your setups"]

@@ -652,6 +652,8 @@
 				"You can also use them for &dBeacons&r if you desire the permanent potion effects. Finally, a vanilla multiblock!"
 				""
 				"On the topic of the &aNether Air&r which is required in the recipe: take a look at &9Liquid Nether Air&r distillation at your own leisure. It's quite rewarding."
+				""
+				"&o&8Did you know the vanilla Nether Star texture isn't centred? :)"
 			]
 			icon: "minecraft:nether_star"
 			id: "6B128610C7D2825D"
@@ -1023,6 +1025,80 @@
 			title: "IV Cutting Machine"
 			x: 1.5d
 			y: 3.75d
+		}
+		{
+			dependencies: ["52D952ADBEB67454"]
+			description: [
+				"This armor provides more QoL compared to the Nano suit."
+				""
+				"&9Helmet:&r Provides &dNight vision&r (default keybind &4M&r but check for conflicts), prevents harmful potion effects, and automatically eats for you!"
+				""
+				"&9Chestplate:&r Nullifies burning, but can be further upgraded into the &aAdvanced&r version at the very end of &dLuV&r Age. Note that this does NOT include a jetpack without the advanced upgrade."
+				""
+				"&9Leggings:&r Provides the speed boost which the Nano leggings did not."
+				""
+				"&9Boots:&r Provides &dStep Assist&r, nullifies fall damage, and increases jump height!"
+			]
+			icon: {
+				Count: 1b
+				id: "gtceu:quarktech_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2EFC07A4615B8B12"
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "No, we didn't trademark this one"
+			tasks: [
+				{
+					id: "350AC6FA06CC04AC"
+					item: {
+						Count: 1b
+						id: "gtceu:quarktech_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19D648FBB2D2332B"
+					item: {
+						Count: 1b
+						id: "gtceu:quarktech_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "140838049DC2105A"
+					item: {
+						Count: 1b
+						id: "gtceu:quarktech_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31D91C3755CF96AE"
+					item: {
+						Count: 1b
+						id: "gtceu:quarktech_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "QuarkTech"
+			x: -0.75d
+			y: 0.375d
 		}
 	]
 	subtitle: ["Automate everything and learn how to assemble"]

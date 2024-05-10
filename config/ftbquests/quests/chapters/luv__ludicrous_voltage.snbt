@@ -183,8 +183,6 @@
 				"52D952ADBEB67454"
 			]
 			description: [
-				"&4&l[ NOT YET IMPLEMENTED ]&r"
-				""
 				"The &3Data Bank&r is a multiblock capable of storing huge amounts of data. You can fill it with &aData Access Hatches&r, and fill those with &aData Storage Items&r."
 				""
 				"After that, you'll need power, and then a way to connect it to your Assembly Line! This is done through &3Optical Fiber Cables&r, which can be used to link &3Optical Data Hatches together&r."
@@ -203,8 +201,9 @@
 			size: 0.75d
 			subtitle: "Time for a server room"
 			tasks: [{
-				id: "56D3B40470528839"
-				type: "checkmark"
+				id: "01188385BE2DB3B3"
+				item: "gtceu:data_bank"
+				type: "item"
 			}]
 			title: "Mass Data Storage"
 			x: 4.5d
@@ -501,17 +500,17 @@
 				""
 				"Enjoy the ride!"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o GregTech 5's &3Fusion Reactor&r stores EU you feed it in its internal buffer. The maximum storable amount is determined by the amount of &3Energy Hatches&r."
+				"&l&3Lore:&r&o GregTech 5's &3Fusion Reactor&f stores EU you feed it in its internal buffer. The maximum storable amount is determined by the amount of &3Energy Hatches&f."
 				""
-				"Recipes can only start if the &9EU to start&r is stored internally, which will be &cconsumed&r. With this stored energy, the reactor can keep running recipes until it goes idle. At this point it will need to be topped up on EU to start again."
+				"&oRecipes can only start if the &9EU to start&f is stored internally, which will be &cconsumed&f. With this stored energy, the reactor can keep running recipes until it goes idle. At this point it will need to be topped up on EU to start again."
 				"{@pagebreak}"
-				"Shadow of Greg's &3Fusion Reactor&r (which is now GTCEu's Fusion Reactor) comes with an added mechanic called &4Heat&r."
+				"&oShadow of Greg's &3Fusion Reactor&f (which is now GTCEu's Fusion Reactor) comes with an added mechanic called &4Heat&f."
 				""
-				"When the reactor is running, the &9EU to start&r is converted to &4Heat&r. That Heat is preserved until the Reactor goes idle, at which point it will slowly go down."
+				"&oWhen the reactor is running, the &9EU to start&f is converted to &4Heat&f. That Heat is preserved until the Reactor goes idle, at which point it will slowly go down."
 				""
-				"Next time a recipe is found, it will use all possible Heat and deduct it from the &9EU to start&r, allowing you to save Energy for short pauses."
+				"&oNext time a recipe is found, it will use all possible Heat and deduct it from the &9EU to start&f, allowing you to save Energy for short pauses."
 				""
-				"The &3Fusion Reactor I&r can only run recipes up to a required EU of 160 MEU to start. It will also overclock up to &dLuV&r at best, even if you upgrade to ZPM Hatches, so don't stress over attempting this."
+				"&oThe &3Fusion Reactor I&f can only run recipes up to a required EU of 160 MEU to start. It will also overclock up to &dLuV&f at best, even if you upgrade to ZPM Hatches, so don't stress over attempting this."
 			]
 			id: "546CC03435E763CF"
 			shape: "gear"
@@ -944,6 +943,7 @@
 			id: "63F9531F391040B2"
 			shape: "circle"
 			size: 0.66d
+			subtitle: "They call me 007 - 0 Naquadah, 0 EU/t, 7 TPS"
 			title: "Combatting Lag"
 			x: 2.25d
 			y: 3.375d
@@ -993,6 +993,12 @@
 			]
 			icon: "expatternprovider:pattern_modifier"
 			id: "602DA4B4820E9088"
+			rewards: [{
+				count: 64
+				id: "3ECC8293E875521C"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 0.66d
 			subtitle: "The &aPattern Modifier&r does A LOT!"
@@ -1004,6 +1010,41 @@
 			title: "Pattern Modifier"
 			x: 4.5d
 			y: 6.0d
+		}
+		{
+			dependencies: ["0D7C978F9CDF771B"]
+			description: [
+				"The Advanced Quantum Chestplate combines protection, a personal battery and an &6ultimate Jetpack&r into a single powerful piece of gear."
+				""
+				"Note that this stores &oa lot&r of energy. You may want to invest in an &3LuV Turbo Charger&r."
+				"{@pagebreak}"
+				"&l&3Lore:&r&o This armor piece is inspired by the IndustrialCraft  Addon Gravisuite, which added the Gravitation Suit, analogous to this chestplate."
+			]
+			icon: {
+				Count: 1b
+				id: "gtceu:advanced_quarktech_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0A884622985A7417"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "I'll be seeing you in the skies!"
+			tasks: [{
+				id: "23AF5E66858C1950"
+				item: {
+					Count: 1b
+					id: "gtceu:advanced_quarktech_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Best Flight!"
+			x: 6.758503401360549d
+			y: 5.621173469387756d
 		}
 	]
 	subtitle: ["Investigate the scientific and fuse elements"]

@@ -171,8 +171,6 @@
 		{
 			dependencies: ["3CDA855A045A9F4D"]
 			description: [
-				"&4&l[ NOT YET IMPLEMENTED ]&r"
-				""
 				"The &3Network Switch&r allows multiple HPCAs to be used in conjunction with each other! This allows you to provide far more computation to your &aResearch Station&r."
 				""
 				"HPCAs can be connected to &3Network Switches&r with transmission and reception hatches, and then the Network Switch can output to a &aResearch Station&r with another transmission hatch."
@@ -183,8 +181,9 @@
 			size: 0.75d
 			subtitle: "With our powers combined..."
 			tasks: [{
-				id: "3DAB523583CEACA8"
-				type: "checkmark"
+				id: "5816F0458BEA1BCD"
+				item: "gtceu:network_switch"
+				type: "item"
 			}]
 			title: "Network Switch"
 			x: 2.25d
@@ -218,17 +217,14 @@
 				"0BADFBA6F96E457E"
 				"42760D3A86EFDCA3"
 			]
-			description: [
-				"&4&l[ NOT YET IMPLEMENTED ]&r"
-				""
-				"The &3Data Module&r is required for Endgame Research. &aAssembly Lines&r cannot read from it using &aData Access Hatches&r directly, and instead require the &9Data Bank&r."
-			]
+			description: ["The &3Data Module&r is required for Endgame Research. &aAssembly Lines&r cannot read from it using &aData Access Hatches&r directly, and instead require the &9Data Bank&r."]
 			id: "45E300FD7CD05A37"
 			size: 0.75d
 			subtitle: "Data storage sure is expensive..."
 			tasks: [{
-				id: "4F9B678E31002121"
-				type: "checkmark"
+				id: "10F68287B673E16E"
+				item: "gtceu:data_module"
+				type: "item"
 			}]
 			title: "Data Module"
 			x: 3.375d

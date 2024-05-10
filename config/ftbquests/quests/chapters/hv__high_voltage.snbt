@@ -201,6 +201,12 @@
 			]
 			icon: "gtceu:hv_electric_motor"
 			id: "029CF0D9E5097F87"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72019B9C7B00FDB7"
+				table_id: 4302125856527628630L
+				type: "choice"
+			}]
 			shape: "rsquare"
 			size: 0.66d
 			subtitle: "Wouldn't you agree? Fun!"
@@ -573,6 +579,12 @@
 			]
 			icon: "gtceu:titanium_ingot"
 			id: "7FA0ACB7F161F378"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "106D8C718FA5E22C"
+				table_id: 3622252502177806142L
+				type: "choice"
+			}]
 			shape: "gear"
 			size: 1.2d
 			subtitle: "Titanite Slab"
@@ -965,6 +977,20 @@
 			hide_dependent_lines: true
 			icon: "gtceu:large_chemical_reactor"
 			id: "528CE69DA4358B2E"
+			rewards: [{
+				id: "3167A01BDCACFEFF"
+				item: {
+					Count: 1b
+					id: "gtceu:stainless_steel_fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 64000
+							FluidName: "gtceu:sulfuric_acid"
+						}
+					}
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.3d
 			subtitle: "The Magic Box to end all Magic Boxes"
@@ -1063,6 +1089,24 @@
 			]
 			icon: "minecraft:ender_pearl"
 			id: "4024C831C77101CA"
+			rewards: [{
+				id: "3A4CB6D323D4FAEE"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						RepairCost: 0
+						StoredEnchantments: [{
+							id: "minecraft:sharpness"
+							lvl: 5s
+						}]
+						display: {
+							Name: "{\"text\":\":)\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			size: 0.75d
 			subtitle: "Darn \"artificial gating\""
 			tasks: [
@@ -1369,6 +1413,82 @@
 			title: "Void Dimension Portal"
 			x: 9.0d
 			y: 0.375d
+		}
+		{
+			dependencies: ["55552589C581EE9E"]
+			description: [
+				"If you heeded our suggestion for Peaceful mode, you shouldn't need to defend yourself from pesky mobs - but this armor provides some nice QoL that you may enjoy!"
+				""
+				"&9Helmet:&r Provides &dNight vision&r (the default keybind is &4M&r, but check for conflicts)"
+				""
+				"&9Chestplate:&r Provides nothing interesting right now, but can be further upgraded into the &aAdvanced&r version at the very end of &6HV&r."
+				""
+				"&9Leggings:&r Provides nothing special... perhaps we should have given it a small speed boost?"
+				""
+				"&9Boots:&r Provides &dStep Assist&r. Yes, you read that right!"
+				"{@pagebreak}"
+				"&l&3Lore:&r&o This armor was inspired by IndustrialCraft, but its first implementation within the \"GTCE ecosystem\" came with Nuke Powered Utils, an addon mod to GTCE."
+			]
+			icon: {
+				Count: 1b
+				id: "gtceu:nanomuscle_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "22D83509D938F039"
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "GregTech and armour - a match made in heaven!"
+			tasks: [
+				{
+					id: "4A1CB3F3A4EE6F55"
+					item: {
+						Count: 1b
+						id: "gtceu:nanomuscle_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30E0D77F8DE14CA8"
+					item: {
+						Count: 1b
+						id: "gtceu:nanomuscle_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1736BEDC1575A0F1"
+					item: {
+						Count: 1b
+						id: "gtceu:nanomuscle_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C881071A41EC114"
+					item: {
+						Count: 1b
+						id: "gtceu:nanomuscle_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Nanomuscles, son!"
+			x: 4.5d
+			y: -3.0d
 		}
 	]
 	subtitle: ["Scale up your power and begin advanced chemistry"]

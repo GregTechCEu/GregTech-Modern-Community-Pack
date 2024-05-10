@@ -191,8 +191,6 @@
 				"2587BFD0D9F3FF4A"
 			]
 			description: [
-				"&4&l[ NOT YET IMPLEMENTED ]&r"
-				""
 				"The &3Research Station&r is the upgrade to the Scanner. It's used for more advanced forms of research, and will finally allow you to perform research which requires &aData Orbs and Modules&r."
 				""
 				"When running the &3Research Station&r, energy and &9Computation&r is needed. The latter is provided through an &9HPCA&r, which is explained in the next quest. It is recieved with a &3Computation Data Reception Hatch&r. Note that only one Reception Hatch is allowed in a Research Station."
@@ -207,8 +205,9 @@
 			size: 0.75d
 			subtitle: "Your research adventures continue!"
 			tasks: [{
-				id: "61F7812F0FB70497"
-				type: "checkmark"
+				id: "148C1C60A855B61E"
+				item: "gtceu:research_station"
+				type: "item"
 			}]
 			title: "Research Station"
 			x: -4.875d
@@ -265,8 +264,6 @@
 		{
 			dependencies: ["1D6CC3C7F6BE4055"]
 			description: [
-				"&4&l[ NOT YET IMPLEMENTED ]&r"
-				""
 				"This hatch allows you to store more &aData Storage Items&r than the basic one."
 				""
 				"Don't forget that this hatch requires a &9Data Orb&r for research."
@@ -276,8 +273,9 @@
 			size: 0.66d
 			subtitle: "Increased storage density!"
 			tasks: [{
-				id: "4090DF7C2B0FCF27"
-				type: "checkmark"
+				id: "0EC657B81458D697"
+				item: "gtceu:advanced_data_access_hatch"
+				type: "item"
 			}]
 			title: "Advanced Data Access Hatch"
 			x: -2.625d
@@ -436,8 +434,6 @@
 		{
 			dependencies: ["468EEFD9D2F69014"]
 			description: [
-				"&4&l[ NOT YET IMPLEMENTED ]&r"
-				""
 				"The &3High Performance Computation Array&r, also known as the &3HPCA&r, is the multiblock used to create &9Computation&r, measured in CWU/t (Compute-Work Units per tick)."
 				""
 				"The HPCA is a modular multiblock with many unique components you've likely not seen before. There are &a9 slots available&r for different components, and there are some example layouts in the JEI previews, so reviewing these may help if you feel confused."
@@ -474,8 +470,9 @@
 			size: 0.75d
 			subtitle: "That's no Quantum Computer..."
 			tasks: [{
-				id: "0415DB1D2067171F"
-				type: "checkmark"
+				id: "5F20D430C26D3BE4"
+				item: "gtceu:high_performance_computation_array"
+				type: "item"
 			}]
 			title: "HPCA"
 			x: -3.75d
@@ -654,8 +651,6 @@
 		{
 			dependencies: ["79E4E53E9DF45549"]
 			description: [
-				"&4&l[ NOT YET IMPLEMENTED ]&r"
-				""
 				"&3Advanced HPCA Components&r are improved versions of their regular counterparts, and allow for increasing the computation you can produce from an HPCA."
 				""
 				"The &3HPCA Advanced Computation Component&r produces &a4x&r the computation for only &a2x&r the Cooling!"
@@ -664,8 +659,9 @@
 			size: 0.75d
 			subtitle: "Time for some computational advancement!"
 			tasks: [{
-				id: "2C8331B09F698CCA"
-				type: "checkmark"
+				id: "761AFCD5742F9A03"
+				item: "gtceu:hpca_advanced_computation_component"
+				type: "item"
 			}]
 			title: "Advanced HPCA Components"
 			x: -4.875d

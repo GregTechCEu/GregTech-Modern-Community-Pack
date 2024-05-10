@@ -300,7 +300,7 @@
 				""
 				"Stainless Steel is the material for &6HV&r components, like Aluminium for &bMV&r and Steel for &7LV&r. It is also used in high quantities for the &3Distillation Tower&r."
 				""
-				"It requires &cChrome&r, obtained mainly from &cRuby&r, and &2Manganese&r, obtained from &2Pyrolusite&r and others in its vein."
+				"It requires &cChromium&r, obtained mainly from &cRuby&r, and &2Manganese&r, obtained from &2Pyrolusite&r and others in its vein."
 				"{@pagebreak}"
 				"Smelting Stainless Steel requires &dHV Power&r, which you likely do not have at this point. Scaling Power Production is crucial."
 				""
@@ -310,6 +310,12 @@
 			]
 			icon: "gtceu:stainless_steel_ingot"
 			id: "16A6AE5C770DB83A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3973B757526393F6"
+				table_id: 6500114529187527477L
+				type: "choice"
+			}]
 			shape: "gear"
 			size: 1.3d
 			subtitle: "HV is in your grasp"
@@ -799,6 +805,12 @@
 			]
 			icon: "minecraft:oak_sapling"
 			id: "2655B72C9FF3B372"
+			rewards: [{
+				count: 10
+				id: "7DCCFC3ADD071D57"
+				item: "gtceu:ulv_machine_casing"
+				type: "item"
+			}]
 			shape: "square"
 			size: 0.75d
 			subtitle: "The power of KubeJS"
@@ -1257,6 +1269,12 @@
 			]
 			icon: "gtceu:polyethylene_plate"
 			id: "10FB27DD3C7BEC2F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48DD442B4934D192"
+				table_id: 8104073045527404694L
+				type: "choice"
+			}]
 			shape: "gear"
 			size: 1.2d
 			subtitle: "Baby's first polymer!"
