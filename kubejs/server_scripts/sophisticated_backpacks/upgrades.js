@@ -291,43 +291,51 @@ ServerEvents.recipes((event) => {
     .duration(50)
     .EUt(16);
 
-  event.remove({ id: "sophisticatedbackpacks:stack_upgrade_tier_1" });
+  event.remove({ id: "sophisticatedbackpacks:stack_upgrade_starter_tier" });
   event.recipes.gtceu
-    .assembler("stack_upgrade_tier_1")
+    .assembler("stack_upgrade_starter_tier")
     .itemInputs("sophisticatedbackpacks:upgrade_base", "gtceu:lv_super_chest")
-    .itemOutputs("sophisticatedbackpacks:stack_upgrade_tier_1")
+    .itemOutputs("sophisticatedbackpacks:stack_upgrade_starter_tier")
     .duration(50)
     .EUt(16);
+  event.remove({ id: "sophisticatedbackpacks:stack_upgrade_tier_1" });
+  event.remove({ id: "sophisticatedbackpacks:stack_upgrade_tier_1_from_starter" });
+  event.recipes.gtceu
+    .assembler("stack_upgrade_tier_1")
+    .itemInputs("sophisticatedbackpacks:upgrade_base", "gtceu:mv_super_chest")
+    .itemOutputs("sophisticatedbackpacks:stack_upgrade_tier_1")
+    .duration(50)
+    .EUt(32);
   event.remove({ id: "sophisticatedbackpacks:stack_upgrade_tier_2" });
   event.recipes.gtceu
     .assembler("stack_upgrade_tier_2")
     .itemInputs(
       "sophisticatedbackpacks:stack_upgrade_tier_1",
-      "gtceu:mv_super_chest"
+      "gtceu:hv_super_chest"
     )
     .itemOutputs("sophisticatedbackpacks:stack_upgrade_tier_2")
     .duration(50)
-    .EUt(16);
+    .EUt(64);
   event.remove({ id: "sophisticatedbackpacks:stack_upgrade_tier_3" });
   event.recipes.gtceu
     .assembler("stack_upgrade_tier_3")
     .itemInputs(
       "sophisticatedbackpacks:stack_upgrade_tier_2",
-      "gtceu:hv_super_chest"
+      "gtceu:ev_super_chest"
     )
     .itemOutputs("sophisticatedbackpacks:stack_upgrade_tier_3")
     .duration(50)
-    .EUt(16);
+    .EUt(128);
   event.remove({ id: "sophisticatedbackpacks:stack_upgrade_tier_4" });
   event.recipes.gtceu
     .assembler("stack_upgrade_tier_4")
     .itemInputs(
       "sophisticatedbackpacks:stack_upgrade_tier_3",
-      "gtceu:ev_super_chest"
+      "gtceu:iv_quantum_chest"
     )
     .itemOutputs("sophisticatedbackpacks:stack_upgrade_tier_4")
     .duration(50)
-    .EUt(16);
+    .EUt(256);
 
   event.remove({ id: "sophisticatedbackpacks:jukebox_upgrade" });
   event.recipes.gtceu
