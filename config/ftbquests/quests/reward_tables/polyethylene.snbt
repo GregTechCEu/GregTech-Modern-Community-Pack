@@ -1,0 +1,32 @@
+{
+	id: "7077737F687AA096"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "gtceu:aluminium_fluid_cell"
+				tag: {
+					Fluid: {
+						Amount: 32000
+						FluidName: "gtceu:naphtha"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "gtceu:aluminium_fluid_cell"
+				tag: {
+					Fluid: {
+						Amount: 32000
+						FluidName: "gtceu:ethanol"
+					}
+				}
+			}
+		}
+	]
+	title: "polyethylene"
+}

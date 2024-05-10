@@ -1,0 +1,10 @@
+{
+	id: "3244D3758F13F73E"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ count: 12, item: "gtceu:endstone_bauxite_ore" }
+		{ count: 12, item: "gtceu:endstone_ilmenite_ore" }
+	]
+	title: "titanium"
+}

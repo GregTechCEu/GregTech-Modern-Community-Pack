@@ -1,0 +1,10 @@
+{
+	id: "5A350BB9A793FB35"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 24, item: "gtceu:chromium_dust" }
+		{ count: 24, item: "gtceu:manganese_dust" }
+	]
+	title: "hv"
+}
