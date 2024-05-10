@@ -1375,6 +1375,8 @@
 		{
 			dependencies: ["6958029B5514D4EC"]
 			description: [
+				"Warning: Deprecated! You can't craft this anymore - try making the GT armours for mobility."
+				""
 				"With your new &bVacuum Freezer&r, you can now \"&ofreeze&r\" air into &aLiquid Air&r, granting access to &6Creative Flight&r! Do be sure to have a look at processing some additional &aLiquid Air&r - the products of its distillation are very appealing."
 				""
 				"&dXP Drain&r whilst flying has been &cdisabled&r in this pack."
