@@ -29,7 +29,7 @@ ServerEvents.recipes((event) => {
     event.recipes.gtceu
       .construction_core(output)
       .itemInputs(input1, input2)
-      .itemOutputs(`${modifier * 2}x ${output}`)
+      .itemOutputs(`${modifier * 4}x ${output}`)
       .inputFluids("gtceu:construction_foam 100")
       .EUt(8)
       .duration(20);
