@@ -463,7 +463,7 @@
 			description: [
 				"Scanning is the first step for research. Take the item shown in JEI and put it with a &3Data Stick&r to scan it. This will &4consume&r the item and put Data on the Data Stick. Pretty straightforward, right?"
 				""
-				"You will need at least an &6HV Scanner&r to progress to &dLuV&r, an &5EV Scanner&r for &aLuV Energy Hatches&r, and an &1IV Scanner&r for &aFusion Reactors&r. You can make any one of them to complete this quest."
+				"You will need at least an &6HV Scanner&r to progress to &dLuV&r, an &5EV Scanner&r for &aLuV Energy Hatches&r, and an &1IV Scanner&r for &aFusion Reactors&r."
 				"{@pagebreak}"
 				"Later on, recipes will require different &aData Storage Items&r for research, such as the &3Data Orb&r. This process will remain the same, but will use different Data Storage Items instead. They can also be copied the same way, but you cannot copy between different types of storage items."
 				"{@pagebreak}"
@@ -474,7 +474,7 @@
 			icon: "gtceu:data_orb"
 			id: "6DA28F169CED9C7D"
 			size: 0.75d
-			subtitle: "Not Yet Implemented"
+			subtitle: "Implemented At Last"
 			tasks: [{
 				id: "5626378FBFA6241A"
 				title: "Research"
