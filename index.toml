@@ -138,7 +138,7 @@ hash = "cc7454a6b04f69ff525cacfd02538e18445fc6dfb552b80bebbc54f90299784d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ore_generation.snbt"
-hash = "a86dadc7476295792662f61d6b441dce1ea03a89b889734af74664b7397dc79a"
+hash = "4664924f85b0311278caca26d7ae81806a607a056f825af58c34ec80b834f9f4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/progression.snbt"
@@ -150,7 +150,7 @@ hash = "07713cdc58d3dae0a23f989167ce739291c4afb66e01857f19d9b0b46aff9ebf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks_2.snbt"
-hash = "3fa0e04bc9975e2945a840e79d1c9b86475cd926eebaadd1d5793a99f6385f9f"
+hash = "cff971633cdbd813f4becaa666a2d4032993dfc9c41298a7ff158b851534001e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uv__ultimate_voltage.snbt"
@@ -470,7 +470,7 @@ hash = "6ce6ecdeec19fe783f40622f0e6aafa0222da4529cab99499b3520e65598045c"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/ae2.js"
-hash = "7cc070ed2c7466ad5d1f7185152c5685f2e93fe04a0b75c2835eada3d332065f"
+hash = "041a648c4c08116d625714022d472b8f5c287301acc0cafdd5364525f8bf3ae6"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/cables.js"
@@ -522,7 +522,7 @@ hash = "4a7d34021202b814ad578b2c217c6e4e893d232ef7e4cb4bd5ab793aec5a34ae"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/removals.js"
-hash = "e314925512773f259e666d14c60af9124121a400140914645401c7558ad89da0"
+hash = "a858ddfed2b5799bb1222e50ef78fac4091ca55fde4e071afa82d21da12e158f"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/storage_parts.js"
