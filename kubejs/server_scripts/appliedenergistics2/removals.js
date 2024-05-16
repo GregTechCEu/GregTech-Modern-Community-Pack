@@ -9,6 +9,7 @@ ServerEvents.recipes((event) => {
   event.remove({ type: "ae2:entropy" });
   event.remove({ type: "ae2:charger" });
   event.remove({ type: "ae2:inscriber" });
+  event.remove({ type: "ae2:inscriber" });
   yeet("ae2:network/blocks/inscribers");
   yeet("ae2:network/blocks/crystal_processing_charger");
   yeet("ae2:misc/deconstruction_certus_quartz_pillar");
@@ -35,4 +36,13 @@ ServerEvents.recipes((event) => {
   yote("ae2:smooth_quartz_block");
   yote("ae2:quartz_wall");
   yote("ae2:quartz_slab");
+
+  // ae2 transformation removals
+  event.remove({ id: "ae2:transform/fluix_crystals"})
+  event.remove({ id: "ae2:transform/flawed_budding_quartz"})
+  event.remove({ id: "ae2:transform/certus_quartz_crystals"})
+  event.remove({ id: "ae2:transform/fluix_crystal"})
+  event.remove({ id: "ae2:transform/chipped_budding_quartz"})
+  event.remove({ id: "ae2:transform/damaged_budding_quartz"})
+
 });
