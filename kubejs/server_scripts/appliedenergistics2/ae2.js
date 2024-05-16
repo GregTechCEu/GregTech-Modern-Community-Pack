@@ -56,7 +56,7 @@ ServerEvents.recipes((event) => {
 
   // Quantum Ring
   event.remove({ id: "ae2:network/blocks/quantum_ring" });
-  event.shaped("ae2:quantum_ring", ["PLP", "EHE", "PLP"], {
+  event.shaped("2x ae2:quantum_ring", ["PLP", "EHE", "PLP"], {
     P: "gtceu:titanium_plate",
     L: "ae2:logic_processor",
     E: "ae2:engineering_processor",
@@ -65,7 +65,7 @@ ServerEvents.recipes((event) => {
 
   // Quantum Link Chamber
   event.remove({ id: "ae2:network/blocks/quantum_link" });
-  event.shaped("ae2:quantum_link", ["GPG", "PHP", "GPG"], {
+  event.shaped("2x ae2:quantum_link", ["GPG", "PHP", "GPG"], {
     G: "ae2:quartz_glass",
     P: "ae2:fluix_pearl",
     H: "gtceu:hv_field_generator",
