@@ -1,88 +1,85 @@
 ServerEvents.recipes((event) => {
-  const dyes = [
-    "white",
-    "orange",
-    "magenta",
-    "light_blue",
-    "yellow",
-    "lime",
-    "pink",
-    "gray",
-    "light_gray",
-    "cyan",
-    "purple",
-    "blue",
-    "brown",
-    "green",
-    "red",
-    "black",
-  ];
 
-  function createRecipe(input1, input2, output, modifier) {
-    event.remove({ id: output });
+  // Goodbye
+  event.remove({ mod: "xtonesreworked" })
+
+  // Outside of loop until I write a better function
+  event.recipes.gtceu
+    .mixer("xtonesreworked:xtone_tile")
+    .itemInputs("cobblestone", "stone")
+    .itemOutputs(`4x xtonesreworked:xtone_tile`)
+    .EUt(2)
+    .duration(20);
+  event.recipes.gtceu
+    .construction_core("xtonesreworked:xtone_tile")
+    .itemInputs("cobblestone", "stone")
+    .itemOutputs(`16x xtonesreworked:xtone_tile`)
+    .inputFluids("gtceu:construction_foam 100")
+    .EUt(8)
+    .duration(20);
+  event.recipes.gtceu
+    .construction_core("xtonesreworked:flat_lamp")
+    .itemInputs("xtonesreworked:xtone_tile", "glowstone")
+    .itemOutputs(`4x xtonesreworked:flat_lamp`)
+    .inputFluids("gtceu:construction_foam 100")
+    .EUt(8)
+    .duration(20);
+
+  function createRecipe(input, material) {
     event.recipes.gtceu
-      .mixer(output)
-      .itemInputs(input1, input2)
-      .itemOutputs(`${modifier}x ${output}`)
+      .mixer(`mixing_${material}`)
+      .itemInputs("xtonesreworked:xtone_tile", input)
+      .itemOutputs(`4x xtonesreworked:${material}_block_0`)
       .EUt(2)
       .duration(20);
     event.recipes.gtceu
-      .construction_core(output)
-      .itemInputs(input1, input2)
-      .itemOutputs(`${modifier * 4}x ${output}`)
+      .construction_core(`construction_${material}`)
+      .itemInputs("xtonesreworked:xtone_tile", input)
+      .itemOutputs(`16x xtonesreworked:${material}_block_0`)
       .inputFluids("gtceu:construction_foam 100")
       .EUt(8)
       .duration(20);
+    // And now, we stonecut.
+    for (let i = 0; i < 16; i++) {
+      event.stonecutting(`xtonesreworked:${material}_block_${i}`, `#xtonesreworked:${material}`)
+    }
   }
-  // @xtones -Variant
 
-  createRecipe("stone", "cobblestone", "xtonesreworked:xtone_tile", 4);
-  createRecipe("xtonesreworked:xtone_tile", "#forge:dusts/stone", "xtonesreworked:agon_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "#forge:dyes/blue", "xtonesreworked:azur_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "#forge:dusts/coal", "xtonesreworked:bitt_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "#forge:dusts/clay", "xtonesreworked:cray_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "#forge:dusts/brick", "xtonesreworked:fort_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "#forge:dusts/glass", "xtonesreworked:glaxx_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "#forge:dusts/deepslate", "xtonesreworked:iszm_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "#forge:dyes/orange", "xtonesreworked:jelt_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "#forge:dusts/flint", "xtonesreworked:korp_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "gtceu:fertilizer", "xtonesreworked:kryp_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "#forge:dusts/netherrack", "xtonesreworked:lair_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "#forge:dusts/ice", "xtonesreworked:lave_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "#forge:dyes/lime", "xtonesreworked:mint_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "#forge:dusts/wood", "xtonesreworked:myst_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "#forge:dusts/redstone", "xtonesreworked:reds_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "#forge:dusts/sugar", "xtonesreworked:reed_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "#forge:dusts/quartz_sand", "xtonesreworked:roen_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "#forge:dyes/yellow", "xtonesreworked:sols_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "#forge:dyes/green", "xtonesreworked:sync_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "#forge:dyes/gray", "xtonesreworked:tank_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "#forge:dyes/black", "xtonesreworked:vect_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "#forge:dyes/light_blue", "xtonesreworked:vena_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "#forge:dusts/clay", "xtonesreworked:zane_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "#forge:dusts/iron", "xtonesreworked:zech_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "snowball", "xtonesreworked:zest_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "string", "xtonesreworked:zeta_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "#forge:dusts/charcoal", "xtonesreworked:zion_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "bone", "xtonesreworked:zkul_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "#forge:dusts/andesite", "xtonesreworked:zoea_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "#forge:dusts/gunpowder", "xtonesreworked:zome_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "#forge:dusts/granite", "xtonesreworked:zone_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "terracotta", "xtonesreworked:zorg_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "#forge:dyes/light_gray", "xtonesreworked:ztyl_block_0", 4);
-  createRecipe("xtonesreworked:xtone_tile", "stick", "xtonesreworked:zyth_block_0", 4);
+  // Let the fun begin...
 
-  event.remove({id: "xtonesreworked:zane_block_0_alternative"})
-  event.remove({id: "xtonesreworked:zone_block_0_alternative"})
-  event.remove({id: "xtonesreworked:zoea_block_0_alternative"})
-  event.remove({id: "xtonesreworked:zyth_block_0_alternative"})
-  event.remove({id: "xtonesreworked:myst_block_0_alternative"})
-  event.remove({id: "xtonesreworked:zest_block_0_alternative"})
-  event.remove({id: "xtonesreworked:zkul_block_0_alternative"})
-  event.remove({id: "xtonesreworked:zome_block_0_alternative"})
-  event.remove({id: "xtonesreworked:zion_block_0_alternative"})
-  event.remove({id: "xtonesreworked:zorg_block_0_alternative"})
-  event.remove({id: "xtonesreworked:zeta_block_0_alternative"})
-  event.remove({id: "xtonesreworked:zech_block_0_alternative"})
+  createRecipe("#forge:dusts/stone", "agon")
+  createRecipe("#forge:dyes/blue", "azur")
+  createRecipe("#forge:dusts/coal", "bitt")
+  createRecipe("#forge:dusts/clay", "cray")
+  createRecipe("#forge:dusts/brick", "fort")
+  createRecipe("#forge:dusts/glass", "glaxx")
+  createRecipe("#forge:dusts/deepslate", "iszm")
+  createRecipe("#forge:dyes/orange", "jelt")
+  createRecipe("#forge:dusts/flint", "korp")
+  createRecipe("gtceu:fertilizer", "kryp")
+  createRecipe("#forge:dusts/netherrack", "lair")
+  createRecipe("#forge:dusts/ice", "lave")
+  createRecipe("#forge:dyes/lime", "mint")
+  createRecipe("#forge:dusts/wood", "myst")
+  createRecipe("#forge:dusts/redstone", "reds")
+  createRecipe("#forge:dusts/sugar", "reed")
+  createRecipe("#forge:dusts/quartz_sand", "roen")
+  createRecipe("#forge:dyes/yellow", "sols")
+  createRecipe("#forge:dyes/green", "sync")
+  createRecipe("#forge:dyes/gray", "tank")
+  createRecipe("#forge:dyes/black", "vect")
+  createRecipe("#forge:dyes/light_blue", "vena")
+  createRecipe("#forge:dusts/clay", "zane")
+  createRecipe("#forge:dusts/iron", "zech")
+  createRecipe("snowball", "zest")
+  createRecipe("string", "zeta")
+  createRecipe("#forge:dusts/charcoal", "zion")
+  createRecipe("bone", "zkul")
+  createRecipe("#forge:dusts/andesite", "zoea")
+  createRecipe("#forge:dusts/gunpowder", "zome")
+  createRecipe("#forge:dusts/granite", "zone")
+  createRecipe("terracotta", "zorg")
+  createRecipe("#forge:dyes/light_gray", "ztyl")
+  createRecipe("stick", "zyth")
 
 });
