@@ -285,6 +285,10 @@
 				"&aNaquadah Coils&r crank up the Heat Capacity to &d7,200K&r."
 				""
 				"These coils are required for progressing to the second half of &dLuV&r and beyond."
+				"{@pagebreak}"
+				"&l&3Lore:&r&o Well... not some \"juicy GregTech lore\", but a cool space fact, owing to the fact you're beating the Sun's temperature with your EBF. The surface temperature of the Sun is 5,800K. We're taking this as an effective temperature - i.e. the radiative temperature of the Sun as if it were a perfectly \"black body\". Check out the Stefan-Boltzmann law if you're interested in some crude astrophysics."
+				""
+				"&oOh, and the \"photosphere\" (the part of the sun we're talking about when we mention its surface)? It's 400 kilometres thick. That's 250 miles. Damn!"
 			]
 			id: "2FCBA0D780DBDA9E"
 			size: 0.75d
@@ -407,13 +411,13 @@
 				"{@pagebreak}"
 				"&l&3Lore:&r&o Many GregTech iterations have Naquadah processing. "
 				""
-				"The first was likely Impact, with its own original Naquadah fuel process. "
+				"&oThe first was likely Impact, with its own original Naquadah fuel process. "
 				""
-				"Gregicality Legacy was hot on its heels with processes for making the Naquadah material (and variants) as well as Fuel. "
+				"&oGregicality Legacy was hot on its heels with processes for making the Naquadah material (and variants) as well as Fuel. "
 				""
-				"After that, GTNH added their own Naquadah processes for the material and fuel. "
+				"&oAfter that, GTNH added their own Naquadah processes for the material and fuel. "
 				""
-				"Lastly, GTCEu added the process you're about to set up!"
+				"&oLastly, GTCEu added the process you're about to set up!"
 			]
 			icon: "gtceu:naquadah_dust"
 			id: "378F0AFCF95354B2"
@@ -435,9 +439,11 @@
 				"00C14E3B8009DF7F"
 			]
 			description: [
-				"&aTrinium&r is a very important material for progression. You'll need it to make a &9Fusion Reactor&r, and throughout all &cZPM&r."
+				"&aTrinium&r is a very important material for progression. You'll need it to make a &9Fusion Reactor&r, but it stays relevant all throughout &cZPM&r."
 				""
-				"It also requires an &dLuV&r EBF to smelt! Dedicate a setup solely for cooking this."
+				"It also requires an &dLuV&r EBF to smelt! Perhaps dedicate a setup solely for cooking this, unless you're confident that your infrastructure can deal with it."
+				"{@pagebreak}"
+				"&l&3Lore:&r&o In Stargate, Trinium was strong enough to block a point-blank C4 explosion. It's considered to be a hundred times stronger than steel, at only one-hundreth the weight."
 			]
 			icon: "gtceu:trinium_ingot"
 			id: "0DC999F79A685194"
@@ -1021,7 +1027,7 @@
 				"&l&3Lore:&r&o This armor piece is inspired by the IndustrialCraft  Addon Gravisuite, which added the Gravitation Suit, analogous to this chestplate."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:advanced_quarktech_chestplate"
 				tag: {
 					Damage: 0
@@ -1034,7 +1040,7 @@
 			tasks: [{
 				id: "23AF5E66858C1950"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:advanced_quarktech_chestplate"
 					tag: {
 						Damage: 0

@@ -57,7 +57,7 @@
 			hide_details_until_startable: true
 			hide_text_until_complete: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:iron_wrench"
 				tag: {
 					Damage: 0

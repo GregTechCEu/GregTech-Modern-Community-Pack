@@ -49,9 +49,11 @@
 		{
 			dependencies: ["16B735F9C391D260"]
 			description: [
-				"It's time to be blunt - Steam as a power option really isn't worth it at this point anymore. "
+				"It's time to be blunt - Steam as a power option isn't gonna cut the mustard anymore. If you're going to stick with Steam until the bitter end, we wish you luck... read on."
 				""
 				"The &3Large Steam Turbine&r acts as a multiblock Steam Turbine for &6HV&r power. It's quite an expensive multiblock to build just for a measly 1024 EU/t, but it also boasts the powerful ability to scale to &9higher Power Production and higher Efficiency&r."
+				""
+				"&8(We're trying our best to sell it here, okay?!)"
 				"{@pagebreak}"
 				"The Turbine outputs &dDistilled Water&r if given an &3Output Hatch&r, which you could loop back to your &3Large Boilers&r. We don't entirely endorse this, as your Boilers will end up exploding if the system fails."
 				""
@@ -89,7 +91,7 @@
 				"&6This quest unlocks a new tutorial on Turbine Mechanics in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:turbine_rotor"
 				tag: {
 					GT.PartStats: {
@@ -610,7 +612,7 @@
 			tasks: [{
 				id: "4BCA4F8ED0041BF6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1031,6 +1033,8 @@
 				"16B735F9C391D260"
 			]
 			description: [
+				"&4&l[ NOT YET IMPLEMENTED (unfortunately) ]"
+				""
 				"&aEnder Fluid Link Covers&r are &dGregTech&r's answer to &r&3Ender Tanks&r."
 				""
 				"Each Cover sends their fluids through a frequency defined by an &68-digit hexadecimal number&r (0-9, then A-F for each digit). That gives you &64.29 billion&r channels to work with! Ender Fluid Link Covers work as long as their chunk is loaded - regardless of distance or dimension."
@@ -1144,7 +1148,7 @@
 					count: 3L
 					id: "1BE01DA0E8A143FB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:dusts/uraninite"
@@ -1194,7 +1198,7 @@
 					count: 8L
 					id: "767C47FF351DAE3B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:ingots/plutonium"
@@ -1358,7 +1362,7 @@
 				{
 					id: "3E2FBCED1C782E7C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:ingots/silicone_rubber"
@@ -1371,7 +1375,7 @@
 				{
 					id: "3CF87D26761354C4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:plates/silicone_rubber"
@@ -1771,7 +1775,7 @@
 			tasks: [{
 				id: "35CAC76B502E12FF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1810,7 +1814,7 @@
 			tasks: [{
 				id: "3B898812B1C35440"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1957,7 +1961,7 @@
 				"Note that this stores &oa lot&r of energy, and uses it fairly fast. You may want to invest in a &3HV Turbo Charger&r."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:avanced_nanomuscle_chestplate"
 				tag: {
 					Damage: 0
@@ -1971,7 +1975,7 @@
 			tasks: [{
 				id: "3D2600C788928F76"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:avanced_nanomuscle_chestplate"
 					tag: {
 						Damage: 0

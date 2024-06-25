@@ -323,7 +323,7 @@
 					count: 20L
 					id: "73A16ED7BA7D64E8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:lenses"
@@ -728,7 +728,7 @@
 				item: "minecraft:ender_eye"
 				type: "item"
 			}]
-			title: "The End"
+			title: "The End of an Era"
 			x: 7.875d
 			y: -1.875d
 		}
@@ -798,7 +798,7 @@
 					count: 50L
 					id: "73EB2C49B40116E2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -924,7 +924,7 @@
 				"The catch here is that it takes &dDistilled Water&r, and consumes a bit of &dSulfur&r with every step."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:fluid_cell"
 				tag: {
 					Fluid: {
@@ -980,7 +980,7 @@
 			rewards: [{
 				id: "3167A01BDCACFEFF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:stainless_steel_fluid_cell"
 					tag: {
 						Fluid: {
@@ -1092,7 +1092,7 @@
 			rewards: [{
 				id: "3A4CB6D323D4FAEE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:enchanted_book"
 					tag: {
 						RepairCost: 0
@@ -1230,7 +1230,7 @@
 				"The catch comes in the complexity of making &dTNM&r. In order to concoct it, you must react &aNitric Acid&r with either &dEthenone&r or &aMethyl Acetate&r, both of which have quite an involved process themselves!"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:fluid_cell"
 				tag: {
 					Fluid: {
@@ -1432,7 +1432,7 @@
 				"&l&3Lore:&r&o This armor was inspired by IndustrialCraft, but its first implementation within the \"GTCE ecosystem\" came with Nuke Powered Utils, an addon mod to GTCE."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:nanomuscle_helmet"
 				tag: {
 					Damage: 0
@@ -1446,7 +1446,7 @@
 				{
 					id: "4A1CB3F3A4EE6F55"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:nanomuscle_helmet"
 						tag: {
 							Damage: 0
@@ -1457,7 +1457,7 @@
 				{
 					id: "30E0D77F8DE14CA8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:nanomuscle_chestplate"
 						tag: {
 							Damage: 0
@@ -1468,7 +1468,7 @@
 				{
 					id: "1736BEDC1575A0F1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:nanomuscle_leggings"
 						tag: {
 							Damage: 0
@@ -1479,7 +1479,7 @@
 				{
 					id: "3C881071A41EC114"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:nanomuscle_boots"
 						tag: {
 							Damage: 0

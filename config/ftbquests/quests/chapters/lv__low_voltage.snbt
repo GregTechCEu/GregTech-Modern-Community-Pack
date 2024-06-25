@@ -234,7 +234,7 @@
 					count: 2L
 					id: "02A2F0C2179EB4E3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:ingots/battery_alloy"
@@ -256,11 +256,9 @@
 		{
 			dependencies: ["1C767009F505A813"]
 			description: [
-				"In theory, Crates are flat upgrades to Chests. A single block space that stores more items - what more could you ask for?"
+				"Crates are flat upgrades to Chests. A single block space that stores more items - what more could you ask for?"
 				""
-				"Unfortunately, there's a small downside - Crates do not support item movement shortcuts well. We plan on fixing this in the long-term."
-				""
-				"Where they shine however is the fact that they &6accept Covers&r, making them perfect candidates for buffers in automation."
+				"Where they shine is the fact that they &6accept Covers&r, making them perfect candidates for buffers in automation."
 			]
 			id: "7CCC1BDDE0C67F16"
 			rewards: [{
@@ -649,7 +647,7 @@
 				"&l&3Lore:&r&o This feature is originally from GTNH."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:programmed_circuit"
 				tag: {
 					Configuration: 0
@@ -715,7 +713,7 @@
 				icon: "gtceu:lv_sodium_battery"
 				id: "47D0D12A26963702"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "gtceu:batteries/lv"
@@ -749,7 +747,7 @@
 			tasks: [{
 				id: "35FEF4BB8295416C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -871,9 +869,9 @@
 			description: [
 				"&7LV&r will require you to craft a lot of different machines! Here's a friendly tip if you're struggling to set goals: pick an item in a later quest and go backwards from there."
 				""
-				"With that in mind... why don't we start with a &5Fusion Controller&r? Never mind, slightly too ambitious - let's check a closer goal instead. Ah, yes, the &3Electric Blast Furnace&r - the main \"end goal\" of &7LV&r - should be a good target."
+				"With that in mind... why don't we start with a &5Fusion Reactor&r? Never mind, slightly too ambitious - let's check a closer goal instead. Ah, yes, the &3Electric Blast Furnace&r - the main \"end goal\" of &7LV&r - should be a good target."
 				""
-				"The EBF is &aexpensive&r, which is why you should initially focus on machines to make components and materials cheaper. Our quests will try to guide you in the right direction."
+				"The EBF is &aexpensive&r, which is why you should initially focus on machines to make components and materials cheaper. We'll do our best to guide you in the right direction with these quests."
 				""
 				"Other important goals are crafting the &3LV Assembler&r and making your first &aMV Circuits&r."
 			]
@@ -954,7 +952,7 @@
 				"&6This quest unlocks a new tutorial on Coils in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:cupronickel_coil_block"
 				tag: {
 					active: 1b
@@ -1435,7 +1433,7 @@
 			tasks: [{
 				id: "4AA56628D87A3AF9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1638,7 +1636,7 @@
 				"{@pagebreak}"
 				"For &dGallium&r, you may, ranged from worst to best (compromising difficulty and yields):"
 				""
-				"&9- &3Electrolyze &aSphalerite&r for a low chance of small dust. Note that you lose out on direct smelting value."
+				"&9- &3Electrolyze &aSphalerite&r for a low chance of dust. Note that you lose out on direct smelting value."
 				""
 				"&9-&r Put &aCrushed Bauxite&r in the &3Chemical Bath&r. Note that this requires &9Sodium Persulfate&r."
 				""
@@ -1720,7 +1718,7 @@
 			rewards: [{
 				id: "73455D7AB7929E27"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:item_storage_cell_1k"
 					tag: { }
 				}
@@ -1863,7 +1861,7 @@
 			tasks: [{
 				id: "10F588EB061EB2EA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1928,7 +1926,7 @@
 			tasks: [{
 				id: "07BF7F14849A3027"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -2002,7 +2000,7 @@
 			tasks: [{
 				id: "07BA97A0F04F0876"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -2050,7 +2048,7 @@
 			tasks: [{
 				id: "5924F0A33AD22EC9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [

@@ -267,7 +267,7 @@
 			tasks: [{
 				id: "1F170291094582D6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -530,7 +530,7 @@
 			rewards: [{
 				id: "2C877DA425BBFC5D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:wooden_pickaxe"
 					tag: {
 						Damage: 58
@@ -543,7 +543,7 @@
 			tasks: [{
 				id: "431D533510584687"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -679,7 +679,7 @@
 			rewards: [{
 				id: "6FD8201A5A3EF40C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:universal_fluid_cell"
 					tag: {
 						Fluid: {
@@ -1551,7 +1551,7 @@
 			tasks: [{
 				id: "5FEE671A75766B78"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "gtceu:batteries/mv"
@@ -1709,7 +1709,7 @@
 				{
 					id: "21FF6E45F9AC5E76"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -1768,7 +1768,7 @@
 				{
 					id: "7B6C7E6C11D68E06"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:ores/oilsands"
@@ -1828,7 +1828,7 @@
 			tasks: [{
 				id: "685043442271A0D0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1972,7 +1972,7 @@
 			rewards: [{
 				id: "0D81E63BB7BAD94B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:steel_fluid_cell"
 					tag: {
 						Fluid: {
@@ -2013,7 +2013,7 @@
 			tasks: [{
 				id: "2620FA131244B3DA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [

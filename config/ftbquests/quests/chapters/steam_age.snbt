@@ -31,7 +31,7 @@
 			tasks: [{
 				id: "77ECBBA179EC9B3F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -79,7 +79,7 @@
 			tasks: [{
 				id: "1D0F8D4470DFFD19"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hangglider:hang_glider"
 					tag: {
 						Damage: 0
@@ -138,7 +138,7 @@
 			tasks: [{
 				id: "0DC74FB54995F3F1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -290,7 +290,7 @@
 				{
 					id: "235ABC3543BF8285"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:red_steel_pickaxe"
 						tag: {
 							Damage: 0
@@ -304,7 +304,7 @@
 				{
 					id: "1A074EA36535C8B0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
@@ -334,7 +334,7 @@
 			description: [
 				"Mine some &dSulfur&r from the Nether."
 				""
-				"If Lava is \"too hot to handle\", we've included a &6direct crafting recipe&r for &aPotions of Fire Resistance&r."
+				"If Lava is \"too hot to handle\", we've included a &6direct crafting recipe&r for &aPotions of Fire Resistance&r. JEI might look a little confusing, but don't worry - you can use &bWater Bottles&r in the potion recipe."
 				""
 				"&l&3Lore:&r&o With the existence of &6Small Sulfur Ores&f scattered in GregTech 5 ore veins, you could mine enough Sulfur in the Overworld to skip having to visit the Nether. Sounds broken, but it was still as much of a grind as Nether travel!"
 			]
@@ -343,7 +343,7 @@
 				{
 					id: "20B864DFB8F05D94"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:long_fire_resistance"
@@ -354,7 +354,7 @@
 				{
 					id: "37C361DDB9A55FF2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:long_fire_resistance"
@@ -388,7 +388,6 @@
 			icon: "gtceu:lv_electric_motor"
 			id: "5A8F0124E07D5025"
 			rewards: [{
-				count: 3
 				id: "405DCE51B96EB09A"
 				item: "gtceu:steel_block"
 				type: "item"
@@ -506,7 +505,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			size: 0.75d
+			size: 1.0d
 			subtitle: "There's no such thing as \"free\" water"
 			tasks: [{
 				id: "03501AB173BA60EE"
@@ -719,7 +718,7 @@
 			tasks: [{
 				id: "006E5756DD2CFB97"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -832,7 +831,7 @@
 			]
 			id: "3CF550B81716B8B9"
 			rewards: [{
-				count: 32
+				count: 16
 				id: "259F8029A6ED0C85"
 				item: "minecraft:glass_pane"
 				type: "item"
@@ -1009,7 +1008,7 @@
 			tasks: [{
 				id: "159D19181DC4DE59"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1097,7 +1096,7 @@
 			rewards: [{
 				id: "15C0F36A7E35F7A6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:invar_mining_hammer"
 					tag: {
 						DisallowContainerItem: 0b
@@ -1131,7 +1130,7 @@
 				count: 3L
 				id: "49E114B96843E5C9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:ingots/invar"
@@ -1171,7 +1170,7 @@
 				{
 					id: "3704C06203B7485A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:plates/wood"
@@ -1348,7 +1347,7 @@
 				"If something gets stuck, build a simple AE2 Network with just an Energy Acceptor, an IO Port and a Storage Bus on a chest, then place your Portable Cell inside the IO Port. This will spit out any stored items into the chest."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ae2:portable_item_cell_1k"
 				tag: { }
 			}
@@ -1359,7 +1358,7 @@
 			tasks: [{
 				id: "459D19A750BB8440"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:portable_item_cell_1k"
 					tag: { }
 				}
@@ -1456,7 +1455,7 @@
 			tasks: [{
 				id: "158F4EEDC214A3BA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [

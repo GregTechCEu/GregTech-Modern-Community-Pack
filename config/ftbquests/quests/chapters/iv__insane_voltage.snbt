@@ -79,13 +79,17 @@
 				"At this point, you may go back to using only one &3Electric Blast Furnace&r for your entire base, powering with the highest available Voltage you have."
 				""
 				"&6Hot Metals&r will start taking longer to cool down, as the &3Vacuum Freezer&r doesn't get perfect overclocks. For that, you probably want a dual (or quad) &3Vacuum Freezer&r."
+				"{@pagebreak}"
+				"&7Why are the ingots blue-ish, but the coils yellow?"
+				""
+				"&8Well, dear player... that's a brilliant question."
 			]
 			icon: "gtceu:hssg_coil_block"
 			id: "7A1E3C3A2D699C5B"
 			size: 0.75d
 			subtitle: "Approaching solar temperatures"
 			tasks: [{
-				icon: { Count: 16b, id: "gtceu:hssg_coil_block" }
+				icon: { Count: 16, id: "gtceu:hssg_coil_block" }
 				id: "544762609C1B9613"
 				item: "gtceu:hssg_coil_block"
 				type: "item"
@@ -669,7 +673,7 @@
 				{
 					id: "08814DD921835365"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:gems/nether_star"
@@ -985,7 +989,7 @@
 			tasks: [{
 				id: "2EC4E901B2CD35FA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1040,7 +1044,7 @@
 				"&9Boots:&r Provides &dStep Assist&r, nullifies fall damage, and increases jump height!"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:quarktech_chestplate"
 				tag: {
 					Damage: 0
@@ -1054,7 +1058,7 @@
 				{
 					id: "350AC6FA06CC04AC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:quarktech_helmet"
 						tag: {
 							Damage: 0
@@ -1065,7 +1069,7 @@
 				{
 					id: "19D648FBB2D2332B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:quarktech_chestplate"
 						tag: {
 							Damage: 0
@@ -1076,7 +1080,7 @@
 				{
 					id: "140838049DC2105A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:quarktech_leggings"
 						tag: {
 							Damage: 0
@@ -1087,7 +1091,7 @@
 				{
 					id: "31D91C3755CF96AE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:quarktech_boots"
 						tag: {
 							Damage: 0

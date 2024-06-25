@@ -4,7 +4,7 @@
 	filename: "gtceu"
 	group: ""
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "gtceu:iron_wrench"
 		tag: {
 			Damage: 0
@@ -31,6 +31,14 @@
 			]
 			icon: "kubejs:greg_icon"
 			id: "25289F9E8AE01C29"
+			rewards: [{
+				auto: "invisible"
+				icon: "minecraft:cooked_beef"
+				id: "6FD85EC9BD99C866"
+				item: "gtceu:sus_record"
+				title: "Steak"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.2d
 			subtitle: "We hope you enjoy your stay"
@@ -57,7 +65,7 @@
 			rewards: [{
 				id: "1D434B1A3A4A1E6A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:prospector.lv"
 					tag: {
 						Charge: 100000
@@ -73,7 +81,7 @@
 					count: 6L
 					id: "34F2867EAF0914BF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "minecraft:logs"
@@ -185,7 +193,7 @@
 				"As a reward, take these &2Spruce saplings&r and use them to make some big trees. You'll need to do a lot of smelting in the near future, and planks will tide you over as an &deffective&r fuel source!"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:steel_axe"
 				tag: {
 					Damage: 0
@@ -207,7 +215,7 @@
 			tasks: [{
 				id: "3880A08A72884627"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -705,7 +713,7 @@
 			tasks: [{
 				id: "3DAB1D757B3B049D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:ingots/wrought_iron"
@@ -741,7 +749,7 @@
 			subtitle: "Your first GT Tool!"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:steel_hammer"
 					tag: {
 						Damage: 0
@@ -752,7 +760,7 @@
 				}
 				id: "1A4DDB914D7D2F3C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:tools/hammers"
@@ -777,7 +785,7 @@
 				"&eNote:&r Any quest with GregTech tools can be complete with tools crafted from any material - not just the one displayed."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:steel_mining_hammer"
 				tag: {
 					Damage: 0
@@ -792,7 +800,7 @@
 			subtitle: "Mining just became efficient"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:steel_mining_hammer"
 					tag: {
 						Damage: 0
@@ -803,7 +811,7 @@
 				}
 				id: "4F372C393ADC6CE2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:tools/mining_hammers"
@@ -842,7 +850,7 @@
 			tasks: [{
 				id: "063705687ED657F5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -902,7 +910,7 @@
 				"&eNote:&r Any Quest with GregTech tools can be completed with the tool crafted from any material, not just the one displayed."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:iron_wrench"
 				tag: {
 					Damage: 0
@@ -918,7 +926,7 @@
 				{
 					id: "54E092F42DA65B86"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:tools/wrenches"
@@ -930,7 +938,7 @@
 				{
 					id: "4D6B7E2B4C8E5747"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:tools/files"
@@ -942,7 +950,7 @@
 				{
 					id: "23D6CF49FC7E82A9"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:tools/saws"
@@ -984,7 +992,7 @@
 				"&e&lNote:&r This quest's reward is &3Damascus Steel&r - a rare material which can only be found as overworld loot. It far surpasses the materials you have now, so be sure to use it."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:iron_screwdriver"
 				tag: {
 					Damage: 0
@@ -1005,7 +1013,7 @@
 				{
 					id: "4055931FAD6A5087"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:tools/screwdrivers"
@@ -1017,7 +1025,7 @@
 				{
 					id: "0CB546DCA11BB335"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:tools/wire_cutters"
@@ -1029,7 +1037,7 @@
 				{
 					id: "4DF1C23D7DD1FAD6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:tools/mortars"
@@ -1041,7 +1049,7 @@
 				{
 					id: "397DD831CA0665E7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:tools/knives"
@@ -1053,7 +1061,7 @@
 				{
 					id: "1BFE642ED0595A93"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:tools/mallets"
@@ -1122,7 +1130,7 @@
 				count: 32L
 				id: "616556ECE4DB6103"
 				item: {
-					Count: 32b
+					Count: 32
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1190,7 +1198,7 @@
 			rewards: [{
 				id: "68D4ECFA9AD5349A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:wood_drum"
 					tag: {
 						Fluid: {
@@ -1237,7 +1245,7 @@
 				count: 48L
 				id: "3DF01E4FACBB1D53"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "minecraft:logs"
@@ -1315,7 +1323,7 @@
 				{
 					id: "650805CC3324B1A2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:iron_shovel"
 						tag: {
 							Damage: 0
@@ -1329,7 +1337,7 @@
 				{
 					id: "2B1124C773D1E30F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:iron_axe"
 						tag: {
 							DisallowContainerItem: 0b
@@ -1466,7 +1474,7 @@
 			description: [
 				"Be sure to &aproperly&r read &lthis&r quest - it has some &dimportant information&r that will remain relevant all throughout your playthrough."
 				""
-				"Informative quests such as this will appear in the chapter they are unlocked. You can also consult the &b\"Useful Information\"&r page if you feel like you're forgetting something."
+				"Informative quests such as this will appear in the chapter they are unlocked. You can also consult the &b\"Guides + More\"&r quest tab if you feel like you're forgetting something."
 				""
 				"The quest structure is intended to guide you through all the major milestones in &aGregTech&r progression. Every single quest should be &2beneficial&r to look at in some way - if something is 100% optional, we'll mention it, so don't worry about missing anything crucial."
 				"{@pagebreak}"
@@ -1517,7 +1525,7 @@
 		}
 		{
 			description: [
-				"New to this updated pack is a &dTips and Tricks&r tab. The information inside is available to view at any time, but whenever it becomes relevant, you will be &6directed towards it&r for some light reading."
+				"New to this updated pack is a &dGuides + More&r section. The information inside is available to view at any time, but whenever it becomes relevant, you will be &6directed towards it&r for some light reading."
 				""
 				"The information found inside may interest you if you would like a &adeeper insight&r into some of &bGTCEu's mechanics&r, and in some cases is absolutely indispensable."
 				""

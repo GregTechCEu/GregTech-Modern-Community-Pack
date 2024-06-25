@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "rsquare"
 	filename: "ore_generation"
-	group: ""
+	group: "288DA1F92F7C0A7A"
 	icon: "minecraft:iron_ore"
 	id: "6A809CAE287B97BA"
 	order_index: 2
@@ -384,7 +384,7 @@
 			description: [
 				"This vein starts to become notable for its Magnesium output starting in the midgame."
 				""
-				"Olivine also has various uses, as it can substitute &aEmerald&r in many recipes."
+				"Olivine also has various uses, as it can substitute &aEmerald&r in a couple of recipes."
 			]
 			icon: "gtceu:olivine_ore"
 			id: "7C1B5559A03F6E02"
@@ -826,7 +826,11 @@
 		}
 		{
 			dependencies: ["7CAD6FF241A827F7"]
-			description: ["The de-facto Rare Earth vein for progression in &5EV&r... and onwards."]
+			description: [
+				"The de-facto Rare Earth vein for progression in &5EV&r... and onwards."
+				""
+				"&l&3Lore:&r&o This vein was bugged for quite some time. It's never actually contained any Monazite, and nobody realised (well, nobody brought it up!) for many, many months. Did you notice?"
+			]
 			icon: "gtceu:netherrack_bastnasite_ore"
 			id: "2171AF09E76A5968"
 			size: 0.9d
@@ -1030,7 +1034,7 @@
 		{
 			dependencies: ["7CAD6FF241A827F7"]
 			description: [
-				"Almost a pure Copper vein. Damn you, Stibnite, ruining everything!"
+				"Almost a pure Copper vein. Damn you, Stibnite, ruining our purity!"
 				""
 				"You can hardly complain about its presence, though - Stibnite smelts directly into Antimony, which you will want in &7LV&r for your Batteries."
 			]
