@@ -1,13 +1,13 @@
 name = "Jade 🔍"
-filename = "Jade-1.20.1-forge-11.9.3.jar"
+filename = "Jade-1.20.1-forge-11.9.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "dc0b2764a7df79fda260bca757fcbd0dc6ed71b0"
+hash = "29b6d7c1c7742310cfaa2ea2964834561b9a8257"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5390389
+file-id = 5493390
 project-id = 324717

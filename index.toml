@@ -692,7 +692,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
-hash = "13eea9cf2b49019ed8d8cd8d27176672b418113cfdc9194ffd9d0f28ccc7d4eb"
+hash = "63b91450f071765252995689ec91545c92c06f44c2e72a51a934333dab176590"
 metafile = true
 
 [[files]]
@@ -757,7 +757,7 @@ metafile = true
 
 [[files]]
 file = "mods/crafting-station-jei-edition.pw.toml"
-hash = "c2106b0d594cf7531453d32773bb21f1a6b35ea5fcfd842d316556e06867299a"
+hash = "3fa4672939cb2638a518f4b1e962fb6c42bce810ea998e9c1408258f82364822"
 metafile = true
 
 [[files]]
@@ -777,7 +777,7 @@ metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "c987b4f2713f3a6335dde6ded47de4d4cdbbcaa037d139c37e7e25f7f590fb31"
+hash = "a30167d1377ea9b999f7fafed780050354bb51e865516f9d00d670a4060d5d13"
 metafile = true
 
 [[files]]
@@ -862,7 +862,7 @@ metafile = true
 
 [[files]]
 file = "mods/gregtechceu-modern.pw.toml"
-hash = "dcfdd08d53058c64fd7a0f7849efe7aafde9479c86fa88a80943e829fe4bc54e"
+hash = "d71e4bc22ccfd285fb8e308297a642e2237773c7e3a2cf93297d34b67604c64c"
 metafile = true
 
 [[files]]
@@ -892,7 +892,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "212633e875f70f3990a8064079e116dae6b957363c2d67776cc56debb2e64c7b"
+hash = "c309e7c7ee8233136eca526d44d6c6b6a2411f11eb6fe0394e81df1dc6de355f"
 metafile = true
 
 [[files]]
@@ -972,7 +972,7 @@ metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
-hash = "b15f8cc6d2943faa4afad0e41ec5dfd232cd8de8e30fdb2a76dafe14c8515f43"
+hash = "8a8e0f6db0afb5c64f8efb17c1b2e7a937fee57a8fd41f70ca6d74eaee60e822"
 metafile = true
 
 [[files]]
