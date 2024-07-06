@@ -721,11 +721,6 @@ hash = "a96886fe12b0156b383437c664125ca8989e7c972728a37e2ac36b35dcf29bec"
 metafile = true
 
 [[files]]
-file = "mods/better-angel-ring.pw.toml"
-hash = "1263e7f6b1ef8fc9520b337e9784a28fb32aa566d51868ab866fc74505b132f4"
-metafile = true
-
-[[files]]
 file = "mods/bookshelf.pw.toml"
 hash = "058699e4832d0cf5396c5ea29244100f0c0e39a8d7aa5b64c2afdcc3cb8c8145"
 metafile = true
