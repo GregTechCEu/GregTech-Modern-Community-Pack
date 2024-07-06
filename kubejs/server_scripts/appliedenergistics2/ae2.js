@@ -166,6 +166,43 @@ ServerEvents.recipes((event) => {
     .duration(100)
     .EUt(64);
 
+  // 4x Crafting Co-Processing Unit
+  event.remove({ id: "mae2:network/crafting/4x_crafting_accelerator" });
+  greg
+    .assembler("gtceu:4x_crafting_accelerator")
+    .itemInputs("3x ae2:crafting_accelerator", "ae2:cell_component_4k", "#gtceu:circuits/hv")
+    .itemOutputs("mae2:4x_crafting_accelerator")
+    .duration(100)
+    .EUt(130);
+
+  // 16x Crafting Co-Processing Unit
+  event.remove({ id: "mae2:network/crafting/16x_crafting_accelerator" });
+  greg
+    .assembler("gtceu:16x_crafting_accelerator")
+    .itemInputs("3x mae2:4x_crafting_accelerator", "ae2:cell_component_16k", "#gtceu:circuits/ev")
+    .itemOutputs("mae2:16x_crafting_accelerator")
+    .duration(100)
+    .EUt(520);
+
+  // 64x Crafting Co-Processing Unit
+  event.remove({ id: "mae2:network/crafting/64x_crafting_accelerator" });
+  greg
+    .assembler("gtceu:64x_crafting_accelerator")
+    .itemInputs("3x mae2:16x_crafting_accelerator", "ae2:cell_component_64k", "#gtceu:circuits/iv")
+    .itemOutputs("mae2:64x_crafting_accelerator")
+    .duration(100)
+    .EUt(2080);
+
+  // 256x Crafting Co-Processing Unit
+  event.remove({ id: "mae2:network/crafting/256x_crafting_accelerator" });
+  greg
+    .assembler("gtceu:256x_crafting_accelerator")
+    .itemInputs("3x mae2:64x_crafting_accelerator", "ae2:cell_component_256k", "#gtceu:circuits/luv")
+    .itemOutputs("mae2:256x_crafting_accelerator")
+    .duration(100)
+    .EUt(8320);
+
+
   // Crafting Monitor
   event.remove({ id: "ae2:network/crafting/cpu_crafting_monitor" });
   greg
@@ -328,4 +365,47 @@ ServerEvents.recipes((event) => {
     .itemOutputs("gtceu:fluix_rod")
     .duration(200)
     .EUt(8);
+
+  // Logic Processor
+  event.remove({ id: "ae2:inscriber/logic_processor" });
+  greg
+    .circuit_assembler("gtceu:logic_processor")
+    .itemInputs(
+      "ae2:printed_logic_processor",
+      "ae2:printed_silicon",
+      "#gtceu:circuits/lv",
+      "#gtceu:resistors",
+      "2x #forge:fine_wires/tin"
+    )
+    .itemOutputs("4x ae2:logic_processor")
+    .duration(200)
+    .EUt(30);
+  // Engineering Processor
+  event.remove({ id: "ae2:inscriber/engineering_processor" });
+  greg
+    .circuit_assembler("gtceu:engineering_processor")
+    .itemInputs(
+      "ae2:printed_engineering_processor",
+      "ae2:printed_silicon",
+      "#gtceu:circuits/lv",
+      "#gtceu:resistors",
+      "2x #forge:fine_wires/tin"
+    )
+    .itemOutputs("4x ae2:engineering_processor")
+    .duration(200)
+    .EUt(30);
+  // Calculation Processor
+  event.remove({ id: "ae2:inscriber/calculation_processor" });
+  greg
+    .circuit_assembler("gtceu:calculation_processor")
+    .itemInputs(
+      "ae2:printed_calculation_processor",
+      "ae2:printed_silicon",
+      "#gtceu:circuits/lv",
+      "#gtceu:resistors",
+      "2x #forge:fine_wires/tin"
+    )
+    .itemOutputs("4x ae2:calculation_processor")
+    .duration(200)
+    .EUt(30);
 });
