@@ -18,6 +18,9 @@
         },
         "enable_profiles_ui": {
             "value": false
+        },
+        "enable_inventory_buttons": {
+            "value": false
         }
     },
     "Hotkeys": {
