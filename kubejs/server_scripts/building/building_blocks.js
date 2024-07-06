@@ -12,6 +12,7 @@ ServerEvents.recipes((event) => {
     .construction_core("skystone_dust")
     .itemInputs("gtceu:stone_dust", "#forge:dusts/certus_quartz")
     .itemOutputs("8x ae2:sky_dust")
+    .inputFluids("gtceu:construction_foam 100")
     .circuit(1)
     .EUt(2)
     .duration(20);
