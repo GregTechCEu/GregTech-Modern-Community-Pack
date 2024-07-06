@@ -30,6 +30,7 @@
 			icon: "gtceu:steam_machine_casing"
 			id: "7FB2D6C9A3763A47"
 			size: 0.75d
+			subtitle: "https://store.steampowered.com/"
 			tasks: [{
 				id: "488F188E55E06B11"
 				type: "checkmark"
@@ -103,7 +104,7 @@
 				"{@pagebreak}"
 				"Keep in mind that GregTech cables suffer from \"cable loss\". Every block of cable that an EU packet travels will decrease its stored EU."
 				""
-				"For instance, transferring LV current along 6 cables each with a loss of 5EU/t will result in the packets arriving at their destination with a meagre 2EU/t (32 - [6*5]). For this reason, you will want to keep your cables short until you can start to consider better alternatives."
+				"For instance, transferring &7LV&r current along 6 cables each with a loss of 5 EU/t will result in the packets arriving at their destination with a meagre 2 EU/t (32 - [6*5]). For this reason, you will want to keep your cables short until you can start to consider better alternatives."
 				"{@pagebreak}"
 				"&6Superconductors&r are special Wires available for each Voltage tier. They don't have any Cable counterpart, but that isn't necessary, as they have absolutely &6zero cable loss&r! They also don't damage you when you touch them. "
 				""
@@ -157,7 +158,7 @@
 		{
 			dependencies: ["1BE0349B8F3890D3"]
 			description: [
-				"Why does every machine have a million variants across each tier? Well, overclocking is one reason!"
+				"Why does every machine have a million variants across each tier? We'll let you in on an industry secret - overclocking is one of the main reasons."
 				""
 				"Overclocking is a mechanic that happens when you try to run a recipe in a machine &dthat is higher tier than the recipe itself.&r The recipe will use an increased amount of energy, but the recipe time will be cut based on how many tiers you're overclocking by."
 				""
@@ -169,9 +170,9 @@
 				"{@pagebreak}"
 				"Each tier above the recipe tier allows one overclock. Each overclock implies:"
 				""
-				"&9-&r 2x recipe speed"
-				"&9-&r 4x power consumption"
-				"&9->&r 2x total energy cost"
+				"&9-&r &a2x&r recipe speed"
+				"&9-&r &a4x&r power consumption"
+				"&9->&r &c2x&r total energy cost"
 				""
 				"As you can see, there are upsides and downsides. It is a game of balance: ask yourself if you want faster recipes at the cost of greater power consumption."
 			]
@@ -191,23 +192,24 @@
 			description: [
 				"There are two really important factors to know when building Multiblocks."
 				""
-				"Check JEI, and be versatile."
+				"Check JEI, and remember to keep things versatile."
 				"{@pagebreak}"
-				"Check JEI!"
+				"Rule number one - check JEI!"
 				""
-				"This one was probably obvious, but it's much more than just a cute picture of how the Multiblock looks when built! Use your mouse to &drotate&r the preview, and &9hover over the blocks used&r to view additional information."
+				"This one was probably obvious, but JEI is so much more than just a cute picture of how the Multiblock looks when built! Use your mouse to &drotate&r the preview, and &9hover over the blocks used&r to view any extra information."
 				""
 				"The JEI page also contains an ingredient list of required blocks. You can also &dright-click&r a block in the preview to get a display of all blocks that work in that specific position."
 				"{@pagebreak}"
-				"Multiblocks are versatile!"
+				"Rule number two - multiblocks are versatile!"
 				""
 				"There is no \"definite\" way to form the Multiblock. Most of the time, you have complete freedom over the &9tier of Buses/Hatches&r used - and you also have the ability to&d choose where you want your inputs/outputs&r."
-				"{@pagebreak}"
+				""
 				"Taking the EBF as an example, any tier of Energy/Bus/Hatch can be used, and they can be placed anywhere in place of a casing. Fluid Hatches are also optional, though you probably want them if you need to handle recipes involving fluid."
 			]
 			icon: "gtceu:heatproof_machine_casing"
 			id: "1647E0C649E2131C"
 			size: 0.66d
+			subtitle: "Multiblock University"
 			tasks: [{
 				id: "4C9F42B0E4A2E0DB"
 				title: "Forming Multiblocks"
@@ -219,21 +221,22 @@
 		{
 			dependencies: ["2FC7B1E867E4194E"]
 			description: [
-				"&9-&r Check if the Multiblock is properly plugged in (we all make these mistakes!)."
+				"&9-&r If the recipe isn't happening, check if the Multiblock is properly plugged in (we all make these mistakes!)."
 				""
-				"&9-&r Do the initial Maintenance fix at the appropriate hatch."
+				"&9-&r Remember to always perform the initial Maintenance \"routine\" at the appropriate hatch."
 				""
-				"&9-&r Verify the recipe usage - the max EU/t provided to the multiblock has to be greater than that of the recipe."
+				"&9-&r Verify the recipe's EU/t usage - the max EU/t provided to the multiblock has to be greater than that of the recipe."
 				"{@pagebreak}"
-				"&9- &rCheck the special requirements the recipe may have (JEI always has some kind of indication if this is the case)."
+				"&9- &rCheck the special requirements the recipe may have (JEI always has some kind of indication if this is the case). Do you need to be in a Cleanroom, for example?"
 				""
 				"&9-&r Make sure the correct items are input into the buses/hatches. This is less obvious than in a regular machine, because you have to juggle between the Input Bus and Input Hatch."
 				""
-				"&9-&r Make sure there is space for an output. Maybe the multiblock formed, but you forgot a Hatch. The other biggest offender is the Output Hatches being too low tier and thus having too little capacity!"
+				"&9-&r Make sure there is space for an output. Maybe the multiblock formed, but you forgot a Hatch. The other biggest offender is the Output Hatches being too low tier and thus having too little capacity - this trips people up with the Greenhouse!"
 			]
 			icon: "gtceu:robust_machine_casing"
 			id: "331F2C12C652D268"
 			size: 0.75d
+			subtitle: "It's not forming? We've all been there before."
 			tasks: [{
 				id: "1E55AB139D9E3539"
 				title: "Checkmark"
@@ -246,17 +249,17 @@
 		{
 			dependencies: ["2FC7B1E867E4194E"]
 			description: [
-				"Maintenance in GregTech is not as bad as you think (promise!), and multiblocks with this hatch look pretty slick!"
+				"Maintenance in GregTech is not as bad as you think (promise!), and adding a Maintenance Hatch to your multiblocks makes them look pretty industrial!"
 				"{@pagebreak}"
 				"Most Multiblocks require a &3Maintenance Hatch&r. You will need to perform Maintenance for the Multiblock to begin operating."
 				""
-				"This is done by having a &9Wrench&r, a &9Screwdriver&r, a &9Soft Mallet&r, a &9Hammer&r, a &9Wire Cutter&r, and a &9Crowbar&r in your inventory, opening the Maintenance Hatch and &eclicking the center spot once&r. &cNo need to move tools individually&r."
+				"This is done by having a &9Wrench&r, a &9Screwdriver&r, a &9Soft Mallet&r, a &9Hammer&r, a &9Wire Cutter&r, and a &9Crowbar&r in your inventory, opening the Maintenance Hatch and &eclicking the center spot once&r. &cThere's no need to move tools individually&r."
 				"{@pagebreak}"
-				"Alternatively, you can circumvent these problems by placing a &9Tape&r in the Maintenance Hatch, but a lot of people would jump at the chance to tell you that Tape is &o\"unethical\"&r - plus, tape is gated behind the MV Age."
+				"Alternatively, you can circumvent these problems by placing a &9Tape&r in the Maintenance Hatch, but a lot of people would jump at the chance to tell you that Tape is &o\"unethical\"&r - plus, tape is gated behind some polymers starting from &bMV&r."
 				"{@pagebreak}"
-				"Maintenance problems have a &d5%&r chance of occuring every &dhour of multiblock activity&r. Needless to say, they are &6very&r rare. Each maintenance problem increases recipe duration by 10%. Fixing the problems is done the same way as above."
+				"Maintenance problems have a &d5%&r chance of occuring every &dhour of multiblock activity&r. Needless to say, they are &6very&r rare. Each maintenance problem increases the recipe duration by &c10%&r. Fixing these problems is done the same way as above."
 				""
-				"At &6HV&r age, you will unlock other Maintenance Hatches that do not require manual repairs."
+				"At &6HV&r, you'll unlock other Maintenance Hatches that do not require manual repairs."
 			]
 			id: "6644AAD403127EFB"
 			size: 0.66d
@@ -321,7 +324,7 @@
 				"{@pagebreak}"
 				"Do &onot&r try to automate the extraction of items from the &3Muffler Hatch&r! It's not intended to be an automation challenge, as it voids excess contents when full, so don't worry about it stopping machines from running."
 				""
-				"Muffler Hatches in GTCEu are more about pure aesthetic (cmon, you can't deny that those particles look good!) and small rewards, rather than punishing game mechanics."
+				"Muffler Hatches in GTCEu are more about pure aesthetic (c'mon, you can't deny that those particles look good!) and small rewards, rather than punishing game mechanics."
 			]
 			id: "20B98506962B8B17"
 			size: 0.66d
@@ -339,7 +342,7 @@
 			description: [
 				"Multiblocks do not look at the voltage of recipes when trying to craft. Instead, they simply check if they are being provided with enough Power."
 				""
-				"&9Note:&r Be wary of Cable &closses&r bringing the actual power input below the recipe requirement! I &lhighly&r recommend either placing your &3Battery Buffer&r next to the &3Energy Hatches&r for the minimum cable length, or looking around this questbook to see if there are better alternatives to Cables."
+				"&9Note:&r Be wary of Cable &closses&r bringing the actual power input below the recipe requirement! We &lhighly&r recommend either placing your &3Battery Buffer&r next to the &3Energy Hatches&r for the minimum cable length, or looking around this questbook to see if there are better alternatives to Cables."
 				"{@pagebreak}"
 				"The EBF needs a minimum of &4120EU/t&r power input to run its recipes. This can be achieved with &3two LV Energy Hatches&r. Each one takes 2 Amps of LV, so that's 4 Amps of LV for 128EU/t maximum power."
 			]
@@ -629,8 +632,6 @@
 				"A pickaxe or mining hammer enchanted with Hammering, or a GregTech Hammer directly, gives Crushed Ores from breaking Ore blocks, but only at a 1:1 ratio."
 				""
 				"Silk Touch is essential to obtain an ore block - this pack includes a recipe for the book."
-				""
-				"The Fortune enchantment can increase this ratio to up to 2x with Fortune III, matching the Macerator."
 				"{@pagebreak}"
 				"The rule bends for ores giving more than two dusts (such as &cRedstone&r), and for dusts that cannot be smelted (&cRedstone&r... again!)."
 				""

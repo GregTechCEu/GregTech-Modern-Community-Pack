@@ -290,6 +290,7 @@
 			icon: "gtceu:platinum_ingot"
 			id: "3398FC108D9DCB46"
 			size: 0.75d
+			subtitle: "Diamond and Pearl"
 			tasks: [
 				{
 					id: "422782D7BAC8024B"
@@ -1225,17 +1226,17 @@
 				"40018C0546454CD9"
 			]
 			description: [
-				"&aEpoxy&r is the foundation for all future Circuit Boards in the game!"
+				"&aEpoxy&r is the foundation for all future Circuit Boards in the game. Get ready to make a lot of this stuff."
 				""
-				"&9&lNote:&r This Quest is quite complicated, so tackle everything else before trying to make Epoxy. You'll need all the help you can get!"
+				"&9&lNote:&r This questline is quite complicated, so tackle everything else before trying to make Epoxy. You'll need all the help you can get!"
 				"{@pagebreak}"
 				"There are several ways to obtain the ingredients for &aEpoxy&r."
 				""
-				"We will ignore recipes related to Glycerol, as they're never worth it unless modpack devs tweak things around. &mHint hint, if you're making your own pack!&r"
+				"We'll ignore recipes related to Glycerol, as they're never worth it unless modpack devs tweak things around. &mHint hint, if you're making your own pack!&r"
 				""
 				"Try and use &3Large Chemical Reactors&r to shortcut recipes."
 				"{@pagebreak}"
-				"&dChlorine&r is only partially recycled, so you'll need a constant supply. Feeding it manually will be sufficient at first."
+				"&dChlorine&r is only partially recycled, so you'll need a constant supply. Feeding it manually should be sufficient at first."
 				""
 				"Recipes involving &dSodium Hydroxide&r could be looped by electrolyzing the &9Salt Water&r co-product."
 				""
@@ -1720,18 +1721,18 @@
 				""
 				"Look - another reason why it's good to store polymers (Polyethylene, PTFE, PBI) as Bars!"
 			]
-			icon: "ae2:me_p2p_tunnel"
+			icon: "ae2:item_p2p_tunnel"
 			id: "7EF57E379F736FBB"
 			shape: "rsquare"
-			size: 0.66d
+			size: 0.5d
 			subtitle: "A primer on items and P2P"
 			tasks: [{
 				id: "3CF9C3527F11EDA1"
 				type: "checkmark"
 			}]
 			title: "Item P2P Tunnels"
-			x: 7.875d
-			y: 4.5d
+			x: 7.653061224489797d
+			y: 4.464285714285715d
 		}
 		{
 			dependencies: ["3B2D2C47BEBCFFA7"]
@@ -1794,8 +1795,8 @@
 				type: "item"
 			}]
 			title: "Getting Rid of Those Old Machines"
-			x: 7.875d
-			y: 5.625d
+			x: 7.955102040816328d
+			y: 5.611224489795916d
 		}
 		{
 			dependencies: [
@@ -1986,6 +1987,31 @@
 			title: "Better Flight!"
 			x: 3.357142857142847d
 			y: 4.494897959183675d
+		}
+		{
+			dependencies: ["39E7997F3080250A"]
+			description: [
+				"The &aPattern P2P Tunnel&r is an upgraded version of &9Item/Fluid P2P Tunnels&r."
+				""
+				"The input side is placed on an Pattern Provider containing patterns. It can have multiple outputs, which should connect to inventories."
+				""
+				"When multiple crafts of a single pattern are requested, the P2P Tunnel will evenly distribute the crafts between all of the connected outputs."
+				""
+				"The Pattern P2P Tunnel also respects &eBlocking Mode&r, which is set in the interface containing the patterns."
+			]
+			icon: "mae2:pattern_p2p_tunnel"
+			id: "1722813F617DF39B"
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Pattern 2 Pattern"
+			tasks: [{
+				id: "40B572EB6B1D083E"
+				item: "mae2:pattern_p2p_tunnel"
+				type: "item"
+			}]
+			title: "Pattern P2P Tunnels"
+			x: 8.428571428571423d
+			y: 4.178571428571431d
 		}
 	]
 	subtitle: ["Improve your infrastructure and parallelise your setups"]

@@ -451,7 +451,7 @@
 		{
 			dependencies: ["4D7A771B67DAFC6F"]
 			description: [
-				"Just so you're aware - vanilla farms such as &7Iron Golems&r or &ePiglins&r have been &4disabled&r in this pack. There are obviously ways to cheese the pack (such as &aVillagers&r), but we encourage you to try to play without taking advantage of some notorious vanilla \"&ocheese&r\"."
+				"Just so you're aware - vanilla farms such as &7Iron Golems&r or &ePiglins&r have been &4disabled&r in this pack. There are obviously ways to cheese the pack (such as some good old Minecraft &acapitalism&r, &mif you catch our drift&r), but we encourage you to try to play without taking advantage of some notorious vanilla \"&ocheese&r\"."
 				""
 				"It's possible that in the future, we'll just make a core-mod for the pack, so players can re-enable the disabled mob drops. For now, the drops are disabled via &5KubeJS script&r, so if you're script-savvy, the file can be removed at &o&7server_scripts/vanilla/loot_drops.js&r."
 			]

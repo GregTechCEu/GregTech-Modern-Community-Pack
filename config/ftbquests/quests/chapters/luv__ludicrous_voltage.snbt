@@ -74,7 +74,7 @@
 				"1783D89CE81C8E2E"
 			]
 			description: [
-				"The &aAdvanced Processing Array&r is an upgrade to the regular version. It can now handle a maximum of &a64&r machines, instead of 16."
+				"The &aAdvanced Processing Array&r was an upgrade to the regular version. It could handle a maximum of &a64&r machines, instead of 16."
 				""
 				"As with the Processing Array, this machine &4won't be making it&r into future versions of the mod. You can skip this quest with the checkmark."
 			]
@@ -82,7 +82,7 @@
 			id: "4194EC9F1C6632E4"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Your blue cube is now green!"
+			subtitle: "Your blue cube would now have been green!"
 			tasks: [
 				{
 					id: "356EC5387BA79103"
@@ -195,7 +195,7 @@
 				"{@pagebreak}"
 				"&eNote: &rThis multiblock will be required later on in progression, but is very useful to set up early."
 				""
-				"&l&3Lore:&r&o This multiblock also originates from TecTech, but it required optical cables to be painted as well. You don't have to do that here, but it looks really nice if you do!"
+				"&l&3Lore:&r&o This multiblock also originates from TecTech, but part of its mechanics required optical cables to be painted as well. You don't have to do that here, but it looks really nice if you do!"
 			]
 			id: "42760D3A86EFDCA3"
 			size: 0.75d
@@ -216,7 +216,7 @@
 				""
 				"Like optical cables, they can only be connected to &eone input and output&r. But, these ones also only can move in &estraight lines&r. To turn them, an &3Active Transformer&r with a Laser Source Hatch (output) and Target Hatch (input) is needed."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o This is yet again another TecTech feature, but there's a bit more to it this time. TecTech's lasers were tiered by voltage and carried thousands of amps instead."
+				"&l&3Lore:&r&o This is yet again another TecTech feature, but there's a bit more to it this time. TecTech's lasers were tiered by voltage and carried thousands of amps instead. CEu doesn't faff around with any of that tiering. You only need one type of laser here!"
 			]
 			id: "07159FCD9744DD98"
 			shape: "rsquare"
@@ -238,7 +238,7 @@
 				""
 				"Use it for higher yield on &dWafers&r."
 				""
-				"This will also unlock the &6best recipe&r for &6HV&r Circuits in the &3LuV Circuit Assembler&r, which you will most likely want to mass produce for &dLapotronic Energy Orbs&r."
+				"This will also unlock the &6best recipe&r for &6HV&r Circuits in the &3LuV Circuit Assembler&r. You're probably going to want to mass produce these for the many &dLapotronic Energy Orbs&r that'll be required moving forwards."
 			]
 			id: "3F31E99D0284A60A"
 			shape: "rsquare"
@@ -256,9 +256,9 @@
 		{
 			dependencies: ["7A1E3C3A2D699C5B"]
 			description: [
-				"&aNaquadah&r is a late-game material with a variety of uses. It is required for building a Fusion Reactor, and progressing to &cZPM&r, to name a few."
+				"&aNaquadah&r is a late-game material with a variety of uses. It is required when building a Fusion Reactor and progressing to &cZPM&r, to name a few."
 				""
-				"For some reason, its fluid is &agreen&r - don't ask us why."
+				"For some reason, its fluid is a brilliant &agreen&r - don't ask us why."
 				""
 				"&l&3Lore:&r&o Naquadah is a material originally from Stargate."
 			]
@@ -311,7 +311,7 @@
 			description: [
 				"&aLuV Superconductors&r are necessary if you're eyeing a &9Fusion Reactor&r. "
 				""
-				"Don't ignore our warning here - you're gonna need &ea lot&r&r of them."
+				"Don't ignore our warning here - you're gonna need &ea lot&r&r of them. Luckily, any &5Indium&r shortages will be solved by your Naquadah line."
 			]
 			id: "5ED7707B0ECF2207"
 			size: 0.75d
@@ -374,7 +374,11 @@
 		}
 		{
 			dependencies: ["378F0AFCF95354B2"]
-			description: ["This is the main material for &cZPM&r. Prepare to make lots... after you make &9Fusion&r and &9Crystal Circuits&r. Tackle those before you try making this."]
+			description: [
+				"This is the main material for &cZPM&r. Having this in stock will be a test of your Platinum processing, so this is a &6pre-emptive warning&r to stay on top of mining PGS-bearing ore."
+				""
+				"Prepare to make lots... after you make &9Fusion&r and &9Crystal Circuits&r. Tackle those before you try making this."
+			]
 			id: "24F0454B9A090C44"
 			size: 0.75d
 			subtitle: "Stargate's Strongest"
@@ -395,17 +399,17 @@
 			description: [
 				"Refining &9Naquadah&r into further products will be your next automation challenge. The primary resources are &aEnriched Naquadah&r, &aNaquadria&r, and &aTrinium&r. "
 				""
-				"This processing line also produces many useful byproducts, which you can discover using JEI."
+				"This processing line - affectionately known as the \"Naqline\" - also produces many useful byproducts, such as Titanium and Indium."
 				"{@pagebreak}"
-				"&aEnriched Naquadah&r currently does not have many uses, but will be used for power generation in the future."
+				"&aEnriched Naquadah&r currently isn't used for much, but will be integral to power generation in the future."
 				""
-				"&aNaquadria&r is a later game material, used for &3UV&r components."
+				"&aNaquadria&r is a lategame material that you'll want to stockpile for your &3UV&r components."
 				""
-				"&aTrinium&r is the most useful resource for you right now. It is used to build the Fusion Reactor, and sees heavy use in all &cZPM&r machines."
+				"&aTrinium&r is the material you'll be wanting most right now. You'll use a lot of it to build your first Fusion Reactor, is used for the next set of Coils, and sees heavy usage in most &cZPM&r recipes."
 				"{@pagebreak}"
-				"&eNote&r: This processing chain contains a more complex loop than what you may have dealt with previously."
+				"&eNote&r: This processing chain presents more of a challenge than any chemistry you've dealt with so far."
 				""
-				"Outputs in later steps can be sent back into previous processes, with the caveat that they lose a small amount of fluid with each loop."
+				"As usual, outputs in later steps can be sent back into previous processes... with the caveat that they lose a small amount of fluid with each loop."
 				""
 				"This can be challenging to automate. Good luck!"
 				"{@pagebreak}"
@@ -439,7 +443,7 @@
 				"00C14E3B8009DF7F"
 			]
 			description: [
-				"&aTrinium&r is a very important material for progression. You'll need it to make a &9Fusion Reactor&r, but it stays relevant all throughout &cZPM&r."
+				"&aTrinium&r is a very important material for progression. You'll need it to make a &9Fusion Reactor&r, but it stays relevant all throughout &cZPM&r. We &7(well, this particular questbook writer!)&r can never have enough of this stuff."
 				""
 				"It also requires an &dLuV&r EBF to smelt! Perhaps dedicate a setup solely for cooking this, unless you're confident that your infrastructure can deal with it."
 				"{@pagebreak}"
@@ -470,7 +474,7 @@
 		{
 			dependencies: ["4F6E351C5F676618"]
 			description: [
-				"&aPlutonium-241&r is yet another requirement for the &9Fusion Reactor&r. It's very easy to make: just centrifuge some &9Pu-239&r to separate some out!"
+				"&aPlutonium-241&r is yet another requirement for the &9Fusion Reactor&r. It's very easy to make: just centrifuge some &9Pu-239&r to slowly separate some out."
 				""
 				"In the future, this material will require a &dNuclear Reactor&r to produce, but that's not in GTCEu yet."
 				"{@pagebreak}"
@@ -498,9 +502,9 @@
 				"327C3E02CD751453"
 			]
 			description: [
-				"Build the structure displayed with Fusion Glass in &aJEI&r."
+				"First things first- build the version of the structure that's displayed with Fusion Glass in &aJEI&r."
 				""
-				"To save on Fusion Casings, fit Input + Output Hatches wherever you can (as displayed in the structure)."
+				"To save on &3Fusion Casings&r, fit Input/Output Hatches wherever you can (as displayed in the structure)."
 				""
 				"This time, we'll try something new: let's explain the Lore at the same time as the mechanics."
 				""
@@ -536,9 +540,9 @@
 			description: [
 				"&aEuropium&r is the first major Fusion Material. You'll be using this quite a lot going forwards."
 				""
-				"&eNote&r: The temperature of liquid Europium is very hot, but isn't a plasma. Plan your piping accordingly!"
+				"&eNote&r: The temperature of liquid Europium is very hot, but the fluid isn't a plasma. Plan your piping accordingly!"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In Gregicality Legacy, Europium was replaced with Rutherfordium as the first fusion material, because Europium is actually found in Rare Earth and is not fused in real life."
+				"&l&3Lore:&r&o In Gregicality Legacy, Europium was replaced with Rutherfordium as the first fusion material, because Europium is actually found in Rare Earth and isn't fused in real life."
 			]
 			id: "7A74F692F14F0FF8"
 			shape: "gear"
@@ -560,7 +564,9 @@
 				""
 				"Producing these is quite a bit different from the previous circuit components. Instead of standard silicon wafers, these rely on &9Emerald&r or &9Olivine&r."
 				""
-				"Getting your first Crystal Chips will be difficult, so you may wish to invest in a high-tier autoclave. After you get your first Chip, you can duplicate them with &9Europium&r. Don't worry about those other recipes yet, they're for later on in &cZPM&r."
+				"Getting your first Crystal Chips will be difficult, so you may wish to invest in a high-tier Autoclave. If you use a &6HV&r Autoclave... well, we didn't take you for the gambling sort."
+				""
+				"After you get your first Chip, you can duplicate them with &9Europium&r. Don't worry about those other recipes yet, they're for later on in &cZPM&r."
 				"{@pagebreak}"
 				"&eNote&r: An &9Advanced Item Detector&r cover will be useful for automating these. They work just like the Advanced Energy Detector."
 				""
@@ -709,7 +715,7 @@
 				"5B07279B08BF8DDE"
 			]
 			description: [
-				"The &aLuV Lapotronic Orb&r is even better than the &1IV&r one! Of course, it comes at a price..."
+				"The &aLuV Lapotronic Orb&r is even better than the &1IV&r one! Of course, such power comes at a steep cost..."
 				"{@pagebreak}"
 				"&l&3Lore:&r&o In older versions of GT, such as GTNH in the past or in GCYL, these orbs were ludicrously expensive! They required 8 orbs of the previous tier! Thankfully, those days are long past."
 			]
@@ -773,7 +779,7 @@
 				"77B7B1EDD19831E0"
 				"7CFC112B8F460549"
 			]
-			description: ["The &aLuV Electric Prospector&r is a major upgrade from the &eHV&r one. It'll make finding Fluid and Ore veins very easy."]
+			description: ["The &aLuV Electric Prospector&r is a major upgrade from the &eHV&r one. With its huge range, it'll make finding Fluid and Ore veins very easy."]
 			id: "7033A24F37F9B9B9"
 			shape: "rsquare"
 			size: 0.66d
@@ -796,7 +802,7 @@
 			description: [
 				"The first circuit of the &9Crystal&r line."
 				""
-				"&l&3Lore:&r&o The concept of a Crystal Circuit has existed since very early versions of GregTech. We're still not entirely sure if they exist in real life."
+				"&l&3Lore:&r&o The concept of a Crystal Circuit has existed since the very early versions of GregTech. We're still not entirely sure if they exist in real life."
 			]
 			id: "42CD789B8C40E424"
 			size: 0.75d
@@ -846,7 +852,7 @@
 				""
 				"You will notice that &9Samarium&r is required for &aLuV+ Motors&r. Samarium by itself isn't very difficult to obtain, but smelting it is slightly more involved. It requires &9Liquid Helium&r in the Freezer. If you made &9IV Superconductors&r, you've likely seen this already."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In the original GregTech 5, these components were unobtainable!"
+				"&l&3Lore:&r&o In the original GregTech 5, these components were unobtainable! You'd be free from GT if you were at this point! How times change."
 			]
 			icon: "gtceu:luv_electric_motor"
 			id: "11D3B21A177B0E14"
@@ -956,7 +962,11 @@
 		}
 		{
 			dependencies: ["5CA86A333670A55C"]
-			description: ["&aMagnetic Samarium&r requires an &3IV Polarizer&r."]
+			description: [
+				"&aMagnetic Samarium&r (which you'll need for your &dLuV&r components) requires an &3IV Polarizer&r."
+				""
+				"Even so, we hope you weren't running all the polarization off a single &6HV&r Polarizer. Were you?"
+			]
 			id: "35D4F93EFB6EACB6"
 			shape: "rsquare"
 			size: 0.66d

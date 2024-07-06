@@ -26,6 +26,11 @@
 				"&9-&r &dKeep Exact&r will make sure the exact amount of Fluid in the attached machine is being kept."
 			]
 			id: "47D4545452F05E37"
+			rewards: [{
+				id: "64CB7F650D8CE198"
+				item: "gtceu:lv_electric_pump"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 0.66d
 			subtitle: "A cover!"
@@ -75,6 +80,12 @@
 				"They can also accept various &9Item Filters&r."
 			]
 			id: "288CE4AA4C5AA8BF"
+			rewards: [{
+				id: "16807937144E5F61"
+				item: "gtceu:rubber_nugget"
+				random_bonus: 7
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 0.66d
 			subtitle: "A crafting component, but also a cover!"
@@ -94,6 +105,12 @@
 				"It can accept a &9Fluid Filter&r."
 			]
 			id: "2F7617C0C4B330DE"
+			rewards: [{
+				id: "204B2C6507063DF7"
+				item: "gtceu:lv_electric_motor"
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 0.66d
 			subtitle: "A crafting component, but also a cover!"
@@ -189,7 +206,7 @@
 			description: [
 				"Well... can you show us an &bMV&r Circuit as well?"
 				""
-				"&aAluminium&r is the main ingredient for &bMV&r machinery. Check aaaall the way to the other side for the &2Sapphire Quest&r if you haven't acquired any &aAluminium Dust&r yet."
+				"&aAluminium&r is the main ingredient for &bMV&r machinery. Check &8aa&7aa&raall the way to the other side for the &2Sapphire Quest&r if you haven't acquired any &aAluminium Dust&r yet."
 				""
 				"Once you setup an &3MV Electrolyzer&r, you can get &aAluminium&r through many other ores. All of this quest's rewards bear &aAluminium&r, so keep an eye out for them when mining."
 				""
@@ -250,8 +267,8 @@
 				}
 			]
 			title: "Battery Preparations!"
-			x: 4.875d
-			y: 2.31d
+			x: 3.96d
+			y: 2.64d
 		}
 		{
 			dependencies: ["1C767009F505A813"]
@@ -287,7 +304,7 @@
 			description: [
 				"Covers are placed by right-clicking with Cover in hand on a face of a machine, and removed with a &5Crowbar&r (or by mining the machine, but that's way slower)."
 				""
-				"Pretty much any GregTech Tile-Entity will accept Covers, even if they wouldn't provide any functionality."
+				"Pretty much any GregTech \"machine\" will accept Covers, even if they wouldn't provide any functionality."
 				""
 				"Opening a Cover is done by sneak-right-clicking it with an &5empty hand&r. You can also right-click with a &5Screwdriver&r, or sneak-right-click on another face using the grid."
 				"{@pagebreak}"
@@ -460,7 +477,10 @@
 			y: 1.125d
 		}
 		{
-			dependencies: ["29379C91D6E00436"]
+			dependencies: [
+				"29379C91D6E00436"
+				"3E6DC423FE4A99F7"
+			]
 			description: [
 				"&dSneak right-click&r when in hand to activate your Magnet. Do it again to deactivate. The battery capacity of your magnet depends on the battery used to craft it."
 				""
@@ -662,8 +682,8 @@
 				type: "checkmark"
 			}]
 			title: "Programmed Circuits"
-			x: 3.375d
-			y: 2.25d
+			x: 3.3d
+			y: 1.98d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
@@ -934,8 +954,8 @@
 				type: "item"
 			}]
 			title: "This is Hacking"
-			x: 5.625d
-			y: 4.5d
+			x: 4.642304421768699d
+			y: 2.165391156462583d
 		}
 		{
 			dependencies: [
@@ -1001,6 +1021,11 @@
 				"&5Writer:&r &oCome back to me when you are stronger, young Cricket.&r"
 			]
 			id: "1DA54DA70E12F499"
+			rewards: [{
+				id: "19F7BE0EE2221321"
+				item: "gtceu:tiny_stainless_steel_dust"
+				type: "item"
+			}]
 			size: 0.75d
 			subtitle: "What? Why?!"
 			tasks: [{
@@ -1325,7 +1350,7 @@
 			}]
 			title: "Basic Mixer"
 			x: 2.25d
-			y: 7.875d
+			y: 6.75d
 		}
 		{
 			dependencies: [
@@ -1653,7 +1678,7 @@
 				type: "item"
 			}]
 			title: "Gallium Arsenide"
-			x: 1.125d
+			x: 1.5d
 			y: 7.875d
 		}
 		{
@@ -1855,6 +1880,12 @@
 			hide_dependency_lines: true
 			icon: "gtceu:lv_rock_crusher"
 			id: "1F2359106FC95603"
+			rewards: [{
+				id: "1140542401ED7AAB"
+				item: "minecraft:cobblestone"
+				random_bonus: 63
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 0.66d
 			subtitle: "What is this, Skyblock?"
@@ -2119,6 +2150,86 @@
 			title: "Building Resources"
 			x: 8.91d
 			y: 1.65d
+		}
+		{
+			dependencies: ["3E6DC423FE4A99F7"]
+			description: [
+				"&9Drills&r are electric tools which come in different tiers. The &7LV&r Drill is quite good: mining a 3x3x1 area. Higher-tier drills can mine 3x3x3, 5x5x5, and up to 9x9x9 to make huge holes!"
+				""
+				"This suggested drill is with a Diamond tip, which might be the best material for it right now."
+				""
+				"&9Note 1:&r All Electric Tools have a lot more durability than indicated, as they use Energy to prevent damage from being applied! On top of that, they can be enchanted as Pickaxes can."
+				""
+				"&9Note 2:&r Drills can now be configured to different ranges, not just the maximum or a single block."
+				"{@pagebreak}"
+				"&l&3Lore:&r&o Up until GTCEu, Electric tools required Stainless Steel, which locked players out of experiencing their glory until &6HV&f!"
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:lv_iron_drill"
+				tag: {
+					Charge: 2147483647L
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						AoEColumn: 1
+						AoELayer: 0
+						AoERow: 1
+						MaxAoEColumn: 1
+						MaxAoELayer: 0
+						MaxAoERow: 1
+					}
+					GT.Tool: {
+						Damage: 0
+						HarvestLevel: 2
+						MaxDamage: 767
+						ToolSpeed: 6.0f
+					}
+					HideFlags: 2
+					MaxCharge: 2147483647L
+				}
+			}
+			id: "70BBF00528C68A05"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "We Drill Now? We Drill Now."
+			tasks: [
+				{
+					id: "0D2407D27B875AC3"
+					item: {
+						Count: 1
+						id: "gtceu:lv_iron_drill"
+						tag: {
+							Charge: 2147483647L
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								AoEColumn: 1
+								AoELayer: 0
+								AoERow: 1
+								MaxAoEColumn: 1
+								MaxAoELayer: 0
+								MaxAoERow: 1
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 767
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+							MaxCharge: 2147483647L
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "602D1C47F55AFC5D"
+					type: "checkmark"
+				}
+			]
+			title: "Oh Yeah, we Drillin'"
+			x: 5.519855442176862d
+			y: 4.124574829931966d
 		}
 	]
 	subtitle: ["Tame electricity and make your first machines"]

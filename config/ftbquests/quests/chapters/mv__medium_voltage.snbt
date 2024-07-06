@@ -87,6 +87,12 @@
 			]
 			icon: "gtceu:plant_ball"
 			id: "6EB68C28BEE24DEF"
+			rewards: [{
+				id: "55B6D1599E7C55B1"
+				item: "gtceu:bio_chaff"
+				random_bonus: 7
+				type: "item"
+			}]
 			size: 0.66d
 			subtitle: "Plants aren't industrial enough!"
 			tasks: [{
@@ -103,7 +109,7 @@
 			description: [
 				"The Brewery can be used to make &aLubricant&r from &aRedstone&r and &aCreosote&r/&aOil&r. Lubricant has some niche uses, namely being used in the &3Cutter&r to significantly reduce the duration of its recipes."
 				""
-				"The Brewery is a very very slow machine, but it requires almost no power. Building &2many Breweries&r will help you obtain enough Biomass on your quest for plastic."
+				"The Brewery is a very, very slow machine, but it requires almost no power to run its recipes. Building &2many Breweries&r will help you obtain enough Biomass on your quest for plastic."
 				""
 				"&9Note:&r The Brewery \"unlocks\" the Biomass path towards &9Ethylene&r. The same can be done in the &3Pyrolyse Oven&r. The other path involves Oil.&r"
 				"{@pagebreak}"
@@ -111,6 +117,12 @@
 			]
 			icon: "gtceu:mv_brewery"
 			id: "1A29EFBCEA017F99"
+			rewards: [{
+				id: "2F6FA635755FBFA8"
+				item: "minecraft:redstone"
+				random_bonus: 31
+				type: "item"
+			}]
 			size: 0.66d
 			subtitle: "*hic*... *hic*"
 			tasks: [
@@ -893,6 +905,12 @@
 			description: ["A circuit component that you can now produce thanks to the &3MV Assembler&r and your shiny new &3Kanthal EBF&r."]
 			icon: "gtceu:transistor"
 			id: "375684F9CBEF9132"
+			rewards: [{
+				id: "3107038561B0F74E"
+				item: "gtceu:silicon_dust"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "square"
 			size: 0.75d
 			tasks: [{
@@ -1147,7 +1165,7 @@
 				"3568BC9742092FC5"
 			]
 			description: [
-				"Your first &5EV&r Circuit gets a unique texture."
+				"Your first &5EV&r Circuit gets a unique texture. If you still consider yourself to be in &bMV&r, &ahold off&r on making too many of these, as they won't benefit you right now. We can't stop you from making these if you &djust wanna flex&r on us, though."
 				""
 				"It'll be needed in &6HV&r."
 			]
@@ -1194,7 +1212,11 @@
 				"375684F9CBEF9132"
 				"10FB27DD3C7BEC2F"
 			]
-			description: ["A circuit component that you can now produce thanks to the &3MV Assembler&r!"]
+			description: [
+				"A circuit component that you can now produce thanks to the &3MV Assembler&r!"
+				""
+				"Capacitors are commonly used in computers to store information during power failures, amongst many other uses."
+			]
 			icon: "gtceu:capacitor"
 			id: "6E9E15DA847DD0A1"
 			shape: "square"
@@ -1224,6 +1246,12 @@
 			]
 			icon: "gtceu:blue_alloy_ingot"
 			id: "1FCF2C103E25972B"
+			rewards: [{
+				id: "61F22179773C70D6"
+				item: "gtceu:electrotine_dust"
+				random_bonus: 7
+				type: "item"
+			}]
 			size: 0.66d
 			subtitle: "You're blue now... that's my alloy"
 			tasks: [{
@@ -1293,6 +1321,8 @@
 				"&aPatterns&r are used for AE2 autocrafting. Using &aPolyvinyl Chloride&r increases the yield by &64 times&r, and higher-tier plastics have even greater yields."
 				""
 				"&3Molecular Assemblers&r aren't available for a little while more, but you can still automate machines with &9ME Interfaces&r."
+				""
+				"A sub-note for autocrafting... whilst it's possible to perform chemical chains on-demand with AE2, doing so can build some bad habits that'll come back around to bite you in higher tiers. We urge you to passive things wherever you can."
 			]
 			icon: "ae2:blank_pattern"
 			id: "1C036BCB2C488CFF"
@@ -1360,7 +1390,7 @@
 				"10FB27DD3C7BEC2F"
 			]
 			description: [
-				"At this point, you have all the tools available to start making Plastic Boards."
+				"At this point, you have all the tools available to start making Plastic Boards. Higher-tier polymers in future will increase your PCB yields substantially."
 				""
 				"The recipe chains are starting to get pretty long, so we recommend processing large batches in two dedicated &3Chemical Reactors&r."
 			]
@@ -1515,7 +1545,7 @@
 				""
 				"&l&3Lore:&r&o The acid transportation and storage mechanics originate from GregTech 6."
 			]
-			icon: "minecraft:bamboo_sign"
+			icon: "gtceu:acid_hazard_sign_block"
 			id: "079442C113D54856"
 			shape: "circle"
 			size: 0.66d
@@ -1762,6 +1792,12 @@
 			]
 			icon: "gtceu:oilsands_ore"
 			id: "575B07D390D9D079"
+			rewards: [{
+				id: "286D83CF8F84A4DF"
+				item: "gtceu:oilsands_ore"
+				random_bonus: 3
+				type: "item"
+			}]
 			size: 0.66d
 			subtitle: "This quest was sponsored by the US Military"
 			tasks: [
@@ -1822,6 +1858,11 @@
 			icon: "gtceu:mv_distillery"
 			id: "6A304E453D74C57C"
 			min_required_dependencies: 2
+			rewards: [{
+				id: "3F6532E5CE210907"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 0.75d
 			subtitle: "The Illusion of Free Choice"
@@ -2194,6 +2235,87 @@
 			title: "Travel Anchors"
 			x: 1.125d
 			y: 3.75d
+		}
+		{
+			dependencies: [
+				"6238B2A7ED1BE5A1"
+				"3E2E161F8CE35138"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"This Jetpack takes most &aCombustion Fuels&r (excluding oils) to enable a primitive form of flight."
+				""
+				"Fill it like you would fill a Drum, or with a &3Canning Machine&r."
+				""
+				"Press &4H&r (default) to enable Hover Mode."
+			]
+			id: "6FA956DAA72D6139"
+			size: 0.5d
+			subtitle: "...well, almost Fly"
+			tasks: [{
+				id: "022324F9630960C6"
+				item: {
+					Count: 1
+					id: "gtceu:liquid_fuel_jetpack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "I Believe I Can Fly"
+			x: -0.5854591836734713d
+			y: -4.789540816326532d
+		}
+		{
+			dependencies: ["75F38905DEA60F15"]
+			dependency_requirement: "one_completed"
+			description: [
+				"This jetpack enables flight, and requires energy."
+				""
+				"Charge it like you would charge a Battery."
+				""
+				"Press &4H&r (default) to enable Hover Mode."
+				""
+				"&o&8(Yeah, yeah, a jetpack is supposed to work off \"propellants\". Y'all are always here to nitpick.)&r"
+			]
+			id: "21F70EACF6D81E6A"
+			size: 0.5d
+			subtitle: "...still not quite there."
+			tasks: [{
+				id: "39D43B06F1ECBAF0"
+				item: {
+					Count: 1
+					id: "gtceu:liquid_fuel_jetpack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "I Believe I Can Fly II"
+			x: 1.7784863945578095d
+			y: -0.20216836734694255d
+		}
+		{
+			dependencies: ["26394C1290D70AB6"]
+			dependency_requirement: "one_completed"
+			description: [
+				"The &aPortable Scanner&r, or &aTricorder&r, is GTCEu's debug tool."
+				""
+				"Using it will show you a block's details, the details of the energy network, its current status and contents, and its impact on performance."
+				""
+				"It'll also display a percentage of fluid remaining in the fluid vein for the &3Fluid Rigs&r."
+				"{@pagebreak}"
+				"&l&3Lore:&r&o This little useful device comes from GregTech 5. It was extremely useful in the early days, because very little information (basically nothing) was given by GUIs or WAILA."
+			]
+			id: "26C43416F9427BB3"
+			size: 0.5d
+			subtitle: "For the nosiest GregTech players"
+			tasks: [{
+				id: "3E70CB46874DE7C1"
+				item: "gtceu:portable_scanner"
+				type: "item"
+			}]
+			title: "Tricorder"
+			x: 5.996173469387756d
+			y: -0.3042091836734713d
 		}
 	]
 	subtitle: ["Venture into petrochemistry and refine electronics"]

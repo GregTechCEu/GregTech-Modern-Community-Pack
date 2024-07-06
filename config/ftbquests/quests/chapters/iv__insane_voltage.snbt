@@ -20,7 +20,7 @@
 				"300348B1238BCB9A"
 				"7A1E3C3A2D699C5B"
 			]
-			description: ["This Superconductor will be required for progression during &dLuV&r."]
+			description: ["This Superconductor will be required for progression during &dLuV&r when you delve deeper into &bResearch&r."]
 			icon: "gtceu:samarium_iron_arsenic_oxide_double_wire"
 			id: "52D952ADBEB67454"
 			size: 0.75d
@@ -123,7 +123,7 @@
 		{
 			dependencies: ["7A1E3C3A2D699C5B"]
 			description: [
-				"Technically, HSS-E doesn't contain Manganese, but some other HSS alloys do have Manganese, so... close enough?"
+				"Technically, real-life HSS-E doesn't contain Manganese, but some other HSS alloys do have Manganese, so... close enough?"
 				""
 				"&aHSS-E&r has some niche uses in progression."
 				""
@@ -161,11 +161,11 @@
 				"{@pagebreak}"
 				"&l&3Lore:&r&o The ECE comes from GT:NH. However... its implementation wasn't so rosy at first. The stats on the tooltip looked similar to this one - so far, so good."
 				""
-				"The bad part came when crunching the numbers. Players ended up realizing they needed to run around 16 whole &6HV&r Vacuum Freezers to keep up with the Liquid Oxygen demand..."
+				"&oThe bad part came when crunching the numbers. Players ended up realizing they needed to run around 16 whole &6HV&f Vacuum Freezers to keep up with the Liquid Oxygen demand..."
 				""
-				"The one and only fuel it would accept is High Octane Gasoline, which was stated to be burned at 300% efficiency when boosted, but the UI was lying. The efficiency remained at 100%."
+				"&oThe one and only fuel it would accept is High Octane Gasoline, which was stated to be burned at 300% efficiency when boosted, but the UI was lying. The efficiency remained at 100%."
 				""
-				"The GT:NH team eventually decided to rework the ECE among other power options... phew!"
+				"&oThe GT:NH team eventually decided to rework the ECE among other power options... phew!"
 			]
 			id: "466AC4DD902115EF"
 			shape: "rsquare"
@@ -189,7 +189,7 @@
 				"528CE69DA4358B2E"
 			]
 			description: [
-				"You should have all the tools available to produce &aPolybenzimidazole&r on your own!"
+				"You should have all the tools available to produce &aPolybenzimidazole&r on your own! Good luck - it's a 14-step process, and it's no slouch at that."
 				""
 				"&aPBI&r only becomes mandatory to progress from &dLuV&r to &cZPM&r, but tackling it earlier will unlock the &6Advanced SMDs&r."
 			]
@@ -220,11 +220,11 @@
 				"7CFC112B8F460549"
 			]
 			description: [
-				"Better &aSMDs&r to make far more complex Circuits at a much cheaper price."
+				"Better &aSMDs&r to make far more complex Circuits at a much cheaper price? We're sold!"
 				""
-				"These'll require Alloys that you have not made yet, most of which will be common in &dLuV&r and onwards."
+				"These'll require Alloys that you haven't made yet, most of which will be commonly used in &dLuV&r and onwards. Get on it!"
 				""
-				"&aAdvanced SMDs&r are required for the &dCrystal&r Circuit line."
+				"Whilst you don't need these right now, &aAdvanced SMDs&r will become a hard requirement for the &dCrystal&r Circuit line. Note that using these in your current circuits will halve the recipe duration."
 			]
 			icon: "gtceu:advanced_smd_transistor"
 			id: "195E5BFDE4C5A0DE"
@@ -277,11 +277,19 @@
 			icon: "gtceu:iv_assembler"
 			id: "5CA86A333670A55C"
 			size: 0.75d
-			tasks: [{
-				id: "2BD1CC61E5122DC7"
-				item: "gtceu:iv_assembler"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2BD1CC61E5122DC7"
+					item: "gtceu:iv_assembler"
+					type: "item"
+				}
+				{
+					id: "5E8D6AA09A113AE0"
+					item: "gtceu:large_assembler"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "IV Assembler"
 			x: 0.375d
 			y: 3.75d
@@ -655,6 +663,8 @@
 				""
 				"You can also use them for &dBeacons&r if you desire the permanent potion effects. Finally, a vanilla multiblock!"
 				""
+				"We've added a recipe for Nether Star Dust in this pack."
+				""
 				"On the topic of the &aNether Air&r which is required in the recipe: take a look at &9Liquid Nether Air&r distillation at your own leisure. It's quite rewarding."
 				""
 				"&o&8Did you know the vanilla Nether Star texture isn't centred? :)"
@@ -729,6 +739,8 @@
 		{
 			dependencies: ["2F9D9AAB27E6534D"]
 			description: [
+				"Congratulations on making it this far!"
+				""
 				"Progressing into &dLuV&r will require more than &aRhodium Plated Palladium&r and &9LuV Circuits&r alone. You'll also need the &3Assembly Line&r."
 				""
 				"The &4resource costs&r for components will also start to increase &4significantly&r as you work towards &eFusion&r."
@@ -740,6 +752,12 @@
 				"If your power generation is relying on &3Large Turbines&r, you can pick up the &3LuV Rotor Holder&r."
 			]
 			id: "4F6E351C5F676618"
+			rewards: [{
+				id: "02E9F7E9FF906F4E"
+				item: "gtceu:rhodium_dust"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.3d
 			subtitle: "The main &dLuV&r material"
@@ -769,8 +787,8 @@
 				type: "item"
 			}]
 			title: "Multiblock Miner II"
-			x: 6.0d
-			y: 0.375d
+			x: 5.860969387755098d
+			y: 0.5221428571428568d
 		}
 		{
 			dependencies: ["216E5A3574AC08BF"]
@@ -1021,11 +1039,19 @@
 			icon: "gtceu:iv_cutter"
 			id: "7CC40BDAA803D044"
 			size: 0.75d
-			tasks: [{
-				id: "5365FC750B24814B"
-				item: "gtceu:iv_cutter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5365FC750B24814B"
+					item: "gtceu:iv_cutter"
+					type: "item"
+				}
+				{
+					id: "749F36AC9B4B92B1"
+					item: "gtceu:large_cutter"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "IV Cutting Machine"
 			x: 1.5d
 			y: 3.75d
@@ -1037,7 +1063,7 @@
 				""
 				"&9Helmet:&r Provides &dNight vision&r (default keybind &4M&r but check for conflicts), prevents harmful potion effects, and automatically eats for you!"
 				""
-				"&9Chestplate:&r Nullifies burning, but can be further upgraded into the &aAdvanced&r version at the very end of &dLuV&r Age. Note that this does NOT include a jetpack without the advanced upgrade."
+				"&9Chestplate:&r Nullifies burning, but can be further upgraded into the &aAdvanced&r version at the very end of &dLuV&r. Note that this does NOT include a jetpack without the advanced upgrade."
 				""
 				"&9Leggings:&r Provides the speed boost which the Nano leggings did not."
 				""

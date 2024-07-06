@@ -832,6 +832,8 @@
 				"You'll want to go and collect quite a bit of Iron, because you're going to need &9a bunch&r very soon. If you're struggling to find some, the &aOre Generation&r quest tab contains a lot of information on &eore veins&r. You may also want to check the Ore Spawn Information and Ore Byproduct List tabs in &2JEI&r."
 				""
 				"Any of the raw ores we're asking for can be directly smelted into Iron. That comes to &dfour different veins&r that can give you Iron."
+				""
+				"Lastly, Fortune &cdoes not&r work on GregTech ores, &7unfortunately&r."
 				"{@pagebreak}"
 				"Whilst it may be common habit to hoard ore in &bmodded Minecraft&r prior to unlocking some kind of &aore multiplication&r, don't worry about ore processing yet. Direct smelting remains the most efficient method for a long, &olong&r while, given how easy it is to obtain a lot of ore in a &emining trip&r."
 				""
@@ -1082,7 +1084,7 @@
 				""
 				"It is used to make &aCoke&r from &eCoal&r, or &aCharcoal&r from &eWood&r, in addition to &dliquid Creosote&r as a &3bonus&r output."
 				""
-				"Take a look at the &6Multiblock Preview&r tab in JEI to see the structure pattern."
+				"Take a look at the &6Multiblock Preview&r tab in JEI (press &dU&r over the controller block of any Multiblock!) to see the structure pattern."
 				"{@pagebreak}"
 				"&9Note:&r &lAny&r Brick block can be replaced with a &3Coke Oven Hatch&r. You can have up to five of them."
 				""
@@ -1095,6 +1097,12 @@
 			icon: "gtceu:coke_oven"
 			id: "4946FC5BCA4CCA88"
 			min_required_dependencies: 1
+			rewards: [{
+				id: "60891A0DEF29E9A1"
+				item: "gtceu:exquisite_coke_gem"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.2d
 			subtitle: "Your first big project... hopefully"
@@ -1557,6 +1565,12 @@
 				"The logs also offer &duseful resources&r when processed in future."
 			]
 			id: "5193DD03C0742548"
+			rewards: [{
+				id: "4D70B6467A188FDD"
+				item: "gtceu:sticky_resin"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 0.66d
 			subtitle: "No, this isn't IC2"

@@ -360,11 +360,11 @@
 				"0BADFBA6F96E457E"
 			]
 			description: [
-				"This Quest will be completed with &eeither&r a &3ZPM Energy Hatch&r&r... or a &3ZPM Dynamo Hatch&r for your Multiblock Generators."
+				"This Quest will be completed with &eeither&r a &3UV Energy Hatch&r&r... or a &3UV Dynamo Hatch&r for your Multiblock Generators."
 				""
 				"Don't forget that &d16 Amp&r variants exist!"
 				""
-				"Additionally, remember that these hatches require a &9Data Orb&r for research."
+				"Additionally, remember that these hatches require a &9Data Module&r for research."
 			]
 			icon: "gtceu:uv_energy_input_hatch"
 			id: "2F2F82D9DE3C798C"

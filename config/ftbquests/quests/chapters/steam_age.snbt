@@ -106,9 +106,9 @@
 				""
 				"The &3Solar Boiler&r burns nothing - it's fueled by the sun."
 				""
-				"Looking for a recommendation? Honestly, either goes, as both boilers are equivalent in generation. Craft the boiler that best suits your preferred resource."
+				"Looking for a recommendation? Honestly, either goes, as all three boilers are equivalent in generation. Craft the boiler that best suits your preferred resource."
 				""
-				"Get &eeither&r of the two proposed boilers to complete this quest."
+				"Get &eany&r of the proposed boilers to complete this quest."
 			]
 			icon: "gtceu:hp_steam_solid_boiler"
 			id: "2FD75E4BD95F6645"
@@ -175,7 +175,7 @@
 				""
 				"Build the structure using &4JEI's Multiblock preview tab&r."
 				"{@pagebreak}"
-				"Steel will be &9of utmost importance&r throughout the entire game, so make sure you keep that PBF running."
+				"Steel will be &9of utmost importance&r throughout the entire game, so make sure you keep that PBF running. We should clarify that the PBF isn't the only way to get Steel throughout your playthrough, though!"
 				""
 				"Steel also has &6double the durability&r compared to regular Iron for GregTech tools. It also provides &6Diamond mining level&r, and is much faster."
 			]
@@ -231,6 +231,8 @@
 				"&l&3Lore:&r&o  In GregTech 5, one single Ingot of Steel would take you &d360 seconds&f in the PBF when using Coal or Charcoal! That's over &e6 hours&f for a whole stack! Of course, with 4 PBFs, that would cut it down to &3around 1.5 hours&f."
 				""
 				"&oPollution was also (infamously) a thing, so four of these monsters would guarantee your character would periodically get negative effects such as slowness, mining fatigue, or even nausea and poison."
+				""
+				"&oPollution is actually integrated into GregTech Modern, but we've graciously disabled it in the configs. You can re-enable it if you're up for a challenge."
 			]
 			icon: "gtceu:steel_ingot"
 			id: "5D17DFCF6672404C"
@@ -268,7 +270,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["5D17DFCF6672404C"]
+			dependencies: ["40DE888E6025C646"]
 			description: [
 				"Now that you have Steel, you can make a &3Flint and Steel&r. You now have access to the &4Nether&r."
 				""
@@ -379,7 +381,7 @@
 		{
 			dependencies: ["77EA56D16A9B3BFC"]
 			description: [
-				"Good news - we're going to start to cut down on the amount of components you'll need to submit for quests as you progress further into the modpack. Remember that &2JEI is your friend&r if recipes are getting overwhelming."
+				"Good news - we're going to start to cut down on the amount of components you'll need to submit for quests as you progress further into the modpack. Remember that &2JEI is your true mentor&r if recipes are getting overwhelming."
 				""
 				"Getting back on topic, set yourself up for &7LV&r by crafting six &aLV Electric Motors&r! This may seem like a lot, but that's the bare minimum required to get to the good stuff in &7LV&r."
 				""
@@ -411,23 +413,21 @@
 			description: [
 				"Obtaining paper is both more difficult and less efficient than in vanilla. Thanks, Greg."
 				""
-				"You'll need to grind &aSugar Canes&r into &aPaper Dust&r, and then smush the dust with a mallet and water."
+				"You'll need to grind &aSugar Canes&r into &aChad&r, and then smush the dust with a mallet and water."
 				"{@pagebreak}"
 				"&9Note 1:&r Don't worry, we're not cruel enough to have the recipe consume the bucket."
 				"{@pagebreak}"
 				"&9Note 2:&r Make a manual Sugar Cane farm. You could also automate one with Observers and Pistons. Shoutout to any &aNomifactory&r veterans."
 				"{@pagebreak}"
-				"&9Note 3:&r As a reminder, Bone Meal can be used on Sugar Canes."
+				"&9Note 3:&r When you reach &7LV&r, you'll be able to make Paper from Wood."
 				"{@pagebreak}"
-				"&9Note 4:&r When you reach &7LV&r, you'll be able to make Paper from Wood."
+				"&9Note 4:&r The Crafting Station makes this microcrafting absolutely &2trivial&r - use it!"
 				"{@pagebreak}"
-				"&9Note 5:&r The Crafting Station makes this microcrafting absolutely &2trivial&r - use it!"
+				"&9Note 5:&r Paper will be used as a poor-quality wrapping material for the upcoming resistors."
 				"{@pagebreak}"
-				"&9Note 6:&r Paper will be used as a poor wrapping material for the upcoming resistors."
+				"&9Note 6:&r It is truly a pleasure to share this moment with you, our fellow Greg enjoyer."
 				"{@pagebreak}"
-				"&9Note 7:&r It is truly a pleasure to share this moment with you, our fellow Greg enjoyer."
-				"{@pagebreak}"
-				"&l&3Lore:&r&o In GTCEu 1.12.2, Paper Dust was instead named Chad, prompting this quest to be full of memes."
+				"&9Note 7:&r Yes, Paper Dust is really called that. Let's get the giggles out of the way now, shall we?"
 			]
 			id: "76B70EF552B35779"
 			rewards: [{
@@ -570,9 +570,10 @@
 			]
 			id: "1436DB89E21264F3"
 			rewards: [{
-				count: 64
+				count: 16
 				id: "4B856E1E30618E4D"
 				item: "gtceu:sticky_resin"
+				random_bonus: 48
 				type: "item"
 			}]
 			shape: "square"
@@ -782,6 +783,12 @@
 				"&6This quest unlocks a new tutorial on Steam in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
 			]
 			id: "03DBF1961AE21C76"
+			rewards: [{
+				count: 4
+				id: "5A98072E0B3DBC41"
+				item: "gtceu:bronze_dust"
+				type: "item"
+			}]
 			shape: "square"
 			size: 0.75d
 			subtitle: "Surprisingly Steamy"
@@ -876,9 +883,10 @@
 			icon: "minecraft:glass"
 			id: "249374557D095913"
 			rewards: [{
-				count: 16
+				count: 2
 				id: "662203C8B58AE656"
 				item: "minecraft:glass"
+				random_bonus: 14
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -1193,7 +1201,7 @@
 		{
 			dependencies: ["1C50A758A1DE25CB"]
 			description: [
-				"In its simplest form, Ore Processing in GregTech boils down to &aconverting one Ore into two Ingots through two Dusts&r, like several other tech mods. "
+				"In its simplest form, Ore Processing in GregTech boils down to &aconverting one Ore Block into two Ingots through two Dusts&r, like several other tech mods. "
 				""
 				"The added spice is the amount of steps, either optional or required."
 				""
@@ -1221,15 +1229,18 @@
 				"&o...or perhaps it was the opposite?&r"
 				""
 				"The &3Steam Grinder&r can pulverize &6large batches of items quickly&r and effortlessly&r, sort of like a parallel Macerator."
+				""
+				"This thing is incredibly good for its tier. It's actually as strong as 5.3 &6HV&r Macerators, and only requires a trickle of Steam to power."
 				"{@pagebreak}"
 				"&l&3Lore:&r&o This Multiblock originally comes from GT++. It required Tumbaga to craft, an alloy with a mix of Gold and Bronze."
 			]
 			icon: "gtceu:steam_grinder"
 			id: "7FF95F1216D104B2"
 			rewards: [{
-				count: 24
+				count: 8
 				id: "36B5ABA86707D569"
 				item: "gtceu:bronze_ingot"
+				random_bonus: 16
 				type: "item"
 			}]
 			shape: "square"
@@ -1282,9 +1293,10 @@
 			icon: "gtceu:steam_oven"
 			id: "6C25D11A26306168"
 			rewards: [{
-				count: 24
+				count: 8
 				id: "72D375E16194CAE2"
 				item: "gtceu:bronze_ingot"
+				random_bonus: 16
 				type: "item"
 			}]
 			shape: "square"
@@ -1352,6 +1364,12 @@
 				tag: { }
 			}
 			id: "7DDCB711526F37A0"
+			rewards: [{
+				count: 4
+				id: "3463AA941A74C11C"
+				item: "gtceu:certus_quartz_gem"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 0.66d
 			subtitle: "A higher-tech Backpack! "

@@ -156,13 +156,13 @@
 				""
 				"The &3Automatic Maintenance Hatch&r is pretty simple - it eliminates the need for Maintenance, &6forever&r."
 				""
-				"The &3Configurable Maintenance Hatch&r is more interesting. You can configure it to cut off &a10% duration&r on recipes, at the cost of making Maintenance happen three times as fast. That is &d16 real hours&r of activity."
+				"The &3Configurable Maintenance Hatch&r is more interesting. You can configure it to cut off &a10% duration&r on recipes, at the cost of making Maintenance happen three times as fast. That's &d16 real hours&r of activity."
 				""
 				"&9Reminder:&r You can put Tape in the maintenance Hatch to automatically fix problems."
 				"{@pagebreak}"
 				"&l&3Lore:&r&o The Automatic Maintenance Hatch texture and mechanic comes from TecTech, an addon mod originally made for GregTech: New Horizons. "
 				""
-				"&oYou'll see more from TecTech if you stick with us with the late game."
+				"&oYou'll see more from TecTech if you stick with us all the way to the late game."
 			]
 			icon: "gtceu:configurable_maintenance_hatch"
 			id: "15645E46CC0E6764"
@@ -1033,6 +1033,8 @@
 				"&aToluene&r can also optionally be used in &5EV&r to make &dGasoline&r."
 				""
 				"&cTNT&r is used in the &3Implosion Compressor&r to make Gems. It also blows stuff (and your friends) up."
+				""
+				"Technically, Dynamite or Powerbarrels could also be used... but Dynamite is a pain to obtain, whereas Powerbarrels are weaker."
 			]
 			icon: "minecraft:tnt"
 			id: "2B7B214EDE0B45A2"
@@ -1170,7 +1172,7 @@
 				""
 				"It's required to get &aEnder Pearls&r."
 				""
-				"&cTNT&r can be used for the Implosion."
+				"&cTNT&r, &6Dynamite&r, and &ePowerbarrels&r can be used for the Implosion."
 			]
 			icon: "gtceu:implosion_compressor"
 			id: "1137D2BA7E03D685"
@@ -1373,29 +1375,6 @@
 			y: -0.75d
 		}
 		{
-			dependencies: ["6958029B5514D4EC"]
-			description: [
-				"Warning: Deprecated! You can't craft this anymore - try making the GT armours for mobility."
-				""
-				"With your new &bVacuum Freezer&r, you can now \"&ofreeze&r\" air into &aLiquid Air&r, granting access to &6Creative Flight&r! Do be sure to have a look at processing some additional &aLiquid Air&r - the products of its distillation are very appealing."
-				""
-				"&dXP Drain&r whilst flying has been &cdisabled&r in this pack."
-			]
-			icon: "better_angel_ring:angel_ring"
-			id: "4B4F53FB33DE1C62"
-			shape: "rsquare"
-			size: 0.66d
-			subtitle: "Modern-day Icarus"
-			tasks: [{
-				id: "6E9FE61644EE53AB"
-				item: "better_angel_ring:angel_ring"
-				type: "item"
-			}]
-			title: "I believe I can fly"
-			x: 9.0d
-			y: -5.25d
-		}
-		{
 			dependencies: ["4024C831C77101CA"]
 			description: [
 				"If you're looking for a change of scene, the &5Void Dimension&r is a perfectly empty area for you to build your factory."
@@ -1491,6 +1470,50 @@
 			title: "Nanomuscles, son!"
 			x: 4.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["4AFD3073C731A1E4"]
+			description: [
+				"With &5EV Circuits&r, you can compress your Coprocessors into &3Dense&r variants to get more value-for-money. "
+				""
+				"The crafting ratio is in your favour, so you'll likely have more &eparallel autocrafting power&r than you'd need to finish the pack."
+			]
+			icon: "mae2:4x_crafting_accelerator"
+			id: "1D8170A19E54C5B9"
+			size: 0.75d
+			subtitle: "Who are you calling Dense?"
+			tasks: [{
+				id: "074BEBAAF5C3FF1F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mae2:4x_crafting_accelerator"
+							}
+							{
+								Count: 1b
+								id: "mae2:16x_crafting_accelerator"
+							}
+							{
+								Count: 1b
+								id: "mae2:64x_crafting_accelerator"
+							}
+							{
+								Count: 1b
+								id: "mae2:256x_crafting_accelerator"
+							}
+						]
+					}
+				}
+				title: "Dense Coprocessors"
+				type: "item"
+			}]
+			title: "Dense Coprocessors"
+			x: 9.0d
+			y: -5.25d
 		}
 	]
 	subtitle: ["Scale up your power and begin advanced chemistry"]
