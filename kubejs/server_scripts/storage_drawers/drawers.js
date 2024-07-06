@@ -121,6 +121,15 @@ ServerEvents.recipes((event) => {
       .circuit(11)
       .duration(100)
       .EUt(16);
+    // Trim
+    event.shaped(
+      `storagedrawers:${woodType}_trim`,
+      ["PPP", "PsP", "PPP"],
+      {
+        P: `${woodType}_slab`,
+        s: "#forge:tools/saws"
+      }
+    )
   });
 
   // Controller
