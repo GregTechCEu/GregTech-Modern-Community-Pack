@@ -457,12 +457,12 @@ file = "kubejs/assets/sophisticatedbackpacks/textures/entity/backpack.png"
 hash = "a3f24536d05bd0dd3e98ecbb9479806e0df26be7ad7595dca92c469a3f4cc035"
 
 [[files]]
-file = "kubejs/client_scripts/jei_hidden.js"
-hash = "dd3951e38c6791116454de2b4390e43028e5d0eb59a6b43e72da3f89f5e4c0b1"
+file = "kubejs/client_scripts/jei_hidden_categories.js"
+hash = "4cc49cdff8a74cd0623af90c6687653071c17f12ff589e1d503f3e47fcc949f1"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "ae040908fab2d58a9a9cf2f0f6cd44718c96554be06d357a7931484576c50bb7"
+hash = "f6b3c13d27565e7e379d5db6872465c7a76451cf39baf9feb5649ea9258b9318"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -478,7 +478,7 @@ hash = "6ce6ecdeec19fe783f40622f0e6aafa0222da4529cab99499b3520e65598045c"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/ae2.js"
-hash = "041a648c4c08116d625714022d472b8f5c287301acc0cafdd5364525f8bf3ae6"
+hash = "e6126398eb36a866b0e3b1fa27cbdb1a43df4cf32fda056a2b855230ea8eccf1"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/cables.js"
@@ -497,16 +497,16 @@ file = "kubejs/server_scripts/appliedenergistics2/certus_quartz.js"
 hash = "4b8db54232c2656870078377ea6c6a97ec84f963a983da808f9398bdd1939df4"
 
 [[files]]
-file = "kubejs/server_scripts/appliedenergistics2/circuitry.js"
-hash = "1342b53647b3e562aefa3ea784182e34eee8ec3fbb707f3fb67128d51ac5e6a4"
-
-[[files]]
 file = "kubejs/server_scripts/appliedenergistics2/crafting_storage.js"
 hash = "e68a97b24aa63aa8290b9891b02af7499ccd7f9a1dc2ef2cc3d183d660c48177"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/extendedae2.js"
-hash = "1b3cc6b439fbd73ce1c88331cbecb6b1e5dea5fa3b81e6d9104958fb48e1ac1e"
+hash = "f64f32887ad2b3f6337bfd7f1ce4e153ca255d75c3b6298635fe666420ffe2ee"
+
+[[files]]
+file = "kubejs/server_scripts/appliedenergistics2/inscriber.js"
+hash = "f145c934308bdc1ed48d30ec81ac0a686ed40d27d0c3d0a615f08f0e8c2e2975"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/inter_providers.js"
@@ -541,36 +541,28 @@ file = "kubejs/server_scripts/appliedenergistics2/terminals.js"
 hash = "7588ffcb734f4ba3caecea9259dff93d4b66b4e7ebc1fe254645a6fb3fa3fa89"
 
 [[files]]
-file = "kubejs/server_scripts/architects_palette.js"
+file = "kubejs/server_scripts/building/architects_palette.js"
 hash = "a9dee8e45e19377df2b859b09fa3f8961d5c3bff8153148e05efac9adfb6cd07"
 
 [[files]]
-file = "kubejs/server_scripts/building_gadgets/gadgets.js"
+file = "kubejs/server_scripts/building/building_blocks.js"
+hash = "7f6211cb109430a122930248a14d8b799d1e39cff0d3c76d5f79fc5c46973eb2"
+
+[[files]]
+file = "kubejs/server_scripts/building/building_gadgets.js"
 hash = "9a309f6c36b3232028bbdf9720098913bdf8faafe7372a14cc41217f9548cd65"
 
 [[files]]
-file = "kubejs/server_scripts/charcoal.js"
-hash = "f1dcf9f1880d2e35f61c38e70fbbbb5038332ab709b1689cee3b8bb5a45579a1"
-
-[[files]]
-file = "kubejs/server_scripts/crafting_station/recipes.js"
-hash = "0fd47c3d6d427f14069e11bfb089e90834a4ddfb8c2984ec27af9a89715e9e89"
-
-[[files]]
-file = "kubejs/server_scripts/elden_ring.js"
-hash = "8924ed4e403f00c2b938907ae2a65573df7f7a838358aa01f24b69d138234137"
+file = "kubejs/server_scripts/building/xtones.js"
+hash = "b1e6f75d06497acaaf1d8d5136c7e55dbb0008ec2f7cbd97c8547027f94a5c1b"
 
 [[files]]
 file = "kubejs/server_scripts/gregtech/components.js"
-hash = "27e03a94b49b3d9373dc14c3dd763c01ae084260500ab525bec00171c047d57f"
+hash = "3479e3af0bae6fd37993b89a3a15f28161ed9b4ee2a0adbd754857421cbb7dab"
 
 [[files]]
 file = "kubejs/server_scripts/gregtech/greenhouse.js"
 hash = "adae0e40013f2c6cecd213c106f0f3f7cdafc04edda8e3bf24ab5bb856f9d06e"
-
-[[files]]
-file = "kubejs/server_scripts/gregtech/inscriber.js"
-hash = "f145c934308bdc1ed48d30ec81ac0a686ed40d27d0c3d0a615f08f0e8c2e2975"
 
 [[files]]
 file = "kubejs/server_scripts/gregtech/machines.js"
@@ -585,6 +577,10 @@ file = "kubejs/server_scripts/gregtech/wood_unification.js"
 hash = "3ef4090c877d7eae7e7b0426bd25d05e2abf3c1afa1eca49891ca83eb0cdd842"
 
 [[files]]
+file = "kubejs/server_scripts/miscellaneous.js"
+hash = "0bb9c58d3536c84b89a57ba68b39e97fa7531d1491a3e9852eca5a3e3f263878"
+
+[[files]]
 file = "kubejs/server_scripts/open_blocks/elevator.js"
 hash = "4d6982e281d7e1ea30640ac2600873a2119addb75fe26ee83459f9d5bb16e3fd"
 
@@ -593,12 +589,8 @@ file = "kubejs/server_scripts/open_blocks/hang_glider.js"
 hash = "c0f7355c24b9f386b34837722efd54b4205ebdb7fcd406cefd31d796a3b4a2ec"
 
 [[files]]
-file = "kubejs/server_scripts/open_blocks/magnets.js"
-hash = "cb12aa7dfdceb9a7017aa51de2859f84a561f906dd39434e66329346cba0281e"
-
-[[files]]
 file = "kubejs/server_scripts/removals.js"
-hash = "ce46d81c81949057c97c0ffdfa0ae336c6fe61a4833eafe591b9349a09bafd6c"
+hash = "968450442f137a9afd5066fd50b488dfb88bd86cd619c5e22b5be75c362564fc"
 
 [[files]]
 file = "kubejs/server_scripts/sophisticated_backpacks/backpacks.js"
@@ -610,7 +602,7 @@ hash = "a5f8f6e63d636dad1485f889a887c89ea690c245e804ba1b50ad0018d9847150"
 
 [[files]]
 file = "kubejs/server_scripts/storage_drawers/drawers.js"
-hash = "ce29cce42220fdd5d977e8f6d44d312ebbef0a3d2b90fe2d1686cbe7d21c04f2"
+hash = "1daec77e466c14ca5a8afd469959cafd35361edbad6738fe30112c190698385b"
 
 [[files]]
 file = "kubejs/server_scripts/storage_drawers/upgrades.js"
@@ -633,10 +625,6 @@ file = "kubejs/server_scripts/tags/items.js"
 hash = "c3d121f2c0a775cf83d6f22ec519def5e680df80e1b9584fe6b4daee53a6ca63"
 
 [[files]]
-file = "kubejs/server_scripts/tool_belt/recipes.js"
-hash = "998fa8dce80ef55b911dd560f35741d78a9b6b4f9283f03e3c26a3b9240ae4b5"
-
-[[files]]
 file = "kubejs/server_scripts/torchmaster.js"
 hash = "3662a4a03d284fb042e8abe6f1a6e6afcaf51bbce9aae5f1d613d6e8910a6a66"
 
@@ -645,12 +633,8 @@ file = "kubejs/server_scripts/vanilla/loot_drops.js"
 hash = "86a7d1aedc582604057fe23eed46a91e65484eb308945fa94d07567e61f5bf67"
 
 [[files]]
-file = "kubejs/server_scripts/vanilla/mob_drops.js"
+file = "kubejs/server_scripts/vanilla/vanilla.js"
 hash = "61cd02dea78ba9a592305f77581b2e043237a2a3a8a3baf3026b66617d266474"
-
-[[files]]
-file = "kubejs/server_scripts/xtones.js"
-hash = "b1e6f75d06497acaaf1d8d5136c7e55dbb0008ec2f7cbd97c8547027f94a5c1b"
 
 [[files]]
 file = "kubejs/startup_scripts/components/hsla-steel.js"
