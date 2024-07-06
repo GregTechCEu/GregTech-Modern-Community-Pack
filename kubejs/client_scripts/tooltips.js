@@ -10,6 +10,11 @@ ItemEvents.tooltip((event) => {
       "storagedrawers:compacting_drawers_3",
       "storagedrawers:fill_level_upgrade",
       "storagedrawers:illumination_upgrade",
+
+      "expatternprovider:caner",
+      "ae2:inscriber",
+      "expatternprovider:ex_inscriber",
+      "expatternprovider:ingredient_buffer"
     ],
     Text.red("Disabled in this modpack!").bold(true)
   );
@@ -25,4 +30,6 @@ ItemEvents.tooltip((event) => {
   );
 
   event.add("ae2:controller", Text.gray("Channels are §cdisabled§7."));
+
+  event.add("expatternprovider:fishbig", Text.gray("Congratulations! You won Minecraft."));
 });
