@@ -761,12 +761,12 @@ metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "a30167d1377ea9b999f7fafed780050354bb51e865516f9d00d670a4060d5d13"
+hash = "14b1ec5e16b3ce51752b10271a1457536acafdcacfeb807728478f337b34298e"
 metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "a1340ef019c460151263a2a5ea7093a87d4a89dedd89cc099c98027f2869790b"
+hash = "770818376a8b8a0df211c45f9d8eecb67c4556c6049d0aa51410b356502f79b4"
 metafile = true
 
 [[files]]
