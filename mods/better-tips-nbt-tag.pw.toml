@@ -1,0 +1,13 @@
+name = "Better Tag NBT Tips"
+filename = "BetterTags-1.20.1-1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1424c676217825cc6b121d7dd264af9718dccf69"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4636196
+project-id = 682363

@@ -721,6 +721,11 @@ hash = "a96886fe12b0156b383437c664125ca8989e7c972728a37e2ac36b35dcf29bec"
 metafile = true
 
 [[files]]
+file = "mods/better-tips-nbt-tag.pw.toml"
+hash = "261ae4f82f04156a7cdca06cc57c92ba3de364283e2b075bd5807087937f654b"
+metafile = true
+
+[[files]]
 file = "mods/bookshelf.pw.toml"
 hash = "058699e4832d0cf5396c5ea29244100f0c0e39a8d7aa5b64c2afdcc3cb8c8145"
 metafile = true
@@ -856,6 +861,11 @@ hash = "2a7944b951ebfaa4dcf963c3e2faf43eb8115d99a4390daa49dd8ea6676e8828"
 metafile = true
 
 [[files]]
+file = "mods/gregic-energistics.pw.toml"
+hash = "8141c2ddb53a5aaf49dc760509646dcdeee1bae5cdb50ac722bac4cf17eeac85"
+metafile = true
+
+[[files]]
 file = "mods/gregtechceu-modern.pw.toml"
 hash = "d71e4bc22ccfd285fb8e308297a642e2237773c7e3a2cf93297d34b67604c64c"
 metafile = true
@@ -931,8 +941,18 @@ hash = "0bb674b857580f12bd2c422af10506d98948b65838992fa7fc53c2e597cdbc56"
 metafile = true
 
 [[files]]
+file = "mods/modern-ae2-additions.pw.toml"
+hash = "32a7eca2d2bc02785b7df1b0f6fb17dfe512bab005293fbb9c5e8a7e1fe52486"
+metafile = true
+
+[[files]]
 file = "mods/modernfix.pw.toml"
 hash = "b1eca3f7a0293f8536a49d1391c07b18339702b1d085a7ba7275a780a1767f62"
+metafile = true
+
+[[files]]
+file = "mods/monomorphism.pw.toml"
+hash = "f433f6a0abbebd54ddd6aef1112b0a93946b4802f342dccfbcd39e197a73cd89"
 metafile = true
 
 [[files]]
