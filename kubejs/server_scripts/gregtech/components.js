@@ -1,5 +1,7 @@
 ServerEvents.recipes((event) => {
+
   const greg = event.recipes.gtceu;
+
   event.remove({ output: "gtceu:fluid_voiding_cover" });
   event.remove({ id: "gtceu:macerator/macerate_fluid_voiding_cover" });
   greg
