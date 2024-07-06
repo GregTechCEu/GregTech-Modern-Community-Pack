@@ -96,4 +96,87 @@ ServerEvents.recipes((event) => {
     B: "ae2:engineering_processor",
     C: "ae2:calculation_processor",
   });
+
+
+  event.remove({ id: "expatternprovider:ebus_out" })
+  greg.assembler("gtceu:ebus_out")
+    .itemInputs("2x ae2:export_bus", "2x ae2:speed_card", "#gtceu:circuits/hv")
+    .itemOutputs("expatternprovider:ex_export_bus_part")
+    .EUt(512).duration(100)
+
+  event.remove({ id: "expatternprovider:ebus_in" })
+  greg.assembler("gtceu:ebus_in")
+    .itemInputs("2x ae2:import_bus", "2x ae2:speed_card", "#gtceu:circuits/hv")
+    .itemOutputs("expatternprovider:ex_import_bus_part")
+    .EUt(512).duration(100)
+
+  event.remove({ id: "expatternprovider:epa" });
+  event.shaped("expatternprovider:ex_pattern_access_part", ["PL", "Cs"], {
+    P: "ae2:pattern_access_terminal",
+    L: "ae2:logic_processor",
+    C: "#gtceu:circuits/hv",
+    s: "#forge:tools/screwdrivers"
+  });
+
+  event.remove({ id: "expatternprovider:ebus_upgrade" })
+  greg.assembler("gtceu:ebus_upgrade")
+    .itemInputs("2x ae2:speed_card", "#gtceu:circuits/hv")
+    .itemOutputs("expatternprovider:io_bus_upgrade")
+    .circuit(1)
+    .EUt(512).duration(100)
+
+  event.remove({ id: "expatternprovider:epa_upgrade" })
+
+  event.remove({ id: "expatternprovider:tape" })
+  greg.assembler("gtceu:me_packing_tape")
+    .itemInputs("gtceu:duct_tape", "#forge:dusts/fluix")
+    .itemOutputs('expatternprovider:me_packing_tape')
+    .EUt(120).duration(50)
+
+  event.remove({ id: "expatternprovider:tag_storage_bus" })
+  event.shapeless('expatternprovider:tag_storage_bus', ["ae2:storage_bus", "gtceu:item_tag_filter"])
+
+  event.remove({ id: "expatternprovider:tag_export_bus" })
+  event.shapeless('expatternprovider:tag_export_bus', ["ae2:export_bus", "gtceu:item_tag_filter"])
+
+  event.remove({ id: "expatternprovider:precise_storage_bus" })
+  event.shapeless('expatternprovider:precise_storage_bus', ["ae2:storage_bus", "gtceu:lv_robot_arm"])
+
+  event.remove({ id: "expatternprovider:precise_export_bus" })
+  event.shapeless('expatternprovider:precise_export_bus', ["ae2:export_bus", "gtceu:lv_robot_arm"])
+
+  event.remove({ id: "expatternprovider:threshold_export_bus" })
+  event.shapeless('expatternprovider:threshold_export_bus', ["ae2:export_bus", "gtceu:item_detector_cover"])
+
+  event.remove({ id: "expatternprovider:ingredient_buffer" })
+
+  event.remove({ id: "expatternprovider:ex_drive" })
+  greg.assembler("gtceu:ex_drive")
+    .itemInputs("2x ae2:drive", "2x ae2:capacity_card", "#gtceu:circuits/hv")
+    .itemOutputs('expatternprovider:ex_drive')
+    .EUt(120).duration(200)
+
+  event.remove({ id: "expatternprovider:ex_molecular_assembler" })
+  greg.assembler("gtceu:ex_molecular_assembler")
+    .itemInputs("3x ae2:molecular_assembler", "2x ae2:capacity_card", "#gtceu:circuits/hv")
+    .itemOutputs('expatternprovider:ex_molecular_assembler')
+    .EUt(120).duration(200)
+
+  event.remove({ id: "expatternprovider:ex_inscriber" })
+  event.remove({ id: "expatternprovider:ex_charger" })
+  event.remove({ id: "expatternprovider:crystal_fixer" })
+  event.remove({ id: "expatternprovider:caner" })
+
+  event.remove({ id: "expatternprovider:ex_io_port" })
+  greg.assembler("gtceu:ex_io_port")
+    .itemInputs("2x ae2:io_port", "2x ae2:capacity_card", "ae2:speed_card")
+    .itemOutputs('expatternprovider:ex_io_port')
+    .EUt(120).duration(200)
+
+  event.remove({ id: "expatternprovider:fishbig" })
+  greg.compressor("fishbig")
+    .itemInputs("64x #minecraft:fishes")
+    .itemOutputs("expatternprovider:fishbig")
+    .EUt(1).duration(631152000)
+
 });
