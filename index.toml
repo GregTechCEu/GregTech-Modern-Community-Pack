@@ -706,7 +706,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-tips-nbt-tag.pw.toml"
-hash = "261ae4f82f04156a7cdca06cc57c92ba3de364283e2b075bd5807087937f654b"
+hash = "e639a69ffef5b2ffa685834c9f8b5c406d5ab125028567edf83d84de228ed686"
 metafile = true
 
 [[files]]
@@ -761,7 +761,7 @@ metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "14b1ec5e16b3ce51752b10271a1457536acafdcacfeb807728478f337b34298e"
+hash = "a2888c614afd7ad2e06e8b6e5a1d2d8fc18e950b0c3855ae6adb459eb3778a30"
 metafile = true
 
 [[files]]
@@ -826,7 +826,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "ce53103abf7f065fe965bfad755232e65add707246e53e371d8ab0fae816cba3"
+hash = "66ec7b08fcc332a745f9a7f79f81b26efeabd90a5a9588ae36ede46e41ff1096"
 metafile = true
 
 [[files]]
@@ -931,7 +931,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "b1eca3f7a0293f8536a49d1391c07b18339702b1d085a7ba7275a780a1767f62"
+hash = "a57bc1e770ea4c0caae72f0de43960ebfc446b2d3b75744111e4bc75298b208b"
 metafile = true
 
 [[files]]
