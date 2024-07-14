@@ -82,7 +82,7 @@ ServerEvents.recipes((event) => {
     [
       Item.of("minecraft:potion").withNBT({
         Potion: "minecraft:water",
-      }),
+      }).strongNBT(),
       "#forge:dusts/sugar",
       "#forge:dusts/stone",
       "#forge:dusts/lead",
@@ -95,7 +95,7 @@ ServerEvents.recipes((event) => {
     [
       Item.of("minecraft:potion").withNBT({
         Potion: "minecraft:water",
-      }),
+      }).strongNBT(),
       "#forge:dusts/redstone",
       "#forge:dusts/sugar",
       "#forge:dusts/stone",
