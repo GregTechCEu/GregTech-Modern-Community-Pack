@@ -69,7 +69,7 @@ ServerEvents.recipes((event) => {
   createRecipe("#forge:dyes/gray", "tank")
   createRecipe("#forge:dyes/black", "vect")
   createRecipe("#forge:dyes/light_blue", "vena")
-  createRecipe("#forge:dusts/clay", "zane")
+  createRecipe("#forge:ingots/clay", "zane")
   createRecipe("#forge:dusts/iron", "zech")
   createRecipe("snowball", "zest")
   createRecipe("string", "zeta")
