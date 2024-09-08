@@ -324,9 +324,9 @@
 					id: "73A16ED7BA7D64E8"
 					item: {
 						Count: 1
-						id: "itemfilters:tag"
+						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							value: "forge:lenses"
+							"ftbfiltersystem:filter": "item_tag(forge:lenses)"
 						}
 					}
 					optional_task: true
@@ -799,18 +799,9 @@
 					id: "73EB2C49B40116E2"
 					item: {
 						Count: 1
-						id: "itemfilters:or"
+						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "gtceu:cleanroom_glass"
-								}
-								{
-									Count: 1b
-									id: "gtceu:plascrete"
-								}
-							]
+							"ftbfiltersystem:filter": "or(item(gtceu:cleanroom_glass)item(gtceu:plascrete))"
 						}
 					}
 					optional_task: true
@@ -1486,26 +1477,9 @@
 				id: "074BEBAAF5C3FF1F"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "mae2:4x_crafting_accelerator"
-							}
-							{
-								Count: 1b
-								id: "mae2:16x_crafting_accelerator"
-							}
-							{
-								Count: 1b
-								id: "mae2:64x_crafting_accelerator"
-							}
-							{
-								Count: 1b
-								id: "mae2:256x_crafting_accelerator"
-							}
-						]
+						"ftbfiltersystem:filter": "or(item(mae2:4x_crafting_accelerator)item(mae2:16x_crafting_accelerator)item(mae2:64x_crafting_accelerator)item(mae2:256x_crafting_accelerator))"
 					}
 				}
 				title: "Dense Coprocessors"

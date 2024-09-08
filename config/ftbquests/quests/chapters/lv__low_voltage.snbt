@@ -252,9 +252,9 @@
 					id: "02A2F0C2179EB4E3"
 					item: {
 						Count: 1
-						id: "itemfilters:tag"
+						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							value: "forge:ingots/battery_alloy"
+							"ftbfiltersystem:filter": "item_tag(forge:ingots/battery_alloy)"
 						}
 					}
 					title: "Any #forge:ingots/battery_alloy"
@@ -734,9 +734,9 @@
 				id: "47D0D12A26963702"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "gtceu:batteries/lv"
+						"ftbfiltersystem:filter": "item_tag(gtceu:batteries/lv)"
 					}
 				}
 				title: "Any LV Battery"
@@ -768,22 +768,9 @@
 				id: "35FEF4BB8295416C"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:lv_battery_buffer_4x"
-							}
-							{
-								Count: 1b
-								id: "gtceu:lv_battery_buffer_8x"
-							}
-							{
-								Count: 1b
-								id: "gtceu:lv_battery_buffer_16x"
-							}
-						]
+						"ftbfiltersystem:filter": "or(item(gtceu:lv_battery_buffer_4x)item(gtceu:lv_battery_buffer_8x)item(gtceu:lv_battery_buffer_16x))"
 					}
 				}
 				title: "LV Battery Buffer"
@@ -1459,18 +1446,9 @@
 				id: "4AA56628D87A3AF9"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:fluid_voiding_cover"
-							}
-							{
-								Count: 1b
-								id: "gtceu:item_voiding_cover"
-							}
-						]
+						"ftbfiltersystem:filter": "or(item(gtceu:fluid_voiding_cover)item(gtceu:item_voiding_cover))"
 					}
 				}
 				title: "Voiding Covers"
@@ -1893,42 +1871,9 @@
 				id: "10F588EB061EB2EA"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:lv_rock_crusher"
-							}
-							{
-								Count: 1b
-								id: "gtceu:mv_rock_crusher"
-							}
-							{
-								Count: 1b
-								id: "gtceu:hv_rock_crusher"
-							}
-							{
-								Count: 1b
-								id: "gtceu:ev_rock_crusher"
-							}
-							{
-								Count: 1b
-								id: "gtceu:iv_rock_crusher"
-							}
-							{
-								Count: 1b
-								id: "gtceu:luv_rock_crusher"
-							}
-							{
-								Count: 1b
-								id: "gtceu:zpm_rock_crusher"
-							}
-							{
-								Count: 1b
-								id: "gtceu:uv_rock_crusher"
-							}
-						]
+						"ftbfiltersystem:filter": "or(item(gtceu:lv_rock_crusher)item(gtceu:mv_rock_crusher)item(gtceu:hv_rock_crusher)item(gtceu:ev_rock_crusher)item(gtceu:iv_rock_crusher)item(gtceu:luv_rock_crusher)item(gtceu:zpm_rock_crusher)item(gtceu:uv_rock_crusher))"
 					}
 				}
 				title: "Rock Crusher"
@@ -1958,50 +1903,9 @@
 				id: "07BF7F14849A3027"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:ulv_charger_4x"
-							}
-							{
-								Count: 1b
-								id: "gtceu:lv_charger_4x"
-							}
-							{
-								Count: 1b
-								id: "gtceu:mv_charger_4x"
-							}
-							{
-								Count: 1b
-								id: "gtceu:hv_charger_4x"
-							}
-							{
-								Count: 1b
-								id: "gtceu:ev_charger_4x"
-							}
-							{
-								Count: 1b
-								id: "gtceu:iv_charger_4x"
-							}
-							{
-								Count: 1b
-								id: "gtceu:luv_charger_4x"
-							}
-							{
-								Count: 1b
-								id: "gtceu:zpm_charger_4x"
-							}
-							{
-								Count: 1b
-								id: "gtceu:uv_charger_4x"
-							}
-							{
-								Count: 1b
-								id: "gtceu:uhv_charger_4x"
-							}
-						]
+						"ftbfiltersystem:filter": "or(item(gtceu:ulv_charger_4x)item(gtceu:lv_charger_4x)item(gtceu:mv_charger_4x)item(gtceu:hv_charger_4x)item(gtceu:ev_charger_4x)item(gtceu:iv_charger_4x)item(gtceu:luv_charger_4x)item(gtceu:zpm_charger_4x)item(gtceu:uv_charger_4x)item(gtceu:uhv_charger_4x))"
 					}
 				}
 				title: "Turbo Charger"
@@ -2032,26 +1936,9 @@
 				id: "07BA97A0F04F0876"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:lv_fisher"
-							}
-							{
-								Count: 1b
-								id: "gtceu:mv_fisher"
-							}
-							{
-								Count: 1b
-								id: "gtceu:hv_fisher"
-							}
-							{
-								Count: 1b
-								id: "gtceu:ev_fisher"
-							}
-						]
+						"ftbfiltersystem:filter": "or(item(gtceu:lv_fisher)item(gtceu:mv_fisher)item(gtceu:hv_fisher)item(gtceu:ev_fisher))"
 					}
 				}
 				title: "Fisher"
@@ -2080,42 +1967,9 @@
 				id: "5924F0A33AD22EC9"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:lv_world_accelerator"
-							}
-							{
-								Count: 1b
-								id: "gtceu:mv_world_accelerator"
-							}
-							{
-								Count: 1b
-								id: "gtceu:hv_world_accelerator"
-							}
-							{
-								Count: 1b
-								id: "gtceu:ev_world_accelerator"
-							}
-							{
-								Count: 1b
-								id: "gtceu:iv_world_accelerator"
-							}
-							{
-								Count: 1b
-								id: "gtceu:luv_world_accelerator"
-							}
-							{
-								Count: 1b
-								id: "gtceu:zpm_world_accelerator"
-							}
-							{
-								Count: 1b
-								id: "gtceu:uv_world_accelerator"
-							}
-						]
+						"ftbfiltersystem:filter": "or(item(gtceu:lv_world_accelerator)item(gtceu:mv_world_accelerator)item(gtceu:hv_world_accelerator)item(gtceu:ev_world_accelerator)item(gtceu:iv_world_accelerator)item(gtceu:luv_world_accelerator)item(gtceu:zpm_world_accelerator)item(gtceu:uv_world_accelerator))"
 					}
 				}
 				title: "World Accelerators"

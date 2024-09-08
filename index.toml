@@ -820,6 +820,11 @@ hash = "338a509612b221c50bac4f918bb1e127105c16dd835e17a65feb6c954fa8cb8a"
 metafile = true
 
 [[files]]
+file = "mods/ftb-filter-system.pw.toml"
+hash = "861fbd37ddfb6fbc634b339e3b9aeef435c6a04f8c18e949bf0784ff0a6bf9d4"
+metafile = true
+
+[[files]]
 file = "mods/ftb-library-forge.pw.toml"
 hash = "26d469d4c4b9aedb1daf28e8f17ee5a1d28691ca3c78403dfb67e49616493001"
 metafile = true
@@ -872,11 +877,6 @@ metafile = true
 [[files]]
 file = "mods/inventory-profiles-next.pw.toml"
 hash = "eaa736452bf3da46fc44d67988dfb2d94700d2a5911f7b39e6a618b339115dcd"
-metafile = true
-
-[[files]]
-file = "mods/item-filters.pw.toml"
-hash = "c2f89cba385ca7de4d55fcdf87817bb9c72f6dd511a8e8233bd44c0040b87c94"
 metafile = true
 
 [[files]]

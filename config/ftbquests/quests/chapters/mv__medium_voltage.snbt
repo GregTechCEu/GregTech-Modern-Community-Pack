@@ -280,22 +280,9 @@
 				id: "1F170291094582D6"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:mv_steam_turbine"
-							}
-							{
-								Count: 1b
-								id: "gtceu:mv_gas_turbine"
-							}
-							{
-								Count: 1b
-								id: "gtceu:mv_combustion"
-							}
-						]
+						"ftbfiltersystem:filter": "or(item(gtceu:mv_steam_turbine)item(gtceu:mv_gas_turbine)item(gtceu:mv_combustion))"
 					}
 				}
 				title: "MV Generators"
@@ -556,22 +543,9 @@
 				id: "431D533510584687"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:lv_miner"
-							}
-							{
-								Count: 1b
-								id: "gtceu:mv_miner"
-							}
-							{
-								Count: 1b
-								id: "gtceu:hv_miner"
-							}
-						]
+						"ftbfiltersystem:filter": "or(item(gtceu:lv_miner)item(gtceu:mv_miner)item(gtceu:hv_miner))"
 					}
 				}
 				title: "Any of the listed Miners"
@@ -1582,9 +1556,9 @@
 				id: "5FEE671A75766B78"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "gtceu:batteries/mv"
+						"ftbfiltersystem:filter": "item_tag(gtceu:batteries/mv)"
 					}
 				}
 				title: "Any MV Battery"
@@ -1740,26 +1714,9 @@
 					id: "21FF6E45F9AC5E76"
 					item: {
 						Count: 1
-						id: "itemfilters:or"
+						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "gtceu:lv_pump"
-								}
-								{
-									Count: 1b
-									id: "gtceu:mv_pump"
-								}
-								{
-									Count: 1b
-									id: "gtceu:hv_pump"
-								}
-								{
-									Count: 1b
-									id: "gtceu:ev_pump"
-								}
-							]
+							"ftbfiltersystem:filter": "or(item(gtceu:lv_pump)item(gtceu:mv_pump)item(gtceu:hv_pump)item(gtceu:ev_pump))"
 						}
 					}
 					title: "Any Pump will do"
@@ -1805,9 +1762,9 @@
 					id: "7B6C7E6C11D68E06"
 					item: {
 						Count: 1
-						id: "itemfilters:tag"
+						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							value: "forge:ores/oilsands"
+							"ftbfiltersystem:filter": "item_tag(forge:ores/oilsands)"
 						}
 					}
 					optional_task: true
@@ -1870,18 +1827,9 @@
 				id: "685043442271A0D0"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:lv_distillery"
-							}
-							{
-								Count: 1b
-								id: "gtceu:mv_distillery"
-							}
-						]
+						"ftbfiltersystem:filter": "or(item(gtceu:lv_distillery)item(gtceu:mv_distillery))"
 					}
 				}
 				title: "Either an LV or MV Distillery"
@@ -2055,18 +2003,9 @@
 				id: "2620FA131244B3DA"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:potin_quadruple_fluid_pipe"
-							}
-							{
-								Count: 1b
-								id: "gtceu:potin_nonuple_fluid_pipe"
-							}
-						]
+						"ftbfiltersystem:filter": "or(item(gtceu:potin_quadruple_fluid_pipe)item(gtceu:potin_nonuple_fluid_pipe))"
 					}
 				}
 				title: "Multiple Channel Potin Pipes, please"
