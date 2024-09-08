@@ -684,9 +684,9 @@
 					id: "08814DD921835365"
 					item: {
 						Count: 1
-						id: "itemfilters:tag"
+						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							value: "forge:gems/nether_star"
+							"ftbfiltersystem:filter": "item_tag(forge:gems/nether_star)"
 						}
 					}
 					title: "Nether Star"
@@ -1008,18 +1008,9 @@
 				id: "2EC4E901B2CD35FA"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:iv_energy_input_hatch"
-							}
-							{
-								Count: 1b
-								id: "gtceu:iv_energy_output_hatch"
-							}
-						]
+						"ftbfiltersystem:filter": "or(item(gtceu:iv_energy_input_hatch)item(gtceu:iv_energy_output_hatch))"
 					}
 				}
 				title: "IV Dynamo/Energy Hatch"

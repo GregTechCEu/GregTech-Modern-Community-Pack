@@ -32,22 +32,9 @@
 				id: "77ECBBA179EC9B3F"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:hp_steam_compressor"
-							}
-							{
-								Count: 1b
-								id: "gtceu:hp_steam_alloy_smelter"
-							}
-							{
-								Count: 1b
-								id: "gtceu:hp_steam_forge_hammer"
-							}
-						]
+						"ftbfiltersystem:filter": "or(item(gtceu:hp_steam_compressor)item(gtceu:hp_steam_alloy_smelter)item(gtceu:hp_steam_forge_hammer))"
 					}
 				}
 				title: "Look at all these HP machines..."
@@ -139,22 +126,9 @@
 				id: "0DC74FB54995F3F1"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:hp_steam_solid_boiler"
-							}
-							{
-								Count: 1b
-								id: "gtceu:hp_steam_liquid_boiler"
-							}
-							{
-								Count: 1b
-								id: "gtceu:hp_steam_solar_boiler"
-							}
-						]
+						"ftbfiltersystem:filter": "or(item(gtceu:hp_steam_solid_boiler)item(gtceu:hp_steam_liquid_boiler)item(gtceu:hp_steam_solar_boiler))"
 					}
 				}
 				title: "High Pressure Boilers"
@@ -720,18 +694,9 @@
 				id: "006E5756DD2CFB97"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:bronze_small_fluid_pipe"
-							}
-							{
-								Count: 1b
-								id: "gtceu:bronze_normal_fluid_pipe"
-							}
-						]
+						"ftbfiltersystem:filter": "or(item(gtceu:bronze_small_fluid_pipe)item(gtceu:bronze_normal_fluid_pipe))"
 					}
 				}
 				title: "Bronze Fluid Pipe"
@@ -1017,18 +982,9 @@
 				id: "159D19181DC4DE59"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:potin_small_fluid_pipe"
-							}
-							{
-								Count: 1b
-								id: "gtceu:potin_normal_fluid_pipe"
-							}
-						]
+						"ftbfiltersystem:filter": "or(item(gtceu:potin_small_fluid_pipe)item(gtceu:potin_normal_fluid_pipe))"
 					}
 				}
 				title: "Potin Pipes!"
@@ -1139,9 +1095,9 @@
 				id: "49E114B96843E5C9"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "forge:ingots/invar"
+						"ftbfiltersystem:filter": "item_tag(forge:ingots/invar)"
 					}
 				}
 				title: "Invar Ingot"
@@ -1179,9 +1135,9 @@
 					id: "3704C06203B7485A"
 					item: {
 						Count: 1
-						id: "itemfilters:tag"
+						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							value: "forge:plates/wood"
+							"ftbfiltersystem:filter": "item_tag(forge:plates/wood)"
 						}
 					}
 					optional_task: true
@@ -1474,22 +1430,9 @@
 				id: "158F4EEDC214A3BA"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:tin_small_item_pipe"
-							}
-							{
-								Count: 1b
-								id: "gtceu:nickel_small_item_pipe"
-							}
-							{
-								Count: 1b
-								id: "gtceu:cobalt_small_item_pipe"
-							}
-						]
+						"ftbfiltersystem:filter": "or(item(gtceu:tin_small_item_pipe)item(gtceu:nickel_small_item_pipe)item(gtceu:cobalt_small_item_pipe))"
 					}
 				}
 				title: "Earlygame Item Pipes"

@@ -614,22 +614,9 @@
 				id: "4BCA4F8ED0041BF6"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:hv_diode"
-							}
-							{
-								Count: 1b
-								id: "gtceu:ev_diode"
-							}
-							{
-								Count: 1b
-								id: "gtceu:iv_diode"
-							}
-						]
+						"ftbfiltersystem:filter": "or(item(gtceu:hv_diode)item(gtceu:ev_diode)item(gtceu:iv_diode))"
 					}
 				}
 				title: "Any of these diodes"
@@ -1150,9 +1137,9 @@
 					id: "1BE01DA0E8A143FB"
 					item: {
 						Count: 1
-						id: "itemfilters:tag"
+						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							value: "forge:dusts/uraninite"
+							"ftbfiltersystem:filter": "item_tag(forge:dusts/uraninite)"
 						}
 					}
 					optional_task: true
@@ -1200,9 +1187,9 @@
 					id: "767C47FF351DAE3B"
 					item: {
 						Count: 1
-						id: "itemfilters:tag"
+						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							value: "forge:ingots/plutonium"
+							"ftbfiltersystem:filter": "item_tag(forge:ingots/plutonium)"
 						}
 					}
 					title: "Plutonium Ingot"
@@ -1364,9 +1351,9 @@
 					id: "3E2FBCED1C782E7C"
 					item: {
 						Count: 1
-						id: "itemfilters:tag"
+						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							value: "forge:ingots/silicone_rubber"
+							"ftbfiltersystem:filter": "item_tag(forge:ingots/silicone_rubber)"
 						}
 					}
 					optional_task: true
@@ -1377,9 +1364,9 @@
 					id: "3CF87D26761354C4"
 					item: {
 						Count: 1
-						id: "itemfilters:tag"
+						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							value: "forge:plates/silicone_rubber"
+							"ftbfiltersystem:filter": "item_tag(forge:plates/silicone_rubber)"
 						}
 					}
 					title: "Silicone Rubber Plate"
@@ -1777,18 +1764,9 @@
 				id: "35CAC76B502E12FF"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:ev_arc_furnace"
-							}
-							{
-								Count: 1b
-								id: "gtceu:iv_arc_furnace"
-							}
-						]
+						"ftbfiltersystem:filter": "or(item(gtceu:iv_arc_furnace)item(gtceu:ev_arc_furnace))"
 					}
 				}
 				title: "Arc Furnace"
@@ -1816,26 +1794,9 @@
 				id: "3B898812B1C35440"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:ev_input_hatch_4x"
-							}
-							{
-								Count: 1b
-								id: "gtceu:ev_input_hatch_9x"
-							}
-							{
-								Count: 1b
-								id: "gtceu:ev_output_hatch_4x"
-							}
-							{
-								Count: 1b
-								id: "gtceu:ev_output_hatch_9x"
-							}
-						]
+						"ftbfiltersystem:filter": "or(item(gtceu:ev_input_hatch_4x)item(gtceu:ev_input_hatch_9x)item(gtceu:ev_output_hatch_4x)item(gtceu:ev_output_hatch_9x))"
 					}
 				}
 				title: "Multiple Fluid Hatches"
