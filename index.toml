@@ -518,7 +518,7 @@ hash = "f64f32887ad2b3f6337bfd7f1ce4e153ca255d75c3b6298635fe666420ffe2ee"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/inscriber.js"
-hash = "f145c934308bdc1ed48d30ec81ac0a686ed40d27d0c3d0a615f08f0e8c2e2975"
+hash = "9d7b9fab086897c3448beb9a8b6120d71312d9bf382726f8d108793c33efdebb"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/inter_providers.js"
