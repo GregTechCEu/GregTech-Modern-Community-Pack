@@ -1,0 +1,13 @@
+name = "Ender Storage 1.8.+"
+filename = "EnderStorage-1.20.1-2.11.0.188-universal.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "19a4935881634bdb98aad4aba6e548b13ffaded7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5292573
+project-id = 245174
