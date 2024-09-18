@@ -21,7 +21,7 @@
 			description: [
 				"This modpack is intended as a guide on &b&lGregtech: Community Edition Unofficial Modern&r&r (also known as &aGTCEu Modern&r or &aCEu Modern&r), a continuation of &aGTCE&r - which is in itself a fork of Gregtech."
 				""
-				"New content has been added to each and every tier, even going up to &3Ultimate Voltage,&r and there is also a non-negligible amount of &dQuality of Life&r."
+				"New content has been added to every tier, even going up to &3Ultimate Voltage,&r and there is also a non-negligible amount of new &dQuality of Life&r."
 				""
 				"&aCEu Modern&r brings the mod up to date with &erecent versions&r of Minecraft &o(as of writing this)&r. You can open the questbook with the default keybind &6F4&r, but feel free to change it if it isn't to your tastes."
 				"{@pagebreak}"
@@ -184,11 +184,11 @@
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"Were you aware that &aGregTech&r comes with its own set of tools? If not, you'll be pleasantly surprised to hear that they &6&lsurpass&r their vanilla equivalents."
+				"Were you aware that &aGregTech&r comes with its own set of tools? If not, you may also be pleasantly surprised to hear that they &6&lsurpass&r their vanilla equivalents."
 				""
 				"Let's use the GregTech Axe as an example. If you use one to mine a log in a tree, it'll fell the &2entire tree&r for you. Timber!"
 				""
-				"Constant \"lumberjacking\" will eat through your Axe's &9durability&r in seconds, so you may want to make your Axe out of a &estronger material&r such as &bDiamond&r. Just be careful you don't make a vanilla Diamond Axe!"
+				"Constant \"lumberjacking\" will eat through your Axe's &9durability&r in seconds, so you may want to make your Axe out of a &estronger material&r such as &bDiamond&r. Just be careful you don't make a vanilla Diamond Axe."
 				""
 				"As a reward, take these &2Spruce saplings&r and use them to make some big trees. You'll need to do a lot of smelting in the near future, and planks will tide you over as an &deffective&r fuel source!"
 			]
@@ -1391,7 +1391,7 @@
 			description: [
 				"Iron, Copper and Tin will only get you so far. &4Redstone&r and &bDiamond&r will occasionally be required during the &6Steam Age&r, whereas Nickel, Lead and Silver are also nice to have. All will come in handy &asoon enough&r."
 				""
-				"&oConsult the ore tab if you're struggling to find these materials!&r"
+				"&o&8Consult the ore tab if you're struggling to find these materials!&r"
 			]
 			icon: "gtceu:silver_ingot"
 			id: "62212F2B51AC779E"
@@ -1535,7 +1535,7 @@
 			description: [
 				"New to this updated pack is a &dGuides + More&r section. The information inside is available to view at any time, but whenever it becomes relevant, you will be &6directed towards it&r for some light reading."
 				""
-				"The information found inside may interest you if you would like a &adeeper insight&r into some of &bGTCEu's mechanics&r, and in some cases is absolutely indispensable."
+				"The information found inside may interest you if you would like &amore of an insight&r into some of &bGTCEu's mechanics&r - and in some cases, is absolutely indispensable."
 				""
 				"Quests that unlock a tutorial node will have an &6orange-ish descriptor&r at the bottom of the quest description."
 				""
@@ -1586,16 +1586,16 @@
 		}
 		{
 			description: [
-				"Has this pack made you want to try some other &bGregTech Modern&r modpacks?"
+				"Think this pack is &atoo easy&r? Wanting some unique experiences to sink your teeth into?"
 				""
-				"Here are some &acurated&r recommendations!"
+				"We've gathered some GTCEu Modern-flavored recommendations in this quest."
 				"{@pagebreak}"
 				"&lCosmic Frontiers"
 				"- &7Ghostipedia et al."
 				""
-				"&dCosmic Frontiers&r is a 1.20.1 modpack centered around &bdifficult gameplay&r and the interactions of many mods alongside GTCEu Modern. You'll explore the stars above and travel to the depths below, all whilst managing your &esanity and needs&r against the &ahorrors&r trapped in your universe!"
+				"&dCosmic Frontiers&r is a 1.20.1 modpack with gameplay &ba little more difficult&r than this pack, and a focus on interactions between many mods and GTCEu Modern. You'll explore the stars above and travel to the depths below, all whilst tackling &eintricately woven&r progression that ties together the &7mechanical&r and the &5arcane&r."
 				""
-				"In its current state, the pack is considered to be in &2early alpha&r. However, you can still progress through base CEu to &3UHV&r."
+				"In its current state, the pack is considered to be in &2early alpha&r. However, progress has been curated through &3LuV&r. It's an experience like no other!"
 				"{@pagebreak}"
 				"&lAll the Mods: Gravitas 2"
 				"- &7ATMTeam"

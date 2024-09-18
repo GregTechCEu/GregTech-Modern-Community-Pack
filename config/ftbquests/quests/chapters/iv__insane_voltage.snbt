@@ -20,7 +20,7 @@
 				"300348B1238BCB9A"
 				"7A1E3C3A2D699C5B"
 			]
-			description: ["This Superconductor will be required for progression during &dLuV&r when you delve deeper into &bResearch&r."]
+			description: ["This Superconductor will be required for progression during &dLuV&r... when you delve deeper into &bResearch&r."]
 			icon: "gtceu:samarium_iron_arsenic_oxide_double_wire"
 			id: "52D952ADBEB67454"
 			size: 0.75d
@@ -76,13 +76,9 @@
 				""
 				"The ever-tempting &6Coil bonuses&r&r should be high incentive to make those early, as they become mandatory only during &dLuV&r."
 				""
-				"At this point, you may go back to using only one &3Electric Blast Furnace&r for your entire base, powering with the highest available Voltage you have."
+				"At this point, you may find yourself using only one &3Electric Blast Furnace&r for your entire base, powered with the highest available Voltage you can supply."
 				""
-				"&6Hot Metals&r will start taking longer to cool down, as the &3Vacuum Freezer&r doesn't get perfect overclocks. For that, you probably want a dual (or quad) &3Vacuum Freezer&r."
-				"{@pagebreak}"
-				"&7Why are the ingots blue-ish, but the coils yellow?"
-				""
-				"&8Well, dear player... that's a brilliant question."
+				"&6Hot Metals&r will start taking longer to cool down, as unlike your EBFs, the &3Vacuum Freezer&r doesn't get perfect overclocks. For that, you probably want a dual (or quad) &3Vacuum Freezer&r."
 			]
 			icon: "gtceu:hssg_coil_block"
 			id: "7A1E3C3A2D699C5B"
@@ -101,11 +97,11 @@
 		{
 			dependencies: ["069FD86133D7D582"]
 			description: [
-				"&7High-Speed Steels&r (HSS) are more resistant Steel Alloys typically used in Rails."
+				"&7High-Speed Steels&r (HSS) are resistant Steel alloys typically used in rails."
 				""
 				"If you previously made &dUltimet&r for whatever reason, you've already acquired &aMolybdenum&r. Otherwise, it can be found in a Nether vein."
 				""
-				"We hope you have a lot of &9Tungstensteel&r, because you're still gonna need more! It's used for the creation of &aHSS&r alloys - in this case, &aHSS-G&r."
+				"We hope you have a lot of &9Tungstensteel&r, because you're gonna need more! It's used for the creation of &aHSS&r alloys - in this case, &aHSS-G&r."
 			]
 			hide_dependency_lines: true
 			id: "1776FA1F3255731E"
@@ -149,9 +145,9 @@
 				"58BBD540D7D4FF01"
 			]
 			description: [
-				"When running the &3Extreme Combustion Engine&r, you're gonna want to boost it! &mWhy bother otherwise?&r"
+				"When running the &3Extreme Combustion Engine&r, you're gonna want to boost it! &m&7Why bother otherwise?&r"
 				""
-				"Get yourself a &34A IV Dynamo Hatch&r as the output, and one &3Vacuum Freezer&r for &aLiquid Oxygen&r."
+				"Get yourself a &34A IV Dynamo Hatch&r as the output, and set up a &3Vacuum Freezer&r to provide &aLiquid Oxygen&r."
 				""
 				"You should now be wielding the equivalent of 1 &dLuV&r Amp, all whilst burning fuel at &6200% efficiency&r!"
 				""
@@ -220,7 +216,7 @@
 				"7CFC112B8F460549"
 			]
 			description: [
-				"Better &aSMDs&r to make far more complex Circuits at a much cheaper price? We're sold!"
+				"Better &aSMDs&r? SMDs that'll unlock far cheaper - and faster - Circuit recipes? We're sold!"
 				""
 				"These'll require Alloys that you haven't made yet, most of which will be commonly used in &dLuV&r and onwards. Get on it!"
 				""
@@ -562,48 +558,6 @@
 		}
 		{
 			dependencies: [
-				"5E6BA54E8A5BEBDE"
-				"14D277A164202FF8"
-				"6B128610C7D2825D"
-			]
-			description: [
-				"The &3Processing Array&r was a powerful &6automation tool&r... one that'll &4end up deprecated&r in future release, so don't bother making one! It combined several single block machines into one single multiblock. Use the Gregicality Multiblocks machines instead!"
-				""
-				"You would have started off by placing up to &d16&r Machines into the &3Machine Access Interface&r."
-				""
-				"The &3PA&r would then &asimulate&r all the machines you put inside, as if they were running at the same time."
-				""
-				"This means recipes could now be performed up to &d16&r at a time - this is true &4parallelisation&r!"
-				""
-				"&6This quest still unlocks a new tutorial on parallel techniques in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
-				"{@pagebreak}"
-				"&l&3Lore:&r&o In GregTech 5, the Data Orb was used in the Matter Replicator to store the \"data\" of the material you wanted to replicate. There is no replication here - the Orb is now a mere crafting component."
-				""
-				"&oAdditionally, GregTech 5's PA and other Multiblocks acted as a Cleanroom. There's no such thing here!"
-			]
-			icon: "gtceu:iv_processing_array"
-			id: "2DAC91AF2EBB68E2"
-			size: 0.75d
-			subtitle: "The PA did so little but so much"
-			tasks: [
-				{
-					id: "515EDFE316170EEA"
-					item: "gtceu:iv_processing_array"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "63D543FE6880FBCC"
-					title: "I won't make a PA, promise!"
-					type: "checkmark"
-				}
-			]
-			title: "Processing Array"
-			x: 6.0d
-			y: 4.875d
-		}
-		{
-			dependencies: [
 				"0988B5FB795FF7DA"
 				"383B789B654C4094"
 				"69E384F389B0D07B"
@@ -745,11 +699,9 @@
 				""
 				"The &4resource costs&r for components will also start to increase &4significantly&r as you work towards &eFusion&r."
 				""
-				"If you haven't got automation for nearly everything, now (in &1IV&r) is a good time to do it."
+				"If you haven't got automation for nearly everything, now (in &1IV&r) is a good time to do it. Take advantage of the power granted by &2Gregicality Multiblocks&r!"
 				""
-				"Make use of &3Processing Arrays&r or all the special &2GCYM Multiblocks&r."
-				""
-				"If your power generation is relying on &3Large Turbines&r, you can pick up the &3LuV Rotor Holder&r."
+				"If your power generation relies on &3Large Turbines&r, you can pick up the &3LuV Rotor Holder&r."
 			]
 			id: "4F6E351C5F676618"
 			rewards: [{

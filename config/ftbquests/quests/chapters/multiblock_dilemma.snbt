@@ -155,7 +155,7 @@
 			id: "2206AD45E6B2389C"
 			linked_quest: "77B7B1EDD19831E0"
 			x: 10.5d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			icon: {
@@ -170,34 +170,34 @@
 			id: "454772220042D94B"
 			linked_quest: "188A8C3DD38C2762"
 			shape: "rsquare"
-			x: 10.5d
+			x: 9.0d
 			y: 4.5d
 		}
 		{
 			id: "7B3367C356023F61"
 			linked_quest: "4E9DED9569AA17F5"
-			x: 9.0d
+			x: 7.5d
 			y: 4.5d
 		}
 		{
 			id: "246855660369CA56"
 			linked_quest: "0F539EC8D2361791"
 			shape: "rsquare"
-			x: 7.5d
+			x: 6.0d
 			y: 4.5d
 		}
 		{
 			id: "278D7192878C56AC"
 			linked_quest: "189F84D6C76CDC8B"
 			shape: "rsquare"
-			x: 6.0d
+			x: 4.5d
 			y: 4.5d
 		}
 		{
 			id: "18F88B89C6DD238E"
 			linked_quest: "1137D2BA7E03D685"
-			x: 4.5d
-			y: 4.5d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			id: "052E542D4D30CC93"
@@ -228,19 +228,6 @@
 			y: 6.0d
 		}
 		{
-			id: "20FEF24F801577EF"
-			linked_quest: "2DAC91AF2EBB68E2"
-			x: 4.5d
-			y: 6.0d
-		}
-		{
-			id: "5926D9421E5D2E5D"
-			linked_quest: "4194EC9F1C6632E4"
-			shape: "rsquare"
-			x: 6.0d
-			y: 6.0d
-		}
-		{
 			id: "1D2DEC9BC14B9F64"
 			linked_quest: "546CC03435E763CF"
 			x: 7.5d
@@ -256,6 +243,48 @@
 			id: "2B1E630DF1ED5624"
 			linked_quest: "023FF9633765A0EB"
 			x: 10.5d
+			y: 6.0d
+		}
+		{
+			id: "51629B05A3C81438"
+			linked_quest: "15923B47D23CCF34"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "4C699B01E796956B"
+			linked_quest: "42760D3A86EFDCA3"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			id: "3C83BADDBD49A9A0"
+			linked_quest: "3B2D2C47BEBCFFA7"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			id: "2E4EAB3AA43475DE"
+			linked_quest: "5979B0E13A1EDC9C"
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			id: "44E62DF813E665B8"
+			linked_quest: "1AD003487B4EC2EF"
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			id: "7D6A34563B438084"
+			linked_quest: "468EEFD9D2F69014"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			id: "5DD2CD862F61FB2F"
+			linked_quest: "1D6CC3C7F6BE4055"
+			x: 6.0d
 			y: 6.0d
 		}
 	]

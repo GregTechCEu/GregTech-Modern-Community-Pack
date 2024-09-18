@@ -571,7 +571,7 @@
 		{
 			dependencies: ["3B2D2C47BEBCFFA7"]
 			description: [
-				"Simply put, Gregicality Multiblocks are larger versions of the GregTech machines you might be familiar with. The obvious increase in resource cost is worth your time, as they can be upgraded to gain the ability to process recipes in parallel - similar to the Processing Array multiblock you will encounter soon enough."
+				"Simply put, Gregicality Multiblocks are larger versions of the GregTech machines you might be familiar with. The obvious increase in resource cost is worth your time, as they can be upgraded to gain the ability to process recipes in parallel."
 				"{@pagebreak}"
 				"They also introduce Machine Modes - depending on the configured machine mode, the Multiblock will use a different recipe type when processing materials. You can change this from the machine GUI by clicking on the Robot Arm button."
 				"{@pagebreak}"
@@ -589,7 +589,7 @@
 			y: 1.98d
 		}
 		{
-			dependencies: ["2DAC91AF2EBB68E2"]
+			dependencies: ["3B2D2C47BEBCFFA7"]
 			description: [
 				"&lWhy go parallel?"
 				""
@@ -599,7 +599,7 @@
 				""
 				"Power cost is based on the current recipe being run, times the number of &4parallel&r being performed."
 			]
-			icon: "gtceu:iv_processing_array"
+			icon: "gtceu:zpm_parallel_hatch"
 			id: "255929EB845E200D"
 			size: 0.75d
 			tasks: [{

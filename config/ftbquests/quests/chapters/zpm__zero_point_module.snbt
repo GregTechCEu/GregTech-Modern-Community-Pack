@@ -324,9 +324,9 @@
 				"{@pagebreak}"
 				"&l&3Lore:&r&o GTCEu's Sterilized Growth Medium chain is loosely based off of Bartworks' from GTNH. The main difference is that GTNH required a Bacterial Vat multiblock, which was more complex than the ordered Assembly Line. GTCEu is considering adding a multiblock like it but with their own spin in the future."
 				"{@pagebreak}"
-				"&l&More Lore:&r&o In Gregicality Legacy, the Sterilized Growth Medium production chain was very different. It was one of the most difficult processes in the mod, with over 30 complicated steps! It was based off of producing different real-life vitamins and nutrients."
+				"&l&3More Lore:&r&o In Gregicality Legacy, the Sterilized Growth Medium production chain was very different. It was one of the most difficult processes in the mod, with over 30 complicated steps! It was based off of producing different real-life vitamins and nutrients."
 				"{@pagebreak}"
-				"&l&Even More Lore:&r&o In Shadows of Greg, this was made with just Distilled Water and Mince Meat. How far we've come..."
+				"&l&3Even More Lore:&r&o In Shadows of Greg, this was made with just Distilled Water and Mince Meat. How far we've come..."
 			]
 			id: "6AFDA523304711DB"
 			size: 0.75d

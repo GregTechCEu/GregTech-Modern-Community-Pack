@@ -320,11 +320,6 @@
 			]
 			icon: "gtceu:crafting_table_cover"
 			id: "1C767009F505A813"
-			rewards: [{
-				id: "05BAD11184608890"
-				item: "gtceu:crafting_table_cover"
-				type: "item"
-			}]
 			shape: "rsquare"
 			size: 0.66d
 			subtitle: "Extra utility without taking up blockspace!"
@@ -585,7 +580,7 @@
 			description: [
 				"The Sifter sifts &dGem type&r &aPurified Ores&r to find &aExquisite&r and &aFlawless&r Gems, which can be cut into normal Gems. It also finds &aPurified Dusts&r of that gem. Overall, this gives a &6higher yield&r than other means."
 				""
-				"A small amount of &dFlawless Emerald&r will be required in &bMV&r, and running ores in &3Sifting Machine&r is how you obtain them."
+				"A small amount of &dFlawless Emeralds&r will be required in &bMV&r, and running ores in &3Sifting Machine&r is how you obtain these."
 				""
 				"Each higher tier of &3Sifter&r increases the chance of all Gem types to be found, at the cost of more energy. "
 				""
@@ -1191,7 +1186,7 @@
 					type: "item"
 				}
 			]
-			title: "Combo!"
+			title: "C-C-Combo!"
 			x: 5.625d
 			y: 5.625d
 		}
@@ -1222,10 +1217,13 @@
 				"4B979482EF026BFF"
 			]
 			description: [
-				"With &7LV&r power, the only way of getting &aAluminium Dust&r is by electrolyzing &9Sapphire&r or &2Green Sapphire&r. Aluminium is the main &bMV&r material, similar to how Steel is crucial in &7LV&r, and Bronze is important in the &6Steam Age&r."
+				"With &7LV&r power, the primary way of getting &aAluminium Dust&r is by electrolyzing &9Sapphire&r or &2Green Sapphire&r. Aluminium is the main &bMV&r material, similar to how Steel is crucial in &7LV&r, and Bronze is important in the &6Steam Age&r."
+				""
+				"It's possible to obtain Aluminium by processing ores such as &6Fullers' Earth&r, but the commitment required to see similar yields is more than sourcing your Aluminium from &3Sapphire&r. For this reason, you can &5skip the quest&r with the checkbox."
 				""
 				"It would be wise to obtain enough Sapphire to electrolyze into a full stack of &aAluminium Dust&r - it &lwill&r be useful very soon. Plus, bonus Oxygen is always nice."
 			]
+			icon: "gtceu:sapphire_dust"
 			id: "2F1CCFEBAB71B1F3"
 			rewards: [{
 				count: 12
@@ -1235,12 +1233,20 @@
 			}]
 			size: 0.75d
 			subtitle: "One Step Closer To MV"
-			tasks: [{
-				count: 6L
-				id: "3B6DC3146DB686BF"
-				item: "gtceu:sapphire_dust"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 6L
+					id: "3B6DC3146DB686BF"
+					item: "gtceu:sapphire_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1AF7F9E162724B49"
+					title: "I'm not finding any Sapphire, thank you."
+					type: "checkmark"
+				}
+			]
 			title: "Sapphire"
 			x: -2.25d
 			y: 5.625d
@@ -1486,7 +1492,7 @@
 				"581CDF545E1EA1FD"
 			]
 			description: [
-				"Hm... didn't we make this joke already?"
+				"&8Wait, we're not in the Steam Age anymore!"
 				""
 				"The reason we didn't present &7LV&r versions of &6Steam&r machines is because they are &4NOT&r required. You might not want to invest into an upgrade that does next to nothing. Except for &othis one&r specifically, because it's a big improvement over the &6Steam Age&r."
 				""
@@ -1935,7 +1941,7 @@
 				type: "item"
 			}]
 			title: "Cobble is Life"
-			x: 4.5d
+			x: 4.29d
 			y: 0.0d
 		}
 		{
@@ -2008,7 +2014,7 @@
 				type: "item"
 			}]
 			title: "Turbo Charger"
-			x: 5.625d
+			x: 5.28d
 			y: 0.0d
 		}
 		{
@@ -2058,7 +2064,7 @@
 				type: "item"
 			}]
 			title: "Fishing 50"
-			x: 6.75d
+			x: 6.2700000000000005d
 			y: 0.0d
 		}
 		{
@@ -2230,6 +2236,106 @@
 			title: "Oh Yeah, we Drillin'"
 			x: 5.519855442176862d
 			y: 4.124574829931966d
+		}
+		{
+			dependencies: ["648BCF486E16CCB2"]
+			description: [
+				"&o&7This quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&r"
+				""
+				"The &3Block Breaker&r... well, we'll &dleave it to you&r to figure out what this one does. There are likely some &anifty farms&r you can create with clever usage of this machine - especially with the &6many vanilla mechanics&r introduced between 1.12.2 and 1.20.1!"
+				""
+				"Higher tiers of &3Block Breaker&r come with an additional speed bonus."
+				""
+				"&eAny&r Block Breaker will complete this Quest."
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:lv_block_breaker"
+			id: "12DF2E5269BE87D5"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "I've had it with these blocks!"
+			tasks: [{
+				id: "3FF25D11627A1D05"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_block_breaker"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_block_breaker"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hv_block_breaker"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ev_block_breaker"
+							}
+						]
+					}
+				}
+				title: "Block Breakers"
+				type: "item"
+			}]
+			title: "Break the Targets!"
+			x: 7.26d
+			y: 0.0d
+		}
+		{
+			dependencies: ["648BCF486E16CCB2"]
+			description: [
+				"&o&7This quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&r"
+				""
+				"&3Item Collectors&r will pick up items - similar to any kind of &aVacuum Chest&r you may be familiar with from &dother mods&r."
+				""
+				"Higher tiers of &3Collector&r will increase the &ecollection radius&r over multiple chunks. This can be useful if your farm relies on in-world drops, such as &bSugar Cane&r, or... &7uh, bizarrely,&r &8chicken eggs.&r"
+				""
+				"&eAny&r Item Collector will complete this Quest."
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:lv_item_collector"
+			id: "112189FE1A12537A"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Oops, dropped my Pickaxe."
+			tasks: [{
+				id: "4FB4D157D57EF9C8"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_item_collector"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_item_collector"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hv_item_collector"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ev_item_collector"
+							}
+						]
+					}
+				}
+				title: "Item Collectors"
+				type: "item"
+			}]
+			title: "Gotta Catch 'Em All"
+			x: 8.25d
+			y: 0.0d
 		}
 	]
 	subtitle: ["Tame electricity and make your first machines"]

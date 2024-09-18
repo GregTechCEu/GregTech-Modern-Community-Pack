@@ -452,7 +452,7 @@
 				"7567E885B7166603"
 				"0DBC148D92A9F69F"
 			]
-			description: ["The Advanced Electrolyzer allows you to decompose &6far more&r Dusts. This will make getting materials such as &aAluminium&r&o a lot easier!"]
+			description: ["The Advanced Electrolyzer allows you to decompose &6far more&r Dusts. This will make getting materials such as &aAluminium&r&o a lot&r easier!"]
 			icon: "gtceu:mv_electrolyzer"
 			id: "0EFEE489906256AA"
 			shape: "square"
@@ -845,8 +845,8 @@
 				"&3Kanthal Heating Coils&r are the next major step in progression. They increase the temperature of your &3Blast Furnace&r to &d2,700K&r, allowing you to process new materials. They may also &eaccelerate&r less hot recipes - check the quest to the top-left for details."
 				""
 				"You will need a staggering &a128 Ingots&r for a full set of Coils, which will easily take over an hour. We advise that you move on to other projects while your &3EBF&r is hard at work - that or build another one!"
-				""
-				"An &3MV Chemical Bath&r is required to cool &cHot Ingots&r down. They're &chot&r when held, as the name implies. &oMaybe you should save your hands and automate this...&r"
+				"{@pagebreak}"
+				"An &3MV Chemical Bath&r is required to cool &cHot Ingots&r down. They're &chot&r when held, as the name implies. &o&7Maybe you should save your hands and automate this...&r"
 				""
 				"With the construction of a &3Kanthal EBF&r, you're now able to make &dSilicon Ingots&r!"
 			]
@@ -1565,11 +1565,9 @@
 				"6D9D54FAB21EC086"
 			]
 			description: [
-				"&bMV&r Batteries will be convenient to buffer Energy, just like &7LV&r."
+				"&bMV&r Batteries will appeal to you if you want to buffer Energy, just like &7LV&r."
 				""
-				"The cost in &aSodium&r, &aLithium&r or &aCadmium&r jumps up to 8 dusts, so you may use whatever you have the most of."
-				""
-				"The difference in capacity is not that huge after all."
+				"The cost in &aSodium&r, &aLithium&r or &aCadmium&r jumps up to 8 dusts, so you should use whatever you have the most of. The difference in capacity isn't &7THAT&r huge, after all!"
 				""
 				"Get &eeither&r Battery to complete the Quest."
 			]
@@ -1666,7 +1664,7 @@
 				""
 				"Fluid veins are stored within regions of &48x8 chunks&r. Each vein has a different fluid, but they are mostly types of Oil."
 				""
-				"You are not able to carry out prospecting for fluid veins &oyet&r - this will come at &6HV&r."
+				"You can't carry out prospecting for fluid veins &oyet&r - this will come at &6HV&r."
 				"{@pagebreak}"
 				"Each vein generates with a different base yield. This is typically between &d150L&r to &d300L per second&r."
 				""
@@ -1707,8 +1705,6 @@
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"&4Oil Spouts unfortunately &lhaven't&r&4 been implemented yet, but the information here is still useful."
-				""
 				"Get any kind of &3Pump&r, place it above an Oil spout and... give it some power."
 				""
 				"Do &cnot&r pump above an Ocean, as the pump will attempt to pull water, resulting in getting the pump stuck. Sorry!"
@@ -1778,7 +1774,7 @@
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"The underground has pure Oilsands ore veins. You may &3centrifuge&r the Dust to get &aOil&r."
+				"Underground, you may come across pure Oilsands ore veins. You can &3centrifuge&r the Dust to get &aOil&r."
 				""
 				"&9&lNote:&r&l The Oil path is one path towards &9&lEthylene&r&l. The other paths involve getting natural with some Ethanol.&r"
 				""
@@ -2281,10 +2277,10 @@
 			size: 0.5d
 			subtitle: "...still not quite there."
 			tasks: [{
-				id: "39D43B06F1ECBAF0"
+				id: "1940421A45E45E25"
 				item: {
 					Count: 1
-					id: "gtceu:liquid_fuel_jetpack"
+					id: "gtceu:electric_jetpack"
 					tag: { }
 				}
 				type: "item"

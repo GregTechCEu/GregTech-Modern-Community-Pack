@@ -49,13 +49,13 @@
 		{
 			dependencies: ["16B735F9C391D260"]
 			description: [
-				"It's time to be blunt - Steam as a power option isn't gonna cut the mustard anymore. If you're going to stick with Steam until the bitter end, we wish you luck... read on."
+				"It's time to be blunt - Steam as a power option isn't gonna cut the mustard anymore. If you're going to stick with Steam until the bitter end, we wish you luck... so read on."
 				""
-				"The &3Large Steam Turbine&r acts as a multiblock Steam Turbine for &6HV&r power. It's quite an expensive multiblock to build just for a measly 1024 EU/t, but it also boasts the powerful ability to scale to &9higher Power Production and higher Efficiency&r."
+				"The &3Large Steam Turbine&r acts as a multiblock Steam Turbine for &6HV&r power. It's quite an expensive multiblock to build just for a measly 1024 EU/t, but it also boasts the powerful ability to scale to &9higher power production and higher efficiency&r."
 				""
 				"&8(We're trying our best to sell it here, okay?!)"
 				"{@pagebreak}"
-				"The Turbine outputs &dDistilled Water&r if given an &3Output Hatch&r, which you could loop back to your &3Large Boilers&r. We don't entirely endorse this, as your Boilers will end up exploding if the system fails."
+				"The Turbine outputs &dDistilled Water&r if given an &3Output Hatch&r, which you could loop back to your &3Large Boilers&r. We don't entirely endorse this, as your Boilers could end up exploding if this system fails."
 				""
 				"Each Large Turbine will require a &aTurbine Rotor&r and a &3Rotor Holder&r. You can find out more about the Turbine mechanics in the &lnext&r Quest."
 				"{@pagebreak}"
@@ -120,7 +120,7 @@
 			description: [
 				"Starting from here, &3Energy&r and &3Dynamo Hatches&r can be upgraded to a &d4A&r variant."
 				""
-				"This is extremely useful for Multiblock Generators."
+				"This is extremely useful for Multiblock generators, or boosting your GCYM machinery."
 			]
 			icon: "gtceu:ev_energy_input_hatch"
 			id: "7820DF52516344F4"
@@ -139,11 +139,11 @@
 		{
 			dependencies: ["35E7E45987D9B1F6"]
 			description: [
-				"The &3Large Gas Turbine&r may not leave a huge impression in &5EV&r, but it has the ability to scale to &9better production&r than the base 4096 EU/t, and boasts &9greater efficiency&r."
+				"The &3Large Gas Turbine&r may not impress you in &5EV&r, but it can scale to &9better production&r than the base 4096 EU/t, and boasts &9higher efficiency&r than those pesky singleblock generators."
 				""
 				"Each Large Turbine will require a &aTurbine Rotor&r and a &3Rotor Holder&r. More on the Turbine mechanics in the &lnext&r Quest."
 				"{@pagebreak}"
-				"&9Note:&r This Quest &eonly&r requires the Controller, but you still need all the multiblock parts to construct the Turbine."
+				"&9Note:&r This Quest &eonly&r requires the Controller, but obviously you still need all the multiblock parts to construct the Turbine."
 				""
 				"Turbines &cvoid&r energy if they're unable to output. If you plan on using this with HV power, use a Rotor with close to 100% Power stat."
 			]
@@ -164,6 +164,8 @@
 		{
 			dependencies: ["7A55CC71442CC854"]
 			description: [
+				"So, what's on the agenda today?"
+				""
 				"New Cutting Machine? &a✓&r"
 				""
 				"New Lens? &a✓&r"
@@ -203,17 +205,17 @@
 				"14D277A164202FF8"
 			]
 			description: [
-				"The &3Large Combustion Engine&r is a multiblock able to burn &dCombustion Fuels&r for even more Power Generation!"
+				"The &3Large Combustion Engine&r is a multiblock that can burn &dCombustion Fuels&r for even... more... power generation!"
 				""
-				"Its default production outputs 2048 EU/t, which is the same as 4 &3Turbo Combustion Generators&r."
+				"By default, this puppy outputs 2048 EU/t, which is equivalent to 4 &3Turbo Combustion Generators&r."
 				""
-				"Where it shines is the ability to &6boost&r it with &aOxygen&r. This will double the fuel consumption, but &9triple the power generation&r, for 6144 EU/t! This results in &6150% Fuel efficiency&r."
+				"This might not convince you, but unlike the singleblock generators, you can actually &6boost this&r by providing &aOxygen&r. This will &cdouble&r the fuel consumption, but &atriple&r the power generation. This'll output 6144 EU/t with &6150% Fuel efficiency&r."
 				""
-				"It also requires a small amount of &aLubricant&r - nothing too crazy."
-				""
-				"The &3LCE&r is also void-free, unlike Large Turbines. Any energy that cannot be output will momentarily pause the multiblock."
+				"You'll also need to supply a small amount of &aLubricant&r to the LCE during operation - nothing too crazy."
 				"{@pagebreak}"
-				"To harness the 6144 EU/t Power output, you will need a &34A EV Dynamo Hatch&r or an &3IV Dynamo Hatch&r."
+				"The &3LCE&r is also void-free, unlike Large Turbines. Any energy that cannot be output will momentarily pause the multiblock."
+				""
+				"To harness the cataclysmic power of the 6144 EU/t output, you'll need a &34A EV Dynamo Hatch&r or an &3IV Dynamo Hatch&r."
 			]
 			icon: "gtceu:large_combustion_engine"
 			id: "1AD309112ADD8D8D"
@@ -314,19 +316,15 @@
 				"7A55CC71442CC854"
 			]
 			description: [
-				"We admit it... this is a completely &doptional&r Multiblock. Many playtesters kept using their &6HV&r singleblock miners and didn't find any problems in throughput."
+				"Yeah, we admit it... this Multiblock is entirely &doptional&r. Many playtesters kept using their &6HV&r singleblock miners and didn't run into any issues with regards to throughput."
 				""
-				"The &3Larger Miner&r will further boost your returns when collecting ores from veins."
+				"However, the &3Large Miner&r will further boost your returns when collecting ores from veins. Ores are mined as if they were &amacerated&r, but they yield &6three times&r as many &dCrushed ores&r."
 				""
-				"Ores are mined as if they were &amacerated&r, but they yield &6three times&r as many &dCrushed ores&r."
-				""
-				"You will need to ensure that &aDrilling Fluid&r is fully automated before you run this."
-				""
-				"You might also want to use a &3Quantum Tunnel&r from AE2 and &3GTEU P2P Tunnels&r to transfer the items and to power it up."
+				"You'll need to automate &aDrilling Fluid&r before you run this. You might also want to use a &3Quantum Tunnel&r from AE2 and &3GTEU P2P Tunnels&r to transfer items and provide power."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o There were some interesting side effects from porting this over from Gregicality, as the multiblock originated from GregTech 5."
+				"&l&3Lore:&r&o There were some interesting side effects when we ported this over from Gregicality, as the multiblock actually originated from GregTech 5."
 				""
-				"It's not perfect, as there isn't really any advantage on upgrading this miner to the advanced versions. We were thinking of rebalancing the energy costs and yield per tier."
+				"&oIts current implementation isn't perfect, as you don't really get much of a benefit by upgrading this miner to the advanced versions. We were considering a rebalance of energy consumption and yield per tier."
 			]
 			icon: "gtceu:ev_large_miner"
 			id: "16E7CAC7BC8BFD8E"
@@ -347,7 +345,7 @@
 				"7FA0ACB7F161F378"
 				"4AFD3073C731A1E4"
 			]
-			description: ["You know the drill by now."]
+			description: ["You know the drill by now. It's an Assembler - what else do you need to know?"]
 			icon: "gtceu:ev_assembler"
 			id: "7A55CC71442CC854"
 			size: 0.75d
@@ -364,9 +362,9 @@
 		{
 			dependencies: ["7A55CC71442CC854"]
 			description: [
-				"The Best Battery-like item for &5EV&r!"
+				"The best battery-like item for &5EV&r!"
 				""
-				"The &aLapotron Crystal&r requires quite a bit of nested crafting, so craft it in large batches or automate it with AE2 patterns."
+				"Making a &aLapotron Crystal&r will require quite a bit of nested crafting, so craft these in large batches - or, of course, automate everything with &bAE2&r patterns."
 			]
 			icon: "gtceu:lapotron_crystal"
 			id: "69E384F389B0D07B"
@@ -411,7 +409,7 @@
 				""
 				"You will be granted either Calcium or Lithium as a byproduct - it's on the house!"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In GTCE, Tungstate or Scheelite took 40sec and 4 Hydrogen buckets at 1920 EU/t to electrolyze into 1 Tungsten Dust. Even if it was simpler, it was much more expensive!"
+				"&l&3Lore:&r&o In GTCE, Tungstate or Scheelite took 40sec and 4,000mB of Hydrogen @ 1920 EU/t to electrolyze into 1 Tungsten Dust. Even if it was simpler, it was much more expensive!"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:tungsten_dust"
@@ -443,7 +441,11 @@
 		}
 		{
 			dependencies: ["271CE5C2B78A1EDC"]
-			description: ["The &3EV Mixer&r is required for more alloys, the most important being &dTungstensteel&r."]
+			description: [
+				"The &3EV Mixer&r is required for more alloys."
+				""
+				"This is important if you want to get your hands on some &dTungstensteel&r."
+			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: "gtceu:ev_mixer"
@@ -462,9 +464,9 @@
 		{
 			dependencies: ["478B0D55369C0F7F"]
 			description: [
-				"&aTungstensteel&r is composed half of Steel... suffice to say, you'll need large quantities of both &aIron&r and &aTungsten&r!"
+				"50% of &aTungstensteel's&r composition is Steel... suffice to say, you'll need large quantities of both &aIron&r and &aTungsten&r!"
 				""
-				"Right now, you will need it for &3Energy&r or &3Dynamo Hatches&r... one step closer to moving away from those pesky single block Generators."
+				"Right now, it's a crucial ingredient for &3Energy&r or &3Dynamo Hatches&r. You're one step closer to moving away from those pesky single block Generators!"
 				""
 				"Boosting the smelting recipe in the &3Electric Blast Furnace&r will require &eHelium&r. You can get an initial supply from &aextracting Monazite&r or &acentrifuging Endstone&r."
 				""
@@ -570,7 +572,7 @@
 			description: [
 				"&aRTM Alloy Coils&r raise the Heat Capacity to a scorching &d4,500K&r."
 				""
-				"These will be required in &9IV&r, but as always, you should still get them earlier for the &6Coil bonuses&r."
+				"These will be required in &9IV&r, but as always, you should get them earlier for the &6Coil bonuses&r."
 				""
 				"&l&3Lore:&r&o These coils used to be Tungstensteel Coils. This however made most of the EV tier very easy to skip over and postpone to IV, so they were changed to the new RTM Alloy. GTNH was the first to make this change, and used TPV Alloy instead, made from Titanium, Platinum, and Vanadium."
 				""
@@ -598,7 +600,7 @@
 			description: [
 				"The &3Diode&r (the block, not the component) accepts energy inputs from 5 sides, but only outputs through a single side."
 				""
-				"Its main purpose is to &dlimit Amperage&r. It can be useful when regulating centralised Power generation, so you can distribute your power everywhere without having to math out what cable size is safe depending on consumers..."
+				"Its main purpose is to &dlimit Amperage&r. It'll help you regulate any centralised power generation, so you can distribute your power everywhere without having to math out what cable size is safe depending on consumers..."
 				""
 				"They can also be used as an electric equivalent to Repeaters when the voltage loss from Cables (or GTEU P2P tunnels - more on that later!) gets too high."
 				""
@@ -738,7 +740,7 @@
 		{
 			dependencies: ["7FA0ACB7F161F378"]
 			description: [
-				"The &3ME Hatches&r directly connect to your &aAE System&r, allowing you to skip placing interfaces directly on buses and hatches."
+				"&3ME Hatches&r directly connect to your &aAE System&r, allowing you to skip placing interfaces directly on buses and hatches."
 				""
 				"&l&3Lore:&r&o This feature originally comes from GTNH!"
 			]
@@ -811,7 +813,9 @@
 			description: [
 				"Note that in theory, the &3EV Chemical Reactor&r is skippable by using the &3Large Chemical Reactor&r instead, but we're evil enough to force you to make this."
 				""
-				"Its cost really shouldn't be an issue to you, and it's still useful due to its compact size."
+				"&7It's still useful due to its compact size!"
+				""
+				"&8Honestly, if making one of these is a huge problem material-wise, take a look at your infrastructure."
 			]
 			id: "7D15EEE81B1A3100"
 			shape: "square"
@@ -980,7 +984,7 @@
 				"A NOR gate takes two input signals, and outputs a high signal only if both input signals are low."
 				""
 				"This doesn't matter for now though, and it's simply a more complex wafer."
-				"It is used for the &aData Orb&r (a crafting component for the &3Processing Array&r), and in &5Nano&r Circuit production."
+				"It is used for the &aData Orb&r (a key component for when you get into &3Research&r), and in &5Nano&r Circuit production."
 			]
 			id: "2D5BECC0AC0E316B"
 			shape: "rsquare"
@@ -1034,25 +1038,21 @@
 				"16B735F9C391D260"
 			]
 			description: [
-				"&4&l[ NOT YET IMPLEMENTED (unfortunately) ]"
+				"In lieu of GTCEu's &3Ender Fluid Links&r being fully implemented, &dEnder Storage&r makes its way into the pack."
 				""
-				"&aEnder Fluid Link Covers&r are &dGregTech&r's answer to &r&3Ender Tanks&r."
+				"Recipes have been adjusted to a &asimilar tier&r. You can change the \"frequency\" of &6each tank&r by using dye on the wool pads on top."
 				""
-				"Each Cover sends their fluids through a frequency defined by an &68-digit hexadecimal number&r (0-9, then A-F for each digit). That gives you &64.29 billion&r channels to work with! Ender Fluid Link Covers work as long as their chunk is loaded - regardless of distance or dimension."
+				"You can also make similar &3Ender Chests&r to transport items - which is nice, because there's currently &cno way&r to wirelessly transport items in base &bGTCEu&r! Don't ever say we don't treat you!"
 				""
-				"They don't come cheap, so consider setting up a way to farm &3Ender Pearls&r."
-				"{@pagebreak}"
-				"Setting the mode to Import will &c&opull&r fluids from the world location it is attached to, while Export will &o&9&opush&r fluids to the world. You must turn the I/O to Enabled for it to start working. Each channel has a buffer of &d64 buckets&r."
-				""
-				"We recommend you set up a system to organise all those channels. We would also advise against using the default channel (FFFFFFFF) in all cases."
+				"Lastly, using a &eDiamond&r on an Ender Tank will lock the tank to your own &dprivate frequency&r, which is helpful if you're playing on a server."
 			]
 			id: "23A7E6D95549B1F8"
 			shape: "rsquare"
 			size: 0.66d
 			subtitle: "Ender? I ha- Ok, this joke is old"
 			tasks: [{
-				id: "5FBC61FAAD7AA1D8"
-				item: "gtceu:ender_fluid_link_cover"
+				id: "5AAF6386B4AA7C69"
+				item: "enderstorage:ender_tank"
 				type: "item"
 			}]
 			title: "Ender Fluid Linking"
@@ -1094,7 +1094,7 @@
 			description: [
 				"You can now remotely expand your AE2 network if you're looking to move bases."
 				""
-				"The &3Quantum Tunnel&r is no slouch to craft, so you'll need to work for it if you want it!"
+				"A full set of two &3Quantum Tunnels&r is no slouch to craft, so you'll need to break a sweat if you want them."
 			]
 			icon: "ae2:quantum_link"
 			id: "46C7E1D5E37B1ED2"
@@ -1326,7 +1326,7 @@
 				""
 				"You might want to use the direct &3LCR&r recipe from &aAcetic Acid&r to obtain &aAcetone&r."
 				""
-				"If you want to be fancy, you can also the good old &aAcetic Acid&r -> &dDissolved Calcium Acetate&r -> &aAcetone&r loop, which does not require a &3LCR&r, but still recycles the Calcium compound perfectly."
+				"If you want to be fancy, you can also use the good old &aAcetic Acid&r -> &dDissolved Calcium Acetate&r -> &aAcetone&r loop, which does not require a &3LCR&r, but still recycles the Calcium compound perfectly."
 				"{@pagebreak}"
 				"We've been talking about Acetic Acid, but we're yet to tell you how to obtain it. Wouldn't that be great?"
 				""
@@ -1477,7 +1477,7 @@
 				""
 				"It is a good idea to use &3Super Tanks&r as the output for every layer."
 				"{@pagebreak}"
-				"&cNote:&r Using the &3Distillation Tower&r for Oil -> Fuel -> Diesel is &cnot&r worth it! You will spend more energy overclocking the Multiblock than what you would get back from the products. It would be better to wait until you can make the &3Processing Array&r (&1IV&r) for large scale Diesel production. "
+				"&cNote:&r Using the &3Distillation Tower&r for Oil -> Fuel -> Diesel is &cnot&r worth it! You will spend more energy overclocking the Multiblock than what you would get back from the products. It would be better to wait until you can make the &3Large Distillery&r (&1IV&r) for large scale Diesel production. "
 				""
 				"However, the DT is &6very valuable&r when extracting Cracked Fuels and Pyrolyse products."
 			]
@@ -1756,6 +1756,7 @@
 				item: "gtceu:alloy_blast_smelter"
 				type: "item"
 			}]
+			title: "So Many Alloys!"
 			x: 7.875d
 			y: 6.75d
 		}
@@ -1851,9 +1852,9 @@
 				"5BACED5AE350EAB1"
 			]
 			description: [
-				"The &aPlatinum Group Metals&r are six rare metals with useful catalytic properties. They are &3Ruthenium&r, &dRhodium&r, &7Palladium&r, &9Osmium&r, &bIridium&r, and &ePlatinum&r."
+				"The &aPlatinum Group Metals&r are six rare metals with useful catalytic properties. In no particular order, they are &3Ruthenium&r, &dRhodium&r, &7Palladium&r, &9Osmium&r, &bIridium&r, and &ePlatinum&r."
 				""
-				"You will need to &4automate&r this entire process, as every single one of these metals will be used extensively in the late game."
+				"You will need to &4automate&r their processing lines, as every single one of these metals will be used extensively in the late game."
 				"{@pagebreak}"
 				"To begin, treat various PGM-bearing &aPurified Crushed Ores&r with &dNitric Acid&r to produce &aPlatinum Group Sludge&r."
 				""
@@ -1875,6 +1876,7 @@
 				exclude_from_claim_all: true
 				id: "766886CFFF5CDC23"
 				table_id: 1971029833527055160L
+				title: "Platinum-bearing Ores"
 				type: "choice"
 			}]
 			size: 0.75d
@@ -1897,9 +1899,9 @@
 			description: [
 				"This part of the chain starts with &aInert Metal Mixture&r."
 				""
-				"&dSulfuric Acid&r can be perfectly recycled. You will produce excess &dOxygen&r and &dHydrogen&r that can be stored."
+				"The &dSulfuric Acid&r will be perfectly recycled. You will also produce excess &dOxygen&r and &dHydrogen&r that can be stored."
 				""
-				"&aRhodium&r and &aRuthenium&r are gatekeepers to &9IV&r and &dLuV&r respectively. If you automate them now, you won't need to do it later!"
+				"&aRuthenium&r and &aRhodium&r will gate your progression into &9IV&r and &dLuV&r respectively. If you automate them now, you won't need to do it later!"
 			]
 			hide_dependency_lines: false
 			icon: "gtceu:ruthenium_ingot"
@@ -1930,9 +1932,9 @@
 		{
 			dependencies: ["2F9D9AAB27E6534D"]
 			description: [
-				"A quick note on &aIridium&r and &aOsmium&r. "
+				"Yo, a quick note on &aIridium&r and &aOsmium&r. "
 				""
-				"You can technically obtain these materials now, but you should wait until you reach &9IV&r tier. Producing these materials takes a lot of power, and you won't be able to smelt them into ingots until &9IV&r anyway."
+				"We know, it's technically possible to obtain these materials now, but you should wait until you reach &9IV&r. Producing these materials will suck up a lot of your precious power... and you won't be able to smelt them into ingots until &9IV&r anyway!"
 			]
 			icon: "gtceu:iridium_dust"
 			id: "28ED66F775111A17"
@@ -1941,6 +1943,7 @@
 			subtitle: "Hold your fire just for now"
 			tasks: [{
 				id: "3680AE17E8BA3E4E"
+				title: "Sure. I can wait."
 				type: "checkmark"
 			}]
 			title: "Iridium, Osmium, and EV"
@@ -1985,8 +1988,8 @@
 				type: "item"
 			}]
 			title: "Better Flight!"
-			x: 3.357142857142847d
-			y: 4.494897959183675d
+			x: 3.2346938775510097d
+			y: 4.086734693877553d
 		}
 		{
 			dependencies: ["39E7997F3080250A"]
@@ -2012,6 +2015,47 @@
 			title: "Pattern P2P Tunnels"
 			x: 8.428571428571423d
 			y: 4.178571428571431d
+		}
+		{
+			dependencies: ["3398FC108D9DCB46"]
+			description: ["This hatch acts like an infinite water source for multiblocks! It can make some setups much more convenient, and also has effectively infinite throughput, so it doesn't have the limitations of the &9Infinite Water Source Cover&r not being fast enough."]
+			icon: "gtceu:reservoir_hatch"
+			id: "117926D919A97E73"
+			min_required_dependencies: 1
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Water, water, everywhere!"
+			tasks: [{
+				id: "211321BEC7585909"
+				item: "gtceu:reservoir_hatch"
+				type: "item"
+			}]
+			title: "Reservoir Hatch"
+			x: 3.806122448979586d
+			y: 4.658163265306122d
+		}
+		{
+			dependencies: ["39E7997F3080250A"]
+			description: [
+				"To turn a P2P Tunnel into a &aGTEU P2P Tunnel&r, right-click it in the world with a &dWire&r or &dCable&r."
+				""
+				"This is ideal in lategame situations to negate Cable or Transformer spam. You can also use them in conjunction with the AE2 Quantum Bridge to power your high tier Miners and Drills outside your base."
+				""
+				"There is a &45% Voltage Tax&r on the output side of the P2P, resulting in 5% energy loss."
+			]
+			icon: "mae2:pattern_p2p_tunnel"
+			id: "40FB56274D296BFC"
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Unfortunately, unavailable to any British players"
+			tasks: [{
+				id: "74B6B5BE046E9810"
+				item: "mae2:eu_p2p_tunnel"
+				type: "item"
+			}]
+			title: "EU P2P Tunnels"
+			x: 8.418367346938766d
+			y: 2.7806122448979593d
 		}
 	]
 	subtitle: ["Improve your infrastructure and parallelise your setups"]

@@ -69,38 +69,6 @@
 	quests: [
 		{
 			dependencies: [
-				"78277DBC07D3C45C"
-				"2DAC91AF2EBB68E2"
-				"1783D89CE81C8E2E"
-			]
-			description: [
-				"The &aAdvanced Processing Array&r was an upgrade to the regular version. It could handle a maximum of &a64&r machines, instead of 16."
-				""
-				"As with the Processing Array, this machine &4won't be making it&r into future versions of the mod. You can skip this quest with the checkmark."
-			]
-			icon: "gtceu:luv_processing_array"
-			id: "4194EC9F1C6632E4"
-			shape: "rsquare"
-			size: 0.66d
-			subtitle: "Your blue cube would now have been green!"
-			tasks: [
-				{
-					id: "356EC5387BA79103"
-					item: "gtceu:luv_processing_array"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "3BB99A624A81A93E"
-					type: "checkmark"
-				}
-			]
-			title: "Advanced Processing Array"
-			x: 1.125d
-			y: 0.0d
-		}
-		{
-			dependencies: [
 				"77B7B1EDD19831E0"
 				"78277DBC07D3C45C"
 			]
@@ -133,7 +101,7 @@
 		{
 			dependencies: ["00C14E3B8009DF7F"]
 			description: [
-				"&3Dielectric PCB Coolant&r is used for highly advanced late and end-game machinery."
+				"&3Dielectric PCB Coolant&r is used to maintain some highly advanced late and end-game machinery."
 				""
 				"You only need a little bit in &dLuV&r, but you'll want to automate it when you get to &cZPM&r."
 			]
@@ -161,7 +129,7 @@
 				""
 				"It also has a second function, detailed in the above quest."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o This is yet another feature from TecTech, which also required these cables to be painted. They too look fantastic if you paint them, but it is again optional."
+				"&l&3Lore:&r&o This is yet another feature from TecTech, which also required these cables to be painted. They do look fantastic if you paint them, but it's optional in CEu."
 			]
 			id: "1AD003487B4EC2EF"
 			shape: "rsquare"
@@ -189,7 +157,7 @@
 				"{@pagebreak}"
 				"An &9Optical Transmission Hatch&r is used to send data (like an output), and an &9Optical Reception Hatch&r to recieve the data (like an input). "
 				""
-				"Optical cables have some restrictions however. They can only connect &eone input to one output&r. The Data Bank is a solution to this, since you can place many hatches on them to route in different directions."
+				"Optical cables have some restrictions however. They can only connect &eone input to one output&r. The Data Bank is your answer to this, since you can place many hatches on them to route your data anywhere."
 				""
 				"You can use this behavior to &echain&r Data Banks as well. Connecting one Data Bank to another, and then one of them to an Assembly Line will provide the data of both banks!"
 				"{@pagebreak}"
@@ -397,7 +365,7 @@
 				"48DEABA155605D23"
 			]
 			description: [
-				"Refining &9Naquadah&r into further products will be your next automation challenge. The primary resources are &aEnriched Naquadah&r, &aNaquadria&r, and &aTrinium&r. "
+				"Refining &9Naquadah&r into further products will be your next automation challenge. The primary outputs of this line are &aEnriched Naquadah&r, &aNaquadria&r, and &aTrinium&r. "
 				""
 				"This processing line - affectionately known as the \"Naqline\" - also produces many useful byproducts, such as Titanium and Indium."
 				"{@pagebreak}"
@@ -510,9 +478,9 @@
 				""
 				"Enjoy the ride!"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o GregTech 5's &3Fusion Reactor&f stores EU you feed it in its internal buffer. The maximum storable amount is determined by the amount of &3Energy Hatches&f."
+				"&l&3Lore:&r&o GregTech 5's &3Fusion Reactor&f stores EU you feed it in its internal buffer. The maximum capacity is determined by the amount of &3Energy Hatches&f in the structure."
 				""
-				"&oRecipes can only start if the &9EU to start&f is stored internally, which will be &cconsumed&f. With this stored energy, the reactor can keep running recipes until it goes idle. At this point it will need to be topped up on EU to start again."
+				"&oRecipes can only start if the &9\"EU to start\"&f is stored internally, which will be &cconsumed&f. With this stored energy, the reactor can keep running recipes until it goes idle. At this point it will need to be topped up on EU to start again."
 				"{@pagebreak}"
 				"&oShadow of Greg's &3Fusion Reactor&f (which is now GTCEu's Fusion Reactor) comes with an added mechanic called &4Heat&f."
 				""
@@ -547,7 +515,7 @@
 			id: "7A74F692F14F0FF8"
 			shape: "gear"
 			size: 1.1d
-			subtitle: "Fusing Europium... how?!"
+			subtitle: "Fusing Europium... whaaat?!"
 			tasks: [{
 				id: "220305C9DA0F512B"
 				item: "gtceu:europium_ingot"
@@ -640,9 +608,9 @@
 				item: "expatternprovider:wireless_connect"
 				type: "item"
 			}]
-			title: "Wireless Range"
-			x: 3.375d
-			y: 4.5d
+			title: "The Power of Wireless"
+			x: 3.96d
+			y: 5.94d
 		}
 		{
 			dependencies: ["77B7B1EDD19831E0"]
@@ -661,8 +629,8 @@
 				type: "checkmark"
 			}]
 			title: "PackagedWho?"
-			x: 3.375d
-			y: 5.625d
+			x: 3.3d
+			y: 4.62d
 		}
 		{
 			dependencies: ["77B7B1EDD19831E0"]
@@ -684,8 +652,8 @@
 				type: "item"
 			}]
 			title: "Ludicrous Fluid Drilling"
-			x: 5.625d
-			y: 4.5d
+			x: 5.61d
+			y: 4.62d
 		}
 		{
 			dependencies: ["77B7B1EDD19831E0"]
@@ -705,8 +673,8 @@
 				type: "item"
 			}]
 			title: "Ludicrous Ore Drilling"
-			x: 5.625d
-			y: 5.625d
+			x: 5.28d
+			y: 5.28d
 		}
 		{
 			dependencies: [
@@ -982,50 +950,20 @@
 		}
 		{
 			dependencies: ["77B7B1EDD19831E0"]
-			description: [
-				"Let's go over some uses!"
-				""
-				"&2Blank Pattern Storage:&r"
-				""
-				"Right-clicking with the tool in your hand will open a GUI where you can insert &9Blank Patterns&r. There's a considerable amount of storage space for transport of Patterns!"
-				"{@pagebreak}"
-				"&2Bulk Pattern Modification:&r"
-				""
-				"Inserting &9Encoded Patterns&r instead of blank ones will allow you to multiply/divide them all at once in bulk. This is particularly useful when multiplying up your Patterns for parallel on-demand machinery."
-				""
-				"Patterns can also be cleared in bulk with the \"Clear\" button. There isn't any confirmation after clicking it, so use with caution."
-				"{@pagebreak}"
-				"&2Item Search and Replace:&r"
-				""
-				"Right-clicking the tool and clicking the &aChange Mode button&r will bring up a new GUI. This GUI will allow you to replace all occurances of one item with another for the &9Encoded Patterns&r stored within the tool."
-				""
-				"This is particularly useful for &eupgrading GT circuits&r, such as transitioning from Nano to Quantum &5EV&r circuits."
-				"{@pagebreak}"
-				"&2Easy Pattern Transfer:&r"
-				""
-				"Shift-left-clicking Patterns will move them between the Player Inventory and the Modifier where possible. This means you can easily move Patterns around between Interfaces and Terminals without clogging your inventory."
-				"{@pagebreak}"
-				"&bLore&r: Neeve, the author of the NAE2 mod suggested tiering this item at &eUXV&r tier, because it \"gives the player way too much power.\" For reference, &eUXV&r is 4 tiers past &3UV&r tier - two tiers before &c&lMAX&r voltage."
-			]
-			icon: "expatternprovider:pattern_modifier"
+			description: ["The &aQuantum Bridge Card&r is an upgrade to the &9Quantum Link Tunnel&r, which gives &9Wireless Terminals&r access to your AE system with unlimited range, and from any dimension."]
+			icon: "ae2wtlib:quantum_bridge_card"
 			id: "602DA4B4820E9088"
-			rewards: [{
-				count: 64
-				id: "3ECC8293E875521C"
-				item: "ae2:blank_pattern"
-				type: "item"
-			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "The &aPattern Modifier&r does A LOT!"
+			subtitle: "Bridge over Troubled Water"
 			tasks: [{
-				id: "7695773132A6DFD3"
-				item: "expatternprovider:pattern_modifier"
+				id: "280DF4E4A7E5FC2A"
+				item: "ae2wtlib:quantum_bridge_card"
 				type: "item"
 			}]
-			title: "Pattern Modifier"
-			x: 4.5d
-			y: 6.0d
+			title: "Infinite Wireless Range"
+			x: 3.63d
+			y: 5.28d
 		}
 		{
 			dependencies: ["0D7C978F9CDF771B"]
@@ -1061,6 +999,110 @@
 			title: "Best Flight!"
 			x: 6.758503401360549d
 			y: 5.621173469387756d
+		}
+		{
+			dependencies: ["4F6E351C5F676618"]
+			description: [
+				"New in the &a1.4 update&r, Dual Hatches will greatly help with automation with Multiblocks."
+				""
+				"They can contain both &6Fluids and Items simultaneously&r, meaning you can simply connect a &bPattern Provider&r and be off to the races. No more faffing around with P2P or Buffers!"
+			]
+			icon: "gtceu:luv_dual_input_hatch"
+			id: "0960C894446A786C"
+			shape: "circle"
+			size: 0.66d
+			subtitle: "Compact and Useful"
+			tasks: [{
+				id: "0089B7D781622D68"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:luv_dual_input_hatch"
+							}
+							{
+								Count: 1b
+								id: "gtceu:uv_dual_input_hatch"
+							}
+							{
+								Count: 1b
+								id: "gtceu:uhv_dual_input_hatch"
+							}
+							{
+								Count: 1b
+								id: "gtceu:luv_dual_output_hatch"
+							}
+							{
+								Count: 1b
+								id: "gtceu:zpm_dual_output_hatch"
+							}
+							{
+								Count: 1b
+								id: "gtceu:uv_dual_output_hatch"
+							}
+							{
+								Count: 1b
+								id: "gtceu:uhv_dual_output_hatch"
+							}
+						]
+					}
+				}
+				title: "Dual I/O Hatch"
+				type: "item"
+			}]
+			title: "Two Hatches for the Price of One"
+			x: 2.2414965986394577d
+			y: 5.631377551020407d
+		}
+		{
+			dependencies: ["77B7B1EDD19831E0"]
+			description: [
+				"Let's go over some uses!"
+				""
+				"&2Blank Pattern Storage:&r"
+				""
+				"Right-clicking with the tool in your hand will open a GUI where you can insert &9Blank Patterns&r. There's a considerable amount of storage space for transport of Patterns!"
+				"{@pagebreak}"
+				"&2Bulk Pattern Modification:&r"
+				""
+				"Inserting &9Encoded Patterns&r instead of blank ones will allow you to multiply/divide them all at once in bulk. This is particularly useful when multiplying up your Patterns for parallel on-demand machinery."
+				""
+				"Patterns can also be cleared in bulk with the \"Clear\" button. There isn't any confirmation after clicking it, so use with caution."
+				"{@pagebreak}"
+				"&2Item Search and Replace:&r"
+				""
+				"Right-clicking the tool and clicking the &aChange Mode button&r will bring up a new GUI. This GUI will allow you to replace all occurances of one item with another for the &9Encoded Patterns&r stored within the tool."
+				""
+				"This is particularly useful for &eupgrading GT circuits&r, such as transitioning from Nano to Quantum &5EV&r circuits."
+				"{@pagebreak}"
+				"&2Easy Pattern Transfer:&r"
+				""
+				"Shift-left-clicking Patterns will move them between the Player Inventory and the Modifier where possible. This means you can easily move Patterns around between Interfaces and Terminals without clogging your inventory."
+				"{@pagebreak}"
+				"&bLore&r: Neeve, the author of the NAE2 mod suggested tiering this item at &eUXV&r tier, because it \"gives the player way too much power.\" For reference, &eUXV&r is 4 tiers past &3UV&r tier - two tiers before &c&lMAX&r voltage."
+			]
+			icon: "expatternprovider:pattern_modifier"
+			id: "5CE0B928479D8535"
+			rewards: [{
+				count: 64
+				id: "597FE2E43C76B1E0"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "The &aPattern Modifier&r does A LOT!"
+			tasks: [{
+				id: "77D0C17BBE681C85"
+				item: "expatternprovider:pattern_modifier"
+				type: "item"
+			}]
+			title: "Pattern Modifier"
+			x: 4.95d
+			y: 5.94d
 		}
 	]
 	subtitle: ["Investigate the scientific and fuse elements"]

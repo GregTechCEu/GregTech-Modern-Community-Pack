@@ -140,7 +140,7 @@
 				"0009F48B6E385A47"
 			]
 			description: [
-				"The amount of EU this battery can storage is the max value of a Long Integer in Java."
+				"The amount of EU this battery can store is the max value of a Long Integer in Java."
 				""
 				"Don't try to win Minecraft - you can't."
 				"{@pagebreak}"
@@ -237,7 +237,7 @@
 				"{@pagebreak}"
 				"&l&3Lore:&r&o In GCYL, Neutronium is unlocked at UMV-tier (called UXV in CEu). There is also Cosmic Neutronium, which is equivalent to Avaritia's Neutronium in GT5u, which was unlocked even later in GCYL!"
 				""
-				"&l&More Lore:&r&o Fun fact: a single neutronium block is approximately 2884 million metric tons and somewhere around 600000K, yet you're somehow capable of holding one with your bare hands. Don't think about it too much."
+				"&l&3More Lore:&r&o Fun Fact: a single Neutronium block is approximately 2884 million metric tons and somewhere around 600000K, yet you're somehow capable of holding one with your bare hands. Don't think about it too much."
 			]
 			id: "6DBF61D4F94BC851"
 			size: 0.75d

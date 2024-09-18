@@ -545,7 +545,7 @@
 			description: [
 				"&3Nichrome Heating Coils&r increase the temperature of your &3Blast Furnace&r to &d3,600K&r."
 				""
-				"Despite not being required &oyet&r, it still is a good idea to upgrade your primary &3EBF&r for those sweet, sweet &6Coil bonuses&r."
+				"Despite not being required &oyet&r, it's still a good idea to upgrade your primary &3EBF&r for those sweet, sweet &6Coil bonuses&r."
 				"{@pagebreak}"
 				"&l&3Lore:&r&o In the original GregTech 5, there were only three types of coils. This was the last tier."
 			]
@@ -971,7 +971,7 @@
 				""
 				"You might want to share &3Input/Output Hatches&r, but make sure each LCR is running the correct recipe."
 				""
-				"Keep in mind Maintenance hatches are not sharable."
+				"Keep in mind Maintenance hatches cannot wallshare."
 			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
@@ -1172,7 +1172,7 @@
 				""
 				"It's required to get &aEnder Pearls&r."
 				""
-				"&cTNT&r, &6Dynamite&r, and &ePowerbarrels&r can be used for the Implosion."
+				"In descending order of efficiency, &4ITNT&r, &cTNT&r, &6Dynamite&r, or &ePowerbarrels&r can be used for the Implosion."
 			]
 			icon: "gtceu:implosion_compressor"
 			id: "1137D2BA7E03D685"
@@ -1295,7 +1295,7 @@
 				""
 				"&l&3Lore:&r&o The SMD Inductors make an appearance in GTCEu for the first time. It's more consistent and convenient to have all Circuit components receive an SMD counterpart."
 			]
-			icon: "gtceu:smd_capacitor"
+			icon: "gtceu:smd_diode"
 			id: "7F272A099E65F848"
 			size: 0.75d
 			tasks: [

@@ -407,6 +407,77 @@
 			x: 1.5d
 			y: -2.0d
 		}
+		{
+			dependencies: ["730043448A9ADBB6"]
+			description: ["Whilst the majority (if not all) of the listed steps can be automated using GregTech alone, savvy players may wish to use AE2 for all their logistics needs. Here, we'll cover some methods you may not be aware of to help you elevate your Ore Processing to the next level."]
+			icon: "ae2:controller"
+			id: "3CCD98E7139BA564"
+			subtitle: "Let's look at what AE2 can do for you!"
+			tasks: [{
+				id: "67AB1263C1AA0EB2"
+				title: "Yes, I understand!"
+				type: "checkmark"
+			}]
+			title: "Applied Energistics 2"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3CCD98E7139BA564"]
+			description: [
+				"The &3ME Tag Storage Bus&r is crucial to send tagged items to a desired destination. It does what it says in the tin - simply set its filter by clicking on it, then any items that enter your AE2 network that &ematch the programmed Item Tag&r will be sent to the inventory attached to the Bus."
+				""
+				"This can be particularly useful in the event that you wish to use a &afiltered subnet&r to process ore."
+				""
+				"Remember to set a &5high priority&r if you want to prioritise Ore Processing!"
+			]
+			id: "23B078514FB4A215"
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "Casting a Wider Net"
+			tasks: [{
+				id: "4CEE717792412E0C"
+				item: "expatternprovider:tag_storage_bus"
+				type: "item"
+			}]
+			title: "Tag - You're It!"
+			x: -1.5198979591836874d
+			y: -2.8428571428571487d
+		}
+		{
+			dependencies: ["3CCD98E7139BA564"]
+			description: [
+				"One could define a Subnetwork (or \"Subnet\" for short) as any network that isn't part of your main network."
+				""
+				"The simplest way to create a Subnet is by attaching an ME Interface to a Storage Bus. This means that the Storage Bus will treat the Interface as an inventory to be read from - i.e., it'll be able to see all of the items in the network connected to the Interface."
+				""
+				"As your main network will not be transferred through the Storage Bus, you'll need to give your subnet power from the main network with Quartz Fibre. Ensure that you don't accidentally connect the two networks with regular cabling."
+				"{@pagebreak}"
+				"Question is - how does this benefit you as a player? The logistics powers made available with subnetworking are immense, so we'll cover a few examples in light detail. The rest is left as an exercise to the reader!"
+				""
+				"- A subnet for your ore processing system, which automatically handles all the intermediate byproducts without them constantly entering and exiting your main network!"
+				"- Really, it's useful to subnet larger processing chains such as Platinum processing. This way, you can ensure that byproducts can be appropriately recycled, and reduce overhead."
+				""
+				""
+				"{@pagebreak}"
+				"Subnets can be infinitely nested, but as ever in modded Minecraft, this should be performed in moderation (or even better, avoided), as many levels of nesting can cause performance issues when calculating the network."
+				""
+				"Oh... and if you've re-enabled Channels in this pack, subnetworks only consume a single channel from your main network. What a bargain!"
+			]
+			icon: "ae2:storage_bus"
+			id: "1CB9A26C3296858E"
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "Socially Distanced Network"
+			tasks: [{
+				id: "24ECAB4EA2E82FE7"
+				title: "Sounds great to me."
+				type: "checkmark"
+			}]
+			title: "Subnets 101"
+			x: -1.5d
+			y: -1.125d
+		}
 	]
 	subtitle: ["How to extract as much as possible..."]
 	title: "Ore Processing"

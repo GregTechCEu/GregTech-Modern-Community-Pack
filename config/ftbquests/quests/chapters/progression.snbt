@@ -265,7 +265,7 @@
 				""
 				"They will require a MV &3Laser Engraver&r and a MV &3Cutting Machine&r."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In Omnifactory, and in previous Gregicality, this circuit line was called &9Refined&r and was standardized like further tiers."
+				"&l&3Lore:&r&o In Omnifactory, and in previous Gregicality, this circuit line was called &9Refined&f and was standardized like further tiers."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:mv_machine_hull"

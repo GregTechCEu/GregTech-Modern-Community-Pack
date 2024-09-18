@@ -54,8 +54,8 @@
 				type: "item"
 			}]
 			title: "No More Penalty"
-			x: 0.0d
-			y: -2.625d
+			x: -0.09909863945578223d
+			y: -2.260051020408156d
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
@@ -74,7 +74,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 0.66d
+			size: 0.5d
 			subtitle: "No, it's Steve with a glider!"
 			tasks: [{
 				id: "1D0F8D4470DFFD19"
@@ -88,8 +88,8 @@
 				type: "item"
 			}]
 			title: "Is it a Phantom? Is it an Elytra?"
-			x: 1.125d
-			y: -2.75d
+			x: 1.9417176870748278d
+			y: -2.5865816326530435d
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
@@ -161,8 +161,8 @@
 				type: "item"
 			}]
 			title: "High Pressure"
-			x: 0.0d
-			y: -1.5d
+			x: -0.1399149659863994d
+			y: -1.4233163265306032d
 		}
 		{
 			dependencies: ["03DBF1961AE21C76"]
@@ -504,8 +504,8 @@
 				item: "gtceu:wood_normal_fluid_pipe"
 				type: "item"
 			}]
-			shape: "square"
-			size: 1.0d
+			shape: "gear"
+			size: 1.1d
 			subtitle: "There's no such thing as \"free\" water"
 			tasks: [{
 				id: "03501AB173BA60EE"
@@ -1424,7 +1424,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 0.66d
+			size: 0.5d
 			subtitle: "Take some weight off your inventory"
 			tasks: [
 				{
@@ -1439,8 +1439,8 @@
 				}
 			]
 			title: "Tool Belt"
-			x: 2.25d
-			y: -2.625d
+			x: 2.4927380952380958d
+			y: -2.1580102040816165d
 		}
 		{
 			dependencies: ["48AED37B4E20A99A"]
@@ -1532,6 +1532,182 @@
 			title: "Backpacks"
 			x: 4.5d
 			y: 1.875d
+		}
+		{
+			dependencies: ["40DE888E6025C646"]
+			description: [
+				"The &3Charcoal Pile Igniter&r is a particularly unique multiblock. You can use it to produce &aCharcoal&r faster than &3Coke Ovens&r, but this comes with the trade-off of &amanual labor&r."
+				"{@pagebreak}"
+				"To operate the Igniter, dig a big pit into the ground - up to &e9x5x9&r blocks in size. Line the floor of the pit with vanilla &aBrick blocks&r, then fill the remaining space entirely with &aLogs&r. After that, &acover the filled pit&r with Grass, Dirt, or other natural groundcover to form a roof. In the layer with the roof, place the Igniter! To start it, light it with &aFlint and Steel&r."
+				""
+				"Once the process completes, open up the pit for your reward - &aBrittle Charcoal&r. This can be mined with a Shovel (or Spade!), and each block drops 1.4 Charcoal on average. Assuming 1 Log converts into 1 Brittle Charcoal, we're sure you can see the efficiency boost!"
+				"{@pagebreak}"
+				"&eNote&r: The pit must be &cfull to the brim&r with Logs - Air blocks will prevent this Multiblock from forming."
+				""
+				"&eNote&r: This quest is &boptional&r. If you would like to skip this quest, hit the checkmark instead."
+				""
+				"&l&3Lore:&r&o This multiblock originated in GT5u, but did not require a fire-starting item to start."
+			]
+			icon: "gtceu:charcoal_pile_igniter"
+			id: "4384068C4517F3D9"
+			rewards: [{
+				id: "73DAEC542AC76676"
+				item: "gtceu:brittle_charcoal"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "I'm the trouble starter, punkin' instigator..."
+			tasks: [
+				{
+					id: "2586D1FC6BC5E53C"
+					item: "gtceu:charcoal_pile_igniter"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3B769177C398E246"
+					title: "No, I hate extra Charcoal yields..."
+					type: "checkmark"
+				}
+			]
+			title: "Fuel Pit"
+			x: 1.390697278911567d
+			y: -2.9743367346938605d
+		}
+		{
+			dependencies: ["40DE888E6025C646"]
+			description: [
+				"You DO have access to some beefy &bfluid storage&r right now, but you'll need to make a &eMultiblock&r to access it!"
+				""
+				"The &3Wooden Multiblock Tank&r&r holds &a250,000 mB&r, but you won't be able to use it to store &chot Fluids&r such as Lava, or &cGases&r such as Steam or Oxygen."
+				""
+				"The &3Steel Multiblock Tank&r holds &a1,000,000 mB&r, and lifts the aforementioned fluid restrictions."
+				""
+				"Get &eany&r of the Tanks to complete this quest. The Steel version is &dway too expensive&r right now - so you should probably make the Wooden one instead."
+				"{@pagebreak}"
+				"Fluid transfer can either be facilitated through the Controller block, or through up to &atwo Valves&r."
+				""
+				"Valves can &9auto-output&r by placing them on the &dbottom layer&r and making them &dface down&r (as always, use a &5Wrench&r to adjust their facing)."
+				""
+				"Unlike &3Drums&r, these Tanks aren't portable... but you probably guessed that already."
+				""
+				"This Quest generously rewards an extra &6Coke Oven&r. Make the most of GTCEu's &bwallsharing&r mechanic, and place it next to an existing Coke Oven to save on casings."
+				"{@pagebreak}"
+				"&l&3Lore:&r&o Just like Drums, these multiblocks are ported from GregTech 6."
+			]
+			icon: "gtceu:steel_tank_valve"
+			id: "15923B47D23CCF34"
+			rewards: [
+				{
+					id: "59F4BC1D1C54FDFB"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "48D6923B31E53EC2"
+					item: "gtceu:coke_oven_bricks"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "So long, and Tanks for all the fish!"
+			tasks: [
+				{
+					id: "19C34AAB329C7ABF"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:wooden_multiblock_tank"
+								}
+								{
+									Count: 1b
+									id: "gtceu:steel_multiblock_tank"
+								}
+							]
+						}
+					}
+					title: "Multiblock Tank"
+					type: "item"
+				}
+				{
+					id: "123DB283FB4EF13D"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:wooden_tank_valve"
+								}
+								{
+									Count: 1b
+									id: "gtceu:steel_tank_valve"
+								}
+							]
+						}
+					}
+					title: "Tank Valves"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "72D3346BD7D0A57D"
+					item: {
+						Count: 24
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:solid_machine_casing"
+								}
+								{
+									Count: 1b
+									id: "gtceu:wood_wall"
+								}
+							]
+						}
+					}
+					title: "24 Casings"
+					type: "item"
+				}
+			]
+			title: "Multiblock Tanks"
+			x: 0.5539625850340073d
+			y: -2.8110714285714167d
+		}
+		{
+			dependencies: ["1FFD2242B94A7378"]
+			description: [
+				"Ever wanted your pipes to look &leven&r&o cooler? Now you can!"
+				""
+				"Fluid and Item Pipes can be placed inside of Frameboxes, giving your base an &6unparalleled level of beauty&r!"
+				""
+				"All you - dear player - need to do is right-click a frame onto a pipe or a pipe onto a frame, and you're done!"
+				""
+				"&l&3Lore:&r&o This is a GTCEu-original mechanic!"
+			]
+			icon: "gtceu:steel_frame"
+			id: "27240865315F9530"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Spaghetti has never looked so swanky!"
+			tasks: [{
+				id: "431894F9877BC900"
+				item: "gtceu:steel_frame"
+				type: "item"
+			}]
+			title: "Aesthetic Ultra"
+			x: -2.1577721088435453d
+			y: 0.7399489795918583d
 		}
 	]
 	subtitle: ["Harness the power of Steam and learn the basics"]
