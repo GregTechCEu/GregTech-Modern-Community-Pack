@@ -1,6 +1,6 @@
 name = "GregTech CEu Modern Community Pack"
 author = "ursamina"
-version = "1.10.1"
+version = "1.11.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
@@ -9,5 +9,5 @@ hash-format = "sha256"
 hash = "4fc0515508cacc8c09d0e8c6b9f9c417a661ab83a2339156370b85ec6ee31091"
 
 [versions]
-forge = "47.2.0"
+forge = "47.3.6"
 minecraft = "1.20.1"
