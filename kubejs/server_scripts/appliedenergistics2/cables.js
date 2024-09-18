@@ -66,14 +66,14 @@ ServerEvents.recipes((event) => {
   event.recipes.gtceu
     .assembler("gtceu:covered_fluix_mid")
     .itemInputs("ae2:fluix_glass_cable")
-    .inputFluids("gtceu:styrene_butadiene_rubber 72")
+    .inputFluids("gtceu:styrene_butadiene_rubber 36")
     .itemOutputs("ae2:fluix_covered_cable")
     .duration(150)
     .EUt(8);
   event.recipes.gtceu
     .assembler("gtceu:covered_fluix_best")
     .itemInputs("ae2:fluix_glass_cable")
-    .inputFluids("gtceu:silicone_rubber 36")
+    .inputFluids("gtceu:silicone_rubber 72")
     .itemOutputs("ae2:fluix_covered_cable")
     .duration(150)
     .EUt(8);
