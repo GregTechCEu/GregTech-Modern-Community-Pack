@@ -32,5 +32,8 @@ ServerEvents.recipes((event) => {
     .forming_press("printed_calculation_circuit")
     .itemInputs("#forge:plates/certus_quartz")
     .notConsumable("ae2:calculation_processor_press")
-    .itemOutputs("ae2:printed_calculation_processor");
+    .itemOutputs("ae2:printed_calculation_processor")
+    .duration(200)
+    .EUt(30);
+;
 });
