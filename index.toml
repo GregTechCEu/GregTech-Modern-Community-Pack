@@ -757,7 +757,7 @@ metafile = true
 
 [[files]]
 file = "mods/codechicken-lib-1-8.pw.toml"
-hash = "8628a832792c54b2328c60672fe122479bcf8c791f1bc7dbab37204432eeff7d"
+hash = "f88db7aef79947669ba4d736cc2f352a2269eb21770d5597d306c3017ea126dc"
 metafile = true
 
 [[files]]
@@ -877,7 +877,7 @@ metafile = true
 
 [[files]]
 file = "mods/gregtechceu-modern.pw.toml"
-hash = "310b750396570e3b07408146e931e682abf615fa743563fc79381d0fac7bf5a6"
+hash = "9bd2ee2488f64a73125fa7781c11766c1a5053f4d1cb13deb6f129aea4ef8e9d"
 metafile = true
 
 [[files]]
@@ -917,7 +917,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "4dace981d44532605ef2f3c9b7d213604232fb8712dfc26275750cd2ac731c57"
+hash = "caf9eb48e4eac66f7659d01896341a9c7d749ce2ddff264305283258c0b3a996"
 metafile = true
 
 [[files]]
@@ -952,7 +952,7 @@ metafile = true
 
 [[files]]
 file = "mods/modern-ae2-additions.pw.toml"
-hash = "388b460d69a4cefec1e99cc12b6df1f79a3c6313c8cf62c525874ce43c95c0ff"
+hash = "7864f0dda9fa1ca7b0c22ab276ff18a3c1434ae369e5e9b0cf797cc085138bda"
 metafile = true
 
 [[files]]
@@ -1012,17 +1012,17 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "71102bb75e79ce2695ed0fc1d4198dd8395d9a737b9b1d3a358142b764e058d7"
+hash = "829bdac01469835bb337791cc91a7f2d20d5d7e409cf66328da8a014ac0c2efa"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "c2da3974f21a70aa72781aa392b69ae897d37151837128dcb5d4b6426b611e34"
+hash = "8207f330335ef87f9e24a51343691fec49c75153678085d0a1667235d5e463bc"
 metafile = true
 
 [[files]]
 file = "mods/storage-drawers.pw.toml"
-hash = "b5be7a24037b1d0b91a88cefad8f2caa523647d7a627503642de34807b51d940"
+hash = "1f5b23c901e32e8e5b3e426523f7276f3a7a0fa7b3ab78e3244f8c5fc0990a97"
 metafile = true
 
 [[files]]
