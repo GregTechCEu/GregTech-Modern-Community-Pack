@@ -271,22 +271,6 @@
 		}
 		{
 			dependencies: ["16B735F9C391D260"]
-			description: ["The &9Digital Interface Cover (DIC)&r is a visual Cover. It can show useful things like the status and progress of Machines, or the amount of fluids stored in a Super Tank."]
-			icon: "gtceu:digital_interface_cover"
-			id: "111877E2F16AD71C"
-			shape: "rsquare"
-			size: 0.66d
-			tasks: [{
-				id: "505B2CDC455C36C5"
-				item: "gtceu:digital_interface_cover"
-				type: "item"
-			}]
-			title: "Digital Interface Cover"
-			x: 1.125d
-			y: 0.375d
-		}
-		{
-			dependencies: ["16B735F9C391D260"]
 			description: [
 				"Time to say goodbye to your &4Primitive Water Pumps&r. They've done you proud."
 				""
