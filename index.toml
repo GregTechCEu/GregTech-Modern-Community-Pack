@@ -877,7 +877,7 @@ metafile = true
 
 [[files]]
 file = "mods/gregtechceu-modern.pw.toml"
-hash = "9bd2ee2488f64a73125fa7781c11766c1a5053f4d1cb13deb6f129aea4ef8e9d"
+hash = "2359d5bc6ebf9b42c271ac7eeb517d9af55b7df242a45dfc350763e9ce06138a"
 metafile = true
 
 [[files]]
@@ -897,7 +897,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-profiles-next.pw.toml"
-hash = "eaa736452bf3da46fc44d67988dfb2d94700d2a5911f7b39e6a618b339115dcd"
+hash = "ae8fe9f3fd2dbb6c2218aee375590c79006e38312d351339d35ff3681fa975e2"
 metafile = true
 
 [[files]]
@@ -907,7 +907,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "50d0d75c988e3dc115ba552895eb7b4dab51c900310e4b651f90341e94741940"
+hash = "82a4731b5389478bf8e775ba898012644a2a4c02982424a78241a38ec1c58911"
 metafile = true
 
 [[files]]
@@ -917,7 +917,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "caf9eb48e4eac66f7659d01896341a9c7d749ce2ddff264305283258c0b3a996"
+hash = "0968cf761fc4608f1d756da1b693314f23148dd8d9a4b8d1c1d046ed7d8f6f39"
 metafile = true
 
 [[files]]
@@ -992,7 +992,7 @@ metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
-hash = "71bdf7a2baf2b49de4292b8a0ff48419119b0a9bbf1c06d4f8dd92fd97fe6416"
+hash = "df91958db1f1c82ea5d4fe933a4893cdefe6861e3aa2f25d4c4a39a062bddd15"
 metafile = true
 
 [[files]]
@@ -1012,17 +1012,17 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "829bdac01469835bb337791cc91a7f2d20d5d7e409cf66328da8a014ac0c2efa"
+hash = "4d0b892ca8d67cb233f3d3be816553da4ecfa820519a1c55ce5efa9061fcf662"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "8207f330335ef87f9e24a51343691fec49c75153678085d0a1667235d5e463bc"
+hash = "55cab45f4fc9ef0b382ac8ee1f7680ae1bd42832e47ae4b4cf56ce6bec7a96fe"
 metafile = true
 
 [[files]]
 file = "mods/storage-drawers.pw.toml"
-hash = "1f5b23c901e32e8e5b3e426523f7276f3a7a0fa7b3ab78e3244f8c5fc0990a97"
+hash = "3df022d3b507b334ddfcd39fd9db23b1405d5e7be964f92528c29fc7cc79828f"
 metafile = true
 
 [[files]]
@@ -1037,7 +1037,7 @@ metafile = true
 
 [[files]]
 file = "mods/torchmaster.pw.toml"
-hash = "7dea79ae9793a1a5ff3bb97f17ab5f835d07fd1053ade9114feced05bccb0229"
+hash = "cfd9a2802e5471ffd9e2555286ba95fddc4fa75184bf59084bd2e1cb88b14b3c"
 metafile = true
 
 [[files]]
@@ -1052,7 +1052,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "3a23e7284a8243bdc3c064db7b3039c7d33a91ce6b08ff8ab266a4cd1e5a9ec8"
+hash = "2d8caf83668f6d80ddac661636b44f9bcb74cb0e7ca18d62937172e0769ebc2f"
 metafile = true
 
 [[files]]
