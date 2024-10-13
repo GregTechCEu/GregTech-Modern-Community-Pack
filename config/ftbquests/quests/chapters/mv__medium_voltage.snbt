@@ -985,7 +985,7 @@
 				""
 				"&9Note:&r This is not a strict upgrade to the cost of Circuits - you would need to get to the next Tier for that, just slightly further down in &bMV&r. It is still an important upgrade, and is required to get to &6HV circuits&r."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o The circuit progression in GTCEu is mostly based on GT5u's progression. It has been rebalanced to not be as painful. &lSpecifically&r this circuit tier, which was a trap!"
+				"&l&3Lore:&r&o The circuit progression in GTCEu is mostly based on GT5u's progression. It has been rebalanced to not be as painful. &lSpecifically&r&o this circuit tier, which was a trap!"
 			]
 			icon: "gtceu:basic_integrated_circuit"
 			id: "5C17BF90DA2AAEEE"
@@ -1422,7 +1422,7 @@
 				"3D98819A799D2E64"
 			]
 			description: [
-				"&aSodium Persulfate&r can be used in &9Ore Processing&r in the &3Chemical Bath&r to get various bonus outputs you would not normally obtain. It is completely optional, but pretty rewarding."
+				"&aSodium Persulfate&r can be used in &9Ore Processing&r in the &3Chemical Bath&r to get various bonus outputs you would not normally obtain. It's completely optional, but pretty rewarding."
 				""
 				"&lWait, stop! That's only a distraction&r - the real topic of this Quest is..."
 				""
@@ -1434,7 +1434,7 @@
 				""
 				"With more automation later in the game, Iron III Chloride will be the cheaper and more straight forward path."
 				""
-				"This Quest can be completed with &eeither&r Fluid."
+				"This Quest requires &eboth&r Fluids to complete. You'll need both anyway..."
 			]
 			icon: "gtceu:iron_iii_chloride_bucket"
 			id: "4353AB0E20601AEC"
@@ -1662,7 +1662,7 @@
 				""
 				"It pumps fluids from underneath Bedrock itself. Note that the fluids aren't actually there, instead being simulated."
 				""
-				"Fluid veins are stored within regions of &48x8 chunks&r. Each vein has a different fluid, but they are mostly types of Oil."
+				"Fluid veins are stored within &cchunk-sized regions&r. Each vein has a different fluid, but they are mostly types of Oil."
 				""
 				"You can't carry out prospecting for fluid veins &oyet&r - this will come at &6HV&r."
 				"{@pagebreak}"
