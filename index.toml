@@ -122,7 +122,7 @@ hash = "115521bfe8fd7354bef4d8d87b4249498bb9fb50eae6057a2d22dd806b8ba97c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv__high_voltage.snbt"
-hash = "0b707039992da538a585f6cc033fb0e6148759b1a7723337be1dc564d438e839"
+hash = "e669c2ecdb4464f0666ff39659680050331ec674d0bc236be11e78d1cc747c49"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv__insane_voltage.snbt"
@@ -142,7 +142,7 @@ hash = "c597f716bb540288bd909925586087298edabb66bf5b65b8f353631f05e295ce"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mv__medium_voltage.snbt"
-hash = "90e5ff856a2fd1fea89d17ba715bb805a0f07297e17ef51a8f7746ac4777b880"
+hash = "e4da5239ddc76e864421b26aeb8442dea54382901a092424ff1db6974824b023"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ore_generation.snbt"
