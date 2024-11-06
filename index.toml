@@ -65,6 +65,10 @@ file = "config/defaultoptions/options.txt"
 hash = "7fbf1a7a900a7294102ce0bb406470084d0054d57df53440de3607135fb6ccba"
 
 [[files]]
+file = "config/emi.css"
+hash = "c8731191ed6854c71272a75eff8d6054c9099e26ef6202d4773de629c1678f16"
+
+[[files]]
 file = "config/expatternprovider-common.toml"
 hash = "14ef0bbe6e5eeb3be38eb0cc02dcf7390343df816df23d01e032311298911464"
 
@@ -419,6 +423,10 @@ hash = "9e5046ac0b9f6d27945b689657835bff24310aec7b11f7461c972b514d0e0658"
 [[files]]
 file = "defaultconfigs/sophisticatedbackpacks-server.toml"
 hash = "16064257078b72734d0d52c8c85333f06d9f017bbaf6646c366f3803a510962d"
+
+[[files]]
+file = "kubejs/assets/emi/category/properties/categories.json"
+hash = "1fec36a6d21f1141d244bb229e94879a34c648b49deb0d6458cb77f64078dc2b"
 
 [[files]]
 file = "kubejs/assets/ftbquests/textures/items/recipestudy/clay_overview.png"
