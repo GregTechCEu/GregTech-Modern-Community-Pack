@@ -681,6 +681,11 @@ file = "kubejs/startup_scripts/recipes/greenhouse.js"
 hash = "e3fa23749515ff0720ceff36d06d1c36872b41eb41b62b2d0098ea9d47603add"
 
 [[files]]
+file = "mods/ae2-crafting-tree.pw.toml"
+hash = "5db5ab663f1ee8a2f1858c58832e217edf7168c1f8cd6c2c217470fe9941091c"
+metafile = true
+
+[[files]]
 file = "mods/alternate-current.pw.toml"
 hash = "8afcc0605156507e57a87872fefa808f5753a11163f80193674b5e5e06b42759"
 metafile = true
@@ -788,6 +793,11 @@ metafile = true
 [[files]]
 file = "mods/embeddium.pw.toml"
 hash = "a1575677daaaf6ea6dac12e5a10073e34025e5ca2c35b6d36ad4a5a0edbc0e82"
+metafile = true
+
+[[files]]
+file = "mods/emi.pw.toml"
+hash = "e0fd93d60706a63505e69867fe9a56f2b63b5b7cec7819636efe030a6395159f"
 metafile = true
 
 [[files]]
