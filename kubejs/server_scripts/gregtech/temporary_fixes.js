@@ -1,11 +1,4 @@
 ServerEvents.recipes((event) => {
-  event.recipes.gtceu
-    .macerator("obsidian_dust")
-    .itemInputs("obsidian")
-    .itemOutputs("#forge:dusts/obsidian")
-    .EUt(2)
-    .duration(25);
-
   event.remove("gtceu:shaped/compressed_coke_clay");
   event
     .shaped("3x gtceu:compressed_coke_clay", ["CCC", "ScS", "SSS"], {
