@@ -1,0 +1,165 @@
+{
+    "minecraft:crafting": {
+        "order": 53
+    },
+    "minecraft:anvil": {
+        "order": 52
+    },
+    "minecraft:blasting": {
+        "order": 51
+    },
+    "minecraft:brewing": {
+        "order": 50
+    },
+    "minecraft:campfire": {
+        "order": 49
+    },
+    "minecraft:compostable": {
+        "order": 48
+    },
+    "minecraft:fuel": {
+        "order": 47
+    },
+    "minecraft:furnace": {
+        "order": 46
+    },
+    "minecraft:smithing": {
+        "order": 45
+    },
+    "minecraft:smoking": {
+        "order": 44
+    },
+    "minecraft:stonecutting": {
+        "order": 43
+    },
+    "ae2:attunement": {
+        "order": 42
+    },
+    "ae2:certus_growth": {
+        "order": 41
+    },
+    "ae2:charger": {
+        "order": 40
+    },
+    "ae2:condenser": {
+        "order": 39
+    },
+    "ae2:entropy": {
+        "order": 38
+    },
+    "ae2:inscriber": {
+        "order": 37
+    },
+    "ae2:item_transformation": {
+        "order": 36
+    },
+    "framedblocks:framing_saw": {
+        "order": 35
+    },
+    "ftbquests:loot_crate": {
+        "order": 34
+    },
+    "ftbquests:quest": {
+        "order": 33
+    },
+    "gtceu:alloy_blast_smelter": {
+        "order": 32
+    },
+    "gtceu:alloy_smelter": {
+        "order": 31
+    },
+    "gtceu:arc_furnace": {
+        "order": 30
+    },
+    "gtceu:assembler": {
+        "order": 29
+    },
+    "gtceu:assembly_line": {
+        "order": 28
+    },
+    "gtceu:autoclave": {
+        "order": 27
+    },
+    "gtceu:bedrock_fluid_diagram": {
+        "order": 26
+    },
+    "gtceu:bender": {
+        "order": 25
+    },
+    "gtceu:brewery": {
+        "order": 24
+    },
+    "gtceu:canner": {
+        "order": 23
+    },
+    "gtceu:centrifuge": {
+        "order": 22
+    },
+    "gtceu:chemical_bath": {
+        "order": 21
+    },
+    "gtceu:chemical_reactor": {
+        "order": 20
+    },
+    "gtceu:circuit_assembler": {
+        "order": 19
+    },
+    "gtceu:coke_oven": {
+        "order": 18
+    },
+    "gtceu:combustion_generator": {
+        "order": 17
+    },
+    "gtceu:compressor": {
+        "order": 16
+    },
+    "gtceu:cracker": {
+        "order": 15
+    },
+    "gtceu:cutter": {
+        "order": 14
+    },
+    "gtceu:distillation_tower": {
+        "order": 13
+    },
+    "gtceu:distillery": {
+        "order": 12
+    },
+    "gtceu:electric_blast_furnace": {
+        "order": 11
+    },
+    "gtceu:electric_furnace": {
+        "order": 10
+    },
+    "gtceu:electrolyzer": {
+        "order": 9
+    },
+    "gtceu:electromagnetic_separator": {
+        "order": 8
+    },
+    "gtceu:extractor": {
+        "order": 7
+    },
+    "gtceu:extruder": {
+        "order": 6
+    },
+    "gtceu:fermenter": {
+        "order": 5
+    },
+    "gtceu:fluid_heater": {
+        "order": 4
+    },
+    "gtceu:fluid_solidifier": {
+        "order": 3
+    },
+    "gtceu:forge_hammer": {
+        "order": 2
+    },
+    "gtceu:forming_press": {
+        "order": 1
+    },
+    "gtceu:fusion_reactor": {
+        "order": 0
+    }
+}
+
