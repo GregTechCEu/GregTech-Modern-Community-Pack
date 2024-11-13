@@ -895,7 +895,7 @@ metafile = true
 
 [[files]]
 file = "mods/gregtechceu-modern.pw.toml"
-hash = "53ab5d47da156ab7e4dbb86e85de92741357e2932104b2fd1f23af0711c1c706"
+hash = "d5075c1529b81bab4f3a034376e5c1301a66ffd1c3abbe0973a86334be88dd6f"
 metafile = true
 
 [[files]]
@@ -1030,17 +1030,17 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "1de243a6e4dec10176f442122666952e0ecb69ee23218503b19d1516be7084c2"
+hash = "8a91a2acc4b2b1b01bf11ab52118de458b81c8c07c02318323a6f4c3b7cd0e00"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "595623491c3ce806497c0a4d202a3ff2aba201d1990e5a2552cb9a8183eedc29"
+hash = "df9eff87b022ebcf805d82a934c0da6620aab87bcb731f07bcac067b6cb553ba"
 metafile = true
 
 [[files]]
 file = "mods/storage-drawers.pw.toml"
-hash = "c99ce51e9f4d59caacb36295e3708b2255ce973d99227d8dbc0348cc82f9da67"
+hash = "830a3f07be995badf36595ab24c1d2cf77610e761b2edc8fcc4a2cfb573b0406"
 metafile = true
 
 [[files]]
