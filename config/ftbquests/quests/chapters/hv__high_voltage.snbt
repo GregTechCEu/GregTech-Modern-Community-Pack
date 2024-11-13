@@ -588,7 +588,7 @@
 				""
 				"You already know the drill from the Chemical Bath, so let's get right to the chase."
 				"{@pagebreak}"
-				"Install an &aItem Tag Filter&r Cover on the &3Input Bus&r of your &3Vacuum Freezer&r, open it and set to whitelist &e&lhot_ingots&r. The slot is to &dtest&r items to make sure you configured the Filter properly in case you forgot. Drag ingots from JEI!"
+				"Install an &aItem Tag Filter&r Cover on the &3Input Bus&r of your &3Vacuum Freezer&r, open it and set to whitelist &e&lhot_ingots&r. The slot is to &dtest&r items to make sure you configured the Filter properly in case you forgot. Drag ingots from EMI!"
 				""
 				"From here, you now have the option to route either with &9Item Pipes&r or &9AE2&r."
 				"{@pagebreak}"
@@ -687,9 +687,9 @@
 			description: [
 				"Regardless of whether you're playing on Peaceful or not, you will have to defeat the &4Ender Dragon&r to return to the Overworld safely."
 				""
-				"Prepare yourself with a bow, a few arrows, a blade, and some beds (speedrunner strats!)."
+				"Prepare yourself with a bow, a few arrows, a blade, and some beds &7(speedrunner strats!)&r."
 				""
-				"This quest will print the &alocation of the nearest Stronghold&r in chat."
+				"This quest will print the &alocation of the nearest Stronghold&r in chat. This &cwon't work&r if you have cheats disabled, unfortunately."
 				"{@pagebreak}"
 				"&9The End&r has even more new veins and materials to harvest, such as &ePlatinum&r and &7Naquadah&r! Similar to Nether ores, End ores are &6worth two Overworld ores&r."
 				""
@@ -815,9 +815,9 @@
 				""
 				"&9Reminder:&r The yield of a &3Fluid Drilling Rig&r is directly proportional to the \"fullness\" of the vein. When low enough, the output will default to a yield that can be defined in the CEu config."
 				"{@pagebreak}"
-				"&9Tip:&r When the fullness drops below 30% (alright, rough estimate), you should consider moving to another vein for the sake of power-to-yield efficiency. Aiming for the &3Advanced Fluid Drilling Rig&r in &5EV&r may interest you, as not only does it significantly boost the output, but it also reduces the rate at which it drains the vein!"
+				"&9Tip:&r When the fullness drops below 30% &7(alright, rough estimate)&r, you should consider moving to another vein for the sake of power-to-yield efficiency. Aiming for the &3Advanced Fluid Drilling Rig&r in &5EV&r may interest you, as not only does it significantly boost the output, but it also reduces the rate at which it drains the vein!"
 				""
-				"&cCaution:&r Due to a bug, the Prospector display may be offset by one chunk, so avoid placing your Rig in the corners of a fluid vein. or you may end up pumping the wrong fluid!"
+				"&cCaution:&r Due to a bug, the Prospector display may be offset by one chunk, so avoid placing your Rig in the corners of a fluid vein, or you may end up pumping the wrong fluid!"
 			]
 			icon: "gtceu:prospector.hv"
 			id: "2124BF15006733D5"
@@ -1304,7 +1304,7 @@
 				"16A6AE5C770DB83A"
 			]
 			description: [
-				"The &3HV Macerator&r finally unlocks more of the slots shown in JEI. With this, the first &9three&r slots are now available. This allows you to receive the &6unique ore Byproduct&r from macerating &dThermal &dCentrifuged Ore&r."
+				"The &3HV Macerator&r finally unlocks more of the slots shown in EMI. With this, the first &9three&r slots are now available. This allows you to receive the &6unique ore Byproduct&r from macerating &dThermal &dCentrifuged Ore&r."
 				""
 				"Macerating Ores costs &a32 EU/t&r with &5two overclocks&r, which makes this machine able to fit in &7LV&r lines - very, very convenient."
 				""

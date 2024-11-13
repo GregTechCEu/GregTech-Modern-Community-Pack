@@ -135,7 +135,7 @@
 		}
 		{
 			dependencies: ["6958029B5514D4EC"]
-			description: ["Nichrome will require your &aElectric Blast Furnace&r to be at least &6HV&r, with &bKanthal&r coils to boot."]
+			description: ["Nichrome will require your &aElectric Blast Furnace&r to be at least &6EV&r, with &bKanthal&r coils to boot."]
 			id: "1CBA5477CB7C45E7"
 			shape: "rsquare"
 			size: 0.66d

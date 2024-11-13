@@ -764,7 +764,7 @@
 				"7FA0ACB7F161F378"
 			]
 			description: [
-				"You've probably noticed the &9\"chance per tier\"&r when hovering over the bonus outputs in &2JEI&r Each overclock above the required tier will add that % bonus to the chanced output!"
+				"You've probably noticed the &9\"chance per tier\"&r when hovering over the bonus outputs in &2EMI&r Each overclock above the required tier will add that % bonus to the chanced output!"
 				""
 				"This means using an &3EV Macerator&r will yield &6more Byproducts&r!"
 			]
@@ -1183,7 +1183,7 @@
 			description: [
 				"Don't worry, this is nothing compared to running an EBF."
 				""
-				"Hopefully for you, the &3LCR&r recipe in &2JEI&r for &aRadon&r should be self explanatory on how to set it up."
+				"Hopefully for you, the &3LCR&r recipe in &2EMI&r for &aRadon&r should be self explanatory on how to set it up."
 				""
 				"Input some &aUranium&r, loop back the &dPlutonium&r using a &3Electric Furnace&r, and let the magic happen."
 				""
@@ -1471,7 +1471,7 @@
 				""
 				"&9Note the special placement rules:&r Energy, Items, and Fluid Inputs can only be placed on the bottom layer. Maintenance can be placed anywhere. Fluid Outputs can only be placed starting on the second vertical layer, and only allow one per layer as well."
 				"{@pagebreak}"
-				"The &3DT&r can form at any height from &c&c3&r to &c13&r blocks, allowing 2 to 12 Fluid Outputs. Fluid will always output on the layer corresponding to the recipe in &2JEI&r."
+				"The &3DT&r can form at any height from &c&c3&r to &c13&r blocks, allowing 2 to 12 Fluid Outputs. Fluid will always output on the layer corresponding to the recipe in &2EMI&r."
 				""
 				"The &3DT&r has one more &9special&r rule. You can deliberately build it too short, and it will &cvoid&r whichever Fluid should have been output at the top layers that were removed. This can be useful in some very niche situations."
 				""

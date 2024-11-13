@@ -436,7 +436,7 @@
 			description: [
 				"The &3High Performance Computation Array&r, also known as the &3HPCA&r, is the multiblock used to create &9Computation&r, measured in CWU/t (Compute-Work Units per tick)."
 				""
-				"The HPCA is a modular multiblock with many unique components you've likely not seen before. There are &a9 slots available&r for different components, and there are some example layouts in the JEI previews, so reviewing these may help if you feel confused."
+				"The HPCA is a modular multiblock with many unique components you've likely not seen before. There are &a9 slots available&r for different components, and there are some example layouts in the EMI previews, so reviewing these may help if you feel confused."
 				"{@pagebreak}"
 				"There are two main types of components:"
 				""
@@ -674,7 +674,7 @@
 				"79E4E53E9DF45549"
 			]
 			description: [
-				"Build the structure displayed with Fusion Glass in &aJEI&r."
+				"Build the structure displayed with Fusion Glass in &aEMI&r."
 				""
 				"To save on Fusion Casings, fit Input + Output Hatches wherever you can (as displayed in the structure)."
 				""

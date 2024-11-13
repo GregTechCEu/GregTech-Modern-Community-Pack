@@ -24,6 +24,7 @@
 			icon: "gtceu:samarium_iron_arsenic_oxide_double_wire"
 			id: "52D952ADBEB67454"
 			size: 0.75d
+			subtitle: "So you're telling me an Ivy conducted this Super?"
 			tasks: [{
 				icon: "gtceu:samarium_iron_arsenic_oxide_single_wire"
 				id: "3789CEDA4AEEBD91"
@@ -78,7 +79,7 @@
 				""
 				"At this point, you may find yourself using only one &3Electric Blast Furnace&r for your entire base, powered with the highest available Voltage you can supply."
 				""
-				"&6Hot Metals&r will start taking longer to cool down, as unlike your EBFs, the &3Vacuum Freezer&r doesn't get perfect overclocks. For that, you probably want a dual (or quad) &3Vacuum Freezer&r."
+				"&6Hot Metals&r will start taking longer to cool down, as unlike your EBFs, the &3Vacuum Freezer&r doesn't get perfect overclocks. For that, you probably want a dual &7(or quad)&r &3Vacuum Freezer&r."
 			]
 			icon: "gtceu:hssg_coil_block"
 			id: "7A1E3C3A2D699C5B"
@@ -216,11 +217,11 @@
 				"7CFC112B8F460549"
 			]
 			description: [
-				"Better &aSMDs&r? SMDs that'll unlock far cheaper - and faster - Circuit recipes? We're sold!"
+				"Better &aSMDs&r? SMDs that'll unlock far cheaper &7- &8and faster &7-&r Circuit recipes? We're sold!"
 				""
 				"These'll require Alloys that you haven't made yet, most of which will be commonly used in &dLuV&r and onwards. Get on it!"
 				""
-				"Whilst you don't need these right now, &aAdvanced SMDs&r will become a hard requirement for the &dCrystal&r Circuit line. Note that using these in your current circuits will halve the recipe duration."
+				"Whilst you don't need these right now, &aAdvanced SMDs&r will become a hard requirement for the &dCrystal&r Circuit line. Note that using these in your current circuits will &2halve&r the recipe duration."
 			]
 			icon: "gtceu:advanced_smd_transistor"
 			id: "195E5BFDE4C5A0DE"
@@ -300,7 +301,7 @@
 				""
 				"This thing is &la colossal noob trap&r, and you should &4ABSOLUTELY&r use something else. &cDon't&r make this, it's not good, not even as a meme! Steam &4doesn't&r scale beyond this point, and this boiler will likely be &3removed&r in the future."
 				""
-				"&eNote&r: This quest can be skipped (for completion progress) by clicking the Checkmark. You do not have to actually craft one."
+				"&eNote&r: This quest can be skipped &7(for completion progress)&r by clicking the Checkmark. You do not have to actually craft one."
 				""
 				"&l&3Lore:&r&o No one makes these in GT5u either... y'know, almost makes you feel sorry for the poor boiler."
 			]
@@ -329,7 +330,7 @@
 		{
 			dependencies: ["528CE69DA4358B2E"]
 			description: [
-				"&aLaminated Glass&r is the shiny new tier of Glass for &1IV&r and onwards. It is made in the &3Forming Press&r using a new Polymer: &dPolyvinyl Butyral&r."
+				"&aLaminated Glass&r is the shiny new tier of Glass for &9IV&r and above. It's made in the &3Forming Press&r using a polymer you won't be familiar with: &dPolyvinyl Butyral&r."
 				""
 				"None of the steps should be particularly difficult if you already have the &3Distillation Tower&r for Cracked Fuels, and you have also automated Epoxy."
 				""
@@ -425,7 +426,7 @@
 		{
 			dependencies: ["30A6EDDF25A5E5F8"]
 			description: [
-				"&1IV&r Components - fortunately for you - aren't a massive step up in terms of complexity."
+				"&9IV&r Components - fortunately for you - aren't a massive step up in terms of complexity."
 				""
 				"However, the amount of &dTungsten&r required in crafting these is huge."
 				""
@@ -492,6 +493,7 @@
 			]
 			id: "05003665368F5A57"
 			size: 0.75d
+			subtitle: "No more being Ore-poor!"
 			tasks: [{
 				id: "4043CFB3C4E0DB90"
 				item: "gtceu:iv_macerator"
@@ -533,13 +535,13 @@
 				"6B128610C7D2825D"
 			]
 			description: [
-				"Making &dLuV&r Components will require more work. You'll need to look at making the &3Assembly Line&r in order to progress."
+				"Making &dLuV&r Components will require more work. You'll need to make an &3Assembly Line&r in order to progress."
 				""
-				"This Multiblock has a &evariable size&r&r. Each &3ULV Input Bus&r accepts a different stack of items."
+				"This Multiblock has a &evariable size&r&r. Each &3ULV Input Bus&r along the bottom can only hold a &dsingle stack&r of items, so you'll need different lengths for different recipes."
 				""
-				"You will want to build this with a size of &d10&r to get started, or of a size of &d14&r to accept all possible recipes in base GTCEu."
-				""
-				"Recipes require &aFluids&r, so it is a good idea to keep the &3Input Hatches&r permanently filled with &dSoldering Alloy&r, &dLubricant&r and &dStyrene-Butadienne Rubber&r."
+				"You'll want to build this with a size of &d10&r to get started, or of a size of &d14&r to accept all possible recipes in base GTCEu. &6Don't worry&r if you overbuild - it can run any recipe if it's too long, but you may find the casings quite &4expensive&r right now. &7Choices, &8choices!&r"
+				"{@pagebreak}"
+				"Recipes here will require &aFluids&r, so it's a good idea to keep the &3Input Hatches&r permanently filled with &dSoldering Alloy&r, &dLubricant&r and &dStyrene-Butadienne Rubber&r."
 				""
 				"&6This quest unlocks two new tutorials on the Assembly Line and Research in the &lTips and Tricks&r&6 tab - check them out to learn more!&r"
 			]
@@ -569,7 +571,7 @@
 				""
 				"This form of Energy Storage is perfect if your Power Generation is inconsistent, or if you need to buffer large amounts due to the nature of &3Large Turbines&r."
 				""
-				"Such a boost in power does not come cheap. The &dEngraved Lapotron Crystal Chips&r are worth &a8 Lapotron Crystals&r."
+				"Such a boost in power does not come cheap. Each &dLapotronic Energy Orb&r is worth &a8 Lapotron Crystals&r."
 			]
 			icon: "gtceu:lapotronic_energy_orb"
 			id: "5B07279B08BF8DDE"
@@ -617,8 +619,8 @@
 				""
 				"You can also use them for &dBeacons&r if you desire the permanent potion effects. Finally, a vanilla multiblock!"
 				""
-				"We've added a recipe for Nether Star Dust in this pack."
-				""
+				"We've added a recipe for Nether Star Dust in this pack. &7(Yes - without any tweaks, GTCEu expects you to farm Withers ad nauseam.)"
+				"&r"
 				"On the topic of the &aNether Air&r which is required in the recipe: take a look at &9Liquid Nether Air&r distillation at your own leisure. It's quite rewarding."
 				""
 				"&o&8Did you know the vanilla Nether Star texture isn't centred? :)"
@@ -662,7 +664,7 @@
 				""
 				"You'll need at least an &9IV&r &3Large Chemical Reactor&r, but the average power draw isn't too bad."
 				""
-				"&dChlorine&r is fully looped, and &dHydrogen&r is slightly negative (&ounless you put Acidic Osmium Solution in the Distillation Tower and electrolyze the water back... on second thoughts, don't do that&r)."
+				"&dChlorine&r is fully looped, and &dHydrogen&r is slightly negative &7(&ounless you put Acidic Osmium Solution in the Distillation Tower and electrolyze the water back... &8on second thoughts, don't do that&r&8)."
 				""
 				"&aIridium&r is required to progress through &9IV&r, so get your PGS line automated ASAP!"
 			]
@@ -844,7 +846,7 @@
 				"2BB16260A76718B8"
 			]
 			description: [
-				"The first Circuit of the &1Quantum&r line."
+				"The first Circuit of the &1Quantum&r line. This is the last \"easy\" circuit line - things are about to get hectic."
 				""
 				"If you wish, you could go even further and aim for &dAdvanced SMDs&r to make these Circuits cheaper. "
 				""
@@ -892,6 +894,8 @@
 				"The next board material."
 				""
 				"It's as easy as using some &aEpoxy&r in the &3Chemical Bath&r."
+				""
+				"&8Anyone in favor of this getting reworked?"
 			]
 			id: "0338C9219DC2F819"
 			size: 0.75d
@@ -923,9 +927,9 @@
 		{
 			dependencies: ["49C1D61741AA288E"]
 			description: [
-				"Better &1IV&r Circuits. "
+				"Better &9IV&r Circuits. "
 				""
-				"Your march through &1IV&r continues. Stay strong, soldier."
+				"Your march through &9IV&r continues. Stay strong, soldier."
 			]
 			id: "698B5F65F2DE4439"
 			size: 0.75d
@@ -978,8 +982,8 @@
 				type: "item"
 			}]
 			title: "Upgrading your EBF for the millionth time"
-			x: 3.75d
-			y: 3.75d
+			x: 3.7589285714285765d
+			y: 3.767040816326528d
 		}
 		{
 			dependencies: ["12B4423F055BFBF5"]
@@ -1081,6 +1085,47 @@
 			title: "QuarkTech"
 			x: -0.75d
 			y: 0.375d
+		}
+		{
+			dependencies: ["7CFC112B8F460549"]
+			description: ["&bPolybenzimidazole&r is the best material for &6Soft Mallets&r in vanilla GTCEu. Show us that you're on top of your PBI supply by spending some of it on a &dsuperfluous tool upgrade&r."]
+			icon: {
+				Count: 1
+				id: "gtceu:polybenzimidazole_mallet"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						MaxDamage: 1023
+					}
+					HideFlags: 2
+				}
+			}
+			id: "502836411CA028B9"
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Life would be boring without silly quests..."
+			tasks: [{
+				id: "5A9B72CD21F42428"
+				item: {
+					Count: 1
+					id: "gtceu:polybenzimidazole_mallet"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							MaxDamage: 1023
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "The Mallet to End All Other Mallets"
+			x: -1.6492346938775455d
+			y: 3.7466326530612264d
 		}
 	]
 	subtitle: ["Automate everything and learn how to assemble"]

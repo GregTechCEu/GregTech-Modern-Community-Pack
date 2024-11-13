@@ -89,7 +89,7 @@
 		{
 			dependencies: ["012BF60FBD5D41AC"]
 			description: [
-				"Washing ores with Mercury where applicable instead of &3Distilled Water&r grants unique byproducts that may be difficult to obtain in other circumstances. It's usually worth doing this, as Mercury is readily available from centrifuging &cRedstone&r or &4Cinnabar&r (and in fact, Mercury is the &lonly&r real usage of Cinnabar!)"
+				"Washing ores with Mercury where applicable instead of &3Distilled Water&r grants unique byproducts that may be difficult to obtain in other circumstances. It's usually worth doing this, as Mercury is readily available from centrifuging &cRedstone&r or &4Cinnabar&r &7(and in fact, Mercury is the &lonly&r&7 real usage of Cinnabar!)&r."
 				""
 				"Simply wash any &6Crushed Ore&r with a Chemical Bath."
 				"{@pagebreak}"
@@ -326,8 +326,8 @@
 				"{@pagebreak}"
 				"You may &bappreciate&r performing this stage of processing on the following ores:"
 				""
-				"- Bastnasite Ore (This is particularly strong for Neodymium!)"
-				"- Naquadah Ore (The Enriched Naquadah byproduct is very powerful!)"
+				"- Bastnasite Ore &7(This is particularly strong for Neodymium!)&r"
+				"- Naquadah Ore &7(The Enriched Naquadah byproduct is very powerful!)&r"
 				"- Nickel Ore"
 				"- Tin Ore"
 				"- Goethite Ore"
@@ -409,7 +409,7 @@
 		}
 		{
 			dependencies: ["730043448A9ADBB6"]
-			description: ["Whilst the majority (if not all) of the listed steps can be automated using GregTech alone, savvy players may wish to use AE2 for all their logistics needs. Here, we'll cover some methods you may not be aware of to help you elevate your Ore Processing to the next level."]
+			description: ["Whilst the majority &7(if not all)&r of the listed steps can be automated &3using GregTech alone&r, savvy players may wish to use &dAE2&r for all their logistics needs. Here, we'll cover some methods you may not be aware of to help you elevate your &aOre Processing&r to the next level."]
 			icon: "ae2:controller"
 			id: "3CCD98E7139BA564"
 			subtitle: "Let's look at what AE2 can do for you!"
@@ -447,20 +447,20 @@
 		{
 			dependencies: ["3CCD98E7139BA564"]
 			description: [
-				"One could define a Subnetwork (or \"Subnet\" for short) as any network that isn't part of your main network."
+				"One could define a Subnetwork &7(or \"Subnet\" for short)&r as any network that isn't part of your main network."
 				""
-				"The simplest way to create a Subnet is by attaching an ME Interface to a Storage Bus. This means that the Storage Bus will treat the Interface as an inventory to be read from - i.e., it'll be able to see all of the items in the network connected to the Interface."
+				"The simplest way to create a Subnet is by attaching an &bME Interface&r to a &aStorage Bus&r. This means that the Storage Bus will treat the Interface as an inventory to be read from - i.e., it'll be able to see &5all of the items&r in the network connected to the Interface."
 				""
-				"As your main network will not be transferred through the Storage Bus, you'll need to give your subnet power from the main network with Quartz Fibre. Ensure that you don't accidentally connect the two networks with regular cabling."
+				"As your main network will &4not&r be transferred through the Storage Bus, you'll need to give your subnet power from the main network with &6Quartz Fibre&r. Ensure that you don't accidentally connect the two networks with regular cabling."
 				"{@pagebreak}"
-				"Question is - how does this benefit you as a player? The logistics powers made available with subnetworking are immense, so we'll cover a few examples in light detail. The rest is left as an exercise to the reader!"
+				"Question is - how does this &abenefit you&r as a player? The logistics powers made available with subnetworking are immense, so we'll cover a few examples &9in light detail&r. The rest is left as an exercise to the reader!"
 				""
-				"- A subnet for your ore processing system, which automatically handles all the intermediate byproducts without them constantly entering and exiting your main network!"
-				"- Really, it's useful to subnet larger processing chains such as Platinum processing. This way, you can ensure that byproducts can be appropriately recycled, and reduce overhead."
+				"- A subnet for your ore processing system, which &bautomatically handles&r all the intermediate byproducts without them constantly entering and exiting your main network!"
+				"- Really, it's useful to subnet &dlarger processing chains&r such as &ePlatinum processing&r. This way, you can ensure that byproducts can be appropriately recycled, and reduce overhead."
 				""
 				""
 				"{@pagebreak}"
-				"Subnets can be infinitely nested, but as ever in modded Minecraft, this should be performed in moderation (or even better, avoided), as many levels of nesting can cause performance issues when calculating the network."
+				"Subnets can be infinitely nested, but as always in &bmodded Minecraft&r, this should be performed in moderation (or even better, avoided), as many levels of nesting can cause &4performance issues&r when calculating the network."
 				""
 				"Oh... and if you've re-enabled Channels in this pack, subnetworks only consume a single channel from your main network. What a bargain!"
 			]

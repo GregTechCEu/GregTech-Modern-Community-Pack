@@ -38,7 +38,7 @@
 				""
 				"The Pyrolyse Oven remains &doptional&r. However, it is very rewarding to construct one either for Power, or for the various Byproducts, and we highly recommend you give it a look."
 				""
-				"&l&3Lore:&r&o In GT5u, the structure for the Pyrolyse Oven was infamously a giant box with only 9 coils inside. Players usually spent several minutes debugging what is wrong due to a lack of a JEI preview."
+				"&l&3Lore:&r&o In GT5u, the structure for the Pyrolyse Oven was infamously a giant box with only 9 coils inside. Players usually spent several minutes debugging what is wrong due to a lack of a EMI preview."
 			]
 			icon: "gtceu:pyrolyse_oven"
 			id: "53DC6E32C41C94C3"
@@ -472,7 +472,7 @@
 			description: [
 				"All four output Dusts obtained from Clay electrolysis are immensely useful."
 				""
-				"We'll ask you to give us a total of &a416 Clay Dust&r for this quest. You may also want to look into other sources of similar materials, such as &aSodalite&r. Check JEI for some ideas."
+				"We'll ask you to give us a total of &a416 Clay Dust&r for this quest. You may also want to look into other sources of similar materials, such as &aSodalite&r. Check EMI for some ideas."
 				""
 				"You should use the Sodium and/or Lithium to make some &6MV Batteries&r."
 				""
@@ -529,11 +529,11 @@
 				"{@pagebreak}"
 				"You will need &9Power&r. &aCharged Batteries&r may work, but they tend to run out of power, which is a bit inconvenient."
 				""
-				"Our top suggestion is to use a filled &3Drum&r of some kind of fuel (if you're using Steam, no dice!) and a &3Generator&r. "
+				"Our top suggestion is to use a filled &3Drum&r of some kind of fuel &7(if you're using Steam, no dice!)&r and a &3Generator&r. "
 				""
 				"Place the Drum above your Generator and right-click it with a &5Screwdriver&r to auto-output into the Generator."
 				"{@pagebreak}"
-				"&cNote:&r Do not forget to &dchunkload&r all 9 chunks of the ore vein with FTB Utilities (open the map in the top left corner, claim the chunks with left-click, and enable force loading with shift-left-click)."
+				"&cNote:&r Do not forget to &dchunkload&r all 9 chunks of the ore vein with FTB Utilities &7(open the map in the top left corner, claim the chunks with left-click, and enable force loading with shift-left-click)&r."
 				""
 				"&9Tip:&r You can either use an &3ME Chest&r or a &32x2 Drawer&r as the output inventory to make transporting the ores back home a simple task. The &3ME Chest&r can be powered with EU directly."
 			]
@@ -643,7 +643,7 @@
 		{
 			dependencies: ["315169840E06110F"]
 			description: [
-				"Making &aAE2 Presses&r will unlock all the &9Processors&r from AE2. This opens up &9ME Drives&r, &9ME Interfaces,&r &9ME Crafting CPUs&r... that's almost the rest of AE2 at your fingertips!"
+				"Making &aAE2 Presses&r will unlock all the &9Processors&r from AE2. This opens up &9ME Drives&r, &9ME Interfaces,&r &9ME Crafting CPUs&r... that's almost the rest of AE2 at your fingertips! &7(Or at least... not until you obtain Silicon Ingots.)&r"
 				""
 				"AE2 &9Printed Circuits&r are now made in the &3Forming Press&r."
 			]
@@ -803,13 +803,13 @@
 				""
 				"The multiblock &3Greenhouse&r will be your source of &aWood&r and other plants if you wish."
 				""
-				"The &aWood&r production should be enough to run &32 Pyrolyse Ovens&r at their lowest Power."
+				"Its &aWood&r production should be enough to run &32 Pyrolyse Ovens&r at their lowest Power."
 				""
 				"You can also use this for automated &aResin&r. The yields are kept low to incentivize other rubber sources later in the game."
 				"{@pagebreak}"
 				"&9Note: &rWith &d40 EU/t&r recipes, it needs either 1 &bMV&r energy hatch or 2 &7LV&r energy hatches. Multiblocks will &cnot&r use 2A of one tier to reach the next one for recipe voltage minimums. "
 				""
-				"In other words, the controller needs to say at least \"&bMV&r\" in the GUI to run recipes which say \"&bMV&r\" in JEI, even if they can draw enough EU/t with a lower tier hatch configuration."
+				"In other words, the controller needs to say at least \"&bMV&r\" in the GUI to run recipes which say \"&bMV&r\" in EMI, even if they can draw enough EU/t with a lower tier hatch configuration."
 				""
 				"&9Note:&r The structure requires a lot of &9Wrought Iron&r. Make sure you have an &3Arc Furnace&r for that."
 				"{@pagebreak}"
@@ -848,7 +848,7 @@
 				"{@pagebreak}"
 				"An &3MV Chemical Bath&r is required to cool &cHot Ingots&r down. They're &chot&r when held, as the name implies. &o&7Maybe you should save your hands and automate this...&r"
 				""
-				"With the construction of a &3Kanthal EBF&r, you're now able to make &dSilicon Ingots&r!"
+				"With the construction of a &3Kanthal EBF&r, you're now able to make &dSilicon Ingots&r, opening up the vast majority of AE2!"
 			]
 			icon: "gtceu:kanthal_coil_block"
 			id: "1C55AE6AD5BDE304"
@@ -868,7 +868,7 @@
 		{
 			dependencies: ["1C55AE6AD5BDE304"]
 			description: [
-				"This is a guide on how to automatically route &lall&r&o your Hot Ingots to your Chemical Bath, while keeping everything automated in tip-top shape."
+				"This is a guide on how to automatically route &lall&r your Hot Ingots to your Chemical Bath, while keeping everything automated in tip-top shape."
 				""
 				"The cheap way would be to use filters, and manually add Hot Ingots one by one... which is so boring! Let's try the fun option."
 				""
@@ -1142,7 +1142,7 @@
 			description: [
 				"&6The best MV Circuits&r! You will be making these for the remainder of the game."
 				""
-				"Eventually (in &1IV&r), they will become even cheaper."
+				"Eventually (in &9IV&r), they will become even cheaper."
 			]
 			icon: "gtceu:micro_processor"
 			id: "38DE506FF5B32031"
@@ -1191,7 +1191,7 @@
 			description: [
 				"Better &6HV&r Circuits - much &dcheaper&r and easier to make than before."
 				""
-				"&6You should now be ready to move on the HV Chapter&r, unless you're yet to scale up your Power Production."
+				"You should now be &aready to move on&r to the HV Chapter, unless you're yet to scale up your Power Production."
 			]
 			icon: "gtceu:micro_processor_assembly"
 			id: "5063FDFFBE3E4855"
@@ -1469,7 +1469,7 @@
 				"1A77CA35F054F988"
 			]
 			description: [
-				"JEI might look a little overwhelming here, so we'll go through the best path for Sulfuric Acid here."
+				"EMI might look a little overwhelming here, so we'll go through the best path for Sulfuric Acid here."
 				""
 				"Making &eSulfuric Acid&r is a three step process. It is used in many important reactions, so you should automate its production ASAP."
 				"{@pagebreak}"
@@ -1837,7 +1837,7 @@
 				""
 				"Get &eeither&r to complete this quest."
 				"{@pagebreak}"
-				"Got all that? &6Alright&r! Let's discuss a complex topic: &9Distillation&r. We'll try to help you understand how and why the &aJEI&r recipes are the way they are, so stick with us."
+				"Got all that? &6Alright&r! Let's discuss a complex topic: &9Distillation&r. We'll try to help you understand how and why the &aEMI&r recipes are the way they are, so stick with us."
 				""
 				"Nearly all the &3Distillery&r recipes are duplicates from the &3Distillation Tower&r, except that they only have one Fluid output, and void everything else."
 				""
@@ -2181,6 +2181,8 @@
 				"These pipes instantly transfer from the input side to the output side."
 				""
 				"They also have a minimum distance between pipe endpoints, so you can't use these for short-range operations."
+				"{@pagebreak}"
+				"These pipes have a reputation of being &4buggy&r to set up. If they don't seem to work at first, try rotating the endpoints with a &eWrench&r."
 			]
 			icon: "gtceu:long_distance_fluid_pipeline_endpoint"
 			id: "5480AF2EDEDB6A36"
@@ -2312,6 +2314,36 @@
 			title: "Tricorder"
 			x: 5.996173469387756d
 			y: -0.3042091836734713d
+		}
+		{
+			dependencies: ["0EFEE489906256AA"]
+			description: [
+				"In this quest, we'll bestow upon you &5cursed wisdom&r... the ability to easily automate the Electrolyzer."
+				""
+				"The &9Smart Item Filter&r is a filter that recognises Recipe Maps. When placed on the side of a machine, you can set it to \"&3Electrolyzer&r\" to allow insertion of electrolyzable items specifically. You heard that right - no need to filter manually!"
+				""
+				"Oh, and it only gets &abetter&r. If you combine this bad boy with a &aRobot Arm&r, it'll only supply the &6exact amount&r of items required for a successful recipe to the machine."
+				"{@pagebreak}"
+				"Place the &aRobot Arm&r on your Electrolyzer, open its GUI, then place the &9Smart Filter&r inside. Ensure that the Smart Filter is set to Electrolyzer."
+				""
+				"Next, configure it to &d&lImport&r and &d&lSupply Exact&r. Finally, attach any inventory &7(a chest will do)&r onto the side where you placed the &aRobot Arm&r. Ta-dah! You've figured out how to handle &6all&r Electrolyzer recipes!"
+				""
+				"What about the output of the &3Electrolyzer&r? You may want to route the Fluids to several Tanks - or even &3Super Tanks&r if you've gotten that far. We highly recommend that you avoid any methods involving voiding Fluids.&7.&8. except for Water for obvious reasons."
+				"{@pagebreak}"
+				"&9Note:&r The Robot Arm has to facilitate the item transfer for its filtering functionality to work! Inserting directly into the machine &7(for instance, pushing with a Hopper!)&r will ignore the Robot Arm's &dSupply Exact&r setting."
+			]
+			icon: "gtceu:item_smart_filter"
+			id: "63AE94F1F504DE76"
+			size: 0.66d
+			subtitle: "Knock, knock - who's that? It's MENSA!"
+			tasks: [{
+				id: "1C19F21F1416DD52"
+				item: "gtceu:item_smart_filter"
+				type: "item"
+			}]
+			title: "200IQ"
+			x: -1.123469387755101d
+			y: 2.445153061224488d
 		}
 	]
 	subtitle: ["Venture into petrochemistry and refine electronics"]

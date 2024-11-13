@@ -173,7 +173,7 @@
 				""
 				"Using your fancy new &3Macerator&r, you'll need to process &d132 Clay&r, split into &d66 Clay Dusts&r and &d66 Brick Dusts&r."
 				""
-				"Build the structure using &4JEI's Multiblock preview tab&r."
+				"Build the structure using &4EMI's Multiblock preview tab&r."
 				"{@pagebreak}"
 				"Steel will be &9of utmost importance&r throughout the entire game, so make sure you keep that PBF running. We should clarify that the PBF isn't the only way to get Steel throughout your playthrough, though!"
 				""
@@ -274,7 +274,7 @@
 			description: [
 				"Now that you have Steel, you can make a &3Flint and Steel&r. You now have access to the &4Nether&r."
 				""
-				"&oYou could also light the Nether portal using... natural means. Dirty cheater.&r"
+				"&o&8You could also light the Nether portal using... natural means. Dirty cheater.&r"
 				""
 				"The &4Nether&r has more veins to mine, and with those veins, new ores to discover. Check the Ore Tab to learn more about the Nether Veins."
 				""
@@ -336,7 +336,7 @@
 			description: [
 				"Mine some &dSulfur&r from the Nether."
 				""
-				"If Lava is \"too hot to handle\", we've included a &6direct crafting recipe&r for &aPotions of Fire Resistance&r. JEI might look a little confusing, but don't worry - you can use &bWater Bottles&r in the potion recipe."
+				"If Lava is \"too hot to handle\", we've included a &6direct crafting recipe&r for &aPotions of Fire Resistance&r. EMI might look a little confusing, but don't worry - you can use &bWater Bottles&r in the potion recipe."
 				""
 				"&l&3Lore:&r&o With the existence of &6Small Sulfur Ores&f scattered in GregTech 5 ore veins, you could mine enough Sulfur in the Overworld to skip having to visit the Nether. Sounds broken, but it was still as much of a grind as Nether travel!"
 			]
@@ -381,7 +381,7 @@
 		{
 			dependencies: ["77EA56D16A9B3BFC"]
 			description: [
-				"Good news - we're going to start to cut down on the amount of components you'll need to submit for quests as you progress further into the modpack. Remember that &2JEI is your true mentor&r if recipes are getting overwhelming."
+				"Good news - we're going to start to cut down on the amount of components you'll need to submit for quests as you progress further into the modpack. Remember that &2EMI is your true mentor&r if recipes are getting overwhelming."
 				""
 				"Getting back on topic, set yourself up for &7LV&r by crafting six &aLV Electric Motors&r! This may seem like a lot, but that's the bare minimum required to get to the good stuff in &7LV&r."
 				""
@@ -460,7 +460,7 @@
 				""
 				"Additionally, &binternal tanks&r from machines will interact with items containing fluid. This is great for manual crafting - this means you can use fluid drums instead of multiple buckets in crafting. To &5void fluid&r contained in a Drum, place it alone in any crafting grid."
 				""
-				"&o&7Pssst:&r &oA right-click with a Screwdriver allows a Drum to drain its content into another container placed under it. This is great if you want to keep your Liquid Boilers fueled for longer."
+				"&o&7Pssst:&8 &oA right-click with a Screwdriver allows a Drum to drain its content into another container placed under it. This is great if you want to keep your Liquid Boilers fueled for longer."
 				"{@pagebreak}"
 				"&l&3Lore:&r&o These drums are actually ported from GregTech 6."
 			]
@@ -487,7 +487,7 @@
 			description: [
 				"The &bPrimitive Water Pump&r is an easy way to automatically generate water for your boilers. It doesn't physically pump water from the world, instead generating it &einternally&r. Therefore, you don't need access to a &3body of water&r to make use of it. However, the humidity of the biome does apply a negligible bonus to its water production."
 				""
-				"It's a multiblock, so &5consult JEI&r for the structure. Multiblocks can be previewed in-world if you sneak right-click the \"&a&ocontroller&r\" block with an empty hand (in this case, the controller block is the &bPrimitive Water Pump&r itself)."
+				"It's a multiblock, so &5consult EMI&r for the structure. Multiblocks can be previewed in-world if you sneak right-click the \"&a&ocontroller&r\" block with an empty hand (in this case, the controller block is the &bPrimitive Water Pump&r itself)."
 				""
 				"&6Small tip for you:&r no need to worry about your base's biome for now, as your boilers will need very little water to keep up."
 				"{@pagebreak}"
@@ -627,7 +627,7 @@
 				""
 				"You'll want to use the &3Alloy Smelter&r to make &aRubber Bars&r. These ratios aren't particularly great, but we promise that making Rubber Bars will be much more efficient at &7LV&r."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In base GregTech 5 (and in base GTCE), you needed to get string and black wool carpets as your first insulation material. &mThat was obviously far, far more fun.&r"
+				"&l&3Lore:&r&o In base GregTech 5 &7(and in base GTCE)&f, you needed to get string and black wool carpets as your first insulation material. &8&mThat was obviously far, far more fun.&r"
 			]
 			icon: "gtceu:rubber_ingot"
 			id: "77EA56D16A9B3BFC"
@@ -703,7 +703,7 @@
 				""
 				"&dNote:&r GT6-style Pipes are enabled. It means that placing Pipes connects them only to the block they were placed against. To open more connections, use your Wrench on the pipe."
 				""
-				"You can also shift-right click with your Wrench to disable input from a side. This can help counteract sloshing (liquids travelling in an undesired direction)."
+				"You can also shift-right click with your Wrench to disable input from a side. This can help counteract sloshing &7(liquids travelling in an undesired direction)&r."
 			]
 			icon: "gtceu:bronze_normal_fluid_pipe"
 			id: "1FFD2242B94A7378"
@@ -748,7 +748,7 @@
 				""
 				"Important: Boilers can explode! This still catches out &eexperienced GT players&r, so keep this warning in mind when setting your Boiler up."
 				"{@pagebreak}"
-				"Water does not gel well with &6high temperatures&r, and a &cSteam Explosion&r (Launch!) may occur under the following conditions:"
+				"Water does not gel well with &6high temperatures&r, and a &cSteam Explosion&r &7(Launch!)&r may occur under the following conditions:"
 				""
 				"- The Boiler is &4overheating.&r Its temperature is indicated by the &cred bar&r in the GUI."
 				"...and..."
@@ -778,7 +778,7 @@
 		{
 			dependencies: ["5DD49D500327A0E2"]
 			description: [
-				"&dSteam Machines&r accept any Steam that is pumped from nearby Boilers into their internal storage tank. They will run recipes from JEI up to 32 EU/t (&7LV&r-tier)."
+				"&dSteam Machines&r accept any Steam that is pumped from nearby Boilers into their internal storage tank. They will run recipes from EMI up to 32 EU/t (&7LV&r-tier)."
 				""
 				"&6This quest unlocks a new tutorial on Steam in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
 			]
@@ -832,7 +832,7 @@
 			description: [
 				"Crafting Vacuum Tubes might make you question your existence. Sorry about that."
 				""
-				"This is mostly due to the fact that Wires and Rods are (sadly) very expensive right now, but they'll get cheaper in &7LV&r."
+				"This is mostly due to the fact that Wires and Rods are &7(sadly)&r very expensive right now, but they'll get cheaper in &7LV&r."
 				""
 				"Vacuum Tubes are also technically your first Ultra Low Voltage (&8ULV&r) Circuit! Congratulations! You won't find very much use for these by themselves, though."
 			]
@@ -864,7 +864,7 @@
 			description: [
 				"Use Mortars or a Macerator (your choice) to microcraft your way to Glass Dust, which you can then turn into a &aGlass Block&r."
 				""
-				"If you are lost, a more detailed guide for this process is on the next page, but &dwe urge you to nose around JEI&r and figure out the recipe on your own. Being able to navigate JEI and parse recipes is an &6essential skill&r for completing this pack."
+				"If you are lost, a more detailed guide for this process is on the next page, but &dwe urge you to nose around EMI&r and figure out the recipe on your own. Being able to navigate EMI and parse recipes is an &6essential skill&r for completing this pack."
 				""
 				"Glass will be easier later on. You've probably already noticed that juicy &3Arc Furnace&r recipe - don't worry, we'll get there soon."
 				""
@@ -947,7 +947,7 @@
 			description: [
 				"We made it to &7LV&r! Give yourself a pat on the back!"
 				""
-				"Just kidding (lol), you actually need three Circuits to get started anywhere relevant in &7LV&r. Thankfully for you, someone left this spare circuit laying around."
+				"Just kidding &7(lol)&r, you actually need three Circuits to get started anywhere relevant in &7LV&r. Thankfully for you, someone left this spare circuit laying around."
 				""
 				"We also want you to make an &aLV Machine Hull&r for this quest. You'll need one if you're to make any &7LV&r machine. We're feeling generous enough that this quest will grant you a second Hull, free of charge!"
 				""
@@ -998,9 +998,9 @@
 				""
 				"This quest calls for either the small or normal pipe. Get either size to complete it."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o &dPotin Fluid Pipes&r were originally created in &9GT++&r, and were a huge power spike for players in a little pack called &4GT:NH&r. We wanted to spread some of that joy."
+				"&l&3Lore:&r&o &dPotin Fluid Pipes&f were first seen in &9GT++&f, an addon to GT5, and are a considerable power spike for players in a relatively unknown pack called &4GT:NH&f. We wanted to spread some of that joy."
 				""
-				"In the real world, &dPotin&r is an alloy used in coins, not pipes. GTCEu just gets more unrealistic by the day..."
+				"&oIn the real world, &dPotin&f is an alloy used in coins, not pipes. GTCEu just gets more unrealistic by the day..."
 			]
 			icon: "gtceu:potin_normal_fluid_pipe"
 			id: "3C70B0717E9377A4"
@@ -1074,7 +1074,7 @@
 				""
 				"The Macerator also marks the advent of &eOre Processing&r, but that's a scary topic that we'll dip our toes into in the next quest."
 				"{@pagebreak}"
-				"The macerator will output only the first item shown in recipes from JEI. The other slots are locked until you make a &6HV&r Macerator. How unfortunate..."
+				"The macerator will output only the first item shown in recipes from EMI. The other slots are locked until you make a &6HV&r Macerator. How unfortunate..."
 				""
 				"Our (&oimportant!&r) advice: it's actually better to keep directly smelting for now! The efficiency loss is made up with faster mining. Use the Macerator to make things like &aClay Dust&r instead!"
 			]
@@ -1410,7 +1410,7 @@
 		{
 			dependencies: ["40DE888E6025C646"]
 			description: [
-				"With your first &8Steel&r under your belt (ha!), you can make a &bTool Belt&r to free up inventory space from all those pesky GT tools. It can be equipped in its own &ddedicated Curio slot&r."
+				"With your first &8Steel&r under your belt &7(ha!)&r, you can make a &bTool Belt&r to free up inventory space from all those pesky GT tools. It can be equipped in its own &ddedicated Curio slot&r."
 				""
 				"By default, the hotkey to open the belt is &eR&r, but you can rebind it if you prefer. From this GUI, you can place tools inside the belt's storage, and swap them with your &dmain-hand tool&r whenever is convenient."
 				""
@@ -1687,13 +1687,13 @@
 		{
 			dependencies: ["1FFD2242B94A7378"]
 			description: [
-				"Ever wanted your pipes to look &leven&r&o cooler? Now you can!"
+				"Ever wanted your pipes to look &leven&r cooler? Now you can!"
 				""
 				"Fluid and Item Pipes can be placed inside of Frameboxes, giving your base an &6unparalleled level of beauty&r!"
 				""
-				"All you - dear player - need to do is right-click a frame onto a pipe or a pipe onto a frame, and you're done!"
+				"All you - dear player - need to do is right-click a frame onto a pipe &7(or a pipe onto a frame)&r, and you're done."
 				""
-				"&l&3Lore:&r&o This is a GTCEu-original mechanic!"
+				"&l&3Lore:&r&o This is a GTCEu-original mechanic."
 			]
 			icon: "gtceu:steel_frame"
 			id: "27240865315F9530"

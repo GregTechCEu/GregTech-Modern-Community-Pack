@@ -318,8 +318,13 @@
 				""
 				"Placing a cover of a lower voltage tier on a machine is &9safe&r."
 			]
-			icon: "gtceu:crafting_table_cover"
+			icon: "gtceu:storage_cover"
 			id: "1C767009F505A813"
+			rewards: [{
+				id: "7A6A74FF4B058BA3"
+				item: "gtceu:storage_cover"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 0.66d
 			subtitle: "Extra utility without taking up blockspace!"
@@ -655,7 +660,7 @@
 			description: [
 				"By clicking the &6Circuit Configuration Slot&r in machines, you can create a &bghost Programmed Circuit&r. "
 				""
-				"This is a fake circuit that allows you to select a given configuration for recipes! There's no need to spend your circuits crafting &bProgrammed Circuits&r anymore."
+				"This is a \"&7fake circuit&r\" that allows you to select a configuration for recipes. There's no need to spend your circuits crafting &bProgrammed Circuits&r anymore."
 				""
 				"&dElectric Machines&r and &dItem Input Buses&r will have a Ghost Circuit Slot."
 				"{@pagebreak}"
@@ -846,7 +851,7 @@
 			description: ["A rarely used machine. It uses magnetism to separate some Magnetic ores and gain additional &6Byproducts&r you would not obtain otherwise."]
 			id: "24B4D9608718EE27"
 			size: 0.75d
-			subtitle: "Magnets... how do they work"
+			subtitle: "Magnets... how do they work?"
 			tasks: [{
 				id: "3162F3E3D12E00FB"
 				item: "gtceu:lv_electromagnetic_separator"
@@ -863,7 +868,7 @@
 				""
 				"Each quest surrounding this one gives a different machine that has some involvement in Ore Processing."
 				""
-				"&cNote:&r Don't get too preoccupied with Ore Processing! It's very slow at this point, and somewhat power hungry. Around 90% of ores are not important enough to warrant going out of your way to obtain their byproducts. That's a legitimate stat, by the way."
+				"&cNote:&r Don't get too preoccupied with Ore Processing! It's very slow at this point, and somewhat power hungry. Around 90% of ores are not important enough to warrant going out of your way to obtain their byproducts. &7That's a legitimate stat, by the way.&r"
 			]
 			icon: "gtceu:crushed_sulfur_ore"
 			id: "701BCADAE5CF6CA5"
@@ -900,7 +905,7 @@
 				title: "I... might have some sense of direction now"
 				type: "checkmark"
 			}]
-			title: "LV Age Progression"
+			title: "Progressing Through LV"
 			x: 2.25d
 			y: 4.5d
 		}
@@ -1009,9 +1014,9 @@
 				"{@pagebreak}"
 				"Remember how disappointing it was that you couldn't get byproducts with your Macerator? Well... that disappointment won't be going away until you reach &6HV&r."
 				""
-				"&6The Macerator will unlock its second and third slot at HV&r. Trust us - this will be great for Ore Processing. In fact, one byproduct is absolutely locked behind this (after the Thermal Centrifuge step)."
+				"&6The Macerator will unlock its second and third slot at HV&r. Trust us - this is great news for your Ore Processing. In fact, one byproduct is completely locked behind this (after the Thermal Centrifuge step)."
 				""
-				"&cNote:&r Unlike GTCE, the &bMV&r Macerator in GTCEu &cdoesn't&r have a second slot."
+				"&cNote:&r Unlike GTCE, the &bMV&r Macerator in GTCEu &4doesn't&r have a second slot."
 				""
 				"&5Writer:&r &oCome back to me when you are stronger, young Cricket.&r"
 			]
@@ -1160,7 +1165,7 @@
 				""
 				"You can also do the same for &6Gears&r and &6Small Gears&r, which will then be superseded when you make a &3MV Extruder&r."
 				""
-				"&9Note:&r Some metals require higher voltages than &7LV&r for Fluid Extraction, so make sure to keep an eye on the recipe tier in JEI."
+				"&9Note:&r Some metals require higher voltages than &7LV&r for Fluid Extraction, so make sure to keep an eye on the recipe tier in EMI."
 			]
 			icon: "gtceu:rotor_casting_mold"
 			id: "115C4226F6473F0C"
@@ -1369,7 +1374,7 @@
 				""
 				"&aSpray Cans&r do not provide any functionality involving machines, but can be quite &bvisually appealing and useful&r!"
 				""
-				"Any (or almost any) GregTech tile entity (machine, pipe, cable...) can be &6painted&r to one of the 16 colors of your choosing. This is great for screenshots, or to separate different setups for convenience in a Multiplayer base. They also help with distinguishing between pipelines and cables."
+				"Any &7(or almost any)&r GregTech tile entity &7(machine, pipe, cable...)&r can be &6painted&r to one of the 16 colors of your choosing. This is great for screenshots, or to separate different setups for convenience in a Multiplayer base. They also help with distinguishing between pipelines and cables."
 				""
 				"Holding the &aSpray Can&r in the offhand will automatically paint any block you place."
 			]
@@ -1519,7 +1524,7 @@
 			description: [
 				"From now on, all Circuits should be made in a &3Circuit Assembler&r. Use it now to enjoy &6far cheaper LV and MV circuits&r."
 				""
-				"Each time you upgrade to a new tier of &3Circuit Assembler&r, you will be able to craft more &dadvanced themes&r of circuit. These will use &ccomplex&r and &msometimes&r unfamiliar ingredients, but will be more efficient to craft overall."
+				"Each time you upgrade to a new tier of &3Circuit Assembler&r, you will be able to craft more &dadvanced themes&r of circuit. These will use &ccomplex&r and &m&7sometimes&r unfamiliar ingredients, but will be more efficient to craft overall."
 				""
 				"&l&3Lore:&r&o The Circuit Assembler has made appearances in and out of GregTech versions. GT5 did not have it, and it was reimplemented in GT5 Unofficial. GTCE decided not to port it, and the tug-of-war continues with its inclusion in GTCEu."
 			]
@@ -1601,17 +1606,17 @@
 				"32B08E6F414A00C0"
 			]
 			description: [
-				"You could waste &o&eprecious years of your life&r in JEI looking for the most optimal Oxygen recipe, given the many ways to obtain it. Various minerals will produce it when electrolyzed."
+				"You could waste &o&eprecious years of your life&r in EMI looking for the most optimal Oxygen recipe, given the many ways to obtain it. Various minerals will produce it when electrolyzed."
 				""
 				"If only the quest book had more information!"
 				"{@pagebreak}"
-				"Surprise! The best source according to us (!) is &acentrifuging Air&r after making a &dGas Collector&r, which you might not be able to make just yet. This recipe also gives &aNitrogen&r, which is handy as it can speed up certain &3Electric Blast Furnace&r recipes&r."
+				"Surprise! The best source according to us &7(!)&r is &acentrifuging Air&r after making a &dGas Collector&r, which you might not be able to make just yet. This recipe also gives &aNitrogen&r, which is handy as it can speed up certain &3Electric Blast Furnace&r recipes&r."
 				""
-				"The second best source according to us (!) is &aelectrolyzing Silicon Dioxide&r. Silicon Dioxide is obtained from various sources, such as Glass Dust, Granite Dust and Black Granite Dust."
+				"The second best source according to us &7(!)&r is &aelectrolyzing Silicon Dioxide&r. Silicon Dioxide is obtained from various sources, such as Glass Dust, Granite Dust and Black Granite Dust."
 				"{@pagebreak}"
-				"The third best source according to us (!) is &aelectrolyzing Water&r. In reality, electrolysis of water is more suitable for &aHydrogen production&r due to the higher energy cost."
+				"The third best source according to us &7(!)&r is &aelectrolyzing Water&r. In reality, electrolysis of water is more suitable for &aHydrogen production&r due to the higher energy cost."
 				""
-				"The fourth best source according to us (!) is &ato not void&r it, EVER! Any Oxygen obtained from any source is worth something and should be stored in Tanks."
+				"The fourth best source according to us &7(!)&r is &ato not void&r it, EVER! Any Oxygen obtained from any source is worth something and should be stored in Tanks."
 				""
 				"&eNote:&r Submit a fluid by having it stored in a &lbucket&r in your inventory. Sorry - it's an FTB Quests quirk."
 			]
@@ -1773,7 +1778,7 @@
 				"4073577B7EF9B593"
 			]
 			description: [
-				"Don't let JEI fool you... there's only one possible recipe right now for this Primitive Diode."
+				"Don't let EMI fool you... there's only one possible recipe right now for this Primitive Diode."
 				""
 				"Diodes have a infamously &4nasty recipe&r, but they will become cheaper and more convenient once you can obtain &ePolyethylene&r."
 				""
@@ -1787,7 +1792,7 @@
 				type: "item"
 			}]
 			size: 0.75d
-			subtitle: "Don't be swayed by JEI!"
+			subtitle: "Don't be swayed by EMI!"
 			tasks: [{
 				id: "0FE8CA1C2D212378"
 				item: "gtceu:diode"
@@ -2336,6 +2341,71 @@
 			title: "Gotta Catch 'Em All"
 			x: 8.25d
 			y: 0.0d
+		}
+		{
+			dependencies: ["1E9BE8D3F8A602DC"]
+			description: [
+				"A feature of the &5Soft Mallet&r that you may be aware of is its ability to &6pause machines&r. However, did you know that if you &bsneak whilst pausing a machine&r, it'll tell the machine to continue operating until it finishes its recipe?"
+				""
+				"This is &2perfect&r if you need to make changes to a multiblock but don't want to &evoid items&r, as unforming a multiblock will void all inputs."
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:polybenzimidazole_mallet"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						MaxDamage: 1023
+					}
+					HideFlags: 2
+				}
+			}
+			id: "237EEDF8D3F170DA"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Shoutout to Yung Onion"
+			tasks: [{
+				id: "05610A3CFF3805F3"
+				title: "Alright, now let me play."
+				type: "checkmark"
+			}]
+			title: "I'm Fetching Me Mallet!"
+			x: 8.91d
+			y: 4.29d
+		}
+		{
+			dependencies: ["648BCF486E16CCB2"]
+			description: [
+				"This is a &4meme&r quest - check the recipe requirement for the teddy."
+				""
+				"Yes... this will take you an entire year to craft in an &7LV&r Compressor. How long would this take you to craft when overclocked to the highest possible value?"
+				""
+				"&7Definitely don't worry about making this now... take the hint and wait for a heavy overclock."
+				"{@pagebreak}"
+				"&l&3Lore:&r&o The main developer of this pack spent far too long fixing the model files to customise this thing.&7.&8. If you're wondering why there's a random Pokemon doll, it's my Minecraft skin!"
+			]
+			hide_dependency_lines: true
+			icon: "expatternprovider:fishbig"
+			id: "59BEB2AA9598A21D"
+			rewards: [{
+				id: "03A3C108D5BCE712"
+				item: "expatternprovider:fishbig"
+				random_bonus: 63
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Got enough time on your hands?"
+			tasks: [{
+				id: "783D21E963174609"
+				item: "expatternprovider:fishbig"
+				type: "item"
+			}]
+			title: "And they say GregTech is grindy..."
+			x: -1.1012329931972786d
+			y: 2.237499999999997d
 		}
 	]
 	subtitle: ["Tame electricity and make your first machines"]

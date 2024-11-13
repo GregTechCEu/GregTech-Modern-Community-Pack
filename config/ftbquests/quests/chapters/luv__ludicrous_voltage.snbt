@@ -470,11 +470,13 @@
 				"327C3E02CD751453"
 			]
 			description: [
-				"First things first- build the version of the structure that's displayed with Fusion Glass in &aJEI&r."
+				"First things first - build the version of the structure that uses Fusion Glass in &aEMI&r. It's far cheaper right now."
 				""
 				"To save on &3Fusion Casings&r, fit Input/Output Hatches wherever you can (as displayed in the structure)."
 				""
-				"This time, we'll try something new: let's explain the Lore at the same time as the mechanics."
+				"The &bFusion Reactor&r will pick a free Output Hatch from the many that are available. In order to \"&6force&r\" the Reactor to use a particular Output Hatch, you can always &alock all of the hatches&r to an irrelevant fluid (we usually use &9Water&r)."
+				""
+				"This time, we'll try something new: we're gonna explain the &3Lore&r at the same time as the mechanics."
 				""
 				"Enjoy the ride!"
 				"{@pagebreak}"

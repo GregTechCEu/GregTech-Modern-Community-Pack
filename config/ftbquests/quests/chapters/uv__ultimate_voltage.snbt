@@ -53,9 +53,9 @@
 				"&6&lThank you for playing the pack! :D&r"
 				"- The GregTech Community Pack Dev Team"
 			]
-			hide: true
 			hide_details_until_startable: true
 			hide_text_until_complete: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "gtceu:iron_wrench"
@@ -289,7 +289,7 @@
 			id: "3ED40CE1E4476C99"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "GGEZ"
+			subtitle: "Obtain for G.O.A.T Status"
 			tasks: [{
 				id: "29384189E33C8CB1"
 				item: "gtceu:nan_certificate"
@@ -493,7 +493,7 @@
 				"762C48F0C2EA6B81"
 			]
 			description: [
-				"Build the structure displayed with Fusion Glass in &aJEI&r."
+				"Build the structure displayed with Fusion Glass in &aEMI&r."
 				""
 				"To save on Fusion Casings, fit Input + Output Hatches wherever you can (as displayed in the structure)."
 				""
