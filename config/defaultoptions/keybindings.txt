@@ -115,7 +115,7 @@ key_key.ae2.portable_item_cell:key.keyboard.unknown:NONE
 key_key.ae2.portable_fluid_cell:key.keyboard.unknown:NONE
 key_key.ae2.wireless_terminal:key.keyboard.unknown:NONE
 key_key.epp.viewpattern:key.keyboard.p:NONE
-key_key.curios.open.desc:key.keyboard.g:NONE
+key_key.curios.open.desc:key.keyboard.unknown:NONE
 key_gui.xaero_switch_waypoint_set:key.keyboard.unknown:NONE
 key_gui.xaero_instant_waypoint:key.keyboard.keypad.add:NONE
 key_gui.xaero_toggle_slime:key.keyboard.unknown:NONE
