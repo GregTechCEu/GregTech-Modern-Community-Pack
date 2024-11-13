@@ -36,6 +36,10 @@ ServerEvents.recipes((event) => {
   yote("ae2:smooth_quartz_block");
   yote("ae2:quartz_wall");
   yote("ae2:quartz_slab");
+  
+  yote('ae2:crystal_resonance_generator');
+
+
 
   // ae2 transformation removals
   event.remove({ id: "ae2:transform/fluix_crystals"})
