@@ -1,13 +1,13 @@
 name = "FTB Library (Forge)"
-filename = "ftb-library-forge-2001.2.5.jar"
+filename = "ftb-library-forge-2001.2.6.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "de2018dd1a1a5de3437ff6b1ecb4ad5fe8899007"
+hash = "86e91bbcc0050d5a25e2e4e9aba617b88f15cc0d"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5874882
+file-id = 5925398
 project-id = 404465
