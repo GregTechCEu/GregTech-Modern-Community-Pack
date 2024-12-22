@@ -118,7 +118,7 @@ hash = "33fc94cf1a78345a1c820d262bd0fdbaf8efd760838a2ffda787b52b15450b69"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gtceu.snbt"
-hash = "0b2dc38203e625452ffb1b80468257a4fd0b2e9282a9e465b7f38db0fe24aa9e"
+hash = "a4f9065e203214eaeb1eb7e27b4c19bd34b703de5fe80f29240e7c7177388716"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/heating_coils.snbt"
@@ -126,7 +126,7 @@ hash = "3de3b8987fbd6652079f9a6f8ff7f0d140753eb94563b31554648a09990d89e1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv__high_voltage.snbt"
-hash = "90385be837bca14ab93ffccb39c7ab8f98203b17ef36b8e1da67e67af67633ea"
+hash = "94888d20a22ba93f64b2242763f1cb69f6691075457181e00a5ee4377752c08e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv__insane_voltage.snbt"
@@ -138,7 +138,7 @@ hash = "b68e2e3c85c5f70f5f1938e31ec228684cc08e823bca4e4170fb92e9339b2670"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv__low_voltage.snbt"
-hash = "dd1f16de10cc09e5b58e5e5c541a494d53da83766086ac9a991dd94d0956d636"
+hash = "294bc97151e9ec56117e8d9eb4adf3f4641e37499ef1c106eef6c59b5eaea8b9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblock_dilemma.snbt"
@@ -146,7 +146,7 @@ hash = "c597f716bb540288bd909925586087298edabb66bf5b65b8f353631f05e295ce"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mv__medium_voltage.snbt"
-hash = "73ebdb381af3ece3bedea8d9fb636dcad02a9a9bc4dad1cc5dcda7ccae378b1e"
+hash = "54410de26f46f019b00dc931bec2e1c25230fe4d09add1a4bded2116fc8ed297"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ore_generation.snbt"
@@ -154,7 +154,7 @@ hash = "75487ef82166b7b41e1b85e8c940e8902fb3826ff434b58d5d457d947239ec4f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ore_processing.snbt"
-hash = "dc4b3c3a152e649bc7277b901a01282751f898fb95b1eb27fae581bd34fe3fff"
+hash = "e2886320cfea51d89a07db5c82e4553a79456d1fca8d2ccbe803af1c77e8c509"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/progression.snbt"
@@ -166,7 +166,7 @@ hash = "070e4c59640dc3014745eb4f2b83f918342a92c7dbec9a44c7e003500de90904"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/steam_age.snbt"
-hash = "0f158da68ab6f94acf0805d8dd7eb6bd5a333ae093b3914e165a8eafdf75c3f8"
+hash = "79aacdd763f925144471eca4097e424d41d6420d195e6118144c2b6e7138ac07"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks_2.snbt"
@@ -191,6 +191,10 @@ hash = "2f244ef5e65a15f5b901c66994ad7b05f02424eed022c6a54f28cd751c1f43b3"
 [[files]]
 file = "config/ftbquests/quests/reward_tables/distillation_tower.snbt"
 hash = "47b752f245fee5edfc8e7e3cfab1bca120e4f2a5b17440059d1758428f557a6c"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/gallium_arsenide.snbt"
+hash = "1f4af73a601ba1141e59fef434a151c842b3c6b538e427e7a8cec62f4ee31c28"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/hv.snbt"
@@ -530,7 +534,7 @@ hash = "fe4ad89f75d94bdc48319efb0a746101056d2abfae3a090319931ca6895a9c0a"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/ae2.js"
-hash = "e6126398eb36a866b0e3b1fa27cbdb1a43df4cf32fda056a2b855230ea8eccf1"
+hash = "767c3db7729bae43bba56ea8340a29b8f225be4fa68ecf1cc7734b809f37bcfb"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/ae2wtlib.js"
@@ -706,11 +710,11 @@ hash = "509f876d9767bf536a5452021bef3dff8cf1d10345f2b4aba8d2df529763edbe"
 
 [[files]]
 file = "kubejs/startup_scripts/machinery/construction_core.js"
-hash = "fc81a75b152e2fdf89ffa3d82ed7de62b736689efc83d7447551db97dc597793"
+hash = "1f74f29419cfef0d3cc511e7f66aeb56f6b34c1a067ee5da24c91d102769c9ea"
 
 [[files]]
 file = "kubejs/startup_scripts/machinery/greenhouse.js"
-hash = "9e96db0992d5265e60b1a5f86b853222825b96593e05fa7c06b46617c9fe02e5"
+hash = "f01a4811ba1c2de98fe5da5595c104faeb5396ae2ff64744da777d87fc4c02a3"
 
 [[files]]
 file = "kubejs/startup_scripts/material_testing/material.js"
@@ -931,7 +935,7 @@ metafile = true
 
 [[files]]
 file = "mods/gregtechceu-modern.pw.toml"
-hash = "e3957f413084d08b6305ace10f8a2cfdb248864ec70c1699f1d8d49e7c9390ad"
+hash = "1da8725ebba0cc2fe55def42e80e28020b69fa3fed7b01bd63b1f964c73bfef8"
 metafile = true
 
 [[files]]
