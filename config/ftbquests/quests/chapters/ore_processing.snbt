@@ -38,7 +38,7 @@
 			icon: "gtceu:distilled_water_bucket"
 			id: "228379C559E390B8"
 			size: 1.1d
-			subtitle: "The \"distinguised\" version of water"
+			subtitle: "The \"distinguished\" version of water"
 			tasks: [{
 				id: "2E2ABD36FCFF1CC5"
 				title: "Nah, I'll go with Distilled Water."

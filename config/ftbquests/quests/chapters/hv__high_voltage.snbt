@@ -381,7 +381,7 @@
 				""
 				"&3HV Energy Hatches&r will be nice additions so you can run your Multiblocks (mainly your Electric Blast Furnace and Large Chemical Reactor) directly off a &6HV&r line."
 				""
-				"This time around, you won't need to upgrade your EBF with 2 Energy Hatches to progress to &5EV&r - phew!"
+				"You'll need to upgrade your EBF with &32 Energy Hatches&r to obtain &eNichrome coils&r - fun!"
 			]
 			icon: "gtceu:hv_energy_input_hatch"
 			id: "5DBBD9B1F5B01F4E"
@@ -451,6 +451,12 @@
 			]
 			icon: "gtceu:rutile_dust"
 			id: "59DFC4DA7D29C315"
+			rewards: [{
+				count: 8
+				id: "6752E5675B45883A"
+				item: "gtceu:bauxite_ore"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 0.66d
 			subtitle: "...means it WASN'T Titanium!"

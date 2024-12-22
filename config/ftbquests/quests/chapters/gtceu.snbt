@@ -54,7 +54,7 @@
 		{
 			dependencies: ["25289F9E8AE01C29"]
 			description: [
-				"If you're familiar with GregTech, you may be aware of its &cmany nerfs&r to vanilla recipes. &bGTCEu&r does include its fair share - take a look at the crafting recipes for &eBuckets&r or &ePaper&r. However, we'll ease off the insanity in earlygame, and 1 Log will give you 4 Planks. &aRejoice!&r"
+				"If you're familiar with GregTech, you may be aware of its &cmany nerfs&r to vanilla recipes. &bGTCEu&r doesn't go easy on you - take a look at the crafting recipes for &eBuckets&r or &ePaper&r. However, we'll ease off the insanity in earlygame, and 1 Log will give you 4 Planks. &aRejoice!&r"
 				""
 				"&o&8\"My adventure starts with some tree punching!? Huh, I thought GregTech was supposed to shake things up a bit...\"&r"
 			]
@@ -1597,11 +1597,11 @@
 				"&lStar Technology"
 				"- &7trulyno"
 				""
-				"&6Star Technology&r is a GregTech &dskyblock modpack&r where you play as a scientist stranded in an &balternate dimension&r after a dimensional travel experiment &4catastrophically fails&r."
+				"&6Star Technology&r is more of a laid-back GregTech &dskyblock modpack&r where you play as a scientist stranded in an &balternate dimension&r after a dimensional travel experiment &4catastrophically fails&r."
 				""
 				"Progression in this pack will take you above and beyond &3UHV&r, with numerous unique &aStargates&r to craft, and even a remixed &o\"Gregified\"&r Mystical Agriculture."
 				""
-				"It's important to note that the pack is still under &eheavy development&r, but you should be able to achieve the &o\"Classic Stargate\"&r as of version BETA 1!"
+				"Note that the pack is still under &eheavy development&r, but you should be able to achieve the &o\"Classic Stargate\"&r as of version BETA 1!"
 			]
 			icon: "minecraft:netherite_upgrade_smithing_template"
 			id: "63DC162144871509"

@@ -109,7 +109,7 @@
 			description: [
 				"The Brewery can be used to make &aLubricant&r from &aRedstone&r and &aCreosote&r/&aOil&r. Lubricant has some niche uses, namely being used in the &3Cutter&r to significantly reduce the duration of its recipes."
 				""
-				"The Brewery is a very, very slow machine, but it requires almost no power to run its recipes. Building &2many Breweries&r will help you obtain enough Biomass on your quest for plastic."
+				"The Brewery is a very, very slow machine, but it requires almost no power to run its recipes. Building &2many Breweries&r will help you obtain enough Biomass on your quest for plastic. Oh, and you can use it to brew &dPotions&r too!"
 				""
 				"&9Note:&r The Brewery \"unlocks\" the Biomass path towards &9Ethylene&r. The same can be done in the &3Pyrolyse Oven&r. The other path involves Oil.&r"
 				"{@pagebreak}"
@@ -1094,6 +1094,11 @@
 			]
 			icon: "gtceu:multi_smelter"
 			id: "6DDDE2268B691F74"
+			rewards: [{
+				id: "006F83AC08E87057"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 0.75d
 			subtitle: "Possibly the most powerful furnace you've seen"
@@ -1547,6 +1552,12 @@
 			]
 			icon: "gtceu:acid_hazard_sign_block"
 			id: "079442C113D54856"
+			rewards: [{
+				count: 8
+				id: "5CF50AE30DCD7E68"
+				item: "gtceu:glass_vial"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 0.66d
 			subtitle: "...if you don't read this quest."
@@ -1762,8 +1773,32 @@
 					type: "item"
 				}
 				{
-					id: "23448126F81BDA89"
-					item: "gtceu:oil_bucket"
+					id: "1095B3DE28330980"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:oil_bucket"
+								}
+								{
+									Count: 1b
+									id: "gtceu:oil_heavy_bucket"
+								}
+								{
+									Count: 1b
+									id: "gtceu:oil_medium_bucket"
+								}
+								{
+									Count: 1b
+									id: "gtceu:oil_light_bucket"
+								}
+							]
+						}
+					}
+					title: "Any Oil bucket"
 					type: "item"
 				}
 			]
