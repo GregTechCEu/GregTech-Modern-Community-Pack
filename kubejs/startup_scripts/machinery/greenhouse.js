@@ -4,11 +4,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("greenhouse")
     .appearanceBlock(GTBlocks.MACHINE_CASING_ULV)
-    .recipeModifier(
-      GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(
-        OverclockingLogic.NON_PERFECT_OVERCLOCK
-      )
-    )
+    .recipeModifier(GTRecipeModifiers.OC_NON_PERFECT)
     .pattern((definition) =>
       FactoryBlockPattern.start()
         .aisle("0BBB0", "0BBB0", "0BBB0", "0BBB0")

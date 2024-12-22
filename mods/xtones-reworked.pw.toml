@@ -1,13 +1,13 @@
 name = "Xtones Reworked"
-filename = "xtonesreworked-1.0.3-F_1.20.1-47.2.0.jar"
+filename = "xtonesreworked-1.0.4-F_1.20.1-47.2.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "a18a0bbba17984e1ea83c7d15b11d06e334fe3e1"
+hash = "adac636516fe155d7e8b2f8ba686bc2541724e3f"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5558163
+file-id = 5907303
 project-id = 694231

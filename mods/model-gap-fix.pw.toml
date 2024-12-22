@@ -1,6 +1,6 @@
 name = "Model Gap Fix"
 filename = "modelfix-1.15.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"
