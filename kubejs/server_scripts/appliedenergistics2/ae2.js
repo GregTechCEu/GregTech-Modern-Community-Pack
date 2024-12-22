@@ -358,6 +358,14 @@ ServerEvents.recipes((event) => {
     .itemOutputs("ae2:fluix_crystal")
     .duration(200)
     .EUt(24);
+  greg
+    .autoclave("gtceu:fluix_crystal_faster")
+    .itemInputs("gtceu:fluix_dust")
+    .inputFluids("gtceu:distilled_water 20")
+    .itemOutputs("ae2:fluix_crystal")
+    .duration(100)
+    .EUt(24);
+
 
   greg
     .lathe("fluix_lathing")
