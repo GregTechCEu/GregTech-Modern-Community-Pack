@@ -780,7 +780,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-tips-nbt-tag.pw.toml"
-hash = "261ae4f82f04156a7cdca06cc57c92ba3de364283e2b075bd5807087937f654b"
+hash = "e639a69ffef5b2ffa685834c9f8b5c406d5ab125028567edf83d84de228ed686"
 metafile = true
 
 [[files]]
