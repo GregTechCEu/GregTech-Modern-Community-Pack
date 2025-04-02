@@ -156,12 +156,12 @@ ServerEvents.recipes((event) => {
     .itemOutputs('expatternprovider:ex_drive')
     .EUt(120).duration(200)
 
-    event.remove({ output: "expatternprovider:drive_upgrade" })
-    greg.assembler("gtceu:drive_upgrade")
-      .itemInputs("2x ae2:capacity_card", "#gtceu:circuits/hv")
-      .circuit(1)
-      .itemOutputs('expatternprovider:drive_upgrade')
-      .EUt(120).duration(200)
+  event.remove({ output: "expatternprovider:drive_upgrade" })
+  greg.assembler("gtceu:drive_upgrade")
+    .itemInputs("2x ae2:capacity_card", "#gtceu:circuits/hv")
+    .circuit(1)
+    .itemOutputs('expatternprovider:drive_upgrade')
+    .EUt(120).duration(200)
 
   event.remove({ id: "expatternprovider:ex_molecular_assembler" })
   greg.assembler("gtceu:ex_molecular_assembler")
@@ -186,20 +186,23 @@ ServerEvents.recipes((event) => {
     .itemOutputs("expatternprovider:fishbig")
     .EUt(1).duration(631152000)
 
-    event.remove({ id: "expatternprovider:oversize_interface" });
-    event.shaped("expatternprovider:oversize_interface", ["TFT", "EBE", "TAT"], {
-      T: "#forge:plates/titanium",
-      F: "ae2:formation_core",
-      E: "expatternprovider:ex_interface",
-      B: "gtceu:hv_buffer",
-      A: "ae2:annihilation_core"
-    });
+  event.remove({ id: "expatternprovider:oversize_interface" });
+  event.shaped("expatternprovider:oversize_interface", ["TFT", "EBE", "TAT"], {
+    T: "#forge:plates/titanium",
+    F: "ae2:formation_core",
+    E: "expatternprovider:ex_interface",
+    B: "gtceu:hv_buffer",
+    A: "ae2:annihilation_core"
+  });
 
-    
+
   event.remove({ output: "expatternprovider:assembler_matrix_frame" })
   event.remove({ output: "expatternprovider:assembler_matrix_wall" })
   event.remove({ output: "expatternprovider:assembler_matrix_pattern" })
   event.remove({ output: "expatternprovider:assembler_matrix_crafter" })
   event.remove({ output: "expatternprovider:assembler_matrix_speed" })
+
+  event.remove({ output: 'expatternprovider:circuit_cutter' })
+  event.remove({ type: 'expatternprovider:circuit_cutter' })
 
 });
