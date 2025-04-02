@@ -58,7 +58,7 @@
 				"{@pagebreak}"
 				"Each vein can contain up to four different ores."
 				""
-				"Ore veins generate in a &4Grid&r. Every vein is spaced by 3 chunks from one to another in a cardinal direction."
+				"Ore veins generate in a &4Grid&r. Every vein is spaced by 3 chunks from one to another in a cardinal direction. Each vein generates in an individual \"pattern\" - some are &6round&r, some are &asnakey&r, and others you'll discover for yourself."
 				""
 				"They spawn at the &4Center&r of the Chunks which have both their X and Z coordinates be at &b1 plus a multiple of 3&r (-8, -5, -2, 1, 4, 7, ...). You will typically find two veins in the selected chunk - one will be in the Stone layer, and the other vein lays deeper in the Deepslate layer."
 				""

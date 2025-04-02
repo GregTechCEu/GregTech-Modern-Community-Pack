@@ -506,6 +506,8 @@
 				""
 				"If you want Steam-based power production, this will be your first port-of-call. Other power options are listed in the &bMV&r chapter."
 				""
+				"We should note that the LBB in its &bcurrent state&r isn't... great. It's probably better to use an alternate fuel source for now (or just spam &dsingleblock Boilers&r). This will be &2rebalanced&r in due time, don't you worry."
+				""
 				"&cImportant:&r This Boiler &lCAN&r also &cexplode&r similarly to the regular Boilers! Usually, the explosion can be rather devastating... but it's configured to not damage blocks or entities in this modpack."
 				"{@pagebreak}"
 				"&cWater supply is &lcrucial&r&r. Dedicate a &3Primitive Pump&r with a &7LV&r Output Hatch in the &lsame chunk&r as the Boiler. Any biome will still be enough to supply enough water."
