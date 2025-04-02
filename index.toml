@@ -6,7 +6,7 @@ hash = "7ffe1954587c77dfba1cf8eb9b2ea743671fa6e63f9e7a2f258119d42e14eefe"
 
 [[files]]
 file = "config/MouseTweaks.cfg"
-hash = "611b9c06b577cb3cdc72c8b74a78b16b9a7b42832e1380a85107d086a8854fa8"
+hash = "4c17a419782c0d4ce403fda836c27f4c8e82c701ba28c39a61ab94f18c9c4c29"
 
 [[files]]
 file = "config/ae2/client.json"
@@ -138,7 +138,7 @@ hash = "b68e2e3c85c5f70f5f1938e31ec228684cc08e823bca4e4170fb92e9339b2670"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv__low_voltage.snbt"
-hash = "294bc97151e9ec56117e8d9eb4adf3f4641e37499ef1c106eef6c59b5eaea8b9"
+hash = "e2849cf5691ebbd423c8b18de71b4ca55877488db37a5bd855550dc3d0d23d76"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblock_dilemma.snbt"
@@ -150,7 +150,7 @@ hash = "54410de26f46f019b00dc931bec2e1c25230fe4d09add1a4bded2116fc8ed297"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ore_generation.snbt"
-hash = "75487ef82166b7b41e1b85e8c940e8902fb3826ff434b58d5d457d947239ec4f"
+hash = "2d267a1702be46b209a1f0f5ec01725208bbdc776415eb879c1ba60da8bd353e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ore_processing.snbt"
@@ -182,7 +182,7 @@ hash = "7fb0ab7a9aadbad7563ecfac1cedf3204a70761abb5b93df84f77f3a7504ceba"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "e7941adba557c08621fa96464a0bff4bbaeb01fbf612b7ea881feb64074cbaa8"
+hash = "3ebade5d68b4aea34338bdf09499e52a7f70e96261cd78247790ba479a8f511b"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/bronze_age.snbt"
