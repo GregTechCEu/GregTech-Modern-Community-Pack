@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
   greg
     .laser_engraver("gtceu:inscriber_silicon_press")
     .itemInputs("#forge:plates/steel")
-    .notConsumable("gtceu:sapphire_lens")
+    .notConsumable("#forge:lenses/blue")
     .itemOutputs("ae2:silicon_press")
     .duration(500)
     .EUt(120);
@@ -14,7 +14,7 @@ ServerEvents.recipes((event) => {
   greg
     .laser_engraver("gtceu:inscriber_logic_press")
     .itemInputs("#forge:plates/steel")
-    .notConsumable("gtceu:emerald_lens")
+    .notConsumable("#forge:lenses/green")
     .itemOutputs("ae2:logic_processor_press")
     .duration(500)
     .EUt(120);
@@ -23,7 +23,7 @@ ServerEvents.recipes((event) => {
   greg
     .laser_engraver("gtceu:inscriber_engineering_press")
     .itemInputs("#forge:plates/steel")
-    .notConsumable("gtceu:ruby_lens")
+    .notConsumable("#forge:lenses/red")
     .itemOutputs("ae2:engineering_processor_press")
     .duration(500)
     .EUt(120);
@@ -32,7 +32,7 @@ ServerEvents.recipes((event) => {
   greg
     .laser_engraver("gtceu:inscriber_calculation_press")
     .itemInputs("#forge:plates/steel")
-    .notConsumable("gtceu:glass_lens")
+    .notConsumable("#forge:lenses/white")
     .itemOutputs("ae2:calculation_processor_press")
     .duration(500)
     .EUt(120);
