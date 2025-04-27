@@ -64,7 +64,7 @@
 				""
 				"However, Ore veins may be deleted by caves, Oil deposits, or from trying to generate above the ground."
 				"{@pagebreak}"
-				"It's a good practice to make &dWaypoints&r to every vein you find, and to label their type. You may want to come back to it several times."
+				"Xaero's Maps will indicate locations and contents of previously discovered veins. Just turn on the GregTech ore mode in the fullscale map, and break a surface rock of the vein to mark it permanently on your map!"
 				""
 				"A typical Ore vein is &d7 blocks&r tall, and ores generate in 4 different patterns:"
 				"- The &9Top Ore&r generates in the higher 4 layers of the vein."
@@ -72,7 +72,7 @@
 				"- The &9Between Ore&r generates in the middle 3 layers of the vein."
 				"- The &9Sporadic Ore&r generates anywhere in the vein. There will be the least amount of this ore in a vein."
 				""
-				"The same ore type can be in 2 different generation patterns, such as in Cassiterite veins."
+				"The same ore type can be in 2 different generation patterns, such as Cassiterite ore in Cassiterite veins versus Chalcopyrite veins."
 			]
 			icon: "gtceu:cobalt_ore"
 			id: "41730E340B3D8EDA"
@@ -89,7 +89,7 @@
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
-			description: ["A standard Iron vein. It's a good target when you need to replenish your supply."]
+			description: ["A standard Iron vein. It's a good target when you need to replenish your supply. Comes with a touch of Copper!"]
 			icon: "gtceu:yellow_limonite_ore"
 			id: "692F4312B3F73FAF"
 			size: 0.9d
@@ -126,6 +126,8 @@
 				"This vein is namely one of the few direct sources of Gold in the overworld."
 				""
 				"There are many other sources of Gold in GregTech, but you will likely see better yields of Gold if you obtain it by processing other resources."
+				""
+				"Vanadium Magnetite becomes more useful in MV, when you will centrifuge out the Vanadium within for Vanadium Steel."
 			]
 			icon: "gtceu:magnetite_ore"
 			id: "260E516A219825A2"
@@ -192,7 +194,7 @@
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"A great vein for the early game. Copper and Tin to make Bronze, Realgar for your first source of Arsenic, and Zeolite for... nothing much."
+				"A great vein for the early game. Copper and Tin to make Bronze, Realgar for your first source of Arsenic, and Zeolite, which is used for...nothing much. It's not used for anything else, so go ahead and electrolyze it in MV for extra aluminium!"
 				"{@pagebreak}"
 				"&l&3Lore:&r&o As GregTech used to auto-generate its recipes, Zeolite used to electrolyze in batches of 141 dust at a time. Whoops!"
 			]
@@ -348,6 +350,8 @@
 				"Your one-stop-shop for sources of Chlorine."
 				""
 				"If you're pining after Lithium, note that it can be obtained from Lepidolite Ore Processing."
+				""
+				"This will also be a source of Boron. It'll require a Thermal Centrifuge, but you'll want some for MV Superconductors."
 			]
 			icon: "gtceu:salt_ore"
 			id: "5289D5049A236D55"
@@ -493,6 +497,8 @@
 				"Your classic Redstone vein."
 				""
 				"Ruby is very important for the Chromium it contains. You'll quickly discover that you can never have too much Chromium!"
+				""
+				"Cinnabar has only one use - extracting the Mercury within, which is useful for Ore Processing!"
 			]
 			icon: "minecraft:redstone_ore"
 			id: "2E5A71CED4B01657"
