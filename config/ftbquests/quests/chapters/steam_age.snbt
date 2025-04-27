@@ -491,7 +491,7 @@
 				""
 				"&6Small tip for you:&r no need to worry about your base's biome for now, as your boilers will need very little water to keep up."
 				"{@pagebreak}"
-				"The &cOutput Hatch&r is where water will be generated. You can make it face up or down to auto-output water into your pipes. When you reach &7LV&r or &bMV&r, you can use an Output Hatch from either tier to further boost the Pump's output."
+				"The &cOutput Hatch&r is where water will be generated. You can make it face up or down to auto-output water into your pipes, which can go through the Treated Wood Frames - just place the pipe before you encase it in the frames. When you reach &7LV&r or &bMV&r, you can use an Output Hatch from either tier to further boost the Pump's output."
 				""
 				"&2Reminder:&r Use a Wrench to rotate GregTech blocks (sneak right-click)."
 				""
@@ -703,7 +703,7 @@
 				""
 				"&dNote:&r GT6-style Pipes are enabled. It means that placing Pipes connects them only to the block they were placed against. To open more connections, use your Wrench on the pipe."
 				""
-				"You can also shift-right click with your Wrench to disable input from a side. This can help counteract sloshing &7(liquids travelling in an undesired direction)&r."
+				"You can also shift-right click with your Wrench to force fluids to flow in a certain direction. This can help counteract sloshing &7(liquids travelling in an undesired direction)&r. It also prevents the common issue of your steam getting into your water/creosote pipes, which can clog up your whole power system!"
 			]
 			icon: "gtceu:bronze_normal_fluid_pipe"
 			id: "1FFD2242B94A7378"
@@ -1536,7 +1536,7 @@
 		{
 			dependencies: ["40DE888E6025C646"]
 			description: [
-				"The &3Charcoal Pile Igniter&r is a particularly unique multiblock. You can use it to produce &aCharcoal&r faster than &3Coke Ovens&r, but this comes with the trade-off of &amanual labor&r."
+				"The &3Charcoal Pile Igniter&r is a particularly unique multiblock. You can use it to produce &aCharcoal&r faster than &3Coke Ovens&r, but this comes with the trade-off of &amanual labor&r, and a lack of Creosote."
 				"{@pagebreak}"
 				"To operate the Igniter, dig a big pit into the ground - up to &e9x5x9&r blocks in size. Line the floor of the pit with vanilla &aBrick blocks&r, then fill the remaining space entirely with &aLogs&r. After that, &acover the filled pit&r with Grass, Dirt, or other natural groundcover to form a roof. In the layer with the roof, place the Igniter! To start it, light it with &aFlint and Steel&r."
 				""
@@ -1693,16 +1693,24 @@
 				""
 				"All you - dear player - need to do is right-click a frame onto a pipe &7(or a pipe onto a frame)&r, and you're done."
 				""
+				"As a bonus, it'll protect you from being hurt by hot steam pipes. Wood frames are a cheap way to encase your pipes if this is your main goal."
+				""
 				"&l&3Lore:&r&o This is a GTCEu-original mechanic."
 			]
-			icon: "gtceu:steel_frame"
+			icon: "gtceu:bronze_frame"
 			id: "27240865315F9530"
 			shape: "rsquare"
 			size: 0.66d
 			subtitle: "Spaghetti has never looked so swanky!"
 			tasks: [{
 				id: "431894F9877BC900"
-				item: "gtceu:steel_frame"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:frames"
+					}
+				}
 				type: "item"
 			}]
 			title: "Aesthetic Ultra"
