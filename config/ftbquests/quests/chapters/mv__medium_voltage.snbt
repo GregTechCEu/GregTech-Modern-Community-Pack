@@ -16,10 +16,7 @@
 	}]
 	quests: [
 		{
-			dependencies: [
-				"0DBC148D92A9F69F"
-				"7567E885B7166603"
-			]
+			dependencies: ["2655B72C9FF3B372"]
 			description: [
 				"The &3Pyrolyse Oven&r is an electric equivalent to the &3Coke Oven&r. It can produce &9Coal Coke&r and &9Charcoal&r with a &9Creosote&r byproduct just as before, but also has additional &6Organic Byproducts&r, the most beneficial of these being &aWood Tar&r."
 				""
@@ -34,9 +31,7 @@
 				"You should be more than fine with a single &3LV Energy Hatch&r, and Superconductors to supply a steady &d64 EU/t&r. Additionally, &3Cupronickel Coils&r are perfect when you're getting used to the Pyrolyse Oven, but you may want to upgrade to &bKanthal&r eventually."
 				""
 				"{@pagebreak}"
-				"&9&lNote:&r&l The Plant path is one path you can take towards &9&lEthylene&r&l, which is a necessary chemical in progressing to &6HV&r&l. The other path involves Oil.&r"
-				""
-				"The Pyrolyse Oven remains &doptional&r. However, it is very rewarding to construct one either for Power, or for the various Byproducts, and we highly recommend you give it a look."
+				"The Pyrolyse Oven remains &doptional&r, should you choose to use Breweries instead. However, it is very rewarding to construct one either for Power, or for the various Byproducts, and we highly recommend you give it a look."
 				""
 				"&l&3Lore:&r&o In GT5u, the structure for the Pyrolyse Oven was infamously a giant box with only 9 coils inside. Players usually spent several minutes debugging what is wrong due to a lack of a EMI preview."
 			]
@@ -66,16 +61,17 @@
 				type: "item"
 			}]
 			title: "Pyrolyse Oven"
-			x: 0.0d
-			y: -0.75d
+			x: -1.125d
+			y: -1.875d
 		}
 		{
 			dependencies: [
 				"53DC6E32C41C94C3"
 				"1A29EFBCEA017F99"
 			]
+			dependency_requirement: "one_completed"
 			description: [
-				"Welcome to the &2natural&r Ethylene route! This method uses &9plant matter&r to produce Ethanol."
+				"Welcome to the &2natural&r Ethylene route! This is the &aBiochemical&r route used to produce Ethanol, and by extension Plastic."
 				""
 				"Before we get ahead of ourselves, &aSugar Cane&r works fine in a &3Brewery&r for a decent yield of Biomass."
 				""
@@ -101,17 +97,16 @@
 				type: "item"
 			}]
 			title: "Biomass"
-			x: 0.0d
-			y: -1.875d
+			x: -1.125d
+			y: -3.0d
 		}
 		{
-			dependencies: ["648BCF486E16CCB2"]
+			dependencies: ["2655B72C9FF3B372"]
 			description: [
 				"The Brewery can be used to make &aLubricant&r from &aRedstone&r and &aCreosote&r/&aOil&r. Lubricant has some niche uses, namely being used in the &3Cutter&r to significantly reduce the duration of its recipes."
 				""
-				"The Brewery is a very, very slow machine, but it requires almost no power to run its recipes. Building &2many Breweries&r will help you obtain enough Biomass on your quest for plastic. Oh, and you can use it to brew &dPotions&r too!"
+				"The Brewery is a very, very slow machine, but it requires almost no power to run its recipes. Building &2many Breweries&r will help you obtain enough Biomass for all that &3Power&r and &bPlastic&r. Oh, and you can use it to brew &dPotions&r too!"
 				""
-				"&9Note:&r The Brewery \"unlocks\" the Biomass path towards &9Ethylene&r. The same can be done in the &3Pyrolyse Oven&r. The other path involves Oil.&r"
 				"{@pagebreak}"
 				"&l&3Lore:&r&o You could make your own Brewery if you want to build up a company and start selling Booze... in GregTech 6.&r"
 			]
@@ -140,7 +135,7 @@
 			]
 			title: "Local Brewery selling Booze"
 			x: 1.125d
-			y: -1.875d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -167,8 +162,8 @@
 				type: "item"
 			}]
 			title: "Ethylene"
-			x: 1.125d
-			y: -3.0d
+			x: 2.25d
+			y: -4.125d
 		}
 		{
 			dependencies: [
@@ -193,53 +188,48 @@
 				type: "item"
 			}]
 			title: "Ethanol"
-			x: 0.0d
-			y: -3.0d
+			x: -1.125d
+			y: -4.125d
 		}
 		{
-			dependencies: ["6A304E453D74C57C"]
+			dependencies: ["5898743D8D6C2690"]
 			description: [
-				"Distillating &aOil&r will give you Fuel that you will need to desulfurize."
+				"Naphtha can be obtained from many sources, but your best bet is distilling it from &eRaw Oil&r. "
 				""
-				"&aHydrogen Sulfide&r is perfectly &drecycled&r in an &3Electrolyzer&r."
-				""
-				"To automate this process, simply place your &3Chemical Reactor&r and your &3Electrolyzer&r next to each other. Be sure to use your &5Screwdriver&r to &4enable input from the output side&r."
-				""
-				"&aNaphtha&r is a good &9Product&r source. Keep following the quests to the right for more details."
+				"You could just burn it in a combustion generator now for &9Power&r, but Naphtha is best used for creating plastics, like &bPolyethylene&r. Have a look at the quest above to see how that's done."
 			]
 			icon: "gtceu:naphtha_bucket"
 			id: "6238B2A7ED1BE5A1"
 			size: 0.66d
 			subtitle: "We're still confused on how this is pronounced"
-			tasks: [
-				{
-					id: "01BF2D557A9EF2B0"
-					item: "gtceu:sulfuric_naphtha_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "75B40C6A92BB88B5"
-					item: "gtceu:naphtha_bucket"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "75B40C6A92BB88B5"
+				item: "gtceu:naphtha_bucket"
+				type: "item"
+			}]
 			title: "Naphtha"
-			x: -1.125d
+			x: -5.625d
 			y: -4.125d
 		}
 		{
-			dependencies: ["6238B2A7ED1BE5A1"]
+			dependencies: [
+				"6238B2A7ED1BE5A1"
+				"035CF39E6CC98B77"
+			]
 			description: [
 				"Don't panic! We'll mostly be doing this to get hydrocarbons."
 				""
 				"There are many ways to acquire &dEthylene&r from Oil processing. It's easy to get lost in all the options and recipes!"
 				""
-				"The best way is to steam-crack &aNaphtha&r in a &3Chemical Reactor&r. Be sure to make the &aSeverely Steam-Cracked&r version for a higher yield of Ethylene."
+				"The best way is to steam-crack &aNaphtha&r in a &3Chemical Reactor&r. To do this, combine Steam and Naphtha in a Chemical Reactor. You can choose to lightly crack your Naphtha, or severely crack it - different levels of cracking yield different ratios of products."
+				""
+				"Use the &aSeverely Steam-Cracked&r version for a higher yield of Ethylene."
 				"{@pagebreak}"
 				"Once in &6HV&r, you'll have the option to do this recipe in the &3Cracking Unit&r at 100% efficiency. Unfortunately, the recipes you are doing with the Chemical Reactor have a loss of &450%&r."
 				""
 				"&9Note:&r All of this looks and feels terribly inefficient - we hope that's strong motivation to tier up! The &3Distillation Tower&r will be a huge upgrade for petrochem, but you're not quite there... yet. Right now, you'll have to use a &3Distillery&r to get &dEthylene&r."
+				""
+				"&l&bNote&r&r: You can also severely-steam crack &eHeavy Oil&r, which can be distilled into &9Benzene&r."
 			]
 			icon: "gtceu:severely_steam_cracked_naphtha_bucket"
 			id: "3E2E161F8CE35138"
@@ -251,8 +241,8 @@
 				type: "item"
 			}]
 			title: "Fuel Cracking"
-			x: 0.0d
-			y: -4.125d
+			x: -5.625d
+			y: -5.25d
 		}
 		{
 			dependencies: [
@@ -302,8 +292,8 @@
 				type: "item"
 			}]
 			title: "Electricity Generation in MV"
-			x: 2.25d
-			y: -1.875d
+			x: -1.125d
+			y: 0.375d
 		}
 		{
 			dependencies: ["2AD44111B9B39C90"]
@@ -378,7 +368,7 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"If you're wanting to dive into &bMV&r, start here."
+				"If you're wanting to dive deeper into &bMV&r, start here."
 				""
 				"The dusts created in an &3MV Mixer&r have great utility."
 			]
@@ -452,7 +442,11 @@
 				"7567E885B7166603"
 				"0DBC148D92A9F69F"
 			]
-			description: ["The Advanced Electrolyzer allows you to decompose &6far more&r Dusts. This will make getting materials such as &aAluminium&r&o a lot&r easier!"]
+			description: [
+				"This is like the first machine you'll want to spend your hard-earned aluminium on."
+				""
+				"The Advanced Electrolyzer allows you to decompose &6far more&r Dusts. This will make getting materials such as &aAluminium&r&o a lot&r easier!"
+			]
 			icon: "gtceu:mv_electrolyzer"
 			id: "0EFEE489906256AA"
 			shape: "square"
@@ -472,11 +466,15 @@
 			description: [
 				"All four output Dusts obtained from Clay electrolysis are immensely useful."
 				""
-				"We'll ask you to give us a total of &a416 Clay Dust&r for this quest. You may also want to look into other sources of similar materials, such as &aSodalite&r. Check EMI for some ideas."
+				"You may also want to look into other sources of similar materials, such as &aSodalite&r. Check EMI for some ideas."
 				""
 				"You should use the Sodium and/or Lithium to make some &6MV Batteries&r."
 				""
 				"Grr, all this useless &dWater&r you're getting keeps clogging the machine! Maybe you should deal with it by using a &3Voiding Cover&r."
+				""
+				"To get tons of clay easily without foraging around a river, you can mix the (more easily obtainable) dirt with water to yield mud, then compress it to get clay blocks."
+				""
+				"Once you're ready to automate this process, look into crushing renewable &bDiorite&r with the &bMV Rock Breaker!&r"
 			]
 			icon: "minecraft:clay_ball"
 			id: "2273DD7E5CD49017"
@@ -584,7 +582,7 @@
 		{
 			dependencies: ["4A92AFD2532EED26"]
 			description: [
-				"Vanadiumsteel is required in small quantities in progression. It's &6nearly four times as durable&r as Steel if used in GregTech tools. The Vanadium comes from &aVanadium Magnetite&r, which you may have encountered in Magnetite veins."
+				"Vanadium Steel is required in small quantities in progression. It's &6nearly four times as durable&r as Steel if used in GregTech tools. The Vanadium comes from &aVanadium Magnetite&r, which you may have encountered in Magnetite veins."
 				""
 				"Other Steel alloys include Blue Steel, Red Steel, and Black Steel!"
 				""
@@ -684,7 +682,7 @@
 				""
 				"We recommend you supply this machine with a steady stream of &dLubricant&r to cut down on the processing time."
 				""
-				"Lubricant can be &3brewed&r from &eOil&r and &aTalc&r, &2Soapstone&r or &cRedstone&r."
+				"Lubricant can be &3brewed&r from &eOil&r and &aTalc&r, &2Soapstone&r or &cRedstone&r. Alternatively, replace the Oil with Creosote."
 			]
 			icon: "gtceu:mv_cutter"
 			id: "5CBBBFD1FBBE95CE"
@@ -794,11 +792,10 @@
 			y: -0.75d
 		}
 		{
-			dependencies: [
-				"7567E885B7166603"
-				"0DBC148D92A9F69F"
-			]
+			dependencies: ["74180AC57AE9F0FE"]
 			description: [
+				"This is the &aBiochemical&r route! Before we get ahead of ourselves, we need to obtain some raw material to work with - in this case, some plants."
+				""
 				"GregTech doesn't provide ways to farm plants or trees, so we made a custom multiblock for the modpack!"
 				""
 				"The multiblock &3Greenhouse&r will be your source of &aWood&r and other plants if you wish."
@@ -832,8 +829,8 @@
 				type: "item"
 			}]
 			title: "Greenhouse"
-			x: 0.0d
-			y: 2.625d
+			x: 1.125d
+			y: -1.875d
 		}
 		{
 			dependencies: [
@@ -1170,7 +1167,7 @@
 				"3568BC9742092FC5"
 			]
 			description: [
-				"Your first &5EV&r Circuit gets a unique texture. If you still consider yourself to be in &bMV&r, &ahold off&r on making too many of these, as they won't benefit you right now. We can't stop you from making these if you &djust wanna flex&r on us, though."
+				"Your first &5EV&r Circuit gets a unique texture. If you still consider yourself to be in &bMV&r, be warned that you'll need a &dCleanroom&r to produce this. &aHold off&r on making too many of these, as they won't benefit you right now. We can't stop you from making these if you &djust wanna flex&r on us, though."
 				""
 				"It'll be needed in &6HV&r."
 			]
@@ -1332,7 +1329,7 @@
 			icon: "ae2:blank_pattern"
 			id: "1C036BCB2C488CFF"
 			size: 0.66d
-			subtitle: "Autocrafting at last!"
+			subtitle: "Autocrafting at last! Well...you'll still need silicon ingots first..."
 			tasks: [{
 				id: "032C24CBA8687E72"
 				item: "ae2:blank_pattern"
@@ -1496,8 +1493,8 @@
 				type: "item"
 			}]
 			title: "Sulfuric Acid"
-			x: 1.125d
-			y: -4.125d
+			x: 2.25d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -1508,6 +1505,8 @@
 				"Obtain &9Hydrochloric Acid&r by mixing &aHydrogen&r and &aChlorine&r."
 				""
 				"This acid is also obtained as waste from a lot of reactions involving &aChlorine&r. Depending on your setups, you may never need to produce it directly."
+				""
+				"Chlorine is best obtained from electrolyzing Salt."
 				"{@pagebreak}"
 				"&cNote:&r We have a $medicine command on our Discord:"
 				""
@@ -1527,14 +1526,15 @@
 				type: "item"
 			}]
 			title: "Hydrochloric Acid"
-			x: 3.375d
-			y: -4.125d
+			x: 4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
 				"316FF60D6FFE97CE"
 				"64CACABB48635904"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"You may notice that some fluids say they are \"&aAcidic&r\", with &9Sulfuric Acid&r being one of them."
 				""
@@ -1567,8 +1567,8 @@
 				type: "checkmark"
 			}]
 			title: "It will Melt Your Flesh"
-			x: 2.25d
-			y: -4.125d
+			x: 3.375d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -1664,12 +1664,11 @@
 			y: 0.375d
 		}
 		{
-			dependencies: [
-				"7567E885B7166603"
-				"0DBC148D92A9F69F"
-			]
+			dependencies: ["74180AC57AE9F0FE"]
 			description: [
-				"It's quite the investment to own a &3Fluid Drilling Rig&r, but it is &oby far&r the most prominent &6source of Oil&r."
+				"This is the &6Petrochemical&r route! Before we get ahead of ourselves, we need to obtain some raw material to work with. Let's start with the (recommended) way to obtain them: The &3Fluid Drilling Rig&r."
+				""
+				"It's quite the investment to own one, but it is &oby far&r the most prominent &6source of Oil&r (and other resources)."
 				""
 				"It pumps fluids from underneath Bedrock itself. Note that the fluids aren't actually there, instead being simulated."
 				""
@@ -1679,7 +1678,7 @@
 				"{@pagebreak}"
 				"Each vein generates with a different base yield. This is typically between &d150L&r to &d300L per second&r."
 				""
-				"When drained, fluid veins will slowly deplete. This will cause the fluid yield to decrease over time until it reaches its depletion yield. At that point, you should move the Rig to a different vein."
+				"When drained, fluid veins will slowly deplete. This will cause the fluid yield to decrease over time until it reaches its depletion yield. At that point, you'll probably spend more energy drilling for Oil than the Oil itself generates, so you should move the Rig to a different vein."
 				""
 				"A &3Basic Fluid Drilling Rig&r will last for 100,000 operations (with 1 second per operation) until depletion. This is enough for &6well over 10,000&r buckets of Oil. Higher tier Rigs will massively increase the yield, while also decreasing the depletion rate."
 				"{@pagebreak}"
@@ -1710,33 +1709,26 @@
 				type: "item"
 			}]
 			title: "Fluid Drilling Rigs"
-			x: -1.125d
-			y: 0.375d
+			x: -3.375d
+			y: -0.75d
 		}
 		{
-			dependencies: ["648BCF486E16CCB2"]
+			dependencies: ["05ADBAE5B6F38956"]
 			description: [
-				"Get any kind of &3Pump&r, place it above an Oil spout and... give it some power."
+				"Maybe you're sick of randomly tapping chunks for &6Raw Oil&r. Or maybe you haven't the willpower to build the whole &bDrilling Rig&r. Whatever it is, you can choose instead to tap those &6Oil Spouts&r that you see throughout the world - these provide only &6Raw Oil&r."
+				""
+				"Get any kind of &3Pump&r, place it above an Oil Spout and... give it some power."
 				""
 				"Do &cnot&r pump above an Ocean, as the pump will attempt to pull water, resulting in getting the pump stuck. Sorry!"
 				"{@pagebreak}"
-				"Each Oil deposit can have between &63,000&r and &69,200&r buckets of Oil, which is a LOT! Refining the Oil&r onsite into either &aLight Fuel&r or &aDiesel&r (or both) is perfectly viable. The next few Quests will explain each type's pros and cons."
+				"Each Raw Oil deposit can have between &63,000&r and &69,200&r buckets of Raw Oil, which is a LOT! Raw Oil can be refined into &aLight Fuel&r, &aHeavy Fuel&r and more, but the best use for it is &aNaptha&r. The next few quests will explain what each product is for."
 				""
-				"Store any obtained Oil in &3Drums&r, but you would do yourself a favour to use a &3Super Tank&r as soon as you can make them."
+				"Store any obtained Raw Oil in &3Drums&r, but you would do yourself a favour to use a &3Super Tank&r as soon as you can make them."
 				""
 				"&cWarning: &rDo not forget to &dchunkload&r with FTB Utilities (open the map in the top left corner, claim the chunks with left-click, and enable force loading with shift-left-click)."
+				""
 				"{@pagebreak}"
-				"&9&lNote:&r&l The Oil path is one path towards &9&lEthylene&r&l. The other paths involve getting natural with some Ethanol.&r"
-				""
-				"For now, Oil is &doptional&r. It becomes mandatory much later when you get to &5EV&r."
-				""
-				"Oil can also be refined in the form of &aLight Fuel&r, &aDiesel&r or even &aGasoline&r, which are excellent power options."
-				""
-				"If you chose this path, you should use it for both Power and Ethylene."
-				""
-				"Oil spouts are a &6great starting point&r - they will tide you over until you unlock Fluid Drilling Rigs."
-				"{@pagebreak}"
-				"&l&3Lore:&r&o Oil geysers were originally from Buildcraft. If you played a GregTech 5 modpack &cwithout&f Buildcraft, you needed to use the Fluid Rig and tap randomly to try and get lucky, or wait until &6HV&f, where prospecting for fluids was available."
+				"&l&3Lore:&r&o Oil Geysers were originally from Buildcraft. If you played a GregTech 5 modpack &cwithout&f Buildcraft, you needed to use the Fluid Rig and tap randomly to try and get lucky, or wait until &6HV&f, where prospecting for fluids was available."
 			]
 			icon: "gtceu:oil_bucket"
 			id: "0774EC59CD3DD7A5"
@@ -1803,23 +1795,15 @@
 				}
 			]
 			title: "US Simulator"
-			x: -1.125d
-			y: -0.75d
+			x: -4.5d
+			y: -1.875d
 		}
 		{
-			dependencies: ["648BCF486E16CCB2"]
+			dependencies: ["05ADBAE5B6F38956"]
 			description: [
-				"Underground, you may come across pure Oilsands ore veins. You can &3centrifuge&r the Dust to get &aOil&r."
+				"Underground, you may come across pure Oilsands ore veins. You can &3centrifuge&r the Dust to get &aHeavy Oil&r."
 				""
-				"&9&lNote:&r&l The Oil path is one path towards &9&lEthylene&r&l. The other paths involve getting natural with some Ethanol.&r"
-				""
-				"For now, Oil is &doptional&r. It becomes mandatory much later when you get to &5EV&r."
-				""
-				"Oil can also be refined in the form of &aLight Fuel&r, &aDiesel&r or even &aGasoline&r, which are excellent power options."
-				""
-				"If you chose this path, you should use it for both Power and Ethylene."
-				""
-				"Oilsands are a &6great starting point&r - they'll tide you over until you unlock Fluid Drilling Rigs."
+				"Heavy Oil can be distilled in the form of &aLight Fuel&r, &aNaptha&r and more, but the best use for it is &aHeavy Fuel&r. The next few quests will explain what each product is for."
 			]
 			icon: "gtceu:oilsands_ore"
 			id: "575B07D390D9D079"
@@ -1852,27 +1836,33 @@
 				}
 			]
 			title: "America Simulator"
-			x: -2.25d
-			y: -0.75d
+			x: -5.625d
+			y: -1.875d
 		}
 		{
 			dependencies: [
-				"53DC6E32C41C94C3"
 				"6EB68C28BEE24DEF"
 				"0774EC59CD3DD7A5"
 				"575B07D390D9D079"
 				"05ADBAE5B6F38956"
+				"37AAB88A9EDCC862"
 			]
+			dependency_requirement: "one_started"
 			description: [
-				"Before we start, here's some important information if you're aiming to make Ethylene:"
+				"Now that you've got some raw resources, here's some important information on what to do with it:"
 				""
-				"Taking the &aOil&r route will require &oat least&r a &3LV Distillery&r."
+				"Taking the &aPetrochemical&r route will require &oat least&r a &3LV Distillery&r."
 				""
-				"With the &aBiomass&r route, you will &lneed&r a &3MV Distillery&r."
+				"With the &aBiochemical&r route, you will &lneed&r a &3MV Distillery&r."
 				""
 				"Get &eeither&r to complete this quest."
 				"{@pagebreak}"
 				"Got all that? &6Alright&r! Let's discuss a complex topic: &9Distillation&r. We'll try to help you understand how and why the &aEMI&r recipes are the way they are, so stick with us."
+				""
+				"All raw resources, when distilled with the Distillation Tower, provide a few different products. Oftentimes, different resources can be distilled into the same product, but in different ratios - for example, &6Oil&r is proportionately higher in &eLight Fuel&r, while &6Heavy Oil&r is proportionately higher in &eHeavy Fuel&r."
+				""
+				"{@pagebreak}"
+				"You don't have access to the Distillery Tower, so you'll be using the Distillery machine for now."
 				""
 				"Nearly all the &3Distillery&r recipes are duplicates from the &3Distillation Tower&r, except that they only have one Fluid output, and void everything else."
 				""
@@ -1882,13 +1872,12 @@
 				""
 				"Hell, in many cases, you won't even mind losing the other Fluids."
 				""
-				"&3Distilleries&r are an essential component for power generation, whether you pick &aDiesel&r or &aBenzene&r."
+				"&3Distilleries&r are an essential component for power generation. In MV, you'll likely choose between two options: &bBenzene&r or &eDiesel&r. The surrounding quests will explain the processes requried to get either of these."
 				""
-				"You'll probably want many of them at as low-tier as possible to avoid the energy losses from Overclocking."
+				"You'll probably want many of your Distilleries at as low-tier as possible to avoid the energy losses from Overclocking."
 			]
 			icon: "gtceu:mv_distillery"
 			id: "6A304E453D74C57C"
-			min_required_dependencies: 2
 			rewards: [{
 				id: "3F6532E5CE210907"
 				item: "gtceu:basic_electronic_circuit"
@@ -1919,8 +1908,8 @@
 				type: "item"
 			}]
 			title: "Distillery"
-			x: -1.125d
-			y: -1.875d
+			x: -3.375d
+			y: -3.0d
 		}
 		{
 			dependencies: ["05ADBAE5B6F38956"]
@@ -1957,19 +1946,23 @@
 				}
 			]
 			title: "The Church of Natural Farts"
-			x: -2.25d
+			x: -4.5d
 			y: 0.375d
 		}
 		{
-			dependencies: ["6A304E453D74C57C"]
+			dependencies: [
+				"6A304E453D74C57C"
+				"37AAB88A9EDCC862"
+				"3E2E161F8CE35138"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"&aBenzene&r is a &9Gas Fuel&r. To skip some frustration, let's check out the two best ways to obtain it."
 				""
 				"The first option is typically &dWood based&r. Put Logs in the &3Pyrolyse Oven&r for &9Wood Tar&r. The Charcoal you obtain can then be processed in &3Extractors&r for even more &9Wood Tar&r, which you &3distill&r for &aBenzene&r."
 				""
-				"Your second option is &dHeavy Oil based&r. Put Heavy Oil in a &3Distillery&r for &9Heavy Fuel&r, which you &aseverely steam-crack&r and &3distill&r again for &aBenzene&r."
+				"Your second option is &dHeavy Oil based&r. Put Heavy Oil in a &3Distillery&r for &9Heavy Fuel&r, which you must desulfurize before &aseverely steam-cracking&r and &3distilling&r again for &aBenzene&r. Check out the desulfurization quest if you'd like to go down this route!"
 				"{@pagebreak}"
-				"For information on how to process Oil, check the Light Fuel and Naphtha Quests."
 				""
 				"In general, it is better to prioritize placing down more machines (&dparallelisation&r) over overclocking the recipes. That way, you end up losing less energy processing the resources."
 				""
@@ -1977,7 +1970,9 @@
 			]
 			icon: "gtceu:benzene_bucket"
 			id: "00E1A728E6F6D6A0"
-			size: 0.66d
+			min_required_dependencies: 2
+			shape: "circle"
+			size: 0.75d
 			subtitle: "In the end, it's always Benzene"
 			tasks: [{
 				id: "4E9EBCCCC7BBAFDD"
@@ -1985,55 +1980,46 @@
 				type: "item"
 			}]
 			title: "The Church of Benzene"
-			x: -2.25d
-			y: -1.875d
+			x: -3.375d
+			y: -4.125d
 		}
 		{
-			dependencies: ["6A304E453D74C57C"]
+			dependencies: ["5898743D8D6C2690"]
 			description: [
-				"Distillating &aOil&r will give you Fuel that you will need to desulfurize."
+				"Light Fuel can be obtained from many sources, but your best bet is distilling it from &eOil&r. "
 				""
-				"&aHydrogen Sulfide&r is perfectly &drecycled&r in an &3Electrolyzer&r."
-				""
-				"To automate this process, simply place your &3Chemical Reactor&r and your &3Electrolyzer&r next to each other. Be sure to use your &5Screwdriver&r to &4enable input from the output side&r."
-				""
-				"&aLight Fuel&r is a good &9Power&r option, but there's something even greater... check the Quest to the left."
+				"You could just burn it in a combustion generator now for &9Power&r, but there's something even greater... check the Quest to the left."
 			]
 			icon: "gtceu:lightly_hydro_cracked_heavy_fuel_bucket"
 			id: "61972B16805FC9EE"
 			size: 0.66d
 			subtitle: "Turn up the Lights in here, baby"
-			tasks: [
-				{
-					id: "6E4D818CE088D7D4"
-					item: "gtceu:sulfuric_light_fuel_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "36D70C00EF5171D6"
-					item: "gtceu:light_fuel_bucket"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "36D70C00EF5171D6"
+				item: "gtceu:light_fuel_bucket"
+				type: "item"
+			}]
 			title: "Light Fuel"
-			x: -1.125d
+			x: -6.75d
 			y: -3.0d
 		}
 		{
-			dependencies: ["61972B16805FC9EE"]
+			dependencies: [
+				"61972B16805FC9EE"
+				"035CF39E6CC98B77"
+			]
 			description: [
-				"&aDiesel&r is a &dOil-based &9Combustion Fuel&r."
+				"&aDiesel&r is a &dOil-based &9Combustion Fuel&r, made by mixing Light Fuel and Heavy Fuel in an &bMV Mixer&r."
 				""
 				"To mix &aLight Fuel&r and &aHeavy Fuel&r, the right ratio for &3Distilleries&r is &63:2&r from &dOil&r or &dRaw Oil&r."
 				""
-				"This would necessitate 3 Distilleries for Light Fuel, or 2 Distilleries for Heavy Fuel."
+				"This would necessitate 3 Distilleries for Light Fuel and 2 Distilleries for Heavy Fuel (assuming you'd like to be fully efficient)."
 				"{@pagebreak}"
 				"You can cut the amount of &dOil&r required &6drastically&r by using &dHeavy Oil&r for &aHeavy Fuel&r specifically. &dOilsands&r is a great option if you wish to go down this route!"
 				""
 				"&o(For the math nerds, you go from 8.33 Oil -> 6 Diesel, to 5 Oil + 0.4 Heavy Oil -> 6 Diesel)&r"
 				""
-				"&eNote:&r Do &cnot attempt&r to put Oil in the &3Distillation Tower&r You might think it's a good idea because it gives both Light Fuel and Heavy Fuel. However, this process requires a lot of overclocking to be worth your time, and you will lose more energy than what the byproducts are worth."
+				"&eNote:&r Do &cnot attempt&r to put Oil in the &3Distillation Tower&r. You might think it's a good idea because it gives both Light Fuel and Heavy Fuel. However, this process requires a lot of overclocking to be worth your time, and you will lose more energy than what the byproducts are worth."
 				"{@pagebreak}"
 				"In general, it is better to prioritize placing down more machines (&dparallelisation&r) over overclocking the recipes. That way, you end up losing less energy processing the resources."
 				""
@@ -2055,7 +2041,8 @@
 				}
 				type: "item"
 			}]
-			size: 0.66d
+			shape: "circle"
+			size: 0.75d
 			subtitle: "Mother, how is diesel made?"
 			tasks: [{
 				id: "10BAA54947D975AF"
@@ -2063,7 +2050,7 @@
 				type: "item"
 			}]
 			title: "The Church of Diesel"
-			x: -2.25d
+			x: -7.875d
 			y: -3.0d
 		}
 		{
@@ -2237,8 +2224,8 @@
 				}
 			]
 			title: "Long-Distance Fluids"
-			x: -3.375d
-			y: -0.75d
+			x: -6.75d
+			y: -1.875d
 		}
 		{
 			dependencies: ["682C26579EDDCA76"]
@@ -2270,10 +2257,7 @@
 			y: 3.75d
 		}
 		{
-			dependencies: [
-				"6238B2A7ED1BE5A1"
-				"3E2E161F8CE35138"
-			]
+			dependencies: ["5898743D8D6C2690"]
 			dependency_requirement: "one_completed"
 			description: [
 				"This Jetpack takes most &aCombustion Fuels&r (excluding oils) to enable a primitive form of flight."
@@ -2295,8 +2279,8 @@
 				type: "item"
 			}]
 			title: "I Believe I Can Fly"
-			x: -0.5854591836734713d
-			y: -4.789540816326532d
+			x: -4.5d
+			y: -3.75d
 		}
 		{
 			dependencies: ["75F38905DEA60F15"]
@@ -2379,6 +2363,101 @@
 			title: "200IQ"
 			x: -1.123469387755101d
 			y: 2.445153061224488d
+		}
+		{
+			dependencies: ["7567E885B7166603"]
+			description: [
+				"Welcome to your first (of many) forays into &bHydrocarbons&r! You may already know a few of them, like Petrol, Plastic, Alcohol... well, in GregTech, you'll mass-produce many of these things, and more! This topic can be confusing at times, so you'll want to read carefully in order to avoid getting lost in the details. Now..."
+				"{@pagebreak}"
+				"Here in &bMV&r, there are two main goals of working with Hydrocarbons - Power and Plastics. The interesting part is how you'll accomplish this. There are two main paths you can take: &6Petrochemicals&r and &aBiochemicals&r. Both have their pros and cons - Petrochemicals typically provide &9higher yields&r and &benergy-efficiency&r, while Biochemicals are fully &drenewable&r. Your source of Power and Plastics is entirely &bup to you&r."
+				"{@pagebreak}"
+				"Ready to dive in? The &6Petrochemical&r route is to the left of this quest. For those with green thumbs, the &2Biochemical&r route is to the right. Best of luck!"
+			]
+			icon: "gtceu:polyethylene_nugget"
+			id: "74180AC57AE9F0FE"
+			shape: "square"
+			size: 0.75d
+			subtitle: "Getting industrial"
+			tasks: [{
+				id: "093E71F51E1ECA6F"
+				title: "Hydrocarbons"
+				type: "checkmark"
+			}]
+			x: -1.125d
+			y: -0.75d
+		}
+		{
+			dependencies: ["6A304E453D74C57C"]
+			description: [
+				"If you've tried to distill an Oil into &eLight Fuel, Heavy Fuel&r, etc., you might've realised that you can't. Instead, you've gotten this &6sulfurized&r version of it. How dreadful!"
+				""
+				"To fix this, we'll need to &6desulfurize&r it. Combine whatever you'd like to desulfurize with &9Hydrogen Gas&r in a &3Chemical Reactor&r to produce the pure product, along with a byproduct of &aHydrogen Sulfide&r. What now?"
+				"{@pagebreak}"
+				""
+				"Luckily, &aHydrogen Sulfide&r is perfectly &drecycled&r in an &3Electrolyzer&r."
+				""
+				"To automate this process, simply place your &3Chemical Reactor&r and your &3Electrolyzer&r next to each other. Be sure to &cenable input from the output side&r. We've graciously provided a &3Fluid Filter&r so that your desulfurized prize doesn't go into your Electrolyzer too - remember to set it to filter both input/extract so that the right fluids can flow both ways!"
+				""
+				"{@pagebreak}"
+				"But now, how do we get our refined goodies out of our &3Chemical Reactor&r? This is where the Electric Pump comes in - use it on a different face of the Chemical Reactor and extract your prize!"
+				""
+				"&l&bTip&r&r: You only need two buckets of &9Hydrogen Gas&r. The easiest way of obtaining it is by electrolyzing water. You don't need to mass-produce Hydrogen (yet), don't worry!"
+			]
+			icon: "gtceu:sulfur_dust"
+			id: "5898743D8D6C2690"
+			rewards: [{
+				id: "7252A11E3828603C"
+				item: "gtceu:fluid_filter"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.75d
+			subtitle: "Waiter! Why is there Sulfur in my soup?"
+			tasks: [{
+				id: "3F4C5D4741ABEE3C"
+				item: "gtceu:hydrogen_bucket"
+				type: "item"
+			}]
+			title: "Desulfurization"
+			x: -5.625d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5898743D8D6C2690"]
+			description: [
+				"Heavy Fuel can be obtained from many sources, but your best bet is distilling it from &eHeavy Oil&r. "
+				""
+				"You could just burn it in a combustion generator now for &9Power&r, but there's something even greater... check the Quest to the left."
+			]
+			id: "035CF39E6CC98B77"
+			size: 0.666d
+			subtitle: "Things are getting really Heavy around here..."
+			tasks: [{
+				id: "4BA6939D643E63A6"
+				item: "gtceu:heavy_fuel_bucket"
+				type: "item"
+			}]
+			title: "Heavy Fuel"
+			x: -6.75d
+			y: -4.125d
+		}
+		{
+			dependencies: ["53DC6E32C41C94C3"]
+			description: [
+				"This is the main way of getting &9Power&r via the &aBiochemical&r route. Put Logs in the &3Pyrolyse Oven&r for &9Wood Tar&r. The Charcoal you obtain can then be processed in &3Extractors&r for even more &9Wood Tar&r!"
+				""
+				"Check out the Distillation quest to see what you can do with this wondrous substance."
+			]
+			id: "37AAB88A9EDCC862"
+			size: 0.66d
+			tasks: [{
+				id: "7EC058F5FE8478D1"
+				item: "gtceu:wood_tar_bucket"
+				type: "item"
+			}]
+			title: "Wood Tar"
+			x: -2.25d
+			y: -1.875d
 		}
 	]
 	subtitle: ["Venture into petrochemistry and refine electronics"]
