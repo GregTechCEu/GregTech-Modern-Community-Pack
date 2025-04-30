@@ -6,5 +6,5 @@
 		{ count: 12, item: "gtceu:chromium_rod" }
 		{ count: 32, item: "gtceu:electrum_ingot" }
 	]
-	title: "hv_components"
+	title: "{gregtech_modern.hv_components.title}"
 }

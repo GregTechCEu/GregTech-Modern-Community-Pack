@@ -19,6 +19,6 @@
 	}
 	pause_game: false
 	progression_mode: "default"
-	title: "GregTech Community Pack"
+	title: "{gregtech_modern.data.title}"
 	version: 13
 }

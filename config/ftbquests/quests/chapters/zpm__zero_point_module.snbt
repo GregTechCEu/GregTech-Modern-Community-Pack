@@ -27,19 +27,19 @@
 		{
 			dependencies: ["24F0454B9A090C44"]
 			description: [
-				"The &aZero Point Module&r (item) is a non-rechargable battery with TONS of energy stored. You may have found one of these before now, but you haven't been able to discharge it until reaching &cZPM&r."
+				"{gregtech_modern.zpm__zero_point_module.quests0.description0}"
 				""
-				"These can only be found as loot from &6Jungle Temples&r. They're exceptionally rare - don't worry about finding one. "
+				"{gregtech_modern.zpm__zero_point_module.quests0.description1}"
 				""
-				"This quest is &6optional&r and is just for fun. Feel free to hit the checkbox if you just want the completion points!"
+				"{gregtech_modern.zpm__zero_point_module.quests0.description2}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Zero Point Module, the full name of the ZPM tier, is also from Stargate. Its namesake is a device which generated crazy amounts of energy."
+				"{gregtech_modern.zpm__zero_point_module.quests0.description3}"
 			]
 			icon: "gtceu:zero_point_module"
 			id: "75905E3672399A63"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Unlimited powah!"
+			subtitle: "{gregtech_modern.zpm__zero_point_module.quests0.subtitle}"
 			tasks: [
 				{
 					id: "10AC8DC9332D084C"
@@ -52,27 +52,27 @@
 					type: "checkmark"
 				}
 			]
-			title: "Zero Point Module"
+			title: "{gregtech_modern.zpm__zero_point_module.quests0.title}"
 			x: -6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4C7C0F6A6598BC24"]
 			description: [
-				"&aZPM Superconductors&r are a major gate between you and a &9Fusion Reactor Mk2&r, which uses copious amounts for its structure blocks."
+				"{gregtech_modern.zpm__zero_point_module.quests1.description0}"
 				""
-				"You can also use them to make &9Superconducting Coils&r for cheaper."
+				"{gregtech_modern.zpm__zero_point_module.quests1.description1}"
 			]
 			id: "2587BFD0D9F3FF4A"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Getting tired of all these pitch-black ingots yet?"
+			subtitle: "{gregtech_modern.zpm__zero_point_module.quests1.subtitle}"
 			tasks: [{
 				id: "5688605649CC30C3"
 				item: "gtceu:uranium_rhodium_dinaquadide_single_wire"
 				type: "item"
 			}]
-			title: "ZPM Superconductors"
+			title: "{gregtech_modern.zpm__zero_point_module.quests1.title}"
 			x: -4.875d
 			y: 1.125d
 		}
@@ -82,15 +82,15 @@
 				"24F0454B9A090C44"
 			]
 			description: [
-				"&cZPM&r Components thankfully aren't too much harder than &dLuV&r. "
+				"{gregtech_modern.zpm__zero_point_module.quests2.description0}"
 				""
-				"They use lots of &9Osmiridium&r, so make sure your platinum refining process is up to the task."
+				"{gregtech_modern.zpm__zero_point_module.quests2.description1}"
 			]
 			icon: "gtceu:zpm_electric_motor"
 			id: "5BBFE222190891DE"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Prepare your platline!"
+			subtitle: "{gregtech_modern.zpm__zero_point_module.quests2.subtitle}"
 			tasks: [
 				{
 					id: "17E45B64101F2249"
@@ -128,22 +128,22 @@
 					type: "item"
 				}
 			]
-			title: "Absolute Elation"
+			title: "{gregtech_modern.zpm__zero_point_module.quests2.title}"
 			x: -6.0d
 			y: 1.125d
 		}
 		{
 			dependencies: ["378F0AFCF95354B2"]
 			description: [
-				"&aEnriched Naquadah&r is an isotope of Naquadah, Nq-528. It is radioactive and will be used in (as of yet) unimplemented nuclear reactors."
+				"{gregtech_modern.zpm__zero_point_module.quests3.description0}"
 				""
-				"Currently, you just need it to make &9Trinium Coils&r."
+				"{gregtech_modern.zpm__zero_point_module.quests3.description1}"
 			]
 			icon: "gtceu:enriched_naquadah_ingot"
 			id: "74B037D7031F4A78"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Naquadah, but radioactive!"
+			subtitle: "{gregtech_modern.zpm__zero_point_module.quests3.subtitle}"
 			tasks: [
 				{
 					id: "4598D1D78A71E514"
@@ -157,7 +157,7 @@
 					type: "item"
 				}
 			]
-			title: "Enriched Naquadah"
+			title: "{gregtech_modern.zpm__zero_point_module.quests3.title}"
 			x: -4.875d
 			y: -1.125d
 		}
@@ -168,20 +168,20 @@
 				"2FCBA0D780DBDA9E"
 			]
 			description: [
-				"&aTrinium Coils&r bring up the Heat Capacity to &d9,001K&r."
+				"{gregtech_modern.zpm__zero_point_module.quests4.description0}"
 				""
-				"These coils are required for progressing to the second half of &cZPM&r, and beyond."
+				"{gregtech_modern.zpm__zero_point_module.quests4.description1}"
 			]
 			id: "4C7C0F6A6598BC24"
 			size: 0.75d
-			subtitle: "IT'S OVER 9000!!!"
+			subtitle: "{gregtech_modern.zpm__zero_point_module.quests4.subtitle}"
 			tasks: [{
 				count: 16L
 				id: "11CD2F83031C6706"
 				item: "gtceu:trinium_coil_block"
 				type: "item"
 			}]
-			title: "Trinium Coils"
+			title: "{gregtech_modern.zpm__zero_point_module.quests4.title}"
 			x: -4.875d
 			y: 0.0d
 		}
@@ -191,25 +191,25 @@
 				"2587BFD0D9F3FF4A"
 			]
 			description: [
-				"The &3Research Station&r is the upgrade to the Scanner. It's used for more advanced forms of research, and will finally allow you to perform research which requires &aData Orbs and Modules&r."
+				"{gregtech_modern.zpm__zero_point_module.quests5.description0}"
 				""
-				"When running the &3Research Station&r, energy and &9Computation&r is needed. The latter is provided through an &9HPCA&r, which is explained in the next quest. It is recieved with a &3Computation Data Reception Hatch&r. Note that only one Reception Hatch is allowed in a Research Station."
+				"{gregtech_modern.zpm__zero_point_module.quests5.description1}"
 				"{@pagebreak}"
-				"This multiblock needs computation &dsporadically&r, which means the recipe will not reverse progress if you don't supply enough - it will simply halt in-place. However, the machine will still draw energy constantly, even when recieving no computation."
+				"{gregtech_modern.zpm__zero_point_module.quests5.description2}"
 				""
-				"To scan items, the process is relatively similar. In the &3Object Holder&r, place the target item in the center slot, and the data storage item in the other slot. Then provide computation, and the data storage item will be updated upon completion. When running, the target item will be Locked and cannot be removed."
+				"{gregtech_modern.zpm__zero_point_module.quests5.description3}"
 				""
-				"&eNote&r: To form this multiblock, the &3Object Holder&r must face the controller."
+				"{gregtech_modern.zpm__zero_point_module.quests5.description4}"
 			]
 			id: "468EEFD9D2F69014"
 			size: 0.75d
-			subtitle: "Your research adventures continue!"
+			subtitle: "{gregtech_modern.zpm__zero_point_module.quests5.subtitle}"
 			tasks: [{
 				id: "148C1C60A855B61E"
 				item: "gtceu:research_station"
 				type: "item"
 			}]
-			title: "Research Station"
+			title: "{gregtech_modern.zpm__zero_point_module.quests5.title}"
 			x: -4.875d
 			y: 2.25d
 		}
@@ -219,65 +219,65 @@
 				"7AE681E2AB31EA0D"
 			]
 			description: [
-				"The &aUV Mainframe&r is required to move into &3Fusion Mk2&r."
+				"{gregtech_modern.zpm__zero_point_module.quests6.description0}"
 				""
-				"It's also made in the Assembly Line."
+				"{gregtech_modern.zpm__zero_point_module.quests6.description1}"
 				""
-				"Passing over the ingredients we've already seen before, watch out for the &6HSS-E Frames&r."
+				"{gregtech_modern.zpm__zero_point_module.quests6.description2}"
 			]
 			id: "79E4E53E9DF45549"
 			size: 0.75d
-			subtitle: "...ah, here we go!"
+			subtitle: "{gregtech_modern.zpm__zero_point_module.quests6.subtitle}"
 			tasks: [{
 				id: "226973A23C89BDD2"
 				item: "gtceu:crystal_processor_mainframe"
 				type: "item"
 			}]
-			title: "First UV Circuits!"
+			title: "{gregtech_modern.zpm__zero_point_module.quests6.title}"
 			x: -3.75d
 			y: 3.375d
 		}
 		{
 			dependencies: ["1D6CC3C7F6BE4055"]
 			description: [
-				"The &aCrystal SoC&r is used to make cheaper &9Crystal Circuits&r. Enjoy the discount!"
+				"{gregtech_modern.zpm__zero_point_module.quests7.description0}"
 				""
-				"Crystal SoCs require &9ZPM Emitters&r, which means you need a &9Data Orb&r for their research."
+				"{gregtech_modern.zpm__zero_point_module.quests7.description1}"
 				""
-				"In the future, these may become more difficult to make."
+				"{gregtech_modern.zpm__zero_point_module.quests7.description2}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In GT5u, the texture for this item was red, and did not have the special design on it. There was a \"raw\" version with the design, but it was used for other unrelated things. Who knows why?"
+				"{gregtech_modern.zpm__zero_point_module.quests7.description3}"
 			]
 			id: "29B7D93D7F32DBA9"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "When engraving it once isn't enough"
+			subtitle: "{gregtech_modern.zpm__zero_point_module.quests7.subtitle}"
 			tasks: [{
 				id: "488A759013AF2680"
 				item: "gtceu:crystal_soc"
 				type: "item"
 			}]
-			title: "Crystal SoC"
+			title: "{gregtech_modern.zpm__zero_point_module.quests7.title}"
 			x: -3.75d
 			y: 1.125d
 		}
 		{
 			dependencies: ["1D6CC3C7F6BE4055"]
 			description: [
-				"This hatch allows you to store more &aData Storage Items&r than the basic one."
+				"{gregtech_modern.zpm__zero_point_module.quests8.description0}"
 				""
-				"Don't forget that this hatch requires a &9Data Orb&r for research."
+				"{gregtech_modern.zpm__zero_point_module.quests8.description1}"
 			]
 			id: "72740001958E929A"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Increased storage density!"
+			subtitle: "{gregtech_modern.zpm__zero_point_module.quests8.subtitle}"
 			tasks: [{
 				id: "0EC657B81458D697"
 				item: "gtceu:advanced_data_access_hatch"
 				type: "item"
 			}]
-			title: "Advanced Data Access Hatch"
+			title: "{gregtech_modern.zpm__zero_point_module.quests8.title}"
 			x: -2.625d
 			y: 1.125d
 		}
@@ -286,12 +286,12 @@
 				"378F0AFCF95354B2"
 				"4C7C0F6A6598BC24"
 			]
-			description: ["&aNaquadria&r is an isotope of Naquadah, Nq-522. It's highly unstable, but it'll still be used for &3UV&r components, &9Fusion Mk2&r, and when fusing Neutronium."]
+			description: ["{gregtech_modern.zpm__zero_point_module.quests9.description0}"]
 			icon: "gtceu:naquadria_ingot"
 			id: "6D1F10543A391940"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Naquadah, but radioactive-er!"
+			subtitle: "{gregtech_modern.zpm__zero_point_module.quests9.subtitle}"
 			tasks: [
 				{
 					id: "4A49FE8B35B48D97"
@@ -305,38 +305,38 @@
 					type: "item"
 				}
 			]
-			title: "Naquadria"
+			title: "{gregtech_modern.zpm__zero_point_module.quests9.title}"
 			x: -2.625d
 			y: 0.0d
 		}
 		{
 			dependencies: ["690E013DFCB060ED"]
 			description: [
-				"Production of &aSterilized Growth Medium&r is the final processing line in GTCEu, for now."
+				"{gregtech_modern.zpm__zero_point_module.quests10.description0}"
 				""
-				"You will need this for your first &4Wetware Circuits&r."
+				"{gregtech_modern.zpm__zero_point_module.quests10.description1}"
 				""
-				"Producing it won't be as much of a hassle as PBI, but nearly every step requires a Sterilized Cleanroom. This means you'll have to get creative with how you use your space."
+				"{gregtech_modern.zpm__zero_point_module.quests10.description2}"
 				""
-				"Make sure to scrutinise every step of the chain. Some recipes are much more efficient than others!"
+				"{gregtech_modern.zpm__zero_point_module.quests10.description3}"
 				""
-				"&ePro Tip&r: You can wall-share cleanrooms with doors in-between too if you want more space."
+				"{gregtech_modern.zpm__zero_point_module.quests10.description4}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o GTCEu's Sterilized Growth Medium chain is loosely based off of Bartworks' from GTNH. The main difference is that GTNH required a Bacterial Vat multiblock, which was more complex than the ordered Assembly Line. GTCEu is considering adding a multiblock like it but with their own spin in the future."
+				"{gregtech_modern.zpm__zero_point_module.quests10.description5}"
 				"{@pagebreak}"
-				"&l&3More Lore:&r&o In Gregicality Legacy, the Sterilized Growth Medium production chain was very different. It was one of the most difficult processes in the mod, with over 30 complicated steps! It was based off of producing different real-life vitamins and nutrients."
+				"{gregtech_modern.zpm__zero_point_module.quests10.description6}"
 				"{@pagebreak}"
-				"&l&3Even More Lore:&r&o In Shadows of Greg, this was made with just Distilled Water and Mince Meat. How far we've come..."
+				"{gregtech_modern.zpm__zero_point_module.quests10.description7}"
 			]
 			id: "6AFDA523304711DB"
 			size: 0.75d
-			subtitle: "The final processing line, at last!"
+			subtitle: "{gregtech_modern.zpm__zero_point_module.quests10.subtitle}"
 			tasks: [{
 				id: "5FFC06116E025936"
 				item: "gtceu:sterilized_growth_medium_bucket"
 				type: "item"
 			}]
-			title: "Sterilized Growth Medium"
+			title: "{gregtech_modern.zpm__zero_point_module.quests10.title}"
 			x: -0.375d
 			y: 1.125d
 		}
@@ -346,14 +346,14 @@
 				"0D7C978F9CDF771B"
 			]
 			description: [
-				"The &aZPM Lapotronic Orb&r is even better than the &dLuV&r one! It of course comes at a price..."
+				"{gregtech_modern.zpm__zero_point_module.quests11.description0}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Imagine making 64 &1IV&f or 8 &dLuV&f Orbs for just one of these! See the Lore for the &dLuV&f orb for details."
+				"{gregtech_modern.zpm__zero_point_module.quests11.description1}"
 			]
 			icon: "gtceu:energy_module"
 			id: "690A51204DF5D469"
 			size: 0.75d
-			subtitle: "A power singularity!"
+			subtitle: "{gregtech_modern.zpm__zero_point_module.quests11.subtitle}"
 			tasks: [
 				{
 					id: "41813C4D68B991D7"
@@ -367,7 +367,7 @@
 					type: "item"
 				}
 			]
-			title: "Mega Batteries"
+			title: "{gregtech_modern.zpm__zero_point_module.quests11.title}"
 			x: -1.5d
 			y: 1.125d
 		}
@@ -380,11 +380,11 @@
 				"24F0454B9A090C44"
 			]
 			description: [
-				"This Quest will be completed with &eeither&r a &3ZPM Energy Hatch&r&r... or a &3ZPM Dynamo Hatch&r for your Multiblock Generators."
+				"{gregtech_modern.zpm__zero_point_module.quests12.description0}"
 				""
-				"Don't forget that &d16 Amp&r variants exist!"
+				"{gregtech_modern.zpm__zero_point_module.quests12.description1}"
 				""
-				"Don't forget that these hatches require a &9Data Orb&r for research."
+				"{gregtech_modern.zpm__zero_point_module.quests12.description2}"
 			]
 			icon: "gtceu:zpm_energy_input_hatch"
 			id: "64EA73FAB2A51850"
@@ -402,7 +402,7 @@
 					type: "item"
 				}
 			]
-			title: "Upgrading your Assembly Line II"
+			title: "{gregtech_modern.zpm__zero_point_module.quests12.title}"
 			x: -2.625d
 			y: 2.25d
 		}
@@ -412,258 +412,258 @@
 				"3568BC9742092FC5"
 			]
 			description: [
-				"The &aSterilized Cleanroom&r is required to produce the next tier of circuits. Nearly every step must be performed inside of one. Good luck fitting everything into such a tight space!"
+				"{gregtech_modern.zpm__zero_point_module.quests13.description0}"
 				""
-				"If you only have one &3Cleanroom&r, you'll need another for &aSterilized&r recipes."
+				"{gregtech_modern.zpm__zero_point_module.quests13.description1}"
 				""
-				"&eNote&r: Normal Cleanroom recipes cannot run in the Sterilized Cleanroom, so you can't just \"upgrade\" your old Cleanrooms."
+				"{gregtech_modern.zpm__zero_point_module.quests13.description2}"
 			]
 			id: "690E013DFCB060ED"
 			size: 0.75d
-			subtitle: "Comes with disinfectant!"
+			subtitle: "{gregtech_modern.zpm__zero_point_module.quests13.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "6A4C78385FF8019A"
 				item: "gtceu:sterilizing_filter_casing"
 				type: "item"
 			}]
-			title: "Sterilized Cleanroom"
+			title: "{gregtech_modern.zpm__zero_point_module.quests13.title}"
 			x: -0.375d
 			y: 2.25d
 		}
 		{
 			dependencies: ["468EEFD9D2F69014"]
 			description: [
-				"The &3High Performance Computation Array&r, also known as the &3HPCA&r, is the multiblock used to create &9Computation&r, measured in CWU/t (Compute-Work Units per tick)."
+				"{gregtech_modern.zpm__zero_point_module.quests14.description0}"
 				""
-				"The HPCA is a modular multiblock with many unique components you've likely not seen before. There are &a9 slots available&r for different components, and there are some example layouts in the EMI previews, so reviewing these may help if you feel confused."
+				"{gregtech_modern.zpm__zero_point_module.quests14.description1}"
 				"{@pagebreak}"
-				"There are two main types of components:"
+				"{gregtech_modern.zpm__zero_point_module.quests14.description2}"
 				""
-				"- &9Computation Components&r: These generate CWU/t and require EU/t and cooling."
-				"- &9Cooling Components&r: These provide a certain amount of cooling, and require EU/t."
+				"{gregtech_modern.zpm__zero_point_module.quests14.description3}"
+				"{gregtech_modern.zpm__zero_point_module.quests14.description4}"
 				""
-				"Currently Available Components:"
+				"{gregtech_modern.zpm__zero_point_module.quests14.description5}"
 				""
-				"- &9Empty&r: Fills a slot but otherwise does nothing."
-				"-&9 Heat Sink&r: Requires no power but provides 1 cooling."
-				"- &9Active Cooler&r: Requires power, PCB Coolant, but provides 2 cooling."
-				"- &9Computation&r: Creates 4 CWU/t, but requires a lot of power and cooling."
+				"{gregtech_modern.zpm__zero_point_module.quests14.description6}"
+				"{gregtech_modern.zpm__zero_point_module.quests14.description7}"
+				"{gregtech_modern.zpm__zero_point_module.quests14.description8}"
+				"{gregtech_modern.zpm__zero_point_module.quests14.description9}"
 				"{@pagebreak}"
-				"The HPCA draws some power to idle. Its power and cooling requirements will sit between the idle upkeep power and a maximum value depending on how much computation is being used."
+				"{gregtech_modern.zpm__zero_point_module.quests14.description10}"
 				""
-				"If the HPCA is not given enough cooling, Computation components can be &4damaged&r if it is allowed to run above &c100C&r (the idle temperature is &a20C&r). Only computation components can be damaged - all other blocks will be unharmed!"
+				"{gregtech_modern.zpm__zero_point_module.quests14.description11}"
 				""
-				"The HPCA can only have 1 &3Computation Data Transmission Hatch&r. You can connect it to the Reception Hatch of the &9Research Station&r with Optical Fiber Cable to transmit the computation."
+				"{gregtech_modern.zpm__zero_point_module.quests14.description12}"
 				"{@pagebreak}"
-				"Basic CWU/t Requirements for ZPM Tier:"
+				"{gregtech_modern.zpm__zero_point_module.quests14.description13}"
 				""
-				"- &a4 CWU/t&r for &cZPM&r Sensors, Emitters, and Field Generators"
-				"- &a8 CWU/t&r for &cZPM&r Enegy Hatches"
-				"- &a16 CWU/t&r for &3UV&r Circuits and beyond."
+				"{gregtech_modern.zpm__zero_point_module.quests14.description14}"
+				"{gregtech_modern.zpm__zero_point_module.quests14.description15}"
+				"{gregtech_modern.zpm__zero_point_module.quests14.description16}"
 				""
-				"Don't feel forced to go for 16 CWU/t immediately. There's lots to do in between these milestones."
+				"{gregtech_modern.zpm__zero_point_module.quests14.description17}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o This mechanic is loosely inspired by TecTech's Quantum Computer, which is similar but has some much more annoying mechanics like the Uncertainty Resolver."
+				"{gregtech_modern.zpm__zero_point_module.quests14.description18}"
 			]
 			id: "1D6CC3C7F6BE4055"
 			size: 0.75d
-			subtitle: "That's no Quantum Computer..."
+			subtitle: "{gregtech_modern.zpm__zero_point_module.quests14.subtitle}"
 			tasks: [{
 				id: "5F20D430C26D3BE4"
 				item: "gtceu:high_performance_computation_array"
 				type: "item"
 			}]
-			title: "HPCA"
+			title: "{gregtech_modern.zpm__zero_point_module.quests14.title}"
 			x: -3.75d
 			y: 2.25d
 		}
 		{
 			dependencies: ["6AFDA523304711DB"]
-			description: ["&aStem Cells&r are a major component of &4Wetware Circuits&r. Just don't question why these use Osmiridium."]
+			description: ["{gregtech_modern.zpm__zero_point_module.quests15.description0}"]
 			id: "33A1FF5C31EAF716"
 			size: 0.75d
-			subtitle: "This texture used to be really ugly..."
+			subtitle: "{gregtech_modern.zpm__zero_point_module.quests15.subtitle}"
 			tasks: [{
 				id: "1E31342D5310ED6D"
 				item: "gtceu:stem_cells"
 				type: "item"
 			}]
-			title: "Stem Cells"
+			title: "{gregtech_modern.zpm__zero_point_module.quests15.title}"
 			x: -0.375d
 			y: 0.0d
 		}
 		{
 			dependencies: ["33A1FF5C31EAF716"]
 			description: [
-				"The final circuit board - it's been a long time coming! As you can see, this board is &cmuch&r more expensive than the other ones, but you should be alright. You're a pro now!"
+				"{gregtech_modern.zpm__zero_point_module.quests16.description0}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In GTNH, these circuit boards require LuV Sensors, instead of IV. This means that Wetware LuV circuits, needed other (crystal) LuV circuits!"
+				"{gregtech_modern.zpm__zero_point_module.quests16.description1}"
 				""
-				"Additionally, because Wetware was so expensive, using Crystal was preferred unless UHV wetware circuits were needed. Thankfully, CEu does not have this problem, and LuV Wetware Circuits are worth making."
+				"{gregtech_modern.zpm__zero_point_module.quests16.description2}"
 			]
 			id: "678CABA03E17516A"
 			size: 0.75d
-			subtitle: "The board of life itself"
+			subtitle: "{gregtech_modern.zpm__zero_point_module.quests16.subtitle}"
 			tasks: [{
 				id: "0097D7805D82EDEC"
 				item: "gtceu:wetware_printed_circuit_board"
 				type: "item"
 			}]
-			title: "Wetware Printed Circuit Board"
+			title: "{gregtech_modern.zpm__zero_point_module.quests16.title}"
 			x: -0.375d
 			y: -1.125d
 		}
 		{
 			dependencies: ["678CABA03E17516A"]
-			description: ["The &aNeuro Processing Unit&r serves as the CPU for &4Wetware&r. It also takes a circuit board in its recipe, but don't let that scare you."]
+			description: ["{gregtech_modern.zpm__zero_point_module.quests17.description0}"]
 			id: "3BD68E5909A97532"
 			size: 0.75d
-			subtitle: "Neurons for computation"
+			subtitle: "{gregtech_modern.zpm__zero_point_module.quests17.subtitle}"
 			tasks: [{
 				id: "06AE61C5F174F4E7"
 				item: "gtceu:neuro_processing_unit"
 				type: "item"
 			}]
-			title: "It's Alive!"
+			title: "{gregtech_modern.zpm__zero_point_module.quests17.title}"
 			x: 0.75d
 			y: -1.125d
 		}
 		{
 			dependencies: ["082AB255886E73C2"]
 			description: [
-				"The second circuit of the &4wetware&r line."
+				"{gregtech_modern.zpm__zero_point_module.quests18.description0}"
 				""
-				"This is also the best &cZPM&r circuit!"
+				"{gregtech_modern.zpm__zero_point_module.quests18.description1}"
 			]
 			id: "370FC1CDF5F9A9CC"
 			size: 0.75d
-			subtitle: "Did that circuit just BLINK at me?"
+			subtitle: "{gregtech_modern.zpm__zero_point_module.quests18.subtitle}"
 			tasks: [{
 				id: "31DF7507733F3EE0"
 				item: "gtceu:wetware_processor_assembly"
 				type: "item"
 			}]
-			title: "Best ZPM Circuits!"
+			title: "{gregtech_modern.zpm__zero_point_module.quests18.title}"
 			x: 0.75d
 			y: 1.125d
 		}
 		{
 			dependencies: ["3BD68E5909A97532"]
 			description: [
-				"The first Circuit of the &4Wetware&r line."
+				"{gregtech_modern.zpm__zero_point_module.quests19.description0}"
 				""
-				"&6Congrats&r!"
+				"{gregtech_modern.zpm__zero_point_module.quests19.description1}"
 			]
 			id: "082AB255886E73C2"
 			size: 0.75d
-			subtitle: "Eek, it's alive!"
+			subtitle: "{gregtech_modern.zpm__zero_point_module.quests19.subtitle}"
 			tasks: [{
 				id: "0B12A1F63822CF8A"
 				item: "gtceu:wetware_processor"
 				type: "item"
 			}]
-			title: "Best LuV Circuits!"
+			title: "{gregtech_modern.zpm__zero_point_module.quests19.title}"
 			x: 0.75d
 			y: 0.0d
 		}
 		{
 			dependencies: ["24366846FDA52CE3"]
 			description: [
-				"Remember &aDarmstadtium&r tools from &3GTCE&r? Well then... guess who's back?"
+				"{gregtech_modern.zpm__zero_point_module.quests20.description0}"
 				""
-				"&aDarmstadtium&r is the main material for &3UV&r hulls. It is yet again made with Fusion."
+				"{gregtech_modern.zpm__zero_point_module.quests20.description1}"
 				"{@pagebreak}"
-				"&bFun Fact&r: Arsenic does not exist as a liquid at standard conditions. It sublimates directly into a gas! \"Realism\", my ass."
+				"{gregtech_modern.zpm__zero_point_module.quests20.description2}"
 			]
 			id: "6988AE94BE7B461F"
 			size: 0.75d
-			subtitle: "I want my particle accelerator back..."
+			subtitle: "{gregtech_modern.zpm__zero_point_module.quests20.subtitle}"
 			tasks: [{
 				id: "798EFE8E18E79C0C"
 				item: "gtceu:darmstadtium_ingot"
 				type: "item"
 			}]
-			title: "Darmstadtium"
+			title: "{gregtech_modern.zpm__zero_point_module.quests20.title}"
 			x: -2.625d
 			y: 4.5d
 		}
 		{
 			dependencies: ["546CC03435E763CF"]
 			description: [
-				"&aDuranium&r is a material from Star Trek, and is used for a few things in GT. It makes some pretty awesome pipes, but otherwise you won't need much of this quite yet."
+				"{gregtech_modern.zpm__zero_point_module.quests21.description0}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In some versions of GT5u, this material was entirely white. In fact, most fusion materials and later were like this. Boring!"
+				"{gregtech_modern.zpm__zero_point_module.quests21.description1}"
 			]
 			id: "2CB8FCE09920042C"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Who needs Stargate, anyway?"
+			subtitle: "{gregtech_modern.zpm__zero_point_module.quests21.subtitle}"
 			tasks: [{
 				id: "0933A476B9F87E66"
 				item: "gtceu:duranium_ingot"
 				type: "item"
 			}]
-			title: "Duranium"
+			title: "{gregtech_modern.zpm__zero_point_module.quests21.title}"
 			x: -0.375d
 			y: 4.5d
 		}
 		{
 			dependencies: ["24366846FDA52CE3"]
 			description: [
-				"&aAmericium&r is a Fusion Mk2 material, used in large quantities in CEu progression!"
+				"{gregtech_modern.zpm__zero_point_module.quests22.description0}"
 				""
-				"It requires 2 Fusion steps to obtain - Lanthanum and Silicon will make &bLutetium&r, and combining this &bLutetium&r with Chrome will give you &aAmericium&r."
+				"{gregtech_modern.zpm__zero_point_module.quests22.description1}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In Gregicality Legacy, Americium was replaced with Dubnium. Americium is a material only obtained from nuclear reactors, so GCYL changed it to the synthetic element Dubnium instead."
+				"{gregtech_modern.zpm__zero_point_module.quests22.description2}"
 			]
 			id: "762C48F0C2EA6B81"
 			size: 0.75d
-			subtitle: "It'd be nice if we could make this in a nuclear reactor..."
+			subtitle: "{gregtech_modern.zpm__zero_point_module.quests22.subtitle}"
 			tasks: [{
 				id: "5D597AE565A54388"
 				item: "gtceu:americium_ingot"
 				type: "item"
 			}]
-			title: "Americium"
+			title: "{gregtech_modern.zpm__zero_point_module.quests22.title}"
 			x: -1.5d
 			y: 3.375d
 		}
 		{
 			dependencies: ["370FC1CDF5F9A9CC"]
 			description: [
-				"The third circuit of the &4wetware&r line. Get some &bEuropium&r to make these."
+				"{gregtech_modern.zpm__zero_point_module.quests23.description0}"
 				""
-				"This is also the best &3UV&r circuit!"
+				"{gregtech_modern.zpm__zero_point_module.quests23.description1}"
 			]
 			id: "359121584E056022"
 			size: 0.75d
-			subtitle: "Sentience in circuit form"
+			subtitle: "{gregtech_modern.zpm__zero_point_module.quests23.subtitle}"
 			tasks: [{
 				id: "5F54BE8467A5C882"
 				item: "gtceu:wetware_processor_computer"
 				type: "item"
 			}]
-			title: "Best UV Circuits!"
+			title: "{gregtech_modern.zpm__zero_point_module.quests23.title}"
 			x: 0.75d
 			y: 2.25d
 		}
 		{
 			dependencies: ["79E4E53E9DF45549"]
 			description: [
-				"&3Advanced HPCA Components&r are improved versions of their regular counterparts, and allow for increasing the computation you can produce from an HPCA."
+				"{gregtech_modern.zpm__zero_point_module.quests24.description0}"
 				""
-				"The &3HPCA Advanced Computation Component&r produces &a4x&r the computation for only &a2x&r the Cooling!"
+				"{gregtech_modern.zpm__zero_point_module.quests24.description1}"
 			]
 			id: "0199DBC46D7BC2B9"
 			size: 0.75d
-			subtitle: "Time for some computational advancement!"
+			subtitle: "{gregtech_modern.zpm__zero_point_module.quests24.subtitle}"
 			tasks: [{
 				id: "761AFCD5742F9A03"
 				item: "gtceu:hpca_advanced_computation_component"
 				type: "item"
 			}]
-			title: "Advanced HPCA Components"
+			title: "{gregtech_modern.zpm__zero_point_module.quests24.title}"
 			x: -4.875d
 			y: 3.375d
 		}
@@ -674,24 +674,24 @@
 				"79E4E53E9DF45549"
 			]
 			description: [
-				"Build the structure displayed with Fusion Glass in &aEMI&r."
+				"{gregtech_modern.zpm__zero_point_module.quests25.description0}"
 				""
-				"To save on Fusion Casings, fit Input + Output Hatches wherever you can (as displayed in the structure)."
+				"{gregtech_modern.zpm__zero_point_module.quests25.description1}"
 				""
-				"The &aFusion Reactor Mk2&r is even more expensive than the Mk1! The key difference is that it has a higher &6Energy To Start&r than the Mk1, allowing you to run new recipes."
+				"{gregtech_modern.zpm__zero_point_module.quests25.description2}"
 				""
-				"It can also overclock lower voltage recipes, such as those in the Mk1 reactor. See the Mk1's quest for how these mechanics work."
+				"{gregtech_modern.zpm__zero_point_module.quests25.description3}"
 			]
 			id: "24366846FDA52CE3"
 			shape: "gear"
 			size: 1.2d
-			subtitle: "Fusion just got more expensive..."
+			subtitle: "{gregtech_modern.zpm__zero_point_module.quests25.subtitle}"
 			tasks: [{
 				id: "0D45B9FFF6BA13FE"
 				item: "gtceu:zpm_fusion_reactor"
 				type: "item"
 			}]
-			title: "Fusion Reactor II"
+			title: "{gregtech_modern.zpm__zero_point_module.quests25.title}"
 			x: -2.625d
 			y: 3.375d
 		}
@@ -701,25 +701,25 @@
 				"24366846FDA52CE3"
 			]
 			description: [
-				"&aTritanium&r is a material from Star Trek, and is used for a few other things in GT. It, like &9Americium&r, requires two fusion steps!"
+				"{gregtech_modern.zpm__zero_point_module.quests26.description0}"
 				""
-				"You'll need this to get the next tier of circuits, and for &3UV&r components."
+				"{gregtech_modern.zpm__zero_point_module.quests26.description1}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In some versions of GT5u, only Tritanium fluid was red. The material was otherwise white. In GTCEu, we decided to make the whole thing red instead. Much better looking!"
+				"{gregtech_modern.zpm__zero_point_module.quests26.description2}"
 			]
 			id: "35F13B6D60361904"
 			size: 0.75d
-			subtitle: "Star Trek strikes again!"
+			subtitle: "{gregtech_modern.zpm__zero_point_module.quests26.subtitle}"
 			tasks: [{
 				id: "6C5B3B1C0B85C003"
 				item: "gtceu:tritanium_ingot"
 				type: "item"
 			}]
-			title: "Tritanium"
+			title: "{gregtech_modern.zpm__zero_point_module.quests26.title}"
 			x: -0.375d
 			y: 3.375d
 		}
 	]
-	subtitle: ["Harness the cosmos and wield the bacteriological"]
-	title: "&cZPM&r - Zero Point Module"
+	subtitle: ["{gregtech_modern.zpm__zero_point_module.subtitle0}"]
+	title: "{gregtech_modern.zpm__zero_point_module.title}"
 }
