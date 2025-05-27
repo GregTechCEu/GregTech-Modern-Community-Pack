@@ -149,13 +149,13 @@
 			description: [
 				"The ore generation in &2GregTech&r is very different to vanilla or normal modded Minecraft. All ores generate in &6huge veins&r, which can contain &dhundreds&o&r of ore blocks."
 				""
-				"GTCEu now features the functionality of &dVisual Prospecting&r natively, which will mark discovered veins on your map. &9Right Click&r an ore block in the vein to add it to the map. You can toggle the ore vein view in the lower left corner of the fullscreen map."
+				"GTCEu now features the functionality of &dVisual Prospecting&r natively, which will mark discovered veins on your map. &9Right Click&r an ore block in the vein, or a surface rock to add it to the map. You can toggle the ore vein view in the lower left corner of the fullscreen map."
 				"{@pagebreak}"
 				"The full extent of ore generation is explained in the Tips and Tricks tab, but here is what you need to know:"
 				""
 				"&9-&r Ore veins generate in a &4Grid&r. Every vein is &9spaced by (approximately) 3 chunks&r from one to another in a cardinal direction."
 				""
-				"&9-&r It's a good practice to make &dWaypoints&r (default &4N&r) for every vein you find, and to label their type. You may want to come back to the vein several times."
+				"&9-&r It's a good practice to make &dWaypoints&r (default &4N&r) for the veins you're currently mining through, and to label their type. You may want to come back to the vein several times."
 			]
 			icon: "gtceu:cobaltite_ore"
 			id: "0C690272ED4FB1C3"
@@ -770,6 +770,8 @@
 				""
 				"If you're familiar with &a&lTinker's Construct&r, it behaves &esimilarly&r to hammers from that mod."
 				""
+				"Shift-right-click with a mining hammer in your hand to adjust the destruction size."
+				""
 				"Make &bgood use&r of these hammers! They'll help you to clear out an entire vein in &6record time&r."
 				""
 				"&eNote:&r Any quest with GregTech tools can be complete with tools crafted from any material - not just the one displayed."
@@ -833,8 +835,8 @@
 			id: "1ECBA1CBFFB9F625"
 			rewards: [{
 				count: 32
-				id: "5CD664F60E977214"
-				item: "gtceu:magnetite_ore"
+				id: "6A8A7B57C7372740"
+				item: "gtceu:raw_magnetite"
 				type: "item"
 			}]
 			size: 0.75d
@@ -1081,6 +1083,8 @@
 				"The Hatch allows for automation - it'll &dauto-export&r both Fluid and Items! It also works for insertion into the Coke Oven (you can use Hoppers)."
 				""
 				"If the Coke Oven happens to fully fill up on &eCreosote&r that you are not using, break and replace the Coke Oven block. &3Automated fluid voiding&r is available later in the game."
+				""
+				"&lTip:&r A bucket of Creosote fuels a furnace for &c32&r items! Take full advantage of this to stop burning planks."
 				"{@pagebreak}"
 				"&l&3Lore:&r&o The concept of multiblocks is a modded Minecraft classic. Think of IC2's Nuclear Reactor, or Railcraft's Coke Oven - truly revolutionary at the time!&r"
 			]
@@ -1155,7 +1159,7 @@
 			description: [
 				"&6Bronze&r is an &2alloy&r of Copper and Tin. Grind down 3 parts Copper and 1 part Tin into dust, then combine and smelt them. If you are confused on how this is done, take a look at the &o\"&dMore Tools&r&o\"&r quest."
 				""
-				"Aim to make &amany more&r Bronze Ingots than is called for here. This is the main material for the &6Steam Age&r, and you will need LOTS of it."
+				"Don't spend your entire supply of Copper and Tin on Bronze right now! You'll soon be able to get a better ratio for your Bronze."
 				""
 				"&6&lThe progression now continues in the Steam Age chapter.&r"
 				"{@pagebreak}"
@@ -1170,7 +1174,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.3d
+			size: 1.2d
 			subtitle: "Humanity's first alloy - and yours too!"
 			tasks: [{
 				count: 24L
@@ -1267,7 +1271,7 @@
 				""
 				"If you're playing solo, feel free to &aadd mods&r to your instance. Some more &bQoL&r could be nice... more &3Tech&r could sate your cravings... maybe even some &5magic mods&r, as long as you don't add &eProjectE&r. Promise?"
 				""
-				"On the 1.12.2 version of &aGregtech: CEu&r, there were multiple &aGregTech&r addons that may be ported to 1.19.2 in future. Rest assured that this pack will do its &dbest&r to support them if they make it to this version!"
+				"On the 1.12.2 version of &aGregtech: CEu&r, there were multiple &aGregTech&r addons that may be ported to 1.20.1 in future. Rest assured that this pack will do its &dbest&r to support them if they make it to this version!"
 			]
 			icon: "minecraft:structure_void"
 			id: "1283B4D7B5D82193"
@@ -1580,7 +1584,12 @@
 				""
 				"We've gathered some GTCEu Modern-flavored recommendations in this quest."
 				"{@pagebreak}"
-				"&lCosmic Frontiers"
+				"&lMonifactory&r"
+				"&dMonifactory&r is a 1.20.1 modpack based on &eNomifactory CEu&r (which was on 1.12.2!). It aims to streamline and simplify the earlier parts of GregTech, while interweaving other tech mods into GTCEu Modern's progression. It also features a &2Hard&r and an &aExpert&r mode for the challenge-minded!"
+				""
+				"In its current state, the pack is on the cusp of a pack-changing update, 0.13. Any worlds at &cHigh Voltage&r or higher will likely need a fresh restart."
+				"{@pagebreak}"
+				"&lCosmic Frontiers&r"
 				"- &7Ghostipedia et al."
 				""
 				"&dCosmic Frontiers&r is a 1.20.1 modpack with gameplay &ba little more difficult&r than this pack, and a focus on interactions between many mods and GTCEu Modern. You'll explore the stars above and travel to the depths below, all whilst tackling &eintricately woven&r progression that ties together the &7mechanical&r and the &5arcane&r."
@@ -1601,7 +1610,9 @@
 				""
 				"Progression in this pack will take you above and beyond &3UHV&r, with numerous unique &aStargates&r to craft, and even a remixed &o\"Gregified\"&r Mystical Agriculture."
 				""
-				"Note that the pack is still under &eheavy development&r, but you should be able to achieve the &o\"Classic Stargate\"&r as of version BETA 1!"
+				"Once again, this pack features a Hard mode, and a Desert mod (called Abydos!)."
+				""
+				"Note that the pack is still under &eheavy development&r, but you should be able to achieve the &o\"Classic Stargate\"&r as of version Zeta!"
 			]
 			icon: "minecraft:netherite_upgrade_smithing_template"
 			id: "63DC162144871509"

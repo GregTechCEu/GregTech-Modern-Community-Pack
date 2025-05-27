@@ -1,4 +1,5 @@
 {
+	autofocus_id: "42FB276AB16258D9"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "hv__high_voltage"
@@ -129,24 +130,34 @@
 		{
 			dependencies: ["26394C1290D70AB6"]
 			description: [
-				"If you're &lstill&r running off the &3Large Bronze Boiler&r, you may want to upgrade to the &3Large Steel Boiler&r."
+				"If you're &lstill&r running off the &3Large Bronze Boiler&r, you may &o(read: may not)&r want to upgrade to the &3Large Steel Boiler&r."
 				""
-				"It's slightly more efficient than the &3LBB&r, and produces &d900 EU/t worth of Steam&r."
+				"It's slightly more efficient than the &3LBB&r, and produces &d900 EU/t worth of Steam&r..."
 				""
 				"We'd politely recommend that you try other power options at this point."
+				""
+				"Anyway, here's a checkmark to skip the quest."
 			]
 			icon: "gtceu:steel_large_boiler"
 			id: "1BB40CCF17D00719"
 			shape: "rsquare"
 			size: 0.66d
 			subtitle: "Steam isn't the only answer, but we won't stop you"
-			tasks: [{
-				id: "3872B1D118426B33"
-				item: "gtceu:steel_large_boiler"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3872B1D118426B33"
+					item: "gtceu:steel_large_boiler"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5665BED547B49DAB"
+					title: "I am sane."
+					type: "checkmark"
+				}
+			]
 			title: "One Hundred Million Pressure Cookers"
-			x: 1.125d
+			x: 0.0d
 			y: -0.75d
 		}
 		{
@@ -248,8 +259,8 @@
 				}
 			]
 			title: "We call this \"fun\""
-			x: 0.0d
-			y: -1.875d
+			x: 1.125d
+			y: -0.75d
 		}
 		{
 			dependencies: [
@@ -275,6 +286,8 @@
 				"Time to say goodbye to your &4Primitive Water Pumps&r. They've done you proud."
 				""
 				"Place this on the side of a machine to give it &616 buckets&o&r&r of Water every second!"
+				""
+				"Later on in &5EV&r, you can use these to craft Infinite Water Cells for your AE2 network."
 			]
 			icon: "gtceu:infinite_water_cover"
 			id: "78464574AF8A27AC"
@@ -287,7 +300,7 @@
 				type: "item"
 			}]
 			title: "Infinite Water"
-			x: 2.25d
+			x: 1.125d
 			y: 0.375d
 		}
 		{
@@ -368,7 +381,7 @@
 			}]
 			title: "Digital Fluid Storage"
 			x: 3.375d
-			y: -0.75d
+			y: 0.375d
 		}
 		{
 			dependencies: [
@@ -523,8 +536,8 @@
 				type: "item"
 			}]
 			title: "HV Superconductors"
-			x: 4.5d
-			y: -4.125d
+			x: 5.625d
+			y: -6.375d
 		}
 		{
 			dependencies: [
@@ -550,8 +563,8 @@
 				type: "item"
 			}]
 			title: "Nichrome Coils"
-			x: 4.5d
-			y: -5.25d
+			x: 6.75d
+			y: -6.375d
 		}
 		{
 			dependencies: [
@@ -576,7 +589,7 @@
 				type: "choice"
 			}]
 			shape: "gear"
-			size: 1.2d
+			size: 1.0d
 			subtitle: "Titanite Slab"
 			tasks: [{
 				id: "6D3E269567F419DE"
@@ -618,8 +631,8 @@
 				type: "item"
 			}]
 			title: "300IQ"
-			x: 3.375d
-			y: -5.25d
+			x: 7.875d
+			y: -6.375d
 		}
 		{
 			dependencies: ["4AFD3073C731A1E4"]
@@ -648,7 +661,7 @@
 				"1C55AE6AD5BDE304"
 				"6958029B5514D4EC"
 			]
-			description: ["&a4A&r of &bMV&r energy transmission may be appealing, but you probably don't need these at this point. The option is always there if you need it."]
+			description: ["&a4A&r of &bMV&r energy transmission may be appealing, but you probably don't need these at this point. Frankly, you might find it easier to just jump straight to the &6HV&r Superconductors. The option is always there if you need it. Boron can be obtained as a Salt processing byproduct."]
 			icon: "gtceu:magnesium_diboride_double_wire"
 			id: "72F0DFAF5CC6D0FE"
 			shape: "rsquare"
@@ -1275,7 +1288,7 @@
 				}
 			]
 			title: "SMD Components"
-			x: 3.375d
+			x: 2.25d
 			y: 0.375d
 		}
 		{
@@ -1301,7 +1314,7 @@
 				}
 			]
 			title: "More SMD Components"
-			x: 3.375d
+			x: 2.25d
 			y: 1.5d
 		}
 		{
@@ -1327,7 +1340,7 @@
 				type: "item"
 			}]
 			title: "Universal Macerator"
-			x: -1.125d
+			x: 0.0d
 			y: -1.875d
 		}
 		{

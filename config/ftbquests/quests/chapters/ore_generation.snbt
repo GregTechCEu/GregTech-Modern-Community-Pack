@@ -66,7 +66,7 @@
 				"{@pagebreak}"
 				"It's a good practice to make &dWaypoints&r to every vein you find, and to label their type. You may want to come back to it several times."
 				""
-				"A typical Ore vein is &d7 blocks&r tall, and ores generate in 4 different patterns:"
+				"A classic Ore vein is &d7 blocks&r tall, and ores generate in 4 different patterns:"
 				"- The &9Top Ore&r generates in the higher 4 layers of the vein."
 				"- The &9Bottom Ore&r generates in the lower 3 layers of the vein."
 				"- The &9Between Ore&r generates in the middle 3 layers of the vein."
@@ -126,6 +126,11 @@
 				"This vein is namely one of the few direct sources of Gold in the overworld."
 				""
 				"There are many other sources of Gold in GregTech, but you will likely see better yields of Gold if you obtain it by processing other resources."
+<<<<<<< Updated upstream
+=======
+				""
+				"Vanadium Magnetite becomes more useful in &bMV&r, when you will centrifuge out the Vanadium within for Vanadium Steel."
+>>>>>>> Stashed changes
 			]
 			icon: "gtceu:magnetite_ore"
 			id: "260E516A219825A2"
@@ -717,7 +722,11 @@
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
-			description: ["Your one and only trusty source for Nickel."]
+			description: [
+				"Your one and only trusty source for Nickel."
+				""
+				"Cobalt makes for some pretty decent early-game item pipes too!"
+			]
 			icon: "gtceu:nickel_ore"
 			id: "38C955F6CBDD95BD"
 			size: 0.9d
