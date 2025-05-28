@@ -126,11 +126,8 @@
 				"This vein is namely one of the few direct sources of Gold in the overworld."
 				""
 				"There are many other sources of Gold in GregTech, but you will likely see better yields of Gold if you obtain it by processing other resources."
-<<<<<<< Updated upstream
-=======
 				""
 				"Vanadium Magnetite becomes more useful in &bMV&r, when you will centrifuge out the Vanadium within for Vanadium Steel."
->>>>>>> Stashed changes
 			]
 			icon: "gtceu:magnetite_ore"
 			id: "260E516A219825A2"

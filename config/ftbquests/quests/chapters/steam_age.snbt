@@ -494,13 +494,9 @@
 				""
 				"&6Small tip for you:&r no need to worry about your base's biome for now, as your boilers will need very little water to keep up."
 				"{@pagebreak}"
-<<<<<<< Updated upstream
-				"The &cOutput Hatch&r is where water will be generated. You can make it face up or down to auto-output water into your pipes. When you reach &7LV&r or &bMV&r, you can use an Output Hatch from either tier to further boost the Pump's output."
-=======
 				"The &cOutput Hatch&r is where water will be generated. You can make it face up or down to auto-output water into your pipes, which can go &ethrough&r the Treated Wood Frames - just place the pipe before you encase it in the frames. "
 				""
 				"When you reach &7LV&r or &bMV&r, you can use an Output Hatch from either tier to further boost the Pump's output."
->>>>>>> Stashed changes
 				""
 				"&2Reminder:&r Use a Wrench to rotate GregTech blocks (sneak right-click)."
 				""
