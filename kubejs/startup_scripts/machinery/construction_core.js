@@ -21,7 +21,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
         )
         .build()
     )
-    .workableCasingRenderer(
+    .workableCasingModel(
       "gtceu:block/casings/voltage/lv/side",
       "gtceu:block/multiblock/implosion_compressor"
     );
