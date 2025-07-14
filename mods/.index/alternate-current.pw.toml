@@ -1,0 +1,16 @@
+filename = 'alternate_current-mc1.20-1.7.0.jar'
+name = 'Alternate Current'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '02def44a2c416459ee5daecbe1caa6d78571e205'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4721662
+project-id = 548115

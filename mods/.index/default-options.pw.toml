@@ -1,0 +1,16 @@
+filename = 'defaultoptions-forge-1.20-18.0.1.jar'
+name = 'Default Options'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd19f874852def4ef73b32caf3f218e6423d51677'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4635878
+project-id = 232131

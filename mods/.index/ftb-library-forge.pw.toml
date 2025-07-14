@@ -1,0 +1,16 @@
+filename = 'ftb-library-forge-2001.2.9.jar'
+name = 'FTB Library (Forge)'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '42639a90f91c79d6b323ede5e229a79c050f4dc7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6164053
+project-id = 404465

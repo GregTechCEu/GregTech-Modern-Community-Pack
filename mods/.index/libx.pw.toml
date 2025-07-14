@@ -1,0 +1,16 @@
+filename = 'LibX-1.20.1-5.0.14.jar'
+name = 'LibX'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'alpha'
+
+[download]
+hash = 'd75610b0c34626cea8b1155a47d28333cc1f58a2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5207625
+project-id = 412525

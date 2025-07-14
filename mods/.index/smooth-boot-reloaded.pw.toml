@@ -1,0 +1,16 @@
+filename = 'smoothboot(reloaded)-mc1.20.1-0.0.4.jar'
+name = 'Smooth Boot (Reloaded)'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3fd79132dba444bd109b5de4ad75dee06a48e130'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5016280
+project-id = 633412

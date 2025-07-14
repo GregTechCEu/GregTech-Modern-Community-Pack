@@ -1,25 +1,13 @@
 name = "Applied Energistics 2"
-<<<<<<< HEAD
-filename = "appliedenergistics2-forge-15.3.4.jar"
-=======
-filename = "appliedenergistics2-forge-15.3.1-beta.jar"
->>>>>>> e10ad419e3aa2036a2fdaaca45c89d6f3cc69f7d
+filename = "appliedenergistics2-forge-15.4.6.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-<<<<<<< HEAD
-hash = "fa899580dddd44500586a43874c504c7e4620d7a"
-=======
-hash = "165915d313cc8b619eb9613ea3ef32ef8f8eb1e9"
->>>>>>> e10ad419e3aa2036a2fdaaca45c89d6f3cc69f7d
+hash = "773c809c67ef75979476a1c7062a754b497d9260"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-<<<<<<< HEAD
-file-id = 6357138
-=======
-file-id = 6006235
->>>>>>> e10ad419e3aa2036a2fdaaca45c89d6f3cc69f7d
+file-id = 6763576
 project-id = 223794

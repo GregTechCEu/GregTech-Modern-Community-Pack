@@ -1,0 +1,16 @@
+filename = 'torchmaster-20.1.9.jar'
+name = 'Torchmaster'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '9a7f4ffdfe0dfe0a8071ac6501e52b1b4e208758'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5849456
+project-id = 254268

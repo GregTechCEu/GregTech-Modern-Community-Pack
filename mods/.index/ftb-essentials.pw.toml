@@ -1,0 +1,16 @@
+filename = 'ftb-essentials-forge-2001.2.3.jar'
+name = 'FTB Essentials'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '460ec092156d6b457bd91dc463ac1ee49e22442d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6555287
+project-id = 410811

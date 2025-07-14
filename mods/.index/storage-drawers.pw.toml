@@ -1,0 +1,16 @@
+filename = 'StorageDrawers-1.20.1-12.9.14.jar'
+name = 'Storage Drawers'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0f96a4f409515d660ed7fb206edb2fd998bfbf29'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6549483
+project-id = 223852

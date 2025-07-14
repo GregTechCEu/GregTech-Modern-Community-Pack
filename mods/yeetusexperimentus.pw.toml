@@ -1,10 +1,6 @@
 name = "Yeetus Experimentus"
 filename = "YeetusExperimentus-Forge-2.3.1-build.6+mc1.20.1.jar"
-<<<<<<< HEAD
-side = "client"
-=======
 side = "both"
->>>>>>> e10ad419e3aa2036a2fdaaca45c89d6f3cc69f7d
 
 [download]
 hash-format = "sha1"

@@ -1,0 +1,16 @@
+filename = 'ftb-teams-forge-2001.3.1.jar'
+name = 'FTB Teams (Forge)'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c2af94e0b86631cb75daa8de2377ff72527651ca'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6130786
+project-id = 404468
