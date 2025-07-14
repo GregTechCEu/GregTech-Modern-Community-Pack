@@ -734,7 +734,11 @@ hash = "e3fa23749515ff0720ceff36d06d1c36872b41eb41b62b2d0098ea9d47603add"
 
 [[files]]
 file = "mods/ae2-crafting-tree.pw.toml"
+<<<<<<< HEAD
 hash = "70b8dda6712c9c8bddde38cf601da9124a5cbfc7298b57fd6af79edddd91632e"
+=======
+hash = "6a3dc5fdb55d7a17c6ad61f788ae28cee197c73dfc0beac77324b618cd38f9b8"
+>>>>>>> e10ad419e3aa2036a2fdaaca45c89d6f3cc69f7d
 metafile = true
 
 [[files]]
@@ -754,7 +758,11 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
+<<<<<<< HEAD
 hash = "b517935116a96965c298957ca2920d0d710d7dfd3f6d50f689024fc6de28b872"
+=======
+hash = "6fecbfc157a3dc2bd6b660855b8b5b80d523010d1ce022fdbfe7858d390fdb1e"
+>>>>>>> e10ad419e3aa2036a2fdaaca45c89d6f3cc69f7d
 metafile = true
 
 [[files]]
@@ -779,12 +787,20 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
+<<<<<<< HEAD
 hash = "e02edad65b21bdaa914dce1237d99e4a4d2d80e497e817e0cd77be87043c80be"
+=======
+hash = "eea88ab63ad928dc51440c15efa4b7a00d9c01a186eb0032cc9506d438ce94c5"
+>>>>>>> e10ad419e3aa2036a2fdaaca45c89d6f3cc69f7d
 metafile = true
 
 [[files]]
 file = "mods/better-tips-nbt-tag.pw.toml"
+<<<<<<< HEAD
 hash = "d5d14d7bc5015e8d176dea928108876af06b90cd6cab328682fb5ca43fdb7f5b"
+=======
+hash = "261ae4f82f04156a7cdca06cc57c92ba3de364283e2b075bd5807087937f654b"
+>>>>>>> e10ad419e3aa2036a2fdaaca45c89d6f3cc69f7d
 metafile = true
 
 [[files]]
@@ -799,7 +815,11 @@ metafile = true
 
 [[files]]
 file = "mods/client-tweaks.pw.toml"
+<<<<<<< HEAD
 hash = "a387e7cb8af1671af10e6eb3dd2d2de9944cc11a81f4f760aaf72a4e83b95adf"
+=======
+hash = "f71088a0f4930a32f27756a6fc6db26a88ead8bf5e236159c52c98868e26ed27"
+>>>>>>> e10ad419e3aa2036a2fdaaca45c89d6f3cc69f7d
 metafile = true
 
 [[files]]
@@ -819,7 +839,11 @@ metafile = true
 
 [[files]]
 file = "mods/controlling.pw.toml"
+<<<<<<< HEAD
 hash = "cf8c5f2a139a2571d0d4b8be2b7463255cca721ae4a5741ec71595b7ab530e71"
+=======
+hash = "1e56f528d8e21b0cf9c52c3d6deea2a4eafa408170b39a070195dbf66617f373"
+>>>>>>> e10ad419e3aa2036a2fdaaca45c89d6f3cc69f7d
 metafile = true
 
 [[files]]
@@ -839,7 +863,7 @@ metafile = true
 
 [[files]]
 file = "mods/default-options.pw.toml"
-hash = "bace9ac545c5db24d350a955565157500cdcedc8db6a8e78ff6118d97748eb2a"
+hash = "1cb1ed842db59e479dc2b21cf8afb8eeb9ff4577d292e6b51ed8df98e24411d5"
 metafile = true
 
 [[files]]
@@ -859,7 +883,11 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
+<<<<<<< HEAD
 hash = "465a08b94fd481587895e2f23725ed7d62a88a8df9274a15dd647c648e21b63e"
+=======
+hash = "f8d0d0bb35598ebff78d864cdf8e3bc9eba90b979423b24d1f7d6bfd8767dcf8"
+>>>>>>> e10ad419e3aa2036a2fdaaca45c89d6f3cc69f7d
 metafile = true
 
 [[files]]
@@ -874,7 +902,11 @@ metafile = true
 
 [[files]]
 file = "mods/fastsuite.pw.toml"
+<<<<<<< HEAD
 hash = "a828c60907bd972cb75263bce3bd6bacfb31b98ccb3d5556ad10c7be81258e5d"
+=======
+hash = "f66951f1aede8b984643c636b2f3177354395254f9e60a9728dbcbcf1d94668d"
+>>>>>>> e10ad419e3aa2036a2fdaaca45c89d6f3cc69f7d
 metafile = true
 
 [[files]]
@@ -889,7 +921,11 @@ metafile = true
 
 [[files]]
 file = "mods/fps-reducer.pw.toml"
+<<<<<<< HEAD
 hash = "d3034d45f3e7b6020053a693f52f083e138d0dc7eafcc48dfcafa0207cb336fb"
+=======
+hash = "74343f6931d66da29809e437bfb83d19adcf2bf5c81861071fad6f049c70ed1e"
+>>>>>>> e10ad419e3aa2036a2fdaaca45c89d6f3cc69f7d
 metafile = true
 
 [[files]]
@@ -904,7 +940,11 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
+<<<<<<< HEAD
 hash = "e4a60dc6d46d1070e33b8972e2c000a200928d3a401af21df57649f39e207bf5"
+=======
+hash = "284814af680b018f2a4e83dcd3dedb77717177530df21de58e191d36e3e35a37"
+>>>>>>> e10ad419e3aa2036a2fdaaca45c89d6f3cc69f7d
 metafile = true
 
 [[files]]
@@ -914,7 +954,11 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
+<<<<<<< HEAD
 hash = "eb351918762f5c8f05672257082d1ca144c3c9397c40d6785116d1af8b02d864"
+=======
+hash = "6e12f6c7549e2a4029c61d6849b187d6ec26c286ac216ad2db64178c0f495615"
+>>>>>>> e10ad419e3aa2036a2fdaaca45c89d6f3cc69f7d
 metafile = true
 
 [[files]]
@@ -939,7 +983,11 @@ metafile = true
 
 [[files]]
 file = "mods/gregtechceu-modern.pw.toml"
+<<<<<<< HEAD
 hash = "a37e11b1b1a3aed1dacb97fabf0f41c4d35951dd5a2a16bfebc14e1d4dc5fbe7"
+=======
+hash = "e3957f413084d08b6305ace10f8a2cfdb248864ec70c1699f1d8d49e7c9390ad"
+>>>>>>> e10ad419e3aa2036a2fdaaca45c89d6f3cc69f7d
 metafile = true
 
 [[files]]
@@ -959,7 +1007,11 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-profiles-next.pw.toml"
+<<<<<<< HEAD
 hash = "123efff2aa30cc96a3d41d475252f3c5530a5e673d896992545c02d32132b379"
+=======
+hash = "8a09da6c666d3dc05edd2949937a7362bbeca76b4e330cadebe180d03208e90d"
+>>>>>>> e10ad419e3aa2036a2fdaaca45c89d6f3cc69f7d
 metafile = true
 
 [[files]]
@@ -1009,7 +1061,7 @@ metafile = true
 
 [[files]]
 file = "mods/model-gap-fix.pw.toml"
-hash = "0bb674b857580f12bd2c422af10506d98948b65838992fa7fc53c2e597cdbc56"
+hash = "cd3140db1982e4e1b17c60b71e436fc92c22b1a6ce189e6b8197d1275487679c"
 metafile = true
 
 [[files]]
@@ -1019,12 +1071,16 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
+<<<<<<< HEAD
 hash = "59c83aff76fec2f34cf0ddd59dc926b6c6a3baaed67764b9511bc77b52427156"
+=======
+hash = "38365cfabe4f5af0a270c208ba4de1b332b9e3740251ccae7f33023d9aeaf3db"
+>>>>>>> e10ad419e3aa2036a2fdaaca45c89d6f3cc69f7d
 metafile = true
 
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
-hash = "c17b9de2050b52f12368cea16836e8c6ac43be9683b2fc4755a9b3d4a60fa67b"
+hash = "e72f73611904e14d915418f0e3c6cb483cdc600e211375c2eceb393fec5b80f1"
 metafile = true
 
 [[files]]
@@ -1049,12 +1105,20 @@ metafile = true
 
 [[files]]
 file = "mods/polymorph.pw.toml"
+<<<<<<< HEAD
 hash = "2a0cb33fb2c23f157e0295ae75f48c7531441e451187cc9fedf5054d728be929"
+=======
+hash = "dd105e501832dcd4e443015af266973c58586553331512a6c171d865dd36c3bc"
+>>>>>>> e10ad419e3aa2036a2fdaaca45c89d6f3cc69f7d
 metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
+<<<<<<< HEAD
 hash = "be00342cb8a221251aabbd291da2b6be9fc327b750b9e5818313a9da39349180"
+=======
+hash = "d99946cb99e0d71fc13f2ff0e87108618b1f42486ff0ab3c3b99fa40c66efc9a"
+>>>>>>> e10ad419e3aa2036a2fdaaca45c89d6f3cc69f7d
 metafile = true
 
 [[files]]
@@ -1064,7 +1128,7 @@ metafile = true
 
 [[files]]
 file = "mods/searchables.pw.toml"
-hash = "a84f8e46ba2d693bfbdec682ca66213e2e0783395c9af34f8b22d460d3952a4c"
+hash = "2cb8dd9a3944a6430b49916a4fe1b6cf0bd7efd907054f8e679a02717149404f"
 metafile = true
 
 [[files]]
@@ -1074,12 +1138,20 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
+<<<<<<< HEAD
 hash = "ce5b7461610475ccbce6b9fd16c1aac18e272539947492d47047f7076327ddfa"
+=======
+hash = "1abd27aa185c9b2719bf95c12b10413dd5076f4a8cb5640e414982f7bd739053"
+>>>>>>> e10ad419e3aa2036a2fdaaca45c89d6f3cc69f7d
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
+<<<<<<< HEAD
 hash = "063066e5eca7aef779eeafe7913c5225aec610b40d42902f0baf36c2f5ccc2e3"
+=======
+hash = "b3b3e57782d4b17c41bd2e5c3da7cc11cb836b8c42f96e0042dbe0074448620d"
+>>>>>>> e10ad419e3aa2036a2fdaaca45c89d6f3cc69f7d
 metafile = true
 
 [[files]]
@@ -1089,7 +1161,11 @@ metafile = true
 
 [[files]]
 file = "mods/toast-control.pw.toml"
+<<<<<<< HEAD
 hash = "34ae3ed4e00f9a9d8483b9cb1cb48ea45b43d60e2aaf2f03dc01d85f9b954f93"
+=======
+hash = "1195cdfa90ac4ef4d5ebed8dbca1df990cf58b0a0fe3b9b965ccefa0cfd5a2e3"
+>>>>>>> e10ad419e3aa2036a2fdaaca45c89d6f3cc69f7d
 metafile = true
 
 [[files]]
@@ -1119,7 +1195,11 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
+<<<<<<< HEAD
 hash = "8d43bc249fa19f6f8952d530c990377669e00559063a96da67a456d5f3d4f79e"
+=======
+hash = "54ad33cf1eb06e8bd5179706f90eedbda07eb60216f1bd40017c205caa2fbf4e"
+>>>>>>> e10ad419e3aa2036a2fdaaca45c89d6f3cc69f7d
 metafile = true
 
 [[files]]
@@ -1129,5 +1209,9 @@ metafile = true
 
 [[files]]
 file = "mods/yeetusexperimentus.pw.toml"
+<<<<<<< HEAD
 hash = "7aca72d7440da7045b3bff8f754027deab9924a9bb52d768977b2862f2b619e4"
+=======
+hash = "7dbe376c64d52ddc3e52ca6ce6b07d8c5d76bf9ef68d58267bb9e9c6d8fb2c09"
+>>>>>>> e10ad419e3aa2036a2fdaaca45c89d6f3cc69f7d
 metafile = true
