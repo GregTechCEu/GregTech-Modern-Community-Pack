@@ -714,7 +714,7 @@ hash = "509f876d9767bf536a5452021bef3dff8cf1d10345f2b4aba8d2df529763edbe"
 
 [[files]]
 file = "kubejs/startup_scripts/machinery/construction_core.js"
-hash = "c57bf1697e5344efccc7e357620d4363af7db14d43738973f104c9ec804b0d94"
+hash = "32a31279890e59872a8d4f8d6991d8852c94729aba7374edaeb62842ea1e622b"
 
 [[files]]
 file = "kubejs/startup_scripts/machinery/greenhouse.js"
@@ -1265,6 +1265,11 @@ metafile = true
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
 hash = "5dd87764b5c75976d171c15bb044c133164e6221573391a1118009e0f8bf649d"
+metafile = true
+
+[[files]]
+file = "mods/extreme-sound-muffler.pw.toml"
+hash = "f516cd414020a90cc732d3fb9b69d375c8f21b8e0acb95fb620420ab3dc7287d"
 metafile = true
 
 [[files]]
