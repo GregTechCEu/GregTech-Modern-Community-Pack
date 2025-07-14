@@ -23,7 +23,6 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     )
     .workableCasingRenderer(
       "gtceu:block/casings/voltage/lv/side",
-      "gtceu:block/multiblock/implosion_compressor",
-      true
+      "gtceu:block/multiblock/implosion_compressor"
     );
 });

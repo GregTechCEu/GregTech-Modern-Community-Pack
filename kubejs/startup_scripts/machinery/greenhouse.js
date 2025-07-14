@@ -25,9 +25,8 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
         .where("0", Predicates.any())
         .build()
     )
-    .workableCasingRenderer(
+    .workableCasingModel(
       "gtceu:block/casings/voltage/ulv/side",
-      "gtceu:block/multiblock/implosion_compressor",
-      true
+      "gtceu:block/multiblock/implosion_compressor"
     );
 });
