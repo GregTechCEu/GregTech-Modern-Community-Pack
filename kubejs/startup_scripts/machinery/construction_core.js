@@ -4,7 +4,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("construction_core")
     .appearanceBlock(GTBlocks.MACHINE_CASING_ULV)
-    .recipeModifier(GTRecipeModifiers.OC_NON_PERFECT)
+    .recipeModifiers([GTRecipeModifiers.OC_NON_PERFECT, GTRecipeModifiers.BATCH_MODE])
     .pattern((definition) =>
       FactoryBlockPattern.start()
         .aisle("BBB", "GGG", "BBB")
