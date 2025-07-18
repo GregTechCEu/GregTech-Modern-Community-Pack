@@ -374,7 +374,7 @@
 			description: [
 				"You could make any other &7LV&r Machine, but it would be easiest to start with the most useful one. We know, we know... you wanna make some of the crazier stuff first, but trust us, this is the best starting point."
 				""
-				"The Wiremill lets you make &6two Wires from one Ingot&r. That should be three times cheaper than what you were doing up until now! &8&oPlus, aren't you sick of crafting Wire Cutters?&r&r"
+				"The Wiremill lets you make &6two Wires from one Ingot&r. That should be three times cheaper than what you were doing up until now! &8&oPlus, aren't you sick of crafting Wire Cutters?&r"
 				""
 				"To the right of this Quest, you'll find some important machines which will grant you cheaper intermediates."
 				"{@pagebreak}"
@@ -484,7 +484,9 @@
 			description: [
 				"&dSneak right-click&r when in hand to activate your Magnet. Do it again to deactivate. The battery capacity of your magnet depends on the battery used to craft it."
 				""
-				"Note that the magnet has a whitelist filter turned on by default (in other words, it's not going to pick anything up.) Right-click the magnet to tinker with the item filter settings. There's even a &ctag filter&r - you could, for example, whitelist only &braw ores&r!"
+				"If you're worried about getting overwhelmed by Cobblestone or Netherrack, use the trash can from FTB Utilities (top left corner of your inventory) to void them"
+				""
+				"&9Note:&r The magnet has a whitelist filter turned on by default (in other words, it's not going to pick anything up.) Right-click the magnet to tinker with the item filter settings. There's even a &ctag filter&r - you could, for example, whitelist only &braw ores&r!"
 			]
 			id: "3ECD9C9B909CCCCC"
 			shape: "rsquare"
