@@ -4,7 +4,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("greenhouse")
     .appearanceBlock(GTBlocks.MACHINE_CASING_ULV)
-    .recipeModifier(GTRecipeModifiers.OC_NON_PERFECT)
+    .recipeModifiers([GTRecipeModifiers.OC_NON_PERFECT, GTRecipeModifiers.BATCH_MODE])
     .pattern((definition) =>
       FactoryBlockPattern.start()
         .aisle("0BBB0", "0BBB0", "0BBB0", "0BBB0")
@@ -25,9 +25,8 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
         .where("0", Predicates.any())
         .build()
     )
-    .workableCasingRenderer(
+    .workableCasingModel(
       "gtceu:block/casings/voltage/ulv/side",
-      "gtceu:block/multiblock/implosion_compressor",
-      true
+      "gtceu:block/multiblock/implosion_compressor"
     );
 });
