@@ -229,7 +229,7 @@
 				""
 				"What you &omay&r also do is upgrade to four &3PBFs&r. It just depends on how much time you want to dedicate to resource collection, but more PBFs are always nice. We won't force you to make them, don't worry."
 				""
-				"&9Note:&r The &3PBF&r cannot be (reasonably) automated, but putting blocks of Iron and Charcoal will guarantee it will run for a long time without needing to be babysat."
+				"&9Note:&r The &3PBF&r cannot be (reasonably) automated, but putting blocks of Iron and Coke or Charcoal will guarantee it will run for a long time without needing to be babysat."
 				"{@pagebreak}"
 				"&l&3Lore:&r&o  In GregTech 5, one single Ingot of Steel would take you &d360 seconds&f in the PBF when using Coal or Charcoal! That's over &e6 hours&f for a whole stack! Of course, with 4 PBFs, that would cut it down to &3around 1.5 hours&f."
 				""
@@ -1575,7 +1575,7 @@
 			description: [
 				"The &3Charcoal Pile Igniter&r is a particularly unique multiblock. You can use it to produce &aCharcoal&r faster than &3Coke Ovens&r, but this comes with the trade-off of &amanual labor&r."
 				"{@pagebreak}"
-				"To operate the Igniter, dig a big pit into the ground - up to &e9x9x5&r blocks in size. Line the floor of the pit with vanilla &aBrick blocks&r, then fill the remaining space entirely with &aLogs&r. After that, &esurround the filled pit&r with Grass, Dirt, or other natural grouncover. In the layer with the roof, place the Igniter! To start it, light it with &aFlint and Steel&r."
+				"To operate the Igniter, dig a big pit into the ground - up to &e9x9x5&r blocks in size. Line the floor of the pit with vanilla &aBrick blocks&r, then fill the remaining space entirely with &aLogs&r. After that, &esurround the filled pit&r with Grass, Dirt, or other natural groundcover. In the layer with the roof, place the Igniter! To start it, light it with &aFlint and Steel&r."
 				""
 				"Once the process completes, open up the pit for your reward - &aBrittle Charcoal&r. This can be mined with a Shovel (or Spade!), and each block drops 1.4 Charcoal on average. Assuming 1 Log converts into 1 Brittle Charcoal, we're sure you can see the efficiency boost!"
 				"{@pagebreak}"
