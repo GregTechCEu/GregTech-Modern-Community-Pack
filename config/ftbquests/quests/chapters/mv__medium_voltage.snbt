@@ -21,24 +21,24 @@
 				"7567E885B7166603"
 			]
 			description: [
-				"The &3Pyrolyse Oven&r is an electric equivalent to the &3Coke Oven&r. It can produce &9Coal Coke&r and &9Charcoal&r with a &9Creosote&r byproduct just as before, but also has additional &6Organic Byproducts&r, the most beneficial of these being &aWood Tar&r."
+				"{gregtech_modern.mv__medium_voltage.quests0.description0}"
 				""
-				"Another product is &aBiomass&r, which is more pertinent for your progression as of this moment."
+				"{gregtech_modern.mv__medium_voltage.quests0.description1}"
 				"{@pagebreak}"
-				"The byproducts can be Distilled for an array of organic resources, with &odifferent&r byproducts giving &odifferent&r ratios of &odifferent&r chemicals."
+				"{gregtech_modern.mv__medium_voltage.quests0.description2}"
 				""
-				"You will need to take a peek at the &9Distillation&r Quest to get to grips with the power of distillation..."
+				"{gregtech_modern.mv__medium_voltage.quests0.description3}"
 				"{@pagebreak}"
-				"There are recipes that can accept &bNitrogen&r to double the speed. This isn't quite worth pursuing right now, but Nitrogen will eventually be free and infinite."
+				"{gregtech_modern.mv__medium_voltage.quests0.description4}"
 				""
-				"You should be more than fine with a single &3LV Energy Hatch&r, and Superconductors to supply a steady &d64 EU/t&r. Additionally, &3Cupronickel Coils&r are perfect when you're getting used to the Pyrolyse Oven, but you may want to upgrade to &bKanthal&r eventually."
+				"{gregtech_modern.mv__medium_voltage.quests0.description5}"
 				""
 				"{@pagebreak}"
-				"&9&lNote:&r&l The Plant path is one path you can take towards &9&lEthylene&r&l, which is a necessary chemical in progressing to &6HV&r&l. The other path involves Oil.&r"
+				"{gregtech_modern.mv__medium_voltage.quests0.description6}"
 				""
-				"The Pyrolyse Oven remains &doptional&r. However, it is very rewarding to construct one either for Power, or for the various Byproducts, and we highly recommend you give it a look."
+				"{gregtech_modern.mv__medium_voltage.quests0.description7}"
 				""
-				"&l&3Lore:&r&o In GT5u, the structure for the Pyrolyse Oven was infamously a giant box with only 9 coils inside. Players usually spent several minutes debugging what is wrong due to a lack of a EMI preview."
+				"{gregtech_modern.mv__medium_voltage.quests0.description8}"
 			]
 			icon: "gtceu:pyrolyse_oven"
 			id: "53DC6E32C41C94C3"
@@ -59,13 +59,13 @@
 			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Thermal Decomposition"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests0.subtitle}"
 			tasks: [{
 				id: "0FD2962C232149F8"
 				item: "gtceu:pyrolyse_oven"
 				type: "item"
 			}]
-			title: "Pyrolyse Oven"
+			title: "{gregtech_modern.mv__medium_voltage.quests0.title}"
 			x: 0.0d
 			y: -0.75d
 		}
@@ -75,15 +75,15 @@
 				"1A29EFBCEA017F99"
 			]
 			description: [
-				"Welcome to the &2natural&r Ethylene route! This method uses &9plant matter&r to produce Ethanol."
+				"{gregtech_modern.mv__medium_voltage.quests1.description0}"
 				""
-				"Before we get ahead of ourselves, &aSugar Cane&r works fine in a &3Brewery&r for a decent yield of Biomass."
+				"{gregtech_modern.mv__medium_voltage.quests1.description1}"
 				""
-				"Othe&rrwise, you could try the \"&o&dPlantball into Bio Chaff&r\" route, and then turn it into Biomass, either in the &3Brewery&r or the &3Pyrolyse Oven&r - the latter being more efficient."
+				"{gregtech_modern.mv__medium_voltage.quests1.description2}"
 				""
-				"&9Note:&r Only one Bio Chaff can be obtained from maceration until you make the &3HV Macerator&r."
+				"{gregtech_modern.mv__medium_voltage.quests1.description3}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o You may recognise Plantballs from IndustrialCraft2! In IC2 Experimental, there was this rather... obscure way to turn Biomass into Biogas for power, which sadly required too much investment to be really worth it."
+				"{gregtech_modern.mv__medium_voltage.quests1.description4}"
 			]
 			icon: "gtceu:plant_ball"
 			id: "6EB68C28BEE24DEF"
@@ -94,26 +94,26 @@
 				type: "item"
 			}]
 			size: 0.66d
-			subtitle: "Plants aren't industrial enough!"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests1.subtitle}"
 			tasks: [{
 				id: "4FBD476EB6B6DD04"
 				item: "gtceu:biomass_bucket"
 				type: "item"
 			}]
-			title: "Biomass"
+			title: "{gregtech_modern.mv__medium_voltage.quests1.title}"
 			x: 0.0d
 			y: -1.875d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"The Brewery can be used to make &aLubricant&r from &aRedstone&r and &aCreosote&r/&aOil&r. Lubricant has some niche uses, namely being used in the &3Cutter&r to significantly reduce the duration of its recipes."
+				"{gregtech_modern.mv__medium_voltage.quests2.description0}"
 				""
-				"The Brewery is a very, very slow machine, but it requires almost no power to run its recipes. Building &2many Breweries&r will help you obtain enough Biomass on your quest for plastic. Oh, and you can use it to brew &dPotions&r too!"
+				"{gregtech_modern.mv__medium_voltage.quests2.description1}"
 				""
-				"&9Note:&r The Brewery \"unlocks\" the Biomass path towards &9Ethylene&r. The same can be done in the &3Pyrolyse Oven&r. The other path involves Oil.&r"
+				"{gregtech_modern.mv__medium_voltage.quests2.description2}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o You could make your own Brewery if you want to build up a company and start selling Booze... in GregTech 6.&r"
+				"{gregtech_modern.mv__medium_voltage.quests2.description3}"
 			]
 			icon: "gtceu:mv_brewery"
 			id: "1A29EFBCEA017F99"
@@ -124,7 +124,7 @@
 				type: "item"
 			}]
 			size: 0.66d
-			subtitle: "*hic*... *hic*"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests2.subtitle}"
 			tasks: [
 				{
 					id: "095C98D86D021B2E"
@@ -138,7 +138,7 @@
 					type: "item"
 				}
 			]
-			title: "Local Brewery selling Booze"
+			title: "{gregtech_modern.mv__medium_voltage.quests2.title}"
 			x: 1.125d
 			y: -1.875d
 		}
@@ -149,24 +149,24 @@
 				"316FF60D6FFE97CE"
 			]
 			description: [
-				"Our warmest congratulations on making it here."
+				"{gregtech_modern.mv__medium_voltage.quests3.description0}"
 				""
-				"The way you should obtain &aEthylene&r was described in the previous Quest, depending on the route you chose."
+				"{gregtech_modern.mv__medium_voltage.quests3.description1}"
 				""
-				"&aEthylene&r will shortly be used in polymer production. It's also useful in a few other reactions."
+				"{gregtech_modern.mv__medium_voltage.quests3.description2}"
 			]
 			icon: "gtceu:ethylene_bucket"
 			id: "6BB98D128822730E"
 			min_required_dependencies: 1
 			shape: "square"
 			size: 0.75d
-			subtitle: "One of many hydrocarbons"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests3.subtitle}"
 			tasks: [{
 				id: "29191DABA0ACE155"
 				item: "gtceu:ethylene_bucket"
 				type: "item"
 			}]
-			title: "Ethylene"
+			title: "{gregtech_modern.mv__medium_voltage.quests3.title}"
 			x: 1.125d
 			y: -3.0d
 		}
@@ -176,41 +176,41 @@
 				"6A304E453D74C57C"
 			]
 			description: [
-				"Put your previously made &aBiomass&r into a &3MV Distillery&r to make &aEthanol&r."
+				"{gregtech_modern.mv__medium_voltage.quests4.description0}"
 				""
-				"You will need this for &dEthylene&r by reacting it with &aSulfuric Acid&r in a &3MV Chemical Reactor&r... unless you chose to go down the Oil path."
+				"{gregtech_modern.mv__medium_voltage.quests4.description1}"
 				""
-				"Once you have a hefty starting stock of Ethanol, consider making and distilling &9Fermented Biomass&r in a &3Distillation Tower&r (when you get there!) for extra chemicals."
+				"{gregtech_modern.mv__medium_voltage.quests4.description2}"
 				""
-				"&cDo not try&r to use Ethanol as a Power source... it's quite possibly its worst use. If it's organic &9Power&r that you want, we suggest taking a look at &dBenzene&r instead!"
+				"{gregtech_modern.mv__medium_voltage.quests4.description3}"
 			]
 			id: "5D9D01EF219A31C5"
 			size: 0.66d
-			subtitle: "Yo, wait - that's alcohol!"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests4.subtitle}"
 			tasks: [{
 				id: "6D7350EA7AB6CF25"
 				item: "gtceu:ethanol_bucket"
 				type: "item"
 			}]
-			title: "Ethanol"
+			title: "{gregtech_modern.mv__medium_voltage.quests4.title}"
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["6A304E453D74C57C"]
 			description: [
-				"Distillating &aOil&r will give you Fuel that you will need to desulfurize."
+				"{gregtech_modern.mv__medium_voltage.quests5.description0}"
 				""
-				"&aHydrogen Sulfide&r is perfectly &drecycled&r in an &3Electrolyzer&r."
+				"{gregtech_modern.mv__medium_voltage.quests5.description1}"
 				""
-				"To automate this process, simply place your &3Chemical Reactor&r and your &3Electrolyzer&r next to each other. Be sure to use your &5Screwdriver&r to &4enable input from the output side&r."
+				"{gregtech_modern.mv__medium_voltage.quests5.description2}"
 				""
-				"&aNaphtha&r is a good &9Product&r source. Keep following the quests to the right for more details."
+				"{gregtech_modern.mv__medium_voltage.quests5.description3}"
 			]
 			icon: "gtceu:naphtha_bucket"
 			id: "6238B2A7ED1BE5A1"
 			size: 0.66d
-			subtitle: "We're still confused on how this is pronounced"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests5.subtitle}"
 			tasks: [
 				{
 					id: "01BF2D557A9EF2B0"
@@ -224,33 +224,33 @@
 					type: "item"
 				}
 			]
-			title: "Naphtha"
+			title: "{gregtech_modern.mv__medium_voltage.quests5.title}"
 			x: -1.125d
 			y: -4.125d
 		}
 		{
 			dependencies: ["6238B2A7ED1BE5A1"]
 			description: [
-				"Don't panic! We'll mostly be doing this to get hydrocarbons."
+				"{gregtech_modern.mv__medium_voltage.quests6.description0}"
 				""
-				"There are many ways to acquire &dEthylene&r from Oil processing. It's easy to get lost in all the options and recipes!"
+				"{gregtech_modern.mv__medium_voltage.quests6.description1}"
 				""
-				"The best way is to steam-crack &aNaphtha&r in a &3Chemical Reactor&r. Be sure to make the &aSeverely Steam-Cracked&r version for a higher yield of Ethylene."
+				"{gregtech_modern.mv__medium_voltage.quests6.description2}"
 				"{@pagebreak}"
-				"Once in &6HV&r, you'll have the option to do this recipe in the &3Cracking Unit&r at 100% efficiency. Unfortunately, the recipes you are doing with the Chemical Reactor have a loss of &450%&r."
+				"{gregtech_modern.mv__medium_voltage.quests6.description3}"
 				""
-				"&9Note:&r All of this looks and feels terribly inefficient - we hope that's strong motivation to tier up! The &3Distillation Tower&r will be a huge upgrade for petrochem, but you're not quite there... yet. Right now, you'll have to use a &3Distillery&r to get &dEthylene&r."
+				"{gregtech_modern.mv__medium_voltage.quests6.description4}"
 			]
 			icon: "gtceu:severely_steam_cracked_naphtha_bucket"
 			id: "3E2E161F8CE35138"
 			size: 0.66d
-			subtitle: "Fuel and oil cracking can get complicated..."
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests6.subtitle}"
 			tasks: [{
 				id: "5687D81E6BFDC7E0"
 				item: "gtceu:severely_steam_cracked_naphtha_bucket"
 				type: "item"
 			}]
-			title: "Fuel Cracking"
+			title: "{gregtech_modern.mv__medium_voltage.quests6.title}"
 			x: 0.0d
 			y: -4.125d
 		}
@@ -261,21 +261,21 @@
 				"6E186F9C57155BFA"
 			]
 			description: [
-				"Higher-tier Generators will increase their fuel consumption proportionally to their Generation rate, keeping the duration of fuels and the specific amount of energy from fuels the same. The &3Advanced Steam Turbine&r will use &d5,120 mB Steam&r per second, equivalent to &d256 mB/t&r."
+				"{gregtech_modern.mv__medium_voltage.quests7.description0}"
 				""
-				"Get &eany&r of the generators to complete this quest, but you may prefer starting off with the &3Advanced Steam Turbine&r."
+				"{gregtech_modern.mv__medium_voltage.quests7.description1}"
 				"{@pagebreak}"
-				"There are a few new power options available for &bMV&r. Selecting the Generators and pressing &4U&r will let you see which fuels count as &aCombustion&r or &aGas&r."
+				"{gregtech_modern.mv__medium_voltage.quests7.description2}"
 				""
-				"Quests in the top left corner of this Chapter are for the valuable Power options."
+				"{gregtech_modern.mv__medium_voltage.quests7.description3}"
 				""
-				"If you stick to &9Steam&r for your Power generation, you'll probably need a &3Large Boiler&r."
+				"{gregtech_modern.mv__medium_voltage.quests7.description4}"
 			]
 			icon: "gtceu:mv_steam_turbine"
 			id: "583D0CC4FAA4FC98"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Things are 'boutta get rough"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests7.subtitle}"
 			tasks: [{
 				id: "1F170291094582D6"
 				item: {
@@ -298,27 +298,27 @@
 						]
 					}
 				}
-				title: "MV Generators"
+				title: "{gregtech_modern.mv__medium_voltage.quests7.tasks0.title}"
 				type: "item"
 			}]
-			title: "Electricity Generation in MV"
+			title: "{gregtech_modern.mv__medium_voltage.quests7.title}"
 			x: 2.25d
 			y: -1.875d
 		}
 		{
 			dependencies: ["2AD44111B9B39C90"]
 			description: [
-				"Any Steel you encounter in day-to-day life is most likely &7Stainless Steel&r. It is extremely resilient against corrosion.&r"
+				"{gregtech_modern.mv__medium_voltage.quests8.description0}"
 				""
-				"Stainless Steel is the material for &6HV&r components, like Aluminium for &bMV&r and Steel for &7LV&r. It is also used in high quantities for the &3Distillation Tower&r."
+				"{gregtech_modern.mv__medium_voltage.quests8.description1}"
 				""
-				"It requires &cChromium&r, obtained mainly from &cRuby&r, and &2Manganese&r, obtained from &2Pyrolusite&r and others in its vein."
+				"{gregtech_modern.mv__medium_voltage.quests8.description2}"
 				"{@pagebreak}"
-				"Smelting Stainless Steel requires &dHV Power&r, which you likely do not have at this point. Scaling Power Production is crucial."
+				"{gregtech_modern.mv__medium_voltage.quests8.description3}"
 				""
-				"If you &9haven't already&r, it would be a good idea to get a second EBF going. They can share blocks, so that means your second EBF only requires &a10 Cupronickel Coils&r instead of 16."
+				"{gregtech_modern.mv__medium_voltage.quests8.description4}"
 				""
-				"Have one EBF run off &bMV&r for Aluminium and any other recipes requiring &bMV&r Power, and one running off &6HV&r with &32 MV Energy Hatches&r."
+				"{gregtech_modern.mv__medium_voltage.quests8.description5}"
 			]
 			icon: "gtceu:stainless_steel_ingot"
 			id: "16A6AE5C770DB83A"
@@ -330,13 +330,13 @@
 			}]
 			shape: "gear"
 			size: 1.3d
-			subtitle: "HV is in your grasp"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests8.subtitle}"
 			tasks: [{
 				id: "3192FF80FBDC7A28"
 				item: "gtceu:stainless_steel_ingot"
 				type: "item"
 			}]
-			title: "Stainless Steel"
+			title: "{gregtech_modern.mv__medium_voltage.quests8.title}"
 			x: 3.375d
 			y: 0.375d
 		}
@@ -346,29 +346,29 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"&3Transformers&r allow you to step up and down safely between Voltage tiers. They convert the power they receive into an equivalent amount of power 1 voltage tier above or below the input voltage."
+				"{gregtech_modern.mv__medium_voltage.quests9.description0}"
 				""
-				"Apart from running machines on different voltage tiers, Transformers come in handy for transporting power across longer distances, as cable loss has less of an effect at higher voltages. Just like real life!"
+				"{gregtech_modern.mv__medium_voltage.quests9.description1}"
 				"{@pagebreak}"
-				"Transformers have 5 low voltage sides, and 1 high voltage side."
+				"{gregtech_modern.mv__medium_voltage.quests9.description2}"
 				""
-				"The &9normal&r Transformer can only do 1A <-> 4A conversion, but &9Adjustable&r Transformers can be changed between 1A <-> 4A, 2A <-> 8A, 4A <-> 16A, and 16A <-> 64A conversions. "
+				"{gregtech_modern.mv__medium_voltage.quests9.description3}"
 				""
-				"Use a &aSoft Hammer&r to change between transforming up and down, and a &aScrewdriver&r on Adjustable Transformers to change the amperage."
+				"{gregtech_modern.mv__medium_voltage.quests9.description4}"
 				""
-				"Higher tier Transformers will require &9Coils&r."
+				"{gregtech_modern.mv__medium_voltage.quests9.description5}"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:mv_transformer_1a"
 			id: "6C20A9A64C1BE0BF"
 			size: 0.75d
-			subtitle: "LV In Disguise"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests9.subtitle}"
 			tasks: [{
 				id: "6C36867EB98E772D"
 				item: "gtceu:lv_transformer_1a"
 				type: "item"
 			}]
-			title: "Transformers"
+			title: "{gregtech_modern.mv__medium_voltage.quests9.title}"
 			x: 2.25d
 			y: 1.5d
 		}
@@ -378,39 +378,39 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"If you're wanting to dive into &bMV&r, start here."
+				"{gregtech_modern.mv__medium_voltage.quests10.description0}"
 				""
-				"The dusts created in an &3MV Mixer&r have great utility."
+				"{gregtech_modern.mv__medium_voltage.quests10.description1}"
 			]
 			icon: "gtceu:mv_mixer"
 			id: "4A92AFD2532EED26"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Mixing more complex alloys"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests10.subtitle}"
 			tasks: [{
 				id: "31B514C75B302F25"
 				item: "gtceu:mv_mixer"
 				type: "item"
 			}]
-			title: "Advanced Mixer"
+			title: "{gregtech_modern.mv__medium_voltage.quests10.title}"
 			x: 1.125d
 			y: 1.5d
 		}
 		{
 			dependencies: ["7567E885B7166603"]
 			description: [
-				"Here's a list of the components you will need in &bMV&r. To alleviate the pain, be sure to autocraft or &dbulk-craft&r these parts, especially &aMotors&r."
+				"{gregtech_modern.mv__medium_voltage.quests11.description0}"
 				""
-				"Familiar with the &aEmitter&r? This tier's Emitter requires a &dFlawless Emerald&r in its recipe, which'll be only attainable with the &3Sifting Machine&r for now."
+				"{gregtech_modern.mv__medium_voltage.quests11.description1}"
 				""
-				"Conveyors, Pumps and Robot Arms are objective upgrades to &7LV&r versions if you use them as covers."
+				"{gregtech_modern.mv__medium_voltage.quests11.description2}"
 				""
-				"&6This quest unlocks a new tutorial on Overclocking in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
+				"{gregtech_modern.mv__medium_voltage.quests11.description3}"
 			]
 			icon: "gtceu:mv_electric_motor"
 			id: "1BE0349B8F3890D3"
 			size: 0.66d
-			subtitle: "Hated crafting these in the previous tier?"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests11.subtitle}"
 			tasks: [
 				{
 					id: "76A30E86C0FDF039"
@@ -443,7 +443,7 @@
 					type: "item"
 				}
 			]
-			title: "MV Components"
+			title: "{gregtech_modern.mv__medium_voltage.quests11.title}"
 			x: 0.0d
 			y: 1.5d
 		}
@@ -452,31 +452,31 @@
 				"7567E885B7166603"
 				"0DBC148D92A9F69F"
 			]
-			description: ["The Advanced Electrolyzer allows you to decompose &6far more&r Dusts. This will make getting materials such as &aAluminium&r&o a lot&r easier!"]
+			description: ["{gregtech_modern.mv__medium_voltage.quests12.description0}"]
 			icon: "gtceu:mv_electrolyzer"
 			id: "0EFEE489906256AA"
 			shape: "square"
 			size: 0.75d
-			subtitle: "We made it to MV, and, well..."
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests12.subtitle}"
 			tasks: [{
 				id: "151788F66BAD5F97"
 				item: "gtceu:mv_electrolyzer"
 				type: "item"
 			}]
-			title: "Advanced Electrolyser"
+			title: "{gregtech_modern.mv__medium_voltage.quests12.title}"
 			x: -1.125d
 			y: 1.5d
 		}
 		{
 			dependencies: ["0EFEE489906256AA"]
 			description: [
-				"All four output Dusts obtained from Clay electrolysis are immensely useful."
+				"{gregtech_modern.mv__medium_voltage.quests13.description0}"
 				""
-				"We'll ask you to give us a total of &a416 Clay Dust&r for this quest. You may also want to look into other sources of similar materials, such as &aSodalite&r. Check EMI for some ideas."
+				"{gregtech_modern.mv__medium_voltage.quests13.description1}"
 				""
-				"You should use the Sodium and/or Lithium to make some &6MV Batteries&r."
+				"{gregtech_modern.mv__medium_voltage.quests13.description2}"
 				""
-				"Grr, all this useless &dWater&r you're getting keeps clogging the machine! Maybe you should deal with it by using a &3Voiding Cover&r."
+				"{gregtech_modern.mv__medium_voltage.quests13.description3}"
 			]
 			icon: "minecraft:clay_ball"
 			id: "2273DD7E5CD49017"
@@ -487,7 +487,7 @@
 				type: "item"
 			}]
 			size: 0.66d
-			subtitle: "Clay is an extremely &mbalanced&r useful material for electrolysis"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests13.subtitle}"
 			tasks: [
 				{
 					count: 64L
@@ -514,28 +514,28 @@
 					type: "item"
 				}
 			]
-			title: "A Balanced Quest"
+			title: "{gregtech_modern.mv__medium_voltage.quests13.title}"
 			x: -2.25d
 			y: 1.5d
 		}
 		{
 			dependencies: ["0DBC148D92A9F69F"]
 			description: [
-				"This kind soul&r will mine ores for you when placed above a vein."
+				"{gregtech_modern.mv__medium_voltage.quests14.description0}"
 				""
-				"Vertical range is unlimited below the miner. Horizontal range is displayed in the tooltip."
+				"{gregtech_modern.mv__medium_voltage.quests14.description1}"
 				""
-				"The &bMV&r variant may not have the range to mine a full vein, but the &6HV&r variant does, so you may wish hold off for now. Get &eeither&r to complete this Quest."
+				"{gregtech_modern.mv__medium_voltage.quests14.description2}"
 				"{@pagebreak}"
-				"You will need &9Power&r. &aCharged Batteries&r may work, but they tend to run out of power, which is a bit inconvenient."
+				"{gregtech_modern.mv__medium_voltage.quests14.description3}"
 				""
-				"Our top suggestion is to use a filled &3Drum&r of some kind of fuel &7(if you're using Steam, no dice!)&r and a &3Generator&r. "
+				"{gregtech_modern.mv__medium_voltage.quests14.description4}"
 				""
-				"Place the Drum above your Generator and right-click it with a &5Screwdriver&r to auto-output into the Generator."
+				"{gregtech_modern.mv__medium_voltage.quests14.description5}"
 				"{@pagebreak}"
-				"&cNote:&r Do not forget to &dchunkload&r all 9 chunks of the ore vein with FTB Utilities &7(open the map in the top left corner, claim the chunks with left-click, and enable force loading with shift-left-click)&r."
+				"{gregtech_modern.mv__medium_voltage.quests14.description6}"
 				""
-				"&9Tip:&r You can either use an &3ME Chest&r or a &32x2 Drawer&r as the output inventory to make transporting the ores back home a simple task. The &3ME Chest&r can be powered with EU directly."
+				"{gregtech_modern.mv__medium_voltage.quests14.description7}"
 			]
 			icon: "gtceu:mv_miner"
 			id: "5C94CF50090D7DA0"
@@ -574,21 +574,21 @@
 						]
 					}
 				}
-				title: "Any of the listed Miners"
+				title: "{gregtech_modern.mv__medium_voltage.quests14.tasks0.title}"
 				type: "item"
 			}]
-			title: "Digital Miner"
+			title: "{gregtech_modern.mv__medium_voltage.quests14.title}"
 			x: -3.375d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4A92AFD2532EED26"]
 			description: [
-				"Vanadiumsteel is required in small quantities in progression. It's &6nearly four times as durable&r as Steel if used in GregTech tools. The Vanadium comes from &aVanadium Magnetite&r, which you may have encountered in Magnetite veins."
+				"{gregtech_modern.mv__medium_voltage.quests15.description0}"
 				""
-				"Other Steel alloys include Blue Steel, Red Steel, and Black Steel!"
+				"{gregtech_modern.mv__medium_voltage.quests15.description1}"
 				""
-				"Take some Blue Steel free of charge - it's twice as durable as Steel."
+				"{gregtech_modern.mv__medium_voltage.quests15.description2}"
 			]
 			icon: "gtceu:vanadium_steel_ingot"
 			id: "682C26579EDDCA76"
@@ -600,14 +600,14 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Steel Your Heart"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests15.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "2E6C71CB2E5EEAC7"
 				item: "gtceu:vanadium_steel_ingot"
 				type: "item"
 			}]
-			title: "Steel Alloys"
+			title: "{gregtech_modern.mv__medium_voltage.quests15.title}"
 			x: 1.125d
 			y: 2.625d
 		}
@@ -617,40 +617,40 @@
 				"16A6AE5C770DB83A"
 			]
 			description: [
-				"&3Molecular Assemblers&r can be used to automate Crafting Table recipes, which means you can automate just about anything now."
+				"{gregtech_modern.mv__medium_voltage.quests16.description0}"
 				""
-				"To maximise the number of recipes a single Molecular Assembler can do, make a 3D matrix of Molecular Assemblers and ME Interfaces - where each component is surrounded on 6 sides by the other."
+				"{gregtech_modern.mv__medium_voltage.quests16.description1}"
 				""
-				"Using higher-tier materials in crafting will yield more Molecular Assemblers."
+				"{gregtech_modern.mv__medium_voltage.quests16.description2}"
 				"{@pagebreak}"
-				"&cWarning:&r Try to avoid using GT tools in AE2 autocrafting! It causes AE2 to freak out... you may or may not destroy the TPS, or even worse, end up having thousands of tools being crafted as soon as one of them breaks."
+				"{gregtech_modern.mv__medium_voltage.quests16.description3}"
 				""
-				"If you're stubborn enough to &oreally&r want to use GT tools in AE2 autocrafting, prioritise encoding recipes that use tools with high durability, but &4do not&r setup autocrafting for the tools themselves. Instead, use the alternate &3Assembling Machine&r recipes."
+				"{gregtech_modern.mv__medium_voltage.quests16.description4}"
 			]
 			icon: "ae2:molecular_assembler"
 			id: "0A1165C6D1F62C2B"
 			size: 0.66d
-			subtitle: "Autocrafting at last!"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests16.subtitle}"
 			tasks: [{
 				id: "37ED5227CCC0FE20"
 				item: "ae2:molecular_assembler"
 				type: "item"
 			}]
-			title: "Autocrafting"
+			title: "{gregtech_modern.mv__medium_voltage.quests16.title}"
 			x: 3.375d
 			y: 1.5d
 		}
 		{
 			dependencies: ["315169840E06110F"]
 			description: [
-				"Making &aAE2 Presses&r will unlock all the &9Processors&r from AE2. This opens up &9ME Drives&r, &9ME Interfaces,&r &9ME Crafting CPUs&r... that's almost the rest of AE2 at your fingertips! &7(Or at least... not until you obtain Silicon Ingots.)&r"
+				"{gregtech_modern.mv__medium_voltage.quests17.description0}"
 				""
-				"AE2 &9Printed Circuits&r are now made in the &3Forming Press&r."
+				"{gregtech_modern.mv__medium_voltage.quests17.description1}"
 			]
 			icon: "ae2:silicon_press"
 			id: "5401AB5E399E7BEA"
 			size: 0.66d
-			subtitle: "Who likes meteor hunting, anyway?"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests17.subtitle}"
 			tasks: [
 				{
 					id: "1141B6EFBC930999"
@@ -673,18 +673,18 @@
 					type: "item"
 				}
 			]
-			title: "Pressing Matters"
+			title: "{gregtech_modern.mv__medium_voltage.quests17.title}"
 			x: 3.375d
 			y: 2.64d
 		}
 		{
 			dependencies: ["682C26579EDDCA76"]
 			description: [
-				"The &3MV Cutter&r is required to cut &7Silicon Boules&r to prepare them for &aLaser Engraving&r."
+				"{gregtech_modern.mv__medium_voltage.quests18.description0}"
 				""
-				"We recommend you supply this machine with a steady stream of &dLubricant&r to cut down on the processing time."
+				"{gregtech_modern.mv__medium_voltage.quests18.description1}"
 				""
-				"Lubricant can be &3brewed&r from &eOil&r and &aTalc&r, &2Soapstone&r or &cRedstone&r."
+				"{gregtech_modern.mv__medium_voltage.quests18.description2}"
 			]
 			icon: "gtceu:mv_cutter"
 			id: "5CBBBFD1FBBE95CE"
@@ -704,13 +704,13 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Upgrades, people, upgrades!"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests18.subtitle}"
 			tasks: [{
 				id: "2AFB7F9BD4D82974"
 				item: "gtceu:mv_cutter"
 				type: "item"
 			}]
-			title: "Advanced Cutter"
+			title: "{gregtech_modern.mv__medium_voltage.quests18.title}"
 			x: 2.25d
 			y: 2.625d
 		}
@@ -720,9 +720,9 @@
 				"71412502C81F21C1"
 			]
 			description: [
-				"The &3Laser Engraver&r engraves patterns into &9Silicon Wafers&r based on the type of &9Lens&r it is given. After the wafers are engraved, they must be passed through a &3Cutting Machine&r to turn them into components ready to be put into Circuits."
+				"{gregtech_modern.mv__medium_voltage.quests19.description0}"
 				""
-				"Higher tier Engravers can etch more complex wafers for more efficient Circuits."
+				"{gregtech_modern.mv__medium_voltage.quests19.description1}"
 			]
 			icon: "gtceu:mv_laser_engraver"
 			id: "315169840E06110F"
@@ -733,7 +733,7 @@
 				item: "gtceu:mv_laser_engraver"
 				type: "item"
 			}]
-			title: "Laser Engraving"
+			title: "{gregtech_modern.mv__medium_voltage.quests19.title}"
 			x: 4.5d
 			y: 2.625d
 		}
@@ -743,9 +743,9 @@
 				"16A1EF8B80A96633"
 			]
 			description: [
-				"A &7LV&r Battery Buffer and two &7LV&r Energy Hatches likely won't cut it anymore. Let's remedy that!"
+				"{gregtech_modern.mv__medium_voltage.quests20.description0}"
 				""
-				"Upgrade your Electric Blast Furnace with a &3MV Energy Hatch&r. Now, you can run it with &bMV&r Generators without having to mess around with &3Transformers&r."
+				"{gregtech_modern.mv__medium_voltage.quests20.description1}"
 			]
 			icon: "gtceu:mv_energy_input_hatch"
 			id: "2AD44111B9B39C90"
@@ -757,13 +757,13 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "LV is so old-school!"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests20.subtitle}"
 			tasks: [{
 				id: "1C69557EB4F9E50F"
 				item: "gtceu:mv_energy_input_hatch"
 				type: "item"
 			}]
-			title: "Upgrade your EBF!"
+			title: "{gregtech_modern.mv__medium_voltage.quests20.title}"
 			x: 3.375d
 			y: -0.75d
 		}
@@ -773,23 +773,23 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"The &3Assembler&r is a staple for every Tier; an important goal to unlock more recipes and progress further into the Age. Many in the community see crafting a voltage tier's Assembler as a sign of &oproperly&r reaching said voltage."
+				"{gregtech_modern.mv__medium_voltage.quests21.description0}"
 				""
-				"That being said, welcome to &bMV&r!"
+				"{gregtech_modern.mv__medium_voltage.quests21.description1}"
 				""
-				"The &bMV &3Assembler&r unlocks &eTransistors&r, &eCapacitors&r and &eInductors&r, used for the next tiers of Circuits."
+				"{gregtech_modern.mv__medium_voltage.quests21.description2}"
 			]
 			icon: "gtceu:mv_assembler"
 			id: "75F38905DEA60F15"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Assengers, Avemble"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests21.subtitle}"
 			tasks: [{
 				id: "2396FECF2A11AA8E"
 				item: "gtceu:mv_assembler"
 				type: "item"
 			}]
-			title: "Advanced Assembler"
+			title: "{gregtech_modern.mv__medium_voltage.quests21.title}"
 			x: 1.125d
 			y: -0.75d
 		}
@@ -799,21 +799,21 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"GregTech doesn't provide ways to farm plants or trees, so we made a custom multiblock for the modpack!"
+				"{gregtech_modern.mv__medium_voltage.quests22.description0}"
 				""
-				"The multiblock &3Greenhouse&r will be your source of &aWood&r and other plants if you wish."
+				"{gregtech_modern.mv__medium_voltage.quests22.description1}"
 				""
-				"Its &aWood&r production should be enough to run &32 Pyrolyse Ovens&r at their lowest Power."
+				"{gregtech_modern.mv__medium_voltage.quests22.description2}"
 				""
-				"You can also use this for automated &aResin&r. The yields are kept low to incentivize other rubber sources later in the game."
+				"{gregtech_modern.mv__medium_voltage.quests22.description3}"
 				"{@pagebreak}"
-				"&9Note: &rWith &d40 EU/t&r recipes, it needs either 1 &bMV&r energy hatch or 2 &7LV&r energy hatches. Multiblocks will &cnot&r use 2A of one tier to reach the next one for recipe voltage minimums. "
+				"{gregtech_modern.mv__medium_voltage.quests22.description4}"
 				""
-				"In other words, the controller needs to say at least \"&bMV&r\" in the GUI to run recipes which say \"&bMV&r\" in EMI, even if they can draw enough EU/t with a lower tier hatch configuration."
+				"{gregtech_modern.mv__medium_voltage.quests22.description5}"
 				""
-				"&9Note:&r The structure requires a lot of &9Wrought Iron&r. Make sure you have an &3Arc Furnace&r for that."
+				"{gregtech_modern.mv__medium_voltage.quests22.description6}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o We originally implemented a Chemical Reactor recipe for wood in the modpack to solve the tree problem. Our implementation turned out to be completely busted, so we decided that a rebalance was due. Hopefully, the Greenhouse is a happy middle ground."
+				"{gregtech_modern.mv__medium_voltage.quests22.description7}"
 			]
 			icon: "minecraft:oak_sapling"
 			id: "2655B72C9FF3B372"
@@ -825,13 +825,13 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "The power of KubeJS"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests22.subtitle}"
 			tasks: [{
 				id: "35CFA225ADAD5D06"
 				item: "gtceu:greenhouse"
 				type: "item"
 			}]
-			title: "Greenhouse"
+			title: "{gregtech_modern.mv__medium_voltage.quests22.title}"
 			x: 0.0d
 			y: 2.625d
 		}
@@ -842,57 +842,57 @@
 				"66805BB78A828C00"
 			]
 			description: [
-				"&3Kanthal Heating Coils&r are the next major step in progression. They increase the temperature of your &3Blast Furnace&r to &d2,700K&r, allowing you to process new materials. They may also &eaccelerate&r less hot recipes - check the quest to the top-left for details."
+				"{gregtech_modern.mv__medium_voltage.quests23.description0}"
 				""
-				"You will need a staggering &a128 Ingots&r for a full set of Coils, which will easily take over an hour. We advise that you move on to other projects while your &3EBF&r is hard at work - that or build another one!"
+				"{gregtech_modern.mv__medium_voltage.quests23.description1}"
 				"{@pagebreak}"
-				"An &3MV Chemical Bath&r is required to cool &cHot Ingots&r down. They're &chot&r when held, as the name implies. &o&7Maybe you should save your hands and automate this...&r"
+				"{gregtech_modern.mv__medium_voltage.quests23.description2}"
 				""
-				"With the construction of a &3Kanthal EBF&r, you're now able to make &dSilicon Ingots&r, opening up the vast majority of AE2!"
+				"{gregtech_modern.mv__medium_voltage.quests23.description3}"
 			]
 			icon: "gtceu:kanthal_coil_block"
 			id: "1C55AE6AD5BDE304"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Is it getting hot in here?"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests23.subtitle}"
 			tasks: [{
 				count: 16L
 				id: "0737586F9DFFC0FE"
 				item: "gtceu:kanthal_coil_block"
 				type: "item"
 			}]
-			title: "Kanthal Coils"
+			title: "{gregtech_modern.mv__medium_voltage.quests23.title}"
 			x: 4.5d
 			y: -0.75d
 		}
 		{
 			dependencies: ["1C55AE6AD5BDE304"]
 			description: [
-				"This is a guide on how to automatically route &lall&r your Hot Ingots to your Chemical Bath, while keeping everything automated in tip-top shape."
+				"{gregtech_modern.mv__medium_voltage.quests24.description0}"
 				""
-				"The cheap way would be to use filters, and manually add Hot Ingots one by one... which is so boring! Let's try the fun option."
+				"{gregtech_modern.mv__medium_voltage.quests24.description1}"
 				""
-				"Install an &aItem Tag Filter&r Cover on the side of your &3Chemical Bath&r, open it and set it to whitelist \"&e&lhot_ingots&r\"."
+				"{gregtech_modern.mv__medium_voltage.quests24.description2}"
 				""
-				"From here, you can route with &9any logistics system&r of your choice."
+				"{gregtech_modern.mv__medium_voltage.quests24.description3}"
 				"{@pagebreak}"
-				"Connect the output of your &3EBF(s)&r to the input of your &3Chemical Bath&r and the output dump (Chest or Crate)."
-				"You can also have a &dRestrictive Pipe&r in front of the output dump to ensure the Chemical Bath will be prioritized."
+				"{gregtech_modern.mv__medium_voltage.quests24.description4}"
+				"{gregtech_modern.mv__medium_voltage.quests24.description5}"
 				""
-				"&l&9Note:&r If you wish to know more tags for more automation setups, they will display if you press Shift when hovering over an item. For instance, an item tagged with &e&o#forge:plates/copper&r would be filtered as &e&lplates/copper&r."
+				"{gregtech_modern.mv__medium_voltage.quests24.description6}"
 				""
-				"&9Other Note:&r The Item Tag Filter partially supports &dregex&r. Hover over the info icon for more information."
+				"{gregtech_modern.mv__medium_voltage.quests24.description7}"
 			]
 			icon: "gtceu:item_tag_filter"
 			id: "13A976D0D612BC84"
 			size: 0.66d
-			subtitle: "Stop burning your darn hands!"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests24.subtitle}"
 			tasks: [{
 				id: "76A20EE57CB39857"
 				item: "gtceu:item_tag_filter"
 				type: "item"
 			}]
-			title: "250IQ"
+			title: "{gregtech_modern.mv__medium_voltage.quests24.title}"
 			x: 3.375d
 			y: -1.875d
 		}
@@ -902,7 +902,7 @@
 				"75F38905DEA60F15"
 				"1C55AE6AD5BDE304"
 			]
-			description: ["A circuit component that you can now produce thanks to the &3MV Assembler&r and your shiny new &3Kanthal EBF&r."]
+			description: ["{gregtech_modern.mv__medium_voltage.quests25.description0}"]
 			icon: "gtceu:transistor"
 			id: "375684F9CBEF9132"
 			rewards: [{
@@ -918,7 +918,7 @@
 				item: "gtceu:transistor"
 				type: "item"
 			}]
-			title: "Moore's Law"
+			title: "{gregtech_modern.mv__medium_voltage.quests25.title}"
 			x: 6.75d
 			y: -0.75d
 		}
@@ -929,32 +929,32 @@
 				"1E7BF65DB32B8B3E"
 			]
 			description: [
-				"Alright... technically, obtaining &6HV&r Circuits and Stainless Steel lets you progress to &6HV&r - but let's not rush things."
+				"{gregtech_modern.mv__medium_voltage.quests26.description0}"
 				""
-				"The first thing you should make with these is a &3MV Circuit Assembler&r to unlock the new tier of Circuits right away; cheaper recipes is the &dreal payoff&r here."
+				"{gregtech_modern.mv__medium_voltage.quests26.description1}"
 			]
 			icon: "gtceu:advanced_integrated_circuit"
 			id: "26394C1290D70AB6"
 			shape: "square"
 			size: 0.75d
-			subtitle: "...but hold on before getting too giddy"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests26.subtitle}"
 			tasks: [{
 				id: "75EB5730046212D0"
 				item: "gtceu:advanced_integrated_circuit"
 				type: "item"
 			}]
-			title: "First HV Circuits!"
+			title: "{gregtech_modern.mv__medium_voltage.quests26.title}"
 			x: 6.75d
 			y: 0.375d
 		}
 		{
 			dependencies: ["315169840E06110F"]
-			description: ["&aRandom Access Memory&r is required for more advanced Electronic Components."]
+			description: ["{gregtech_modern.mv__medium_voltage.quests27.description0}"]
 			icon: "gtceu:ram_chip"
 			id: "1E7BF65DB32B8B3E"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Random Access Memories"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests27.subtitle}"
 			tasks: [
 				{
 					id: "40E0E6FD45AEC7B1"
@@ -974,47 +974,47 @@
 					type: "item"
 				}
 			]
-			title: "Download more RAM"
+			title: "{gregtech_modern.mv__medium_voltage.quests27.title}"
 			x: 5.625d
 			y: 1.5d
 		}
 		{
 			dependencies: ["6F6D2829FC42F21C"]
 			description: [
-				"The Integrated Logic Circuit is an alternate &7LV &aCircuit&r, which is easier to mass-produce, and can be upgraded to &bMV&r (and then &6HV&r)."
+				"{gregtech_modern.mv__medium_voltage.quests28.description0}"
 				""
-				"&9Note:&r This is not a strict upgrade to the cost of Circuits - you would need to get to the next Tier for that, just slightly further down in &bMV&r. It is still an important upgrade, and is required to get to &6HV circuits&r."
+				"{gregtech_modern.mv__medium_voltage.quests28.description1}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o The circuit progression in GTCEu is mostly based on GT5u's progression. It has been rebalanced to not be as painful. &lSpecifically&r&o this circuit tier, which was a trap!"
+				"{gregtech_modern.mv__medium_voltage.quests28.description2}"
 			]
 			icon: "gtceu:basic_integrated_circuit"
 			id: "5C17BF90DA2AAEEE"
 			shape: "square"
 			size: 0.75d
-			subtitle: "You have unlocked a new tier of Circuits!"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests28.subtitle}"
 			tasks: [{
 				id: "2301CD2A841F17D9"
 				item: "gtceu:basic_integrated_circuit"
 				type: "item"
 			}]
-			title: "More LV Circuits"
+			title: "{gregtech_modern.mv__medium_voltage.quests28.title}"
 			x: 6.75d
 			y: 2.625d
 		}
 		{
 			dependencies: ["5C17BF90DA2AAEEE"]
-			description: ["The &bMV&r Circuit for the Integrated Tier."]
+			description: ["{gregtech_modern.mv__medium_voltage.quests29.description0}"]
 			icon: "gtceu:good_integrated_circuit"
 			id: "60D7F6C1EE918B66"
 			shape: "square"
 			size: 0.75d
-			subtitle: "More... I demand more!"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests29.subtitle}"
 			tasks: [{
 				id: "0622E51767B0AB58"
 				item: "gtceu:good_integrated_circuit"
 				type: "item"
 			}]
-			title: "More MV Circuits"
+			title: "{gregtech_modern.mv__medium_voltage.quests29.title}"
 			x: 6.75d
 			y: 1.5d
 		}
@@ -1024,21 +1024,21 @@
 				"1E9BE8D3F8A602DC"
 			]
 			description: [
-				"&9Silicon Boules&r are made in the &3EBF&r with half a stack of &aSilicon Dust&r and a pinch of &aGallium Arsenide&r. Their primary purpose is engraving &6Circuit Wafers&r."
+				"{gregtech_modern.mv__medium_voltage.quests30.description0}"
 				""
-				"After making the Boule, process it in the &3Cutter&r to get 16 Silicon Wafers ready for engraving."
+				"{gregtech_modern.mv__medium_voltage.quests30.description1}"
 				""
-				"The recommended &aSilicon&r source at this point would be... hm, either &dGlass Dust&r or &dSodalite&r."
+				"{gregtech_modern.mv__medium_voltage.quests30.description2}"
 				""
-				"&cWarning:&r Each Silicon Boule takes &47.5 minutes&r to make at 120 EU/t, or 1,080,000 EU! If the EBF loses power midway, the recipe will start to &close progress&r."
+				"{gregtech_modern.mv__medium_voltage.quests30.description3}"
 				""
-				"With that being said, Silicon Boules take an absolute age to craft, so consider parallelizing the recipe in multiple &3EBF&rs and stockpiling them."
+				"{gregtech_modern.mv__medium_voltage.quests30.description4}"
 			]
 			icon: "gtceu:silicon_boule"
 			id: "71412502C81F21C1"
 			shape: "square"
 			size: 0.75d
-			subtitle: "These wafers are fully fungible"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests30.subtitle}"
 			tasks: [
 				{
 					id: "1A18D503A429CC17"
@@ -1052,16 +1052,16 @@
 					type: "item"
 				}
 			]
-			title: "Silicon Lottery"
+			title: "{gregtech_modern.mv__medium_voltage.quests30.title}"
 			x: 4.5d
 			y: 3.75d
 		}
 		{
 			dependencies: ["26394C1290D70AB6"]
 			description: [
-				"As is common for every tier, the &3Circuit Assembler&r is an essential part of progression, always opening up a new Tier of circuits."
+				"{gregtech_modern.mv__medium_voltage.quests31.description0}"
 				""
-				"At this point you should be placing an &3Extractor&r next to your Circuit Assembler. Send off dozens of stacks of &aSoldering Alloy&r Ingots, and you won't have to worry about refilling again."
+				"{gregtech_modern.mv__medium_voltage.quests31.description1}"
 			]
 			icon: "gtceu:mv_circuit_assembler"
 			id: "0DE5C3FBC9A6A690"
@@ -1073,24 +1073,24 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Yippee, yahoo"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests31.subtitle}"
 			tasks: [{
 				id: "7ED7103DAF7E4413"
 				item: "gtceu:mv_circuit_assembler"
 				type: "item"
 			}]
-			title: "Advanced Circuit Assembler"
+			title: "{gregtech_modern.mv__medium_voltage.quests31.title}"
 			x: 7.875d
 			y: 0.375d
 		}
 		{
 			dependencies: ["26394C1290D70AB6"]
 			description: [
-				"At its lowest power (Cupronickel coils and &7LV&r Voltage), the &dMulti Smelter&r smelts 32 items in just 12 seconds - equivalent to &926.7 Furnaces&r, or 3.3 Steam Ovens!"
+				"{gregtech_modern.mv__medium_voltage.quests32.description0}"
 				""
-				"If that wasn't already enough to convince you, standard &aoverclocks&r can be applied with sufficient voltage."
+				"{gregtech_modern.mv__medium_voltage.quests32.description1}"
 				""
-				"And even better - higher tier &3Coils&r increase the amount of items it can smelt in &dparallel&r!"
+				"{gregtech_modern.mv__medium_voltage.quests32.description2}"
 			]
 			icon: "gtceu:multi_smelter"
 			id: "6DDDE2268B691F74"
@@ -1101,13 +1101,13 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Possibly the most powerful furnace you've seen"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests32.subtitle}"
 			tasks: [{
 				id: "0A42FE4B72071451"
 				item: "gtceu:multi_smelter"
 				type: "item"
 			}]
-			title: "Ultimate Smelter"
+			title: "{gregtech_modern.mv__medium_voltage.quests32.title}"
 			x: 5.625d
 			y: 0.375d
 		}
@@ -1118,23 +1118,23 @@
 				"0DE5C3FBC9A6A690"
 			]
 			description: [
-				"&6The best LV Circuits&r! You can start to churn these guys out, as you'll be making them for the rest of the game."
+				"{gregtech_modern.mv__medium_voltage.quests33.description0}"
 				""
-				"Try to keep a stockpile of these crafted at all times - making these on-demand can take a while."
+				"{gregtech_modern.mv__medium_voltage.quests33.description1}"
 				""
-				"Reaching &5EV&r will unlock methods to make them even cheaper."
+				"{gregtech_modern.mv__medium_voltage.quests33.description2}"
 			]
 			icon: "gtceu:microchip_processor"
 			id: "5E76D4C24026157D"
 			shape: "square"
 			size: 0.75d
-			subtitle: "It Feels Good to be the Best"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests33.subtitle}"
 			tasks: [{
 				id: "4E076080D7B23372"
 				item: "gtceu:microchip_processor"
 				type: "item"
 			}]
-			title: "Best LV Circuits"
+			title: "{gregtech_modern.mv__medium_voltage.quests33.title}"
 			x: 7.875d
 			y: -0.75d
 		}
@@ -1145,21 +1145,21 @@
 				"6E9E15DA847DD0A1"
 			]
 			description: [
-				"&6The best MV Circuits&r! You will be making these for the remainder of the game."
+				"{gregtech_modern.mv__medium_voltage.quests34.description0}"
 				""
-				"Eventually (in &9IV&r), they will become even cheaper."
+				"{gregtech_modern.mv__medium_voltage.quests34.description1}"
 			]
 			icon: "gtceu:micro_processor"
 			id: "38DE506FF5B32031"
 			shape: "square"
 			size: 0.75d
-			subtitle: "MV has peaked"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests34.subtitle}"
 			tasks: [{
 				id: "120B63C2E40D359A"
 				item: "gtceu:micro_processor"
 				type: "item"
 			}]
-			title: "Best MV Circuits"
+			title: "{gregtech_modern.mv__medium_voltage.quests34.title}"
 			x: 7.875d
 			y: 1.5d
 		}
@@ -1170,21 +1170,21 @@
 				"3568BC9742092FC5"
 			]
 			description: [
-				"Your first &5EV&r Circuit gets a unique texture. If you still consider yourself to be in &bMV&r, &ahold off&r on making too many of these, as they won't benefit you right now. We can't stop you from making these if you &djust wanna flex&r on us, though."
+				"{gregtech_modern.mv__medium_voltage.quests35.description0}"
 				""
-				"It'll be needed in &6HV&r."
+				"{gregtech_modern.mv__medium_voltage.quests35.description1}"
 			]
 			icon: "gtceu:micro_processor_computer"
 			id: "4AFD3073C731A1E4"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Standing out amongst the rest"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests35.subtitle}"
 			tasks: [{
 				id: "34EA9B71F8BF607F"
 				item: "gtceu:micro_processor_computer"
 				type: "item"
 			}]
-			title: "First EV Circuits!"
+			title: "{gregtech_modern.mv__medium_voltage.quests35.title}"
 			x: 7.875d
 			y: 3.75d
 		}
@@ -1194,21 +1194,21 @@
 				"3DFFA8F91452C62A"
 			]
 			description: [
-				"Better &6HV&r Circuits - much &dcheaper&r and easier to make than before."
+				"{gregtech_modern.mv__medium_voltage.quests36.description0}"
 				""
-				"You should now be &aready to move on&r to the HV Chapter, unless you're yet to scale up your Power Production."
+				"{gregtech_modern.mv__medium_voltage.quests36.description1}"
 			]
 			icon: "gtceu:micro_processor_assembly"
 			id: "5063FDFFBE3E4855"
 			shape: "square"
 			size: 0.75d
-			subtitle: "On that HV grind"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests36.subtitle}"
 			tasks: [{
 				id: "2FE33281A44C34F6"
 				item: "gtceu:micro_processor_assembly"
 				type: "item"
 			}]
-			title: "More HV Circuits"
+			title: "{gregtech_modern.mv__medium_voltage.quests36.title}"
 			x: 7.875d
 			y: 2.625d
 		}
@@ -1218,36 +1218,36 @@
 				"10FB27DD3C7BEC2F"
 			]
 			description: [
-				"A circuit component that you can now produce thanks to the &3MV Assembler&r!"
+				"{gregtech_modern.mv__medium_voltage.quests37.description0}"
 				""
-				"Capacitors are commonly used in computers to store information during power failures, amongst many other uses."
+				"{gregtech_modern.mv__medium_voltage.quests37.description1}"
 			]
 			icon: "gtceu:capacitor"
 			id: "6E9E15DA847DD0A1"
 			shape: "square"
 			size: 0.75d
-			subtitle: "No cap, bussin frfr"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests37.subtitle}"
 			tasks: [{
 				id: "60D8154F5C9C0EAC"
 				item: "gtceu:capacitor"
 				type: "item"
 			}]
-			title: "Capacitors"
+			title: "{gregtech_modern.mv__medium_voltage.quests37.title}"
 			x: 7.875d
 			y: -1.875d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"&aBlue Alloy&r is an excellent Cable material for &6HV&r power."
+				"{gregtech_modern.mv__medium_voltage.quests38.description0}"
 				""
-				"Nothing is preventing you from using it for &bMV&r power too! Make sure that you don't overvolt your machines, though."
+				"{gregtech_modern.mv__medium_voltage.quests38.description1}"
 				""
-				"Superconductors for both &bMV&r and &6HV&r are unlocked... later."
+				"{gregtech_modern.mv__medium_voltage.quests38.description2}"
 				""
-				"&aElectrotine&r is obtained from the &cNether&r, so don't craft it in the Mixer!"
+				"{gregtech_modern.mv__medium_voltage.quests38.description3}"
 				""
-				"Furthermore, &aElectrotine&r can be separated for &dElectrum&r and &dRedstone&r."
+				"{gregtech_modern.mv__medium_voltage.quests38.description4}"
 			]
 			icon: "gtceu:blue_alloy_ingot"
 			id: "1FCF2C103E25972B"
@@ -1258,47 +1258,47 @@
 				type: "item"
 			}]
 			size: 0.66d
-			subtitle: "You're blue now... that's my alloy"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests38.subtitle}"
 			tasks: [{
 				id: "15C7369398FAB8DB"
 				item: "gtceu:blue_alloy_ingot"
 				type: "item"
 			}]
-			title: "Blue Alloy"
+			title: "{gregtech_modern.mv__medium_voltage.quests38.title}"
 			x: 6.75d
 			y: 3.75d
 		}
 		{
 			dependencies: ["6E9E15DA847DD0A1"]
 			description: [
-				"A Circuit Component that you can now make thanks to the &3MV Assembler&r."
+				"{gregtech_modern.mv__medium_voltage.quests39.description0}"
 				""
-				"If you want the cheapest recipe, &aNickel-Zinc Ferrite&r is the way to go."
+				"{gregtech_modern.mv__medium_voltage.quests39.description1}"
 			]
 			icon: "gtceu:inductor"
 			id: "3DFFA8F91452C62A"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Z = jwL"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests39.subtitle}"
 			tasks: [{
 				id: "6690451CCAB62CA1"
 				item: "gtceu:inductor"
 				type: "item"
 			}]
-			title: "Inductors"
+			title: "{gregtech_modern.mv__medium_voltage.quests39.title}"
 			x: 9.0d
 			y: 0.375d
 		}
 		{
 			dependencies: ["6BB98D128822730E"]
 			description: [
-				"If you want to be less fancy, just call it plastic."
+				"{gregtech_modern.mv__medium_voltage.quests40.description0}"
 				""
-				"For the polymerization process, add &aOxygen&r, which gives better returns than Air, then solidify like you would with Rubber."
+				"{gregtech_modern.mv__medium_voltage.quests40.description1}"
 				""
-				"&aPolyethylene (PE)&r is the key to unlocking &6many new things&r. It's commonly used as &dSheets&r, or in &dFluid&r form."
+				"{gregtech_modern.mv__medium_voltage.quests40.description2}"
 				""
-				"&l&3Lore:&r&o The OreDict and fluid name for Polyethylene in 1.12.2 GTCEu was &bplastic&f, for cross-mod compatibility."
+				"{gregtech_modern.mv__medium_voltage.quests40.description3}"
 			]
 			icon: "gtceu:polyethylene_plate"
 			id: "10FB27DD3C7BEC2F"
@@ -1310,82 +1310,82 @@
 			}]
 			shape: "gear"
 			size: 1.2d
-			subtitle: "Baby's first polymer!"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests40.subtitle}"
 			tasks: [{
 				id: "15E5F008339B8964"
 				item: "gtceu:polyethylene_plate"
 				type: "item"
 			}]
-			title: "Polyethylene"
+			title: "{gregtech_modern.mv__medium_voltage.quests40.title}"
 			x: 6.75d
 			y: -3.0d
 		}
 		{
 			dependencies: ["10FB27DD3C7BEC2F"]
 			description: [
-				"&aPatterns&r are used for AE2 autocrafting. Using &aPolyvinyl Chloride&r increases the yield by &64 times&r, and higher-tier plastics have even greater yields."
+				"{gregtech_modern.mv__medium_voltage.quests41.description0}"
 				""
-				"&3Molecular Assemblers&r aren't available for a little while more, but you can still automate machines with &9ME Interfaces&r."
+				"{gregtech_modern.mv__medium_voltage.quests41.description1}"
 				""
-				"A sub-note for autocrafting... whilst it's possible to perform chemical chains on-demand with AE2, doing so can build some bad habits that'll come back around to bite you in higher tiers. We urge you to passive things wherever you can."
+				"{gregtech_modern.mv__medium_voltage.quests41.description2}"
 			]
 			icon: "ae2:blank_pattern"
 			id: "1C036BCB2C488CFF"
 			size: 0.66d
-			subtitle: "Autocrafting at last!"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests41.subtitle}"
 			tasks: [{
 				id: "032C24CBA8687E72"
 				item: "ae2:blank_pattern"
 				type: "item"
 			}]
-			title: "Patterns"
+			title: "{gregtech_modern.mv__medium_voltage.quests41.title}"
 			x: 5.625d
 			y: -4.125d
 		}
 		{
 			dependencies: ["10FB27DD3C7BEC2F"]
 			description: [
-				"No, but seriously."
+				"{gregtech_modern.mv__medium_voltage.quests42.description0}"
 				""
-				"This is the &cu&6l&et&ai&bm&9a&5t&4e&r portable Fluid storage solution. &64,000 buckets of storage&r - in one single block!"
+				"{gregtech_modern.mv__medium_voltage.quests42.description1}"
 				""
-				"Like Drums, Super Tanks &6keep their fluids when broken&r, and can be cleared in the crafting grid."
+				"{gregtech_modern.mv__medium_voltage.quests42.description2}"
 				""
-				"If you hunger for &9even more&r storage, take a look at higher tier Super Tanks or AE2 Fluid Storage Cells."
+				"{gregtech_modern.mv__medium_voltage.quests42.description3}"
 			]
 			icon: "gtceu:lv_super_tank"
 			id: "6C53B01A05FFF1DC"
 			size: 0.66d
-			subtitle: "Super Tanks are OP!"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests42.subtitle}"
 			tasks: [{
 				id: "47EA273D728C158F"
 				item: "gtceu:lv_super_tank"
 				type: "item"
 			}]
-			title: "Super Tank"
+			title: "{gregtech_modern.mv__medium_voltage.quests42.title}"
 			x: 5.625d
 			y: -1.875d
 		}
 		{
 			dependencies: ["10FB27DD3C7BEC2F"]
 			description: [
-				"&aPolyvinyl Chloride (PVC)&r is the 3rd-most produced plastic in real life. Here in CEu, it can be substituted for Polyethylene in the production of &aPlastic Circuit Boards&r and other items to increase the yield. It is required from &5EV&r onwards to wrap Cables."
+				"{gregtech_modern.mv__medium_voltage.quests43.description0}"
 				""
-				"PVC item pipes also have the &6highest throughput&r available for a while, but most of your setups right now won't need such speed. Still, it's good to keep this knowledge in your pocket."
+				"{gregtech_modern.mv__medium_voltage.quests43.description1}"
 				""
-				"&9Pro tip:&r The fluid form of PVC is never used in base GTCEu, so feel free to solidify all of it into sheets."
+				"{gregtech_modern.mv__medium_voltage.quests43.description2}"
 			]
 			icon: "gtceu:polyvinyl_chloride_plate"
 			id: "40408FFD02134148"
 			shape: "square"
 			size: 0.75d
-			subtitle: "You've already made one polymer, what's two?"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests43.subtitle}"
 			tasks: [{
 				id: "72696AD2B77F805B"
 				item: "gtceu:polyvinyl_chloride_plate"
 				type: "item"
 			}]
-			title: "Polyvinyl Chloride"
+			title: "{gregtech_modern.mv__medium_voltage.quests43.title}"
 			x: 6.75d
 			y: -4.125d
 		}
@@ -1395,15 +1395,15 @@
 				"10FB27DD3C7BEC2F"
 			]
 			description: [
-				"At this point, you have all the tools available to start making Plastic Boards. Higher-tier polymers in future will increase your PCB yields substantially."
+				"{gregtech_modern.mv__medium_voltage.quests44.description0}"
 				""
-				"The recipe chains are starting to get pretty long, so we recommend processing large batches in two dedicated &3Chemical Reactors&r."
+				"{gregtech_modern.mv__medium_voltage.quests44.description1}"
 			]
 			icon: "gtceu:plastic_printed_circuit_board"
 			id: "4600221BF0A30C3A"
 			shape: "square"
 			size: 0.75d
-			subtitle: "It's a Casio on a Plastic Board"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests44.subtitle}"
 			tasks: [
 				{
 					id: "68B5E2667EDAE895"
@@ -1416,7 +1416,7 @@
 					type: "item"
 				}
 			]
-			title: "Plastic Boards"
+			title: "{gregtech_modern.mv__medium_voltage.quests44.title}"
 			x: 7.875d
 			y: -3.0d
 		}
@@ -1427,19 +1427,19 @@
 				"3D98819A799D2E64"
 			]
 			description: [
-				"&aSodium Persulfate&r can be used in &9Ore Processing&r in the &3Chemical Bath&r to get various bonus outputs you would not normally obtain. It's completely optional, but pretty rewarding."
+				"{gregtech_modern.mv__medium_voltage.quests45.description0}"
 				""
-				"&lWait, stop! That's only a distraction&r - the real topic of this Quest is..."
+				"{gregtech_modern.mv__medium_voltage.quests45.description1}"
 				""
-				"&aSodium Persulfate&r and &aIron III Chloride&r are used to make cheaper &9Good Circuit Boards&r, as their inclusion cuts Silver usage by a factor of four."
+				"{gregtech_modern.mv__medium_voltage.quests45.description2}"
 				""
-				"They're also &drequired&r to make &9Plastic Circuit Boards&r."
+				"{gregtech_modern.mv__medium_voltage.quests45.description3}"
 				"{@pagebreak}"
-				"Making &aSodium Persulfate&r will yield &aHydrochloric Acid&r as a coproduct, which you may re-use to make &aIron III Chloride&r. This should the best approach right now, but the decision is entirely yours."
+				"{gregtech_modern.mv__medium_voltage.quests45.description4}"
 				""
-				"With more automation later in the game, Iron III Chloride will be the cheaper and more straight forward path."
+				"{gregtech_modern.mv__medium_voltage.quests45.description5}"
 				""
-				"This Quest requires &eboth&r Fluids to complete. You'll need both anyway..."
+				"{gregtech_modern.mv__medium_voltage.quests45.description6}"
 			]
 			icon: "gtceu:iron_iii_chloride_bucket"
 			id: "4353AB0E20601AEC"
@@ -1451,7 +1451,7 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Let's etch some Copper off Circuit Boards!"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests45.subtitle}"
 			tasks: [
 				{
 					id: "118468CD578081CF"
@@ -1464,7 +1464,7 @@
 					type: "item"
 				}
 			]
-			title: "Sodium Persulfate / Iron III Chloride"
+			title: "{gregtech_modern.mv__medium_voltage.quests45.title}"
 			x: 7.875d
 			y: -4.125d
 		}
@@ -1474,28 +1474,28 @@
 				"1A77CA35F054F988"
 			]
 			description: [
-				"EMI might look a little overwhelming here, so we'll go through the best path for Sulfuric Acid here."
+				"{gregtech_modern.mv__medium_voltage.quests46.description0}"
 				""
-				"Making &eSulfuric Acid&r is a three step process. It is used in many important reactions, so you should automate its production ASAP."
+				"{gregtech_modern.mv__medium_voltage.quests46.description1}"
 				"{@pagebreak}"
-				"To automate it, you will need &3three LV Chemical Reactors&r. We would recommend building a dedicated setup somewhere with &3a single LV Generator&r to power all three machines. You can then spaghetti your pipes to handle input and output &m...or simply use AE2&r."
+				"{gregtech_modern.mv__medium_voltage.quests46.description2}"
 				""
-				"&9-&r Step 1: React &aSulfur&r with &bOxygen&r to form &aSulfur Dioxide&r."
-				"&9-&r Step 2: React &aSulfur Dioxide&r with more &bOxygen&r to form &aSulfur Trioxide&r."
-				"&9-&r Step 3: React &aSulfur Trioxide&r with &bWater&r to form &eSulfuric Acid&r."
+				"{gregtech_modern.mv__medium_voltage.quests46.description3}"
+				"{gregtech_modern.mv__medium_voltage.quests46.description4}"
+				"{gregtech_modern.mv__medium_voltage.quests46.description5}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o GregTech 5's Chemical Reactor only had one Fluid slot. To circumvent that, they would do &dcell chemistry&f. The way you would automate Sulfuric Acid was by having one cell travel from machine to machine and then loop back to its starting position. A somewhat fun and interesting automation challenge, but also a chore!"
+				"{gregtech_modern.mv__medium_voltage.quests46.description6}"
 			]
 			id: "316FF60D6FFE97CE"
 			shape: "square"
 			size: 0.75d
-			subtitle: "\"...what he thought was H2O was H2SO4!\""
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests46.subtitle}"
 			tasks: [{
 				id: "06B5F04DEFC12458"
 				item: "gtceu:sulfuric_acid_bucket"
 				type: "item"
 			}]
-			title: "Sulfuric Acid"
+			title: "{gregtech_modern.mv__medium_voltage.quests46.title}"
 			x: 1.125d
 			y: -4.125d
 		}
@@ -1505,28 +1505,28 @@
 				"3D98819A799D2E64"
 			]
 			description: [
-				"Obtain &9Hydrochloric Acid&r by mixing &aHydrogen&r and &aChlorine&r."
+				"{gregtech_modern.mv__medium_voltage.quests47.description0}"
 				""
-				"This acid is also obtained as waste from a lot of reactions involving &aChlorine&r. Depending on your setups, you may never need to produce it directly."
+				"{gregtech_modern.mv__medium_voltage.quests47.description1}"
 				"{@pagebreak}"
-				"&cNote:&r We have a $medicine command on our Discord:"
+				"{gregtech_modern.mv__medium_voltage.quests47.description2}"
 				""
-				"\"&b&oDo not attempt this in real life - it is not only illegal, but also stupidly dangerous&r\"."
+				"{gregtech_modern.mv__medium_voltage.quests47.description3}"
 				""
-				"This applies to toying with chemicals. Please don't do it."
+				"{gregtech_modern.mv__medium_voltage.quests47.description4}"
 				""
-				"Side note - we can guarantee you have a sample of this with you right now! It's in your stomach as a part of gastric acid."
+				"{gregtech_modern.mv__medium_voltage.quests47.description5}"
 			]
 			icon: "gtceu:hydrochloric_acid_bucket"
 			id: "64CACABB48635904"
 			size: 0.66d
-			subtitle: "You'll need a lot of this!"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests47.subtitle}"
 			tasks: [{
 				id: "34147C1DD7B8DE55"
 				item: "gtceu:hydrochloric_acid_bucket"
 				type: "item"
 			}]
-			title: "Hydrochloric Acid"
+			title: "{gregtech_modern.mv__medium_voltage.quests47.title}"
 			x: 3.375d
 			y: -4.125d
 		}
@@ -1536,19 +1536,19 @@
 				"64CACABB48635904"
 			]
 			description: [
-				"You may notice that some fluids say they are \"&aAcidic&r\", with &9Sulfuric Acid&r being one of them."
+				"{gregtech_modern.mv__medium_voltage.quests48.description0}"
 				""
-				"This means that many fluid pipes will not be able to transport them safely!"
+				"{gregtech_modern.mv__medium_voltage.quests48.description1}"
 				""
-				"At &bMV&r, the cheapest pipes for acid transportation are probably &aGold&r, with the more expensive &aVanadium Steel&r or &aChrome&r pipes taking second and third place."
+				"{gregtech_modern.mv__medium_voltage.quests48.description2}"
 				""
-				"&aStainless Steel&r or &aPolytetrafluoroethylene&r (try saying that fast) will be valid options once you are in &6HV&r."
+				"{gregtech_modern.mv__medium_voltage.quests48.description3}"
 				"{@pagebreak}"
-				"You have three options for acid storage at around this point: &dGlass Vials&r, &dGold Drums&r, or &dSuper Tanks&r. Glass Vials are like &9Fluid Cells&r, and are made to store acids. Gold Drums are self-explanatory. Super Tanks will be unlocked after &9Polyethylene&r, and can store any fluid without restriction."
+				"{gregtech_modern.mv__medium_voltage.quests48.description4}"
 				""
-				"&cWARNING:&r Acids in the wrong pipes will cause &cvoiding&r, &cpipe burning&r, and high chance of &cdeath&r! Be careful!"
+				"{gregtech_modern.mv__medium_voltage.quests48.description5}"
 				""
-				"&l&3Lore:&r&o The acid transportation and storage mechanics originate from GregTech 6."
+				"{gregtech_modern.mv__medium_voltage.quests48.description6}"
 			]
 			icon: "gtceu:acid_hazard_sign_block"
 			id: "079442C113D54856"
@@ -1560,13 +1560,13 @@
 			}]
 			shape: "circle"
 			size: 0.66d
-			subtitle: "...if you don't read this quest."
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests48.subtitle}"
 			tasks: [{
 				id: "2D0DE3FB6E5E4146"
-				title: "I'm an acid professional, don't worry"
+				title: "{gregtech_modern.mv__medium_voltage.quests48.tasks0.title}"
 				type: "checkmark"
 			}]
-			title: "It will Melt Your Flesh"
+			title: "{gregtech_modern.mv__medium_voltage.quests48.title}"
 			x: 2.25d
 			y: -4.125d
 		}
@@ -1576,17 +1576,17 @@
 				"6D9D54FAB21EC086"
 			]
 			description: [
-				"&bMV&r Batteries will appeal to you if you want to buffer Energy, just like &7LV&r."
+				"{gregtech_modern.mv__medium_voltage.quests49.description0}"
 				""
-				"The cost in &aSodium&r, &aLithium&r or &aCadmium&r jumps up to 8 dusts, so you should use whatever you have the most of. The difference in capacity isn't &7THAT&r huge, after all!"
+				"{gregtech_modern.mv__medium_voltage.quests49.description1}"
 				""
-				"Get &eeither&r Battery to complete the Quest."
+				"{gregtech_modern.mv__medium_voltage.quests49.description2}"
 			]
 			icon: "gtceu:hv_battery_hull"
 			id: "2202AA5DC6DB0A26"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Baby Got Battery"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests49.subtitle}"
 			tasks: [{
 				id: "5FEE671A75766B78"
 				item: {
@@ -1596,10 +1596,10 @@
 						value: "gtceu:batteries/mv"
 					}
 				}
-				title: "Any MV Battery"
+				title: "{gregtech_modern.mv__medium_voltage.quests49.tasks0.title}"
 				type: "item"
 			}]
-			title: "Better Batteries"
+			title: "{gregtech_modern.mv__medium_voltage.quests49.title}"
 			x: 4.5d
 			y: -1.875d
 		}
@@ -1609,13 +1609,13 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"We &lSINCERELY&r hope at &cno&r point you made the &7LV&r Extruder, because only the &bMV&r Extruder is actually useful. If you did, immediately &arecycle it&r through the Arc Furnace."
+				"{gregtech_modern.mv__medium_voltage.quests50.description0}"
 				""
-				"The Extruder shapes solid materials into (almost!) any form using &aIngots&r. This is a great way to reduce the amount of microcrafting, as well as keeping a high conversion ratio."
+				"{gregtech_modern.mv__medium_voltage.quests50.description1}"
 				""
-				"The Extruder can make &6Bolts&r, &6&6Small Gears&r, &6Gears&r, and &6&6Rings&r at the highest efficiency in a single step!"
+				"{gregtech_modern.mv__medium_voltage.quests50.description2}"
 				""
-				"You may also like to use it for &dPipes&r, &dLong Rods&r, and &dRotors&r."
+				"{gregtech_modern.mv__medium_voltage.quests50.description3}"
 			]
 			icon: "gtceu:mv_extruder"
 			id: "22B5AD670496C02D"
@@ -1633,33 +1633,33 @@
 			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "The biggest upgrade you'll make"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests50.subtitle}"
 			tasks: [{
 				id: "73E8504BA235C4BF"
 				item: "gtceu:mv_extruder"
 				type: "item"
 			}]
-			title: "Advanced Extruder"
+			title: "{gregtech_modern.mv__medium_voltage.quests50.title}"
 			x: 1.125d
 			y: 0.375d
 		}
 		{
 			dependencies: ["22B5AD670496C02D"]
 			description: [
-				"Aluminium Cells are a big upgrade over the Steel Cells or Universal Fluid Cells."
+				"{gregtech_modern.mv__medium_voltage.quests51.description0}"
 				""
-				"They can hold any fraction of Fluid - up to &d32 buckets&r!"
+				"{gregtech_modern.mv__medium_voltage.quests51.description1}"
 			]
 			icon: "gtceu:aluminium_fluid_cell"
 			id: "53B0D08DB90EC369"
 			size: 0.66d
-			subtitle: "Like cells... only larger!"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests51.subtitle}"
 			tasks: [{
 				id: "105EA8621A99C1EC"
 				item: "gtceu:aluminium_fluid_cell"
 				type: "item"
 			}]
-			title: "Large Cells"
+			title: "{gregtech_modern.mv__medium_voltage.quests51.title}"
 			x: 2.25d
 			y: 0.375d
 		}
@@ -1669,79 +1669,79 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"It's quite the investment to own a &3Fluid Drilling Rig&r, but it is &oby far&r the most prominent &6source of Oil&r."
+				"{gregtech_modern.mv__medium_voltage.quests52.description0}"
 				""
-				"It pumps fluids from underneath Bedrock itself. Note that the fluids aren't actually there, instead being simulated."
+				"{gregtech_modern.mv__medium_voltage.quests52.description1}"
 				""
-				"Fluid veins are stored within &cchunk-sized regions&r. Each vein has a different fluid, but they are mostly types of Oil."
+				"{gregtech_modern.mv__medium_voltage.quests52.description2}"
 				""
-				"You can't carry out prospecting for fluid veins &oyet&r - this will come at &6HV&r."
+				"{gregtech_modern.mv__medium_voltage.quests52.description3}"
 				"{@pagebreak}"
-				"Each vein generates with a different base yield. This is typically between &d150L&r to &d300L per second&r."
+				"{gregtech_modern.mv__medium_voltage.quests52.description4}"
 				""
-				"When drained, fluid veins will slowly deplete. This will cause the fluid yield to decrease over time until it reaches its depletion yield. At that point, you should move the Rig to a different vein."
+				"{gregtech_modern.mv__medium_voltage.quests52.description5}"
 				""
-				"A &3Basic Fluid Drilling Rig&r will last for 100,000 operations (with 1 second per operation) until depletion. This is enough for &6well over 10,000&r buckets of Oil. Higher tier Rigs will massively increase the yield, while also decreasing the depletion rate."
+				"{gregtech_modern.mv__medium_voltage.quests52.description6}"
 				"{@pagebreak}"
-				"&lWhat you can find in the &2Overworld&r&l:&r"
+				"{gregtech_modern.mv__medium_voltage.quests52.description7}"
 				""
-				"&9Oil:&r richer in &aLight Fuel&r, the most appreciated variant."
-				"&9Light Oil:&r richer in &aRefinery Gas&r, usable for power."
-				"&9Heavy Oil:&r richer in &aHeavy Fuel&r, which has uses that are more niche."
-				"&9Raw Oil:&r richer in &aNaphtha&r, the best source of the early-game oil products."
-				"&9Natural Gas:&r grants &aRefinery Gas&r with no distillation required."
-				"&l&9Salt Water:&r grants &aSodium&r and &aChlorine&r, useful later."
+				"{gregtech_modern.mv__medium_voltage.quests52.description8}"
+				"{gregtech_modern.mv__medium_voltage.quests52.description9}"
+				"{gregtech_modern.mv__medium_voltage.quests52.description10}"
+				"{gregtech_modern.mv__medium_voltage.quests52.description11}"
+				"{gregtech_modern.mv__medium_voltage.quests52.description12}"
+				"{gregtech_modern.mv__medium_voltage.quests52.description13}"
 				"{@pagebreak}"
-				"&lWhat you can find in the &cNether&r&l:&r"
+				"{gregtech_modern.mv__medium_voltage.quests52.description14}"
 				""
-				"&9Natural Gas:&r grants &aRefinery Gas&r but with higher yield than the Overworld vein."
-				"&9Lava:&r hopefully, you know what this is."
+				"{gregtech_modern.mv__medium_voltage.quests52.description15}"
+				"{gregtech_modern.mv__medium_voltage.quests52.description16}"
 				""
-				"When starting out, you may have to tap randomly until you find something you like. Remember that whatever you pump could also be used to refuel your Fluid Rig."
+				"{gregtech_modern.mv__medium_voltage.quests52.description17}"
 			]
 			icon: "gtceu:mv_fluid_drilling_rig"
 			id: "05ADBAE5B6F38956"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Fluid Drilling Rigs in CEu!"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests52.subtitle}"
 			tasks: [{
 				id: "3FB527F5B10381D2"
 				item: "gtceu:mv_fluid_drilling_rig"
 				type: "item"
 			}]
-			title: "Fluid Drilling Rigs"
+			title: "{gregtech_modern.mv__medium_voltage.quests52.title}"
 			x: -1.125d
 			y: 0.375d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"Get any kind of &3Pump&r, place it above an Oil spout and... give it some power."
+				"{gregtech_modern.mv__medium_voltage.quests53.description0}"
 				""
-				"Do &cnot&r pump above an Ocean, as the pump will attempt to pull water, resulting in getting the pump stuck. Sorry!"
+				"{gregtech_modern.mv__medium_voltage.quests53.description1}"
 				"{@pagebreak}"
-				"Each Oil deposit can have between &63,000&r and &69,200&r buckets of Oil, which is a LOT! Refining the Oil&r onsite into either &aLight Fuel&r or &aDiesel&r (or both) is perfectly viable. The next few Quests will explain each type's pros and cons."
+				"{gregtech_modern.mv__medium_voltage.quests53.description2}"
 				""
-				"Store any obtained Oil in &3Drums&r, but you would do yourself a favour to use a &3Super Tank&r as soon as you can make them."
+				"{gregtech_modern.mv__medium_voltage.quests53.description3}"
 				""
-				"&cWarning: &rDo not forget to &dchunkload&r with FTB Utilities (open the map in the top left corner, claim the chunks with left-click, and enable force loading with shift-left-click)."
+				"{gregtech_modern.mv__medium_voltage.quests53.description4}"
 				"{@pagebreak}"
-				"&9&lNote:&r&l The Oil path is one path towards &9&lEthylene&r&l. The other paths involve getting natural with some Ethanol.&r"
+				"{gregtech_modern.mv__medium_voltage.quests53.description5}"
 				""
-				"For now, Oil is &doptional&r. It becomes mandatory much later when you get to &5EV&r."
+				"{gregtech_modern.mv__medium_voltage.quests53.description6}"
 				""
-				"Oil can also be refined in the form of &aLight Fuel&r, &aDiesel&r or even &aGasoline&r, which are excellent power options."
+				"{gregtech_modern.mv__medium_voltage.quests53.description7}"
 				""
-				"If you chose this path, you should use it for both Power and Ethylene."
+				"{gregtech_modern.mv__medium_voltage.quests53.description8}"
 				""
-				"Oil spouts are a &6great starting point&r - they will tide you over until you unlock Fluid Drilling Rigs."
+				"{gregtech_modern.mv__medium_voltage.quests53.description9}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Oil geysers were originally from Buildcraft. If you played a GregTech 5 modpack &cwithout&f Buildcraft, you needed to use the Fluid Rig and tap randomly to try and get lucky, or wait until &6HV&f, where prospecting for fluids was available."
+				"{gregtech_modern.mv__medium_voltage.quests53.description10}"
 			]
 			icon: "gtceu:oil_bucket"
 			id: "0774EC59CD3DD7A5"
 			size: 0.66d
-			subtitle: "Ever mined into an Oil deposit?"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests53.subtitle}"
 			tasks: [
 				{
 					id: "21FF6E45F9AC5E76"
@@ -1769,7 +1769,7 @@
 							]
 						}
 					}
-					title: "Any Pump will do"
+					title: "{gregtech_modern.mv__medium_voltage.quests53.tasks0.title}"
 					type: "item"
 				}
 				{
@@ -1798,28 +1798,28 @@
 							]
 						}
 					}
-					title: "Any Oil bucket"
+					title: "{gregtech_modern.mv__medium_voltage.quests53.tasks1.title}"
 					type: "item"
 				}
 			]
-			title: "US Simulator"
+			title: "{gregtech_modern.mv__medium_voltage.quests53.title}"
 			x: -1.125d
 			y: -0.75d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"Underground, you may come across pure Oilsands ore veins. You can &3centrifuge&r the Dust to get &aOil&r."
+				"{gregtech_modern.mv__medium_voltage.quests54.description0}"
 				""
-				"&9&lNote:&r&l The Oil path is one path towards &9&lEthylene&r&l. The other paths involve getting natural with some Ethanol.&r"
+				"{gregtech_modern.mv__medium_voltage.quests54.description1}"
 				""
-				"For now, Oil is &doptional&r. It becomes mandatory much later when you get to &5EV&r."
+				"{gregtech_modern.mv__medium_voltage.quests54.description2}"
 				""
-				"Oil can also be refined in the form of &aLight Fuel&r, &aDiesel&r or even &aGasoline&r, which are excellent power options."
+				"{gregtech_modern.mv__medium_voltage.quests54.description3}"
 				""
-				"If you chose this path, you should use it for both Power and Ethylene."
+				"{gregtech_modern.mv__medium_voltage.quests54.description4}"
 				""
-				"Oilsands are a &6great starting point&r - they'll tide you over until you unlock Fluid Drilling Rigs."
+				"{gregtech_modern.mv__medium_voltage.quests54.description5}"
 			]
 			icon: "gtceu:oilsands_ore"
 			id: "575B07D390D9D079"
@@ -1830,7 +1830,7 @@
 				type: "item"
 			}]
 			size: 0.66d
-			subtitle: "This quest was sponsored by the US Military"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests54.subtitle}"
 			tasks: [
 				{
 					id: "7B6C7E6C11D68E06"
@@ -1842,7 +1842,7 @@
 						}
 					}
 					optional_task: true
-					title: "Oilsands Ore"
+					title: "{gregtech_modern.mv__medium_voltage.quests54.tasks0.title}"
 					type: "item"
 				}
 				{
@@ -1851,7 +1851,7 @@
 					type: "item"
 				}
 			]
-			title: "America Simulator"
+			title: "{gregtech_modern.mv__medium_voltage.quests54.title}"
 			x: -2.25d
 			y: -0.75d
 		}
@@ -1864,27 +1864,27 @@
 				"05ADBAE5B6F38956"
 			]
 			description: [
-				"Before we start, here's some important information if you're aiming to make Ethylene:"
+				"{gregtech_modern.mv__medium_voltage.quests55.description0}"
 				""
-				"Taking the &aOil&r route will require &oat least&r a &3LV Distillery&r."
+				"{gregtech_modern.mv__medium_voltage.quests55.description1}"
 				""
-				"With the &aBiomass&r route, you will &lneed&r a &3MV Distillery&r."
+				"{gregtech_modern.mv__medium_voltage.quests55.description2}"
 				""
-				"Get &eeither&r to complete this quest."
+				"{gregtech_modern.mv__medium_voltage.quests55.description3}"
 				"{@pagebreak}"
-				"Got all that? &6Alright&r! Let's discuss a complex topic: &9Distillation&r. We'll try to help you understand how and why the &aEMI&r recipes are the way they are, so stick with us."
+				"{gregtech_modern.mv__medium_voltage.quests55.description4}"
 				""
-				"Nearly all the &3Distillery&r recipes are duplicates from the &3Distillation Tower&r, except that they only have one Fluid output, and void everything else."
+				"{gregtech_modern.mv__medium_voltage.quests55.description5}"
 				""
-				"In other words, you could argue the &3Distillery&r is an &dinferior&r &3Distillation Tower&r."
+				"{gregtech_modern.mv__medium_voltage.quests55.description6}"
 				"{@pagebreak}"
-				"This doesn't mean that the &3Distillery&r is the worse of the two. It is unlocked earlier, and it is &dsmaller&r, &dcheaper&r, and &dmore energy efficient&r per recipe."
+				"{gregtech_modern.mv__medium_voltage.quests55.description7}"
 				""
-				"Hell, in many cases, you won't even mind losing the other Fluids."
+				"{gregtech_modern.mv__medium_voltage.quests55.description8}"
 				""
-				"&3Distilleries&r are an essential component for power generation, whether you pick &aDiesel&r or &aBenzene&r."
+				"{gregtech_modern.mv__medium_voltage.quests55.description9}"
 				""
-				"You'll probably want many of them at as low-tier as possible to avoid the energy losses from Overclocking."
+				"{gregtech_modern.mv__medium_voltage.quests55.description10}"
 			]
 			icon: "gtceu:mv_distillery"
 			id: "6A304E453D74C57C"
@@ -1896,7 +1896,7 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "The Illusion of Free Choice"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests55.subtitle}"
 			tasks: [{
 				id: "685043442271A0D0"
 				item: {
@@ -1915,30 +1915,30 @@
 						]
 					}
 				}
-				title: "Either an LV or MV Distillery"
+				title: "{gregtech_modern.mv__medium_voltage.quests55.tasks0.title}"
 				type: "item"
 			}]
-			title: "Distillery"
+			title: "{gregtech_modern.mv__medium_voltage.quests55.title}"
 			x: -1.125d
 			y: -1.875d
 		}
 		{
 			dependencies: ["05ADBAE5B6F38956"]
 			description: [
-				"&aRefinery Gas&r, &aLPG&r and &aMethane&r are &9Gas Fuels&r. LPG (Liquid Petroleum Gas) is a mix of hydrocarbons typically used in heating appliances."
+				"{gregtech_modern.mv__medium_voltage.quests56.description0}"
 				""
-				"Refinery Gas is obtained either through &dNatural Gas&r or &dLight Oil&r, the latter yielding more, yet requiring an extra step of distillation."
+				"{gregtech_modern.mv__medium_voltage.quests56.description1}"
 				""
-				"Use of a &3Centrifuge&r to separate into &aLPG&r and &aMethane&r should always be done, as it's practically free."
+				"{gregtech_modern.mv__medium_voltage.quests56.description2}"
 				"{@pagebreak}"
-				"&a&aLPG&r and &aMethane&r are burned in a &3Gas Turbine&r. Among the other fuel options, they are the easier to set up which makes them excellent to get started. Their drawback is that they cannot be refined further, so upgrading the &3Fluid Drilling Rig&r may be a top priority if you stick to this fuel source."
+				"{gregtech_modern.mv__medium_voltage.quests56.description3}"
 				""
-				"&aMethane&r can also be obtained from a few &anatural sources&r. &eBetween us&r, they're memes, but you can explore them if you wish. Ultimately, your power source is your choice."
+				"{gregtech_modern.mv__medium_voltage.quests56.description4}"
 			]
 			icon: "gtceu:natural_gas_bucket"
 			id: "227D89550BB9BD55"
 			size: 0.66d
-			subtitle: "Whoever smelt it..."
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests56.subtitle}"
 			tasks: [
 				{
 					id: "027B41ACE1566E28"
@@ -1956,53 +1956,53 @@
 					type: "item"
 				}
 			]
-			title: "The Church of Natural Farts"
+			title: "{gregtech_modern.mv__medium_voltage.quests56.title}"
 			x: -2.25d
 			y: 0.375d
 		}
 		{
 			dependencies: ["6A304E453D74C57C"]
 			description: [
-				"&aBenzene&r is a &9Gas Fuel&r. To skip some frustration, let's check out the two best ways to obtain it."
+				"{gregtech_modern.mv__medium_voltage.quests57.description0}"
 				""
-				"The first option is typically &dWood based&r. Put Logs in the &3Pyrolyse Oven&r for &9Wood Tar&r. The Charcoal you obtain can then be processed in &3Extractors&r for even more &9Wood Tar&r, which you &3distill&r for &aBenzene&r."
+				"{gregtech_modern.mv__medium_voltage.quests57.description1}"
 				""
-				"Your second option is &dHeavy Oil based&r. Put Heavy Oil in a &3Distillery&r for &9Heavy Fuel&r, which you &aseverely steam-crack&r and &3distill&r again for &aBenzene&r."
+				"{gregtech_modern.mv__medium_voltage.quests57.description2}"
 				"{@pagebreak}"
-				"For information on how to process Oil, check the Light Fuel and Naphtha Quests."
+				"{gregtech_modern.mv__medium_voltage.quests57.description3}"
 				""
-				"In general, it is better to prioritize placing down more machines (&dparallelisation&r) over overclocking the recipes. That way, you end up losing less energy processing the resources."
+				"{gregtech_modern.mv__medium_voltage.quests57.description4}"
 				""
-				"&aBenzene&r is burned in a &3Gas Turbine&r. This power source starts weaker than its &eDiesel&r cousin, but gets a big boost when refined to &6Nitrobenzene&r in &6HV&r. Ultimately, your power source is your choice."
+				"{gregtech_modern.mv__medium_voltage.quests57.description5}"
 			]
 			icon: "gtceu:benzene_bucket"
 			id: "00E1A728E6F6D6A0"
 			size: 0.66d
-			subtitle: "In the end, it's always Benzene"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests57.subtitle}"
 			tasks: [{
 				id: "4E9EBCCCC7BBAFDD"
 				item: "gtceu:benzene_bucket"
 				type: "item"
 			}]
-			title: "The Church of Benzene"
+			title: "{gregtech_modern.mv__medium_voltage.quests57.title}"
 			x: -2.25d
 			y: -1.875d
 		}
 		{
 			dependencies: ["6A304E453D74C57C"]
 			description: [
-				"Distillating &aOil&r will give you Fuel that you will need to desulfurize."
+				"{gregtech_modern.mv__medium_voltage.quests58.description0}"
 				""
-				"&aHydrogen Sulfide&r is perfectly &drecycled&r in an &3Electrolyzer&r."
+				"{gregtech_modern.mv__medium_voltage.quests58.description1}"
 				""
-				"To automate this process, simply place your &3Chemical Reactor&r and your &3Electrolyzer&r next to each other. Be sure to use your &5Screwdriver&r to &4enable input from the output side&r."
+				"{gregtech_modern.mv__medium_voltage.quests58.description2}"
 				""
-				"&aLight Fuel&r is a good &9Power&r option, but there's something even greater... check the Quest to the left."
+				"{gregtech_modern.mv__medium_voltage.quests58.description3}"
 			]
 			icon: "gtceu:lightly_hydro_cracked_heavy_fuel_bucket"
 			id: "61972B16805FC9EE"
 			size: 0.66d
-			subtitle: "Turn up the Lights in here, baby"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests58.subtitle}"
 			tasks: [
 				{
 					id: "6E4D818CE088D7D4"
@@ -2016,28 +2016,28 @@
 					type: "item"
 				}
 			]
-			title: "Light Fuel"
+			title: "{gregtech_modern.mv__medium_voltage.quests58.title}"
 			x: -1.125d
 			y: -3.0d
 		}
 		{
 			dependencies: ["61972B16805FC9EE"]
 			description: [
-				"&aDiesel&r is a &dOil-based &9Combustion Fuel&r."
+				"{gregtech_modern.mv__medium_voltage.quests59.description0}"
 				""
-				"To mix &aLight Fuel&r and &aHeavy Fuel&r, the right ratio for &3Distilleries&r is &63:2&r from &dOil&r or &dRaw Oil&r."
+				"{gregtech_modern.mv__medium_voltage.quests59.description1}"
 				""
-				"This would necessitate 3 Distilleries for Light Fuel, or 2 Distilleries for Heavy Fuel."
+				"{gregtech_modern.mv__medium_voltage.quests59.description2}"
 				"{@pagebreak}"
-				"You can cut the amount of &dOil&r required &6drastically&r by using &dHeavy Oil&r for &aHeavy Fuel&r specifically. &dOilsands&r is a great option if you wish to go down this route!"
+				"{gregtech_modern.mv__medium_voltage.quests59.description3}"
 				""
-				"&o(For the math nerds, you go from 8.33 Oil -> 6 Diesel, to 5 Oil + 0.4 Heavy Oil -> 6 Diesel)&r"
+				"{gregtech_modern.mv__medium_voltage.quests59.description4}"
 				""
-				"&eNote:&r Do &cnot attempt&r to put Oil in the &3Distillation Tower&r You might think it's a good idea because it gives both Light Fuel and Heavy Fuel. However, this process requires a lot of overclocking to be worth your time, and you will lose more energy than what the byproducts are worth."
+				"{gregtech_modern.mv__medium_voltage.quests59.description5}"
 				"{@pagebreak}"
-				"In general, it is better to prioritize placing down more machines (&dparallelisation&r) over overclocking the recipes. That way, you end up losing less energy processing the resources."
+				"{gregtech_modern.mv__medium_voltage.quests59.description6}"
 				""
-				"&aDiesel&r is burned in a &3Combustion Generator&r. It can be further refined to &6Cetane-Boosted Diesel&r in &6HV&r. Compared to the other power sources, it is generally more efficient, but a more demanding processing line. If you take the &eOil&r route for &aPolyethylene&r, this can work great with existing infrastructure. Ultimately, the power source you want to use is your choice."
+				"{gregtech_modern.mv__medium_voltage.quests59.description7}"
 			]
 			icon: "gtceu:diesel_bucket"
 			id: "45769156F4253C86"
@@ -2056,13 +2056,13 @@
 				type: "item"
 			}]
 			size: 0.66d
-			subtitle: "Mother, how is diesel made?"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests59.subtitle}"
 			tasks: [{
 				id: "10BAA54947D975AF"
 				item: "gtceu:diesel_bucket"
 				type: "item"
 			}]
-			title: "The Church of Diesel"
+			title: "{gregtech_modern.mv__medium_voltage.quests59.title}"
 			x: -2.25d
 			y: -3.0d
 		}
@@ -2070,18 +2070,18 @@
 			dependencies: ["1FFD2242B94A7378"]
 			dependency_requirement: "one_started"
 			description: [
-				"Regular &o&dGregTech&r Fluid Pipes can only transport one fluid type at a time."
+				"{gregtech_modern.mv__medium_voltage.quests60.description0}"
 				""
-				"&3Quadruple Fluid Pipes&r can transfer four different types of fluids. &3Nonuple Fluid Pipes&r can transfer nine different types! Useful for compact setups."
+				"{gregtech_modern.mv__medium_voltage.quests60.description1}"
 				""
-				"&3Nonuple Fluid Pipes&r will be useful in &5EV&r for handling the many outputs of the &3Distillation Tower&r."
+				"{gregtech_modern.mv__medium_voltage.quests60.description2}"
 				""
-				"Get &eeither&r to finish this quest."
+				"{gregtech_modern.mv__medium_voltage.quests60.description3}"
 			]
 			icon: "gtceu:tungsten_steel_quadruple_fluid_pipe"
 			id: "66041DE10C882382"
 			size: 0.66d
-			subtitle: "\"I thought channels were disabled!\""
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests60.subtitle}"
 			tasks: [{
 				id: "2620FA131244B3DA"
 				item: {
@@ -2100,24 +2100,24 @@
 						]
 					}
 				}
-				title: "Multiple Channel Potin Pipes, please"
+				title: "{gregtech_modern.mv__medium_voltage.quests60.tasks0.title}"
 				type: "item"
 			}]
-			title: "Multiple Channel Pipes"
+			title: "{gregtech_modern.mv__medium_voltage.quests60.title}"
 			x: 4.5d
 			y: -4.125d
 		}
 		{
 			dependencies: ["315169840E06110F"]
 			description: [
-				"Using a Ruby Lens, engrave a Silicon Wafer into an ILC Wafer."
+				"{gregtech_modern.mv__medium_voltage.quests61.description0}"
 				""
-				"This can be processed in a Cutter for IC Chips, which are important components that will be precious when improving upon your circuit crafting capabilities."
+				"{gregtech_modern.mv__medium_voltage.quests61.description1}"
 			]
 			icon: "gtceu:ilc_chip"
 			id: "6F6D2829FC42F21C"
 			size: 0.66d
-			subtitle: "I C U"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests61.subtitle}"
 			tasks: [
 				{
 					id: "295D2CE93D4CE067"
@@ -2137,21 +2137,21 @@
 					type: "item"
 				}
 			]
-			title: "IC Chips"
+			title: "{gregtech_modern.mv__medium_voltage.quests61.title}"
 			x: 5.625d
 			y: 2.625d
 		}
 		{
 			dependencies: ["315169840E06110F"]
 			description: [
-				"Using a Sapphire Lens, engrave a Silicon Wafer into an ULPIC Wafer."
+				"{gregtech_modern.mv__medium_voltage.quests62.description0}"
 				""
-				"This can be processed in a Cutter for ULPIC Chips, which are important for some multiblock components!"
+				"{gregtech_modern.mv__medium_voltage.quests62.description1}"
 			]
 			icon: "gtceu:ulpic_chip"
 			id: "16A1EF8B80A96633"
 			size: 0.66d
-			subtitle: "Pickin' up Chips"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests62.subtitle}"
 			tasks: [
 				{
 					id: "6D4D63F75646DB1C"
@@ -2171,23 +2171,23 @@
 					type: "item"
 				}
 			]
-			title: "ULPIC Chips"
+			title: "{gregtech_modern.mv__medium_voltage.quests62.title}"
 			x: 4.5d
 			y: 0.375d
 		}
 		{
 			dependencies: ["5C94CF50090D7DA0"]
 			description: [
-				"&3Long-Distance Item Pipes&r can be used to send items across great distances. Place one endpoint at each end, and connect them with pipeline blocks."
+				"{gregtech_modern.mv__medium_voltage.quests63.description0}"
 				""
-				"These pipes instantly transfer from the input side to the output side."
+				"{gregtech_modern.mv__medium_voltage.quests63.description1}"
 				""
-				"They also have a minimum distance between pipe endpoints, so you can't use these for short-range operations."
+				"{gregtech_modern.mv__medium_voltage.quests63.description2}"
 			]
 			icon: "gtceu:long_distance_item_pipeline_endpoint"
 			id: "653345427522D728"
 			size: 0.66d
-			subtitle: "Wondering how to move those ores around?"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests63.subtitle}"
 			tasks: [
 				{
 					count: 2L
@@ -2201,7 +2201,7 @@
 					type: "item"
 				}
 			]
-			title: "Long-Distance Items"
+			title: "{gregtech_modern.mv__medium_voltage.quests63.title}"
 			x: -3.375d
 			y: 0.375d
 		}
@@ -2211,18 +2211,18 @@
 				"575B07D390D9D079"
 			]
 			description: [
-				"&3Long-Distance Fluid Pipes&r can be used to send fluids across great distances. Place one endpoint at each end, and connect them with pipeline blocks."
+				"{gregtech_modern.mv__medium_voltage.quests64.description0}"
 				""
-				"These pipes instantly transfer from the input side to the output side."
+				"{gregtech_modern.mv__medium_voltage.quests64.description1}"
 				""
-				"They also have a minimum distance between pipe endpoints, so you can't use these for short-range operations."
+				"{gregtech_modern.mv__medium_voltage.quests64.description2}"
 				"{@pagebreak}"
-				"These pipes have a reputation of being &4buggy&r to set up. If they don't seem to work at first, try rotating the endpoints with a &eWrench&r."
+				"{gregtech_modern.mv__medium_voltage.quests64.description3}"
 			]
 			icon: "gtceu:long_distance_fluid_pipeline_endpoint"
 			id: "5480AF2EDEDB6A36"
 			size: 0.66d
-			subtitle: "Wondering how to move that oil around?"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests64.subtitle}"
 			tasks: [
 				{
 					count: 2L
@@ -2236,18 +2236,18 @@
 					type: "item"
 				}
 			]
-			title: "Long-Distance Fluids"
+			title: "{gregtech_modern.mv__medium_voltage.quests64.title}"
 			x: -3.375d
 			y: -0.75d
 		}
 		{
 			dependencies: ["682C26579EDDCA76"]
 			description: [
-				"Tired of running around your base yet? &3Travel Anchors&r make their introduction in the latest update!"
+				"{gregtech_modern.mv__medium_voltage.quests65.description0}"
 				""
-				"Aim the &aTravel Staff&r at a placed Anchor, then &6sneak-right-click&r to teleport on top. You can &bcustomise the appearance&r of a Travel Anchor by right-clicking it with a block in your off-hand, and you can &9rename&r Anchors in their GUI. The effective tool for breaking them is the &bWrench&r."
+				"{gregtech_modern.mv__medium_voltage.quests65.description1}"
 				""
-				"The &dEnder Pearls&r necessary to craft more Anchors won't be available yet - take a small handful of Anchors to make life a &olittle&r easier."
+				"{gregtech_modern.mv__medium_voltage.quests65.description2}"
 			]
 			icon: "travelanchors:travel_anchor"
 			id: "350E8A014DD8C838"
@@ -2259,13 +2259,13 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "pshhh... nothin personnel... kid"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests65.subtitle}"
 			tasks: [{
 				id: "132FA856BB60C546"
 				item: "travelanchors:travel_staff"
 				type: "item"
 			}]
-			title: "Travel Anchors"
+			title: "{gregtech_modern.mv__medium_voltage.quests65.title}"
 			x: 1.125d
 			y: 3.75d
 		}
@@ -2276,15 +2276,15 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"This Jetpack takes most &aCombustion Fuels&r (excluding oils) to enable a primitive form of flight."
+				"{gregtech_modern.mv__medium_voltage.quests66.description0}"
 				""
-				"Fill it like you would fill a Drum, or with a &3Canning Machine&r."
+				"{gregtech_modern.mv__medium_voltage.quests66.description1}"
 				""
-				"Press &4H&r (default) to enable Hover Mode."
+				"{gregtech_modern.mv__medium_voltage.quests66.description2}"
 			]
 			id: "6FA956DAA72D6139"
 			size: 0.5d
-			subtitle: "...well, almost Fly"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests66.subtitle}"
 			tasks: [{
 				id: "022324F9630960C6"
 				item: {
@@ -2294,7 +2294,7 @@
 				}
 				type: "item"
 			}]
-			title: "I Believe I Can Fly"
+			title: "{gregtech_modern.mv__medium_voltage.quests66.title}"
 			x: -0.5854591836734713d
 			y: -4.789540816326532d
 		}
@@ -2302,17 +2302,17 @@
 			dependencies: ["75F38905DEA60F15"]
 			dependency_requirement: "one_completed"
 			description: [
-				"This jetpack enables flight, and requires energy."
+				"{gregtech_modern.mv__medium_voltage.quests67.description0}"
 				""
-				"Charge it like you would charge a Battery."
+				"{gregtech_modern.mv__medium_voltage.quests67.description1}"
 				""
-				"Press &4H&r (default) to enable Hover Mode."
+				"{gregtech_modern.mv__medium_voltage.quests67.description2}"
 				""
-				"&o&8(Yeah, yeah, a jetpack is supposed to work off \"propellants\". Y'all are always here to nitpick.)&r"
+				"{gregtech_modern.mv__medium_voltage.quests67.description3}"
 			]
 			id: "21F70EACF6D81E6A"
 			size: 0.5d
-			subtitle: "...still not quite there."
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests67.subtitle}"
 			tasks: [{
 				id: "1940421A45E45E25"
 				item: {
@@ -2322,7 +2322,7 @@
 				}
 				type: "item"
 			}]
-			title: "I Believe I Can Fly II"
+			title: "{gregtech_modern.mv__medium_voltage.quests67.title}"
 			x: 1.7784863945578095d
 			y: -0.20216836734694255d
 		}
@@ -2330,57 +2330,57 @@
 			dependencies: ["26394C1290D70AB6"]
 			dependency_requirement: "one_completed"
 			description: [
-				"The &aPortable Scanner&r, or &aTricorder&r, is GTCEu's debug tool."
+				"{gregtech_modern.mv__medium_voltage.quests68.description0}"
 				""
-				"Using it will show you a block's details, the details of the energy network, its current status and contents, and its impact on performance."
+				"{gregtech_modern.mv__medium_voltage.quests68.description1}"
 				""
-				"It'll also display a percentage of fluid remaining in the fluid vein for the &3Fluid Rigs&r."
+				"{gregtech_modern.mv__medium_voltage.quests68.description2}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o This little useful device comes from GregTech 5. It was extremely useful in the early days, because very little information (basically nothing) was given by GUIs or WAILA."
+				"{gregtech_modern.mv__medium_voltage.quests68.description3}"
 			]
 			id: "26C43416F9427BB3"
 			size: 0.5d
-			subtitle: "For the nosiest GregTech players"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests68.subtitle}"
 			tasks: [{
 				id: "3E70CB46874DE7C1"
 				item: "gtceu:portable_scanner"
 				type: "item"
 			}]
-			title: "Tricorder"
+			title: "{gregtech_modern.mv__medium_voltage.quests68.title}"
 			x: 5.996173469387756d
 			y: -0.3042091836734713d
 		}
 		{
 			dependencies: ["0EFEE489906256AA"]
 			description: [
-				"In this quest, we'll bestow upon you &5cursed wisdom&r... the ability to easily automate the Electrolyzer."
+				"{gregtech_modern.mv__medium_voltage.quests69.description0}"
 				""
-				"The &9Smart Item Filter&r is a filter that recognises Recipe Maps. When placed on the side of a machine, you can set it to \"&3Electrolyzer&r\" to allow insertion of electrolyzable items specifically. You heard that right - no need to filter manually!"
+				"{gregtech_modern.mv__medium_voltage.quests69.description1}"
 				""
-				"Oh, and it only gets &abetter&r. If you combine this bad boy with a &aRobot Arm&r, it'll only supply the &6exact amount&r of items required for a successful recipe to the machine."
+				"{gregtech_modern.mv__medium_voltage.quests69.description2}"
 				"{@pagebreak}"
-				"Place the &aRobot Arm&r on your Electrolyzer, open its GUI, then place the &9Smart Filter&r inside. Ensure that the Smart Filter is set to Electrolyzer."
+				"{gregtech_modern.mv__medium_voltage.quests69.description3}"
 				""
-				"Next, configure it to &d&lImport&r and &d&lSupply Exact&r. Finally, attach any inventory &7(a chest will do)&r onto the side where you placed the &aRobot Arm&r. Ta-dah! You've figured out how to handle &6all&r Electrolyzer recipes!"
+				"{gregtech_modern.mv__medium_voltage.quests69.description4}"
 				""
-				"What about the output of the &3Electrolyzer&r? You may want to route the Fluids to several Tanks - or even &3Super Tanks&r if you've gotten that far. We highly recommend that you avoid any methods involving voiding Fluids.&7.&8. except for Water for obvious reasons."
+				"{gregtech_modern.mv__medium_voltage.quests69.description5}"
 				"{@pagebreak}"
-				"&9Note:&r The Robot Arm has to facilitate the item transfer for its filtering functionality to work! Inserting directly into the machine &7(for instance, pushing with a Hopper!)&r will ignore the Robot Arm's &dSupply Exact&r setting."
+				"{gregtech_modern.mv__medium_voltage.quests69.description6}"
 			]
 			icon: "gtceu:item_smart_filter"
 			id: "63AE94F1F504DE76"
 			size: 0.66d
-			subtitle: "Knock, knock - who's that? It's MENSA!"
+			subtitle: "{gregtech_modern.mv__medium_voltage.quests69.subtitle}"
 			tasks: [{
 				id: "1C19F21F1416DD52"
 				item: "gtceu:item_smart_filter"
 				type: "item"
 			}]
-			title: "200IQ"
+			title: "{gregtech_modern.mv__medium_voltage.quests69.title}"
 			x: -1.123469387755101d
 			y: 2.445153061224488d
 		}
 	]
-	subtitle: ["Venture into petrochemistry and refine electronics"]
-	title: "&bMV&r - Medium Voltage"
+	subtitle: ["{gregtech_modern.mv__medium_voltage.subtitle0}"]
+	title: "{gregtech_modern.mv__medium_voltage.title}"
 }

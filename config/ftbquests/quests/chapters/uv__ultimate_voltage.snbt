@@ -40,18 +40,18 @@
 		{
 			dependencies: ["6F15D7574B8F6DB5"]
 			description: [
-				"Crafting the &aUltimate Battery&r marks the end of GTCEu and the GregTech Community Modpack. &6Congratulations!&r"
+				"{gregtech_modern.uv__ultimate_voltage.quests0.description0}"
 				""
-				"Now that you've finished the mod, there's a few things you should do:"
+				"{gregtech_modern.uv__ultimate_voltage.quests0.description1}"
 				""
-				"- &9Join the GTCEu Discord&r and tell us about how your playthrough went! Feel free to show off your battery :) "
+				"{gregtech_modern.uv__ultimate_voltage.quests0.description2}"
 				""
-				"- &eGo outside&r (and start playing GregTech in real life, right?). Integrate back into regular society."
+				"{gregtech_modern.uv__ultimate_voltage.quests0.description3}"
 				""
-				"- &cBlow up your world with TNT and GT Dynamite&r. &nPlease, please, PLEASE make a backup first!!!&r"
+				"{gregtech_modern.uv__ultimate_voltage.quests0.description4}"
 				""
-				"&6&lThank you for playing the pack! :D&r"
-				"- The GregTech Community Pack Dev Team"
+				"{gregtech_modern.uv__ultimate_voltage.quests0.description5}"
+				"{gregtech_modern.uv__ultimate_voltage.quests0.description6}"
 			]
 			hide_details_until_startable: true
 			hide_text_until_complete: true
@@ -69,13 +69,13 @@
 			id: "6E8F257261F93501"
 			shape: "heart"
 			size: 4.0d
-			subtitle: "Is this... the end?"
+			subtitle: "{gregtech_modern.uv__ultimate_voltage.quests0.subtitle}"
 			tasks: [{
 				id: "0BE31C55310D03A8"
-				title: "Thanks for playing!"
+				title: "{gregtech_modern.uv__ultimate_voltage.quests0.tasks0.title}"
 				type: "checkmark"
 			}]
-			title: "The Finale"
+			title: "{gregtech_modern.uv__ultimate_voltage.quests0.title}"
 			x: 10.125d
 			y: 1.5d
 		}
@@ -87,9 +87,9 @@
 				"0199DBC46D7BC2B9"
 			]
 			description: [
-				"This Maintenance Hatch is an upgrade to the Automatic Maintenance Hatch."
+				"{gregtech_modern.uv__ultimate_voltage.quests1.description0}"
 				""
-				"It allows your Multiblock to run regular &aCleanroom recipes&r when not contained inside one - but not Sterilized recipes."
+				"{gregtech_modern.uv__ultimate_voltage.quests1.description1}"
 			]
 			id: "1976F9B2220BBEDE"
 			shape: "rsquare"
@@ -99,7 +99,7 @@
 				item: "gtceu:cleaning_maintenance_hatch"
 				type: "item"
 			}]
-			title: "Cleaning Maintenance Hatch"
+			title: "{gregtech_modern.uv__ultimate_voltage.quests1.title}"
 			x: 5.625d
 			y: 2.625d
 		}
@@ -110,14 +110,14 @@
 				"762C48F0C2EA6B81"
 			]
 			description: [
-				"The &aUV Lapotronic Orb&r is even better than the &cZPM&r one! It of course comes at a price..."
+				"{gregtech_modern.uv__ultimate_voltage.quests2.description0}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Imagine making 512 &1IV&f Orbs, or 64 &dLuV&f Orbs... or 8 &cZPM&f Orbs.... for just one of these! See the Lore for the LuV orb for details."
+				"{gregtech_modern.uv__ultimate_voltage.quests2.description1}"
 			]
 			icon: "gtceu:energy_cluster"
 			id: "3D9D27F29D9D12F6"
 			size: 0.75d
-			subtitle: "It holds way too much power!"
+			subtitle: "{gregtech_modern.uv__ultimate_voltage.quests2.subtitle}"
 			tasks: [
 				{
 					id: "3A3B82E7FEE173C3"
@@ -130,7 +130,7 @@
 					type: "item"
 				}
 			]
-			title: "Ultimate Battery?"
+			title: "{gregtech_modern.uv__ultimate_voltage.quests2.title}"
 			x: 7.875d
 			y: 2.625d
 		}
@@ -140,15 +140,15 @@
 				"0009F48B6E385A47"
 			]
 			description: [
-				"The amount of EU this battery can store is the max value of a Long Integer in Java."
+				"{gregtech_modern.uv__ultimate_voltage.quests3.description0}"
 				""
-				"Don't try to win Minecraft - you can't."
+				"{gregtech_modern.uv__ultimate_voltage.quests3.description1}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o You're probably tired of this by now, but things are different with the battery lore this time. We promise."
+				"{gregtech_modern.uv__ultimate_voltage.quests3.description2}"
 				""
-				"&oGTCEu's ultimate battery uses 16 &3UV&f orbs. GTNH's only uses 8. However, GTNH also has a &lReally Ultimate Battery&r&o made of 8 Ultimate Batteries! It's not useful at all, but still exists..."
+				"{gregtech_modern.uv__ultimate_voltage.quests3.description3}"
 				""
-				"&oThey also added an &lExtremely Ultimate Battery&r&o made of 8 Really Ultimate Batteries, which is ludicrously expensive."
+				"{gregtech_modern.uv__ultimate_voltage.quests3.description4}"
 			]
 			id: "6F15D7574B8F6DB5"
 			rewards: [{
@@ -158,34 +158,34 @@
 			}]
 			shape: "gear"
 			size: 1.3d
-			subtitle: "Consider touching some grass"
+			subtitle: "{gregtech_modern.uv__ultimate_voltage.quests3.subtitle}"
 			tasks: [{
 				id: "5EDF6F9FD702E463"
 				item: "gtceu:max_battery"
 				type: "item"
 			}]
-			title: "Ultimate Battery!"
+			title: "{gregtech_modern.uv__ultimate_voltage.quests3.title}"
 			x: 7.875d
 			y: 1.5d
 		}
 		{
 			dependencies: ["3CDA855A045A9F4D"]
 			description: [
-				"The &3Network Switch&r allows multiple HPCAs to be used in conjunction with each other! This allows you to provide far more computation to your &aResearch Station&r."
+				"{gregtech_modern.uv__ultimate_voltage.quests4.description0}"
 				""
-				"HPCAs can be connected to &3Network Switches&r with transmission and reception hatches, and then the Network Switch can output to a &aResearch Station&r with another transmission hatch."
+				"{gregtech_modern.uv__ultimate_voltage.quests4.description1}"
 				""
-				"HPCAs cannot connect to &3Network Switches&r by default, and each connected HPCA requires an &3HPCA Bridge Component&r to enable this functionality."
+				"{gregtech_modern.uv__ultimate_voltage.quests4.description2}"
 			]
 			id: "0BADFBA6F96E457E"
 			size: 0.75d
-			subtitle: "With our powers combined..."
+			subtitle: "{gregtech_modern.uv__ultimate_voltage.quests4.subtitle}"
 			tasks: [{
 				id: "5816F0458BEA1BCD"
 				item: "gtceu:network_switch"
 				type: "item"
 			}]
-			title: "Network Switch"
+			title: "{gregtech_modern.uv__ultimate_voltage.quests4.title}"
 			x: 2.25d
 			y: 0.375d
 		}
@@ -195,20 +195,20 @@
 				"359121584E056022"
 			]
 			description: [
-				"This is a huge accomplishment, nice job!"
+				"{gregtech_modern.uv__ultimate_voltage.quests5.description0}"
 				""
-				"The only ingredient that should be new to you are the &4Tritanium Frames&r."
+				"{gregtech_modern.uv__ultimate_voltage.quests5.description1}"
 			]
 			id: "3B49BD004F38E1A2"
 			shape: "gear"
 			size: 1.2d
-			subtitle: "The &6final&r circuit"
+			subtitle: "{gregtech_modern.uv__ultimate_voltage.quests5.subtitle}"
 			tasks: [{
 				id: "433027F7B7C732A1"
 				item: "gtceu:wetware_processor_mainframe"
 				type: "item"
 			}]
-			title: "Wetware Mainframe - The UHV Circuit"
+			title: "{gregtech_modern.uv__ultimate_voltage.quests5.title}"
 			x: 3.375d
 			y: -0.75d
 		}
@@ -217,37 +217,37 @@
 				"0BADFBA6F96E457E"
 				"42760D3A86EFDCA3"
 			]
-			description: ["The &3Data Module&r is required for Endgame Research. &aAssembly Lines&r cannot read from it using &aData Access Hatches&r directly, and instead require the &9Data Bank&r."]
+			description: ["{gregtech_modern.uv__ultimate_voltage.quests6.description0}"]
 			id: "45E300FD7CD05A37"
 			size: 0.75d
-			subtitle: "Data storage sure is expensive..."
+			subtitle: "{gregtech_modern.uv__ultimate_voltage.quests6.subtitle}"
 			tasks: [{
 				id: "10F68287B673E16E"
 				item: "gtceu:data_module"
 				type: "item"
 			}]
-			title: "Data Module"
+			title: "{gregtech_modern.uv__ultimate_voltage.quests6.title}"
 			x: 3.375d
 			y: 0.375d
 		}
 		{
 			dependencies: ["023FF9633765A0EB"]
 			description: [
-				"&6Neutronium&r is a hyper-dense material normally found in the hearts of neutron stars: the collapsed cores of stars between ten and thirty times the size of the sun. It is the final primary material in GTCEu."
+				"{gregtech_modern.uv__ultimate_voltage.quests7.description0}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In GCYL, Neutronium is unlocked at UMV-tier (called UXV in CEu). There is also Cosmic Neutronium, which is equivalent to Avaritia's Neutronium in GT5u, which was unlocked even later in GCYL!"
+				"{gregtech_modern.uv__ultimate_voltage.quests7.description1}"
 				""
-				"&l&3More Lore:&r&o Fun Fact: a single Neutronium block is approximately 2884 million metric tons and somewhere around 600000K, yet you're somehow capable of holding one with your bare hands. Don't think about it too much."
+				"{gregtech_modern.uv__ultimate_voltage.quests7.description2}"
 			]
 			id: "6DBF61D4F94BC851"
 			size: 0.75d
-			subtitle: "Pure Neutrons"
+			subtitle: "{gregtech_modern.uv__ultimate_voltage.quests7.subtitle}"
 			tasks: [{
 				id: "0454B12D9A5C9795"
 				item: "gtceu:neutronium_ingot"
 				type: "item"
 			}]
-			title: "Neutronium"
+			title: "{gregtech_modern.uv__ultimate_voltage.quests7.title}"
 			x: 5.625d
 			y: -0.75d
 		}
@@ -258,44 +258,44 @@
 				"35F13B6D60361904"
 			]
 			description: [
-				"&aTritanium Coils&r bring the Heat Capacity to &d10,800K&r."
+				"{gregtech_modern.uv__ultimate_voltage.quests8.description0}"
 				""
-				"These coils aren't needed for much, but they'll provide another perfect overclock for most recipes!"
+				"{gregtech_modern.uv__ultimate_voltage.quests8.description1}"
 			]
 			id: "6AF3A40BC9CE7122"
 			size: 0.75d
-			subtitle: "Why would you even need something this hot?!"
+			subtitle: "{gregtech_modern.uv__ultimate_voltage.quests8.subtitle}"
 			tasks: [{
 				count: 16L
 				id: "43CE7370C6D03DFD"
 				item: "gtceu:tritanium_coil_block"
 				type: "item"
 			}]
-			title: "Tritanium Coils"
+			title: "{gregtech_modern.uv__ultimate_voltage.quests8.title}"
 			x: 4.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["6DBF61D4F94BC851"]
 			description: [
-				"A goal if you really want to make a point."
+				"{gregtech_modern.uv__ultimate_voltage.quests9.description0}"
 				""
-				"If you make this in a &3UV&r machine, it'll take you 10 days."
+				"{gregtech_modern.uv__ultimate_voltage.quests9.description1}"
 				""
-				"If you overclock a Gregicality Multiblock to UEV (by using a 4A &4UHV&r hatch), you'll still be waiting for 2.5 days!"
+				"{gregtech_modern.uv__ultimate_voltage.quests9.description2}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o The NAN Certificate comes from Crops++, a GT5u addon that adds a wide variety of IC2 crops."
+				"{gregtech_modern.uv__ultimate_voltage.quests9.description3}"
 			]
 			id: "3ED40CE1E4476C99"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Obtain for G.O.A.T Status"
+			subtitle: "{gregtech_modern.uv__ultimate_voltage.quests9.subtitle}"
 			tasks: [{
 				id: "29384189E33C8CB1"
 				item: "gtceu:nan_certificate"
 				type: "item"
 			}]
-			title: "Certificate of not being a Noob anymore"
+			title: "{gregtech_modern.uv__ultimate_voltage.quests9.title}"
 			x: 5.625d
 			y: 0.375d
 		}
@@ -307,22 +307,22 @@
 				"0199DBC46D7BC2B9"
 			]
 			description: [
-				"&3UV&r Components are a tad harder than &cZPM&r. "
+				"{gregtech_modern.uv__ultimate_voltage.quests10.description0}"
 				""
-				"They use lots of &9Tritanium&r and &9Naquadria&r, so make sure your have enough Fusion Reactors, and a fast enough Naquadah Plant."
+				"{gregtech_modern.uv__ultimate_voltage.quests10.description1}"
 				""
-				"They also need a lot more &9Computation&r, which means &3Advanced HPCA Components&r are now required!"
+				"{gregtech_modern.uv__ultimate_voltage.quests10.description2}"
 				""
-				"Computation Needs for early &3UV&r:"
+				"{gregtech_modern.uv__ultimate_voltage.quests10.description3}"
 				""
-				"- &a32 CWU/t&r: Basic &3UV&r Components and the Network Switch"
-				"- &a48 CWU/t&r: &3UV&r Sensor, Emitter, and Field Generator"
+				"{gregtech_modern.uv__ultimate_voltage.quests10.description4}"
+				"{gregtech_modern.uv__ultimate_voltage.quests10.description5}"
 			]
 			icon: "gtceu:uv_electric_motor"
 			id: "26F5A04750F6B6DD"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Prepare your Fusion Reactors!"
+			subtitle: "{gregtech_modern.uv__ultimate_voltage.quests10.subtitle}"
 			tasks: [
 				{
 					id: "3AD82F68865047F3"
@@ -350,7 +350,7 @@
 					type: "item"
 				}
 			]
-			title: "Total Euphoria"
+			title: "{gregtech_modern.uv__ultimate_voltage.quests10.title}"
 			x: 5.625d
 			y: 1.5d
 		}
@@ -360,11 +360,11 @@
 				"0BADFBA6F96E457E"
 			]
 			description: [
-				"This Quest will be completed with &eeither&r a &3UV Energy Hatch&r&r... or a &3UV Dynamo Hatch&r for your Multiblock Generators."
+				"{gregtech_modern.uv__ultimate_voltage.quests11.description0}"
 				""
-				"Don't forget that &d16 Amp&r variants exist!"
+				"{gregtech_modern.uv__ultimate_voltage.quests11.description1}"
 				""
-				"Additionally, remember that these hatches require a &9Data Module&r for research."
+				"{gregtech_modern.uv__ultimate_voltage.quests11.description2}"
 			]
 			icon: "gtceu:uv_energy_input_hatch"
 			id: "2F2F82D9DE3C798C"
@@ -382,16 +382,16 @@
 					type: "item"
 				}
 			]
-			title: "Upgrading your Assembly Line III"
+			title: "{gregtech_modern.uv__ultimate_voltage.quests11.title}"
 			x: 4.5d
 			y: 0.375d
 		}
 		{
 			dependencies: ["6AF3A40BC9CE7122"]
 			description: [
-				"&aUV Superconductors&r show up a lot in recipes when making a &9Fusion Reactor Mk3&r. Better get ready to make a boatload..."
+				"{gregtech_modern.uv__ultimate_voltage.quests12.description0}"
 				""
-				"You can also use them to cheapen &9Superconducting Coils&r even further."
+				"{gregtech_modern.uv__ultimate_voltage.quests12.description1}"
 			]
 			id: "3CDA855A045A9F4D"
 			shape: "rsquare"
@@ -401,18 +401,18 @@
 				item: "gtceu:enriched_naquadah_trinium_europium_duranide_single_wire"
 				type: "item"
 			}]
-			title: "UV Superconductors"
+			title: "{gregtech_modern.uv__ultimate_voltage.quests12.title}"
 			x: 2.25d
 			y: 1.5d
 		}
 		{
 			dependencies: ["616DB394EB7D81D6"]
 			description: [
-				"This Quest will be completed with &eeither&r a &3UHV Energy Hatch&r&r... or a &3UHV Dynamo Hatch&r for your Multiblock Generators."
+				"{gregtech_modern.uv__ultimate_voltage.quests13.description0}"
 				""
-				"These are the final energy hatches in GTCEu. It's been a pleasure upgrading our multiblocks together o7"
+				"{gregtech_modern.uv__ultimate_voltage.quests13.description1}"
 				""
-				"Don't forget about the &d16 amp&r versions!"
+				"{gregtech_modern.uv__ultimate_voltage.quests13.description2}"
 			]
 			icon: "gtceu:uhv_energy_input_hatch"
 			id: "5570F02C03267B36"
@@ -430,59 +430,59 @@
 					type: "item"
 				}
 			]
-			title: "Upgrading your Assembly Line for the Last Time"
+			title: "{gregtech_modern.uv__ultimate_voltage.quests13.title}"
 			x: 6.75d
 			y: -1.875d
 		}
 		{
 			dependencies: ["6DBF61D4F94BC851"]
 			description: [
-				"This is the &afinal silicon boule&r, which will allow you to produce a ton of wafers."
+				"{gregtech_modern.uv__ultimate_voltage.quests14.description0}"
 				""
-				"It also unlocks the recipe for the &aHighly Advanced SoC&r, which is used to make cheaper &4wetware circuits&r."
+				"{gregtech_modern.uv__ultimate_voltage.quests14.description1}"
 			]
 			icon: "gtceu:neutronium_boule"
 			id: "3F058322E1A8D5EC"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Neutron -> Electron Holes"
+			subtitle: "{gregtech_modern.uv__ultimate_voltage.quests14.subtitle}"
 			tasks: [{
 				id: "74712C8E9A6561A0"
 				item: "gtceu:neutronium_boule"
 				type: "item"
 			}]
-			title: "Neutronium-doped Silicon Boule"
+			title: "{gregtech_modern.uv__ultimate_voltage.quests14.title}"
 			x: 6.75d
 			y: -0.75d
 		}
 		{
 			dependencies: ["0009F48B6E385A47"]
-			description: ["The &aCreative Energy Cell&r is one of the few craftable creative items. It provides infinite energy to your AE system, so you don't have to worry about blackouts or power anymore."]
+			description: ["{gregtech_modern.uv__ultimate_voltage.quests15.description0}"]
 			id: "428C62749A1A1BAB"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Ok, maybe there are Creative items."
+			subtitle: "{gregtech_modern.uv__ultimate_voltage.quests15.subtitle}"
 			tasks: [{
 				id: "392079FDF410B9FD"
 				item: "ae2:creative_energy_cell"
 				type: "item"
 			}]
-			title: "Creative ME Energy"
+			title: "{gregtech_modern.uv__ultimate_voltage.quests15.title}"
 			x: 7.875d
 			y: -1.875d
 		}
 		{
 			dependencies: ["6DBF61D4F94BC851"]
-			description: ["The &aGravi Star&r is the final upgraded Nether Star in GTCEu. It's needed for &3UV&r Sensors, Emitters, and Field Generators."]
+			description: ["{gregtech_modern.uv__ultimate_voltage.quests16.description0}"]
 			id: "0009F48B6E385A47"
 			size: 0.75d
-			subtitle: "Unfortunately, doesn't make you float"
+			subtitle: "{gregtech_modern.uv__ultimate_voltage.quests16.subtitle}"
 			tasks: [{
 				id: "06668056CFF73DBD"
 				item: "gtceu:gravi_star"
 				type: "item"
 			}]
-			title: "Gravi Star"
+			title: "{gregtech_modern.uv__ultimate_voltage.quests16.title}"
 			x: 7.875d
 			y: -0.75d
 		}
@@ -493,68 +493,68 @@
 				"762C48F0C2EA6B81"
 			]
 			description: [
-				"Build the structure displayed with Fusion Glass in &aEMI&r."
+				"{gregtech_modern.uv__ultimate_voltage.quests17.description0}"
 				""
-				"To save on Fusion Casings, fit Input + Output Hatches wherever you can (as displayed in the structure)."
+				"{gregtech_modern.uv__ultimate_voltage.quests17.description1}"
 				""
-				"The &aFusion Reactor Mk3&r is even more expensive than the Mk2! The key difference is that it has a higher &6Energy To Start&r than the Mk2, allowing you to run new recipes."
+				"{gregtech_modern.uv__ultimate_voltage.quests17.description2}"
 				""
-				"It can also overclock lower voltage recipes, such as those in the Mk1 or Mk2 reactor. See the Mk1's quest for how these mechanics work."
+				"{gregtech_modern.uv__ultimate_voltage.quests17.description3}"
 			]
 			id: "023FF9633765A0EB"
 			size: 0.75d
-			subtitle: "The most expensive form of Fusion"
+			subtitle: "{gregtech_modern.uv__ultimate_voltage.quests17.subtitle}"
 			tasks: [{
 				id: "571672CEA7362C63"
 				item: "gtceu:uv_fusion_reactor"
 				type: "item"
 			}]
-			title: "Fusion Reactor III"
+			title: "{gregtech_modern.uv__ultimate_voltage.quests17.title}"
 			x: 4.5d
 			y: -0.75d
 		}
 		{
 			dependencies: ["6DBF61D4F94BC851"]
 			description: [
-				"You probably don't even need these, but &aUHV Superconductors&r exist, and are used for a few things, which you also probably don't need..."
+				"{gregtech_modern.uv__ultimate_voltage.quests18.description0}"
 				""
-				"Craft these if you feel like flexing."
+				"{gregtech_modern.uv__ultimate_voltage.quests18.description1}"
 			]
 			id: "616DB394EB7D81D6"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Is Neutronate even a real thing?"
+			subtitle: "{gregtech_modern.uv__ultimate_voltage.quests18.subtitle}"
 			tasks: [{
 				id: "665AC3D87C204E18"
 				item: "gtceu:ruthenium_trinium_americium_neutronate_single_wire"
 				type: "item"
 			}]
-			title: "UHV Superconductors"
+			title: "{gregtech_modern.uv__ultimate_voltage.quests18.title}"
 			x: 5.625d
 			y: -1.875d
 		}
 		{
 			dependencies: ["3F058322E1A8D5EC"]
 			description: [
-				"&aHighly Advanced SoC&rs will make crafting &4wetware circuits&r much easier."
+				"{gregtech_modern.uv__ultimate_voltage.quests19.description0}"
 				""
-				"The drawback is that the recipe requires UV power, but that's no problem to you, right?"
+				"{gregtech_modern.uv__ultimate_voltage.quests19.description1}"
 			]
 			icon: "gtceu:highly_advanced_soc"
 			id: "0D3B74E82F1CFE8A"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Can we get much higher?"
+			subtitle: "{gregtech_modern.uv__ultimate_voltage.quests19.subtitle}"
 			tasks: [{
 				id: "493CC040B9974B42"
 				item: "gtceu:highly_advanced_soc"
 				type: "item"
 			}]
-			title: "Highly Advanced SoCs"
+			title: "{gregtech_modern.uv__ultimate_voltage.quests19.title}"
 			x: 6.75d
 			y: 0.375d
 		}
 	]
-	subtitle: ["Bring your long journey to a well-deserved end"]
-	title: "&3UV&r - Ultimate Voltage"
+	subtitle: ["{gregtech_modern.uv__ultimate_voltage.subtitle0}"]
+	title: "{gregtech_modern.uv__ultimate_voltage.title}"
 }

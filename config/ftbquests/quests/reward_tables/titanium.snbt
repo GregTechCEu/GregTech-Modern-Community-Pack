@@ -6,5 +6,5 @@
 		{ count: 12, item: "gtceu:endstone_bauxite_ore" }
 		{ count: 12, item: "gtceu:endstone_ilmenite_ore" }
 	]
-	title: "titanium"
+	title: "{gregtech_modern.titanium.title}"
 }

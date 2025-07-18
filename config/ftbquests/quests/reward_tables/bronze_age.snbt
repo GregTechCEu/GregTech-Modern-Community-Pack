@@ -6,5 +6,5 @@
 		{ count: 32, item: "minecraft:copper_ingot" }
 		{ count: 32, item: "gtceu:tin_ingot" }
 	]
-	title: "bronze_age"
+	title: "{gregtech_modern.bronze_age.title}"
 }
