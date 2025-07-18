@@ -105,12 +105,8 @@
 			y: -1.875d
 		}
 		{
-<<<<<<< Updated upstream
-			dependencies: ["648BCF486E16CCB2"]
-=======
 			dependencies: ["74180AC57AE9F0FE"]
 			dependency_requirement: "one_started"
->>>>>>> Stashed changes
 			description: [
 				"The Brewery can be used to make &aLubricant&r from &aRedstone&r and &aCreosote&r/&aOil&r. Lubricant has some niche uses, namely being used in the &3Cutter&r to significantly reduce the duration of its recipes."
 				""
@@ -173,13 +169,8 @@
 				type: "item"
 			}]
 			title: "Ethylene"
-<<<<<<< Updated upstream
-			x: 1.125d
-			y: -3.0d
-=======
 			x: 5.625d
 			y: -4.125d
->>>>>>> Stashed changes
 		}
 		{
 			dependencies: [
@@ -236,13 +227,6 @@
 				}
 			]
 			title: "Naphtha"
-<<<<<<< Updated upstream
-			x: -1.125d
-			y: -4.125d
-		}
-		{
-			dependencies: ["6238B2A7ED1BE5A1"]
-=======
 			x: -4.5d
 			y: -3.0d
 		}
@@ -252,7 +236,6 @@
 				"035CF39E6CC98B77"
 			]
 			dependency_requirement: "one_completed"
->>>>>>> Stashed changes
 			description: [
 				"Don't panic! We'll mostly be doing this to get hydrocarbons."
 				""
@@ -275,11 +258,7 @@
 				type: "item"
 			}]
 			title: "Fuel Cracking"
-<<<<<<< Updated upstream
-			x: 0.0d
-=======
 			x: -4.5d
->>>>>>> Stashed changes
 			y: -4.125d
 		}
 		{
@@ -860,11 +839,7 @@
 			}]
 			title: "Greenhouse"
 			x: 0.0d
-<<<<<<< Updated upstream
-			y: 2.625d
-=======
 			y: -1.875d
->>>>>>> Stashed changes
 		}
 		{
 			dependencies: [
@@ -1365,14 +1340,9 @@
 			]
 			icon: "ae2:blank_pattern"
 			id: "1C036BCB2C488CFF"
-<<<<<<< Updated upstream
-			size: 0.66d
-			subtitle: "Autocrafting at last!"
-=======
 			shape: "square"
 			size: 0.75d
-			subtitle: "Autocrafting at last! Well...you'll still need silicon ingots first..."
->>>>>>> Stashed changes
+			subtitle: "Autocrafting at last!"
 			tasks: [{
 				id: "032C24CBA8687E72"
 				item: "ae2:blank_pattern"
@@ -1536,13 +1506,8 @@
 				type: "item"
 			}]
 			title: "Sulfuric Acid"
-<<<<<<< Updated upstream
-			x: 1.125d
-			y: -4.125d
-=======
 			x: 4.5d
 			y: -3.0d
->>>>>>> Stashed changes
 		}
 		{
 			dependencies: [
@@ -1573,13 +1538,8 @@
 				type: "item"
 			}]
 			title: "Hydrochloric Acid"
-<<<<<<< Updated upstream
-			x: 3.375d
-			y: -4.125d
-=======
 			x: 2.25d
 			y: -3.0d
->>>>>>> Stashed changes
 		}
 		{
 			dependencies: [
@@ -1761,19 +1721,11 @@
 				type: "item"
 			}]
 			title: "Fluid Drilling Rigs"
-<<<<<<< Updated upstream
-			x: -1.125d
-			y: 0.375d
-		}
-		{
-			dependencies: ["648BCF486E16CCB2"]
-=======
 			x: -2.25d
 			y: -0.75d
 		}
 		{
 			dependencies: ["74180AC57AE9F0FE"]
->>>>>>> Stashed changes
 			description: [
 				"Get any kind of &3Pump&r, place it above an Oil spout and... give it some power."
 				""
@@ -1863,19 +1815,11 @@
 				}
 			]
 			title: "US Simulator"
-<<<<<<< Updated upstream
-			x: -1.125d
-			y: -0.75d
-		}
-		{
-			dependencies: ["648BCF486E16CCB2"]
-=======
 			x: -3.375d
 			y: -0.75d
 		}
 		{
 			dependencies: ["74180AC57AE9F0FE"]
->>>>>>> Stashed changes
 			description: [
 				"Underground, you may come across pure Oilsands ore veins. You can &3centrifuge&r the Dust to get &aOil&r."
 				""
@@ -1921,28 +1865,16 @@
 				}
 			]
 			title: "America Simulator"
-<<<<<<< Updated upstream
-			x: -2.25d
-=======
 			x: -4.5d
->>>>>>> Stashed changes
 			y: -0.75d
 		}
 		{
 			dependencies: [
-<<<<<<< Updated upstream
-				"53DC6E32C41C94C3"
-				"6EB68C28BEE24DEF"
-				"0774EC59CD3DD7A5"
-				"575B07D390D9D079"
-				"05ADBAE5B6F38956"
-=======
 				"0774EC59CD3DD7A5"
 				"575B07D390D9D079"
 				"05ADBAE5B6F38956"
 				"37AAB88A9EDCC862"
 				"6EB68C28BEE24DEF"
->>>>>>> Stashed changes
 			]
 			description: [
 				"Before we start, here's some important information if you're aiming to make Ethylene:"
@@ -2000,11 +1932,7 @@
 				type: "item"
 			}]
 			title: "Distillery"
-<<<<<<< Updated upstream
-			x: -1.125d
-=======
 			x: -3.375d
->>>>>>> Stashed changes
 			y: -1.875d
 		}
 		{
@@ -2070,13 +1998,8 @@
 				type: "item"
 			}]
 			title: "The Church of Benzene"
-<<<<<<< Updated upstream
-			x: -2.25d
-			y: -1.875d
-=======
 			x: -3.375d
 			y: -3.0d
->>>>>>> Stashed changes
 		}
 		{
 			dependencies: ["6A304E453D74C57C"]
@@ -2107,13 +2030,8 @@
 				}
 			]
 			title: "Light Fuel"
-<<<<<<< Updated upstream
-			x: -1.125d
-			y: -3.0d
-=======
 			x: -5.625d
 			y: -1.875d
->>>>>>> Stashed changes
 		}
 		{
 			dependencies: ["61972B16805FC9EE"]
@@ -2158,13 +2076,8 @@
 				type: "item"
 			}]
 			title: "The Church of Diesel"
-<<<<<<< Updated upstream
-			x: -2.25d
-			y: -3.0d
-=======
 			x: -6.75d
 			y: -1.875d
->>>>>>> Stashed changes
 		}
 		{
 			dependencies: ["1FFD2242B94A7378"]
@@ -2338,13 +2251,8 @@
 				}
 			]
 			title: "Long-Distance Fluids"
-<<<<<<< Updated upstream
-			x: -3.375d
-			y: -0.75d
-=======
 			x: -4.5d
 			y: 0.375d
->>>>>>> Stashed changes
 		}
 		{
 			dependencies: ["682C26579EDDCA76"]
@@ -2401,13 +2309,8 @@
 				type: "item"
 			}]
 			title: "I Believe I Can Fly"
-<<<<<<< Updated upstream
-			x: -0.5854591836734713d
-			y: -4.789540816326532d
-=======
 			x: -5.625d
 			y: -0.75d
->>>>>>> Stashed changes
 		}
 		{
 			dependencies: ["75F38905DEA60F15"]
@@ -2491,8 +2394,6 @@
 			x: -1.123469387755101d
 			y: 2.445153061224488d
 		}
-<<<<<<< Updated upstream
-=======
 		{
 			dependencies: ["7567E885B7166603"]
 			description: [
@@ -2589,7 +2490,6 @@
 			x: -2.25d
 			y: -1.875d
 		}
->>>>>>> Stashed changes
 	]
 	subtitle: ["Venture into petrochemistry and refine electronics"]
 	title: "&bMV&r - Medium Voltage"
