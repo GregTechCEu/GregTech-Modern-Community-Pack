@@ -1966,7 +1966,7 @@
 			]
 			icon: {
 				Count: 1
-				id: "gtceu:avanced_nanomuscle_chestplate"
+				id: "gtceu:advanced_nanomuscle_chestplate"
 				tag: {
 					Damage: 0
 				}
@@ -1980,7 +1980,7 @@
 				id: "3D2600C788928F76"
 				item: {
 					Count: 1
-					id: "gtceu:avanced_nanomuscle_chestplate"
+					id: "gtceu:advanced_nanomuscle_chestplate"
 					tag: {
 						Damage: 0
 					}
