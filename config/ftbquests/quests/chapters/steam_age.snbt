@@ -54,8 +54,8 @@
 				type: "item"
 			}]
 			title: "No More Penalty"
-			x: -0.09909863945578223d
-			y: -2.260051020408156d
+			x: 0.0d
+			y: -1.98d
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
@@ -88,8 +88,8 @@
 				type: "item"
 			}]
 			title: "Is it a Phantom? Is it an Elytra?"
-			x: 1.9417176870748278d
-			y: -2.5865816326530435d
+			x: 2.5d
+			y: -2.25d
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
@@ -161,8 +161,8 @@
 				type: "item"
 			}]
 			title: "High Pressure"
-			x: -0.1399149659863994d
-			y: -1.4233163265306032d
+			x: 0.0d
+			y: -1.2d
 		}
 		{
 			dependencies: ["03DBF1961AE21C76"]
@@ -221,12 +221,15 @@
 				"With a very small percentage of carbon in its mass, Steel is significantly tougher than Iron or Wrought Iron.&r"
 				""
 				"One &3PBF&r most likely won't cut it moving forwards. Make another one, and you'll effectively halve the time spent waiting for Steel."
+				""
+				"To save the most time, use blocks of &aCoke&r and &eWrought Iron&r - this generates a block of Steel every 270 seconds. Not bad!"
+				""
 				"{@pagebreak}"
 				"Just to check - did you know GregTech multiblocks can &dshare walls&r? This could save you a whole 12 Firebricks for your second PBF. &7There may be more efficient setups, but don't stress out over figuring them out.&r"
 				""
 				"What you &omay&r also do is upgrade to four &3PBFs&r. It just depends on how much time you want to dedicate to resource collection, but more PBFs are always nice. We won't force you to make them, don't worry."
 				""
-				"&9Note:&r The &3PBF&r cannot be (reasonably) automated, but putting blocks of Iron and Coke/Charcoal will guarantee it will run for a long time without needing to be babysat."
+				"&9Note:&r The &3PBF&r cannot be (reasonably) automated, but putting blocks of Iron and Coke or Charcoal will guarantee it will run for a long time without needing to be babysat."
 				"{@pagebreak}"
 				"&l&3Lore:&r&o  In GregTech 5, one single Ingot of Steel would take you &d360 seconds&f in the PBF when using Coal or Charcoal! That's over &e6 hours&f for a whole stack! Of course, with 4 PBFs, that would cut it down to &3around 1.5 hours&f."
 				""
@@ -280,7 +283,7 @@
 				""
 				"Additionally, &6Nether Ores are worth two Overworld Ores&r if mined with &3Silk Touch&r. It'd be great if you could craft the book directly, huh? ;)"
 				"{@pagebreak}"
-				"&4Nether&r veins will take more effort to find - and are more dangerous to mine - than &2Overworld&r veins. Keep on top of your mining by using Waypoints."
+				"&4Nether&r veins will take more effort to find - and are more dangerous to mine - than &2Overworld&r veins. Keep on top of your mining by using Waypoints - and remember that veins can be above you as well!"
 				""
 				"If you're yet to transition to &dPeaceful&r, it isn't too late to make the switch! There's no need to bother fighting Ghasts or Blazes in GTCEu."
 				""
@@ -405,7 +408,7 @@
 				type: "item"
 			}]
 			title: "The First of Many Motors"
-			x: 6.75d
+			x: 7.875d
 			y: -1.5d
 		}
 		{
@@ -446,8 +449,8 @@
 				type: "item"
 			}]
 			title: "Greg has struck again"
-			x: 7.875d
-			y: -1.5d
+			x: 9.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["5DD49D500327A0E2"]
@@ -491,7 +494,9 @@
 				""
 				"&6Small tip for you:&r no need to worry about your base's biome for now, as your boilers will need very little water to keep up."
 				"{@pagebreak}"
-				"The &cOutput Hatch&r is where water will be generated. You can make it face up or down to auto-output water into your pipes. When you reach &7LV&r or &bMV&r, you can use an Output Hatch from either tier to further boost the Pump's output."
+				"The &cOutput Hatch&r is where water will be generated. You can make it face up or down to auto-output water into your pipes, which can go &ethrough&r the Treated Wood Frames - just place the pipe before you encase it in the frames. "
+				""
+				"When you reach &7LV&r or &bMV&r, you can use an Output Hatch from either tier to further boost the Pump's output."
 				""
 				"&2Reminder:&r Use a Wrench to rotate GregTech blocks (sneak right-click)."
 				""
@@ -504,8 +509,8 @@
 				item: "gtceu:wood_normal_fluid_pipe"
 				type: "item"
 			}]
-			shape: "gear"
-			size: 1.1d
+			shape: "square"
+			size: 0.75d
 			subtitle: "There's no such thing as \"free\" water"
 			tasks: [{
 				id: "03501AB173BA60EE"
@@ -581,11 +586,11 @@
 			subtitle: "The Steam Extractor extracts..."
 			tasks: [{
 				id: "12A46916B1BC17EC"
-				item: "gtceu:lp_steam_extractor"
+				item: "gtceu:hp_steam_extractor"
 				type: "item"
 			}]
 			title: "Steam Extractor"
-			x: 4.5d
+			x: 5.625d
 			y: -0.375d
 		}
 		{
@@ -612,15 +617,14 @@
 				type: "item"
 			}]
 			title: "Sticky Resin"
-			x: 5.625d
-			y: -0.375d
+			x: 7.875d
+			y: 1.875d
 		}
 		{
 			dependencies: [
 				"3144DC68B266730C"
 				"236C886D50A99785"
 				"1436DB89E21264F3"
-				"22997534983F6812"
 			]
 			description: [
 				"Rubber is an excellent insulation material, and that's exactly what it's used for in GTCEu."
@@ -654,7 +658,7 @@
 				}
 			]
 			title: "Rubbering up"
-			x: 6.75d
+			x: 7.875d
 			y: -0.375d
 		}
 		{
@@ -686,7 +690,7 @@
 			}]
 			title: "Electronics #1: Resistors"
 			x: 7.875d
-			y: -0.375d
+			y: 0.75d
 		}
 		{
 			dependencies: ["5DD49D500327A0E2"]
@@ -697,7 +701,7 @@
 				""
 				"Each material has several sizes for Pipes. The bigger the Pipe, the &ahigher&r the throughput, but the more &dexpensive&r the craft. For example, a normal &6Bronze Fluid Pipe&r transfers 120 mB/t. (It also has a 1,200 mB internal buffer!)"
 				""
-				"Get either a Small or Normal &6Bronze Fluid Pipe&r to complete this quest. Both are used in crafting."
+				"Get any &6Bronze Fluid Pipe&r to complete this quest. The &6small&r and &enormal&r ones in particular are used in other recipes as well."
 				"{@pagebreak}"
 				"&aReminder:&r 1 second = 20 ticks... assuming the server isn't lagging."
 				""
@@ -717,12 +721,20 @@
 			size: 0.66d
 			subtitle: "Liquids, gases... we don't discriminate"
 			tasks: [{
-				id: "006E5756DD2CFB97"
+				id: "5953F4446733D908"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
 					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Bronze Pipes!\"}"
+						}
 						items: [
+							{
+								Count: 1b
+								id: "gtceu:bronze_tiny_fluid_pipe"
+							}
 							{
 								Count: 1b
 								id: "gtceu:bronze_small_fluid_pipe"
@@ -731,10 +743,17 @@
 								Count: 1b
 								id: "gtceu:bronze_normal_fluid_pipe"
 							}
+							{
+								Count: 1b
+								id: "gtceu:bronze_large_fluid_pipe"
+							}
+							{
+								Count: 1b
+								id: "gtceu:bronze_huge_fluid_pipe"
+							}
 						]
 					}
 				}
-				title: "Bronze Fluid Pipe"
 				type: "item"
 			}]
 			title: "Fluid Pipes"
@@ -763,8 +782,8 @@
 				"&3Note:&r In this modpack, explosions are configured to &cnot&r damage any block or entity, but you'll &dstill lose&r your machine."
 			]
 			id: "5DD49D500327A0E2"
-			shape: "square"
-			size: 0.75d
+			shape: "gear"
+			size: 1.2d
 			subtitle: "Putting the Steam in Steam Age"
 			tasks: [{
 				id: "0F864E85D4956919"
@@ -853,7 +872,7 @@
 				type: "item"
 			}]
 			title: "Electronics #3: Vacuum Tubes"
-			x: 3.375d
+			x: 5.625d
 			y: 0.75d
 		}
 		{
@@ -905,7 +924,7 @@
 				}
 			]
 			title: "Glass, at last!"
-			x: 3.375d
+			x: 4.125d
 			y: -0.375d
 		}
 		{
@@ -933,7 +952,7 @@
 				type: "item"
 			}]
 			title: "Red Alloy"
-			x: 5.625d
+			x: 4.125d
 			y: 0.75d
 		}
 		{
@@ -970,7 +989,7 @@
 				}
 			]
 			shape: "gear"
-			size: 1.5d
+			size: 1.2d
 			subtitle: "Your first &aElectronic Circuit&r!"
 			tasks: [
 				{
@@ -996,7 +1015,7 @@
 				""
 				"To get &dPotin&r, you should start by crafting its &eDust&r form."
 				""
-				"This quest calls for either the small or normal pipe. Get either size to complete it."
+				"Get a &dPotin&r pipe of any size to complete this quest."
 				"{@pagebreak}"
 				"&l&3Lore:&r&o &dPotin Fluid Pipes&f were first seen in &9GT++&f, an addon to GT5, and are a considerable power spike for players in a relatively unknown pack called &4GT:NH&f. We wanted to spread some of that joy."
 				""
@@ -1014,12 +1033,20 @@
 			size: 0.66d
 			subtitle: "...I'm going into battle, and I need only your finest Potin."
 			tasks: [{
-				id: "159D19181DC4DE59"
+				id: "7C0AFE7BBF56CD68"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
 					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Potin Pipes!\"}"
+						}
 						items: [
+							{
+								Count: 1b
+								id: "gtceu:potin_tiny_fluid_pipe"
+							}
 							{
 								Count: 1b
 								id: "gtceu:potin_small_fluid_pipe"
@@ -1028,15 +1055,22 @@
 								Count: 1b
 								id: "gtceu:potin_normal_fluid_pipe"
 							}
+							{
+								Count: 1b
+								id: "gtceu:potin_large_fluid_pipe"
+							}
+							{
+								Count: 1b
+								id: "gtceu:potin_huge_fluid_pipe"
+							}
 						]
 					}
 				}
-				title: "Potin Pipes!"
 				type: "item"
 			}]
 			title: "Potin Seller..."
-			x: -1.125d
-			y: 1.875d
+			x: -2.25d
+			y: 0.75d
 		}
 		{
 			dependencies: ["03DBF1961AE21C76"]
@@ -1195,7 +1229,7 @@
 				}
 			]
 			title: "Electronics #2: Circuit Boards"
-			x: 5.625d
+			x: 6.75d
 			y: 1.875d
 		}
 		{
@@ -1364,6 +1398,7 @@
 				tag: { }
 			}
 			id: "7DDCB711526F37A0"
+			progression_mode: "linear"
 			rewards: [{
 				count: 4
 				id: "3463AA941A74C11C"
@@ -1383,8 +1418,8 @@
 				type: "item"
 			}]
 			title: "Portable Cell"
-			x: 4.5d
-			y: 0.75d
+			x: 4.875d
+			y: 1.32d
 		}
 		{
 			dependencies: ["03DBF1961AE21C76"]
@@ -1439,11 +1474,11 @@
 				}
 			]
 			title: "Tool Belt"
-			x: 2.4927380952380958d
-			y: -2.1580102040816165d
+			x: 2.0d
+			y: -2.75d
 		}
 		{
-			dependencies: ["48AED37B4E20A99A"]
+			dependencies: ["5DD49D500327A0E2"]
 			description: [
 				"&3Item Pipes&r are a simple yet effective way to move items around &dinstantly&r, but with throughput limitations."
 				""
@@ -1460,6 +1495,8 @@
 				"Right now, you can use them in combination with &6Hoppers&r, but you will also be able to use them with Conveyor Modules, Output Buses, and machine Auto-Outputs all in the LV age."
 				""
 				"&9Note:&r GT6-style Pipes are &denabled&r. It means that placing Pipes connect them only to the block they were placed against. To open more connections, use your &5Wrench&r on the grid."
+				""
+				"You can also shift-right click with your Wrench to force items to flow in a certain direction. This can help counteract backflow (items being transported in an undesirable direction.) It also prevents the common issue of your &eCoke Oven Hatches&r trying to export charcoal/coke into your hoppers!"
 				""
 				"Get &eany&r of the suggested Item Pipes to complete this quest."
 				"{@pagebreak}"
@@ -1496,7 +1533,7 @@
 				type: "item"
 			}]
 			title: "Item Pipes"
-			x: 3.375d
+			x: -1.125d
 			y: 1.875d
 		}
 		{
@@ -1530,15 +1567,15 @@
 				type: "item"
 			}]
 			title: "Backpacks"
-			x: 4.5d
-			y: 1.875d
+			x: 3.3d
+			y: 1.32d
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
 			description: [
 				"The &3Charcoal Pile Igniter&r is a particularly unique multiblock. You can use it to produce &aCharcoal&r faster than &3Coke Ovens&r, but this comes with the trade-off of &amanual labor&r."
 				"{@pagebreak}"
-				"To operate the Igniter, dig a big pit into the ground - up to &e9x5x9&r blocks in size. Line the floor of the pit with vanilla &aBrick blocks&r, then fill the remaining space entirely with &aLogs&r. After that, &acover the filled pit&r with Grass, Dirt, or other natural groundcover to form a roof. In the layer with the roof, place the Igniter! To start it, light it with &aFlint and Steel&r."
+				"To operate the Igniter, dig a big pit into the ground - up to &e9x9x5&r blocks in size. Line the floor of the pit with vanilla &aBrick blocks&r, then fill the remaining space entirely with &aLogs&r. After that, &esurround the filled pit&r with Grass, Dirt, or other natural groundcover. In the layer with the roof, place the Igniter! To start it, light it with &aFlint and Steel&r."
 				""
 				"Once the process completes, open up the pit for your reward - &aBrittle Charcoal&r. This can be mined with a Shovel (or Spade!), and each block drops 1.4 Charcoal on average. Assuming 1 Log converts into 1 Brittle Charcoal, we're sure you can see the efficiency boost!"
 				"{@pagebreak}"
@@ -1572,8 +1609,8 @@
 				}
 			]
 			title: "Fuel Pit"
-			x: 1.390697278911567d
-			y: -2.9743367346938605d
+			x: 1.2d
+			y: -2.97d
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
@@ -1681,11 +1718,15 @@
 				}
 			]
 			title: "Multiblock Tanks"
-			x: 0.5539625850340073d
-			y: -2.8110714285714167d
+			x: 0.33d
+			y: -2.64d
 		}
 		{
-			dependencies: ["1FFD2242B94A7378"]
+			dependencies: [
+				"1FFD2242B94A7378"
+				"539CF1B85725786D"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"Ever wanted your pipes to look &leven&r cooler? Now you can!"
 				""
@@ -1706,8 +1747,8 @@
 				type: "item"
 			}]
 			title: "Aesthetic Ultra"
-			x: -2.1577721088435453d
-			y: 0.7399489795918583d
+			x: -2.25d
+			y: 1.875d
 		}
 	]
 	subtitle: ["Harness the power of Steam and learn the basics"]

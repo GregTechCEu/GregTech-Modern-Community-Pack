@@ -85,7 +85,7 @@
 				"{@pagebreak}"
 				"&l&3Lore:&r&o You may recognise Plantballs from IndustrialCraft2! In IC2 Experimental, there was this rather... obscure way to turn Biomass into Biogas for power, which sadly required too much investment to be really worth it."
 			]
-			icon: "gtceu:plant_ball"
+			icon: "gtceu:biomass_bucket"
 			id: "6EB68C28BEE24DEF"
 			rewards: [{
 				id: "55B6D1599E7C55B1"
@@ -105,7 +105,8 @@
 			y: -1.875d
 		}
 		{
-			dependencies: ["648BCF486E16CCB2"]
+			dependencies: ["74180AC57AE9F0FE"]
+			dependency_requirement: "one_started"
 			description: [
 				"The Brewery can be used to make &aLubricant&r from &aRedstone&r and &aCreosote&r/&aOil&r. Lubricant has some niche uses, namely being used in the &3Cutter&r to significantly reduce the duration of its recipes."
 				""
@@ -123,7 +124,8 @@
 				random_bonus: 31
 				type: "item"
 			}]
-			size: 0.66d
+			shape: "square"
+			size: 0.75d
 			subtitle: "*hic*... *hic*"
 			tasks: [
 				{
@@ -167,8 +169,8 @@
 				type: "item"
 			}]
 			title: "Ethylene"
-			x: 1.125d
-			y: -3.0d
+			x: 5.625d
+			y: -4.125d
 		}
 		{
 			dependencies: [
@@ -225,11 +227,15 @@
 				}
 			]
 			title: "Naphtha"
-			x: -1.125d
-			y: -4.125d
+			x: -4.5d
+			y: -3.0d
 		}
 		{
-			dependencies: ["6238B2A7ED1BE5A1"]
+			dependencies: [
+				"6238B2A7ED1BE5A1"
+				"035CF39E6CC98B77"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"Don't panic! We'll mostly be doing this to get hydrocarbons."
 				""
@@ -243,6 +249,7 @@
 			]
 			icon: "gtceu:severely_steam_cracked_naphtha_bucket"
 			id: "3E2E161F8CE35138"
+			progression_mode: "linear"
 			size: 0.66d
 			subtitle: "Fuel and oil cracking can get complicated..."
 			tasks: [{
@@ -251,7 +258,7 @@
 				type: "item"
 			}]
 			title: "Fuel Cracking"
-			x: 0.0d
+			x: -4.5d
 			y: -4.125d
 		}
 		{
@@ -358,7 +365,6 @@
 				""
 				"Higher tier Transformers will require &9Coils&r."
 			]
-			hide_dependency_lines: true
 			icon: "gtceu:mv_transformer_1a"
 			id: "6C20A9A64C1BE0BF"
 			size: 0.75d
@@ -369,8 +375,8 @@
 				type: "item"
 			}]
 			title: "Transformers"
-			x: 2.25d
-			y: 1.5d
+			x: 0.0d
+			y: -0.75d
 		}
 		{
 			dependencies: [
@@ -608,7 +614,7 @@
 				type: "item"
 			}]
 			title: "Steel Alloys"
-			x: 1.125d
+			x: 2.25d
 			y: 2.625d
 		}
 		{
@@ -711,8 +717,8 @@
 				type: "item"
 			}]
 			title: "Advanced Cutter"
-			x: 2.25d
-			y: 2.625d
+			x: 3.375d
+			y: 3.75d
 		}
 		{
 			dependencies: [
@@ -833,7 +839,7 @@
 			}]
 			title: "Greenhouse"
 			x: 0.0d
-			y: 2.625d
+			y: -1.875d
 		}
 		{
 			dependencies: [
@@ -899,7 +905,6 @@
 		{
 			dependencies: [
 				"10FB27DD3C7BEC2F"
-				"75F38905DEA60F15"
 				"1C55AE6AD5BDE304"
 			]
 			description: ["A circuit component that you can now produce thanks to the &3MV Assembler&r and your shiny new &3Kanthal EBF&r."]
@@ -1116,6 +1121,7 @@
 				"4600221BF0A30C3A"
 				"6E9E15DA847DD0A1"
 				"0DE5C3FBC9A6A690"
+				"375684F9CBEF9132"
 			]
 			description: [
 				"&6The best LV Circuits&r! You can start to churn these guys out, as you'll be making them for the rest of the game."
@@ -1143,6 +1149,7 @@
 				"4600221BF0A30C3A"
 				"0DE5C3FBC9A6A690"
 				"6E9E15DA847DD0A1"
+				"375684F9CBEF9132"
 			]
 			description: [
 				"&6The best MV Circuits&r! You will be making these for the remainder of the game."
@@ -1160,8 +1167,8 @@
 				type: "item"
 			}]
 			title: "Best MV Circuits"
-			x: 7.875d
-			y: 1.5d
+			x: 9.0d
+			y: -0.75d
 		}
 		{
 			dependencies: [
@@ -1185,8 +1192,8 @@
 				type: "item"
 			}]
 			title: "First EV Circuits!"
-			x: 7.875d
-			y: 3.75d
+			x: 11.25d
+			y: -0.75d
 		}
 		{
 			dependencies: [
@@ -1196,7 +1203,7 @@
 			description: [
 				"Better &6HV&r Circuits - much &dcheaper&r and easier to make than before."
 				""
-				"You should now be &aready to move on&r to the HV Chapter, unless you're yet to scale up your Power Production."
+				"Before you move on to &6HV&r, make sure you have scaled up your Power Production, and automated the most important processes with AE2!"
 			]
 			icon: "gtceu:micro_processor_assembly"
 			id: "5063FDFFBE3E4855"
@@ -1209,19 +1216,17 @@
 				type: "item"
 			}]
 			title: "More HV Circuits"
-			x: 7.875d
-			y: 2.625d
+			x: 10.125d
+			y: -0.75d
 		}
 		{
-			dependencies: [
-				"375684F9CBEF9132"
-				"10FB27DD3C7BEC2F"
-			]
+			dependencies: ["10FB27DD3C7BEC2F"]
 			description: [
 				"A circuit component that you can now produce thanks to the &3MV Assembler&r!"
 				""
 				"Capacitors are commonly used in computers to store information during power failures, amongst many other uses."
 			]
+			hide_dependency_lines: true
 			icon: "gtceu:capacitor"
 			id: "6E9E15DA847DD0A1"
 			shape: "square"
@@ -1233,7 +1238,7 @@
 				type: "item"
 			}]
 			title: "Capacitors"
-			x: 7.875d
+			x: 9.0d
 			y: -1.875d
 		}
 		{
@@ -1257,7 +1262,7 @@
 				random_bonus: 7
 				type: "item"
 			}]
-			size: 0.66d
+			size: 0.75d
 			subtitle: "You're blue now... that's my alloy"
 			tasks: [{
 				id: "15C7369398FAB8DB"
@@ -1265,16 +1270,17 @@
 				type: "item"
 			}]
 			title: "Blue Alloy"
-			x: 6.75d
-			y: 3.75d
+			x: 11.25d
+			y: -1.875d
 		}
 		{
-			dependencies: ["6E9E15DA847DD0A1"]
+			dependencies: ["10FB27DD3C7BEC2F"]
 			description: [
 				"A Circuit Component that you can now make thanks to the &3MV Assembler&r."
 				""
 				"If you want the cheapest recipe, &aNickel-Zinc Ferrite&r is the way to go."
 			]
+			hide_dependency_lines: true
 			icon: "gtceu:inductor"
 			id: "3DFFA8F91452C62A"
 			shape: "square"
@@ -1286,8 +1292,8 @@
 				type: "item"
 			}]
 			title: "Inductors"
-			x: 9.0d
-			y: 0.375d
+			x: 10.125d
+			y: -1.875d
 		}
 		{
 			dependencies: ["6BB98D128822730E"]
@@ -1298,6 +1304,9 @@
 				""
 				"&aPolyethylene (PE)&r is the key to unlocking &6many new things&r. It's commonly used as &dSheets&r, or in &dFluid&r form."
 				""
+				"In addition, some recipes are now more efficient! Check out diodes and machine hulls (both &8LV&r and &bMV&r)."
+				""
+				"{@pagebreak}"
 				"&l&3Lore:&r&o The OreDict and fluid name for Polyethylene in 1.12.2 GTCEu was &bplastic&f, for cross-mod compatibility."
 			]
 			icon: "gtceu:polyethylene_plate"
@@ -1331,7 +1340,8 @@
 			]
 			icon: "ae2:blank_pattern"
 			id: "1C036BCB2C488CFF"
-			size: 0.66d
+			shape: "square"
+			size: 0.75d
 			subtitle: "Autocrafting at last!"
 			tasks: [{
 				id: "032C24CBA8687E72"
@@ -1340,7 +1350,7 @@
 			}]
 			title: "Patterns"
 			x: 5.625d
-			y: -4.125d
+			y: -3.0d
 		}
 		{
 			dependencies: ["10FB27DD3C7BEC2F"]
@@ -1418,7 +1428,7 @@
 			]
 			title: "Plastic Boards"
 			x: 7.875d
-			y: -3.0d
+			y: -1.875d
 		}
 		{
 			dependencies: [
@@ -1496,8 +1506,8 @@
 				type: "item"
 			}]
 			title: "Sulfuric Acid"
-			x: 1.125d
-			y: -4.125d
+			x: 4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -1519,7 +1529,8 @@
 			]
 			icon: "gtceu:hydrochloric_acid_bucket"
 			id: "64CACABB48635904"
-			size: 0.66d
+			shape: "square"
+			size: 0.75d
 			subtitle: "You'll need a lot of this!"
 			tasks: [{
 				id: "34147C1DD7B8DE55"
@@ -1527,8 +1538,8 @@
 				type: "item"
 			}]
 			title: "Hydrochloric Acid"
-			x: 3.375d
-			y: -4.125d
+			x: 2.25d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -1710,11 +1721,11 @@
 				type: "item"
 			}]
 			title: "Fluid Drilling Rigs"
-			x: -1.125d
-			y: 0.375d
+			x: -2.25d
+			y: -0.75d
 		}
 		{
-			dependencies: ["648BCF486E16CCB2"]
+			dependencies: ["74180AC57AE9F0FE"]
 			description: [
 				"Get any kind of &3Pump&r, place it above an Oil spout and... give it some power."
 				""
@@ -1740,7 +1751,8 @@
 			]
 			icon: "gtceu:oil_bucket"
 			id: "0774EC59CD3DD7A5"
-			size: 0.66d
+			shape: "square"
+			size: 0.75d
 			subtitle: "Ever mined into an Oil deposit?"
 			tasks: [
 				{
@@ -1803,11 +1815,11 @@
 				}
 			]
 			title: "US Simulator"
-			x: -1.125d
+			x: -3.375d
 			y: -0.75d
 		}
 		{
-			dependencies: ["648BCF486E16CCB2"]
+			dependencies: ["74180AC57AE9F0FE"]
 			description: [
 				"Underground, you may come across pure Oilsands ore veins. You can &3centrifuge&r the Dust to get &aOil&r."
 				""
@@ -1829,7 +1841,8 @@
 				random_bonus: 3
 				type: "item"
 			}]
-			size: 0.66d
+			shape: "square"
+			size: 0.75d
 			subtitle: "This quest was sponsored by the US Military"
 			tasks: [
 				{
@@ -1852,16 +1865,16 @@
 				}
 			]
 			title: "America Simulator"
-			x: -2.25d
+			x: -4.5d
 			y: -0.75d
 		}
 		{
 			dependencies: [
-				"53DC6E32C41C94C3"
-				"6EB68C28BEE24DEF"
 				"0774EC59CD3DD7A5"
 				"575B07D390D9D079"
 				"05ADBAE5B6F38956"
+				"37AAB88A9EDCC862"
+				"6EB68C28BEE24DEF"
 			]
 			description: [
 				"Before we start, here's some important information if you're aiming to make Ethylene:"
@@ -1894,8 +1907,8 @@
 				item: "gtceu:basic_electronic_circuit"
 				type: "item"
 			}]
-			shape: "square"
-			size: 0.75d
+			shape: "gear"
+			size: 1.1d
 			subtitle: "The Illusion of Free Choice"
 			tasks: [{
 				id: "685043442271A0D0"
@@ -1919,7 +1932,7 @@
 				type: "item"
 			}]
 			title: "Distillery"
-			x: -1.125d
+			x: -3.375d
 			y: -1.875d
 		}
 		{
@@ -1985,8 +1998,8 @@
 				type: "item"
 			}]
 			title: "The Church of Benzene"
-			x: -2.25d
-			y: -1.875d
+			x: -3.375d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6A304E453D74C57C"]
@@ -1999,7 +2012,7 @@
 				""
 				"&aLight Fuel&r is a good &9Power&r option, but there's something even greater... check the Quest to the left."
 			]
-			icon: "gtceu:lightly_hydro_cracked_heavy_fuel_bucket"
+			icon: "gtceu:light_fuel_bucket"
 			id: "61972B16805FC9EE"
 			size: 0.66d
 			subtitle: "Turn up the Lights in here, baby"
@@ -2017,8 +2030,8 @@
 				}
 			]
 			title: "Light Fuel"
-			x: -1.125d
-			y: -3.0d
+			x: -5.625d
+			y: -1.875d
 		}
 		{
 			dependencies: ["61972B16805FC9EE"]
@@ -2063,8 +2076,8 @@
 				type: "item"
 			}]
 			title: "The Church of Diesel"
-			x: -2.25d
-			y: -3.0d
+			x: -6.75d
+			y: -1.875d
 		}
 		{
 			dependencies: ["1FFD2242B94A7378"]
@@ -2104,8 +2117,8 @@
 				type: "item"
 			}]
 			title: "Multiple Channel Pipes"
-			x: 4.5d
-			y: -4.125d
+			x: 2.25d
+			y: -1.875d
 		}
 		{
 			dependencies: ["315169840E06110F"]
@@ -2116,7 +2129,8 @@
 			]
 			icon: "gtceu:ilc_chip"
 			id: "6F6D2829FC42F21C"
-			size: 0.66d
+			shape: "square"
+			size: 0.75d
 			subtitle: "I C U"
 			tasks: [
 				{
@@ -2237,8 +2251,8 @@
 				}
 			]
 			title: "Long-Distance Fluids"
-			x: -3.375d
-			y: -0.75d
+			x: -4.5d
+			y: 0.375d
 		}
 		{
 			dependencies: ["682C26579EDDCA76"]
@@ -2266,8 +2280,8 @@
 				type: "item"
 			}]
 			title: "Travel Anchors"
-			x: 1.125d
-			y: 3.75d
+			x: 2.25d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -2295,8 +2309,8 @@
 				type: "item"
 			}]
 			title: "I Believe I Can Fly"
-			x: -0.5854591836734713d
-			y: -4.789540816326532d
+			x: -5.625d
+			y: -0.75d
 		}
 		{
 			dependencies: ["75F38905DEA60F15"]
@@ -2379,6 +2393,102 @@
 			title: "200IQ"
 			x: -1.123469387755101d
 			y: 2.445153061224488d
+		}
+		{
+			dependencies: ["7567E885B7166603"]
+			description: [
+				"Welcome to your first (of many) forays into &bHydrocarbons&r! You may already know a few of them, like Petrol, Plastic, Alcohol... well, in GregTech, you'll mass-produce many of these things, and more! This topic can be confusing at times, so you'll want to read carefully in order to avoid getting lost in the details. Now..."
+				"{@pagebreak}"
+				"Here in &bMV&r, there are two main goals of working with Hydrocarbons - Power and Plastics. The interesting part is how you'll accomplish this. There are two main paths you can take: &6Petrochemicals&r and &aBiochemicals&r. Both have their pros and cons - Petrochemicals typically provide &9higher yields&r and &benergy-efficiency&r, while Biochemicals are fully &drenewable&r. Your source of Power and Plastics is entirely &bup to you&r."
+				"{@pagebreak}"
+				"Ready to dive in? The &6Petrochemical&r route(s) are to the left of this quest - you've got three options here. For those with green thumbs, the &2Biochemical&r routes are diagonally right. Best of luck!"
+			]
+			icon: "gtceu:polyethylene_nugget"
+			id: "74180AC57AE9F0FE"
+			shape: "square"
+			size: 0.75d
+			subtitle: "Getting industrial"
+			tasks: [{
+				id: "093E71F51E1ECA6F"
+				title: "Hydrocarbons"
+				type: "checkmark"
+			}]
+			x: -1.125d
+			y: -0.75d
+		}
+		{
+			dependencies: ["6A304E453D74C57C"]
+			description: [
+				"If you've tried to distill an Oil into &eLight Fuel, Heavy Fuel&r, etc., you might've realised that you can't. Instead, you've gotten this &6sulfurized&r version of it. How dreadful!"
+				""
+				"To fix this, we'll need to &6desulfurize&r it. Combine whatever you'd like to desulfurize with &9Hydrogen Gas&r in a &3Chemical Reactor&r to produce the pure product, along with a byproduct of &aHydrogen Sulfide&r. What now?"
+				"{@pagebreak}"
+				""
+				"Luckily, &aHydrogen Sulfide&r is perfectly &drecycled&r in an &3Electrolyzer&r."
+				""
+				"To automate this process, simply place your &3Chemical Reactor&r and your &3Electrolyzer&r next to each other. Be sure to &cenable input from the output side&r. We've graciously provided a &3Fluid Filter&r so that your desulfurized prize doesn't go into your Electrolyzer too - remember to set it to filter both input/extract so that the right fluids can flow both ways!"
+				""
+				"{@pagebreak}"
+				"But now, how do we get our refined goodies out of our &3Chemical Reactor&r? This is where the Electric Pump comes in - use it on a different face of the Chemical Reactor and extract your prize!"
+				""
+				"&l&bTip&r&r: You only need two buckets of &9Hydrogen Gas&r. The easiest way of obtaining it is by electrolyzing water. You don't need to mass-produce Hydrogen (yet), don't worry!"
+			]
+			icon: "gtceu:sulfur_dust"
+			id: "5898743D8D6C2690"
+			rewards: [{
+				id: "7252A11E3828603C"
+				item: "gtceu:fluid_filter"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.75d
+			subtitle: "Waiter! Why is there Sulfur in my soup?"
+			tasks: [{
+				id: "3F4C5D4741ABEE3C"
+				item: "gtceu:hydrogen_bucket"
+				type: "item"
+			}]
+			title: "Desulfurization"
+			x: -4.5d
+			y: -1.875d
+		}
+		{
+			dependencies: ["5898743D8D6C2690"]
+			description: [
+				"Heavy Fuel can be obtained from many sources, but your best bet is distilling it from &eHeavy Oil&r. "
+				""
+				"You could just burn it in a combustion generator now for &9Power&r, but there's something even greater... check the Quest to the left."
+			]
+			id: "035CF39E6CC98B77"
+			progression_mode: "linear"
+			size: 0.666d
+			subtitle: "Things are getting really Heavy around here..."
+			tasks: [{
+				id: "4BA6939D643E63A6"
+				item: "gtceu:heavy_fuel_bucket"
+				type: "item"
+			}]
+			title: "Heavy Fuel"
+			x: -5.625d
+			y: -3.0d
+		}
+		{
+			dependencies: ["53DC6E32C41C94C3"]
+			description: [
+				"This is the main way of getting &9Power&r via the &aBiochemical&r route. Put Logs in the &3Pyrolyse Oven&r for &9Wood Tar&r. The Charcoal you obtain can then be processed in &3Extractors&r for even more &9Wood Tar&r!"
+				""
+				"Check out the Distillation quest to see what you can do with this wondrous substance."
+			]
+			id: "37AAB88A9EDCC862"
+			size: 0.66d
+			tasks: [{
+				id: "7EC058F5FE8478D1"
+				item: "gtceu:wood_tar_bucket"
+				type: "item"
+			}]
+			title: "Wood Tar"
+			x: -2.25d
+			y: -1.875d
 		}
 	]
 	subtitle: ["Venture into petrochemistry and refine electronics"]
