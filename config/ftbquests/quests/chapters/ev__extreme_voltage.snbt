@@ -113,10 +113,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: [
-				"35E7E45987D9B1F6"
-				"30A6EDDF25A5E5F8"
-			]
+			dependencies: ["35E7E45987D9B1F6"]
 			description: [
 				"Starting from here, you can now craft &dEV&r &3Energy&r and &3Dynamo Hatches&r! In &dEV&r, Energy Hatches now come with 4A, 16A, 32A or even 64A variants!"
 				""
