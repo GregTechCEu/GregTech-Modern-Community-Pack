@@ -1633,8 +1633,8 @@
 				"Whilst frolicking about on the surface, you may have spotted a couple of &dSurface rocks&r."
 				""
 				"These little guys indicate the type of veins that are below them. Just right-click &7(or mine!)&r the surface rock to receive a corresponding pile of &aTiny Dust&r. This will also add the vein to your minimap."
-				""
-				"You can now use &2EMI&r to learn more about the vein beneath your feet. Just press &dU&r on the Tiny Dust you mined from the rock, and navigate to the &6Ore Page&r. This page contains details on what &btypes of ores&r generate, their &3generation patterns&r, their &espawning dimension&r and &dY-level range&r, and their &aspawning weight&r, which is the chance it spawns."
+				"{@pagebreak}"
+				"You can now use &2EMI&r to learn more about the vein beneath your feet. Just press &dU&r on the Tiny Dust you mined from the rock, find the corresponding Raw Ore, and press &dR&r. From there, navigate to the &6Ore Vein Diagram&r. This page contains details on what &btypes of ores&r generate with it, their &3generation patterns&r, their &espawning dimension&r and &dY-level range&r, and their &aspawning weight&r, which is the chance it spawns."
 			]
 			icon: "gtceu:cobalt_indicator"
 			id: "3296B815876C3181"

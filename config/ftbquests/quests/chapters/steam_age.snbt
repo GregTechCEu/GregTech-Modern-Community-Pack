@@ -165,7 +165,7 @@
 			y: -1.2d
 		}
 		{
-			dependencies: ["03DBF1961AE21C76"]
+			dependencies: ["07415D6305C3B1D2"]
 			description: [
 				"The &3Primitive Blast Furnace&r (&3PBF&r for short) is a multiblock you will become very familiar with in the next few hours."
 				""
