@@ -1335,7 +1335,7 @@
 			description: [
 				"&aPatterns&r are used for AE2 autocrafting. Using &aPolyvinyl Chloride&r increases the yield by &64 times&r, and higher-tier plastics have even greater yields."
 				""
-				"&3Molecular Assemblers&r aren't available for a little while more, but you can still automate machines with &9ME Interfaces&r."
+				"Don't get too excited, though - to really get into the automation side of AE2, you'll need to get some &dSilicon Ingots&r first."
 				""
 				"A sub-note for autocrafting... whilst it's possible to perform chemical chains on-demand with AE2, doing so can build some bad habits that'll come back around to bite you in higher tiers. We urge you to passive things wherever you can."
 			]
