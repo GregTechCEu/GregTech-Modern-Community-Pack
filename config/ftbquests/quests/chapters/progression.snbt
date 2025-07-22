@@ -241,16 +241,16 @@
 				"4B979482EF026BFF"
 			]
 			description: [
-				"Early game Circuits are hand craftable."
+				"{ftbquests.chapter.progression.quest1.description1}"
 				""
-				"Pick up the &3Circuit Assembler&r to make them a lot more efficient."
+				"{ftbquests.chapter.progression.quest1.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:bronze_machine_casing"
 			id: "4252B1AF36FFB4F6"
 			size: 0.85d
-			subtitle: "Hand crafted and artisanal"
-			title: "Craftable in &6Steam Age&r and &7LV&r"
+			subtitle: "{ftbquests.chapter.progression.quest1.subtitle}"
+			title: "{ftbquests.chapter.progression.quest1.title}"
 			x: 0.0d
 			y: -2.0d
 		}
@@ -261,18 +261,18 @@
 				"26394C1290D70AB6"
 			]
 			description: [
-				"The &9Integrated&r Circuit line may not be a strict upgrade in terms of cost, but will tide you over as a stepping stone towards the next tier."
+				"{ftbquests.chapter.progression.quest2.description1}"
 				""
-				"They will require a MV &3Laser Engraver&r and a MV &3Cutting Machine&r."
+				"{ftbquests.chapter.progression.quest2.description2}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In Omnifactory, and in previous Gregicality, this circuit line was called &9Refined&f and was standardized like further tiers."
+				"{ftbquests.chapter.progression.quest2.description3}"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:mv_machine_hull"
 			id: "5E4FBB2287D9E635"
 			size: 0.85d
-			subtitle: "Integrated Dynamics"
-			title: "Craftable in &bMV&r"
+			subtitle: "{ftbquests.chapter.progression.quest2.subtitle}"
+			title: "{ftbquests.chapter.progression.quest2.title}"
 			x: 1.0d
 			y: -2.0d
 		}
@@ -286,16 +286,16 @@
 				"5E76D4C24026157D"
 			]
 			description: [
-				"&eMicro&r Circuits are where the &3Cleanroom&r becomes a requirement to progress."
+				"{ftbquests.chapter.progression.quest3.description1}"
 				""
-				"Don't get caught out by the &aMainframe&r - it requires a &3HV Circuit Assembler&r."
+				"{ftbquests.chapter.progression.quest3.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:hv_machine_hull"
 			id: "1D717E742E50A6BD"
 			size: 0.85d
-			subtitle: "Micro Miners"
-			title: "Craftable in &bMV&r and &6HV&r"
+			subtitle: "{ftbquests.chapter.progression.quest3.subtitle}"
+			title: "{ftbquests.chapter.progression.quest3.title}"
 			x: 2.0d
 			y: -2.0d
 		}
@@ -307,21 +307,21 @@
 				"58BBD540D7D4FF01"
 			]
 			description: [
-				"This is the &9Nano&r Circuit line."
+				"{ftbquests.chapter.progression.quest4.description1}"
 				""
-				"Starting from here, circuit progression will follow a pattern:"
+				"{ftbquests.chapter.progression.quest4.description2}"
 				""
-				"&9-&r Processor"
-				"&9-&r Assembly"
-				"&9-&r Supercomputer"
-				"&9-&r Mainframe"
+				"{ftbquests.chapter.progression.quest4.description3}"
+				"{ftbquests.chapter.progression.quest4.description4}"
+				"{ftbquests.chapter.progression.quest4.description5}"
+				"{ftbquests.chapter.progression.quest4.description6}"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:ev_machine_hull"
 			id: "29C2A82490261F1C"
 			size: 0.85d
-			subtitle: "Nano Age"
-			title: "Craftable in &5EV&r"
+			subtitle: "{ftbquests.chapter.progression.quest4.subtitle}"
+			title: "{ftbquests.chapter.progression.quest4.title}"
 			x: 3.0d
 			y: -2.0d
 		}
@@ -333,16 +333,16 @@
 				"145F71A817C5996E"
 			]
 			description: [
-				"Welcome to the &9Quantum&r Circuit line."
+				"{ftbquests.chapter.progression.quest5.description1}"
 				""
-				"You may want to invest in &aPBI&r at this point, as &dAdvanced SMDs&r will skyrocket your circuit production."
+				"{ftbquests.chapter.progression.quest5.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:iv_machine_hull"
 			id: "66A23AC2EE9BC4AE"
 			size: 0.85d
-			subtitle: "GregTech gets Quantum"
-			title: "Craftable in &1IV&r"
+			subtitle: "{ftbquests.chapter.progression.quest5.subtitle}"
+			title: "{ftbquests.chapter.progression.quest5.title}"
 			x: 4.0d
 			y: -2.0d
 		}
@@ -354,16 +354,16 @@
 				"7AE681E2AB31EA0D"
 			]
 			description: [
-				"This is the &9Crystal&r Circuit line."
+				"{ftbquests.chapter.progression.quest6.description1}"
 				""
-				"It's locked behind &3Fusion&r."
+				"{ftbquests.chapter.progression.quest6.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:luv_machine_hull"
 			id: "6906121936A688C0"
 			size: 0.85d
-			subtitle: "Crystallisation"
-			title: "Craftable in &dLuV&r"
+			subtitle: "{ftbquests.chapter.progression.quest6.subtitle}"
+			title: "{ftbquests.chapter.progression.quest6.title}"
 			x: 5.0d
 			y: -2.0d
 		}
@@ -375,16 +375,16 @@
 				"359121584E056022"
 			]
 			description: [
-				"This is the &9Wetware&r Circuit line."
+				"{ftbquests.chapter.progression.quest7.description1}"
 				""
-				"It will be the biggest automation challenge to face in this modpack. Best of luck."
+				"{ftbquests.chapter.progression.quest7.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:zpm_machine_hull"
 			id: "629E023752317A31"
 			size: 0.85d
-			subtitle: "Soft and Wetware"
-			title: "Craftable in &cZPM&r"
+			subtitle: "{ftbquests.chapter.progression.quest7.subtitle}"
+			title: "{ftbquests.chapter.progression.quest7.title}"
 			x: 6.0d
 			y: -2.0d
 		}
@@ -393,12 +393,12 @@
 				"3CF550B81716B8B9"
 				"15EC934CE8F4DC86"
 			]
-			description: ["On this line you can see the Steam, or &8&8ULV&r, equivalents."]
+			description: ["{ftbquests.chapter.progression.quest8.description1}"]
 			hide_dependency_lines: true
 			icon: "gtceu:ulv_machine_casing"
 			id: "1C1976238A2FBEE0"
 			size: 0.85d
-			title: "&8ULV&r Circuits"
+			title: "{ftbquests.chapter.progression.quest8.title}"
 			x: -1.0d
 			y: -1.0d
 		}
@@ -409,19 +409,19 @@
 				"5E76D4C24026157D"
 			]
 			description: [
-				"Circuits along this line are &7LV&r, and are interchangeable in recipes."
+				"{ftbquests.chapter.progression.quest9.description1}"
 				""
-				"&cElectronic Circuits&r are the \"worst\" in terms of cost and effort required to produce, but you have to start somewhere."
+				"{ftbquests.chapter.progression.quest9.description2}"
 				""
-				"&eBasic Integrated Processors&r act as a middle layer between &cElectronic Circuits&r and &2Microchip Processors.&r"
+				"{ftbquests.chapter.progression.quest9.description3}"
 				""
-				"Finally, &2Microchip Processors&r will be the best option for the rest of the playthrough."
+				"{ftbquests.chapter.progression.quest9.description4}"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:lv_machine_casing"
 			id: "7707E5B061A7FFF7"
 			size: 0.85d
-			title: "&7LV&r Circuits"
+			title: "{ftbquests.chapter.progression.quest9.title}"
 			x: -1.0d
 			y: 0.0d
 		}
@@ -432,15 +432,15 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"Circuits along this line are &bMV&r, and are interchangeable in recipes."
+				"{ftbquests.chapter.progression.quest10.description1}"
 				""
-				"The pattern stays the same: the rightmost circuit comes in &dlarger quantities&r and is overall &aeasier&r to produce."
+				"{ftbquests.chapter.progression.quest10.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:mv_machine_casing"
 			id: "45CA8DCA8226945A"
 			size: 0.85d
-			title: "&bMV&r Circuits"
+			title: "{ftbquests.chapter.progression.quest10.title}"
 			x: -1.0d
 			y: 1.0d
 		}
@@ -451,15 +451,15 @@
 				"26394C1290D70AB6"
 			]
 			description: [
-				"Circuits along this line are &6HV&r, and are interchangeable in recipes."
+				"{ftbquests.chapter.progression.quest11.description1}"
 				""
-				"The pattern stays the same: the rightmost circuit comes in &dlarger quantities&r and is overall &aeasier&r to produce."
+				"{ftbquests.chapter.progression.quest11.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:hv_machine_casing"
 			id: "54CF2016ED44CC45"
 			size: 0.85d
-			title: "&6HV&r Circuits"
+			title: "{ftbquests.chapter.progression.quest11.title}"
 			x: -1.0d
 			y: 2.0d
 		}
@@ -470,15 +470,15 @@
 				"0017FFFAD7CD2EFE"
 			]
 			description: [
-				"Circuits along this line are &5EV&r, and are interchangeable in recipes."
+				"{ftbquests.chapter.progression.quest12.description1}"
 				""
-				"The pattern stays the same: the rightmost circuit comes in &dlarger quantities&r and is overall &aeasier&r to produce."
+				"{ftbquests.chapter.progression.quest12.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:ev_machine_casing"
 			id: "2A9ECD745E15A5D8"
 			size: 0.85d
-			title: "&5EV&r Circuits"
+			title: "{ftbquests.chapter.progression.quest12.title}"
 			x: -1.0d
 			y: 3.0d
 		}
@@ -490,15 +490,15 @@
 				"5CC9B0E832545569"
 			]
 			description: [
-				"Circuits along this line are &1IV&r, and are interchangeable in recipes."
+				"{ftbquests.chapter.progression.quest13.description1}"
 				""
-				"The pattern stays the same: the rightmost circuit comes in &dlarger quantities&r and is overall &aeasier&r to produce."
+				"{ftbquests.chapter.progression.quest13.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:iv_machine_casing"
 			id: "5B0AC445672E14B6"
 			size: 0.85d
-			title: "&1IV&r Circuits"
+			title: "{ftbquests.chapter.progression.quest13.title}"
 			x: -1.0d
 			y: 4.0d
 		}
@@ -510,19 +510,19 @@
 				"58BBD540D7D4FF01"
 			]
 			description: [
-				"Circuits along this line are &dLuV&r, and are interchangeable in recipes."
+				"{ftbquests.chapter.progression.quest14.description1}"
 				""
-				"The pattern stays the same: the rightmost circuit comes in &dlarger quantities&r and is overall &aeasier&r to produce."
+				"{ftbquests.chapter.progression.quest14.description2}"
 				""
-				"Make sure to set up &3wetware board production&r as soon as possible! These take a &6very long time&r to make."
+				"{ftbquests.chapter.progression.quest14.description3}"
 				""
-				"It's &dLuV&r, not &4LUV&r."
+				"{ftbquests.chapter.progression.quest14.description4}"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:luv_machine_casing"
 			id: "140E91C53C30C096"
 			size: 0.85d
-			title: "&dLuV&r Circuits"
+			title: "{ftbquests.chapter.progression.quest14.title}"
 			x: -1.0d
 			y: 5.0d
 		}
@@ -532,12 +532,12 @@
 				"327C3E02CD751453"
 				"7AE681E2AB31EA0D"
 			]
-			description: ["Circuits along this line are &cZPM&r, and are interchangeable in recipes."]
+			description: ["{ftbquests.chapter.progression.quest15.description1}"]
 			hide_dependency_lines: true
 			icon: "gtceu:zpm_machine_casing"
 			id: "2E00E10D4E92F64D"
 			size: 0.85d
-			title: "&cZPM&r Circuits"
+			title: "{ftbquests.chapter.progression.quest15.title}"
 			x: -1.0d
 			y: 6.0d
 		}
@@ -546,31 +546,31 @@
 				"79E4E53E9DF45549"
 				"359121584E056022"
 			]
-			description: ["Circuits along this line are &3UV&r, and are interchangeable for each other."]
+			description: ["{ftbquests.chapter.progression.quest16.description1}"]
 			hide_dependency_lines: true
 			icon: "gtceu:uv_machine_casing"
 			id: "35EFFA6C85EFCA58"
 			size: 0.85d
-			title: "&3UV&r Circuits"
+			title: "{ftbquests.chapter.progression.quest16.title}"
 			x: -1.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["3B49BD004F38E1A2"]
 			description: [
-				"Congratulations! You've reached the end of the circuit progression."
+				"{ftbquests.chapter.progression.quest17.description1}"
 				""
-				"The only &4UHV&r circuit is the &6Wetware Mainframe&r, which is used for crafting some endgame stuff."
+				"{ftbquests.chapter.progression.quest17.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:uhv_machine_casing"
 			id: "177ADFFD33DDA624"
 			size: 0.85d
-			title: "&4UHV&r Circuits"
+			title: "{ftbquests.chapter.progression.quest17.title}"
 			x: -1.0d
 			y: 8.0d
 		}
 	]
-	subtitle: ["A step forward is always rewarding"]
-	title: "Circuit Progression"
+	subtitle: ["{ftbquests.chapter.progression.subtitle0}"]
+	title: "{ftbquests.chapter.progression.title}"
 }

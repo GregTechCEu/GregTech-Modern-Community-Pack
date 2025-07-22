@@ -52,48 +52,48 @@
 		{
 			dependencies: ["0C690272ED4FB1C3"]
 			description: [
-				"Some of the details are repeated from the introduction quest, but we feel like we needed to expand on the explanation if you want to know all the details!"
+				"{ftbquests.chapter.ore_generation.quest1.description1}"
 				""
-				"Ready for some \"light\" reading?"
+				"{ftbquests.chapter.ore_generation.quest1.description2}"
 				"{@pagebreak}"
-				"Each vein can contain up to four different ores."
+				"{ftbquests.chapter.ore_generation.quest1.description3}"
 				""
-				"Ore veins generate in a &4Grid&r. Every vein is spaced by 3 chunks from one to another in a cardinal direction. Each vein generates in an individual \"pattern\" - some are &6round&r, some are &asnakey&r, and others you'll discover for yourself."
+				"{ftbquests.chapter.ore_generation.quest1.description4}"
 				""
-				"They spawn at the &4Center&r of the Chunks which have both their X and Z coordinates be at &b1 plus a multiple of 3&r (-8, -5, -2, 1, 4, 7, ...). You will typically find two veins in the selected chunk - one will be in the Stone layer, and the other vein lays deeper in the Deepslate layer."
+				"{ftbquests.chapter.ore_generation.quest1.description5}"
 				""
-				"However, Ore veins may be deleted by caves, Oil deposits, or from trying to generate above the ground."
+				"{ftbquests.chapter.ore_generation.quest1.description6}"
 				"{@pagebreak}"
-				"It's a good practice to make &dWaypoints&r to every vein you find, and to label their type. You may want to come back to it several times."
+				"{ftbquests.chapter.ore_generation.quest1.description7}"
 				""
-				"A classic Ore vein is &d7 blocks&r tall, and ores generate in 4 different patterns:"
-				"- The &9Top Ore&r generates in the higher 4 layers of the vein."
-				"- The &9Bottom Ore&r generates in the lower 3 layers of the vein."
-				"- The &9Between Ore&r generates in the middle 3 layers of the vein."
-				"- The &9Sporadic Ore&r generates anywhere in the vein. There will be the least amount of this ore in a vein."
+				"{ftbquests.chapter.ore_generation.quest1.description8}"
+				"{ftbquests.chapter.ore_generation.quest1.description9}"
+				"{ftbquests.chapter.ore_generation.quest1.description10}"
+				"{ftbquests.chapter.ore_generation.quest1.description11}"
+				"{ftbquests.chapter.ore_generation.quest1.description12}"
 				""
-				"The same ore type can be in 2 different generation patterns, such as in Cassiterite veins."
+				"{ftbquests.chapter.ore_generation.quest1.description13}"
 			]
 			icon: "gtceu:cobalt_ore"
 			id: "41730E340B3D8EDA"
 			shape: "square"
 			size: 1.5d
-			subtitle: "You'll be an expert by the time you finish reading this!"
+			subtitle: "{ftbquests.chapter.ore_generation.quest1.subtitle}"
 			tasks: [{
 				id: "502C58F19FF7DE24"
 				type: "checkmark"
 			}]
-			title: "Ore Generation"
+			title: "{ftbquests.chapter.ore_generation.quest1.title}"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
-			description: ["A standard Iron vein. It's a good target when you need to replenish your supply."]
+			description: ["{ftbquests.chapter.ore_generation.quest2.description1}"]
 			icon: "gtceu:yellow_limonite_ore"
 			id: "692F4312B3F73FAF"
 			size: 0.9d
-			subtitle: "Source of Iron, Copper"
+			subtitle: "{ftbquests.chapter.ore_generation.quest2.subtitle}"
 			tasks: [
 				{
 					id: "6BF52C2246A0844E"
@@ -116,23 +116,23 @@
 					type: "item"
 				}
 			]
-			title: "Limonite"
+			title: "{ftbquests.chapter.ore_generation.quest2.title}"
 			x: 1.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"This vein is namely one of the few direct sources of Gold in the overworld."
+				"{ftbquests.chapter.ore_generation.quest3.description1}"
 				""
-				"There are many other sources of Gold in GregTech, but you will likely see better yields of Gold if you obtain it by processing other resources."
+				"{ftbquests.chapter.ore_generation.quest3.description2}"
 				""
-				"Vanadium Magnetite becomes more useful in &bMV&r, when you will centrifuge out the Vanadium within for Vanadium Steel."
+				"{ftbquests.chapter.ore_generation.quest3.description3}"
 			]
 			icon: "gtceu:magnetite_ore"
 			id: "260E516A219825A2"
 			size: 0.9d
-			subtitle: "Source of Iron, Gold, Vanadium"
+			subtitle: "{ftbquests.chapter.ore_generation.quest3.subtitle}"
 			tasks: [
 				{
 					id: "2814C224F95FA845"
@@ -150,21 +150,21 @@
 					type: "item"
 				}
 			]
-			title: "Magnetite"
+			title: "{ftbquests.chapter.ore_generation.quest3.title}"
 			x: 2.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"An excellent Iron-Copper hybrid vein."
+				"{ftbquests.chapter.ore_generation.quest4.description1}"
 				""
-				"Chalcopyrite will play an integral role in the late game, when you're looking to get your hands on some Platinum Group Sludge."
+				"{ftbquests.chapter.ore_generation.quest4.description2}"
 			]
 			icon: "gtceu:pyrite_ore"
 			id: "03FBBA4A693011A8"
 			size: 0.9d
-			subtitle: "Source of Copper, Iron"
+			subtitle: "{ftbquests.chapter.ore_generation.quest4.subtitle}"
 			tasks: [
 				{
 					id: "21D9BE0CDF8D20D0"
@@ -187,21 +187,21 @@
 					type: "item"
 				}
 			]
-			title: "Pyrite"
+			title: "{ftbquests.chapter.ore_generation.quest4.title}"
 			x: 3.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"A great vein for the early game. Copper and Tin to make Bronze, Realgar for your first source of Arsenic, and Zeolite for... nothing much."
+				"{ftbquests.chapter.ore_generation.quest5.description1}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o As GregTech used to auto-generate its recipes, Zeolite used to electrolyze in batches of 141 dust at a time. Whoops!"
+				"{ftbquests.chapter.ore_generation.quest5.description2}"
 			]
 			icon: "gtceu:chalcopyrite_ore"
 			id: "4826DCD2FC457EA5"
 			size: 0.9d
-			subtitle: "Source of Copper, Tin"
+			subtitle: "{ftbquests.chapter.ore_generation.quest5.subtitle}"
 			tasks: [
 				{
 					id: "21B8E250B773443C"
@@ -224,17 +224,17 @@
 					type: "item"
 				}
 			]
-			title: "Chalcopyrite"
+			title: "{ftbquests.chapter.ore_generation.quest5.title}"
 			x: 4.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
-			description: ["A pure, very rich Tin vein - excellent for early game. You'll be over the moon to find one of these in the &6Steam Age&r."]
+			description: ["{ftbquests.chapter.ore_generation.quest6.description1}"]
 			icon: "gtceu:cassiterite_ore"
 			id: "3B379794A3030C73"
 			size: 0.9d
-			subtitle: "#1 Source of Tin"
+			subtitle: "{ftbquests.chapter.ore_generation.quest6.subtitle}"
 			tasks: [
 				{
 					id: "46C302CBE74092FC"
@@ -247,21 +247,21 @@
 					type: "item"
 				}
 			]
-			title: "Cassiterite"
+			title: "{ftbquests.chapter.ore_generation.quest6.title}"
 			x: 5.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"A decent alternative to the pure Tin vein if you haven't found one yet."
+				"{ftbquests.chapter.ore_generation.quest7.description1}"
 				""
-				"The other ores are as good as decoration."
+				"{ftbquests.chapter.ore_generation.quest7.description2}"
 			]
 			icon: "gtceu:cassiterite_sand_ore"
 			id: "41616C31D9C08648"
 			size: 0.9d
-			subtitle: "Source of Tin"
+			subtitle: "{ftbquests.chapter.ore_generation.quest7.subtitle}"
 			tasks: [
 				{
 					id: "281CC5BB43AB6FBC"
@@ -284,45 +284,45 @@
 					type: "item"
 				}
 			]
-			title: "Cassiterite Sand"
+			title: "{ftbquests.chapter.ore_generation.quest7.title}"
 			x: 5.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"As an ore, Coal is hardly worth large-scale processing, because there are too many additional steps. required to turn it into usable fuel. It's still good to have some in your back pocket."
+				"{ftbquests.chapter.ore_generation.quest8.description1}"
 				""
-				"Just run it through a Furnace."
+				"{ftbquests.chapter.ore_generation.quest8.description2}"
 			]
 			icon: "minecraft:coal_ore"
 			id: "1E27C654E2F6FFF2"
 			size: 0.9d
-			subtitle: "Source of pollution"
+			subtitle: "{ftbquests.chapter.ore_generation.quest8.subtitle}"
 			tasks: [{
 				id: "5FC26FB906B6F0A2"
 				item: "minecraft:coal"
 				type: "item"
 			}]
-			title: "Coal"
+			title: "{ftbquests.chapter.ore_generation.quest8.title}"
 			x: 5.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"Your only source of Diamond!"
+				"{ftbquests.chapter.ore_generation.quest9.description1}"
 				""
-				"Diamond has &6five times more durability&r than Iron for tools. The catch is that you'll need Diamond Plates for some tools, which is gated behind the Cutting Machine."
+				"{ftbquests.chapter.ore_generation.quest9.description2}"
 				""
-				"Diamond and Graphite both electrolyze into a ton of Carbon. Hint, hint..?"
+				"{ftbquests.chapter.ore_generation.quest9.description3}"
 				""
-				"&cNote:&r Avoid macerating Diamonds in the early game. Recovering gem dusts into the actual gem cannot be done for a while - and even then, the process is slow and time-consuming..."
+				"{ftbquests.chapter.ore_generation.quest9.description4}"
 			]
 			icon: "gtceu:graphite_ore"
 			id: "1B45DB5C85B68182"
 			size: 0.9d
-			subtitle: "Source of Diamond, Carbon"
+			subtitle: "{ftbquests.chapter.ore_generation.quest9.subtitle}"
 			tasks: [
 				{
 					id: "774FD60E5F9C5225"
@@ -340,21 +340,21 @@
 					type: "item"
 				}
 			]
-			title: "Graphite"
+			title: "{ftbquests.chapter.ore_generation.quest9.title}"
 			x: 5.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"Your one-stop-shop for sources of Chlorine."
+				"{ftbquests.chapter.ore_generation.quest10.description1}"
 				""
-				"If you're pining after Lithium, note that it can be obtained from Lepidolite Ore Processing."
+				"{ftbquests.chapter.ore_generation.quest10.description2}"
 			]
 			icon: "gtceu:salt_ore"
 			id: "5289D5049A236D55"
 			size: 0.9d
-			subtitle: "Source of Salt, Chlorine, Lithium, Fluorine"
+			subtitle: "{ftbquests.chapter.ore_generation.quest10.subtitle}"
 			tasks: [
 				{
 					id: "13B468D35939891B"
@@ -377,21 +377,21 @@
 					type: "item"
 				}
 			]
-			title: "Gamer Rage"
+			title: "{ftbquests.chapter.ore_generation.quest10.title}"
 			x: 5.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"This vein starts to become notable for its Magnesium output starting in the midgame."
+				"{ftbquests.chapter.ore_generation.quest11.description1}"
 				""
-				"Olivine also has various uses, as it can substitute &aEmerald&r in a couple of recipes."
+				"{ftbquests.chapter.ore_generation.quest11.description2}"
 			]
 			icon: "gtceu:olivine_ore"
 			id: "7C1B5559A03F6E02"
 			size: 0.9d
-			subtitle: "Source of Magnesium"
+			subtitle: "{ftbquests.chapter.ore_generation.quest11.subtitle}"
 			tasks: [
 				{
 					id: "0428A9705DCDEBC2"
@@ -414,21 +414,21 @@
 					type: "item"
 				}
 			]
-			title: "Olivine"
+			title: "{ftbquests.chapter.ore_generation.quest11.title}"
 			x: 4.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"It's shiny! That's about it!"
+				"{ftbquests.chapter.ore_generation.quest12.description1}"
 				""
-				"Yeah, you wish you could make jewelry out of it."
+				"{ftbquests.chapter.ore_generation.quest12.description2}"
 			]
 			icon: "gtceu:red_garnet_ore"
 			id: "178285129CEA9F9F"
 			size: 0.9d
-			subtitle: "Source of Necklaces"
+			subtitle: "{ftbquests.chapter.ore_generation.quest12.subtitle}"
 			tasks: [
 				{
 					id: "50787547A7F0A72E"
@@ -451,23 +451,23 @@
 					type: "item"
 				}
 			]
-			title: "Garnet"
+			title: "{ftbquests.chapter.ore_generation.quest12.title}"
 			x: 3.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"Hey, anyone remember Forestry?"
+				"{ftbquests.chapter.ore_generation.quest13.description1}"
 				""
-				"This is pretty much the one vein you want to tap in for Phosphorus - which requires quite a few steps of processing to obtain."
+				"{ftbquests.chapter.ore_generation.quest13.description2}"
 				""
-				"Pyrochlore will eventually become extremely valuable, as it's a good source of Niobium."
+				"{ftbquests.chapter.ore_generation.quest13.description3}"
 			]
 			icon: "gtceu:apatite_ore"
 			id: "70252B72F7728EFD"
 			size: 0.9d
-			subtitle: "Source of Calcium, Phosphorus, Niobium"
+			subtitle: "{ftbquests.chapter.ore_generation.quest13.subtitle}"
 			tasks: [
 				{
 					id: "1091719F41C151CE"
@@ -485,21 +485,21 @@
 					type: "item"
 				}
 			]
-			title: "Apatite"
+			title: "{ftbquests.chapter.ore_generation.quest13.title}"
 			x: 2.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"Your classic Redstone vein."
+				"{ftbquests.chapter.ore_generation.quest14.description1}"
 				""
-				"Ruby is very important for the Chromium it contains. You'll quickly discover that you can never have too much Chromium!"
+				"{ftbquests.chapter.ore_generation.quest14.description2}"
 			]
 			icon: "minecraft:redstone_ore"
 			id: "2E5A71CED4B01657"
 			size: 0.9d
-			subtitle: "Source of Redstone, Ruby, Chromium, Mercury"
+			subtitle: "{ftbquests.chapter.ore_generation.quest14.subtitle}"
 			tasks: [
 				{
 					id: "2CE255679DBEF5D8"
@@ -517,21 +517,21 @@
 					type: "item"
 				}
 			]
-			title: "Redstone"
+			title: "{ftbquests.chapter.ore_generation.quest14.title}"
 			x: 1.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"Both Sapphire variants serve as your primary source of Aluminium until you can unlock other electrolysis recipes in &bMV&r."
+				"{ftbquests.chapter.ore_generation.quest15.description1}"
 				""
-				"The other two gems are mediocre at best."
+				"{ftbquests.chapter.ore_generation.quest15.description2}"
 			]
 			icon: "gtceu:sapphire_ore"
 			id: "6EFE154D32A2155E"
 			size: 0.9d
-			subtitle: "Source of Aluminium"
+			subtitle: "{ftbquests.chapter.ore_generation.quest15.subtitle}"
 			tasks: [
 				{
 					id: "1318A25CD8DF8CC8"
@@ -554,41 +554,41 @@
 					type: "item"
 				}
 			]
-			title: "Sapphire"
+			title: "{ftbquests.chapter.ore_generation.quest15.title}"
 			x: 0.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"A good source of &6Heavy Oil&r, which is useful for &6Diesel&r setups early on."
+				"{ftbquests.chapter.ore_generation.quest16.description1}"
 				""
-				"If you don't want to spend time processing Oilsands through your setup, you can always just &bCentrifuge&r it directly to get the Heavy Oil."
+				"{ftbquests.chapter.ore_generation.quest16.description2}"
 			]
 			icon: "gtceu:oilsands_ore"
 			id: "7C35B6B0B4CFFEB2"
 			size: 0.9d
-			subtitle: "Source of the American Dream"
+			subtitle: "{ftbquests.chapter.ore_generation.quest16.subtitle}"
 			tasks: [{
 				id: "301C4CD1E47E2D02"
 				item: "gtceu:raw_oilsands"
 				type: "item"
 			}]
-			title: "Oilsands"
+			title: "{ftbquests.chapter.ore_generation.quest16.title}"
 			x: -0.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"This one's nothing but a meme. It's literally called a Lubricant vein."
+				"{ftbquests.chapter.ore_generation.quest17.description1}"
 				""
-				"With that being said, Lubricant is always useful for your &eCutting Machines&r to keep your factory running smoothly."
+				"{ftbquests.chapter.ore_generation.quest17.description2}"
 			]
 			icon: "gtceu:soapstone_ore"
 			id: "676667089653641C"
 			size: 0.9d
-			subtitle: "Source of Lubricant"
+			subtitle: "{ftbquests.chapter.ore_generation.quest17.subtitle}"
 			tasks: [
 				{
 					id: "4E280784AE8DC125"
@@ -611,21 +611,21 @@
 					type: "item"
 				}
 			]
-			title: "Soapstone"
+			title: "{ftbquests.chapter.ore_generation.quest17.title}"
 			x: -1.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"Did you know Lazurite and Sodalite can be used as substitutes for &9Lapis&r in enchanting?"
+				"{ftbquests.chapter.ore_generation.quest18.description1}"
 				""
-				"Sodalite is the most valuable Ore here, thanks to its useful electrolysis recipe when you get to &bMV&r."
+				"{ftbquests.chapter.ore_generation.quest18.description2}"
 			]
 			icon: "gtceu:lapis_ore"
 			id: "39A58AFE2E0C13EB"
 			size: 0.9d
-			subtitle: "Source of Lapis Lazuli, Aluminium, Sodium, Chlorine"
+			subtitle: "{ftbquests.chapter.ore_generation.quest18.subtitle}"
 			tasks: [
 				{
 					id: "3E903B26B6E0D98E"
@@ -648,21 +648,21 @@
 					type: "item"
 				}
 			]
-			title: "Lapis"
+			title: "{ftbquests.chapter.ore_generation.quest18.title}"
 			x: -1.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"Pyrolusite is what most people are here for. It smelts directly into Manganese, which you'll be needing in bulk for &6HV&r."
+				"{ftbquests.chapter.ore_generation.quest19.description1}"
 				""
-				"Tantalite will eventually become extremely valuable, thanks to its Niobium byproducts, and its utility when crafting &bSMD Components&r."
+				"{ftbquests.chapter.ore_generation.quest19.description2}"
 			]
 			icon: "gtceu:pyrolusite_ore"
 			id: "2C75A50B17AA9AF1"
 			size: 0.9d
-			subtitle: "Source of Manganese"
+			subtitle: "{ftbquests.chapter.ore_generation.quest19.subtitle}"
 			tasks: [
 				{
 					id: "10FC904696261AF3"
@@ -685,17 +685,17 @@
 					type: "item"
 				}
 			]
-			title: "Pyrolusite"
+			title: "{ftbquests.chapter.ore_generation.quest19.title}"
 			x: -1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
-			description: ["The most consistent source of Lead and Silver."]
+			description: ["{ftbquests.chapter.ore_generation.quest20.description1}"]
 			icon: "gtceu:galena_ore"
 			id: "14587AE142D84E12"
 			size: 0.9d
-			subtitle: "Source of Lead, Silver"
+			subtitle: "{ftbquests.chapter.ore_generation.quest20.subtitle}"
 			tasks: [
 				{
 					id: "4E3A072619DD0ADD"
@@ -713,21 +713,21 @@
 					type: "item"
 				}
 			]
-			title: "Galena"
+			title: "{ftbquests.chapter.ore_generation.quest20.title}"
 			x: -1.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"Your one and only trusty source for Nickel."
+				"{ftbquests.chapter.ore_generation.quest21.description1}"
 				""
-				"Cobalt makes for some pretty decent early-game item pipes too!"
+				"{ftbquests.chapter.ore_generation.quest21.description2}"
 			]
 			icon: "gtceu:nickel_ore"
 			id: "38C955F6CBDD95BD"
 			size: 0.9d
-			subtitle: "Source of Nickel, Cobalt"
+			subtitle: "{ftbquests.chapter.ore_generation.quest21.subtitle}"
 			tasks: [
 				{
 					id: "2B48BE1948B21FA3"
@@ -750,23 +750,23 @@
 					type: "item"
 				}
 			]
-			title: "Nickel"
+			title: "{ftbquests.chapter.ore_generation.quest21.title}"
 			x: -1.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"A source of Bauxite for your first ever Titanium."
+				"{ftbquests.chapter.ore_generation.quest22.description1}"
 				""
-				"Kyanite and Mica decompose into some desirable products if you electrolyze them, but there are definitely better options, so you shouldn't hunt them down if you want their byproducts."
+				"{ftbquests.chapter.ore_generation.quest22.description2}"
 				""
-				"&8(This vein probably irks your average GTNH player...)&r"
+				"{ftbquests.chapter.ore_generation.quest22.description3}"
 			]
 			icon: "gtceu:mica_ore"
 			id: "0B4BA438FE7F3640"
 			size: 0.9d
-			subtitle: "Source of Aluminium, Fluorine, Titanium"
+			subtitle: "{ftbquests.chapter.ore_generation.quest22.subtitle}"
 			tasks: [
 				{
 					id: "7296DE6280CBC6A1"
@@ -789,21 +789,21 @@
 					type: "item"
 				}
 			]
-			title: "Mica"
+			title: "{ftbquests.chapter.ore_generation.quest22.title}"
 			x: -0.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"The worst Iron vein. It's helpful in the early game, but that's about it."
+				"{ftbquests.chapter.ore_generation.quest23.description1}"
 				""
-				"We love you anyway, Mineral Sand vein!"
+				"{ftbquests.chapter.ore_generation.quest23.description2}"
 			]
 			icon: "gtceu:granitic_mineral_sand_ore"
 			id: "5295C4AEFA8417F3"
 			size: 0.9d
-			subtitle: "Source of Iron"
+			subtitle: "{ftbquests.chapter.ore_generation.quest23.subtitle}"
 			tasks: [
 				{
 					id: "0A9878360139CD46"
@@ -826,21 +826,21 @@
 					type: "item"
 				}
 			]
-			title: "Mineral Sand"
+			title: "{ftbquests.chapter.ore_generation.quest23.title}"
 			x: 0.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["7CAD6FF241A827F7"]
 			description: [
-				"The de-facto Rare Earth vein for progression in &5EV&r... and onwards."
+				"{ftbquests.chapter.ore_generation.quest24.description1}"
 				""
-				"&l&3Lore:&r&o This vein was bugged for quite some time. It's never actually contained any Monazite, and nobody realised (well, nobody brought it up!) for many, many months. Did you notice?"
+				"{ftbquests.chapter.ore_generation.quest24.description2}"
 			]
 			icon: "gtceu:netherrack_bastnasite_ore"
 			id: "2171AF09E76A5968"
 			size: 0.9d
-			subtitle: "Source of Rare Earth, Neodymium, Fluorine"
+			subtitle: "{ftbquests.chapter.ore_generation.quest24.subtitle}"
 			tasks: [
 				{
 					id: "7628A17F2E48C5E7"
@@ -858,17 +858,17 @@
 					type: "item"
 				}
 			]
-			title: "Bastnatite"
+			title: "{ftbquests.chapter.ore_generation.quest24.title}"
 			x: 7.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["7CAD6FF241A827F7"]
-			description: ["Emerald is the useful ore here. It's used in small quantities in &bMV&r, and is a part of the Crystal process for Crystal and Wetware circuits much later on."]
+			description: ["{ftbquests.chapter.ore_generation.quest25.description1}"]
 			icon: "gtceu:netherrack_emerald_ore"
 			id: "594D84730913698A"
 			size: 0.9d
-			subtitle: "Source of Beryllium, Emerald, Thorium"
+			subtitle: "{ftbquests.chapter.ore_generation.quest25.subtitle}"
 			tasks: [
 				{
 					id: "14C64BEBBC783475"
@@ -886,23 +886,23 @@
 					type: "item"
 				}
 			]
-			title: "Emerald"
+			title: "{ftbquests.chapter.ore_generation.quest25.title}"
 			x: 8.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["7CAD6FF241A827F7"]
 			description: [
-				"This vein is very rare! Congratulations on stumbling upon one."
+				"{ftbquests.chapter.ore_generation.quest26.description1}"
 				""
-				"&8(Or at least... it should be rare.)&r"
+				"{ftbquests.chapter.ore_generation.quest26.description2}"
 				""
-				"View the contents of this vein as \"&7&obasically Molybdenum, and some other stuff&r\". Yeah, Molybdenum is what's important here."
+				"{ftbquests.chapter.ore_generation.quest26.description3}"
 			]
 			icon: "gtceu:netherrack_molybdenum_ore"
 			id: "63CB3C9F5A61E0C4"
 			size: 0.9d
-			subtitle: "Source of Molybdenum"
+			subtitle: "{ftbquests.chapter.ore_generation.quest26.subtitle}"
 			tasks: [
 				{
 					id: "382A7CC243D7042E"
@@ -925,21 +925,21 @@
 					type: "item"
 				}
 			]
-			title: "Molybdenum"
+			title: "{ftbquests.chapter.ore_generation.quest26.title}"
 			x: 9.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["7CAD6FF241A827F7"]
 			description: [
-				"Your ticket into &bApplied Energistics 2&r is nestled deep within a Certus Quartz vein."
+				"{ftbquests.chapter.ore_generation.quest27.description1}"
 				""
-				"Alongside this, note that Barite electrolyses into Barium, which you will eventually need to make some higher tier Superconductors."
+				"{ftbquests.chapter.ore_generation.quest27.description2}"
 			]
 			icon: "gtceu:netherrack_certus_quartz_ore"
 			id: "517D50E748A129AB"
 			size: 0.9d
-			subtitle: "Source of AE2, Barium"
+			subtitle: "{ftbquests.chapter.ore_generation.quest27.subtitle}"
 			tasks: [
 				{
 					id: "753C65ED1CA407C7"
@@ -957,23 +957,23 @@
 					type: "item"
 				}
 			]
-			title: "Certus Quartz"
+			title: "{ftbquests.chapter.ore_generation.quest27.title}"
 			x: 10.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["7CAD6FF241A827F7"]
 			description: [
-				"Electrotine is important for progression in &6HV&r. It centrifuges into Electrum (a source of Gold and Silver), and Redstone."
+				"{ftbquests.chapter.ore_generation.quest28.description1}"
 				""
-				"Saltpeter is used in a few reactions, and... the other two ores here are pretty average."
+				"{ftbquests.chapter.ore_generation.quest28.description2}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Does the word \"Nikolite\" ring a bell? It's pretty much Electrotine's great-ancestor, hailing from RedPower."
+				"{ftbquests.chapter.ore_generation.quest28.description3}"
 			]
 			icon: "gtceu:netherrack_saltpeter_ore"
 			id: "1F572D638AAACA21"
 			size: 0.9d
-			subtitle: "Source of Potassium, Electrum"
+			subtitle: "{ftbquests.chapter.ore_generation.quest28.subtitle}"
 			tasks: [
 				{
 					id: "5483A769AEEA0FA0"
@@ -996,21 +996,21 @@
 					type: "item"
 				}
 			]
-			title: "Saltpeter"
+			title: "{ftbquests.chapter.ore_generation.quest28.title}"
 			x: 11.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["7CAD6FF241A827F7"]
 			description: [
-				"Both Topaz ores are excellent subjects for eventual electrolysis."
+				"{ftbquests.chapter.ore_generation.quest29.description1}"
 				""
-				"This makes this vein one of the best Fluorine sources."
+				"{ftbquests.chapter.ore_generation.quest29.description2}"
 			]
 			icon: "gtceu:netherrack_topaz_ore"
 			id: "37EC97FB0FC6C56D"
 			size: 0.9d
-			subtitle: "Source of Copper, Fluorine"
+			subtitle: "{ftbquests.chapter.ore_generation.quest29.subtitle}"
 			tasks: [
 				{
 					id: "29303BBBF186EA1B"
@@ -1033,21 +1033,21 @@
 					type: "item"
 				}
 			]
-			title: "Topaz"
+			title: "{ftbquests.chapter.ore_generation.quest29.title}"
 			x: 10.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["7CAD6FF241A827F7"]
 			description: [
-				"Almost a pure Copper vein. Damn you, Stibnite, ruining our purity!"
+				"{ftbquests.chapter.ore_generation.quest30.description1}"
 				""
-				"You can hardly complain about its presence, though - Stibnite smelts directly into Antimony, which you will want in &7LV&r for your Batteries."
+				"{ftbquests.chapter.ore_generation.quest30.description2}"
 			]
 			icon: "gtceu:netherrack_tetrahedrite_ore"
 			id: "45B62B35180593EA"
 			size: 0.9d
-			subtitle: "Source of Copper, Antimony"
+			subtitle: "{ftbquests.chapter.ore_generation.quest30.subtitle}"
 			tasks: [
 				{
 					id: "65BB3345F5602A55"
@@ -1065,21 +1065,21 @@
 					type: "item"
 				}
 			]
-			title: "Tetrahedrite"
+			title: "{ftbquests.chapter.ore_generation.quest30.title}"
 			x: 9.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7CAD6FF241A827F7"]
 			description: [
-				"This Nether Limonite vein variant isn't to be slept on."
+				"{ftbquests.chapter.ore_generation.quest31.description1}"
 				""
-				"Thanks to the &adoubled yield&r of Nether ores, this is an excellent source of Iron and Gold."
+				"{ftbquests.chapter.ore_generation.quest31.description2}"
 			]
 			icon: "gtceu:netherrack_yellow_limonite_ore"
 			id: "0AFADD21454D968E"
 			size: 0.9d
-			subtitle: "Source of Iron, Gold"
+			subtitle: "{ftbquests.chapter.ore_generation.quest31.subtitle}"
 			tasks: [
 				{
 					id: "0C549A9F07E02FA6"
@@ -1097,21 +1097,21 @@
 					type: "item"
 				}
 			]
-			title: "Limonite"
+			title: "{ftbquests.chapter.ore_generation.quest31.title}"
 			x: 8.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7CAD6FF241A827F7"]
 			description: [
-				"Your first Nether expedition should be for &eSulfur&r - which is found in this vein! Be careful, as this vein usually spawns from y-levels of 10 to 30. Bring Fire Resistance potions!"
+				"{ftbquests.chapter.ore_generation.quest32.description1}"
 				""
-				"Sphalerite is extremely valuable, as its ore processing gives Gallium. It also smelts directly into Zinc."
+				"{ftbquests.chapter.ore_generation.quest32.description2}"
 			]
 			icon: "gtceu:netherrack_sulfur_ore"
 			id: "030E299F75640977"
 			size: 0.9d
-			subtitle: "Source of Sulfur, Iron, Zinc"
+			subtitle: "{ftbquests.chapter.ore_generation.quest32.subtitle}"
 			tasks: [
 				{
 					id: "022CC6EDF95C7696"
@@ -1129,21 +1129,21 @@
 					type: "item"
 				}
 			]
-			title: "Sulfur"
+			title: "{ftbquests.chapter.ore_generation.quest32.title}"
 			x: 7.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["7CAD6FF241A827F7"]
 			description: [
-				"Your classic Nether Quartz vein."
+				"{ftbquests.chapter.ore_generation.quest33.description1}"
 				""
-				"Silicon isn't too difficult to come by, but Quartzite isn't a bad source."
+				"{ftbquests.chapter.ore_generation.quest33.description2}"
 			]
 			icon: "gtceu:netherrack_nether_quartz_ore"
 			id: "0269FCDE2628904A"
 			size: 0.9d
-			subtitle: "Source of Nether Quartz, Silicon"
+			subtitle: "{ftbquests.chapter.ore_generation.quest33.subtitle}"
 			tasks: [
 				{
 					id: "3ABB4181FEA31D22"
@@ -1156,20 +1156,20 @@
 					type: "item"
 				}
 			]
-			title: "Quartz"
+			title: "{ftbquests.chapter.ore_generation.quest33.title}"
 			x: 7.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["41D32C5178760F47"]
 			description: [
-				"You may already have boatloads of Iron by the time you make it here, but don't overlook the utility of this vein."
+				"{ftbquests.chapter.ore_generation.quest34.description1}"
 				""
-				"Chromite is an excellent source of Chromium, and Vanadium is needed in higher quantities in the late game."
+				"{ftbquests.chapter.ore_generation.quest34.description2}"
 			]
 			icon: "gtceu:endstone_magnetite_ore"
 			id: "4FC668EF2BF294ED"
-			subtitle: "Source of Iron, Vanadium, Gold, Chromium"
+			subtitle: "{ftbquests.chapter.ore_generation.quest34.subtitle}"
 			tasks: [
 				{
 					id: "221E6D04EBEC9DDE"
@@ -1192,22 +1192,22 @@
 					type: "item"
 				}
 			]
-			title: "Magnetite"
+			title: "{ftbquests.chapter.ore_generation.quest34.title}"
 			x: 8.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["41D32C5178760F47"]
 			description: [
-				"Seasoned sci-fi fans might recognise &2Naquadah&r from the series &dStargate&r! You'll find this becomes an essential material from &dLuV&r onwards."
+				"{ftbquests.chapter.ore_generation.quest35.description1}"
 				""
-				"Naquadah can be processed in &dLuV&r for Titanium, Trinium, Barium, Gallium, Indium, Phosphorus, Enriched Naquadah, and Naquadria. Versatile!"
+				"{ftbquests.chapter.ore_generation.quest35.description2}"
 				""
-				"Moving the spotlight to the other ore, &cPlutonium&r is used to start the Radon loop, required in &9IV&r."
+				"{ftbquests.chapter.ore_generation.quest35.description3}"
 			]
 			icon: "gtceu:endstone_naquadah_ore"
 			id: "143B1AE1F3CF53EF"
-			subtitle: "Source of... a lot."
+			subtitle: "{ftbquests.chapter.ore_generation.quest35.subtitle}"
 			tasks: [
 				{
 					id: "310ED3BE9C7FD9E2"
@@ -1220,22 +1220,22 @@
 					type: "item"
 				}
 			]
-			title: "Naquadah"
+			title: "{ftbquests.chapter.ore_generation.quest35.title}"
 			x: 10.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["41D32C5178760F47"]
 			description: [
-				"Platinum starts seeing usage in &5EV&r."
+				"{ftbquests.chapter.ore_generation.quest36.description1}"
 				""
-				"The Platinum Group Sludge chain becomes a requirement in &1IV&r, and Sheldonite is the best ore to kickstart your processing."
+				"{ftbquests.chapter.ore_generation.quest36.description2}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o The real-world name for Sheldonite ore is actually Cooperite. GregoriusT thought it was \"haha, funny\" to make it a reference to Sheldon Cooper, despite &lnot&r&o being the person the ore was named after!  We kept the \"haha, funny\" joke going."
+				"{ftbquests.chapter.ore_generation.quest36.description3}"
 			]
 			icon: "gtceu:endstone_cooperite_ore"
 			id: "4D76C334B251EB3A"
-			subtitle: "Source of a lot, again..."
+			subtitle: "{ftbquests.chapter.ore_generation.quest36.subtitle}"
 			tasks: [
 				{
 					id: "4547E85950CB15E4"
@@ -1258,20 +1258,20 @@
 					type: "item"
 				}
 			]
-			title: "Sheldonite"
+			title: "{ftbquests.chapter.ore_generation.quest36.title}"
 			x: 8.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["41D32C5178760F47"]
 			description: [
-				"Your one and only &9Tungsten&r source! Whilst you could technically get your Tungstate from macerating &eEnd Stone,&r the yield is tiny. Process these ores instead!"
+				"{ftbquests.chapter.ore_generation.quest37.description1}"
 				""
-				"An extremely important vein, as Tungsten is used in vast amounts in &9IV&r and onwards."
+				"{ftbquests.chapter.ore_generation.quest37.description2}"
 			]
 			icon: "gtceu:endstone_scheelite_ore"
 			id: "5AA98D1298FD90BA"
-			subtitle: "Source of Tungsten, Lithium"
+			subtitle: "{ftbquests.chapter.ore_generation.quest37.subtitle}"
 			tasks: [
 				{
 					id: "30446661E519BD77"
@@ -1289,20 +1289,20 @@
 					type: "item"
 				}
 			]
-			title: "Scheelite"
+			title: "{ftbquests.chapter.ore_generation.quest37.title}"
 			x: 10.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["41D32C5178760F47"]
 			description: [
-				"The vein to mine for &bAluminium&r and &dTitanium&r if you're a well-adjusted person."
+				"{ftbquests.chapter.ore_generation.quest38.description1}"
 				""
-				"Ditch those Mica veins - Bauxite is the future!"
+				"{ftbquests.chapter.ore_generation.quest38.description2}"
 			]
 			icon: "gtceu:endstone_bauxite_ore"
 			id: "40B40DF0D1295A90"
-			subtitle: "Source of Aluminium, Titanium, Gallium"
+			subtitle: "{ftbquests.chapter.ore_generation.quest38.subtitle}"
 			tasks: [
 				{
 					id: "165615C81FEAE3C3"
@@ -1320,22 +1320,22 @@
 					type: "item"
 				}
 			]
-			title: "Bauxite"
+			title: "{ftbquests.chapter.ore_generation.quest38.title}"
 			x: 7.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["41D32C5178760F47"]
 			description: [
-				"The one and only vein for Uranium!"
+				"{ftbquests.chapter.ore_generation.quest39.description1}"
 				""
-				"Uranium has a few minor uses in &5EV&r and beyond."
+				"{ftbquests.chapter.ore_generation.quest39.description2}"
 				""
-				"Did you know that Nuclear Reactors might be making their way to &bGTCEu&r in the future?"
+				"{ftbquests.chapter.ore_generation.quest39.description3}"
 			]
 			icon: "gtceu:endstone_pitchblende_ore"
 			id: "5ED483A04095EFA3"
-			subtitle: "Source of Uranium, Thorium, Lead"
+			subtitle: "{ftbquests.chapter.ore_generation.quest39.subtitle}"
 			tasks: [
 				{
 					id: "6174FF347A1D09AE"
@@ -1348,11 +1348,11 @@
 					type: "item"
 				}
 			]
-			title: "Pitchblende"
+			title: "{ftbquests.chapter.ore_generation.quest39.title}"
 			x: 11.0d
 			y: 3.0d
 		}
 	]
-	subtitle: ["Ores galore, and so much more"]
-	title: "Ore Generation"
+	subtitle: ["{ftbquests.chapter.ore_generation.subtitle0}"]
+	title: "{ftbquests.chapter.ore_generation.title}"
 }
