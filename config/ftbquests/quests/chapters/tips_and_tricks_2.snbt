@@ -578,6 +578,9 @@
 				"They also introduce Machine Modes - depending on the configured machine mode, the Multiblock will use a different recipe type when processing materials. You can change this from the machine GUI by clicking on the Robot Arm button."
 				"{@pagebreak}"
 				"By including Parallel Control Hatches in your Gregicality Multiblocks, you can grant them parallel processing capability. There are 4 tiers of hatch, each further increasing parallel capability by an factor of 4."
+				"{@pagebreak}"
+				"Batch mode can be enabled on a multiblock to merge together an amount of one recipe together into one recipe up to 5 seconds. This does not change the overal speed of one recipe like overclocking but is useful for stopping machine flickering."
+				"This is not strickly gated by Gregicality Multiblocks, but is extremely useful with them. "
 			]
 			icon: "gtceu:mega_blast_furnace"
 			id: "57DE7059D524FAE9"
