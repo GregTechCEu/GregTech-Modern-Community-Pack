@@ -365,7 +365,7 @@
 				""
 				"For fluids, you'll instead need &3Hatches&r. Higher tiers of &3Hatches/Buses&r have more slots."
 				""
-				"&9Tip:&r You can Sneak + Right Click a placed &3Hatch&r or &3Bus&r to swap its I/O Direction"
+				"&9Tip:&r You can Sneak + Right Click a placed &3Hatch&r or &3Bus&r while holding a &2Screwdriver&r (and an empty offhand) to swap its I/O Direction"
 			]
 			icon: "gtceu:lv_input_bus"
 			id: "0C09F89291D29EF8"
