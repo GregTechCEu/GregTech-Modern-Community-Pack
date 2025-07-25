@@ -114,11 +114,11 @@ hash = "cc7b7524a1409711280d59e9af31b93d161cb654981abb0b2ea945111734fd3d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev__extreme_voltage.snbt"
-hash = "33fc94cf1a78345a1c820d262bd0fdbaf8efd760838a2ffda787b52b15450b69"
+hash = "318a4d1f0e9ff4a7252832bd3a0bfc90b934fc2dc5fe7d299c58a23db7366eef"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gtceu.snbt"
-hash = "a4f9065e203214eaeb1eb7e27b4c19bd34b703de5fe80f29240e7c7177388716"
+hash = "cecf5d83950dfd7d9943dfa54deac0545ced65b165b6819a405c02f13d40de80"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/heating_coils.snbt"
@@ -126,7 +126,7 @@ hash = "3de3b8987fbd6652079f9a6f8ff7f0d140753eb94563b31554648a09990d89e1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv__high_voltage.snbt"
-hash = "94888d20a22ba93f64b2242763f1cb69f6691075457181e00a5ee4377752c08e"
+hash = "3e4ed0a11278da6cd1a4056b45370df93ed53c5525500a7b26743948bae3e5c7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv__insane_voltage.snbt"
@@ -138,7 +138,7 @@ hash = "b68e2e3c85c5f70f5f1938e31ec228684cc08e823bca4e4170fb92e9339b2670"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv__low_voltage.snbt"
-hash = "e2849cf5691ebbd423c8b18de71b4ca55877488db37a5bd855550dc3d0d23d76"
+hash = "2b7d8c6d348728a194348d6ec35da2c8775ec23776688e6b90e72a36c2a48fb5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblock_dilemma.snbt"
@@ -146,11 +146,11 @@ hash = "c597f716bb540288bd909925586087298edabb66bf5b65b8f353631f05e295ce"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mv__medium_voltage.snbt"
-hash = "54410de26f46f019b00dc931bec2e1c25230fe4d09add1a4bded2116fc8ed297"
+hash = "56d08f85e2c7177533adda8d0a42c200cc92a581b7105e02dcc16016bef743a7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ore_generation.snbt"
-hash = "2d267a1702be46b209a1f0f5ec01725208bbdc776415eb879c1ba60da8bd353e"
+hash = "a240a1cdcc31c0706814218f057a7a2e6850606eba8d439cdb0268b83d8437e6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ore_processing.snbt"
@@ -166,7 +166,7 @@ hash = "070e4c59640dc3014745eb4f2b83f918342a92c7dbec9a44c7e003500de90904"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/steam_age.snbt"
-hash = "79aacdd763f925144471eca4097e424d41d6420d195e6118144c2b6e7138ac07"
+hash = "7dfdebf57e389951e58ece3928f1e3826e1ded6e3e51da86edbd865d96994e26"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks_2.snbt"
@@ -590,7 +590,7 @@ hash = "ef31a184c3685322b9a0f38d7e692e352ef1da698b74f835bf120c3b709e075c"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/pressing.js"
-hash = "4a7d34021202b814ad578b2c217c6e4e893d232ef7e4cb4bd5ab793aec5a34ae"
+hash = "6f305c23029c58e99ffc1b30dc337a5ef312682c7207eef44ed2ba0f9efc5b42"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/removals.js"
@@ -714,11 +714,11 @@ hash = "509f876d9767bf536a5452021bef3dff8cf1d10345f2b4aba8d2df529763edbe"
 
 [[files]]
 file = "kubejs/startup_scripts/machinery/construction_core.js"
-hash = "32a31279890e59872a8d4f8d6991d8852c94729aba7374edaeb62842ea1e622b"
+hash = "ec9b2945b770e2d03fc015c25ab3cabbaecf68dd8798d06799ca79477167bce7"
 
 [[files]]
 file = "kubejs/startup_scripts/machinery/greenhouse.js"
-hash = "865d1b4caf98c99de1ea23a937f9e616435a501f0058ed2a7907ada71cea9d14"
+hash = "4243acf6c16297a0dc6f87230d2e061571766f93bcfa04e0949535e36edc7b86"
 
 [[files]]
 file = "kubejs/startup_scripts/material_testing/material.js"
@@ -784,7 +784,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-tips-nbt-tag.pw.toml"
-hash = "ed2a498178b191db5803bd699f41c8a31f0737dd351957862bd3480060c77874"
+hash = "d5d14d7bc5015e8d176dea928108876af06b90cd6cab328682fb5ca43fdb7f5b"
 metafile = true
 
 [[files]]
@@ -799,7 +799,7 @@ metafile = true
 
 [[files]]
 file = "mods/client-tweaks.pw.toml"
-hash = "07b18da9ef6f6a56fdca7f190192c1425441f69e5eb4b13e0921798d477bea12"
+hash = "a387e7cb8af1671af10e6eb3dd2d2de9944cc11a81f4f760aaf72a4e83b95adf"
 metafile = true
 
 [[files]]
@@ -819,12 +819,12 @@ metafile = true
 
 [[files]]
 file = "mods/controlling.pw.toml"
-hash = "1e56f528d8e21b0cf9c52c3d6deea2a4eafa408170b39a070195dbf66617f373"
+hash = "cf8c5f2a139a2571d0d4b8be2b7463255cca721ae4a5741ec71595b7ab530e71"
 metafile = true
 
 [[files]]
-file = "mods/crafting-station-jei-edition.pw.toml"
-hash = "074244ae35db6bea78b17e390a6c678838d2bbf539bd85a3883b2e6613509898"
+file = "mods/crafting-station-improved.pw.toml"
+hash = "2280f4db67a42c81e6618b7dc30c4bdc598579aeb4be617b968bdc33e66fb1c8"
 metafile = true
 
 [[files]]
@@ -839,12 +839,12 @@ metafile = true
 
 [[files]]
 file = "mods/default-options.pw.toml"
-hash = "1cb1ed842db59e479dc2b21cf8afb8eeb9ff4577d292e6b51ed8df98e24411d5"
+hash = "bace9ac545c5db24d350a955565157500cdcedc8db6a8e78ff6118d97748eb2a"
 metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "a1575677daaaf6ea6dac12e5a10073e34025e5ca2c35b6d36ad4a5a0edbc0e82"
+hash = "a74b2d65c286896335b454f61f18be630d0f13767626ebb118584907d1d37112"
 metafile = true
 
 [[files]]
@@ -894,7 +894,7 @@ metafile = true
 
 [[files]]
 file = "mods/fps-reducer.pw.toml"
-hash = "74343f6931d66da29809e437bfb83d19adcf2bf5c81861071fad6f049c70ed1e"
+hash = "d3034d45f3e7b6020053a693f52f083e138d0dc7eafcc48dfcafa0207cb336fb"
 metafile = true
 
 [[files]]
@@ -943,8 +943,13 @@ hash = "2a7944b951ebfaa4dcf963c3e2faf43eb8115d99a4390daa49dd8ea6676e8828"
 metafile = true
 
 [[files]]
+file = "mods/gregtech-storage-drawers.pw.toml"
+hash = "a71e50b12d6ad878ef5b81a27e78277951acdf9a22964f0be8bd786356a61444"
+metafile = true
+
+[[files]]
 file = "mods/gregtechceu-modern.pw.toml"
-hash = "e54ed537bad12dafc02c2d21399f7c69d0e0ed2925a22a0f0528e74df2ea1946"
+hash = "1746557e541c429e1b33a3253950b445f79e4c57502cd5bbec1b3184206609c0"
 metafile = true
 
 [[files]]
@@ -969,7 +974,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-profiles-next.pw.toml"
-hash = "984992f9214094eaab3beb1ae7600c76fc793c27696192f02a8f35ca93803552"
+hash = "123efff2aa30cc96a3d41d475252f3c5530a5e673d896992545c02d32132b379"
 metafile = true
 
 [[files]]
@@ -1019,7 +1024,7 @@ metafile = true
 
 [[files]]
 file = "mods/model-gap-fix.pw.toml"
-hash = "cd3140db1982e4e1b17c60b71e436fc92c22b1a6ce189e6b8197d1275487679c"
+hash = "0bb674b857580f12bd2c422af10506d98948b65838992fa7fc53c2e597cdbc56"
 metafile = true
 
 [[files]]
@@ -1034,7 +1039,7 @@ metafile = true
 
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
-hash = "e72f73611904e14d915418f0e3c6cb483cdc600e211375c2eceb393fec5b80f1"
+hash = "c17b9de2050b52f12368cea16836e8c6ac43be9683b2fc4755a9b3d4a60fa67b"
 metafile = true
 
 [[files]]
@@ -1074,7 +1079,7 @@ metafile = true
 
 [[files]]
 file = "mods/searchables.pw.toml"
-hash = "2cb8dd9a3944a6430b49916a4fe1b6cf0bd7efd907054f8e679a02717149404f"
+hash = "a84f8e46ba2d693bfbdec682ca66213e2e0783395c9af34f8b22d460d3952a4c"
 metafile = true
 
 [[files]]
@@ -1099,7 +1104,7 @@ metafile = true
 
 [[files]]
 file = "mods/toast-control.pw.toml"
-hash = "1195cdfa90ac4ef4d5ebed8dbca1df990cf58b0a0fe3b9b965ccefa0cfd5a2e3"
+hash = "34ae3ed4e00f9a9d8483b9cb1cb48ea45b43d60e2aaf2f03dc01d85f9b954f93"
 metafile = true
 
 [[files]]
@@ -1139,5 +1144,5 @@ metafile = true
 
 [[files]]
 file = "mods/yeetusexperimentus.pw.toml"
-hash = "7dbe376c64d52ddc3e52ca6ce6b07d8c5d76bf9ef68d58267bb9e9c6d8fb2c09"
+hash = "7aca72d7440da7045b3bff8f754027deab9924a9bb52d768977b2862f2b619e4"
 metafile = true

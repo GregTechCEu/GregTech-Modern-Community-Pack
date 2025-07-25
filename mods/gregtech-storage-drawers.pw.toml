@@ -1,0 +1,13 @@
+name = "GregTech Storage Drawers"
+filename = "gtstoragedrawers-1.20.1-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ef1856f6aa8ca5e4f41e86153e9160def3f66880"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6805649
+project-id = 1310132
