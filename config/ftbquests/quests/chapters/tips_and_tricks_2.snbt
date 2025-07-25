@@ -364,6 +364,8 @@
 				"Similarly to the Steam Multiblocks - hopefully, you made these! - you're going to need some &3Buses&r if you want to move items in and out."
 				""
 				"For fluids, you'll instead need &3Hatches&r. Higher tiers of &3Hatches/Buses&r have more slots."
+				""
+				"&9Tip:&r You can Sneak + Right Click a placed &3Hatch&r or &3Bus&r while holding a &2Screwdriver&r (and an empty offhand) to swap its I/O Direction"
 			]
 			icon: "gtceu:lv_input_bus"
 			id: "0C09F89291D29EF8"
@@ -432,7 +434,7 @@
 				type: "checkmark"
 			}]
 			title: "All About the Cleanroom"
-			x: 0.33d
+			x: 0.0d
 			y: 1.98d
 		}
 		{
@@ -458,7 +460,7 @@
 				type: "checkmark"
 			}]
 			title: "Understanding the Assembly Line"
-			x: 1.32d
+			x: 0.99d
 			y: 1.98d
 		}
 		{
@@ -483,7 +485,7 @@
 				title: "Research"
 				type: "checkmark"
 			}]
-			x: 2.31d
+			x: 1.98d
 			y: 1.98d
 		}
 		{
@@ -565,7 +567,7 @@
 				title: "Large Turbine Mechanics"
 				type: "checkmark"
 			}]
-			x: 3.63d
+			x: 3.97d
 			y: 1.98d
 		}
 		{
@@ -576,6 +578,9 @@
 				"They also introduce Machine Modes - depending on the configured machine mode, the Multiblock will use a different recipe type when processing materials. You can change this from the machine GUI by clicking on the Robot Arm button."
 				"{@pagebreak}"
 				"By including Parallel Control Hatches in your Gregicality Multiblocks, you can grant them parallel processing capability. There are 4 tiers of hatch, each further increasing parallel capability by an factor of 4."
+				"{@pagebreak}"
+				"Batch mode can be enabled on a multiblock to merge together an amount of one recipe together into one recipe up to 5 seconds. This does not change the overall speed of one recipe like overclocking, but is useful to stop machine flickering."
+				"This is not strictly gated by Gregicality Multiblocks, but is extremely useful with them. "
 			]
 			icon: "gtceu:mega_blast_furnace"
 			id: "57DE7059D524FAE9"
@@ -585,7 +590,7 @@
 				title: "Gregicality Multiblocks"
 				type: "checkmark"
 			}]
-			x: 4.62d
+			x: 4.95d
 			y: 1.98d
 		}
 		{
@@ -607,7 +612,7 @@
 				type: "checkmark"
 			}]
 			title: "Parallelisation"
-			x: 5.61d
+			x: 5.94d
 			y: 1.98d
 		}
 		{
@@ -739,6 +744,22 @@
 			}]
 			x: 5.94d
 			y: 0.0d
+		}
+		{
+			dependencies: ["5AD9884E7BFB2510"]
+			description: ["Spraying &3Input Buses&r and &3Hatches&r the same color will treat them as one &3Hatch&r in the &5Multiblock&r. With distinct mode enabled on the &3Buses/Hatches&r, the &5Multiblock&r will only search for a recipe using ingredients from one color group."]
+			icon: "gtceu:cyan_dye_spray_can"
+			id: "57EC19AF87A32930"
+			size: 0.66d
+			subtitle: "Color by number multiblocks"
+			tasks: [{
+				id: "5F4FB0D81F0772F9"
+				title: "Colored Buses"
+				type: "checkmark"
+			}]
+			title: "Colored Buses"
+			x: 3.0d
+			y: 1.98d
 		}
 	]
 	subtitle: ["For the Modern Minecrafter"]

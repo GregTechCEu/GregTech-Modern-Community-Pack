@@ -39,8 +39,6 @@
 			dependencies: ["7FA0ACB7F161F378"]
 			description: [
 				"If you already made and centrifuged &aRare Earth&r, that's great! If you haven't, you can obtain it as a &9Byproduct&r from various ores, or from centrifuging &dMonazite&r."
-				""
-				"To extract the &aRare Earths&r&r, you should use a &3Centrifuge&r &4as high a tier as possible&r, due to the increased chance of bonus outputs."
 				"{@pagebreak}"
 				"The elements you can obtain are:"
 				""
