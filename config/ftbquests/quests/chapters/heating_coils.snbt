@@ -95,14 +95,14 @@
 				"5B2696206205CB2E"
 			]
 			description: [
-				"Gotta say, Cupronickel ingots look pretty tasty."
+				"{ftbquests.chapter.heating_coils.quest1.description1}"
 				""
-				"&l&3Lore:&r&o IRL, Cupronickel usually contains additional elements such as Iron or Manganese to improve its strength. The Cupronickel in GregTech is probably more like Constantan (55:45 Copper:Nickel)."
+				"{ftbquests.chapter.heating_coils.quest1.description2}"
 			]
 			id: "70432F650591353C"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Legally distinct Constantan"
+			subtitle: "{ftbquests.chapter.heating_coils.quest1.subtitle}"
 			tasks: [{
 				id: "77875BBDC0A937A9"
 				item: "gtceu:cupronickel_ingot"
@@ -117,14 +117,14 @@
 				"4A92AFD2532EED26"
 			]
 			description: [
-				"&l&3Lore:&r&o You might find Kanthal around the home. Due to its excellent thermal conductivity and intermediate electric resistance, Kanthal is usually found in toasters and heaters!"
+				"{ftbquests.chapter.heating_coils.quest2.description1}"
 				""
-				"&oBet you didn't expect your toaster to be at &bMV&f before you!"
+				"{ftbquests.chapter.heating_coils.quest2.description2}"
 			]
 			id: "66805BB78A828C00"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "That's just how I FeAlCr"
+			subtitle: "{ftbquests.chapter.heating_coils.quest2.subtitle}"
 			tasks: [{
 				id: "76206DC9E7ABD07A"
 				item: "gtceu:kanthal_ingot"
@@ -135,17 +135,17 @@
 		}
 		{
 			dependencies: ["6958029B5514D4EC"]
-			description: ["Nichrome will require your &aElectric Blast Furnace&r to be at least &6EV&r, with &bKanthal&r coils to boot."]
+			description: ["{ftbquests.chapter.heating_coils.quest3.description1}"]
 			id: "1CBA5477CB7C45E7"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Operation Nichrome Dome"
+			subtitle: "{ftbquests.chapter.heating_coils.quest3.subtitle}"
 			tasks: [{
 				id: "1104AC52E0A0A472"
 				item: "gtceu:nichrome_ingot"
 				type: "item"
 			}]
-			title: "Nichrome"
+			title: "{ftbquests.chapter.heating_coils.quest3.title}"
 			x: 0.5d
 			y: -6.5d
 		}
@@ -154,11 +154,11 @@
 				"2F9D9AAB27E6534D"
 				"0B25A282F677744B"
 			]
-			description: ["You're gonna need to start on your &dPlatinum&r processing, or \"&bPlatline&r\", if you want to get your hands on these."]
+			description: ["{ftbquests.chapter.heating_coils.quest4.description1}"]
 			id: "3856DBCCAA6D2A58"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Tungstensteel is dead, long live RTM"
+			subtitle: "{ftbquests.chapter.heating_coils.quest4.subtitle}"
 			tasks: [{
 				id: "76DE4924186D83C2"
 				item: "gtceu:rtm_alloy_ingot"
@@ -168,6 +168,6 @@
 			y: -6.5d
 		}
 	]
-	subtitle: ["Coil Headed"]
-	title: "Heating Coils"
+	subtitle: ["{ftbquests.chapter.heating_coils.subtitle0}"]
+	title: "{ftbquests.chapter.heating_coils.title}"
 }

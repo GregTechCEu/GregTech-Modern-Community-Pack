@@ -11,40 +11,40 @@
 		{
 			dependencies: ["730043448A9ADBB6"]
 			description: [
-				"All good ore processing lines start with a crush, and in your case, you'll want to macerate either your &5Raw Ore&r, or your Ore blocks (if you're using &dSilk Touch&r!)"
+				"{ftbquests.chapter.ore_processing.quest1.description1}"
 				""
-				"When you can make the large multiblock Miners, your ore yield is almost &aquadrupled&r further, and you won't need to macerate for the first step - the &bLarge Miner&r will output its ores as if they had been macerated."
+				"{ftbquests.chapter.ore_processing.quest1.description2}"
 			]
 			icon: "gtceu:lv_macerator"
 			id: "012BF60FBD5D41AC"
 			size: 1.1d
-			subtitle: "Well. You've gotta start somewhere!"
+			subtitle: "{ftbquests.chapter.ore_processing.quest1.subtitle}"
 			tasks: [{
 				id: "037584D32CBC5D8D"
-				title: "I'm feeling pretty crushed right now."
+				title: "{ftbquests.chapter.ore_processing.quest1.task_249251396912438669.title}"
 				type: "checkmark"
 			}]
-			title: "The First Maceration"
+			title: "{ftbquests.chapter.ore_processing.quest1.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["012BF60FBD5D41AC"]
 			description: [
-				"Nothing special here. Any ores that you don't wash in novelty chemicals simply need to be washed in water with an &dOre Washer&r. You should use Distilled Water, as it cuts the recipe time down by &650%&r. Set up a couple of Distilleries on-site and buffer into an appropriately-sized &aSuper Tank&r."
+				"{ftbquests.chapter.ore_processing.quest2.description1}"
 				""
-				"If you don't care about the byproducts in this section, you can wash the ores in &bregular water&r without a configured circuit to process &225x&r faster, but &4without&r byproducts."
+				"{ftbquests.chapter.ore_processing.quest2.description2}"
 			]
 			icon: "gtceu:distilled_water_bucket"
 			id: "228379C559E390B8"
 			size: 1.1d
-			subtitle: "The \"distinguished\" version of water"
+			subtitle: "{ftbquests.chapter.ore_processing.quest2.subtitle}"
 			tasks: [{
 				id: "2E2ABD36FCFF1CC5"
-				title: "Nah, I'll go with Distilled Water."
+				title: "{ftbquests.chapter.ore_processing.quest2.task_3326679318636993733.title}"
 				type: "checkmark"
 			}]
-			title: "Washing with Distilled Water"
+			title: "{ftbquests.chapter.ore_processing.quest2.title}"
 			x: 0.0d
 			y: 2.0d
 		}
@@ -54,90 +54,90 @@
 				"4353AB0E20601AEC"
 			]
 			description: [
-				"Sodium Persulfate isn't as simple to obtain as Mercury, but you'll probably find yourself making some when crafting Circuit Boards. Set up a &6Chemical Reactor&r/&bElectrolyser&r combo with a Level Emitter attached if you want to keep some in stock, and then you can wash any Crushed Ore with a &aChemical Bath&r."
+				"{ftbquests.chapter.ore_processing.quest3.description1}"
 				"{@pagebreak}"
-				"You'll want to use &3Sodium Persulfate&r when processing:"
+				"{ftbquests.chapter.ore_processing.quest3.description2}"
 				""
-				"- Tin Ore"
-				"- Aluminium Ore"
-				"- Cobalt Ore"
-				"- Cobaltite Ore"
-				"- Bauxite Ore"
-				"- Tetrahedrite Ore"
-				"- Pentlandite Ore"
-				"- Sphalerite Ore"
-				"- Stibnite Ore"
-				"- Yellow Limonite Ore"
-				"- Malachite Ore"
-				"- Iron Ore"
+				"{ftbquests.chapter.ore_processing.quest3.description3}"
+				"{ftbquests.chapter.ore_processing.quest3.description4}"
+				"{ftbquests.chapter.ore_processing.quest3.description5}"
+				"{ftbquests.chapter.ore_processing.quest3.description6}"
+				"{ftbquests.chapter.ore_processing.quest3.description7}"
+				"{ftbquests.chapter.ore_processing.quest3.description8}"
+				"{ftbquests.chapter.ore_processing.quest3.description9}"
+				"{ftbquests.chapter.ore_processing.quest3.description10}"
+				"{ftbquests.chapter.ore_processing.quest3.description11}"
+				"{ftbquests.chapter.ore_processing.quest3.description12}"
+				"{ftbquests.chapter.ore_processing.quest3.description13}"
+				"{ftbquests.chapter.ore_processing.quest3.description14}"
 				""
-				"Enjoy your byproducts!"
+				"{ftbquests.chapter.ore_processing.quest3.description15}"
 			]
 			icon: "gtceu:sodium_persulfate_bucket"
 			id: "5AB202F6C0B34BF3"
 			shape: "rsquare"
-			subtitle: "Sulfium Persodate"
+			subtitle: "{ftbquests.chapter.ore_processing.quest3.subtitle}"
 			tasks: [{
 				id: "04D48CBAD6DA788D"
-				title: "Sodium Persulfate goes hard!"
+				title: "{ftbquests.chapter.ore_processing.quest3.task_348057805310818445.title}"
 				type: "checkmark"
 			}]
-			title: "Washing with Sodium Persulfate"
+			title: "{ftbquests.chapter.ore_processing.quest3.title}"
 			x: -2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["012BF60FBD5D41AC"]
 			description: [
-				"Washing ores with Mercury where applicable instead of &3Distilled Water&r grants unique byproducts that may be difficult to obtain in other circumstances. It's usually worth doing this, as Mercury is readily available from centrifuging &cRedstone&r or &4Cinnabar&r &7(and in fact, Mercury is the &lonly&r&7 real usage of Cinnabar!)&r."
+				"{ftbquests.chapter.ore_processing.quest4.description1}"
 				""
-				"Simply wash any &6Crushed Ore&r with a Chemical Bath."
+				"{ftbquests.chapter.ore_processing.quest4.description2}"
 				"{@pagebreak}"
-				"Here is a non-exhaustive list of ores you likely want to wash in Mercury:"
+				"{ftbquests.chapter.ore_processing.quest4.description3}"
 				""
-				"- Galena Ore"
-				"- Tungstate Ore"
-				"- Silver Ore"
-				"- Bornite Ore"
-				"- Magnetite Ore"
-				"- Copper Ore"
-				"- Gold Ore"
-				"- Nickel Ore"
-				"- Platinum Ore"
-				"- Chalcopyrite Ore"
-				"- Sheldonite Ore"
+				"{ftbquests.chapter.ore_processing.quest4.description4}"
+				"{ftbquests.chapter.ore_processing.quest4.description5}"
+				"{ftbquests.chapter.ore_processing.quest4.description6}"
+				"{ftbquests.chapter.ore_processing.quest4.description7}"
+				"{ftbquests.chapter.ore_processing.quest4.description8}"
+				"{ftbquests.chapter.ore_processing.quest4.description9}"
+				"{ftbquests.chapter.ore_processing.quest4.description10}"
+				"{ftbquests.chapter.ore_processing.quest4.description11}"
+				"{ftbquests.chapter.ore_processing.quest4.description12}"
+				"{ftbquests.chapter.ore_processing.quest4.description13}"
+				"{ftbquests.chapter.ore_processing.quest4.description14}"
 				""
-				"These alternate \"&bwashing routes&r\" will increase your Gold, Silver, and Platinum Group yields significantly!"
+				"{ftbquests.chapter.ore_processing.quest4.description15}"
 			]
 			icon: "gtceu:mercury_bucket"
 			id: "2E0777FBD0476D75"
 			shape: "rsquare"
-			subtitle: "Bathing with Venus"
+			subtitle: "{ftbquests.chapter.ore_processing.quest4.subtitle}"
 			tasks: [{
 				id: "6508774C6A27D5D9"
-				title: "Showering with Jupiter"
+				title: "{ftbquests.chapter.ore_processing.quest4.task_7280199967726622169.title}"
 				type: "checkmark"
 			}]
-			title: "Washing with Mercury"
+			title: "{ftbquests.chapter.ore_processing.quest4.title}"
 			x: 2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["478A7F7565AFC8A8"]
 			description: [
-				"The default way to deal with ores at this step is usually with the &eThermal Centrifuge&r for its &bexclusive byproduct&r, but check around the above quest to make sure you're not missing something important."
+				"{ftbquests.chapter.ore_processing.quest5.description1}"
 				""
-				"&9Al&rle&4z!"
+				"{ftbquests.chapter.ore_processing.quest5.description2}"
 			]
 			icon: "gtceu:lv_thermal_centrifuge"
 			id: "3C36AA80FE51DA45"
-			subtitle: "This isn't Thermal Expansion..."
+			subtitle: "{ftbquests.chapter.ore_processing.quest5.subtitle}"
 			tasks: [{
 				id: "77457ABAEFF7707B"
-				title: "That's hot."
+				title: "{ftbquests.chapter.ore_processing.quest5.task_8594410407214936187.title}"
 				type: "checkmark"
 			}]
-			title: "Thermal Centrifuge"
+			title: "{ftbquests.chapter.ore_processing.quest5.title}"
 			x: 0.0d
 			y: 6.0d
 		}
@@ -147,17 +147,17 @@
 				"228379C559E390B8"
 				"2E0777FBD0476D75"
 			]
-			description: ["From now onwards, you'll be sending &ball of your ores&r towards &6all kinds of places&r, depending on how far you are through your playthrough. Quests will unlock around this node when you &aunlock the ability&r to deal with them, so check back occasionally if you're feeling bored."]
+			description: ["{ftbquests.chapter.ore_processing.quest6.description1}"]
 			icon: "gtceu:purified_gold_ore"
 			id: "478A7F7565AFC8A8"
 			size: 1.1d
-			subtitle: "Started from the Raw Ore, now we here"
+			subtitle: "{ftbquests.chapter.ore_processing.quest6.subtitle}"
 			tasks: [{
 				id: "6A094CE2872E8DA3"
-				title: "Alright, I've read this!"
+				title: "{ftbquests.chapter.ore_processing.quest6.task_7640722778625052067.title}"
 				type: "checkmark"
 			}]
-			title: "We've got some Purified Ore - what's next?"
+			title: "{ftbquests.chapter.ore_processing.quest6.title}"
 			x: 0.0d
 			y: 4.0d
 		}
@@ -168,20 +168,20 @@
 				"517B6A6E04F4E4C8"
 			]
 			description: [
-				"From now? That's the basics of an &5ore processing setup&r. You can check your filters, make more machines, and generally improve efficiency, but if you've &6loosely&r followed everything on this page, you should be in &bgood stead&r!"
+				"{ftbquests.chapter.ore_processing.quest7.description1}"
 				""
-				"&m&7Hopefully, some information here was of use.&r"
+				"{ftbquests.chapter.ore_processing.quest7.description2}"
 			]
 			icon: "gtceu:gold_dust"
 			id: "797EB7DF0C07F327"
 			size: 1.1d
-			subtitle: "That wasn't so bad, now."
+			subtitle: "{ftbquests.chapter.ore_processing.quest7.subtitle}"
 			tasks: [{
 				id: "554BFDB6C8AB1132"
-				title: "Yay! That was really, really fun."
+				title: "{ftbquests.chapter.ore_processing.quest7.task_6146285077969703218.title}"
 				type: "checkmark"
 			}]
-			title: "We did it! Now what?"
+			title: "{ftbquests.chapter.ore_processing.quest7.title}"
 			x: 0.0d
 			y: 8.0d
 		}
@@ -191,74 +191,74 @@
 				"390E59F05132FCB8"
 			]
 			description: [
-				"Some Gem ores - namely &cRuby&r, &9Sapphire&r, and &2Green Sapphire&r - can be mixed with Aqua Regia in their crushed form to obtain Slurry."
+				"{ftbquests.chapter.ore_processing.quest8.description1}"
 				""
-				"When electrolysed, the Slurry has some interesting byproducts. Namely, it's one of the few ways to obtain &dTitanium Dust&r without macerating Titanium ingots!"
+				"{ftbquests.chapter.ore_processing.quest8.description2}"
 			]
 			icon: "gtceu:ruby_slurry_bucket"
 			id: "3D9E045B8D3F2B85"
 			shape: "rsquare"
 			size: 0.9d
-			subtitle: "Not quite like Mekanism"
+			subtitle: "{ftbquests.chapter.ore_processing.quest8.subtitle}"
 			tasks: [{
 				id: "412357F4B4B8FB48"
-				title: "Hurry hurry, slurry."
+				title: "{ftbquests.chapter.ore_processing.quest8.task_4693691945165847368.title}"
 				type: "checkmark"
 			}]
-			title: "Slurry Processing"
+			title: "{ftbquests.chapter.ore_processing.quest8.title}"
 			x: 1.7938775510203726d
 			y: 0.019897959183666103d
 		}
 		{
 			dependencies: ["797EB7DF0C07F327"]
-			description: ["Some dusts in &bGregTech&r have little use other than to be processed in an &3Electrolyser&r for some nice bonus chemical outputs. You can either set a manual filter for the desired items in a &aStorage Bus&r, or provide the most vital dusts via ME Interface, for example."]
+			description: ["{ftbquests.chapter.ore_processing.quest9.description1}"]
 			icon: "gtceu:lv_electrolyzer"
 			id: "3B72CFB9F466DD76"
-			subtitle: "We don't need THIS much Cobaltite, right?"
+			subtitle: "{ftbquests.chapter.ore_processing.quest9.subtitle}"
 			tasks: [{
 				id: "1C9515F37AD27BA9"
-				title: "Every last drop counts."
+				title: "{ftbquests.chapter.ore_processing.quest9.task_2059576540073720745.title}"
 				type: "checkmark"
 			}]
-			title: "Electrolyse what's left!"
+			title: "{ftbquests.chapter.ore_processing.quest9.title}"
 			x: -1.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["797EB7DF0C07F327"]
 			description: [
-				"Some stages listed on this page output Small/Tiny Dusts, or Nuggets. These have little use in such a form, so it's never a bad idea to route these into a &dPacker&r to \"&7compress&r\" them into their full forms."
+				"{ftbquests.chapter.ore_processing.quest10.description1}"
 				""
-				"If you're having problems with the Packer filling up with too few Nuggets and clogging your buffer, then you may want to consider using a &6GregTech Robot Arm&r set to \"Supply Exact\". Send your Nuggets in 9 at a time, and you can consider this a problem solved!"
+				"{ftbquests.chapter.ore_processing.quest10.description2}"
 			]
 			icon: "gtceu:lv_packer"
 			id: "433BE663989445B9"
 			shape: "rsquare"
 			size: 0.9d
-			subtitle: "With our powers combined..."
+			subtitle: "{ftbquests.chapter.ore_processing.quest10.subtitle}"
 			tasks: [{
 				id: "7433795785B315B3"
-				title: "Call me Amazon delivery driver the way I be packaging"
+				title: "{ftbquests.chapter.ore_processing.quest10.task_8373169549024105907.title}"
 				type: "checkmark"
 			}]
-			title: "Do we need to package?"
+			title: "{ftbquests.chapter.ore_processing.quest10.title}"
 			x: 0.8891156462584675d
 			y: 9.970918367346947d
 		}
 		{
 			dependencies: ["478A7F7565AFC8A8"]
-			description: ["Gemstones deserve to be sifted. In &2earlier stages&r of the game, this is slow and has poor yields, but when overclocked, sifting quickly becomes a great way to &dmaximise&r your gemstone yield."]
+			description: ["{ftbquests.chapter.ore_processing.quest11.description1}"]
 			icon: "gtceu:lv_sifter"
 			id: "1069BF4C1771A4F6"
 			shape: "rsquare"
 			size: 0.9d
-			subtitle: "Great Grey Wolf Sif-ting"
+			subtitle: "{ftbquests.chapter.ore_processing.quest11.subtitle}"
 			tasks: [{
 				id: "28C312E791DF4125"
-				title: "Sifting through so much rubbish..."
+				title: "{ftbquests.chapter.ore_processing.quest11.task_2937212167769768229.title}"
 				type: "checkmark"
 			}]
-			title: "Sifting"
+			title: "{ftbquests.chapter.ore_processing.quest11.title}"
 			x: 1.5d
 			y: 5.5d
 		}
@@ -268,21 +268,21 @@
 				"0F192D1F44B9B599"
 			]
 			description: [
-				"As mentioned in the main sections of this quest book, this &5Indium setup&r has a limited lifetime, so don't stress over optimising every last detail."
+				"{ftbquests.chapter.ore_processing.quest12.description1}"
 				""
-				"Simply mix &dPurified Galena&r and &eSphalerite&r together with some &aSulfuric Acid&r to obtain &9Indium Concentrate&r, then combine with Aluminium Dust in a Chemical Reactor for your prize!"
+				"{ftbquests.chapter.ore_processing.quest12.description2}"
 			]
 			icon: "gtceu:indium_dust"
 			id: "38D1336DC84E03FE"
 			shape: "rsquare"
 			size: 0.9d
-			subtitle: "Getting your first Indium has never been so fun."
+			subtitle: "{ftbquests.chapter.ore_processing.quest12.subtitle}"
 			tasks: [{
 				id: "22926D3453E03389"
-				title: "I won't get too attached to my Indium setup."
+				title: "{ftbquests.chapter.ore_processing.quest12.task_2491173615402234761.title}"
 				type: "checkmark"
 			}]
-			title: "Indium Processing"
+			title: "{ftbquests.chapter.ore_processing.quest12.title}"
 			x: 2.011564625850305d
 			y: 4.01173469387755d
 		}
@@ -292,193 +292,193 @@
 				"57D4E09A9CAB150C"
 			]
 			description: [
-				"You'll want to send off the following ores to &aPlatinum Group Processing&r:"
+				"{ftbquests.chapter.ore_processing.quest13.description1}"
 				""
-				"- Purified Chalcopyrite Ore"
-				"- Purified Tetrahedrite Ore"
-				"- Purified Chalcocite Ore"
-				"- Purified Bornite Ore"
-				"- Purified Sheldonite Ore"
-				"- Purified Pentlandite Ore"
+				"{ftbquests.chapter.ore_processing.quest13.description2}"
+				"{ftbquests.chapter.ore_processing.quest13.description3}"
+				"{ftbquests.chapter.ore_processing.quest13.description4}"
+				"{ftbquests.chapter.ore_processing.quest13.description5}"
+				"{ftbquests.chapter.ore_processing.quest13.description6}"
+				"{ftbquests.chapter.ore_processing.quest13.description7}"
 				""
-				"Treat these ores with &eNitric Acid&r to receive your &5Platinum Group sludge&r, alongside a Sulfuric byproduct fluid. What you do with these &boutputs&r... is up to you to figure out!"
+				"{ftbquests.chapter.ore_processing.quest13.description8}"
 				""
-				"&8(Hint: It's in the EV chapter.)"
+				"{ftbquests.chapter.ore_processing.quest13.description9}"
 			]
 			icon: "gtceu:platinum_group_sludge_dust"
 			id: "427E6091713399FE"
 			shape: "rsquare"
 			size: 0.9d
-			subtitle: "Quite the rabbit hole to jump down..."
+			subtitle: "{ftbquests.chapter.ore_processing.quest13.subtitle}"
 			tasks: [{
 				id: "2AA030AFC90A1E7B"
-				title: "The Entire Platline In 50 Hours"
+				title: "{ftbquests.chapter.ore_processing.quest13.task_3071508477416971899.title}"
 				type: "checkmark"
 			}]
-			title: "Platinum Group Processing"
+			title: "{ftbquests.chapter.ore_processing.quest13.title}"
 			x: -2.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["478A7F7565AFC8A8"]
 			description: [
-				"The Electromagnetic Separator is an interesting machine that skips &6two processing stages&r, but usually returns &2unique&r byproducts that aren't usually too simple to obtain. You'll need to process down pure dusts to use this - so &bmake sure&r you route any desired ores correctly."
+				"{ftbquests.chapter.ore_processing.quest14.description1}"
 				"{@pagebreak}"
-				"You may &bappreciate&r performing this stage of processing on the following ores:"
+				"{ftbquests.chapter.ore_processing.quest14.description2}"
 				""
-				"- Bastnasite Ore &7(This is particularly strong for Neodymium!)&r"
-				"- Naquadah Ore &7(The Enriched Naquadah byproduct is very powerful!)&r"
-				"- Nickel Ore"
-				"- Tin Ore"
-				"- Goethite Ore"
-				"- Hematite Ore"
-				"- Chromite Ore"
-				"- Ilmenite Ore"
-				"- Pyrite Ore"
-				"- Yellow Limonite Ore"
-				"- Glauconite Sand Ore"
-				"- Magnetite Ore"
-				"- Vanadium Magnetite Ore"
-				"- Granitic Mineral Sand Ore"
-				"- Basaltic Mineral Sand Ore"
+				"{ftbquests.chapter.ore_processing.quest14.description3}"
+				"{ftbquests.chapter.ore_processing.quest14.description4}"
+				"{ftbquests.chapter.ore_processing.quest14.description5}"
+				"{ftbquests.chapter.ore_processing.quest14.description6}"
+				"{ftbquests.chapter.ore_processing.quest14.description7}"
+				"{ftbquests.chapter.ore_processing.quest14.description8}"
+				"{ftbquests.chapter.ore_processing.quest14.description9}"
+				"{ftbquests.chapter.ore_processing.quest14.description10}"
+				"{ftbquests.chapter.ore_processing.quest14.description11}"
+				"{ftbquests.chapter.ore_processing.quest14.description12}"
+				"{ftbquests.chapter.ore_processing.quest14.description13}"
+				"{ftbquests.chapter.ore_processing.quest14.description14}"
+				"{ftbquests.chapter.ore_processing.quest14.description15}"
+				"{ftbquests.chapter.ore_processing.quest14.description16}"
+				"{ftbquests.chapter.ore_processing.quest14.description17}"
 			]
 			icon: "gtceu:lv_electromagnetic_separator"
 			id: "46B3BB368D86D931"
 			shape: "rsquare"
 			size: 0.9d
-			subtitle: "Maximising Naquadah"
+			subtitle: "{ftbquests.chapter.ore_processing.quest14.subtitle}"
 			tasks: [{
 				id: "089637EE7F1154FF"
-				title: "I'm harnessing the power of magnetism!"
+				title: "{ftbquests.chapter.ore_processing.quest14.task_618743496283608319.title}"
 				type: "checkmark"
 			}]
-			title: "Electromagnetic Separator"
+			title: "{ftbquests.chapter.ore_processing.quest14.title}"
 			x: -1.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
 			description: [
-				"Hello! You're probably looking to set up &abasic ore processing&r. This quest line will try to guide you through the necessary motions. As always, it's &6important&r to make the disclaimer that this isn't the only &o\"meta\"&r way to process your ores - a strong ore processing facility will treat each ore depending on the demands of your &bGregTech&r factory. We emphasise that you shouldn't take this guide as gospel."
+				"{ftbquests.chapter.ore_processing.quest15.description1}"
 				""
-				"Ready to get &2into the weeds&r?"
+				"{ftbquests.chapter.ore_processing.quest15.description2}"
 			]
 			icon: "gtceu:gold_ore"
 			id: "730043448A9ADBB6"
 			shape: "square"
 			size: 1.3d
-			subtitle: "From one Ore, a great many dusts shall flow..."
+			subtitle: "{ftbquests.chapter.ore_processing.quest15.subtitle}"
 			tasks: [{
 				id: "23C471A620644954"
-				title: "One small step for Ore..."
+				title: "{ftbquests.chapter.ore_processing.quest15.task_2577309845084719444.title}"
 				type: "checkmark"
 			}]
-			title: "Start here!"
+			title: "{ftbquests.chapter.ore_processing.quest15.title}"
 			x: 0.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["1069BF4C1771A4F6"]
-			description: ["A side product of sifting is the production of &dpure dusts&r. These shouldn't be sent back to your main storage, because they can't be used in recipes... and &3centrifuging&r them will give you a sweet, sweet extra byproduct."]
+			description: ["{ftbquests.chapter.ore_processing.quest16.description1}"]
 			icon: "gtceu:lv_centrifuge"
 			id: "517B6A6E04F4E4C8"
 			shape: "rsquare"
 			size: 0.9d
-			subtitle: "Fear not! We have our solution!"
+			subtitle: "{ftbquests.chapter.ore_processing.quest16.subtitle}"
 			tasks: [{
 				id: "7F9EF449A760D102"
-				title: "Never mind, it's not as bad as I thought."
+				title: "{ftbquests.chapter.ore_processing.quest16.task_9196056086315061506.title}"
 				type: "checkmark"
 			}]
-			title: "Oh no! Pure dust?!"
+			title: "{ftbquests.chapter.ore_processing.quest16.title}"
 			x: 1.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["730043448A9ADBB6"]
-			description: ["Multiple &don-tier machines&r are never a bad idea, but you should definitely consider using the Large multiblock variants of the singleblock machines from &aGregicality Multiblocks&r. They're significantly easier to upgrade as you progress through the later tiers of the mod (would you rather make a &616A LuV Energy Hatch&r, or &b16 LuV Macerators&r?!), and plus... they look rad as hell."]
+			description: ["{ftbquests.chapter.ore_processing.quest17.description1}"]
 			icon: "gtceu:large_maceration_tower"
 			id: "42F91220B6FA66FC"
 			tasks: [{
 				id: "7C4D7E44B6CDFBAC"
 				type: "checkmark"
 			}]
-			title: "How would I boost my processing power?"
+			title: "{ftbquests.chapter.ore_processing.quest17.title}"
 			x: 1.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["730043448A9ADBB6"]
-			description: ["Whilst the majority &7(if not all)&r of the listed steps can be automated &3using GregTech alone&r, savvy players may wish to use &dAE2&r for all their logistics needs. Here, we'll cover some methods you may not be aware of to help you elevate your &aOre Processing&r to the next level."]
+			description: ["{ftbquests.chapter.ore_processing.quest18.description1}"]
 			icon: "ae2:controller"
 			id: "3CCD98E7139BA564"
-			subtitle: "Let's look at what AE2 can do for you!"
+			subtitle: "{ftbquests.chapter.ore_processing.quest18.subtitle}"
 			tasks: [{
 				id: "67AB1263C1AA0EB2"
-				title: "Yes, I understand!"
+				title: "{ftbquests.chapter.ore_processing.quest18.task_7470084626584309426.title}"
 				type: "checkmark"
 			}]
-			title: "Applied Energistics 2"
+			title: "{ftbquests.chapter.ore_processing.quest18.title}"
 			x: -1.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["3CCD98E7139BA564"]
 			description: [
-				"The &3ME Tag Storage Bus&r is crucial to send tagged items to a desired destination. It does what it says in the tin - simply set its filter by clicking on it, then any items that enter your AE2 network that &ematch the programmed Item Tag&r will be sent to the inventory attached to the Bus."
+				"{ftbquests.chapter.ore_processing.quest19.description1}"
 				""
-				"This can be particularly useful in the event that you wish to use a &afiltered subnet&r to process ore."
+				"{ftbquests.chapter.ore_processing.quest19.description2}"
 				""
-				"Remember to set a &5high priority&r if you want to prioritise Ore Processing!"
+				"{ftbquests.chapter.ore_processing.quest19.description3}"
 			]
 			id: "23B078514FB4A215"
 			shape: "rsquare"
 			size: 0.75d
-			subtitle: "Casting a Wider Net"
+			subtitle: "{ftbquests.chapter.ore_processing.quest19.subtitle}"
 			tasks: [{
 				id: "4CEE717792412E0C"
 				item: "expatternprovider:tag_storage_bus"
 				type: "item"
 			}]
-			title: "Tag - You're It!"
+			title: "{ftbquests.chapter.ore_processing.quest19.title}"
 			x: -1.5198979591836874d
 			y: -2.8428571428571487d
 		}
 		{
 			dependencies: ["3CCD98E7139BA564"]
 			description: [
-				"One could define a Subnetwork &7(or \"Subnet\" for short)&r as any network that isn't part of your main network."
+				"{ftbquests.chapter.ore_processing.quest20.description1}"
 				""
-				"The simplest way to create a Subnet is by attaching an &bME Interface&r to a &aStorage Bus&r. This means that the Storage Bus will treat the Interface as an inventory to be read from - i.e., it'll be able to see &5all of the items&r in the network connected to the Interface."
+				"{ftbquests.chapter.ore_processing.quest20.description2}"
 				""
-				"As your main network will &4not&r be transferred through the Storage Bus, you'll need to give your subnet power from the main network with &6Quartz Fibre&r. Ensure that you don't accidentally connect the two networks with regular cabling."
+				"{ftbquests.chapter.ore_processing.quest20.description3}"
 				"{@pagebreak}"
-				"Question is - how does this &abenefit you&r as a player? The logistics powers made available with subnetworking are immense, so we'll cover a few examples &9in light detail&r. The rest is left as an exercise to the reader!"
+				"{ftbquests.chapter.ore_processing.quest20.description4}"
 				""
-				"- A subnet for your ore processing system, which &bautomatically handles&r all the intermediate byproducts without them constantly entering and exiting your main network!"
-				"- Really, it's useful to subnet &dlarger processing chains&r such as &ePlatinum processing&r. This way, you can ensure that byproducts can be appropriately recycled, and reduce overhead."
+				"{ftbquests.chapter.ore_processing.quest20.description5}"
+				"{ftbquests.chapter.ore_processing.quest20.description6}"
 				""
 				""
 				"{@pagebreak}"
-				"Subnets can be infinitely nested, but as always in &bmodded Minecraft&r, this should be performed in moderation (or even better, avoided), as many levels of nesting can cause &4performance issues&r when calculating the network."
+				"{ftbquests.chapter.ore_processing.quest20.description7}"
 				""
-				"Oh... and if you've re-enabled Channels in this pack, subnetworks only consume a single channel from your main network. What a bargain!"
+				"{ftbquests.chapter.ore_processing.quest20.description8}"
 			]
 			icon: "ae2:storage_bus"
 			id: "1CB9A26C3296858E"
 			shape: "rsquare"
 			size: 0.75d
-			subtitle: "Socially Distanced Network"
+			subtitle: "{ftbquests.chapter.ore_processing.quest20.subtitle}"
 			tasks: [{
 				id: "24ECAB4EA2E82FE7"
-				title: "Sounds great to me."
+				title: "{ftbquests.chapter.ore_processing.quest20.task_2660689834098044903.title}"
 				type: "checkmark"
 			}]
-			title: "Subnets 101"
+			title: "{ftbquests.chapter.ore_processing.quest20.title}"
 			x: -1.5d
 			y: -1.125d
 		}
 	]
-	subtitle: ["How to extract as much as possible..."]
-	title: "Ore Processing"
+	subtitle: ["{ftbquests.chapter.ore_processing.subtitle0}"]
+	title: "{ftbquests.chapter.ore_processing.title}"
 }

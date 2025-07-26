@@ -289,6 +289,6 @@
 		}
 	]
 	quests: [ ]
-	subtitle: ["A handy reference of all the multiblocks"]
-	title: "Multiblock Dilemma"
+	subtitle: ["{ftbquests.chapter.multiblock_dilemma.subtitle0}"]
+	title: "{ftbquests.chapter.multiblock_dilemma.title}"
 }

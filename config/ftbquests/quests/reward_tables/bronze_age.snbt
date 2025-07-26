@@ -6,5 +6,5 @@
 		{ count: 32, item: "minecraft:copper_ingot" }
 		{ count: 32, item: "gtceu:tin_ingot" }
 	]
-	title: "bronze_age"
+	title: "{ftbquests.loot_table_1702176335602373230.title}"
 }

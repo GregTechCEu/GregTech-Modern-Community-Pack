@@ -1,7 +1,7 @@
 {
 	chapter_groups: [
-		{ id: "693226878D58638A", title: "Climbing the Ranks" }
-		{ id: "288DA1F92F7C0A7A", title: "Guides + More" }
-		{ id: "1C1C4FB2AFCF489D", title: "Milestones" }
+		{ id: "693226878D58638A", title: "{ftbquests.chapter_groups_7580163486451786634.title}" }
+		{ id: "288DA1F92F7C0A7A", title: "{ftbquests.chapter_groups_2922169824848906874.title}" }
+		{ id: "1C1C4FB2AFCF489D", title: "{ftbquests.chapter_groups_2025581561282250909.title}" }
 	]
 }

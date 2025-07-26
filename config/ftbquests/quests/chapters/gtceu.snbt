@@ -19,15 +19,15 @@
 	quests: [
 		{
 			description: [
-				"This modpack is intended as a guide on &b&lGregtech: Community Edition Unofficial Modern&r&r (also known as &aGTCEu Modern&r or &aCEu Modern&r), a continuation of &aGTCE&r - which is in itself a fork of Gregtech."
+				"{ftbquests.chapter.gtceu.quest1.description1}"
 				""
-				"New content has been added to every tier, even going up to &3Ultimate Voltage,&r and there is also a non-negligible amount of new &dQuality of Life&r."
+				"{ftbquests.chapter.gtceu.quest1.description2}"
 				""
-				"&aCEu Modern&r brings the mod up to date with &erecent versions&r of Minecraft &o(as of writing this)&r. You can open the questbook with the default keybind &6F4&r, but feel free to change it if it isn't to your tastes."
+				"{ftbquests.chapter.gtceu.quest1.description3}"
 				"{@pagebreak}"
-				"This is a &2pure &lTech&r&2 modpack&r, focused on GregTech and its progression. You'll find &6no better place&r to learn about this mod and all the features it adds!"
+				"{ftbquests.chapter.gtceu.quest1.description4}"
 				""
-				"The questbook you're reading is &ebrimming with information&r to guide you through the modpack, so check it out if you find yourself getting lost.  We wrote it with both &dold-school veterans&r and &bnewcomers&r in mind."
+				"{ftbquests.chapter.gtceu.quest1.description5}"
 			]
 			icon: "kubejs:greg_icon"
 			id: "25289F9E8AE01C29"
@@ -36,33 +36,33 @@
 				icon: "minecraft:cooked_beef"
 				id: "6FD85EC9BD99C866"
 				item: "gtceu:sus_record"
-				title: "Steak"
+				title: "{ftbquests.chapter.gtceu.quest1.reward_8059295753741912166.title}"
 				type: "item"
 			}]
 			shape: "rsquare"
 			size: 1.2d
-			subtitle: "We hope you enjoy your stay"
+			subtitle: "{ftbquests.chapter.gtceu.quest1.subtitle}"
 			tasks: [{
 				id: "6C1F570DB9013DE7"
-				title: "Welcome!"
+				title: "{ftbquests.chapter.gtceu.quest1.task_7791041596824305127.title}"
 				type: "checkmark"
 			}]
-			title: "Welcome to GregTech CEu!"
+			title: "{ftbquests.chapter.gtceu.quest1.title}"
 			x: -0.75d
 			y: -1.5d
 		}
 		{
 			dependencies: ["25289F9E8AE01C29"]
 			description: [
-				"If you're familiar with GregTech, you may be aware of its &cmany nerfs&r to vanilla recipes. &bGTCEu&r doesn't go easy on you - take a look at the crafting recipes for &eBuckets&r or &ePaper&r. However, we'll ease off the insanity in earlygame, and 1 Log will give you 4 Planks. &aRejoice!&r"
+				"{ftbquests.chapter.gtceu.quest2.description1}"
 				""
-				"&o&8\"My adventure starts with some tree punching!? Huh, I thought GregTech was supposed to shake things up a bit...\"&r"
+				"{ftbquests.chapter.gtceu.quest2.description2}"
 			]
 			icon: "minecraft:oak_log"
 			id: "0EAF2C5B5EB755C5"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Begin your playthrough as before"
+			subtitle: "{ftbquests.chapter.gtceu.quest2.subtitle}"
 			tasks: [
 				{
 					count: 6L
@@ -75,7 +75,7 @@
 						}
 					}
 					match_nbt: false
-					title: "Any Logs"
+					title: "{ftbquests.chapter.gtceu.quest2.task_3815259712996840639.title}"
 					type: "item"
 				}
 				{
@@ -84,18 +84,18 @@
 					type: "item"
 				}
 			]
-			title: "The Beginning of it All"
+			title: "{ftbquests.chapter.gtceu.quest2.title}"
 			x: -0.75d
 			y: -3.0d
 		}
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"Here's a &6nifty&r list of some resources that you'll need in bulk for early-game. Collect more than we're asking for in this quest - you'll end up running out before you know it, and it's always a good habit to gather more than you need in &aGregTech&r."
+				"{ftbquests.chapter.gtceu.quest3.description1}"
 				""
-				"We'd actually advise that you &etackle this quest first&r, so that you can claim its &breward&r. That way, you can do a little bit of main (read: &ointeresting&r) progression &4&lBEFORE&r you're forced to go mining."
+				"{ftbquests.chapter.gtceu.quest3.description2}"
 				""
-				"Eight furnaces might seem &cexcessive&r if you're new to &aGregTech,&r but trust us... you can never have too many."
+				"{ftbquests.chapter.gtceu.quest3.description3}"
 			]
 			icon: "minecraft:sugar_cane"
 			id: "0436F7B60BDEB091"
@@ -107,7 +107,7 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Gather some resources!"
+			subtitle: "{ftbquests.chapter.gtceu.quest3.subtitle}"
 			tasks: [
 				{
 					count: 4L
@@ -140,47 +140,47 @@
 					type: "item"
 				}
 			]
-			title: "What do I need to progress?"
+			title: "{ftbquests.chapter.gtceu.quest3.title}"
 			x: -0.75d
 			y: -4.5d
 		}
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"The ore generation in &2GregTech&r is very different to vanilla or normal modded Minecraft. All ores generate in &6huge veins&r, which can contain &dhundreds&o&r of ore blocks."
+				"{ftbquests.chapter.gtceu.quest4.description1}"
 				""
-				"GTCEu now features the functionality of &dVisual Prospecting&r natively, which will mark discovered veins on your map. &9Right Click&r an ore block in the vein, or a surface rock to add it to the map. You can toggle the ore vein view in the lower left corner of the fullscreen map."
+				"{ftbquests.chapter.gtceu.quest4.description2}"
 				"{@pagebreak}"
-				"The full extent of ore generation is explained in the Tips and Tricks tab, but here is what you need to know:"
+				"{ftbquests.chapter.gtceu.quest4.description3}"
 				""
-				"&9-&r Ore veins generate in a &4Grid&r. Every vein is &9spaced by (approximately) 3 chunks&r from one to another in a cardinal direction."
+				"{ftbquests.chapter.gtceu.quest4.description4}"
 				""
-				"&9-&r It's a good practice to make &dWaypoints&r (default &4N&r) for every vein you've found and and to label their type. You may want to come back to the vein several times."
+				"{ftbquests.chapter.gtceu.quest4.description5}"
 			]
 			icon: "gtceu:cobaltite_ore"
 			id: "0C690272ED4FB1C3"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "More like SNORE generation!"
+			subtitle: "{ftbquests.chapter.gtceu.quest4.subtitle}"
 			tasks: [{
 				id: "3FA401CACE8BBE5D"
-				title: "Woah, ores sure sound exciting."
+				title: "{ftbquests.chapter.gtceu.quest4.task_4585792291130293853.title}"
 				type: "checkmark"
 			}]
-			title: "Ore Generation"
+			title: "{ftbquests.chapter.gtceu.quest4.title}"
 			x: -2.25d
 			y: -3.0d
 		}
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"Were you aware that &aGregTech&r comes with its own set of tools? If not, you may also be pleasantly surprised to hear that they &6&lsurpass&r their vanilla equivalents."
+				"{ftbquests.chapter.gtceu.quest5.description1}"
 				""
-				"Let's use the GregTech Axe as an example. If you use one to mine a log in a tree, it'll fell the &2entire tree&r for you. Timber!"
+				"{ftbquests.chapter.gtceu.quest5.description2}"
 				""
-				"Constant \"lumberjacking\" will eat through your Axe's &9durability&r in seconds, so you may want to make your Axe out of a &estronger material&r such as &bDiamond&r. Just be careful you don't make a vanilla Diamond Axe."
+				"{ftbquests.chapter.gtceu.quest5.description3}"
 				""
-				"As a reward, take these &2Spruce saplings&r and use them to make some big trees. You'll need to do a lot of smelting in the near future, and planks will tide you over as an &deffective&r fuel source!"
+				"{ftbquests.chapter.gtceu.quest5.description4}"
 			]
 			icon: {
 				Count: 1
@@ -201,7 +201,7 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Who needs Veinminer?"
+			subtitle: "{ftbquests.chapter.gtceu.quest5.subtitle}"
 			tasks: [{
 				id: "3880A08A72884627"
 				item: {
@@ -670,10 +670,10 @@
 						]
 					}
 				}
-				title: "Grab any Lumber Axe!"
+				title: "{ftbquests.chapter.gtceu.quest5.task_4071430579630392871.title}"
 				type: "item"
 			}]
-			title: "Lumbering On"
+			title: "{ftbquests.chapter.gtceu.quest5.title}"
 			x: -2.25d
 			y: -4.5d
 		}
@@ -681,13 +681,13 @@
 			dependencies: ["36DD94945D5B4A80"]
 			dependency_requirement: "one_completed"
 			description: [
-				"Wrought Iron has a very low carbon content, but that's enough to make it &btougher&r than regular Iron."
+				"{ftbquests.chapter.gtceu.quest6.description1}"
 				""
-				"&aGregTech&r tools made of Wrought Iron are &650% more durable&r than their Iron cousins. You might want to consider using Wrought Iron until you unlock &2something better&r."
+				"{ftbquests.chapter.gtceu.quest6.description2}"
 				""
-				"To obtain Wrought Iron, you can &6smelt&r Iron Nuggets into Wrought Iron Nuggets, then recombine them into an ingot. Make sure you don't convert all of your Iron supply, as the two &4&laren't&r interchangeable."
+				"{ftbquests.chapter.gtceu.quest6.description3}"
 				""
-				"This may be time-consuming, but rest assured, you'll unlock a &ebetter way&r to produce Wrought Iron before long."
+				"{ftbquests.chapter.gtceu.quest6.description4}"
 			]
 			icon: "gtceu:wrought_iron_ingot"
 			id: "563C96885A227C9F"
@@ -699,7 +699,7 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Murder, she Wrought"
+			subtitle: "{ftbquests.chapter.gtceu.quest6.subtitle}"
 			tasks: [{
 				id: "3DAB1D757B3B049D"
 				item: {
@@ -709,23 +709,23 @@
 						value: "forge:ingots/wrought_iron"
 					}
 				}
-				title: "Wrought Iron Ingot"
+				title: "{ftbquests.chapter.gtceu.quest6.task_4443677847746970781.title}"
 				type: "item"
 			}]
-			title: "Better Than Iron"
+			title: "{ftbquests.chapter.gtceu.quest6.title}"
 			x: 0.75d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1ECBA1CBFFB9F625"]
 			description: [
-				"Alright - your first &oproper&r &aGregTech&r tool. The first of &dmany&r."
+				"{ftbquests.chapter.gtceu.quest7.description1}"
 				""
-				"GT tools can be made out of many different materials. When used in crafting recipes, they &baren't consumed&r, instead losing durability. You'll want to start with an Iron tool - but you could opt for Wrought Iron if you already tackled that quest."
+				"{ftbquests.chapter.gtceu.quest7.description2}"
 				""
-				"&9&lHammer&f:&r A crafting tool that shows up in a lot of earlygame recipes. Its secondary function is muting machines by &msmacking&r right-clicking them."
+				"{ftbquests.chapter.gtceu.quest7.description3}"
 				""
-				"As a sidenote on all &aGregTech&r tools, you can repair them in an Anvil using the material of the tool itself, just like any vanilla tool. If you are finding yourself short on experience, &eBottles o' Enchanting&r are now craftable."
+				"{ftbquests.chapter.gtceu.quest7.description4}"
 			]
 			id: "7DEB73FD649BDFB6"
 			rewards: [{
@@ -736,7 +736,7 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Your first GT Tool!"
+			subtitle: "{ftbquests.chapter.gtceu.quest7.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -756,25 +756,25 @@
 						value: "forge:tools/hammers"
 					}
 				}
-				title: "Any Hammer!"
+				title: "{ftbquests.chapter.gtceu.quest7.task_1895412435309637436.title}"
 				type: "item"
 			}]
-			title: "STOP! Hammer time!"
+			title: "{ftbquests.chapter.gtceu.quest7.title}"
 			x: 2.25d
 			y: -3.0d
 		}
 		{
 			dependencies: ["2001CB4968D3E0A2"]
 			description: [
-				"This hammer isn't quite like the ones you'll use for crafting. It actually works as a &d3x3 pickaxe&r!"
+				"{ftbquests.chapter.gtceu.quest8.description1}"
 				""
-				"If you're familiar with &a&lTinker's Construct&r, it behaves &esimilarly&r to hammers from that mod."
+				"{ftbquests.chapter.gtceu.quest8.description2}"
 				""
-				"Shift-right-click with a mining hammer in your hand to adjust the area of effect."
+				"{ftbquests.chapter.gtceu.quest8.description3}"
 				""
-				"Make &bgood use&r of these hammers! They'll help you to clear out an entire vein in &6record time&r."
+				"{ftbquests.chapter.gtceu.quest8.description4}"
 				""
-				"&eNote:&r Any quest with GregTech tools can be complete with tools crafted from any material - not just the one displayed."
+				"{ftbquests.chapter.gtceu.quest8.description5}"
 			]
 			icon: {
 				Count: 1
@@ -789,7 +789,7 @@
 			id: "4A365A7CC9E374F9"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Mining just became efficient"
+			subtitle: "{ftbquests.chapter.gtceu.quest8.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -809,27 +809,27 @@
 						value: "forge:tools/mining_hammers"
 					}
 				}
-				title: "Any Mining Hammer will do."
+				title: "{ftbquests.chapter.gtceu.quest8.task_5708079677027675362.title}"
 				type: "item"
 			}]
-			title: "Hammer down!"
+			title: "{ftbquests.chapter.gtceu.quest8.title}"
 			x: 2.25d
 			y: -4.5d
 		}
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"In the real world, iron isn't &oonly&r found as pure Iron Ore. Instead, it's found in a &avariety&r of &eoxide forms&r or &eminerals&r."
+				"{ftbquests.chapter.gtceu.quest9.description1}"
 				""
-				"You'll want to go and collect quite a bit of Iron, because you're going to need &9a bunch&r very soon. If you're struggling to find some, the &aOre Generation&r quest tab contains a lot of information on &eore veins&r. You may also want to check the Ore Spawn Information and Ore Byproduct List tabs in &2EMI&r."
+				"{ftbquests.chapter.gtceu.quest9.description2}"
 				""
-				"Any of the raw ores we're asking for can be directly smelted into Iron. That comes to &dfour different veins&r that can give you Iron."
+				"{ftbquests.chapter.gtceu.quest9.description3}"
 				""
-				"Lastly, Fortune &cdoes not&r work on GregTech ores, &7unfortunately&r."
+				"{ftbquests.chapter.gtceu.quest9.description4}"
 				"{@pagebreak}"
-				"Whilst it may be common habit to hoard ore in &bmodded Minecraft&r prior to unlocking some kind of &aore multiplication&r, don't worry about ore processing yet. Direct smelting remains the most efficient method for a long, &olong&r while, given how easy it is to obtain a lot of ore in a &emining trip&r."
+				"{ftbquests.chapter.gtceu.quest9.description5}"
 				""
-				"Gather &l&cany&r of the requested &dRaw Ores&r to complete this quest!"
+				"{ftbquests.chapter.gtceu.quest9.description6}"
 			]
 			icon: "minecraft:iron_ingot"
 			id: "1ECBA1CBFFB9F625"
@@ -840,7 +840,7 @@
 				type: "item"
 			}]
 			size: 0.75d
-			subtitle: "Isn't it ironic... don't you think?"
+			subtitle: "{ftbquests.chapter.gtceu.quest9.subtitle}"
 			tasks: [{
 				id: "063705687ED657F5"
 				item: {
@@ -883,25 +883,25 @@
 						]
 					}
 				}
-				title: "Iron-bearing Ores"
+				title: "{ftbquests.chapter.gtceu.quest9.task_447832634309367797.title}"
 				type: "item"
 			}]
-			title: "Iron, Iron, Iron!"
+			title: "{ftbquests.chapter.gtceu.quest9.title}"
 			x: 0.75d
 			y: -3.0d
 		}
 		{
 			dependencies: ["7DEB73FD649BDFB6"]
 			description: [
-				"More GregTech tools are required for progression - here are the ones to lay eyes on."
+				"{ftbquests.chapter.gtceu.quest10.description1}"
 				""
-				"&9&lWrench:&r A crafting tool, but also the correct tool for GregTech machines... perfect if you think using pickaxes is unethical. It can also double as a &6wrench for other mods&r. Right-click allows you to set the output side of GregTech machines, and sneak-right-clicking rotates machines."
+				"{ftbquests.chapter.gtceu.quest10.description2}"
 				""
-				"&9&lFile:&r A crafting tool... and that's it. Yay!"
+				"{ftbquests.chapter.gtceu.quest10.description3}"
 				""
-				"&9&lSaw:&r Yet another crafting tool. If we were any more evil, we would force its use if you wanted to obtain 4 Planks and 4 Sticks from their respective crafting recipes. That being said, you can still use it to get &a6 Planks per Log&r, if you wish."
+				"{ftbquests.chapter.gtceu.quest10.description4}"
 				"{@pagebreak}"
-				"&eNote:&r Any Quest with GregTech tools can be completed with the tool crafted from any material, not just the one displayed."
+				"{ftbquests.chapter.gtceu.quest10.description5}"
 			]
 			icon: {
 				Count: 1
@@ -926,7 +926,7 @@
 							value: "forge:tools/wrenches"
 						}
 					}
-					title: "Any Wrench!"
+					title: "{ftbquests.chapter.gtceu.quest10.task_6116049871404686214.title}"
 					type: "item"
 				}
 				{
@@ -938,7 +938,7 @@
 							value: "forge:tools/files"
 						}
 					}
-					title: "Any File!"
+					title: "{ftbquests.chapter.gtceu.quest10.task_5578691287861581639.title}"
 					type: "item"
 				}
 				{
@@ -950,40 +950,40 @@
 							value: "forge:tools/saws"
 						}
 					}
-					title: "Any Saw!"
+					title: "{ftbquests.chapter.gtceu.quest10.task_2582479353019269801.title}"
 					type: "item"
 				}
 			]
-			title: "Important Tools"
+			title: "{ftbquests.chapter.gtceu.quest10.title}"
 			x: 3.75d
 			y: -3.0d
 		}
 		{
 			dependencies: ["2001CB4968D3E0A2"]
 			description: [
-				"More tools - they're not critically important right now, but you'll need to make these at some point."
+				"{ftbquests.chapter.gtceu.quest11.description1}"
 				""
-				"&9&lScrewdriver:&r A crafting tool. It's used for special configuration of machines and covers."
+				"{ftbquests.chapter.gtceu.quest11.description2}"
 				""
-				"&9&lWire Cutter:&r A crafting tool. You'll need it if you want to configure wire connections. Right-clicking on wires will enable or disable connection to other blocks."
+				"{ftbquests.chapter.gtceu.quest11.description3}"
 				""
-				"&9&lMortar:&r A crafting tool, used to grind various things down into dust form."
+				"{ftbquests.chapter.gtceu.quest11.description4}"
 				""
-				"&9&lKnife:&r A pretty mediocre weapon, better suited as - &oyou guessed it&r - a crafting tool!"
+				"{ftbquests.chapter.gtceu.quest11.description5}"
 				""
-				"&9&lSoft Mallet:&r A tool to toggle machine operation with a simple right-click."
+				"{ftbquests.chapter.gtceu.quest11.description6}"
 				"{@pagebreak}"
-				"There are a couple of other tools that are quite niche, but deserve a mention."
+				"{ftbquests.chapter.gtceu.quest11.description7}"
 				""
-				"&9&lCrowbar:&r A helpful tool that can remove covers from &aGregTech&r machines by right-clicking the side."
+				"{ftbquests.chapter.gtceu.quest11.description8}"
 				""
-				"&9&lScythe:&r A powerful farming tool that can automatically replant your crops in a large area. It's also a surprisingly good weapon!"
+				"{ftbquests.chapter.gtceu.quest11.description9}"
 				""
-				"&9&lPlunger:&r A tool to clear stuck fluids from GregTech&a machines."
+				"{ftbquests.chapter.gtceu.quest11.description10}"
 				""
-				"&9&lButchery Knife:&r A weapon that comes pre-enchanted with &6Looting III&r. You might want to use it to gather leather and food."
+				"{ftbquests.chapter.gtceu.quest11.description11}"
 				"{@pagebreak}"
-				"&e&lNote:&r This quest's reward is &3Damascus Steel&r - a rare material which can only be found as overworld loot. It far surpasses the materials you have now, so be sure to use it."
+				"{ftbquests.chapter.gtceu.quest11.description12}"
 			]
 			icon: {
 				Count: 1
@@ -1013,7 +1013,7 @@
 							value: "forge:tools/screwdrivers"
 						}
 					}
-					title: "Any Screwdriver!"
+					title: "{ftbquests.chapter.gtceu.quest11.task_4635773155710488711.title}"
 					type: "item"
 				}
 				{
@@ -1025,7 +1025,7 @@
 							value: "forge:tools/wire_cutters"
 						}
 					}
-					title: "Any Wire Cutter!"
+					title: "{ftbquests.chapter.gtceu.quest11.task_915716012649460533.title}"
 					type: "item"
 				}
 				{
@@ -1037,7 +1037,7 @@
 							value: "forge:tools/mortars"
 						}
 					}
-					title: "Any Mortar!"
+					title: "{ftbquests.chapter.gtceu.quest11.task_5616483779667426006.title}"
 					type: "item"
 				}
 				{
@@ -1049,7 +1049,7 @@
 							value: "forge:tools/knives"
 						}
 					}
-					title: "Any Knife!"
+					title: "{ftbquests.chapter.gtceu.quest11.task_4142704940605138407.title}"
 					type: "item"
 				}
 				{
@@ -1061,32 +1061,32 @@
 							value: "forge:tools/mallets"
 						}
 					}
-					title: "Any Soft Mallet!"
+					title: "{ftbquests.chapter.gtceu.quest11.task_2017159835335350931.title}"
 					type: "item"
 				}
 			]
-			title: "More Tools"
+			title: "{ftbquests.chapter.gtceu.quest11.title}"
 			x: 5.25d
 			y: -3.0d
 		}
 		{
 			dependencies: ["2001CB4968D3E0A2"]
 			description: [
-				"The &e&lCoke Oven&r will likely be your first &aGregTech&r multiblock. Congratulations!"
+				"{ftbquests.chapter.gtceu.quest12.description1}"
 				""
-				"It is used to make &aCoke&r from &eCoal&r, or &aCharcoal&r from &eWood&r, in addition to &dliquid Creosote&r as a &3bonus&r output."
+				"{ftbquests.chapter.gtceu.quest12.description2}"
 				""
-				"Take a look at the &6Multiblock Preview&r tab in EMI (press &dU&r over the controller block of any Multiblock!) to see the structure pattern."
+				"{ftbquests.chapter.gtceu.quest12.description3}"
 				"{@pagebreak}"
-				"&9Note:&r &lAny&r Brick block can be replaced with a &3Coke Oven Hatch&r. You can have up to five of them."
+				"{ftbquests.chapter.gtceu.quest12.description4}"
 				""
-				"The Hatch allows for automation - it'll &dauto-export&r both Fluid and Items! It also works for insertion into the Coke Oven (you can use Hoppers)."
+				"{ftbquests.chapter.gtceu.quest12.description5}"
 				""
-				"If the Coke Oven happens to fully fill up on &eCreosote&r that you are not using, break and replace the Coke Oven block. &3Automated fluid voiding&r is available later in the game."
+				"{ftbquests.chapter.gtceu.quest12.description6}"
 				""
-				"&lTip:&r A bucket of Creosote fuels a furnace for &c32&r items! Take full advantage of this to stop burning planks."
+				"{ftbquests.chapter.gtceu.quest12.description7}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o The concept of multiblocks is a modded Minecraft classic. Think of IC2's Nuclear Reactor, or Railcraft's Coke Oven - truly revolutionary at the time!&r"
+				"{ftbquests.chapter.gtceu.quest12.description8}"
 			]
 			icon: "gtceu:coke_oven"
 			id: "4946FC5BCA4CCA88"
@@ -1099,24 +1099,24 @@
 			}]
 			shape: "gear"
 			size: 1.2d
-			subtitle: "Your first big project... hopefully"
+			subtitle: "{ftbquests.chapter.gtceu.quest12.subtitle}"
 			tasks: [{
 				id: "3545479A7C09CDFC"
 				item: "gtceu:coke_oven"
 				type: "item"
 			}]
-			title: "Coke Oven"
+			title: "{ftbquests.chapter.gtceu.quest12.title}"
 			x: 5.25d
 			y: -4.5d
 		}
 		{
 			dependencies: ["2001CB4968D3E0A2"]
 			description: [
-				"More resources are always nice. You're getting close to entering the &6age of Steam&r - Copper and Tin are required in many &6Steam Age&r machines, so check the ore tab to find out what veins they can be found in, and get mining!"
+				"{ftbquests.chapter.gtceu.quest13.description1}"
 				""
-				"If the different ore names are &bconfusing&r, you can tell which elements an ore holds at a glance by reading the &dmolecular formula&r in its tooltip. Copper is &oCu&r, Tin is &oSn&r, Iron is &oFe&r, and you can consult a &3periodic table&r for the rest. It's time to brush up on your chemistry - you'll need it for &llater&r."
+				"{ftbquests.chapter.gtceu.quest13.description2}"
 				""
-				"This quest can be completed with &9either metal&r, so you can claim the metal you're missinng as the reward. Be sure to find a source of both soon, as a &a&ocertain&r&a Copper-Tin alloy&r will be needed to get through the &6Steam Age&r."
+				"{ftbquests.chapter.gtceu.quest13.description3}"
 			]
 			icon: "minecraft:copper_ingot"
 			id: "45969FFBF88F4FBB"
@@ -1127,7 +1127,7 @@
 				type: "choice"
 			}]
 			size: 0.75d
-			subtitle: "Gather more resources!"
+			subtitle: "{ftbquests.chapter.gtceu.quest13.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "616556ECE4DB6103"
@@ -1147,23 +1147,23 @@
 						]
 					}
 				}
-				title: "32 Copper or Tin"
+				title: "{ftbquests.chapter.gtceu.quest13.task_7018111169778639107.title}"
 				type: "item"
 			}]
-			title: "Onwards to the Age of Bronze!"
+			title: "{ftbquests.chapter.gtceu.quest13.title}"
 			x: 3.75d
 			y: -1.5d
 		}
 		{
 			dependencies: ["45969FFBF88F4FBB"]
 			description: [
-				"&6Bronze&r is an &2alloy&r of Copper and Tin. Grind down 3 parts Copper and 1 part Tin into dust, then combine and smelt them. If you are confused on how this is done, take a look at the &o\"&dMore Tools&r&o\"&r quest."
+				"{ftbquests.chapter.gtceu.quest14.description1}"
 				""
-				"Don't spend your entire supply of Copper and Tin on Bronze right now! You'll soon be able to get a better ratio for your Bronze."
+				"{ftbquests.chapter.gtceu.quest14.description2}"
 				""
-				"&6&lThe progression now continues in the Steam Age chapter.&r"
+				"{ftbquests.chapter.gtceu.quest14.description3}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Bronze in real life is closer to a ratio of 7:1 for Copper to Tin. Here (and in most of modded Minecraft) this is &4not&f the case for the sake of game balance. There are a lot of things like this that need to be tweaked - &eno realism here&f."
+				"{ftbquests.chapter.gtceu.quest14.description4}"
 			]
 			icon: "gtceu:bronze_ingot"
 			id: "315DBB3B23F95E0D"
@@ -1175,25 +1175,25 @@
 			}]
 			shape: "gear"
 			size: 1.2d
-			subtitle: "Humanity's first alloy - and yours too!"
+			subtitle: "{ftbquests.chapter.gtceu.quest14.subtitle}"
 			tasks: [{
 				count: 24L
 				id: "39AEA2923971A2B5"
 				item: "gtceu:bronze_ingot"
 				type: "item"
 			}]
-			title: "Bronze Age? No, &6Steam Age&r!"
+			title: "{ftbquests.chapter.gtceu.quest14.title}"
 			x: 5.25d
 			y: -1.5d
 		}
 		{
 			dependencies: ["7DEB73FD649BDFB6"]
 			description: [
-				"The bucket recipe has been &d&lchanged.&r It now requires plates - &owahoo&r."
+				"{ftbquests.chapter.gtceu.quest15.description1}"
 				""
-				"Plates are used absolutely &beverywhere&r in &aGregTech&r. Combining two ingots with your new &9hammer&r in a crafting table will make a plate. This ratio is kind of &cexpensive,&r but better recipes for plates will come later."
+				"{ftbquests.chapter.gtceu.quest15.description2}"
 				""
-				"Take this &6Wooden Barrel&r full of &bWater&r as a reward. Huh... isn't that an odd reward? We just wanted to show you that all &aGTCEu&r tanks are portable."
+				"{ftbquests.chapter.gtceu.quest15.description3}"
 			]
 			icon: "minecraft:bucket"
 			id: "592BD683A48C2AA2"
@@ -1213,24 +1213,24 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "#realism"
+			subtitle: "{ftbquests.chapter.gtceu.quest15.subtitle}"
 			tasks: [{
 				id: "5DD165E4EB34C022"
 				item: "minecraft:bucket"
 				type: "item"
 			}]
-			title: "Greg has struck"
+			title: "{ftbquests.chapter.gtceu.quest15.title}"
 			x: 2.25d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"Okay, we were generous enough to leave Wood-to-Plank-ratios &cuntouched&r, but this is GregTech - charcoal smelting is &4&lnot possible&r in a Furnace. You'll need to make a &d&lCoke Oven&r to get your grubby hands on some &6charcoal&r."
+				"{ftbquests.chapter.gtceu.quest16.description1}"
 				""
-				"Wooden planks are still pretty good as &6furnace fuel&r, especially since you get &l&3four&r from one log."
+				"{ftbquests.chapter.gtceu.quest16.description2}"
 				""
-				"If this displeases you - normally you'd be able to &brevert this back&r to vanilla behaviour in the &aGTCEu&r configs, but the configuration option is bugged. To &erevert&r the nerf, you can delete the \"charcoal.js\" script in &bkubejs/server_scripts&r!"
+				"{ftbquests.chapter.gtceu.quest16.description3}"
 			]
 			icon: "minecraft:charcoal"
 			id: "36DD94945D5B4A80"
@@ -1242,7 +1242,7 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Not here!"
+			subtitle: "{ftbquests.chapter.gtceu.quest16.subtitle}"
 			tasks: [{
 				count: 48L
 				id: "3DF01E4FACBB1D53"
@@ -1253,25 +1253,25 @@
 						value: "minecraft:logs"
 					}
 				}
-				title: "We demand more logs."
+				title: "{ftbquests.chapter.gtceu.quest16.task_4463100558273355091.title}"
 				type: "item"
 			}]
-			title: "Charcoal?"
+			title: "{ftbquests.chapter.gtceu.quest16.title}"
 			x: 0.75d
 			y: -1.5d
 		}
 		{
 			dependencies: ["45969FFBF88F4FBB"]
 			description: [
-				"In this &blightweight&r modpack, we've included enough QoL to &o(hopefully)&r fit your needs, and the pack is &aperfectly playable&r as is."
+				"{ftbquests.chapter.gtceu.quest17.description1}"
 				""
-				"&dStorage Drawers&r and &dApplied Energistics 2&r make an appearance to help with &estorage&r and &6logistics&r. Their recipes have been modified to fit progression, but you hopefully won't need to play 50 hours to make your first &5Molecular Assembler&r. There are also a few other mods that you may wish to pursue for some &ahelpful QoL&r."
+				"{ftbquests.chapter.gtceu.quest17.description2}"
 				"{@pagebreak}"
-				"But maybe you require... &osomething more&r?"
+				"{ftbquests.chapter.gtceu.quest17.description3}"
 				""
-				"If you're playing solo, feel free to &aadd mods&r to your instance. Some more &bQoL&r could be nice... more &3Tech&r could sate your cravings... maybe even some &5magic mods&r, as long as you don't add &eProjectE&r. Promise?"
+				"{ftbquests.chapter.gtceu.quest17.description4}"
 				""
-				"On the 1.12.2 version of &aGregtech: CEu&r, there were multiple &aGregTech&r addons that may be ported to 1.20.1 in future. Rest assured that this pack will do its &dbest&r to support them if they make it to this version!"
+				"{ftbquests.chapter.gtceu.quest17.description5}"
 			]
 			icon: "minecraft:structure_void"
 			id: "1283B4D7B5D82193"
@@ -1282,24 +1282,24 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Omw to install DecoCraft"
+			subtitle: "{ftbquests.chapter.gtceu.quest17.subtitle}"
 			tasks: [{
 				id: "70C69E5432F6C3BE"
-				title: "I accept responsibility for any mod conflicts ;)"
+				title: "{ftbquests.chapter.gtceu.quest17.task_8126356662106112958.title}"
 				type: "checkmark"
 			}]
-			title: "More mods?"
+			title: "{ftbquests.chapter.gtceu.quest17.title}"
 			x: 2.25d
 			y: 0.0d
 		}
 		{
 			dependencies: ["45969FFBF88F4FBB"]
 			description: [
-				"Don't worry, these crafts are actually useful - you'll be required to make &ehundreds more&r of these components. It's good to start building the habit."
+				"{ftbquests.chapter.gtceu.quest18.description1}"
 				""
-				"It's generally wise to get familiar with the idea of &o\"&bbulk-crafting&r&o\"&r - if you need 1 plate, try making 8, etc. This means you'll have lots of these &dintermediates&r ready for future crafts. It might seem unreasonable to craft &astacks of rods&r or &ascrews&r especially this early on, but they will always end up being used, saving you a lot of micro-crafting in the future."
+				"{ftbquests.chapter.gtceu.quest18.description2}"
 				""
-				"If you needed &6any more&r convincing, take a peek at the &drewards&r for this quest."
+				"{ftbquests.chapter.gtceu.quest18.description3}"
 			]
 			icon: "minecraft:bone_meal"
 			id: "49A04E63F40D65C0"
@@ -1361,7 +1361,7 @@
 			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Put your micro-crafting talent to the task!"
+			subtitle: "{ftbquests.chapter.gtceu.quest18.subtitle}"
 			tasks: [
 				{
 					count: 16L
@@ -1376,16 +1376,16 @@
 					type: "item"
 				}
 			]
-			title: "A Minor Test of Strength"
+			title: "{ftbquests.chapter.gtceu.quest18.title}"
 			x: 3.75d
 			y: 0.0d
 		}
 		{
 			dependencies: ["45969FFBF88F4FBB"]
 			description: [
-				"Iron, Copper and Tin will only get you so far. &4Redstone&r and &bDiamond&r will occasionally be required during the &6Steam Age&r, whereas Nickel, Lead and Silver are also nice to have. All will come in handy &asoon enough&r."
+				"{ftbquests.chapter.gtceu.quest19.description1}"
 				""
-				"&o&8Consult the ore tab if you're struggling to find these materials!&r"
+				"{ftbquests.chapter.gtceu.quest19.description2}"
 			]
 			icon: "gtceu:silver_ingot"
 			id: "62212F2B51AC779E"
@@ -1435,7 +1435,7 @@
 			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Sometimes, you gotta be inefficient... to be efficient!"
+			subtitle: "{ftbquests.chapter.gtceu.quest19.subtitle}"
 			tasks: [
 				{
 					count: 64L
@@ -1468,95 +1468,95 @@
 					type: "item"
 				}
 			]
-			title: "Early Investments"
+			title: "{ftbquests.chapter.gtceu.quest19.title}"
 			x: 5.25d
 			y: 0.0d
 		}
 		{
 			description: [
-				"Be sure to &aproperly&r read &lthis&r quest - it has some &dimportant information&r that will remain relevant all throughout your playthrough."
+				"{ftbquests.chapter.gtceu.quest20.description1}"
 				""
-				"Informative quests such as this will appear in the chapter they are unlocked. You can also consult the &b\"Guides + More\"&r quest tab if you feel like you're forgetting something."
+				"{ftbquests.chapter.gtceu.quest20.description2}"
 				""
-				"The quest structure is intended to guide you through all the major milestones in &aGregTech&r progression. Every single quest should be &2beneficial&r to look at in some way - if something is 100% optional, we'll mention it, so don't worry about missing anything crucial."
+				"{ftbquests.chapter.gtceu.quest20.description3}"
 				"{@pagebreak}"
-				"There are no drawbacks to playing this modpack in &dPeaceful&r - in fact, we highly urge you to do so, as there is little benefit from hostile mobs. Feel free to also to use &o/keepInventory&r, &o/sethome&r, and abuse minimap teleport as you see fit."
+				"{ftbquests.chapter.gtceu.quest20.description4}"
 				""
-				"Although we won't force these settings onto you, we &4don't&r intend for this modpack to provide a punishing &eSurvival&r experience, but more so help you learn the ins and outs of &aGregTech CEu&r."
+				"{ftbquests.chapter.gtceu.quest20.description5}"
 				"{@pagebreak}"
-				"Lastly, it's good to be &lsavvy&r with &eEMI.&r &aGregTech&r items will frequently have several recipes, so you should never assume the first recipe &eEMI&r displays is the most efficient. \"Professional\" &eEMI&r usage involves the &bidentification of patterns&r in autogenerated recipes (example: all the Iron related items &6macerate&r into Iron Dust)."
+				"{ftbquests.chapter.gtceu.quest20.description6}"
 				""
-				"When complex recipes arise - and we won't sugarcoat, &aGTCEu&r can be intimidating - we'll make sure to direct you towards the more &5efficient routes&r. However, we urge you to experiment on your own. It's no fun to follow the quest book by rote, right?"
+				"{ftbquests.chapter.gtceu.quest20.description7}"
 			]
 			icon: "ftbquests:book"
 			id: "13E9DF7E980CFC5B"
 			shape: "circle"
 			size: 0.75d
-			subtitle: "Read this, and read it again!"
+			subtitle: "{ftbquests.chapter.gtceu.quest20.subtitle}"
 			tasks: [{
 				id: "04CC2E592A648F06"
-				title: "I have read this page multiple times"
+				title: "{ftbquests.chapter.gtceu.quest20.task_345702231898885894.title}"
 				type: "checkmark"
 			}]
-			title: "Important Information"
+			title: "{ftbquests.chapter.gtceu.quest20.title}"
 			x: -2.25d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2001CB4968D3E0A2"]
 			description: [
-				"Crafting can quickly get &etiresome&r. How about making use of your &2new saw&r to make this Crafting table?"
+				"{ftbquests.chapter.gtceu.quest21.description1}"
 				""
-				"It allows you to craft from adjacent inventories, making classic &aGregTech&r microcrafting so much less &4tedious&r."
+				"{ftbquests.chapter.gtceu.quest21.description2}"
 				""
-				"Saw the table again for a lower-profile Slab version."
+				"{ftbquests.chapter.gtceu.quest21.description3}"
 			]
 			icon: "craftingstation:crafting_station"
 			id: "411AB552514EA14C"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "No, Tinkers' is not in this modpack"
+			subtitle: "{ftbquests.chapter.gtceu.quest21.subtitle}"
 			tasks: [{
 				id: "30D40010C8E6E115"
 				item: "craftingstation:crafting_station"
 				type: "item"
 			}]
-			title: "Crafting Station"
+			title: "{ftbquests.chapter.gtceu.quest21.title}"
 			x: 3.75d
 			y: -4.5d
 		}
 		{
 			description: [
-				"New to this updated pack is a &dGuides + More&r section. The information inside is available to view at any time, but whenever it becomes relevant, you will be &6directed towards it&r for some light reading."
+				"{ftbquests.chapter.gtceu.quest22.description1}"
 				""
-				"The information found inside may interest you if you would like &amore of an insight&r into some of &bGTCEu's mechanics&r - and in some cases, is absolutely indispensable."
+				"{ftbquests.chapter.gtceu.quest22.description2}"
 				""
-				"Quests that unlock a tutorial node will have an &6orange-ish descriptor&r at the bottom of the quest description."
+				"{ftbquests.chapter.gtceu.quest22.description3}"
 				""
-				"Get reading!"
+				"{ftbquests.chapter.gtceu.quest22.description4}"
 			]
 			icon: "minecraft:lectern"
 			id: "008ABF78E56209F7"
 			shape: "circle"
 			size: 0.75d
-			subtitle: "Tips and tricks to help you prosper"
+			subtitle: "{ftbquests.chapter.gtceu.quest22.subtitle}"
 			tasks: [{
 				id: "382566FB9E8CFE29"
-				title: "Alright, I get it, I get it"
+				title: "{ftbquests.chapter.gtceu.quest22.task_4045753071145123369.title}"
 				type: "checkmark"
 			}]
-			title: "Tutorialised"
+			title: "{ftbquests.chapter.gtceu.quest22.title}"
 			x: -0.75d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"Rubber Trees can be found in &aForest&r, &2Jungle&r or &aSwamp&r biomes."
+				"{ftbquests.chapter.gtceu.quest23.description1}"
 				""
-				"Breaking Rubber Logs will yield &6Sticky Resin&r, which will be important moving forwards."
+				"{ftbquests.chapter.gtceu.quest23.description2}"
 				""
-				"The logs also offer &duseful resources&r when processed in future."
+				"{ftbquests.chapter.gtceu.quest23.description3}"
 			]
 			id: "5193DD03C0742548"
 			rewards: [{
@@ -1567,52 +1567,52 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "No, this isn't IC2"
+			subtitle: "{ftbquests.chapter.gtceu.quest23.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "76851CD51E99CA38"
 				item: "gtceu:rubber_sapling"
 				type: "item"
 			}]
-			title: "Gettin' Shaded under a Rubber Tree"
+			title: "{ftbquests.chapter.gtceu.quest23.title}"
 			x: 0.75d
 			y: -4.5d
 		}
 		{
 			description: [
-				"Think this pack is &atoo easy&r? Wanting some unique experiences to sink your teeth into?"
+				"{ftbquests.chapter.gtceu.quest24.description1}"
 				""
-				"We've gathered some GTCEu Modern-flavored recommendations in this quest."
+				"{ftbquests.chapter.gtceu.quest24.description2}"
 				"{@pagebreak}"
-				"&lMonifactory&r"
-				"&dMonifactory&r is a 1.20.1 modpack based on &eNomifactory CEu&r (which was on 1.12.2!). It aims to streamline and simplify the earlier parts of GregTech, while interweaving other tech mods into GTCEu Modern's progression. It also features a &2Hard&r and an &aExpert&r mode for the challenge-minded!"
+				"{ftbquests.chapter.gtceu.quest24.description3}"
+				"{ftbquests.chapter.gtceu.quest24.description4}"
 				""
-				"In its current state, the pack is on the cusp of a pack-changing update, 0.13. Any worlds at &cHigh Voltage&r or higher will likely need a fresh restart."
+				"{ftbquests.chapter.gtceu.quest24.description5}"
 				"{@pagebreak}"
-				"&lCosmic Frontiers&r"
-				"- &7Ghostipedia et al."
+				"{ftbquests.chapter.gtceu.quest24.description6}"
+				"{ftbquests.chapter.gtceu.quest24.description7}"
 				""
-				"&dCosmic Frontiers&r is a 1.20.1 modpack with gameplay &ba little more difficult&r than this pack, and a focus on interactions between many mods and GTCEu Modern. You'll explore the stars above and travel to the depths below, all whilst tackling &eintricately woven&r progression that ties together the &7mechanical&r and the &5arcane&r."
+				"{ftbquests.chapter.gtceu.quest24.description8}"
 				""
-				"In its current state, the pack is considered to be in &2early alpha&r. However, progress has been curated through &3LuV&r. It's an experience like no other!"
+				"{ftbquests.chapter.gtceu.quest24.description9}"
 				"{@pagebreak}"
-				"&lAll the Mods: Gravitas 2"
-				"- &7ATMTeam"
+				"{ftbquests.chapter.gtceu.quest24.description10}"
+				"{ftbquests.chapter.gtceu.quest24.description11}"
 				""
-				"Starting from &6primitive Stone Age technology&r, hand-knapping your tools and foraging for food, you'll need to progress through the ages covering many &bclassic and new&r mods. This is seamlessly complemented by mods such as TerraFirmaCraft, Create New Age, Stargate Journey and &8(obviously)&r GregTech."
+				"{ftbquests.chapter.gtceu.quest24.description12}"
 				""
-				"You'll find yourself transitioning from a &2primitive beginning&r, smashing rocks together, to smashing atoms together, soon &dpowering your voyages&r to the stars and beyond!"
+				"{ftbquests.chapter.gtceu.quest24.description13}"
 				"{@pagebreak}"
-				"&lStar Technology"
-				"- &7trulyno"
+				"{ftbquests.chapter.gtceu.quest24.description14}"
+				"{ftbquests.chapter.gtceu.quest24.description15}"
 				""
-				"&6Star Technology&r is more of a laid-back GregTech &dskyblock modpack&r where you play as a scientist stranded in an &balternate dimension&r after a dimensional travel experiment &4catastrophically fails&r."
+				"{ftbquests.chapter.gtceu.quest24.description16}"
 				""
-				"Progression in this pack will take you above and beyond &3UHV&r, with numerous unique &aStargates&r to craft, and even a remixed &o\"Gregified\"&r Mystical Agriculture."
+				"{ftbquests.chapter.gtceu.quest24.description17}"
 				""
-				"Once again, this pack features a Hard mode, and a Desert mod (called Abydos!)."
+				"{ftbquests.chapter.gtceu.quest24.description18}"
 				""
-				"Note that the pack is still under &eheavy development&r, but you should be able to achieve the &o\"Classic Stargate\"&r as of version Zeta!"
+				"{ftbquests.chapter.gtceu.quest24.description19}"
 			]
 			icon: "minecraft:netherite_upgrade_smithing_template"
 			id: "63DC162144871509"
@@ -1620,37 +1620,37 @@
 			size: 0.75d
 			tasks: [{
 				id: "3E3D67B53234AD1A"
-				title: "Whoah, these sound cool."
+				title: "{ftbquests.chapter.gtceu.quest24.task_4484854831859936538.title}"
 				type: "checkmark"
 			}]
-			title: "What Else Can I Play?"
+			title: "{ftbquests.chapter.gtceu.quest24.title}"
 			x: -2.25d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0C690272ED4FB1C3"]
 			description: [
-				"Whilst frolicking about on the surface, you may have spotted a couple of &dSurface rocks&r."
+				"{ftbquests.chapter.gtceu.quest25.description1}"
 				""
-				"These little guys indicate the type of veins that are below them. Just right-click &7(or mine!)&r the surface rock to receive a corresponding pile of &aTiny Dust&r. This will also add the vein to your minimap."
+				"{ftbquests.chapter.gtceu.quest25.description2}"
 				"{@pagebreak}"
-				"You can now use &2EMI&r to learn more about the vein beneath your feet. Just press &dU&r on the Tiny Dust you mined from the rock, find the corresponding Raw Ore, and press &dR&r. From there, navigate to the &6Ore Vein Diagram&r. This page contains details on what &btypes of ores&r generate with it, their &3generation patterns&r, their &espawning dimension&r and &dY-level range&r, and their &aspawning weight&r, which is the chance it spawns."
+				"{ftbquests.chapter.gtceu.quest25.description3}"
 			]
 			icon: "gtceu:cobalt_indicator"
 			id: "3296B815876C3181"
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Awakening your inner geologist"
+			subtitle: "{ftbquests.chapter.gtceu.quest25.subtitle}"
 			tasks: [{
 				id: "3C54F075FEE53897"
-				title: "I love prospecting!"
+				title: "{ftbquests.chapter.gtceu.quest25.task_4347363929897646231.title}"
 				type: "checkmark"
 			}]
-			title: "This Rocks!"
+			title: "{ftbquests.chapter.gtceu.quest25.title}"
 			x: -2.25d
 			y: -2.25d
 		}
 	]
-	subtitle: ["Welcome to &6GTCP&r! Glad to have you here."]
-	title: "Introduction"
+	subtitle: ["{ftbquests.chapter.gtceu.subtitle0}"]
+	title: "{ftbquests.chapter.gtceu.title}"
 }

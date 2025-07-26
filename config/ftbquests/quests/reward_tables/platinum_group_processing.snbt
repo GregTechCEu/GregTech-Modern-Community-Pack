@@ -10,5 +10,5 @@
 		{ count: 20, item: "gtceu:purified_pentlandite_ore" }
 		{ count: 10, item: "gtceu:purified_cooperite_ore" }
 	]
-	title: "platinum_group_processing"
+	title: "{ftbquests.loot_table_1971029833527055160.title}"
 }

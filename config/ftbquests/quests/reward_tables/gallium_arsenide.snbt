@@ -6,5 +6,5 @@
 		{ count: 4, item: "gtceu:gallium_dust" }
 		{ count: 4, item: "gtceu:arsenic_dust" }
 	]
-	title: "gallium_arsenide"
+	title: "{ftbquests.loot_table_2116922005162849828.title}"
 }
