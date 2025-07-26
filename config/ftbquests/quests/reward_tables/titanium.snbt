@@ -6,5 +6,5 @@
 		{ count: 12, item: "gtceu:endstone_bauxite_ore" }
 		{ count: 12, item: "gtceu:endstone_ilmenite_ore" }
 	]
-	title: "titanium"
+	title: "{ftbquests.loot_table_3622252502177806142.title}"
 }
