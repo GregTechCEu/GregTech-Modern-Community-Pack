@@ -1,7 +1,7 @@
 #!/bin/bash
 
 FORGE_VERSION="1.20.1-47.3.6"
-PACK_VERSION="1.14.0-server"
+PACK_TAG="v1.14.0-server"
 
 # Ensure java is installed
 if ! command -v java >/dev/null 2>&1; then
@@ -41,6 +41,6 @@ if [ ! -f packwiz-installer-bootstrap.jar ]; then
     download "https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar"
 fi
 
-java -jar packwiz-installer-bootstrap.jar -g -s server https://raw.githubusercontent.com/GregTechCEu/GregTech-Modern-Community-Pack/refs/tags/$PACK_VERSION/pack.toml
+java -jar packwiz-installer-bootstrap.jar -g -s server https://raw.githubusercontent.com/GregTechCEu/GregTech-Modern-Community-Pack/refs/tags/$PACK_TAG/pack.toml
 
 java @user_jvm_args.txt @libraries/net/minecraftforge/forge/$FORGE_VERSION/unix_args.txt nogui
