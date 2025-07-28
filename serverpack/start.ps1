@@ -2,7 +2,8 @@ $GAME_VERSION = "1.20.1"
 $FORGE_VERSION = "1.20.1-47.3.6"
 $FINDME_VERSION = "1.20.1-3.2.1d"
 
-$PACK_URI = "https://raw.githubusercontent.com/GregTechCEu/GregTech-Modern-Community-Pack/main/pack.toml"
+$PACK_VERSION = "1.14.0"
+$PACK_URI = "https://raw.githubusercontent.com/GregTechCEu/GregTech-Modern-Community-Pack/refs/tags/v$PACK_VERSION/pack.toml"
 
 # Ensure java is installed
 if (!(Get-Command java)) {
