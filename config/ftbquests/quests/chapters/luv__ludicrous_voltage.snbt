@@ -73,9 +73,9 @@
 				"78277DBC07D3C45C"
 			]
 			description: [
-				"The &aUHPIC&r unlocks &3ZPM Energy Hatches&r and &3Dynamos&r, as well as the Active Transformer. "
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest1.description1}"
 				""
-				"You may know the drill, but do you know the screwdriver?"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest1.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:uhpic_chip"
@@ -94,27 +94,27 @@
 					type: "item"
 				}
 			]
-			title: "Ultra High Power Integrated Circuit"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest1.title}"
 			x: 2.25d
 			y: 0.0d
 		}
 		{
 			dependencies: ["00C14E3B8009DF7F"]
 			description: [
-				"&3Dielectric PCB Coolant&r is used to maintain some highly advanced late and end-game machinery."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest2.description1}"
 				""
-				"You only need a little bit in &dLuV&r, but you'll want to automate it when you get to &cZPM&r."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest2.description2}"
 			]
 			id: "35549F0404C87BCA"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Absolutely beneficial for the environment"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest2.subtitle}"
 			tasks: [{
 				id: "10FAF765725C7790"
 				item: "gtceu:pcb_coolant_bucket"
 				type: "item"
 			}]
-			title: "Dielectric PCB Coolant"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest2.title}"
 			x: 2.25d
 			y: 1.125d
 		}
@@ -125,22 +125,22 @@
 				"5ED7707B0ECF2207"
 			]
 			description: [
-				"The &3Active Transformer&r is a multiblock used to transform energy on a much larger scale. For example, you can convert &6HV&r to &7LV&r power directly by using the apropriate energy hatches."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest3.description1}"
 				""
-				"It also has a second function, detailed in the above quest."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest3.description2}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o This is yet another feature from TecTech, which also required these cables to be painted. They do look fantastic if you paint them, but it's optional in CEu."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest3.description3}"
 			]
 			id: "1AD003487B4EC2EF"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "More than a large transformer"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest3.subtitle}"
 			tasks: [{
 				id: "39CDBE6B4B973868"
 				item: "gtceu:active_transformer"
 				type: "item"
 			}]
-			title: "Active Transformer"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest3.title}"
 			x: 3.375d
 			y: 0.0d
 		}
@@ -151,96 +151,96 @@
 				"52D952ADBEB67454"
 			]
 			description: [
-				"The &3Data Bank&r is a multiblock capable of storing huge amounts of data. You can fill it with &aData Access Hatches&r, and fill those with &aData Storage Items&r."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest4.description1}"
 				""
-				"After that, you'll need power, and then a way to connect it to your Assembly Line! This is done through &3Optical Fiber Cables&r, which can be used to link &3Optical Data Hatches together&r."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest4.description2}"
 				"{@pagebreak}"
-				"An &9Optical Transmission Hatch&r is used to send data (like an output), and an &9Optical Reception Hatch&r to recieve the data (like an input). "
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest4.description3}"
 				""
-				"Optical cables have some restrictions however. They can only connect &eone input to one output&r. The Data Bank is your answer to this, since you can place many hatches on them to route your data anywhere."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest4.description4}"
 				""
-				"You can use this behavior to &echain&r Data Banks as well. Connecting one Data Bank to another, and then one of them to an Assembly Line will provide the data of both banks!"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest4.description5}"
 				"{@pagebreak}"
-				"&eNote: &rThis multiblock will be required later on in progression, but is very useful to set up early."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest4.description6}"
 				""
-				"&l&3Lore:&r&o This multiblock also originates from TecTech, but part of its mechanics required optical cables to be painted as well. You don't have to do that here, but it looks really nice if you do!"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest4.description7}"
 			]
 			id: "42760D3A86EFDCA3"
 			size: 0.75d
-			subtitle: "Time for a server room"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest4.subtitle}"
 			tasks: [{
 				id: "01188385BE2DB3B3"
 				item: "gtceu:data_bank"
 				type: "item"
 			}]
-			title: "Mass Data Storage"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest4.title}"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1AD003487B4EC2EF"]
 			description: [
-				"The &3Active Transformer&r has a second use - &6Laser Power&r. Lasers are like superconductors, but behave slightly differently. They share the energy input across all connected active transformers, allowing widespread power distribution. You can use &3Active Transformers&r to convert regular EU to and from Lasers."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest5.description1}"
 				""
-				"Like optical cables, they can only be connected to &eone input and output&r. But, these ones also only can move in &estraight lines&r. To turn them, an &3Active Transformer&r with a Laser Source Hatch (output) and Target Hatch (input) is needed."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest5.description2}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o This is yet again another TecTech feature, but there's a bit more to it this time. TecTech's lasers were tiered by voltage and carried thousands of amps instead. CEu doesn't faff around with any of that tiering. You only need one type of laser here!"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest5.description3}"
 			]
 			id: "07159FCD9744DD98"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Time for some lasers!"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest5.subtitle}"
 			tasks: [{
 				id: "3BA3AA8746044DC1"
 				item: "gtceu:normal_laser_pipe"
 				type: "item"
 			}]
-			title: "Laser Power Transmission"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest5.title}"
 			x: 3.375d
 			y: -1.125d
 		}
 		{
 			dependencies: ["78277DBC07D3C45C"]
 			description: [
-				"Doping &9Silicon&r with &9Naquadah&r will give a better &aSilicon Boule&r."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest6.description1}"
 				""
-				"Use it for higher yield on &dWafers&r."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest6.description2}"
 				""
-				"This will also unlock the &6best recipe&r for &6HV&r Circuits in the &3LuV Circuit Assembler&r. You're probably going to want to mass produce these for the many &dLapotronic Energy Orbs&r that'll be required moving forwards."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest6.description3}"
 			]
 			id: "3F31E99D0284A60A"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Doper than ever before"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest6.subtitle}"
 			tasks: [{
 				id: "2F8C92A86CAF338F"
 				item: "gtceu:naquadah_boule"
 				type: "item"
 			}]
-			title: "Naquadah-doped Silicon Boule"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest6.title}"
 			x: 0.0d
 			y: 1.125d
 		}
 		{
 			dependencies: ["7A1E3C3A2D699C5B"]
 			description: [
-				"&aNaquadah&r is a late-game material with a variety of uses. It is required when building a Fusion Reactor and progressing to &cZPM&r, to name a few."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest7.description1}"
 				""
-				"For some reason, its fluid is a brilliant &agreen&r - don't ask us why."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest7.description2}"
 				""
-				"&l&3Lore:&r&o Naquadah is a material originally from Stargate."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest7.description3}"
 			]
 			hide_dependency_lines: true
 			id: "78277DBC07D3C45C"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Don't you mean Stargatium?"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest7.subtitle}"
 			tasks: [{
 				id: "36833D5050F81992"
 				item: "gtceu:naquadah_ingot"
 				type: "item"
 			}]
-			title: "Naquadah"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest7.title}"
 			x: 1.125d
 			y: 1.125d
 		}
@@ -250,24 +250,24 @@
 				"7A1E3C3A2D699C5B"
 			]
 			description: [
-				"&aNaquadah Coils&r crank up the Heat Capacity to &d7,200K&r."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest8.description1}"
 				""
-				"These coils are required for progressing to the second half of &dLuV&r and beyond."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest8.description2}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Well... not some \"juicy GregTech lore\", but a cool space fact, owing to the fact you're beating the Sun's temperature with your EBF. The surface temperature of the Sun is 5,800K. We're taking this as an effective temperature - i.e. the radiative temperature of the Sun as if it were a perfectly \"black body\". Check out the Stefan-Boltzmann law if you're interested in some crude astrophysics."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest8.description3}"
 				""
-				"&oOh, and the \"photosphere\" (the part of the sun we're talking about when we mention its surface)? It's 400 kilometres thick. That's 250 miles. Damn!"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest8.description4}"
 			]
 			id: "2FCBA0D780DBDA9E"
 			size: 0.75d
-			subtitle: "Hotter than the surface temperature of the Sun!"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest8.subtitle}"
 			tasks: [{
 				count: 16L
 				id: "28332FC9FCA83E41"
 				item: "gtceu:naquadah_coil_block"
 				type: "item"
 			}]
-			title: "Naquadah Coils"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest8.title}"
 			x: 3.375d
 			y: 1.125d
 		}
@@ -277,85 +277,85 @@
 				"2FCBA0D780DBDA9E"
 			]
 			description: [
-				"&aLuV Superconductors&r are necessary if you're eyeing a &9Fusion Reactor&r. "
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest9.description1}"
 				""
-				"Don't ignore our warning here - you're gonna need &ea lot&r&r of them. Luckily, any &5Indium&r shortages will be solved by your Naquadah line."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest9.description2}"
 			]
 			id: "5ED7707B0ECF2207"
 			size: 0.75d
-			subtitle: "Be glad these don't use pumps"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest9.subtitle}"
 			tasks: [{
 				id: "10FB849CE994B1A5"
 				item: "gtceu:indium_tin_barium_titanium_cuprate_single_wire"
 				type: "item"
 			}]
-			title: "LuV Superconductors"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest9.title}"
 			x: 4.5d
 			y: 1.125d
 		}
 		{
 			dependencies: ["546CC03435E763CF"]
 			description: [
-				"&cWarning&r: &9Plasmas&r are &cextremely hot&r, with temperatures exceeding &d30k Kelvin&r! "
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest10.description1}"
 				""
-				"However, this &6&ldoesn't&r mean that a special type of pipe is required to transport plasma. Plasmas are treated slightly differently, and bend the rules a bit."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest10.description2}"
 				""
-				"Fluid pipes that can handle plasmas, such as &aTungsten&r, &aNaquadah&r, or &aDuranium&r can hold any plasma &6regardless of temperature&r. This means they &lwon't&r melt under the heat of the plasma!"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest10.description3}"
 				""
-				"WARNING:&r Plasmas in incompatible pipes will cause &cvoiding&r, &cpipe burning&r, and &ldisproportionately high&r rates of &cdeath&r. Be careful!"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest10.description4}"
 				""
-				"&l&3Lore:&r&o This mechanic originates from GT6, just like the acids!"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest10.description5}"
 			]
 			icon: "gtceu:argon_plasma_bucket"
 			id: "173C1FA72301B5E7"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "The stars are calling..."
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest10.subtitle}"
 			tasks: [{
 				id: "062ECB2F9C9D741D"
 				type: "checkmark"
 			}]
-			title: "Fluid of the Stars"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest10.title}"
 			x: 5.625d
 			y: 1.125d
 		}
 		{
 			dependencies: ["173C1FA72301B5E7"]
 			description: [
-				"Use this turbine to extract very large amounts of power from plasma!"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest11.description1}"
 				""
-				"&aHelium Plasma&r is the best fuel for its cost."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest11.description2}"
 				""
-				"If you're the type to question how realistic Plasma Turbines are... look up Magnetohydrodynamic Generators if you want something that bends fact into fiction."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest11.description3}"
 			]
 			id: "4E9DED9569AA17F5"
 			size: 0.75d
-			subtitle: "Plasma? Turbine?! How?"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest11.subtitle}"
 			tasks: [{
 				id: "13230F892A8F6FA1"
 				item: "gtceu:plasma_large_turbine"
 				type: "item"
 			}]
-			title: "Large Plasma Turbine"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest11.title}"
 			x: 6.75d
 			y: 1.125d
 		}
 		{
 			dependencies: ["378F0AFCF95354B2"]
 			description: [
-				"This is the main material for &cZPM&r. Having this in stock will be a test of your Platinum processing, so this is a &6pre-emptive warning&r to stay on top of mining PGS-bearing ore."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest12.description1}"
 				""
-				"Prepare to make lots... after you make &9Fusion&r and &9Crystal Circuits&r. Tackle those before you try making this."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest12.description2}"
 			]
 			id: "24F0454B9A090C44"
 			size: 0.75d
-			subtitle: "Stargate's Strongest"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest12.subtitle}"
 			tasks: [{
 				id: "16895659E44B65B5"
 				item: "gtceu:naquadah_alloy_ingot"
 				type: "item"
 			}]
-			title: "Naquadah Alloy"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest12.title}"
 			x: 0.0d
 			y: 2.25d
 		}
@@ -365,42 +365,42 @@
 				"48DEABA155605D23"
 			]
 			description: [
-				"Refining &9Naquadah&r into further products will be your next automation challenge. The primary outputs of this line are &aEnriched Naquadah&r, &aNaquadria&r, and &aTrinium&r. "
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest13.description1}"
 				""
-				"This processing line - affectionately known as the \"Naqline\" - also produces many useful byproducts, such as Titanium and Indium."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest13.description2}"
 				"{@pagebreak}"
-				"&aEnriched Naquadah&r currently isn't used for much, but will be integral to power generation in the future."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest13.description3}"
 				""
-				"&aNaquadria&r is a lategame material that you'll want to stockpile for your &3UV&r components."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest13.description4}"
 				""
-				"&aTrinium&r is the material you'll be wanting most right now. You'll use a lot of it to build your first Fusion Reactor, is used for the next set of Coils, and sees heavy usage in most &cZPM&r recipes."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest13.description5}"
 				"{@pagebreak}"
-				"&eNote&r: This processing chain presents more of a challenge than any chemistry you've dealt with so far."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest13.description6}"
 				""
-				"As usual, outputs in later steps can be sent back into previous processes... with the caveat that they lose a small amount of fluid with each loop."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest13.description7}"
 				""
-				"This can be challenging to automate. Good luck!"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest13.description8}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Many GregTech iterations have Naquadah processing. "
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest13.description9}"
 				""
-				"&oThe first was likely Impact, with its own original Naquadah fuel process. "
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest13.description10}"
 				""
-				"&oGregicality Legacy was hot on its heels with processes for making the Naquadah material (and variants) as well as Fuel. "
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest13.description11}"
 				""
-				"&oAfter that, GTNH added their own Naquadah processes for the material and fuel. "
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest13.description12}"
 				""
-				"&oLastly, GTCEu added the process you're about to set up!"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest13.description13}"
 			]
 			icon: "gtceu:naquadah_dust"
 			id: "378F0AFCF95354B2"
 			size: 0.75d
-			subtitle: "Do not touch the acid"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest13.subtitle}"
 			tasks: [{
 				id: "1D674C3951223E8C"
 				item: "gtceu:fluoroantimonic_acid_bucket"
 				type: "item"
 			}]
-			title: "Naquadah Chain"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest13.title}"
 			x: 1.125d
 			y: 2.25d
 		}
@@ -411,17 +411,17 @@
 				"00C14E3B8009DF7F"
 			]
 			description: [
-				"&aTrinium&r is a very important material for progression. You'll need it to make a &9Fusion Reactor&r, but it stays relevant all throughout &cZPM&r. We &7(well, this particular questbook writer!)&r can never have enough of this stuff."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest14.description1}"
 				""
-				"It also requires an &dLuV&r EBF to smelt! Perhaps dedicate a setup solely for cooking this, unless you're confident that your infrastructure can deal with it."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest14.description2}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In Stargate, Trinium was strong enough to block a point-blank C4 explosion. It's considered to be a hundred times stronger than steel, at only one-hundreth the weight."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest14.description3}"
 			]
 			icon: "gtceu:trinium_ingot"
 			id: "0DC999F79A685194"
 			shape: "gear"
 			size: 1.2d
-			subtitle: "Another Stargate material!"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest14.subtitle}"
 			tasks: [
 				{
 					id: "48F555D3FC7EA449"
@@ -435,29 +435,29 @@
 					type: "item"
 				}
 			]
-			title: "Trinium"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest14.title}"
 			x: 3.375d
 			y: 2.25d
 		}
 		{
 			dependencies: ["4F6E351C5F676618"]
 			description: [
-				"&aPlutonium-241&r is yet another requirement for the &9Fusion Reactor&r. It's very easy to make: just centrifuge some &9Pu-239&r to slowly separate some out."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest15.description1}"
 				""
-				"In the future, this material will require a &dNuclear Reactor&r to produce, but that's not in GTCEu yet."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest15.description2}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In GT Impact, making Pu-241 was a challenge. Your first Pu-241 had to be produced as a byproduct of its very expensive Naquadah fuel process, and it could only be made independently with something post-fusion!"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest15.description3}"
 			]
 			id: "2BBD3BC7D1B955C2"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Spicy Plutonium Isotope"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest15.subtitle}"
 			tasks: [{
 				id: "757053C4979D8B08"
 				item: "gtceu:plutonium_241_dust"
 				type: "item"
 			}]
-			title: "Plutonium-241"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest15.title}"
 			x: 4.5d
 			y: 2.25d
 		}
@@ -470,82 +470,82 @@
 				"327C3E02CD751453"
 			]
 			description: [
-				"First things first - build the version of the structure that uses Fusion Glass in &aEMI&r. It's far cheaper right now."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest16.description1}"
 				""
-				"To save on &3Fusion Casings&r, fit Input/Output Hatches wherever you can (as displayed in the structure)."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest16.description2}"
 				""
-				"The &bFusion Reactor&r will pick a free Output Hatch from the many that are available. In order to \"&6force&r\" the Reactor to use a particular Output Hatch, you can always &alock all of the hatches&r to an irrelevant fluid (we usually use &9Water&r)."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest16.description3}"
 				""
-				"This time, we'll try something new: we're gonna explain the &3Lore&r at the same time as the mechanics."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest16.description4}"
 				""
-				"Enjoy the ride!"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest16.description5}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o GregTech 5's &3Fusion Reactor&f stores EU you feed it in its internal buffer. The maximum capacity is determined by the amount of &3Energy Hatches&f in the structure."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest16.description6}"
 				""
-				"&oRecipes can only start if the &9\"EU to start\"&f is stored internally, which will be &cconsumed&f. With this stored energy, the reactor can keep running recipes until it goes idle. At this point it will need to be topped up on EU to start again."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest16.description7}"
 				"{@pagebreak}"
-				"&oShadow of Greg's &3Fusion Reactor&f (which is now GTCEu's Fusion Reactor) comes with an added mechanic called &4Heat&f."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest16.description8}"
 				""
-				"&oWhen the reactor is running, the &9EU to start&f is converted to &4Heat&f. That Heat is preserved until the Reactor goes idle, at which point it will slowly go down."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest16.description9}"
 				""
-				"&oNext time a recipe is found, it will use all possible Heat and deduct it from the &9EU to start&f, allowing you to save Energy for short pauses."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest16.description10}"
 				""
-				"&oThe &3Fusion Reactor I&f can only run recipes up to a required EU of 160 MEU to start. It will also overclock up to &dLuV&f at best, even if you upgrade to ZPM Hatches, so don't stress over attempting this."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest16.description11}"
 			]
 			id: "546CC03435E763CF"
 			shape: "gear"
 			size: 1.3d
-			subtitle: "Stellar power"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest16.subtitle}"
 			tasks: [{
 				id: "48A4D39ED0E11EBC"
 				item: "gtceu:luv_fusion_reactor"
 				type: "item"
 			}]
-			title: "Fusion Reactor I"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest16.title}"
 			x: 5.625d
 			y: 2.25d
 		}
 		{
 			dependencies: ["546CC03435E763CF"]
 			description: [
-				"&aEuropium&r is the first major Fusion Material. You'll be using this quite a lot going forwards."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest17.description1}"
 				""
-				"&eNote&r: The temperature of liquid Europium is very hot, but the fluid isn't a plasma. Plan your piping accordingly!"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest17.description2}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In Gregicality Legacy, Europium was replaced with Rutherfordium as the first fusion material, because Europium is actually found in Rare Earth and isn't fused in real life."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest17.description3}"
 			]
 			id: "7A74F692F14F0FF8"
 			shape: "gear"
 			size: 1.1d
-			subtitle: "Fusing Europium... whaaat?!"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest17.subtitle}"
 			tasks: [{
 				id: "220305C9DA0F512B"
 				item: "gtceu:europium_ingot"
 				type: "item"
 			}]
-			title: "Europium"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest17.title}"
 			x: 6.75d
 			y: 2.25d
 		}
 		{
 			dependencies: ["7A74F692F14F0FF8"]
 			description: [
-				"&aCrystal CPUs&r are used to produce &9Crystal Circuits&r - who would have thought?"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest18.description1}"
 				""
-				"Producing these is quite a bit different from the previous circuit components. Instead of standard silicon wafers, these rely on &9Emerald&r or &9Olivine&r."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest18.description2}"
 				""
-				"Getting your first Crystal Chips will be difficult, so you may wish to invest in a high-tier Autoclave. If you use a &6HV&r Autoclave... well, we didn't take you for the gambling sort."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest18.description3}"
 				""
-				"After you get your first Chip, you can duplicate them with &9Europium&r. Don't worry about those other recipes yet, they're for later on in &cZPM&r."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest18.description4}"
 				"{@pagebreak}"
-				"&eNote&r: An &9Advanced Item Detector&r cover will be useful for automating these. They work just like the Advanced Energy Detector."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest18.description5}"
 				""
-				"&l&3Lore:&r&o In GT5u modpacks, making your first Crystal Chips required the autoclave to be in Low Gravity, which meant doing this process on a Galacticraft Space Station, or on the moon!"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest18.description6}"
 			]
 			icon: "gtceu:crystal_cpu"
 			id: "764091A111FB4DA6"
 			size: 0.75d
-			subtitle: "These don't even make any sense!"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest18.subtitle}"
 			tasks: [
 				{
 					id: "3B9666A5C3CBDCD6"
@@ -558,7 +558,7 @@
 					type: "item"
 				}
 			]
-			title: "Crystal CPU"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest18.title}"
 			x: 7.875d
 			y: 2.25d
 		}
@@ -568,11 +568,11 @@
 				"4F6E351C5F676618"
 			]
 			description: [
-				"This Quest will be completed with &eeither&r an &3LuV Energy Hatch&r&r... or an &3LuV Dynamo Hatch&r for your Multiblock Generators."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest19.description1}"
 				""
-				"Starting at &dLuV&r, you'll start upgrading more multiblocks, which means more energy hatches! Both the &9EBF&r and the &9Assembly Line&r will need power upgrades."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest19.description2}"
 				""
-				"Don't forget that &d4 Amp&r variants exist!"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest19.description3}"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:luv_energy_input_hatch"
@@ -591,7 +591,7 @@
 					type: "item"
 				}
 			]
-			title: "Upgrading your Assembly Line"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest19.title}"
 			x: 2.25d
 			y: 2.25d
 		}
@@ -600,26 +600,26 @@
 				"77B7B1EDD19831E0"
 				"46C7E1D5E37B1ED2"
 			]
-			description: ["The &aWireless Connector&r will help with logistics, giving &9Wireless Transfer&r for your ME Network with unlimited range. The energy cost scales exponentially with transfer distance."]
+			description: ["{ftbquests.chapter.luv__ludicrous_voltage.quest20.description1}"]
 			id: "7E2076D45F83D9C3"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "To infinity, and beyond!"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest20.subtitle}"
 			tasks: [{
 				id: "3AC7E29D373750F8"
 				item: "expatternprovider:wireless_connect"
 				type: "item"
 			}]
-			title: "The Power of Wireless"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest20.title}"
 			x: 3.96d
 			y: 5.94d
 		}
 		{
 			dependencies: ["77B7B1EDD19831E0"]
 			description: [
-				"If recipe sizes are starting to worry you, don't worry - &2AE2&r now allows you to place an unlimited amount of items into a processing pattern."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest21.description1}"
 				""
-				"Thanks to this innovation, you can automate all the &3Assembly Line&r recipes."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest21.description2}"
 			]
 			icon: "expatternprovider:ex_interface"
 			id: "79192BA29BE69170"
@@ -627,44 +627,44 @@
 			size: 0.66d
 			tasks: [{
 				id: "3DFCDF1B24506A8A"
-				title: "Wahey!"
+				title: "{ftbquests.chapter.luv__ludicrous_voltage.quest21.task_4466690238111050378.title}"
 				type: "checkmark"
 			}]
-			title: "PackagedWho?"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest21.title}"
 			x: 3.3d
 			y: 4.62d
 		}
 		{
 			dependencies: ["77B7B1EDD19831E0"]
 			description: [
-				"At the cost of 16x the drilling Power, the &3Advanced Fluid Drilling Rig II&r will be gaining &664x the output&r in Fluid."
-				"The depletion of veins is also slashed to an eighth of what it was before. This means you will get a total of &6128x&r as much Oil (or whatever fluid) as the regular rig from a bedrock fluid vein until depletion!"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest22.description1}"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest22.description2}"
 				""
-				"Even when depleted, you can safely use this and be very much power positive."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest22.description3}"
 				""
-				"One single &3Advanced Fluid Drilling Rig II&r should be enough to last you until the end of the game, for whatever fluid you drill."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest22.description4}"
 			]
 			id: "4AEAC79007790BD8"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "This thing is completely ludicrous!"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest22.subtitle}"
 			tasks: [{
 				id: "5904009DC40731D6"
 				item: "gtceu:ev_fluid_drilling_rig"
 				type: "item"
 			}]
-			title: "Ludicrous Fluid Drilling"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest22.title}"
 			x: 5.61d
 			y: 4.62d
 		}
 		{
 			dependencies: ["77B7B1EDD19831E0"]
 			description: [
-				"This Large Miner is nearly identical to the regular one, except it has a wider range and uses more drilling fluid."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest23.description1}"
 				""
-				"It's an optional sidegrade - one you might not even want."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest23.description2}"
 				""
-				"&l&3Lore:&r&o There may be a rebalance for these in the future. See the Multiblock Miner quest for details."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest23.description3}"
 			]
 			id: "1BE779AF4487E3EB"
 			shape: "rsquare"
@@ -674,7 +674,7 @@
 				item: "gtceu:luv_large_miner"
 				type: "item"
 			}]
-			title: "Ludicrous Ore Drilling"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest23.title}"
 			x: 5.28d
 			y: 5.28d
 		}
@@ -685,14 +685,14 @@
 				"5B07279B08BF8DDE"
 			]
 			description: [
-				"The &aLuV Lapotronic Orb&r is even better than the &1IV&r one! Of course, such power comes at a steep cost..."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest24.description1}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In older versions of GT, such as GTNH in the past or in GCYL, these orbs were ludicrously expensive! They required 8 orbs of the previous tier! Thankfully, those days are long past."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest24.description2}"
 			]
 			icon: "gtceu:lapotronic_energy_orb_cluster"
 			id: "0D7C978F9CDF771B"
 			size: 0.75d
-			subtitle: "Even more power!"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest24.subtitle}"
 			tasks: [
 				{
 					id: "6D1376BF3CEA87A7"
@@ -706,41 +706,41 @@
 					type: "item"
 				}
 			]
-			title: "Ludicrous Batteries"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest24.title}"
 			x: 6.75d
 			y: 4.5d
 		}
 		{
 			dependencies: ["42CD789B8C40E424"]
-			description: ["Cheaper &dLuV&r circuits! These'll take some of the edge out of those brutal Robot Arm recipes."]
+			description: ["{ftbquests.chapter.luv__ludicrous_voltage.quest25.description1}"]
 			id: "47087361D6DE7DCF"
 			size: 0.75d
-			subtitle: "Yup... another circuit upgrade"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest25.subtitle}"
 			tasks: [{
 				id: "3CF7F369F390A3E5"
 				item: "gtceu:crystal_processor_assembly"
 				type: "item"
 			}]
-			title: "Even more LuV Circuits"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest25.title}"
 			x: 7.875d
 			y: 4.5d
 		}
 		{
 			dependencies: ["47087361D6DE7DCF"]
 			description: [
-				"&cZPM&r Circuits that aren't mainframes!"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest26.description1}"
 				""
-				"Don't lie - &bCrystal Supercomputers&r sound really cool, right?"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest26.description2}"
 			]
 			id: "7AE681E2AB31EA0D"
 			size: 0.75d
-			subtitle: "...wait, why'd things end here?"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest26.subtitle}"
 			tasks: [{
 				id: "0E274B445A95250A"
 				item: "gtceu:crystal_processor_computer"
 				type: "item"
 			}]
-			title: "More ZPM Circuits"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest26.title}"
 			x: 7.875d
 			y: 5.625d
 		}
@@ -749,17 +749,17 @@
 				"77B7B1EDD19831E0"
 				"7CFC112B8F460549"
 			]
-			description: ["The &aLuV Electric Prospector&r is a major upgrade from the &eHV&r one. With its huge range, it'll make finding Fluid and Ore veins very easy."]
+			description: ["{ftbquests.chapter.luv__ludicrous_voltage.quest27.description1}"]
 			id: "7033A24F37F9B9B9"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "If you're yet to strike gold, you will now"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest27.subtitle}"
 			tasks: [{
 				id: "718BA09242A22550"
 				item: "gtceu:prospector.luv"
 				type: "item"
 			}]
-			title: "LuV Prospector"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest27.title}"
 			x: 4.5d
 			y: 3.375d
 		}
@@ -770,40 +770,40 @@
 				"764091A111FB4DA6"
 			]
 			description: [
-				"The first circuit of the &9Crystal&r line."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest28.description1}"
 				""
-				"&l&3Lore:&r&o The concept of a Crystal Circuit has existed since the very early versions of GregTech. We're still not entirely sure if they exist in real life."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest28.description2}"
 			]
 			id: "42CD789B8C40E424"
 			size: 0.75d
-			subtitle: "I know where this is going!"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest28.subtitle}"
 			tasks: [{
 				id: "6357389871CE70C2"
 				item: "gtceu:crystal_processor"
 				type: "item"
 			}]
-			title: "Best IV Circuits!"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest28.title}"
 			x: 7.875d
 			y: 3.375d
 		}
 		{
 			dependencies: ["0338C9219DC2F819"]
 			description: [
-				"If you say the name 3 times in front of a mirror, you summon a CEu dev."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest29.description1}"
 				""
-				"&aMulti-Layer Fiber-Reinforced Printed Circuit Boards&r are the next step in your circuit journey. They're not particularly interesting compared to the previous boards: just two of the previous stuck together."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest29.description2}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In Gregicality Legacy, these circuit boards were much more complicated. They required Kapton, a dual polymer material. It was a challenge to say the least. In the future, the GTCEu team might make these boards somewhat more involved to produce."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest29.description3}"
 			]
 			id: "6C241455C5434C2E"
 			size: 0.75d
-			subtitle: "M-L F-R PCB"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest29.subtitle}"
 			tasks: [{
 				id: "5B8C1C15E5413CEC"
 				item: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
 				type: "item"
 			}]
-			title: "Multi-Layer Fiber-Reinforced Printed Circuit Boards"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest29.title}"
 			x: 9.0d
 			y: 3.375d
 		}
@@ -818,17 +818,17 @@
 				"3A7491323AC5C70C"
 			]
 			description: [
-				"&dLuV&r Components are significantly more difficult to produce than their predecessors. They require an &9Assembly Line&r, many different forms of materials, and lots of fluids too!"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest30.description1}"
 				""
-				"You will notice that &9Samarium&r is required for &aLuV+ Motors&r. Samarium by itself isn't very difficult to obtain, but smelting it is slightly more involved. It requires &9Liquid Helium&r in the Freezer. If you made &9IV Superconductors&r, you've likely seen this already."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest30.description2}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In the original GregTech 5, these components were unobtainable! You'd be free from GT if you were at this point! How times change."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest30.description3}"
 			]
 			icon: "gtceu:luv_electric_motor"
 			id: "11D3B21A177B0E14"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Fun levels - critical"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest30.subtitle}"
 			tasks: [
 				{
 					id: "0BA1015B5C7A0BD5"
@@ -866,115 +866,115 @@
 					type: "item"
 				}
 			]
-			title: "Pure Joy"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest30.title}"
 			x: 1.125d
 			y: 4.5d
 		}
 		{
 			dependencies: ["0425179329ED1B72"]
-			description: ["A requirement for &dLuV&r+ cables."]
+			description: ["{ftbquests.chapter.luv__ludicrous_voltage.quest31.description1}"]
 			id: "12FEE0A47E4658D5"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Cables need better coating now"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest31.subtitle}"
 			tasks: [{
 				id: "4CAD2BE5558D7501"
 				item: "gtceu:polyphenylene_sulfide_foil"
 				type: "item"
 			}]
-			title: "Polyphenylene Sulfide"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest31.title}"
 			x: 0.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["4F6E351C5F676618"]
 			description: [
-				"The chances you are having TPS issues playing this modpack are slim - this Quest is more suited for late game bases with GregTech and AE2."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest32.description1}"
 				""
-				"If you run the command &9/forge tps&r, you will be given the current &4TPS&r and the &4tick time&r in milliseconds."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest32.description2}"
 				""
-				"If the tick time exceeds 50ms, the server is under too much load, and won't be able to keep up with a steady 20 TPS."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest32.description3}"
 				""
-				"Any machine will add up to the tick time, but don't be too scared of adding machines. Most of the lag usually comes from things that are unoptimized."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest32.description4}"
 				"{@pagebreak}"
-				"Things to &cavoid&r in general:"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest32.description5}"
 				""
-				"&9-&r Entities are pretty bad. Ground items or mob entities should be kept as low as possible at any given time. Thankfully, this shouldn't be an issue in this modpack."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest32.description6}"
 				""
-				"&9-&r Building everything packed together in a small space. Note that this does &onot&r affect TPS, but you will suffer FPS drops instead."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest32.description7}"
 				""
-				"&9-&r Huge walls of drawers, as iterating through every single one of them for insertion and extraction can be pretty taxing."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest32.description8}"
 				"{@pagebreak}"
-				"Things to&c avoid&r with AE2:"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest32.description9}"
 				""
-				"&9-&r ME Import and Export Buses on large networks. Use ME Interfaces instead."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest32.description10}"
 				""
-				"&9-&r Crafting Cards to passively do large requests."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest32.description11}"
 				""
-				"&9-&r Recursive insertion and/or extraction through sub-networks. If you use sub-networks, make them do very specific things rather than interacting with another AE2 network."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest32.description12}"
 				"{@pagebreak}"
-				"Things to &cavoid&r with GregTech (GTCEu has received a lot of improvements over GTCE, but it is possible to destroy your TPS, as with any mod):"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest32.description13}"
 				""
-				"&9-&r Many EU Producers connected to many EU Consumers in the same line. Instead, use a Diode or Battery Buffer to separate your line of generators to your line of machines."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest32.description14}"
 				""
-				"&9-&r Large amounts of Fluid Pipes. They are &onot&r laggy individually, but they can add up if you have thousands of them."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest32.description15}"
 				""
-				"&9-&r Big Item Pipe networks. Small networks are better, to reduce the number of iterations over inventories."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest32.description16}"
 			]
 			icon: "minecraft:mud"
 			id: "63F9531F391040B2"
 			shape: "circle"
 			size: 0.66d
-			subtitle: "They call me 007 - 0 Naquadah, 0 EU/t, 7 TPS"
-			title: "Combatting Lag"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest32.subtitle}"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest32.title}"
 			x: 2.25d
 			y: 3.375d
 		}
 		{
 			dependencies: ["5CA86A333670A55C"]
 			description: [
-				"&aMagnetic Samarium&r (which you'll need for your &dLuV&r components) requires an &3IV Polarizer&r."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest33.description1}"
 				""
-				"Even so, we hope you weren't running all the polarization off a single &6HV&r Polarizer. Were you?"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest33.description2}"
 			]
 			id: "35D4F93EFB6EACB6"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Feeling attracted yet?"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest33.subtitle}"
 			tasks: [{
 				id: "1CAACC2FAABE68A1"
 				item: "gtceu:iv_polarizer"
 				type: "item"
 			}]
-			title: "IV Magnetism"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest33.title}"
 			x: 0.375d
 			y: 3.75d
 		}
 		{
 			dependencies: ["77B7B1EDD19831E0"]
-			description: ["The &aQuantum Bridge Card&r is an upgrade to the &9Quantum Link Tunnel&r, which gives &9Wireless Terminals&r access to your AE system with unlimited range, and from any dimension."]
+			description: ["{ftbquests.chapter.luv__ludicrous_voltage.quest34.description1}"]
 			icon: "ae2wtlib:quantum_bridge_card"
 			id: "602DA4B4820E9088"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Bridge over Troubled Water"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest34.subtitle}"
 			tasks: [{
 				id: "280DF4E4A7E5FC2A"
 				item: "ae2wtlib:quantum_bridge_card"
 				type: "item"
 			}]
-			title: "Infinite Wireless Range"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest34.title}"
 			x: 3.63d
 			y: 5.28d
 		}
 		{
 			dependencies: ["0D7C978F9CDF771B"]
 			description: [
-				"The Advanced Quantum Chestplate combines protection, a personal battery and an &6ultimate Jetpack&r into a single powerful piece of gear."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest35.description1}"
 				""
-				"Note that this stores &oa lot&r of energy. You may want to invest in an &3LuV Turbo Charger&r."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest35.description2}"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o This armor piece is inspired by the IndustrialCraft  Addon Gravisuite, which added the Gravitation Suit, analogous to this chestplate."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest35.description3}"
 			]
 			icon: {
 				Count: 1
@@ -986,7 +986,7 @@
 			id: "0A884622985A7417"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "I'll be seeing you in the skies!"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest35.subtitle}"
 			tasks: [{
 				id: "23AF5E66858C1950"
 				item: {
@@ -998,22 +998,22 @@
 				}
 				type: "item"
 			}]
-			title: "Best Flight!"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest35.title}"
 			x: 6.758503401360549d
 			y: 5.621173469387756d
 		}
 		{
 			dependencies: ["4F6E351C5F676618"]
 			description: [
-				"New in the &a1.4 update&r, Dual Hatches will greatly help with automation with Multiblocks."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest36.description1}"
 				""
-				"They can contain both &6Fluids and Items simultaneously&r, meaning you can simply connect a &bPattern Provider&r and be off to the races. No more faffing around with P2P or Buffers!"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest36.description2}"
 			]
 			icon: "gtceu:luv_dual_input_hatch"
 			id: "0960C894446A786C"
 			shape: "circle"
 			size: 0.66d
-			subtitle: "Compact and Useful"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest36.subtitle}"
 			tasks: [{
 				id: "0089B7D781622D68"
 				item: {
@@ -1052,39 +1052,39 @@
 						]
 					}
 				}
-				title: "Dual I/O Hatch"
+				title: "{ftbquests.chapter.luv__ludicrous_voltage.quest36.task_38764208025906536.title}"
 				type: "item"
 			}]
-			title: "Two Hatches for the Price of One"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest36.title}"
 			x: 2.2414965986394577d
 			y: 5.631377551020407d
 		}
 		{
 			dependencies: ["77B7B1EDD19831E0"]
 			description: [
-				"Let's go over some uses!"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest37.description1}"
 				""
-				"&2Blank Pattern Storage:&r"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest37.description2}"
 				""
-				"Right-clicking with the tool in your hand will open a GUI where you can insert &9Blank Patterns&r. There's a considerable amount of storage space for transport of Patterns!"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest37.description3}"
 				"{@pagebreak}"
-				"&2Bulk Pattern Modification:&r"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest37.description4}"
 				""
-				"Inserting &9Encoded Patterns&r instead of blank ones will allow you to multiply/divide them all at once in bulk. This is particularly useful when multiplying up your Patterns for parallel on-demand machinery."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest37.description5}"
 				""
-				"Patterns can also be cleared in bulk with the \"Clear\" button. There isn't any confirmation after clicking it, so use with caution."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest37.description6}"
 				"{@pagebreak}"
-				"&2Item Search and Replace:&r"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest37.description7}"
 				""
-				"Right-clicking the tool and clicking the &aChange Mode button&r will bring up a new GUI. This GUI will allow you to replace all occurances of one item with another for the &9Encoded Patterns&r stored within the tool."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest37.description8}"
 				""
-				"This is particularly useful for &eupgrading GT circuits&r, such as transitioning from Nano to Quantum &5EV&r circuits."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest37.description9}"
 				"{@pagebreak}"
-				"&2Easy Pattern Transfer:&r"
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest37.description10}"
 				""
-				"Shift-left-clicking Patterns will move them between the Player Inventory and the Modifier where possible. This means you can easily move Patterns around between Interfaces and Terminals without clogging your inventory."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest37.description11}"
 				"{@pagebreak}"
-				"&bLore&r: Neeve, the author of the NAE2 mod suggested tiering this item at &eUXV&r tier, because it \"gives the player way too much power.\" For reference, &eUXV&r is 4 tiers past &3UV&r tier - two tiers before &c&lMAX&r voltage."
+				"{ftbquests.chapter.luv__ludicrous_voltage.quest37.description12}"
 			]
 			icon: "expatternprovider:pattern_modifier"
 			id: "5CE0B928479D8535"
@@ -1096,17 +1096,17 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "The &aPattern Modifier&r does A LOT!"
+			subtitle: "{ftbquests.chapter.luv__ludicrous_voltage.quest37.subtitle}"
 			tasks: [{
 				id: "77D0C17BBE681C85"
 				item: "expatternprovider:pattern_modifier"
 				type: "item"
 			}]
-			title: "Pattern Modifier"
+			title: "{ftbquests.chapter.luv__ludicrous_voltage.quest37.title}"
 			x: 4.95d
 			y: 5.94d
 		}
 	]
-	subtitle: ["Investigate the scientific and fuse elements"]
-	title: "&dLuV&r - Ludicrous Voltage"
+	subtitle: ["{ftbquests.chapter.luv__ludicrous_voltage.subtitle0}"]
+	title: "{ftbquests.chapter.luv__ludicrous_voltage.title}"
 }

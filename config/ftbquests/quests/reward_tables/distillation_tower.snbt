@@ -6,5 +6,5 @@
 		{ count: 4, item: "gtceu:lv_super_tank" }
 		{ count: 16, item: "gtceu:clean_machine_casing" }
 	]
-	title: "distillation_tower"
+	title: "{ftbquests.loot_table_4190763620137969664.title}"
 }
