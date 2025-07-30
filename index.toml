@@ -114,7 +114,7 @@ hash = "cc7b7524a1409711280d59e9af31b93d161cb654981abb0b2ea945111734fd3d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev__extreme_voltage.snbt"
-hash = "318a4d1f0e9ff4a7252832bd3a0bfc90b934fc2dc5fe7d299c58a23db7366eef"
+hash = "07fe5025de4ecd299a214260c8d6df1a9dd8094a7bf7a7362e59f4027270d3b0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gtceu.snbt"
@@ -130,7 +130,7 @@ hash = "3e4ed0a11278da6cd1a4056b45370df93ed53c5525500a7b26743948bae3e5c7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv__insane_voltage.snbt"
-hash = "8cfcdcf67a68a65a49f296750a34b09f8284b326d1e22358f5fdbc7b11b19fe0"
+hash = "dd54590b939ae9dc5d053f794eac6d727d84b70bac05f90a3c8c4f2d2b7bae7a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/luv__ludicrous_voltage.snbt"
@@ -170,7 +170,7 @@ hash = "7dfdebf57e389951e58ece3928f1e3826e1ded6e3e51da86edbd865d96994e26"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks_2.snbt"
-hash = "85edee26c7a35abfc2f276f6dc90b3eb4844af6c52595e3cc3be2af463397290"
+hash = "171dd9f3683bd2a82752e7cba96c8a4e44f5370e7ba1a819838eb5be7a652e0a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uv__ultimate_voltage.snbt"
