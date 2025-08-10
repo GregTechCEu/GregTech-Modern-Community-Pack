@@ -1098,6 +1098,11 @@ hash = "f13b1a634b1e821070711549e50159733b747bb208801ec8411816e1b77a534a"
 metafile = true
 
 [[files]]
+file = "mods/sophisticated-storage.pw.toml"
+hash = "7b1c81500ccf88c5ce5b2db756da39d412402f372a593cf0d56aec551fad3101"
+metafile = true
+
+[[files]]
 file = "mods/storage-drawers.pw.toml"
 hash = "b5280a819e67fcc922f041ec277823ff8574565472c8afd9a36afbe716f9542c"
 metafile = true
