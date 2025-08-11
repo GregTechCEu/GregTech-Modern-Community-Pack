@@ -1049,7 +1049,7 @@ metafile = true
 
 [[files]]
 file = "mods/openblocks-elevator.pw.toml"
-hash = "9d66478fde6c978312f93734d481bcb9ae9c49b74cb4538fce58c65ef15d593c"
+hash = "51bf17db22eee5fb80da0b2efe87b846f1165bafc67a789782c5fd976c406ffa"
 metafile = true
 
 [[files]]
