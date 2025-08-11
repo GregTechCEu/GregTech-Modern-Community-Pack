@@ -15,6 +15,7 @@ ServerEvents.recipes((event) => {
       "2x minecraft:string"
     )
     .itemOutputs("sophisticatedbackpacks:upgrade_base")
+    .circuit(1)
     .duration(100)
     .EUt(16);
 

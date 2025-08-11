@@ -666,7 +666,11 @@ hash = "a5e64fde318c02eba3e0958b578caf02a3d9055f6436e105d5be73843c1e329d"
 
 [[files]]
 file = "kubejs/server_scripts/sophisticated_backpacks/upgrades.js"
-hash = "a5f8f6e63d636dad1485f889a887c89ea690c245e804ba1b50ad0018d9847150"
+hash = "734c40999e30b13dfaa310cc9daac3a613f6cc3f72e597e0d7eb34fa6d84a5aa"
+
+[[files]]
+file = "kubejs/server_scripts/sophisticated_storage/sophisticated_storage.js"
+hash = "672e494164c1ced071ee90b4c4179f887ce20d55171ee753e4b6ed8de462c979"
 
 [[files]]
 file = "kubejs/server_scripts/storage_drawers/drawers.js"
