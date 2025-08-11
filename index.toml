@@ -222,7 +222,7 @@ hash = "9abe2c7f784810cac3ca71c74d02aacd5fe6861d744cb143d077a525a2b42e76"
 
 [[files]]
 file = "config/gtceu.yaml"
-hash = "646d17fc54fb5506302f1669e80055eda4207650c0c7ac418cba6c298949bc15"
+hash = "51af2e256f83d90bbbd35cf4567b8b3cda560cb60847e844e422f2975fc9aa29"
 
 [[files]]
 file = "config/hangglider-client.toml"
