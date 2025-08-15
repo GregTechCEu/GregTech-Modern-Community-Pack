@@ -103,7 +103,7 @@
 			}]
 			title: "Biomass"
 			x: 0.0d
-			y: -1.875d
+			y: -2.64d
 		}
 		{
 			dependencies: ["74180AC57AE9F0FE"]
@@ -142,7 +142,7 @@
 				}
 			]
 			title: "Local Brewery selling Booze"
-			x: 1.125d
+			x: -1.125d
 			y: -1.875d
 		}
 		{
@@ -197,7 +197,7 @@
 			}]
 			title: "Ethanol"
 			x: 0.0d
-			y: -3.0d
+			y: -3.63d
 		}
 		{
 			dependencies: ["6A304E453D74C57C"]
@@ -265,7 +265,7 @@
 		{
 			dependencies: [
 				"0DBC148D92A9F69F"
-				"7567E885B7166603"
+				"1BE0349B8F3890D3"
 				"6E186F9C57155BFA"
 			]
 			description: [
@@ -310,8 +310,8 @@
 				type: "item"
 			}]
 			title: "Electricity Generation in MV"
-			x: 2.25d
-			y: -1.875d
+			x: 0.0d
+			y: 2.44d
 		}
 		{
 			dependencies: ["2AD44111B9B39C90"]
@@ -376,8 +376,8 @@
 				type: "item"
 			}]
 			title: "Transformers"
-			x: 0.0d
-			y: -0.75d
+			x: 1.125d
+			y: 2.44d
 		}
 		{
 			dependencies: [
@@ -839,8 +839,8 @@
 				type: "item"
 			}]
 			title: "Greenhouse"
-			x: 0.0d
-			y: -1.875d
+			x: -1.125d
+			y: 0.375d
 		}
 		{
 			dependencies: [
@@ -1579,8 +1579,8 @@
 				type: "checkmark"
 			}]
 			title: "It will Melt Your Flesh"
-			x: 2.25d
-			y: -4.125d
+			x: 3.375d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -2310,8 +2310,8 @@
 				type: "item"
 			}]
 			title: "I Believe I Can Fly"
-			x: -5.625d
-			y: -0.75d
+			x: -3.37d
+			y: -3.56d
 		}
 		{
 			dependencies: ["75F38905DEA60F15"]

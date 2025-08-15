@@ -1,6 +1,7 @@
 ServerEvents.recipes((event) => {
   const greg = event.recipes.gtceu;
   event.remove({ mod: "storagedrawers" });
+  event.remove({ mod: "gtstoragedrawers" });
   const woodTypes = [
     "oak",
     "spruce",
@@ -10,123 +11,139 @@ ServerEvents.recipes((event) => {
     "dark_oak",
     "warped",
     "crimson",
+    "bamboo",
+    "cherry",
+    ["gtstoragedrawers", "gtceu_rubber", "gtceu:rubber"],
+    ["gtstoragedrawers", "gtceu_treated", "gtceu:treated_wood"]
   ];
-  woodTypes.forEach((woodType) => {
+  woodTypes.forEach((input) => {
+    let woodType = "";
+    let modName = "storagedrawers";
+    let baseWoodType = "";
+    if (typeof(input) === "object") {
+      woodType = input[1];
+      modName = input[0];
+      baseWoodType = input[2];
+    } else {
+      woodType = input;
+      baseWoodType = `minecraft:${woodType}`
+    }
+
     // Type 1
     event.shaped(
-      `storagedrawers:${woodType}_full_drawers_1`,
+      `${modName}:${woodType}_full_drawers_1`,
       ["PPP", "sCr", "PPP"],
       {
-        P: `${woodType}_planks`,
+        P: `${baseWoodType}_planks`,
         s: "#forge:tools/saws",
         C: "#forge:chests/wooden",
         r: "#forge:tools/mallets",
       }
     ).noMirror();
     greg
-      .assembler(`storagedrawers:${woodType}_full_drawers_1`)
-      .itemInputs(`6x minecraft:${woodType}_planks`, "#forge:chests/wooden")
-      .itemOutputs(`storagedrawers:${woodType}_full_drawers_1`)
+      .assembler(`${modName}:${woodType}_full_drawers_1`)
+      .itemInputs(`6x ${baseWoodType}_planks`, "#forge:chests/wooden")
+      .itemOutputs(`${modName}:${woodType}_full_drawers_1`)
       .circuit(9)
       .duration(100)
       .EUt(16);
     // Type 2
     event.shaped(
-      `storagedrawers:${woodType}_full_drawers_2`,
+      `${modName}:${woodType}_full_drawers_2`,
       ["PPP", "rCs", "PPP"],
       {
-        P: `${woodType}_planks`,
+        P: `${baseWoodType}_planks`,
         s: "#forge:tools/saws",
         C: "#forge:chests/wooden",
         r: "#forge:tools/mallets",
       }
     ).noMirror();
     greg
-      .assembler(`storagedrawers:${woodType}_full_drawers_2`)
-      .itemInputs(`6x minecraft:${woodType}_planks`, "#forge:chests/wooden")
-      .itemOutputs(`storagedrawers:${woodType}_full_drawers_2`)
+      .assembler(`${modName}:${woodType}_full_drawers_2`)
+      .itemInputs(`6x ${baseWoodType}_planks`, "#forge:chests/wooden")
+      .itemOutputs(`${modName}:${woodType}_full_drawers_2`)
       .circuit(10)
       .duration(100)
       .EUt(16);
     // Type 4
     event.shaped(
-      `storagedrawers:${woodType}_full_drawers_4`,
+      `${modName}:${woodType}_full_drawers_4`,
       ["PsP", "PCP", "PrP"],
       {
-        P: `${woodType}_planks`,
+        P: `${baseWoodType}_planks`,
         s: "#forge:tools/saws",
         C: "#forge:chests/wooden",
         r: "#forge:tools/mallets",
       }
     );
     greg
-      .assembler(`storagedrawers:${woodType}_full_drawers_4`)
-      .itemInputs(`6x minecraft:${woodType}_planks`, "#forge:chests/wooden")
-      .itemOutputs(`storagedrawers:${woodType}_full_drawers_4`)
+      .assembler(`${modName}:${woodType}_full_drawers_4`)
+      .itemInputs(`6x ${baseWoodType}_planks`, "#forge:chests/wooden")
+      .itemOutputs(`${modName}:${woodType}_full_drawers_4`)
       .circuit(11)
       .duration(100)
       .EUt(16);
 
     // Half 1
     event.shaped(
-      `storagedrawers:${woodType}_half_drawers_1`,
+      `${modName}:${woodType}_half_drawers_1`,
       ["PPP", "sCr", "PPP"],
       {
-        P: `${woodType}_slab`,
+        P: `${baseWoodType}_slab`,
         s: "#forge:tools/saws",
         C: "#forge:chests/wooden",
         r: "#forge:tools/mallets",
       }
     ).noMirror();
     greg
-      .assembler(`storagedrawers:${woodType}_half_drawers_1`)
-      .itemInputs(`6x minecraft:${woodType}_slab`, "#forge:chests/wooden")
-      .itemOutputs(`storagedrawers:${woodType}_half_drawers_1`)
+      .assembler(`${modName}:${woodType}_half_drawers_1`)
+      .itemInputs(`6x ${baseWoodType}_slab`, "#forge:chests/wooden")
+      .itemOutputs(`${modName}:${woodType}_half_drawers_1`)
       .circuit(9)
       .duration(100)
       .EUt(16);
     // Half 2
     event.shaped(
-      `storagedrawers:${woodType}_half_drawers_2`,
+      `${modName}:${woodType}_half_drawers_2`,
       ["PPP", "rCs", "PPP"],
       {
-        P: `${woodType}_slab`,
+        P: `${baseWoodType}_slab`,
         s: "#forge:tools/saws",
         C: "#forge:chests/wooden",
         r: "#forge:tools/mallets",
       }
     ).noMirror();
     greg
-      .assembler(`storagedrawers:${woodType}_half_drawers_2`)
-      .itemInputs(`6x minecraft:${woodType}_slab`, "#forge:chests/wooden")
-      .itemOutputs(`storagedrawers:${woodType}_half_drawers_2`)
+      .assembler(`${modName}:${woodType}_half_drawers_2`)
+      .itemInputs(`6x ${baseWoodType}_slab`, "#forge:chests/wooden")
+      .itemOutputs(`${modName}:${woodType}_half_drawers_2`)
       .circuit(10)
       .duration(100)
       .EUt(16);
     // Half 4
     event.shaped(
-      `storagedrawers:${woodType}_half_drawers_4`,
+      `${modName}:${woodType}_half_drawers_4`,
       ["PsP", "PCP", "PrP"],
       {
-        P: `${woodType}_slab`,
+        P: `${baseWoodType}_slab`,
         s: "#forge:tools/saws",
         C: "#forge:chests/wooden",
         r: "#forge:tools/mallets",
       }
     );
     greg
-      .assembler(`storagedrawers:${woodType}_half_drawers_4`)
-      .itemInputs(`6x minecraft:${woodType}_slab`, "#forge:chests/wooden")
-      .itemOutputs(`storagedrawers:${woodType}_half_drawers_4`)
+      .assembler(`${modName}:${woodType}_half_drawers_4`)
+      .itemInputs(`6x ${baseWoodType}_slab`, "#forge:chests/wooden")
+      .itemOutputs(`${modName}:${woodType}_half_drawers_4`)
       .circuit(11)
       .duration(100)
       .EUt(16);
     // Trim
     event.shaped(
-      `storagedrawers:${woodType}_trim`,
+      `${modName}:${woodType}_trim`,
       ["PPP", "PsP", "PPP"],
       {
-        P: `${woodType}_slab`,
+        P: `${baseWoodType}_slab`,
         s: "#forge:tools/saws"
       }
     )
