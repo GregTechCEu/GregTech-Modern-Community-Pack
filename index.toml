@@ -69,6 +69,10 @@ file = "config/emi.css"
 hash = "dba3e615aa3ff50e5f774b215586ce67de03fc4264cc7ad1e59fc5e7359a4357"
 
 [[files]]
+file = "config/enigmaticgraves-common.toml"
+hash = "7dc50adcc0c0772ae2059c99ce4049f243bbbe26bc374c91ac27f6f928772add"
+
+[[files]]
 file = "config/expatternprovider-common.toml"
 hash = "14ef0bbe6e5eeb3be38eb0cc02dcf7390343df816df23d01e032311298911464"
 
@@ -431,6 +435,14 @@ hash = "16064257078b72734d0d52c8c85333f06d9f017bbaf6646c366f3803a510962d"
 [[files]]
 file = "kubejs/assets/emi/category/properties/categories.json"
 hash = "1fec36a6d21f1141d244bb229e94879a34c648b49deb0d6458cb77f64078dc2b"
+
+[[files]]
+file = "kubejs/assets/enigmaticgraves/textures/grave.png"
+hash = "e43299af2db5392e277be11f077f9df7029a6cd14055c87e3a599a94fe92e748"
+
+[[files]]
+file = "kubejs/assets/enigmaticgraves/textures/item/grave_finder.png"
+hash = "adf9dfd51a3960daa2966c1c83e6880d83cd138b84fabcb6c3a59e9fce4572c0"
 
 [[files]]
 file = "kubejs/assets/expatternprovider/lang/en_us.json"
@@ -855,6 +867,11 @@ metafile = true
 [[files]]
 file = "mods/ender-storage-1-8.pw.toml"
 hash = "638f7c447dbe7dc2e85e4bf89d70fb41632db940a57de498094f2be57fa6c18d"
+metafile = true
+
+[[files]]
+file = "mods/enigmatic-graves-fork.pw.toml"
+hash = "4a362c02618c1661f08f0aedad55ae43cfbb9fb00862a347c27007031899a1a1"
 metafile = true
 
 [[files]]

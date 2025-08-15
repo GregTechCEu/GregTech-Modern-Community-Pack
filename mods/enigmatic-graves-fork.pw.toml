@@ -1,0 +1,13 @@
+name = "Enigmatic Graves Fork"
+filename = "enigmaticgraves-1.20.1-1.8.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6b673125e3da20eda16c66991d2c0d2e4a824d09"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5528485
+project-id = 1048696
