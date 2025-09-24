@@ -1091,10 +1091,10 @@
 				Count: 1
 				id: "gtceu:polybenzimidazole_mallet"
 				tag: {
+					Damage: 0
 					DisallowContainerItem: 0b
 					GT.Behaviours: { }
 					GT.Tool: {
-						Damage: 0
 						MaxDamage: 1023
 					}
 					HideFlags: 2
@@ -1110,10 +1110,10 @@
 					Count: 1
 					id: "gtceu:polybenzimidazole_mallet"
 					tag: {
+						Damage: 0
 						DisallowContainerItem: 0b
 						GT.Behaviours: { }
 						GT.Tool: {
-							Damage: 0
 							MaxDamage: 1023
 						}
 						HideFlags: 2

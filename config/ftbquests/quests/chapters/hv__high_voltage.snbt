@@ -461,6 +461,8 @@
 				"Visiting &dThe End&r allows you to access a richer Bauxite vein, as well as &9Ilmenite&r - an even better source of Rutile."
 				""
 				"&9Tip:&r Ore processing for &aBauxite&r is ridiculously good! Including the &3Thermal Centrifuge&r step easily &6triples&r your &aRutile&r yield."
+				""
+				"&9Bonus Tip:&r There is also an alternate route you can process &aPurified Bauxite&r in a &3Mixer&r and process into a greater return of &aRutile&r, however this is much harder to initally batch so it is more ideal to use when you set up a dedicated Titanium processing line."
 			]
 			icon: "gtceu:rutile_dust"
 			id: "59DFC4DA7D29C315"

@@ -299,9 +299,7 @@
 						id: "gtceu:red_steel_pickaxe"
 						tag: {
 							Damage: 0
-							GT.Tool: {
-								Damage: 0
-							}
+							GT.Tool: { }
 						}
 					}
 					type: "item"
@@ -496,7 +494,7 @@
 				"{@pagebreak}"
 				"The &cOutput Hatch&r is where water will be generated. You can make it face up or down to auto-output water into your pipes, which can go &ethrough&r the Treated Wood Frames - just place the pipe before you encase it in the frames. "
 				""
-				"When you reach &7LV&r or &bMV&r, you can use an Output Hatch from either tier to further boost the Pump's output."
+				"Later you can use a &8ULV&r or &7LV&r Output Hatch to further boost the Pump's output."
 				""
 				"&2Reminder:&r Use a Wrench to rotate GregTech blocks (sneak right-click)."
 				""
@@ -1141,6 +1139,7 @@
 					Count: 1
 					id: "gtceu:invar_mining_hammer"
 					tag: {
+						Damage: 0
 						DisallowContainerItem: 0b
 						Enchantments: [{
 							id: "minecraft:efficiency"
@@ -1155,7 +1154,6 @@
 							MaxAoERow: 1
 						}
 						GT.Tool: {
-							Damage: 0
 							HarvestLevel: 2
 							MaxDamage: 1151
 							ToolSpeed: 5.6f
@@ -1619,9 +1617,11 @@
 				""
 				"The &3Wooden Multiblock Tank&r&r holds &a250,000 mB&r, but you won't be able to use it to store &chot Fluids&r such as Lava, or &cGases&r such as Steam or Oxygen."
 				""
-				"The &3Steel Multiblock Tank&r holds &a1,000,000 mB&r, and lifts the aforementioned fluid restrictions."
+				"The &3Bronze Multiblock Tank&r holds &a500,000 mB&r, lifiting the maximum fluid tempreture and can now store &cGases&r. "
 				""
-				"Get &eany&r of the Tanks to complete this quest. The Steel version is &dway too expensive&r right now - so you should probably make the Wooden one instead."
+				"The &3Steel Multiblock Tank&r holds &a1,000,000 mB&r, and lifts all the aforementioned fluid restrictions."
+				""
+				"Get &eany&r of the Tanks to complete this quest. The Steel version is &dway too expensive&r right now - so you should probably make the Wooden  or Bronze one instead."
 				"{@pagebreak}"
 				"Fluid transfer can either be facilitated through the Controller block, or through up to &atwo Valves&r."
 				""
@@ -1665,6 +1665,10 @@
 								}
 								{
 									Count: 1b
+									id: "gtceu:bronze_multiblock_tank"
+								}
+								{
+									Count: 1
 									id: "gtceu:steel_multiblock_tank"
 								}
 							]
@@ -1683,6 +1687,10 @@
 								{
 									Count: 1b
 									id: "gtceu:wooden_tank_valve"
+								}
+								{
+									Count: 1b
+									id: "gtceu:bronze_tank_valve"
 								}
 								{
 									Count: 1b
@@ -1705,6 +1713,10 @@
 								{
 									Count: 1b
 									id: "gtceu:solid_machine_casing"
+								}
+								{
+									Count: 1b
+									id: "gtceu:steam_machine_casing"
 								}
 								{
 									Count: 1b
