@@ -10,6 +10,7 @@ ServerEvents.recipes((event) => {
       "gtceu:soc",
       "#gtceu:circuits/hv"
     )
+    .circuit(1)
     .itemOutputs("expatternprovider:ex_pattern_provider")
     .duration(200)
     .EUt(50);
@@ -22,11 +23,12 @@ ServerEvents.recipes((event) => {
       "gtceu:soc",
       "#gtceu:circuits/hv"
     )
+    .circuit(1)
     .itemOutputs("expatternprovider:ex_interface")
     .duration(200)
     .EUt(50);
 
-  // extended thermal upgrade shit
+  // extended upgrades (like thermal)
   event.remove({ id: "expatternprovider:epp_upgrade" });
   greg
     .assembler("extended_pattern_provider_upgrade")
@@ -35,6 +37,7 @@ ServerEvents.recipes((event) => {
       "gtceu:soc",
       "#gtceu:circuits/hv"
     )
+    .circuit(2)
     .itemOutputs("expatternprovider:pattern_provider_upgrade")
     .duration(180)
     .EUt(50);
@@ -42,6 +45,7 @@ ServerEvents.recipes((event) => {
   greg
     .assembler("extended_interface_upgrade")
     .itemInputs("4x ae2:logic_processor", "gtceu:soc", "#gtceu:circuits/hv")
+    .circuit(2)
     .itemOutputs("expatternprovider:interface_upgrade")
     .duration(180)
     .EUt(50);
