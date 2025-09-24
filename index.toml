@@ -122,7 +122,7 @@ hash = "07fe5025de4ecd299a214260c8d6df1a9dd8094a7bf7a7362e59f4027270d3b0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gtceu.snbt"
-hash = "cecf5d83950dfd7d9943dfa54deac0545ced65b165b6819a405c02f13d40de80"
+hash = "8328695fce4ed23b94fa2e54e431e59ede189e4a9ed1f76b9e6eec24639b7e8b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/heating_coils.snbt"
@@ -130,11 +130,11 @@ hash = "3de3b8987fbd6652079f9a6f8ff7f0d140753eb94563b31554648a09990d89e1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv__high_voltage.snbt"
-hash = "3e4ed0a11278da6cd1a4056b45370df93ed53c5525500a7b26743948bae3e5c7"
+hash = "c7509bc06ae4bc0a5667610206be7cc8d2c9db244543adeba6b9a3f45c7f09eb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv__insane_voltage.snbt"
-hash = "dd54590b939ae9dc5d053f794eac6d727d84b70bac05f90a3c8c4f2d2b7bae7a"
+hash = "47e9a9124100e3e5d67af25dd1c2fa07a852a80f50d62d61588050960a2dd2fa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/luv__ludicrous_voltage.snbt"
@@ -142,7 +142,7 @@ hash = "b68e2e3c85c5f70f5f1938e31ec228684cc08e823bca4e4170fb92e9339b2670"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv__low_voltage.snbt"
-hash = "2b7d8c6d348728a194348d6ec35da2c8775ec23776688e6b90e72a36c2a48fb5"
+hash = "30fd5fb575e5a138f51de82459c5aa32708697d36a4690d4ed33f89ab6a4673f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblock_dilemma.snbt"
@@ -170,7 +170,7 @@ hash = "070e4c59640dc3014745eb4f2b83f918342a92c7dbec9a44c7e003500de90904"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/steam_age.snbt"
-hash = "7dfdebf57e389951e58ece3928f1e3826e1ded6e3e51da86edbd865d96994e26"
+hash = "15f51039f3f8e730257b352a4ec337fb292c3e2a0213a049f90d4d485e6f4434"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks_2.snbt"
@@ -178,7 +178,7 @@ hash = "171dd9f3683bd2a82752e7cba96c8a4e44f5370e7ba1a819838eb5be7a652e0a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uv__ultimate_voltage.snbt"
-hash = "9cc17a62f1d3504f9b0c2b923ef0130981a258900c52b743ac64b14c43e64162"
+hash = "29cbbea672860c7c190eecdcfe8d9b183017a1c68b517b84c02675c0f8380f30"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/zpm__zero_point_module.snbt"
@@ -394,7 +394,7 @@ hash = "1dcee38470c2939f7265891203775b7631c81822bf2506a451727fcaaf2cc4a2"
 
 [[files]]
 file = "config/xaerominimap.txt"
-hash = "59e679328251ff4aa7f0520a83e1d2d324e6119ce865fcb5146af03666fb9216"
+hash = "633cb4a20c7ac18b6cbab3010650c7b100f20f92b20469e223815fd5ca82310e"
 
 [[files]]
 file = "config/xaerominimap_entities.json"
@@ -410,7 +410,7 @@ hash = "103979a8e59e396f99fb8646c4f8a690c2d743ca3744a2eb8f663b3102b7498c"
 
 [[files]]
 file = "config/xaeroworldmap.txt"
-hash = "5f5bdca3065e80bb07e21c346365c5b05fb999a938d4bee8cd3f227184f73afb"
+hash = "0032589daad191eafe1a1da6476f1e3cd4c4f8381a306227e5247837cb466dc8"
 
 [[files]]
 file = "defaultconfigs/ftbchunks/client-config.snbt"
@@ -578,7 +578,7 @@ hash = "e68a97b24aa63aa8290b9891b02af7499ccd7f9a1dc2ef2cc3d183d660c48177"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/extendedae2.js"
-hash = "bee90f3cad28ab6d5c15a80b6ed1400a1969a0088b045c72ee2d923f794668f3"
+hash = "17e494a87f0b9d1b242a90f75fa3ae8903db2c76a87ab1a9152394ec3798f766"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/inscriber.js"
