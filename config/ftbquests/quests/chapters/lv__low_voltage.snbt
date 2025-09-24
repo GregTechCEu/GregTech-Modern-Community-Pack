@@ -2258,6 +2258,7 @@
 				id: "gtceu:lv_iron_drill"
 				tag: {
 					Charge: 2147483647L
+					Damage: 0
 					DisallowContainerItem: 0b
 					GT.Behaviours: {
 						AoEColumn: 1
@@ -2268,7 +2269,6 @@
 						MaxAoERow: 1
 					}
 					GT.Tool: {
-						Damage: 0
 						HarvestLevel: 2
 						MaxDamage: 767
 						ToolSpeed: 6.0f
@@ -2289,6 +2289,7 @@
 						id: "gtceu:lv_iron_drill"
 						tag: {
 							Charge: 2147483647L
+							Damage: 0
 							DisallowContainerItem: 0b
 							GT.Behaviours: {
 								AoEColumn: 1
@@ -2299,7 +2300,6 @@
 								MaxAoERow: 1
 							}
 							GT.Tool: {
-								Damage: 0
 								HarvestLevel: 2
 								MaxDamage: 767
 								ToolSpeed: 6.0f
@@ -2431,10 +2431,10 @@
 				Count: 1
 				id: "gtceu:polybenzimidazole_mallet"
 				tag: {
+					Damage: 0
 					DisallowContainerItem: 0b
 					GT.Behaviours: { }
 					GT.Tool: {
-						Damage: 0
 						MaxDamage: 1023
 					}
 					HideFlags: 2
