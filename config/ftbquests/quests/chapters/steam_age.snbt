@@ -1706,7 +1706,7 @@
 					count: 24L
 					id: "72D3346BD7D0A57D"
 					item: {
-						Count: 1
+						Count: 24
 						id: "itemfilters:or"
 						tag: {
 							items: [
