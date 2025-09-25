@@ -32,4 +32,8 @@ ItemEvents.tooltip((event) => {
   event.add("ae2:controller", Text.gray("Channels are §cdisabled§7."));
 
   event.add("expatternprovider:fishbig", Text.gray("Congratulations! You won Minecraft."));
+
+  event.add(["enderstorage:ender_chest", "enderstorage:ender_tank", "enderstorage:ender_pouch"], 
+    Text.red("WARNING: These are deprcated and will be removed in a future update.\nPlease convert them into the GT covers in a crafting table.")
+  );
 });
