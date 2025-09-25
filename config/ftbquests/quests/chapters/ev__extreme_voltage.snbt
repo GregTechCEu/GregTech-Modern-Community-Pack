@@ -1035,21 +1035,40 @@
 				"16B735F9C391D260"
 			]
 			description: [
-				"In lieu of GTCEu's &3Ender Fluid Links&r being fully implemented, &dEnder Storage&r makes its way into the pack."
+				"&aEnder Fluid Link Covers&r are &dGregTech&r's &r&3Ender Tanks&r. Each Cover sends fluids through a frequency defined by an &68-digit hexadecimal number&r (0-9, then A-F for each digit). That gives you &64.29 billion&r channels to work with! Ender fluid Link Covers work as long as their chunk is loaded - regardless of distance or dimension."
 				""
-				"Recipes have been adjusted to a &asimilar tier&r. You can change the \"frequency\" of &6each tank&r by using dye on the wool pads on top."
+				"Setting the mode to Import will &o&c&opull&r fluids from the world location it is attached to, while Export will &o&9&opush&r fluids to the world. Each channel has a buffer of &d64 buckets&r."
 				""
-				"You can also make similar &3Ender Chests&r to transport items - which is nice, because there's currently &cno way&r to wirelessly transport items in base &bGTCEu&r! Don't ever say we don't treat you!"
+				"You can also make similar &3Ender Item Link Covers&r to transport items, these have the same mechanics as the fluid ones. Craft any of them to complete this quest"
 				""
-				"Lastly, using a &eDiamond&r on an Ender Tank will lock the tank to your own &dprivate frequency&r, which is helpful if you're playing on a server."
+				"Lastly, clicking on the &eLock&r in the ui lock the cover to your own &dprivate channel&r, which is helpful if you're playing on a server."
+				"{@pagebreak}"
+				"You can assign a description to each channel in the cover, and list all of them. I recommend you set up a system to organise all those channels. I would also advise against using the default channel (FFFFFFFF) in all cases."
+				""
+				"&l&3Lore:&r&o Before these were added to GTm, we had &dEnder Storage&r&o in the pack. If you are still using them we &lhighly&r&o recommend changing them over to the &aGregTech covers&r&o, which can be done in a crafting table."
 			]
 			id: "23A7E6D95549B1F8"
 			shape: "rsquare"
 			size: 0.66d
 			subtitle: "Ender? I ha- Ok, this joke is old"
 			tasks: [{
-				id: "5AAF6386B4AA7C69"
-				item: "enderstorage:ender_tank"
+				id: "063E326F5BEA79A5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:ender_fluid_link_cover"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ender_item_link_cover"
+							}
+						]
+					}
+				}
 				type: "item"
 			}]
 			title: "Ender Fluid Linking"

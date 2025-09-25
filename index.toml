@@ -118,7 +118,7 @@ hash = "cc7b7524a1409711280d59e9af31b93d161cb654981abb0b2ea945111734fd3d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev__extreme_voltage.snbt"
-hash = "07fe5025de4ecd299a214260c8d6df1a9dd8094a7bf7a7362e59f4027270d3b0"
+hash = "b90780b61e40c18101b9af99a82468cfd3283d0b6bfbb703d7cb1aab141bb3fe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gtceu.snbt"
@@ -534,7 +534,7 @@ hash = "2951d1ff9ee74a378ddd65660f8dac889824c2dc29c40480c749260f8871e842"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "f6b3c13d27565e7e379d5db6872465c7a76451cf39baf9feb5649ea9258b9318"
+hash = "43a07653ef7b7c9f734f6a244e78ec91fd443b47577b354a8fa3e06f02579bba"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -634,7 +634,7 @@ hash = "8b7f2f0a99a9e45d6d4997a99e984f0a8502916fd26b11ec3fca87df398d4d19"
 
 [[files]]
 file = "kubejs/server_scripts/ender_storage.js"
-hash = "fff340eaab79c1b5054c16d7d0ef4fd2b6d977cceecb4e33f7f2a4a85f229b3e"
+hash = "0684e9dcf9c752c3c7218ec71fdd37f64897aa1236de18d02b8920b908781d5f"
 
 [[files]]
 file = "kubejs/server_scripts/gregtech/components.js"
