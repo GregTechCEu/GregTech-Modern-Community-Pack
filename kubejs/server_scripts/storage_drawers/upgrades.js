@@ -1,4 +1,15 @@
 ServerEvents.recipes((event) => {
+  event.remove({
+    not: [
+      { id: "storagedrawers:personal_key" },
+      { id: "storagedrawers:priority_key" },
+      { id: "storagedrawers:quantify_key" },
+      { id: "storagedrawers:shroud_key" }
+    ], 
+    mod: "storagedrawers" 
+  });
+
+  event.remove({ mod: "gtstoragedrawers" });
   // Upgrade Template
   event.shaped("storagedrawers:upgrade_template", ["SPS", "SWS", " d "], {
     S: "#forge:screws/iron",
@@ -58,7 +69,7 @@ ServerEvents.recipes((event) => {
       T: "storagedrawers:upgrade_template",
     }
   );
-  // Upgrade 5 2
+  // Upgrade 5 (alternate)
   event.shaped(
     "storagedrawers:emerald_storage_upgrade",
     ["S S", "PTP", "S S"],
@@ -88,5 +99,23 @@ ServerEvents.recipes((event) => {
     P: "#forge:plates/steel",
     G: "#forge:plates/gold",
     s: "#forge:tools/saws",
+  });
+
+  // Keyring
+  event.shaped("storagedrawers:keyring", ["HR"], {
+    H: "#forge:tools/hammers",
+    R: "#forge:rings/iron"
+  });
+
+  // Drawer Puller
+  event.shaped("storagedrawers:drawer_puller", ["RH"], {
+    H: "#forge:tools/hammers",
+    R: "#forge:rods/long/iron"
+  });
+
+  // Framing Table
+  event.shaped("storagedrawers:framing_table", ["FFF", "FSF"], {
+    F: "#storagedrawers:trim",
+    S: "#forge:tools/saws"
   });
 });
