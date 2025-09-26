@@ -3,6 +3,10 @@ JEIEvents.hideItems(event => {
   // Hide AE2 facades
   event.hide('ae2:facade')
 
+  // Hide the useless storage drawers stuff
+  event.hide('storagedrawers:personal_key_cofh')
+  event.hide('storagedrawers:portability_upgrade')
+
   // Hide all irrelevant stonetype ores
   event.hide('#forge:ores_in_ground/sand')
   event.hide('#forge:ores_in_ground/red_sand')
