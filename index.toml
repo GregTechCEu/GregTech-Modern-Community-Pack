@@ -530,11 +530,11 @@ hash = "00d52fe8c1f206d103984a8f632f712748a7bef18648e02e9be2739a440dfd3f"
 
 [[files]]
 file = "kubejs/client_scripts/jei/hidden_items.js"
-hash = "5f56641a17263bb25e9fb9b758a3849a6ce8fd80cc73f86c9c8bed5154d46091"
+hash = "da1d071fe0d02f05ec5a94726a6b5f5014aff441acea105e28939f2ffb227014"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "e5e54e345cf9a47fa91050c61d9c0556d6173004115064155c6b7bec95c4a78d"
+hash = "4cd0855fa47e70ad05638740a8cccfd560221277e6bfd98950b2d48689aa45c6"
 
 [[files]]
 file = "kubejs/config/client.properties"

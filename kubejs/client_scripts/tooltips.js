@@ -12,7 +12,6 @@ ItemEvents.tooltip((event) => {
       "storagedrawers:compacting_half_drawers_2",
       "storagedrawers:compacting_half_drawers_3",
       "storagedrawers:fill_level_upgrade",
-      "storagedrawers:conversion_upgrade",
 
       "expatternprovider:caner",
       "ae2:inscriber",
