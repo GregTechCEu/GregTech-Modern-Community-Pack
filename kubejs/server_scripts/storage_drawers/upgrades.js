@@ -2,8 +2,10 @@ ServerEvents.recipes((event) => {
   event.remove({
     not: [
       { id: "storagedrawers:personal_key" },
+      { id: "storagedrawers:personal_key_cycle" },
       { id: "storagedrawers:priority_key" },
       { id: "storagedrawers:quantify_key" },
+      { id: "storagedrawers:suspend_key" },
       { id: "storagedrawers:shroud_key" },
       { id: "storagedrawers:keybutton_conscealment" },
       { id: "storagedrawers:keybutton_drawer" },
@@ -31,57 +33,31 @@ ServerEvents.recipes((event) => {
     .duration(60)
     .EUt(24);
 
-  // Upgrade 1
+  // Storage Upgrade lvl 1
   event.shaped("storagedrawers:obsidian_storage_upgrade", ["PTP"], {
     P: "#forge:plates/obsidian",
     T: "storagedrawers:upgrade_template",
   });
 
-  // Upgrade 2
-  event.shaped("storagedrawers:iron_storage_upgrade", ["S S", "PTP", "S S"], {
-    S: "#forge:rods/iron",
-    P: "#forge:plates/iron",
-    T: "storagedrawers:upgrade_template",
+  // Storage Upgrades lvl 2+
+  // rod material, plate material, upgrade name
+  const upgrades = [
+    {rod_mat: "bronze", plate_mat: "copper", upgrade: "copper"},
+    {rod_mat: "steel", plate_mat: "wrought_iron", upgrade: "iron"},
+    {rod_mat: "gold", plate_mat: "rose_gold", upgrade: "gold"},
+    {rod_mat: "aluminium", plate_mat: "emerald", upgrade: "emerald"},
+    {rod_mat: "aluminium", plate_mat: "olivine", upgrade: "emerald"},
+    {rod_mat: "stainless_steel", plate_mat: "diamond", upgrade: "diamond"},
+    {rod_mat: "titanium", plate_mat: "black_steel", upgrade: "netherite"},
+  ];
+
+  upgrades.forEach((e) => {
+    event.shaped(`storagedrawers:${e.upgrade}_storage_upgrade`, ["S S", "PTP", "S S"], {
+      S: `#forge:rods/${e.rod_mat}`,
+      P: `#forge:plates/${e.plate_mat}`,
+      T: "storagedrawers:upgrade_template",
+    });
   });
-
-  // Upgrade 3
-  event.shaped("storagedrawers:gold_storage_upgrade", ["S S", "PTP", "S S"], {
-    S: "#forge:rods/gold",
-    P: "#forge:plates/rose_gold",
-    T: "storagedrawers:upgrade_template",
-  });
-
-  // Upgrade 4
-  event.shaped(
-    "storagedrawers:diamond_storage_upgrade",
-    ["S S", "PTP", "S S"],
-    {
-      S: "#forge:rods/stainless_steel",
-      P: "#forge:plates/diamond",
-      T: "storagedrawers:upgrade_template",
-    }
-  );
-
-  // Upgrade 5
-  event.shaped(
-    "storagedrawers:emerald_storage_upgrade",
-    ["S S", "PTP", "S S"],
-    {
-      S: "#forge:rods/titanium",
-      P: "#forge:plates/emerald",
-      T: "storagedrawers:upgrade_template",
-    }
-  );
-  // Upgrade 5 (alternate)
-  event.shaped(
-    "storagedrawers:emerald_storage_upgrade",
-    ["S S", "PTP", "S S"],
-    {
-      S: "#forge:rods/titanium",
-      P: "#forge:plates/olivine",
-      T: "storagedrawers:upgrade_template",
-    }
-  );
 
   // Storage Downgrade
   event.shaped("storagedrawers:one_stack_upgrade", ["PTP"], {
@@ -94,6 +70,40 @@ ServerEvents.recipes((event) => {
     P: "#forge:plates/obsidian",
     T: "storagedrawers:upgrade_template",
   });
+
+  // Illumination Upgrade
+  event.shaped("storagedrawers:illumination_upgrade", ["GTG"], {
+    G: "minecraft:glowstone",
+    T: "storagedrawers:upgrade_template"
+  });
+
+  // Balance Upgrade
+  event.shaped("storagedrawers:balance_fill_upgrade", ["P P", "CTC"], {
+    P: "gtceu:tin_small_item_pipe",
+    C: "gtceu:lv_conveyor_module",
+    T: "storagedrawers:upgrade_template"
+  });
+  
+  // Hopper Upgrade
+  event.shaped("storagedrawers:hopper_upgrade", ["P", "C", "T"], {
+    P: "gtceu:tin_large_item_pipe",
+    C: "gtceu:lv_conveyor_module",
+    T: "storagedrawers:upgrade_template",
+  });
+
+  // Magnet Upgrades
+  for (let i = 1; i <= 3; i++) {
+    let sd_tier = "";
+    if (i > 1) {
+      sd_tier = `_${i}`;
+    }
+    let gt_tier = GTValues.VN[i].toLowerCase();
+    event.shaped(`storagedrawers:magnet_upgrade${sd_tier}`, ["RCR", "RTR"], {
+      R: "#forge:rods/steel",
+      C: `gtceu:${gt_tier}_item_collector`,
+      T: "storagedrawers:upgrade_template",
+    });
+  }
 
   // Remote Upgrade
   event.shaped("storagedrawers:remote_upgrade", [" C ", "ETE"], {
@@ -112,13 +122,6 @@ ServerEvents.recipes((event) => {
   // Conversion recipes
   event.shapeless("storagedrawers:remote_group_upgrade", ["storagedrawers:remote_upgrade"]);
   event.shapeless("storagedrawers:remote_upgrade", ["storagedrawers:remote_group_upgrade"]);
-
-  // Balance Upgrade
-  event.shaped("storagedrawers:balance_fill_upgrade", ["P P", "CTC"], {
-    P: "gtceu:tin_small_item_pipe",
-    C: "gtceu:lv_conveyor",
-    T: "storagedrawers:upgrade_template"
-  });
 
   // Drawer Key
   event.shaped("storagedrawers:drawer_key", [" BP", "TPP", "Gs "], {
