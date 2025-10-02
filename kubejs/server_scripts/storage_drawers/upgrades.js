@@ -4,7 +4,10 @@ ServerEvents.recipes((event) => {
       { id: "storagedrawers:personal_key" },
       { id: "storagedrawers:priority_key" },
       { id: "storagedrawers:quantify_key" },
-      { id: "storagedrawers:shroud_key" }
+      { id: "storagedrawers:shroud_key" },
+      { id: "storagedrawers:keybutton_conscealment" },
+      { id: "storagedrawers:keybutton_drawer" },
+      { id: "storagedrawers:keybutton_quantify" }
     ], 
     mod: "storagedrawers" 
   });
@@ -90,6 +93,31 @@ ServerEvents.recipes((event) => {
   event.shaped("storagedrawers:void_upgrade", ["PPP", "PTP", "PPP"], {
     P: "#forge:plates/obsidian",
     T: "storagedrawers:upgrade_template",
+  });
+
+  // Remote Upgrade
+  event.shaped("storagedrawers:remote_upgrade", [" C ", "ETE"], {
+    C: "#gtceu:circuits/lv",
+    E: "gtceu:lv_emitter",
+    T: "storagedrawers:upgrade_template",
+  });
+
+  // Remote Group Upgrade
+  event.shaped("storagedrawers:remote_group_upgrade", [" E", "CT", " E"], {
+    C: "#gtceu:circuits/lv",
+    E: "gtceu:lv_emitter",
+    T: "storagedrawers:upgrade_template",
+  });
+
+  // Conversion recipes
+  event.shapeless("storagedrawers:remote_group_upgrade", ["storagedrawers:remote_upgrade"]);
+  event.shapeless("storagedrawers:remote_upgrade", ["storagedrawers:remote_group_upgrade"]);
+
+  // Balance Upgrade
+  event.shaped("storagedrawers:balance_fill_upgrade", ["P P", "CTC"], {
+    P: "gtceu:tin_small_item_pipe",
+    C: "gtceu:lv_conveyor",
+    T: "storagedrawers:upgrade_template"
   });
 
   // Drawer Key
