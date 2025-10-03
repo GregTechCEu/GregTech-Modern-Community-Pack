@@ -361,8 +361,8 @@ file = "config/storagedrawers-client.toml"
 hash = "327bfd458ff2b57c072af1f192bd8f828f5e91cd6d3551345ef13d1f599e2f78"
 
 [[files]]
-file = "config/storagedrawers-common.toml"
-hash = "fe186891b497287dd2e784a3e0a735d6c0755b01c3b317912ad9417b34fffd95"
+file = "config/storagedrawers-common.v2.toml"
+hash = "3cdf5d0ed3194267ef373fda7e63bb9bcc231b0ef4028c9466ae4ded2b0bf630"
 
 [[files]]
 file = "config/toastcontrol-common.toml"
@@ -530,11 +530,11 @@ hash = "00d52fe8c1f206d103984a8f632f712748a7bef18648e02e9be2739a440dfd3f"
 
 [[files]]
 file = "kubejs/client_scripts/jei/hidden_items.js"
-hash = "2951d1ff9ee74a378ddd65660f8dac889824c2dc29c40480c749260f8871e842"
+hash = "da1d071fe0d02f05ec5a94726a6b5f5014aff441acea105e28939f2ffb227014"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "43a07653ef7b7c9f734f6a244e78ec91fd443b47577b354a8fa3e06f02579bba"
+hash = "4cd0855fa47e70ad05638740a8cccfd560221277e6bfd98950b2d48689aa45c6"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -682,11 +682,11 @@ hash = "a5f8f6e63d636dad1485f889a887c89ea690c245e804ba1b50ad0018d9847150"
 
 [[files]]
 file = "kubejs/server_scripts/storage_drawers/drawers.js"
-hash = "4ea5601c95dbe9b0cb5466b9b2de27fca46c8dd5ad0857bdc5c6b8f51ec91ed6"
+hash = "84fbb6dab6e29e70cbc9af1badb2d749e5be3b940d38bec3c3b364977c357037"
 
 [[files]]
 file = "kubejs/server_scripts/storage_drawers/upgrades.js"
-hash = "bd13a7b35349d3003e0f33d71223e22f74beae731b5a5805b4e556c59ac8c3f4"
+hash = "62c275c960ecbd5e615af89a2147d46c9db3fb84224ec33678047e0fcc195276"
 
 [[files]]
 file = "kubejs/server_scripts/tags/ae2.js"
@@ -961,7 +961,7 @@ metafile = true
 
 [[files]]
 file = "mods/gregtech-storage-drawers.pw.toml"
-hash = "a71e50b12d6ad878ef5b81a27e78277951acdf9a22964f0be8bd786356a61444"
+hash = "385a5b3d937405c0fbf9bac790ea268138bbede0ce1da07a0ce562edca16c5a6"
 metafile = true
 
 [[files]]
@@ -1116,7 +1116,7 @@ metafile = true
 
 [[files]]
 file = "mods/storage-drawers.pw.toml"
-hash = "b5280a819e67fcc922f041ec277823ff8574565472c8afd9a36afbe716f9542c"
+hash = "371b68e257eaca322ca4e95f4aa8d95441d84110b69243dda818f743a0111ba5"
 metafile = true
 
 [[files]]

@@ -1,7 +1,5 @@
 ServerEvents.recipes((event) => {
   const greg = event.recipes.gtceu;
-  event.remove({ mod: "storagedrawers" });
-  event.remove({ mod: "gtstoragedrawers" });
   const woodTypes = [
     "oak",
     "spruce",
