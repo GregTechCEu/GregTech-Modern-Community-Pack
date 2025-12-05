@@ -610,8 +610,6 @@
 				""
 				"A small amount of &dFlawless Emeralds&r will be required in &bMV&r, and running ores in &3Sifting Machine&r is how you obtain these."
 				""
-				"Each higher tier of &3Sifter&r increases the chance of all Gem types to be found, at the cost of more energy. "
-				""
 				"&9Note:&r If you crushed Gem Ores (such as Diamond), it is critical you use this machine to recover the actual gems in non dust form. However, this is a rather slow process, so you may want to smelt this type of ore directly into the Gem."
 			]
 			id: "7A64425597F58015"

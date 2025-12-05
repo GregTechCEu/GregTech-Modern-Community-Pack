@@ -731,7 +731,7 @@
 				}
 			]
 			title: "The \"Fun\" will never stop"
-			x: 3.375d
+			x: 5.625d
 			y: 6.75d
 		}
 		{
@@ -753,29 +753,6 @@
 			title: "ME Hatches"
 			x: 5.625d
 			y: 4.5d
-		}
-		{
-			dependencies: [
-				"40408FFD02134148"
-				"4AFD3073C731A1E4"
-				"7FA0ACB7F161F378"
-			]
-			description: [
-				"You've probably noticed the &9\"chance per tier\"&r when hovering over the bonus outputs in &2EMI&r Each overclock above the required tier will add that % bonus to the chanced output!"
-				""
-				"This means using an &3EV Macerator&r will yield &6more Byproducts&r!"
-			]
-			id: "7B23AF5B6B62BC19"
-			size: 0.75d
-			subtitle: "Avarice and hedonism in a single block"
-			tasks: [{
-				id: "4EC5F44332F7533B"
-				item: "gtceu:ev_macerator"
-				type: "item"
-			}]
-			title: "Even More Byproducts"
-			x: 5.625d
-			y: 6.75d
 		}
 		{
 			dependencies: [

@@ -684,7 +684,7 @@
 			description: [
 				"A shopping list for anyone looking to automate &6Ore Processing&r on a large scale:"
 				""
-				"&9-&r One or more &3IV Macerators&r (the higher the tier, the higher your chances of byproducts!)."
+				"&9-&r One or more &3IV Macerators&r."
 				"&9-&r The &3Large Centrifuge&r. Set it to work as a Thermal Centrifuge, and you're off to the races."
 				"&9-&r One or more &3MV Electrolyzers&r - you could possibly make the large version if there's enough demand."
 				"&9-&r A &3Multi Smelter&r."
@@ -698,7 +698,7 @@
 				"&9-&r Alternately, a &3Large Ore Washer&r, accompanied with a set of &3Distilleries&r for &dDistilled Water&r."
 				"&9-&r A second &3Large Centrifuge&r... this time set to Centrifuge mode for impure/purified dusts."
 				"&9-&r &3Chemical Baths&r for the special Byproducts that require &dMercury&r or &dSodium Persulfate&r to obtain."
-				"&9-&r &3Sifters&r of any tier (higher tier = better chanced output), for gem ores."
+				"&9-&r &3Sifters&r of any tier for gem ores."
 				"&9-&r &3Electromagnetic Separators&r."
 				"{@pagebreak}"
 				"If the Large Machines aren't your thing, you could always try using tons of &7LV&r machinery, and route with some clever piping."
