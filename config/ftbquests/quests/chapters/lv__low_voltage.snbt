@@ -1744,7 +1744,7 @@
 				type: "item"
 			}]
 			title: "Gallium Arsenide"
-			x: 1.125d
+			x: 2.25d
 			y: 7.875d
 		}
 		{
@@ -2499,6 +2499,111 @@
 			}]
 			title: "Nitrogen"
 			x: -2.25d
+			y: 7.875d
+		}
+		{
+			dependencies: [
+				"257DB4B39B2A928E"
+				"581CDF545E1EA1FD"
+			]
+			description: [
+				"&3Concrete&r and &3Studs&r are two decorative block families added that increse your speed when walking on them, with &3Concrete&r increasing your speed more."
+				""
+				"Get &9either&r of them to complete this quest."
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:light_concrete"
+			id: "41DD503169987D50"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Subsonic!"
+			tasks: [{
+				id: "755F679F2DA97A4F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:light_concrete"
+							}
+							{
+								Count: 1b
+								id: "gtceu:dark_concrete"
+							}
+							{
+								Count: 1b
+								id: "gtceu:white_studs"
+							}
+							{
+								Count: 1b
+								id: "gtceu:orange_studs"
+							}
+							{
+								Count: 1b
+								id: "gtceu:magenta_studs"
+							}
+							{
+								Count: 1b
+								id: "gtceu:light_blue_studs"
+							}
+							{
+								Count: 1b
+								id: "gtceu:yellow_studs"
+							}
+							{
+								Count: 1b
+								id: "gtceu:lime_studs"
+							}
+							{
+								Count: 1b
+								id: "gtceu:pink_studs"
+							}
+							{
+								Count: 1b
+								id: "gtceu:gray_studs"
+							}
+							{
+								Count: 1b
+								id: "gtceu:light_gray_studs"
+							}
+							{
+								Count: 1b
+								id: "gtceu:cyan_studs"
+							}
+							{
+								Count: 1b
+								id: "gtceu:purple_studs"
+							}
+							{
+								Count: 1b
+								id: "gtceu:blue_studs"
+							}
+							{
+								Count: 1b
+								id: "gtceu:brown_studs"
+							}
+							{
+								Count: 1b
+								id: "gtceu:green_studs"
+							}
+							{
+								Count: 1b
+								id: "gtceu:red_studs"
+							}
+							{
+								Count: 1b
+								id: "gtceu:black_studs"
+							}
+						]
+					}
+				}
+				title: "Blocks"
+				type: "item"
+			}]
+			title: "Gotta go fast"
+			x: 1.12d
 			y: 7.875d
 		}
 	]
