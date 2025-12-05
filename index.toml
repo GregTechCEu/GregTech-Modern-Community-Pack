@@ -226,7 +226,7 @@ hash = "9abe2c7f784810cac3ca71c74d02aacd5fe6861d744cb143d077a525a2b42e76"
 
 [[files]]
 file = "config/gtceu.yaml"
-hash = "51af2e256f83d90bbbd35cf4567b8b3cda560cb60847e844e422f2975fc9aa29"
+hash = "dbaac0cf904045f1d59843e4745d2c74d90e89bb08f4ce18f7673c367856df73"
 
 [[files]]
 file = "config/hangglider-client.toml"
@@ -966,7 +966,7 @@ metafile = true
 
 [[files]]
 file = "mods/gregtechceu-modern.pw.toml"
-hash = "405441ee4b2caa3503f94720d00f9d86d804ab5cba09fb65f13cee4be11c3e39"
+hash = "095d95ed8aa22628bf45e18aa2782cb7a0064d2f815261edb00dc8bc559bea38"
 metafile = true
 
 [[files]]
@@ -1011,7 +1011,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "5f7c3cf35124bf96e880cc8562fc44ac15990a89b07db299aed9a88ce3752cb1"
+hash = "94a0ed0630ad6e53af1e317e86a195672f4627552fde677396ac94eefce6ffc6"
 metafile = true
 
 [[files]]
