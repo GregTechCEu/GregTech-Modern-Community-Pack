@@ -483,7 +483,9 @@
 				"14D277A164202FF8"
 			]
 			description: [
-				"Better Ore Processing only at the cost of this &3Macerator&r! A must have."
+				"Faster Ore Processing only at the cost of this &3Macerator&r! A must have."
+				""
+				"Also used to craft the &3Large Maceration Tower&r."
 				""
 				"And now, it's finally time for mass ore processing automation."
 				""
@@ -497,7 +499,7 @@
 				item: "gtceu:iv_macerator"
 				type: "item"
 			}]
-			title: "Shredding your Ores with further more Byproducts"
+			title: "Shredding your Ores with greater speed"
 			x: 1.5d
 			y: 4.875d
 		}
