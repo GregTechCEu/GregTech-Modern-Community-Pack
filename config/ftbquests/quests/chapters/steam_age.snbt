@@ -457,8 +457,6 @@
 				""
 				"Introducing... &aDrums&r! They have large internal buffers, and any &aDrum&r can be broken and picked up and will &dkeep the fluid&r inside."
 				"{@pagebreak}"
-				"&l&4[ NOT YET IMPLEMENTED ]"
-				""
 				"Additionally, &binternal tanks&r from machines will interact with items containing fluid. This is great for manual crafting - this means you can use fluid drums instead of multiple buckets in crafting. To &5void fluid&r contained in a Drum, place it alone in any crafting grid."
 				""
 				"&o&7Pssst:&8 &oA right-click with a Screwdriver allows a Drum to drain its content into another container placed under it. This is great if you want to keep your Liquid Boilers fueled for longer."
