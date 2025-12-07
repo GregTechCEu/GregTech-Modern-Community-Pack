@@ -118,7 +118,7 @@ hash = "cc7b7524a1409711280d59e9af31b93d161cb654981abb0b2ea945111734fd3d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev__extreme_voltage.snbt"
-hash = "b90780b61e40c18101b9af99a82468cfd3283d0b6bfbb703d7cb1aab141bb3fe"
+hash = "53c659b33da3563178e89a9fa14020c6f76997207110389f5e16b79b9ed099a6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gtceu.snbt"
@@ -130,11 +130,11 @@ hash = "3de3b8987fbd6652079f9a6f8ff7f0d140753eb94563b31554648a09990d89e1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv__high_voltage.snbt"
-hash = "c7509bc06ae4bc0a5667610206be7cc8d2c9db244543adeba6b9a3f45c7f09eb"
+hash = "2f55dd2f5cab6ccdb5d0b89bf43e2581e37cb035d5d1341741946f1132103fc3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv__insane_voltage.snbt"
-hash = "47e9a9124100e3e5d67af25dd1c2fa07a852a80f50d62d61588050960a2dd2fa"
+hash = "3e8d67a0e489ad0c423fa452dc7cc5c7f7b2033e737cd9a841d79964856c28af"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/luv__ludicrous_voltage.snbt"
@@ -142,7 +142,7 @@ hash = "b68e2e3c85c5f70f5f1938e31ec228684cc08e823bca4e4170fb92e9339b2670"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv__low_voltage.snbt"
-hash = "30fd5fb575e5a138f51de82459c5aa32708697d36a4690d4ed33f89ab6a4673f"
+hash = "1222b2012d26c74c7e47fbb4607c0425d0bafc425cdf46afa07eec216545ed50"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblock_dilemma.snbt"
@@ -170,11 +170,11 @@ hash = "070e4c59640dc3014745eb4f2b83f918342a92c7dbec9a44c7e003500de90904"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/steam_age.snbt"
-hash = "15f51039f3f8e730257b352a4ec337fb292c3e2a0213a049f90d4d485e6f4434"
+hash = "bcd3022bab26d79c3d4da9e2473ee897f5fb4a1b074e4d29e201d663c84da372"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks_2.snbt"
-hash = "171dd9f3683bd2a82752e7cba96c8a4e44f5370e7ba1a819838eb5be7a652e0a"
+hash = "60cea2a6709ee8d78d6a6625393f1a6d823f29b51df9f1518a67b99fba24b817"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uv__ultimate_voltage.snbt"
@@ -614,7 +614,7 @@ hash = "a184a4372a849553c142772f0f3a434fb59d0fa242c317deb2556451bd9880a5"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/terminals.js"
-hash = "7588ffcb734f4ba3caecea9259dff93d4b66b4e7ebc1fe254645a6fb3fa3fa89"
+hash = "65044811e34e7b2d2d2728ed0bd025f4994369ae8b97b6711209a0469cafa96c"
 
 [[files]]
 file = "kubejs/server_scripts/building/architects_palette.js"

@@ -113,4 +113,11 @@ ServerEvents.recipes((event) => {
     E: "ae2:engineering_processor",
     C: "ae2:fluix_glass_cable",
   });
+
+  // Stonecut p2p tunnels, attunement sucks
+  // Written by MatthiasMann
+  const p2p = ["redstone", "item", "fluid", "fe", "light"]
+  p2p.forEach(type => {
+    event.stonecutting("ae2:" + type + "_p2p_tunnel", "ae2:me_p2p_tunnel")
+  });
 });
