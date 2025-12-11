@@ -968,8 +968,6 @@
 				"&9&lScythe:&r A powerful farming tool that can automatically replant your crops in a large area. It's also a surprisingly good weapon!"
 				""
 				"&9&lPlunger:&r A tool to clear stuck fluids from GregTech&a machines."
-				""
-				"&9&lButchery Knife:&r A weapon that comes pre-enchanted with &6Looting III&r. You might want to use it to gather leather and food."
 				"{@pagebreak}"
 				"&e&lNote:&r This quest's reward is &3Damascus Steel&r - a rare material which can only be found as overworld loot. It far surpasses the materials you have now, so be sure to use it."
 			]
@@ -978,7 +976,9 @@
 				id: "gtceu:iron_screwdriver"
 				tag: {
 					Damage: 0
-					GT.Tool: { }
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+					}
 				}
 			}
 			id: "5C3501DD3B4788FA"

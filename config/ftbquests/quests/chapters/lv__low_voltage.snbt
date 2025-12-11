@@ -430,11 +430,11 @@
 		{
 			dependencies: ["32EA7E81885C8E87"]
 			description: [
-				"The Lathe is an important machine to help shape metals. Thanks to it, you can turn &6one Ingot into two Rods&r, and &6one Bolt into one screw&r. That's twice the efficiency on those recipes as opposed to crafting by hand."
-				"{@pagebreak}"
-				"&l&3Lore:&r&o The GregTech 5 Lathe produces one Rod and 2 small piles of Dust per Ingot. We also have a setting for this in GTCEu, but it's turned off by default."
+				"The Lathe is an important machine to help shape metals. Thanks to it, you can turn &6one Ingot into one Rod and 2 small piles of Dust&r, and &6one Bolt into one screw&r. That's twice the material efficiency on those recipes as opposed to crafting by hand. "
 				""
-				"&oThe GT6 Lathe acts like GT5's, but Bolts lathe into one Screw and 1/72 of a pile of Dust. Disgusting!"
+				"However the &bMV&r &3Extruder&r has the ability to turn &6one Ingot&r directly into &6two Rods&r alongside its many other functions."
+				""
+				"&l&3Lore:&r &oThe GT6 Lathe acts like GTm's lathe, but Bolts lathe into one Screw and 1/72 of a pile of Dust. Disgusting!"
 			]
 			id: "07E7678095258EDB"
 			rewards: [{
