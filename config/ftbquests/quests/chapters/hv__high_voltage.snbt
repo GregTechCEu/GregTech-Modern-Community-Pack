@@ -1037,7 +1037,11 @@
 				""
 				"&aToluene&r can also optionally be used in &5EV&r to make &dGasoline&r."
 				""
-				"&cTNT&r is used in the &3Implosion Compressor&r to make Gems. It also blows stuff (and your friends) up."
+				"&cTNT&r is used in the &3Implosion Compressor&r to make Gems. It also blows stuff (and your friends) up. "
+				"{@pagebreak}"
+				"&cITNT&r can also be used in the &3Implosion Compressor&r at a better rate but require &aNitration Mixture&r to make. It also ignites when punched so be careful when it is placed."
+				""
+				"Get &9either&r TNT or ITNT to complete this quest."
 				""
 				"Technically, Dynamite or Powerbarrels could also be used... but Dynamite is a pain to obtain, whereas Powerbarrels are weaker."
 			]
@@ -1049,11 +1053,28 @@
 				{
 					id: "1CB85F57BA45252D"
 					item: "gtceu:gelled_toluene"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "04BF6A36E965C348"
-					item: "minecraft:tnt"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:tnt"
+								}
+								{
+									Count: 1b
+									id: "gtceu:industrial_tnt"
+								}
+							]
+						}
+					}
+					title: "TNT"
 					type: "item"
 				}
 			]

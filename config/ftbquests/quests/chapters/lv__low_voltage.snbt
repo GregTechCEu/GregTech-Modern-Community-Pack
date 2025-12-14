@@ -430,11 +430,11 @@
 		{
 			dependencies: ["32EA7E81885C8E87"]
 			description: [
-				"The Lathe is an important machine to help shape metals. Thanks to it, you can turn &6one Ingot into two Rods&r, and &6one Bolt into one screw&r. That's twice the efficiency on those recipes as opposed to crafting by hand."
-				"{@pagebreak}"
-				"&l&3Lore:&r&o The GregTech 5 Lathe produces one Rod and 2 small piles of Dust per Ingot. We also have a setting for this in GTCEu, but it's turned off by default."
+				"The Lathe is an important machine to help shape metals. Thanks to it, you can turn &6one Ingot into one Rod and 2 small piles of Dust&r, and &6one Bolt into one screw&r. That's twice the material efficiency on those recipes as opposed to crafting by hand. "
 				""
-				"&oThe GT6 Lathe acts like GT5's, but Bolts lathe into one Screw and 1/72 of a pile of Dust. Disgusting!"
+				"However the &bMV&r &3Extruder&r has the ability to turn &6one Ingot&r directly into &6two Rods&r alongside its many other functions."
+				""
+				"&l&3Lore:&r &oThe GT6 Lathe acts like GTm's lathe, but Bolts lathe into one Screw and 1/72 of a pile of Dust. Disgusting!"
 			]
 			id: "07E7678095258EDB"
 			rewards: [{
@@ -506,19 +506,21 @@
 			description: [
 				"&oThe &3Large Boiler&r is an &6optional&r big-boy variant of the Small Boilers. It runs off solid or liquid fuel."
 				""
-				"If you want Steam-based power production, this will be your first port-of-call. Other power options are listed in the &bMV&r chapter."
+				"If you want Steam-based power production, this will be your first port-of-call. Other power options are listed in the &bMV&r chapter, if you want to invest in those, you can &cskip this quest&r with the checkmark."
 				""
-				"We should note that the LBB in its &bcurrent state&r isn't... great. It's probably better to use an alternate fuel source for now (or just spam &dsingleblock Boilers&r). This will be &2rebalanced&r in due time, don't you worry. For that reason, though, you can &cskip this quest&r with the checkmark."
+				"One \"easy\" fuel option is producing &dCharcoal&r from &3Coke Ovens&r. One piece of Charcoal lasts 20s in the LBB and the wood can be sourced from a tree farm."
 				""
 				"&cImportant:&r This Boiler &lCAN&r also &cexplode&r similarly to the regular Boilers! Usually, the explosion can be rather devastating... but it's configured to not damage blocks or entities in this modpack."
 				"{@pagebreak}"
 				"&cWater supply is &lcrucial&r&r. Dedicate a &3Primitive Pump&r with a &7LV&r Output Hatch in the &lsame chunk&r as the Boiler. Any biome will still be enough to supply enough water."
 				""
-				"Once fully heated up, the &3LBB&r produces 800 Steam per tick, which is &d400EU/t&r after conversion, or 12.5 Basic Steam Turbines. Such (relatively!) immense power comes at the cost of &la lot&r of burnable fuel."
+				"Once fully heated up, the &3LBB&r produces 800 Steam per tick, which is &d400EU/t&r after conversion, or 12.5 Basic Steam Turbines. Such (relatively!) immense power comes at the cost of automating fuel."
 				"{@pagebreak}"
 				"&5&lWith this in consideration&r, the GUI lets you &9throttle&r the Boiler down to 25% power for 200 Steam per tick. That's &d100EU/t&r, or slightly above 3 Basic Steam Turbines."
 				""
 				"&9Note:&r An in-depth tutorial about Multiblocks is given after you get the &3Electric Blast Furnace&r. We recommend you aim for that first."
+				""
+				"&l&3Lore:&r&o The LBB used to be terrible, however it recently got rebalanced in 7.3.0 to make it actually viable to use."
 			]
 			icon: "gtceu:bronze_large_boiler"
 			id: "33263404ED38C6D2"
@@ -609,8 +611,6 @@
 				"The Sifter sifts &dGem type&r &aPurified Ores&r to find &aExquisite&r and &aFlawless&r Gems, which can be cut into normal Gems. It also finds &aPurified Dusts&r of that gem. Overall, this gives a &6higher yield&r than other means."
 				""
 				"A small amount of &dFlawless Emeralds&r will be required in &bMV&r, and running ores in &3Sifting Machine&r is how you obtain these."
-				""
-				"Each higher tier of &3Sifter&r increases the chance of all Gem types to be found, at the cost of more energy. "
 				""
 				"&9Note:&r If you crushed Gem Ores (such as Diamond), it is critical you use this machine to recover the actual gems in non dust form. However, this is a rather slow process, so you may want to smelt this type of ore directly into the Gem."
 			]
@@ -1744,7 +1744,7 @@
 				type: "item"
 			}]
 			title: "Gallium Arsenide"
-			x: 1.125d
+			x: 2.25d
 			y: 7.875d
 		}
 		{
@@ -2499,6 +2499,111 @@
 			}]
 			title: "Nitrogen"
 			x: -2.25d
+			y: 7.875d
+		}
+		{
+			dependencies: [
+				"257DB4B39B2A928E"
+				"581CDF545E1EA1FD"
+			]
+			description: [
+				"&3Concrete&r and &3Studs&r are two decorative block families added that increse your speed when walking on them, with &3Concrete&r increasing your speed more."
+				""
+				"Get &9either&r of them to complete this quest."
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:light_concrete"
+			id: "41DD503169987D50"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Subsonic!"
+			tasks: [{
+				id: "755F679F2DA97A4F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:light_concrete"
+							}
+							{
+								Count: 1b
+								id: "gtceu:dark_concrete"
+							}
+							{
+								Count: 1b
+								id: "gtceu:white_studs"
+							}
+							{
+								Count: 1b
+								id: "gtceu:orange_studs"
+							}
+							{
+								Count: 1b
+								id: "gtceu:magenta_studs"
+							}
+							{
+								Count: 1b
+								id: "gtceu:light_blue_studs"
+							}
+							{
+								Count: 1b
+								id: "gtceu:yellow_studs"
+							}
+							{
+								Count: 1b
+								id: "gtceu:lime_studs"
+							}
+							{
+								Count: 1b
+								id: "gtceu:pink_studs"
+							}
+							{
+								Count: 1b
+								id: "gtceu:gray_studs"
+							}
+							{
+								Count: 1b
+								id: "gtceu:light_gray_studs"
+							}
+							{
+								Count: 1b
+								id: "gtceu:cyan_studs"
+							}
+							{
+								Count: 1b
+								id: "gtceu:purple_studs"
+							}
+							{
+								Count: 1b
+								id: "gtceu:blue_studs"
+							}
+							{
+								Count: 1b
+								id: "gtceu:brown_studs"
+							}
+							{
+								Count: 1b
+								id: "gtceu:green_studs"
+							}
+							{
+								Count: 1b
+								id: "gtceu:red_studs"
+							}
+							{
+								Count: 1b
+								id: "gtceu:black_studs"
+							}
+						]
+					}
+				}
+				title: "Blocks"
+				type: "item"
+			}]
+			title: "Gotta go fast"
+			x: 1.12d
 			y: 7.875d
 		}
 	]

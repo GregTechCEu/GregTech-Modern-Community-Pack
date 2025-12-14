@@ -1,7 +1,7 @@
 #!/bin/bash
 
-FORGE_VERSION="1.20.1-47.4.6"
-PACK_TAG="v1.14.1"
+FORGE_VERSION="1.20.1-47.4.10"
+PACK_TAG="v1.14.2"
 
 # Ensure java is installed
 if ! command -v java >/dev/null 2>&1; then

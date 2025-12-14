@@ -9,4 +9,7 @@ ServerEvents.tags("item", (event) => {
   event.add("forge:meat", "minecraft:cooked_mutton");
   event.add("forge:meat", "minecraft:rabbit");
   event.add("forge:meat", "minecraft:cooked_rabbit");
+
+  event.add("forge:enchanting_fuels", "gtceu:lazurite_gem");
+  event.add("forge:enchanting_fuels", "gtceu:sodalite_gem");
 });
