@@ -2,8 +2,8 @@ ServerEvents.recipes((event) => {
   const patpros = [
     ["lv", "steel", 1],
     ["mv", "aluminium", 2],
-    ["hv", "stainless_steel", 3],
-    ["ev", "titanium", 4],
+    ["hv", "stainless_steel", 4],
+    ["ev", "titanium", 8],
   ];
   patpros.forEach((tier) => {
     let interProv = (materialType, blockType) => {
