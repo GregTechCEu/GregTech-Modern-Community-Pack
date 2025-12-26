@@ -375,14 +375,6 @@ ServerEvents.recipes((event) => {
     .duration(100)
     .EUt(24);
 
-
-  greg
-    .lathe("fluix_lathing")
-    .itemInputs("ae2:fluix_crystal")
-    .itemOutputs("gtceu:fluix_rod")
-    .duration(200)
-    .EUt(8);
-
   // Logic Processor
   event.remove({ id: "ae2:inscriber/logic_processor" });
   greg
