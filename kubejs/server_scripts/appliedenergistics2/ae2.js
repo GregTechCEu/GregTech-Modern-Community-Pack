@@ -121,6 +121,15 @@ ServerEvents.recipes((event) => {
     H: "#gtceu:circuits/hv",
   });
 
+  // Controller
+  event.remove({ id: "ae2:network/blocks/controller"});
+  event.shaped("ae2:controller", ["PFP", "CMC", "PFP"], {
+    P: "#forge:plates/aluminium",
+    F: "#forge:plates/fluix",
+    M: "#gtceu:circuits/mv",
+    C: "#ae2:glass_cable",
+  });
+
   // Energy Acceptor
   event.remove({ id: "ae2:network/blocks/energy_energy_acceptor" });
   event.shaped("ae2:energy_acceptor", ["PFP", "FVF", "PFP"], {
