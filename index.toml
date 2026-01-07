@@ -118,7 +118,7 @@ hash = "cc7b7524a1409711280d59e9af31b93d161cb654981abb0b2ea945111734fd3d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev__extreme_voltage.snbt"
-hash = "53c659b33da3563178e89a9fa14020c6f76997207110389f5e16b79b9ed099a6"
+hash = "d0c6552030a59ae11105d9de2e75e393ab8a589afb4610019705483a6144ae25"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gtceu.snbt"
@@ -130,7 +130,7 @@ hash = "3de3b8987fbd6652079f9a6f8ff7f0d140753eb94563b31554648a09990d89e1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv__high_voltage.snbt"
-hash = "5396e223fedd3d402a2a774a2aac4ba7e9f7a03e108c4aa2e05e63e077daab0d"
+hash = "f9b1097c39b45d44fa8c86006201c5edf27378b2d61a32bf01825b8c64b14854"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv__insane_voltage.snbt"
@@ -138,7 +138,7 @@ hash = "3e8d67a0e489ad0c423fa452dc7cc5c7f7b2033e737cd9a841d79964856c28af"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/luv__ludicrous_voltage.snbt"
-hash = "b68e2e3c85c5f70f5f1938e31ec228684cc08e823bca4e4170fb92e9339b2670"
+hash = "833e906ad614f3e1c3ea7e589e0db89c23c8021b2e8c4b867a91c955fb3015bf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv__low_voltage.snbt"
@@ -150,7 +150,7 @@ hash = "c597f716bb540288bd909925586087298edabb66bf5b65b8f353631f05e295ce"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mv__medium_voltage.snbt"
-hash = "533e80c3d683bf6b1e1a03747962c763091afa65b5f3ac000c62504e82fe5036"
+hash = "a56548786776759e435b6e7a77a4da2ac285c2fe7fae7886a74d19140f9ff217"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ore_generation.snbt"
@@ -698,7 +698,7 @@ hash = "5c87d9314fd7b9e4c1b737b8742f01fc88fccebf7e777b3e67bbbd49b7be3d0a"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks.js"
-hash = "c417de4bec2c58d7bebf541af6d5e00791852df1c153e2d7772515f4b2c35818"
+hash = "0874be649d3f33754661333e701ae78daf3ae73a39b7adf3b81a3aeaf3be37b5"
 
 [[files]]
 file = "kubejs/server_scripts/tags/gregtech.js"
@@ -1171,3 +1171,7 @@ metafile = true
 file = "mods/yeetusexperimentus.pw.toml"
 hash = "7aca72d7440da7045b3bff8f754027deab9924a9bb52d768977b2862f2b619e4"
 metafile = true
+
+[[files]]
+file = "todo.md"
+hash = "6a743e2b8aab316fbd192757163e2f29db28219edfb7db77aca84a2c83391bb9"

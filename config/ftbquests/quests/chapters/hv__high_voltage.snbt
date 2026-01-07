@@ -317,7 +317,6 @@
 			subtitle: "...and it's beautiful"
 			tasks: [
 				{
-					count: 20L
 					id: "73A16ED7BA7D64E8"
 					item: {
 						Count: 1
@@ -1111,7 +1110,7 @@
 			description: [
 				"If you've killed an Enderman before, you may have noticed it dropped &aEnderpearl Dust&r instead of an Ender Pearl. In order to get &aEnder Pearls&r, you must make them from Enderpearl Dust in the &3Implosion Compressor&r."
 				""
-				"&9Pro tip for non-Peaceful players&r: Trapping Endermen in Boats makes them much easier to kill! Use a &dButchery Knife&r when slaying Endermen for the Looting 3 bonus."
+				"&9Pro tip for non-Peaceful players&r: Trapping Endermen in Boats makes them much easier to kill! They also have a high spawn rate in &dWarped Forests&r in the &4Nether&r."
 				""
 				"In the long term, &aEnderpearl Dust&r should be made in an &3HV Mixer&r."
 			]

@@ -1694,40 +1694,6 @@
 			y: 10.125d
 		}
 		{
-			dependencies: ["39E7997F3080250A"]
-			description: [
-				"To turn a P2P Tunnel into an &aItem P2P Tunnel&r, right-click it in the world with a &dvanilla Chest&r."
-				""
-				"Item P2P Tunnels are useful in a more abstract way so let's start with an example."
-				"{@pagebreak}"
-				"&eExample:&r Making a &9HV Machine Hull&r in the &3Assembler&r also requires an &3Extractor&r for the Fluid. That is two machines, hence two inventories."
-				""
-				"You could passively fill the Assembler with Polyethylene, &lor&r you can also include it in your &dPattern&r, in the form of 2 Bars (Ingots)."
-				""
-				"You may think the next step is just to dump the items in a Buffer and route the items with Pipes - however, this system will eventually &4jam&r due to the incompability with AE2 Interface blocking mode! Oh no!"
-				"{@pagebreak}"
-				"This can be fixed by placing the input of the &aItem P2P&r on your &3ME Interface&r, placing one output on the &3Extractor&r, and another output on the &3Assembler&r."
-				""
-				"Then, use Filter covers where the outputs are connected. &dItem Tag Filters&r are better, since you can configure them to &9ingot&r. Have them on &ewhitelist&r for the &3Extractor&r, and on &eblacklist&r for the &3Assembler&r (no Assembler recipe ever requires Ingots - that's an intentional design decision in GregTech)."
-				""
-				"Don't forget &dBlocking Mode&r on your Interface."
-				""
-				"Look - another reason why it's good to store polymers (Polyethylene, PTFE, PBI) as Bars!"
-			]
-			icon: "ae2:item_p2p_tunnel"
-			id: "7EF57E379F736FBB"
-			shape: "rsquare"
-			size: 0.5d
-			subtitle: "A primer on items and P2P"
-			tasks: [{
-				id: "3CF9C3527F11EDA1"
-				type: "checkmark"
-			}]
-			title: "Item P2P Tunnels"
-			x: 7.653061224489797d
-			y: 4.464285714285715d
-		}
-		{
 			dependencies: ["3B2D2C47BEBCFFA7"]
 			description: [
 				"The &aAlloy Blast Smelter&r is the only main &2GCYM&r machine available in &5EV&r. You can use it to produce any alloy that you'd normally use the Mixer for. "

@@ -1082,9 +1082,9 @@
 				"{@pagebreak}"
 				"&2Easy Pattern Transfer:&r"
 				""
-				"Shift-left-clicking Patterns will move them between the Player Inventory and the Modifier where possible. This means you can easily move Patterns around between Interfaces and Terminals without clogging your inventory."
+				"Shift-left-clicking Patterns will move them between the Player Inventory and the Modifier where possible. This means you can easily move Patterns around between Pattern Providers and Terminals without clogging your inventory."
 				"{@pagebreak}"
-				"&bLore&r: Neeve, the author of the NAE2 mod suggested tiering this item at &eUXV&r tier, because it \"gives the player way too much power.\" For reference, &eUXV&r is 4 tiers past &3UV&r tier - two tiers before &c&lMAX&r voltage."
+				"&bLore&r: Neeve, the author of the NAE2 mod which this originated from, suggested tiering this item at &eUXV&r tier, because it \"gives the player way too much power.\" For reference, &eUXV&r is 4 tiers past &3UV&r tier - two tiers before &c&lMAX&r voltage."
 			]
 			icon: "expatternprovider:pattern_modifier"
 			id: "5CE0B928479D8535"
