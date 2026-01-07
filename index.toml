@@ -130,7 +130,7 @@ hash = "3de3b8987fbd6652079f9a6f8ff7f0d140753eb94563b31554648a09990d89e1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv__high_voltage.snbt"
-hash = "f9b1097c39b45d44fa8c86006201c5edf27378b2d61a32bf01825b8c64b14854"
+hash = "5c2fe63f75cc01610eeef47184f35b6d1438295dd02a27b0a9bc894e61735ec8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv__insane_voltage.snbt"
