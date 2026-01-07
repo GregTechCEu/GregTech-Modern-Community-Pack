@@ -626,7 +626,7 @@
 			description: [
 				"&3Molecular Assemblers&r can be used to automate Crafting Table recipes, which means you can automate just about anything now."
 				""
-				"To maximise the number of recipes a single Molecular Assembler can do, make a 3D matrix of Molecular Assemblers and ME Interfaces - where each component is surrounded on 6 sides by the other."
+				"To maximise the number of recipes a single Molecular Assembler can do, make a 3D matrix of Molecular Assemblers and ME Pattern Providers - where each component is surrounded on 6 sides by the other."
 				""
 				"Using higher-tier materials in crafting will yield more Molecular Assemblers."
 				"{@pagebreak}"
@@ -650,7 +650,7 @@
 		{
 			dependencies: ["315169840E06110F"]
 			description: [
-				"Making &aAE2 Presses&r will unlock all the &9Processors&r from AE2. This opens up &9ME Drives&r, &9ME Interfaces,&r &9ME Crafting CPUs&r... that's almost the rest of AE2 at your fingertips! &7(Or at least... not until you obtain Silicon Ingots.)&r"
+				"Making &aAE2 Presses&r will unlock all the &9Processors&r from AE2. This opens up &9ME Drives&r, &9ME Pattern Providers,&r &9ME Crafting CPUs&r... that's almost the rest of AE2 at your fingertips! &7(Or at least... not until you obtain Silicon Ingots.)&r"
 				""
 				"AE2 &9Printed Circuits&r are now made in the &3Forming Press&r."
 			]
