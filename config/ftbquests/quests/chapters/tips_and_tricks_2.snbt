@@ -747,7 +747,7 @@
 		}
 		{
 			dependencies: ["5AD9884E7BFB2510"]
-			description: ["Spraying &3Input Buses&r and &3Hatches&r the same color will treat them as one &3Hatch&r in the &5Multiblock&r. With distinct mode enabled on the &3Buses/Hatches&r, the &5Multiblock&r will only search for a recipe using ingredients from one color group."]
+			description: ["Spraying &3Input Buses&r and &3Hatches&r the same color will treat them as one &3Hatch&r in the &5Multiblock&r. With distinct mode enabled on the &3Buses/Hatches&r, the &5Multiblock&r will only search for a recipe using ingredients from one color group. With this enabled the &5Multiblock&r will try to match the color of the &3Output Hatch&r to the color group used for the inputs."]
 			icon: "gtceu:cyan_dye_spray_can"
 			id: "57EC19AF87A32930"
 			size: 0.66d
