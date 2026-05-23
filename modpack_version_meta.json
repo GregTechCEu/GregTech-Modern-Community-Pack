@@ -1,0 +1,23 @@
+// This data is used by github actions and kube scripts
+{
+  /*
+  Sets what the release type should be when uploading github/curseforge releases
+
+  "beta"
+  - Sets the github release as a pre-release, does not show as the latest release 
+    (Kinda annoying I just manually edit the github release after)
+  - Sets the Curseforge release as a beta file
+    (Doesn't do anything but alerts that it's less stable)
+
+  "release"
+  - Uploads as a normal release on Github and Curseforge
+  */
+  "release_type": "release",
+
+  /*   
+  This is used to display version on fancymenu & discord status
+  Gets replaced by github action with real release number when modpack is built
+  Should not be changed manually from "DEV"
+  */
+  "version": "DEV"
+}

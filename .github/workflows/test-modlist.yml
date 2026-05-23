@@ -1,0 +1,30 @@
+name: Test Modlist Removal
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Remove blacklisted mods from Crash Assistant modlist
+        run: |
+          blacklist=$(jq -r '.projects | to_entries[] | select(.value.export == false) | .key' pakku.json | jq -R -s -c 'split("\n")[:-1]')
+          jq --argjson blacklist "$blacklist" 'del(.[] | select(.modId as $id | $blacklist | index($id)))' config/crash_assistant/modlist.json > modlist.tmp
+          mv modlist.tmp config/crash_assistant/modlist.json
+          echo "Filtered modlist keys:"
+          cat config/crash_assistant/modlist.json | jq 'keys'
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Export with pakku
+        run: |
+          curl -L -o pakku.jar https://github.com/juraj-hrivnak/pakku/releases/latest/download/pakku.jar
+          java -jar pakku.jar fetch
+          java -jar pakku.jar --no-server export

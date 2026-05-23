@@ -1,0 +1,47 @@
+{
+    "name": "GregTech CEu Modern Community Pack",
+    "version": "DEV",
+    "description": "GregTech CEu-Modern introductory modpack",
+    "author": "ursamina, deepacat, htmlcsjs",
+    "overrides": [
+        "config",
+        "defaultconfigs",
+        "configureddefaults",
+        "kubejs",
+        "ldlib",
+        "!kubejs/probe/",
+        "!kubejs/modpackData/**",
+        "kubejs/modpackData/*.txt",
+        "!resourcepacks"
+    ],
+    "server_overrides": [
+        "!kubejs/assets",
+        "forge-auto-install.txt",
+        "generate_auto_installation_file.bat",
+        "minecraft_server.jar",
+        "server.properties",
+        "server_starter.conf",
+        "server-icon.png",
+        "start_server.bat",
+        "README.md"
+    ],
+    "projects": {
+        "oculus": {
+            "side": "CLIENT"
+        },
+        "embeddium": {
+            "side": "CLIENT"
+        },
+        "chloride": {
+            "side": "CLIENT"
+        },
+        "worldedit": {
+            "export": false
+        },
+        "probejs": {
+            "side": "CLIENT",
+            "export": false
+        }
+    },
+    "export_server_side_projects_to_client": true
+}
