@@ -16,7 +16,7 @@ jobs:
   info:
     name: Project Info
     runs-on: ubuntu-latest
-    if: ${{  github.repository_owner == 'Deepacat' }} ## Change this to your github username
+    if: ${{  github.repository_owner == 'GregTechCEu' }} ## Change this to your github username
     outputs:
       project_version: ${{ steps.check.outputs.project_version }}
       project_name: ${{ steps.check.outputs.project_name }}

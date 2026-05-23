@@ -1,21 +1,30 @@
 
 [General]
-	#Invert the behavior of the shift key for extracting items
+	# Invert the behavior of the shift key for extracting items
 	invertShift = false
-	#Invert left and right click action on drawers
+	# Invert left and right click action on drawers
 	invertClick = false
 
 [Render]
-	#Distance in blocks before item labels stop rendering
+	# Distance in blocks before item labels stop rendering
 	labelRenderDistance = 25.0
-	#Distance in blocks before quantity numbers stop rendering
+	# 
+	# Distance in blocks before quantity numbers stop rendering
 	quantityRenderDistance = 10.0
-	#Distance in blocks before quantity numbers begin to fade out
+	# 
+	# Distance in blocks before quantity numbers begin to fade out
 	quantityFadeDistance = 4.0
 
+	# Render settings specific to framed drawers.
+	[Render.FramedDrawers]
+		# 
+		# Attempts to render 'non-opaque' materials on the translucent render pass.
+		# This may cause artifacting, particularly if using non-opaque materials on the 'front' face.
+		renderTranslucentMaterials = true
+
 [Integration]
-	#Enable extended data display in WAILA if present
+	# Enable extended data display in WAILA if present
 	enableWaila = true
-	#Enable extended data display in The One Probe if present
+	# Enable extended data display in The One Probe if present
 	enableTheOneProbe = true
 

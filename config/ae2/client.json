@@ -5,6 +5,8 @@
     "enableFacadesInJEI": false,
     "enableFacadeRecipesInJEI_comment": "Show facade recipes in JEI for supported blocks",
     "enableFacadeRecipesInJEI": false,
+    "exposeInventoryToEmi_comment": "Expose the full network inventory to EMI, which might cause performance problems.",
+    "exposeInventoryToEmi": false,
     "enableEffects": true,
     "useTerminalUseLargeFont": false,
     "useColoredCraftingStatus": true,
@@ -27,8 +29,6 @@
     "pinAutoCraftedItems": true
   },
   "search": {
-    "searchTooltips_comment": "Should tooltips be searched. Performance impact",
-    "searchTooltips": true,
     "searchModNameInTooltips_comment": "Should the mod name be included when searching in tooltips.",
     "searchModNameInTooltips": false,
     "useExternalSearch_comment": "Replaces AEs own search with the search of REI or JEI",

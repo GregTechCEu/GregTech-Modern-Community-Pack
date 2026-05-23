@@ -14,3 +14,23 @@ whitelist = ["expatternprovider:ex_interface_part", "expatternprovider:ex_patter
 #Disable Extended Inscriber's item render, it only works in client side.
 disableItemRender = false
 
+[device]
+	#Power usage multiplier for wireless connectors
+	#Range: 0.0 ~ 100.0
+	wireless_connector_power_multiplier = 1.0
+	#Size multiplier of oversize interface
+	#Range: 2 ~ 4096
+	oversize_interface_multiplier = 16
+	#Set multiplier for specific AEKeyType in oversize interface
+	custom_oversize_interface_multiplier = ["appbot:mana 2", "appflux:flux 4"]
+	#The max size of Assembler Matrix
+	#Range: 3 ~ 16
+	assembler_matrix_max_size = 6
+	#The max queue size for the ME Wireless Advanced Setup Kit
+	#Range: 10 ~ 100
+	max_queue_size = 10
+
+[misc]
+	#Enable debug logging.
+	debug_mode = false
+
