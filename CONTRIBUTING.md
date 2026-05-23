@@ -12,10 +12,9 @@
 
 ### Contributor setup steps:
 1. Clone/download the repository of the modpack, extract to a folder if downloaded as a .zip
-2. Open the repository folder in a terminal and run `pakku fetch` (`java -jar pakku.jar fetch` if pakku is not locally installed)
-3. Run `python3 dev_instance_setup.py` (Can read inside the python script using a text editor for more details)
-4. Import the output dev-environment modpack .zip file that the script outputs at `./instanceBuild/modpackname.zip` into prismlauncher (Drag zip file over or right click the background and `create instance`>`import`)
-5. Open the `minecraft` folder of the newly imported instance, it now acts as the git repository and can be commited to and pulled from.
+2. Run `python3 dev_instance_setup.py` (Can read inside the python script using a text editor for more details)
+3. Import the output dev-environment modpack .zip file that the script outputs at `./instanceBuild/modpackname.zip` into prismlauncher (Drag zip file over or right click the background and `create instance`>`import`)
+4. Open the `minecraft` folder of the newly imported instance, it now acts as the git repository and can be commited to and pulled from.
 
 Always target pull requests at the `dev` branch, main should nearly never be pushed to directly, as the automated publishing action is meant to do this for modpack releases to function as intended.
 
