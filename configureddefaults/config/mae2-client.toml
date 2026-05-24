@@ -1,0 +1,6 @@
+
+[Visual]
+	#Global modifier to amount of particles spawned in cloud chambers (Semi-Vibrant Glass)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	cloudChamberFactor = 1.0
+

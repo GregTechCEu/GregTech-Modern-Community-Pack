@@ -1,0 +1,7 @@
+#The maximum number of columns for the workstations in LEFT/RIGHT mode.
+#Range: > 0
+maxColumns = 2
+#The maximum number of rows for the workstations in BOTTOM mode.
+#Range: > 0
+maxRows = 3
+

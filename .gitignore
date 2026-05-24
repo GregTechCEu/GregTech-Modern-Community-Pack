@@ -68,6 +68,7 @@ kubejs/modpackData/**
 # Client configs that should only be copied over once from default configs 
 # (with exceptions below)
 /config/*client.*
+/config/**/client.*
 /config/emixx/*client.*
 /config/worldedit/
 /config/emi.css
@@ -75,12 +76,13 @@ kubejs/modpackData/**
 /config/jade/sort-order.json
 /config/MouseTweaks.cfg
 /config/dynamic_fps.json
-
+/config/ae2/client.json
+/config/guideme.toml
+/config/xaero/
+/config/xaero*
+/config/fpsreducer/
+# Exceptions
 !/config/defaultsettings/**
-!/config/sophisticatedstorage-client.toml
-!/config/**/darkmodeeverywhere-client.toml
-!/config/create-client.toml
-!/config/botania-client.toml
 !/config/defaultsettings/Default/options.txt
 
 # Configs (generally ones that tend to edit the date on launch)

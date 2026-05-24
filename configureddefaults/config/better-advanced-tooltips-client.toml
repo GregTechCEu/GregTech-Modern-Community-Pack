@@ -1,0 +1,18 @@
+
+#Tooltip Settings
+[settings]
+	#Remove creative tab tooltips from items in creative menu
+	removeCreativeTabTooltip = true
+	#Remove text telling how many nbt tags an item has
+	removeComponentCountTooltip = true
+	#Displays an items NBT data (ALT)
+	componentTooltip = true
+	#Displays the item/block/fluid and other tags on items (SHIFT)
+	tagTooltip = true
+	#Displays furnace/smelting fuel values (SHIFT)
+	fuelTooltip = true
+	#Displays item energy capabilities (SHIFT)
+	energyTooltip = true
+	#Displays food and saturation values (SHIFT)
+	foodTooltip = true
+
