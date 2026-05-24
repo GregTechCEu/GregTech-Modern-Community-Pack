@@ -1,0 +1,23 @@
+{
+  "gtceu.key.armor_mode_switch": {
+    "keyCode": 86,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": true,
+    "ctrl": false
+  },
+  "key.findme.pull_stack": {
+    "keyCode": 85,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": true,
+    "ctrl": false
+  },
+  "key.toolbelt.slot": {
+    "keyCode": 82,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": true,
+    "ctrl": false
+  }
+}

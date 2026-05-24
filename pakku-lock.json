@@ -606,6 +606,42 @@
             ]
         },
         {
+            "pakku_id": "NRrdX1HZ2gikRZMf",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "configured-defaults"
+            },
+            "name": {
+                "curseforge": "Configured Defaults"
+            },
+            "id": {
+                "curseforge": "930131"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ConfiguredDefaults-v8.0.4-1.20.1-Forge.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6060/24/ConfiguredDefaults-v8.0.4-1.20.1-Forge.jar",
+                    "id": "6060024",
+                    "parent_id": "930131",
+                    "hashes": {
+                        "sha1": "4ce4e836cc837a9b99dd1a9119260c640a4b5240",
+                        "md5": "344e3a4599ad289fb1d0554f963f3031"
+                    },
+                    "required_dependencies": [],
+                    "size": 42866,
+                    "date_published": "2025-01-06T17:30:50.613Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "u987ayzbkgStz1pX",
             "pakku_links": [
                 "PnND5IEqFCFixwlJ"
@@ -757,45 +793,6 @@
                     "required_dependencies": [],
                     "size": 398066,
                     "date_published": "2025-04-13T13:09:30.850Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "P0GhhviDXLKQbmyp",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "default-options"
-            },
-            "name": {
-                "curseforge": "Default Options"
-            },
-            "id": {
-                "curseforge": "232131"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "defaultoptions-forge-1.20.1-18.0.4.jar",
-                    "mc_versions": [
-                        "1.20.1",
-                        "1.20"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6972/483/defaultoptions-forge-1.20.1-18.0.4.jar",
-                    "id": "6972483",
-                    "parent_id": "232131",
-                    "hashes": {
-                        "sha1": "37ef64d3ae7fda292c882ee949a0280bf6c7f033",
-                        "md5": "2a453bba939907b55d4d7e0c31e6d8ad"
-                    },
-                    "required_dependencies": [
-                        "531761"
-                    ],
-                    "size": 94684,
-                    "date_published": "2025-09-07T12:29:22.480Z"
                 }
             ]
         },
@@ -2024,6 +2021,44 @@
                     ],
                     "size": 56478,
                     "date_published": "2023-10-18T02:05:59.560Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "9KTBWrRhWAd1oEkJ",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "keymap-ported"
+            },
+            "name": {
+                "curseforge": "Keymap-Ported"
+            },
+            "id": {
+                "curseforge": "1194930"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "keymap-beta-1.20.1-forge.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/6164/864/keymap-beta-1.20.1-forge.jar",
+                    "id": "6164864",
+                    "parent_id": "1194930",
+                    "hashes": {
+                        "sha1": "341f9774eb64208e5fae8435b396b56e584bbcf5",
+                        "md5": "6cb8109214fb88fb95a6a52cbdfdbda0"
+                    },
+                    "required_dependencies": [],
+                    "size": 213157,
+                    "date_published": "2025-02-06T17:58:03.540Z"
                 }
             ]
         },
