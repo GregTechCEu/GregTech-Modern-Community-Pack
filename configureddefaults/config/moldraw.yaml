@@ -1,0 +1,38 @@
+enabled: true
+
+onlyShowOnShift: true
+
+color:
+  colors: true
+
+  useMaterialColors: true
+
+  defaultColor: §e
+
+  minimumBrightness: 0.1
+
+molecule:
+  showMolecules: true
+
+  moleculeScale: 20
+
+  benzeneCircle: DOUBLE_BONDS
+
+  spinMolecules: true
+
+  spinSpeedMultiplier: 1.0
+
+alloy:
+  showAlloys: false
+
+  pieChartRadius: 32
+
+  recursive: false
+
+  partsByMass: false
+
+fun:
+  aromanticBenzene: false
+
+debugMode: false
+

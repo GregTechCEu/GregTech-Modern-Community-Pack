@@ -1673,6 +1673,44 @@
             ]
         },
         {
+            "pakku_id": "9SK1I0DbfE2ECuCe",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "gregtech-molecule-drawings"
+            },
+            "name": {
+                "curseforge": "GregTech Molecule Drawings"
+            },
+            "id": {
+                "curseforge": "1348330"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "gtmoldraw-3.3.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8073/757/gtmoldraw-3.3.0.jar",
+                    "id": "8073757",
+                    "parent_id": "1348330",
+                    "hashes": {
+                        "sha1": "9666c36340ef77f8ef0b5e4bb9e019bebe4f9650",
+                        "md5": "ab1360ecf3f384f9e67d5b0e1dcb2f5a"
+                    },
+                    "required_dependencies": [
+                        "890405"
+                    ],
+                    "size": 939444,
+                    "date_published": "2026-05-11T14:23:00.833Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "NovkICNodBDZWk5p",
             "pakku_links": [
                 "UyahW1PXngw4JtYQ"
