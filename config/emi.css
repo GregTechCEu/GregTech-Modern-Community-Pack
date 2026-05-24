@@ -22,6 +22,11 @@
 	index-source: creative;
 
 	/**
+	 * Which sidebar should be searched using the search bar.
+	 */
+	search-sidebar: right;
+
+	/**
 	 * Whether normal search queries should include the tooltip.
 	 */
 	search-tooltip-by-default: true;
@@ -126,7 +131,7 @@
 	/**
 	 * Where to show workstations in the recipe screen
 	 */
-	workstation-location: bottom;
+	workstation-location: left;
 
 	/**
 	 * Display cost per batch when hovering a recipe output
@@ -202,7 +207,7 @@
 	/**
 	 * The subpanels in the right sidebar
 	 */
-	right-sidebar-subpanels: lookup-history 3;
+	right-sidebar-subpanels: lookup-history 2, craft-history 2;
 
 	/**
 	 * How many columns and rows of ingredients to limit the right sidebar to
