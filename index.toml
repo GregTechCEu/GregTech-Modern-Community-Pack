@@ -285,38 +285,6 @@ file = "config/jade/sort-order.json"
 hash = "d4219d903d3aed0aa44b6d33ea517df4a460b0f340286ecfc2c646d8569b4320"
 
 [[files]]
-file = "config/jei/blacklist.cfg"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "30d4b4e499e68abc705244f0210098245d1ec762b320c0298a3ada7a30a536ff"
-
-[[files]]
-file = "config/jei/ingredient-list-type-sort-order.ini"
-hash = "39b5426fb7faf645a83c210d457352b05f64859d4b9adb58242c113c2c8e6878"
-
-[[files]]
-file = "config/jei/jei-client.ini"
-hash = "d1484868aa602e0f283aa2b3e07efedd86cdcf597ad61654b7e8b647fa896b9b"
-
-[[files]]
-file = "config/jei/jei-colors.ini"
-hash = "c6328dcf3fb8b20a9f6ea6b61266ce289565c167353e183a105fb4915c36c072"
-
-[[files]]
-file = "config/jei/jei-debug.ini"
-hash = "fed5a1f6e741725e0946ec0c3f753994ffed14bb7bcbef81e77e1bb960495e31"
-
-[[files]]
-file = "config/jei/jei-mod-id-format.ini"
-hash = "34eb990ae2cf62220a0d1be95629bcac46e6732f1cd6f7b6fdc54bcae02916e5"
-
-[[files]]
-file = "config/jei/recipe-category-sort-order.ini"
-hash = "eda7204d996eba31bba8a388f641c0826a2610f1e4471cd50803f1969b9cedbd"
-
-[[files]]
 file = "config/modelfix-client.toml"
 hash = "dc12493cf9c73ab737fd3e4d39576eadc2c2c11fb730295ab5a34b510fb7d850"
 
@@ -538,7 +506,7 @@ hash = "da1d071fe0d02f05ec5a94726a6b5f5014aff441acea105e28939f2ffb227014"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "4cd0855fa47e70ad05638740a8cccfd560221277e6bfd98950b2d48689aa45c6"
+hash = "04e361afe2d9800b627db1c0389558b9b561f7aa448f3f4a3e22c1431225eff8"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -635,10 +603,6 @@ hash = "9a309f6c36b3232028bbdf9720098913bdf8faafe7372a14cc41217f9548cd65"
 [[files]]
 file = "kubejs/server_scripts/building/xtones.js"
 hash = "8b7f2f0a99a9e45d6d4997a99e984f0a8502916fd26b11ec3fca87df398d4d19"
-
-[[files]]
-file = "kubejs/server_scripts/ender_storage.js"
-hash = "0684e9dcf9c752c3c7218ec71fdd37f64897aa1236de18d02b8920b908781d5f"
 
 [[files]]
 file = "kubejs/server_scripts/gregtech/components.js"
