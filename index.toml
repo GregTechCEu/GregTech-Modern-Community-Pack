@@ -937,7 +937,7 @@ metafile = true
 
 [[files]]
 file = "mods/gregtechceu-modern.pw.toml"
-hash = "7ce907dafa5ddfd25353cbdd258559f04db20c152f5228f10486d1436c6634d4"
+hash = "37d8f1796925d6efb83c0ddb31f6bf7c2dd723f282c50fab98db324e9ac5bac0"
 metafile = true
 
 [[files]]
@@ -1134,3 +1134,7 @@ metafile = true
 file = "mods/yeetusexperimentus.pw.toml"
 hash = "7aca72d7440da7045b3bff8f754027deab9924a9bb52d768977b2862f2b619e4"
 metafile = true
+
+[[files]]
+file = "update-gtceu-snapshot.sh"
+hash = "f9d77267a4ba45c21c6511507499d54e6f97c102729f84c2253c69ee14a69069"

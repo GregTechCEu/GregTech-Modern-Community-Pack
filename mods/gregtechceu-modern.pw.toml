@@ -1,13 +1,8 @@
-name = "GregTech CEu Modern"
-filename = "gtceu-1.20.1-7.5.3.jar"
+name = "gregtechceu-modern"
+filename = "gtceu-1.20.1-8.0.0-20260624.085446-116.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "2e9de016b74826d43f0d4e619a755e8ec0253784"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 7917773
-project-id = 890405
+url = "https://maven.gtceu.com/com/gregtechceu/gtceu/gtceu-1.20.1/8.0.0-SNAPSHOT/gtceu-1.20.1-8.0.0-20260624.085446-116.jar"
+hash-format = "sha256"
+hash = "595418e622bb5508aa0c981cb3f521acae3fd6432f34420dfdbf1392cba82722"
