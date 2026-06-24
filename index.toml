@@ -714,11 +714,11 @@ hash = "1251ce19a3fb1d2b029c1cb2b1ed3020e07e514eaad8786b5a3c96e4a1e0713a"
 
 [[files]]
 file = "kubejs/startup_scripts/recipes/construction_core.js"
-hash = "b611e4931649648378da167b2cd2c4574614d4efec579959e2d1c87e995f04af"
+hash = "2236e9c653d07352378dc82bd0f7a545df3a7e3590734260490fb5c10dba56f6"
 
 [[files]]
 file = "kubejs/startup_scripts/recipes/greenhouse.js"
-hash = "e3fa23749515ff0720ceff36d06d1c36872b41eb41b62b2d0098ea9d47603add"
+hash = "9e6b4de6f95d4d293d528ac33734e38413da657f9d32c303e281d29e0cc7d4ca"
 
 [[files]]
 file = "mods/ae2-crafting-tree.pw.toml"
@@ -937,7 +937,7 @@ metafile = true
 
 [[files]]
 file = "mods/gregtechceu-modern.pw.toml"
-hash = "37d8f1796925d6efb83c0ddb31f6bf7c2dd723f282c50fab98db324e9ac5bac0"
+hash = "a5610182f98be0b62ca0a337f7dd2ea2648d28b46ccc7cf9cacbb2f2551d4b69"
 metafile = true
 
 [[files]]

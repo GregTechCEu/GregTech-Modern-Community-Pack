@@ -1,8 +1,8 @@
 name = "gregtechceu-modern"
-filename = "gtceu-1.20.1-8.0.0-20260624.085446-116.jar"
+filename = "gtceu-1.20.1-8.0.0-20260624.184224-119.jar"
 side = "both"
 
 [download]
-url = "https://maven.gtceu.com/com/gregtechceu/gtceu/gtceu-1.20.1/8.0.0-SNAPSHOT/gtceu-1.20.1-8.0.0-20260624.085446-116.jar"
+url = "https://maven.gtceu.com/com/gregtechceu/gtceu/gtceu-1.20.1/8.0.0-SNAPSHOT/gtceu-1.20.1-8.0.0-20260624.184224-119.jar"
 hash-format = "sha256"
-hash = "595418e622bb5508aa0c981cb3f521acae3fd6432f34420dfdbf1392cba82722"
+hash = "ca8b2cb7075d8b353743ac9c7c171547656cd629420874c00f0f418ba0cf3e62"
