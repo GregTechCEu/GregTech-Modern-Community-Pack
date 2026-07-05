@@ -522,7 +522,7 @@ hash = "fe4ad89f75d94bdc48319efb0a746101056d2abfae3a090319931ca6895a9c0a"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/ae2.js"
-hash = "767c3db7729bae43bba56ea8340a29b8f225be4fa68ecf1cc7734b809f37bcfb"
+hash = "09b90da3d788cf548c81ed2147d951f91c2a499931dcfa3426a0d6b9ed809f0b"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/ae2wtlib.js"
@@ -558,7 +558,7 @@ hash = "9d7b9fab086897c3448beb9a8b6120d71312d9bf382726f8d108793c33efdebb"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/inter_providers.js"
-hash = "7b2903c315b6dd1b0fe938e7f8220f4ca621b945373aa82a6a40b326cdfe6044"
+hash = "0eb7125658dfa184e47ee4dce359735b4e8a0eb2bce2080eb85c50a035da9fe7"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/molecular_assemblers.js"
@@ -710,7 +710,11 @@ hash = "4243acf6c16297a0dc6f87230d2e061571766f93bcfa04e0949535e36edc7b86"
 
 [[files]]
 file = "kubejs/startup_scripts/material_testing/material.js"
-hash = "1251ce19a3fb1d2b029c1cb2b1ed3020e07e514eaad8786b5a3c96e4a1e0713a"
+hash = "19d14aa44fabb2cd67a85d3075b75e6a7c36455f1fdb6a61af23a503480c1f87"
+
+[[files]]
+file = "kubejs/startup_scripts/material_testing/modification.js"
+hash = "7c42419190f26927ac4248ab130f4c46a10bfbb235210039673eea4680287b5b"
 
 [[files]]
 file = "kubejs/startup_scripts/recipes/construction_core.js"
@@ -937,7 +941,7 @@ metafile = true
 
 [[files]]
 file = "mods/gregtechceu-modern.pw.toml"
-hash = "8b56f76afff7cd11a725e7c951e6f12ccd3f0433e0741c94892c98d6875cda85"
+hash = "f03de5781bacb87fd454ad36433b25c46289a3b39000c69e3550a16c302bcc62"
 metafile = true
 
 [[files]]
