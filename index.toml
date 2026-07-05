@@ -714,7 +714,7 @@ hash = "19d14aa44fabb2cd67a85d3075b75e6a7c36455f1fdb6a61af23a503480c1f87"
 
 [[files]]
 file = "kubejs/startup_scripts/material_testing/modification.js"
-hash = "7c42419190f26927ac4248ab130f4c46a10bfbb235210039673eea4680287b5b"
+hash = "c200a5e4319ac0379601feb6c34c03ed8930ffef768e03a520ac4a78be913242"
 
 [[files]]
 file = "kubejs/startup_scripts/recipes/construction_core.js"

@@ -1,12 +1,12 @@
 name = "GregTech CEu Modern Community Pack"
 author = "ursamina"
-version = "1.14.5"
+version = "1.15.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "fb92556c0a66c514281e85e989e2326794e1a8ae51fd40e7a350a9cee12b3720"
+hash = "7b66401ab105a82926a77d583d064d78da56f0823ca0cdb2e46398792d23b3a9"
 
 [versions]
 forge = "47.4.10"
