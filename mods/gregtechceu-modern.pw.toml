@@ -1,5 +1,6 @@
 name = "gregtechceu-modern"
 filename = "gtceu-1.20.1-8.0.0-20260704.061455-131.jar"
+side = "both"
 
 [download]
 url = "https://maven.gtceu.com/com/gregtechceu/gtceu/gtceu-1.20.1/8.0.0-SNAPSHOT/gtceu-1.20.1-8.0.0-20260704.061455-131.jar"

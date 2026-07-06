@@ -522,7 +522,7 @@ hash = "fe4ad89f75d94bdc48319efb0a746101056d2abfae3a090319931ca6895a9c0a"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/ae2.js"
-hash = "09b90da3d788cf548c81ed2147d951f91c2a499931dcfa3426a0d6b9ed809f0b"
+hash = "7ea5047878426b5aedca6c3110cb10e7b59b1fc3a46766675771ecae1a744b37"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/ae2wtlib.js"
@@ -941,7 +941,7 @@ metafile = true
 
 [[files]]
 file = "mods/gregtechceu-modern.pw.toml"
-hash = "f03de5781bacb87fd454ad36433b25c46289a3b39000c69e3550a16c302bcc62"
+hash = "5beb333b884c3ad70c6385c8000f1ec9434c4a46a902040beba306a53a5e8f3b"
 metafile = true
 
 [[files]]

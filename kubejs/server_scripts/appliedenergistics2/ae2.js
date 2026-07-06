@@ -379,13 +379,13 @@ ServerEvents.recipes((event) => {
   greg
     .compressor("gtceu:fluix_plate_to_dust")
     .itemInputs("#forge:dusts/fluix")
-    .itemOutputs(ChemicalHelper.get(TagPrefix.plate, GTMaterialRegistry.getMaterial("fluix"), 1))
+    .itemOutputs(ChemicalHelper.get(TagPrefix.plate, GTMaterials.get("fluix"), 1))
     .duration(400)
     .EUt(2);
   greg
     .cutter("gtceu:fluix_block_to_plate")
     .itemInputs("ae2:fluix_block")
-    .itemOutputs(ChemicalHelper.get(TagPrefix.plate, GTMaterialRegistry.getMaterial("fluix"), 4))
+    .itemOutputs(ChemicalHelper.get(TagPrefix.plate, GTMaterials.get("fluix"), 4))
     .duration(400)
     .EUt(GTValues.VA[GTValues.LV]);
 
