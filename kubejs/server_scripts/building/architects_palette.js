@@ -217,7 +217,7 @@ ServerEvents.recipes((event) => {
     .macerator("unobtanium")
     .itemInputs("architects_palette:unobtanium_block")
     .itemOutputs("4x architects_palette:unobtanium")
-    .chancedOutput(Item.of("architects_palette:unobtanium", 1), 100, 0)
+    .chancedOutput(Item.of("architects_palette:unobtanium", 1), 100)
     .EUt(GTValues.VA[GTValues.HV])
     .duration(2000);
 

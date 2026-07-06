@@ -590,7 +590,7 @@ hash = "65044811e34e7b2d2d2728ed0bd025f4994369ae8b97b6711209a0469cafa96c"
 
 [[files]]
 file = "kubejs/server_scripts/building/architects_palette.js"
-hash = "a9dee8e45e19377df2b859b09fa3f8961d5c3bff8153148e05efac9adfb6cd07"
+hash = "f2a132715b9e7176ed12b246e291238ecd8bba198a1e7e36b5c36db09868ae39"
 
 [[files]]
 file = "kubejs/server_scripts/building/building_blocks.js"
