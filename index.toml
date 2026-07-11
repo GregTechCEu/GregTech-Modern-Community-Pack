@@ -702,11 +702,11 @@ hash = "509f876d9767bf536a5452021bef3dff8cf1d10345f2b4aba8d2df529763edbe"
 
 [[files]]
 file = "kubejs/startup_scripts/machinery/construction_core.js"
-hash = "ec9b2945b770e2d03fc015c25ab3cabbaecf68dd8798d06799ca79477167bce7"
+hash = "710aa5d76a9d668be223e46891852160fc4f04399bd4d48ffb8a3ed16e53cfa4"
 
 [[files]]
 file = "kubejs/startup_scripts/machinery/greenhouse.js"
-hash = "4243acf6c16297a0dc6f87230d2e061571766f93bcfa04e0949535e36edc7b86"
+hash = "28bbfb27626f818bb9cf0462aea77a672a1a06ce9d41d7b91e5046972d6df8e7"
 
 [[files]]
 file = "kubejs/startup_scripts/material_testing/material.js"
