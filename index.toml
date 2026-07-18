@@ -550,7 +550,7 @@ hash = "e68a97b24aa63aa8290b9891b02af7499ccd7f9a1dc2ef2cc3d183d660c48177"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/extendedae2.js"
-hash = "17e494a87f0b9d1b242a90f75fa3ae8903db2c76a87ab1a9152394ec3798f766"
+hash = "5d887bff0753f3784144091d56648ad54f547a3f3759d6c98ca4fa90265e58a5"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/inscriber.js"
@@ -586,7 +586,7 @@ hash = "a184a4372a849553c142772f0f3a434fb59d0fa242c317deb2556451bd9880a5"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/terminals.js"
-hash = "65044811e34e7b2d2d2728ed0bd025f4994369ae8b97b6711209a0469cafa96c"
+hash = "112efce9d01676bcd0de0ab882fbeb8c114a303154b4f7e48dba37b1b7242c10"
 
 [[files]]
 file = "kubejs/server_scripts/building/architects_palette.js"
