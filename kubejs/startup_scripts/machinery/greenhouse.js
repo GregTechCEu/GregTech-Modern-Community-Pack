@@ -6,7 +6,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .appearanceBlock(GTBlocks.MACHINE_CASING_ULV)
     .recipeModifiers([GTRecipeModifiers.OC_NON_PERFECT, GTRecipeModifiers.BATCH_MODE])
     .pattern((definition) =>
-      FactoryBlockPattern.start()
+      FactoryBlockPattern.start(RelativeDirection.FRONT, RelativeDirection.UP, RelativeDirection.RIGHT)
         .slice("0BBB0", "0BBB0", "0BBB0", "0BBB0")
         .slice("BBBBB", "BDDDB", "B###B", "BGGGB")
         .slice("BBBBB", "BDDDB", "B###B", "BGGGB")
