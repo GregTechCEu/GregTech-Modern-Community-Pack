@@ -785,21 +785,30 @@
 				"7FA0ACB7F161F378"
 			]
 			description: [
-				"Note that in theory, the &3EV Chemical Reactor&r is skippable by using the &3Large Chemical Reactor&r instead, but we're evil enough to force you to make this."
+				"Note that in theory, the &3EV Chemical Reactor&r is skippable by using the &3Large Chemical Reactor&r instead, so feel free to skip this quest."
 				""
 				"&7It's still useful due to its compact size!"
 				""
 				"&8Honestly, if making one of these is a huge problem material-wise, take a look at your infrastructure."
 			]
+			icon: "gtceu:ev_chemical_reactor"
 			id: "7D15EEE81B1A3100"
 			shape: "square"
 			size: 0.75d
 			subtitle: "Chemistry gets even harder"
-			tasks: [{
-				id: "0AF5929611BCDF2C"
-				item: "gtceu:ev_chemical_reactor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0AF5929611BCDF2C"
+					item: "gtceu:ev_chemical_reactor"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "399628027D7438B9"
+					title: "Just let me cook!"
+					type: "checkmark"
+				}
+			]
 			title: "Extreme Chemical Reactions"
 			x: 5.625d
 			y: 5.625d
