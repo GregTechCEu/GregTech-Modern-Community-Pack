@@ -586,18 +586,28 @@
 			id: "00C14E3B8009DF7F"
 			shape: "rsquare"
 			size: 0.66d
-			tasks: [
-				{
-					id: "6733F9F527CA9B29"
-					item: "gtceu:luv_energy_input_hatch"
-					type: "item"
+			subtitle: "When life gives you energy, make more of it"
+			tasks: [{
+				id: "6733F9F527CA9B29"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:luv_energy_input_hatch"
+							}
+							{
+								Count: 1b
+								id: "gtceu:luv_energy_output_hatch"
+							}
+						]
+					}
 				}
-				{
-					id: "6CE9FCCC37446BFD"
-					item: "gtceu:luv_energy_output_hatch"
-					type: "item"
-				}
-			]
+				title: "MORE ENERGY!"
+				type: "item"
+			}]
 			title: "Upgrading your Assembly Line"
 			x: 2.25d
 			y: 2.25d
