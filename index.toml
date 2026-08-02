@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "AI_POLICY.md"
+hash = "26e36ab96e9f0d7d38a3b1a4996b734d7eb55ce2ebfa3c704829cd67a740080a"
+
+[[files]]
 file = "LICENSE"
 hash = "7ffe1954587c77dfba1cf8eb9b2ea743671fa6e63f9e7a2f258119d42e14eefe"
 
@@ -130,7 +134,7 @@ hash = "3de3b8987fbd6652079f9a6f8ff7f0d140753eb94563b31554648a09990d89e1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv__high_voltage.snbt"
-hash = "5c2fe63f75cc01610eeef47184f35b6d1438295dd02a27b0a9bc894e61735ec8"
+hash = "c412eacca0e03c6dd9c979d9bca0d3c98fa8cb35613ce8268f4f783934212b47"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv__insane_voltage.snbt"
