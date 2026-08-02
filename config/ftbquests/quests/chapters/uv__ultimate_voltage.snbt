@@ -368,18 +368,28 @@
 			id: "2F2F82D9DE3C798C"
 			shape: "rsquare"
 			size: 0.66d
-			tasks: [
-				{
-					id: "4783D6B309027111"
-					item: "gtceu:uv_energy_input_hatch"
-					type: "item"
+			subtitle: "I will finish this modpack in the next 15 minutes, right?"
+			tasks: [{
+				id: "4783D6B309027111"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:uv_energy_input_hatch"
+							}
+							{
+								Count: 1b
+								id: "gtceu:uv_energy_output_hatch"
+							}
+						]
+					}
 				}
-				{
-					id: "62593894E98AFC45"
-					item: "gtceu:uv_energy_output_hatch"
-					type: "item"
-				}
-			]
+				title: "Look at those..."
+				type: "item"
+			}]
 			title: "Upgrading your Assembly Line III"
 			x: 4.5d
 			y: 0.375d
@@ -416,18 +426,28 @@
 			id: "5570F02C03267B36"
 			shape: "rsquare"
 			size: 0.66d
-			tasks: [
-				{
-					id: "4DF40C8FF003DDC6"
-					item: "gtceu:uhv_energy_input_hatch"
-					type: "item"
+			subtitle: "I HAVE THE POWER!"
+			tasks: [{
+				id: "4DF40C8FF003DDC6"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:uhv_energy_input_hatch"
+							}
+							{
+								Count: 1b
+								id: "gtceu:uhv_energy_output_hatch"
+							}
+						]
+					}
 				}
-				{
-					id: "6E49D6D700F92C39"
-					item: "gtceu:uhv_energy_output_hatch"
-					type: "item"
-				}
-			]
+				title: "Finally!"
+				type: "item"
+			}]
 			title: "Upgrading your Assembly Line for the Last Time"
 			x: 6.75d
 			y: -1.875d
