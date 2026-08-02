@@ -362,6 +362,7 @@
 			dependencies: [
 				"6975F16F5B50F17F"
 				"16B735F9C391D260"
+				"4AFD3073C731A1E4"
 			]
 			description: [
 				"&bDigital fluid storage&r is pretty cool. Each &b1k ME Fluid Storage Cell&r holds up to &d18 types&r of fluid, and can hold &6over 8,000 buckets&r of a single fluid type! That's more than a &3Super Tank 2&r!"
