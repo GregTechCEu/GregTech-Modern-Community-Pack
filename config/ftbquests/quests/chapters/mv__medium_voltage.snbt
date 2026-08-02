@@ -131,7 +131,23 @@
 			tasks: [
 				{
 					id: "095C98D86D021B2E"
-					item: "gtceu:lv_brewery"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:lv_brewery"
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_brewery"
+								}
+							]
+						}
+					}
+					title: "Let them brew!"
 					type: "item"
 				}
 				{
