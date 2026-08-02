@@ -492,6 +492,7 @@
 				""
 				"&oThe &3Fusion Reactor I&f can only run recipes up to a required EU of 160 MEU to start. It will also overclock up to &dLuV&f at best, even if you upgrade to ZPM Hatches, so don't stress over attempting this."
 			]
+			icon: "gtceu:luv_fusion_reactor"
 			id: "546CC03435E763CF"
 			shape: "gear"
 			size: 1.3d
