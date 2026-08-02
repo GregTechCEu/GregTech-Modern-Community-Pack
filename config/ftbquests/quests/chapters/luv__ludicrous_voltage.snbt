@@ -496,11 +496,18 @@
 			shape: "gear"
 			size: 1.3d
 			subtitle: "Stellar power"
-			tasks: [{
-				id: "48A4D39ED0E11EBC"
-				item: "gtceu:luv_fusion_reactor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "48A4D39ED0E11EBC"
+					item: "gtceu:luv_fusion_reactor"
+					type: "item"
+				}
+				{
+					id: "3BFD721E6324023E"
+					item: "gtceu:fusion_casing"
+					type: "item"
+				}
+			]
 			title: "Fusion Reactor I"
 			x: 5.625d
 			y: 2.25d
