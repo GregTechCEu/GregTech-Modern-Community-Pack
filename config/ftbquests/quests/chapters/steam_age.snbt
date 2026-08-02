@@ -569,6 +569,7 @@
 				""
 				"You can also process Dirt in the Extractor for &aBones&r, which makes getting &aBone Meal&r a lot easier for Peaceful players."
 			]
+			icon: "gtceu:hp_steam_extractor"
 			id: "1436DB89E21264F3"
 			rewards: [{
 				count: 16
@@ -582,7 +583,23 @@
 			subtitle: "The Steam Extractor extracts..."
 			tasks: [{
 				id: "12A46916B1BC17EC"
-				item: "gtceu:hp_steam_extractor"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lp_steam_extractor"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_extractor"
+							}
+						]
+					}
+				}
+				title: "EXTRActors!"
 				type: "item"
 			}]
 			title: "Steam Extractor"
