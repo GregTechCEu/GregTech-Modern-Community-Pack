@@ -390,18 +390,28 @@
 			id: "64EA73FAB2A51850"
 			shape: "rsquare"
 			size: 0.75d
-			tasks: [
-				{
-					id: "0B57097F8879481C"
-					item: "gtceu:zpm_energy_input_hatch"
-					type: "item"
+			subtitle: "My precious..."
+			tasks: [{
+				id: "0B57097F8879481C"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:zpm_energy_input_hatch"
+							}
+							{
+								Count: 1b
+								id: "gtceu:zpm_energy_output_hatch"
+							}
+						]
+					}
 				}
-				{
-					id: "2C60B79F78094E6A"
-					item: "gtceu:zpm_energy_output_hatch"
-					type: "item"
-				}
-			]
+				title: "Energy hatches"
+				type: "item"
+			}]
 			title: "Upgrading your Assembly Line II"
 			x: -2.625d
 			y: 2.25d

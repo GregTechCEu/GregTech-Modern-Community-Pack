@@ -186,7 +186,7 @@ hash = "8095cd533cc73a8c978732d07017080d3a73a7f016ef4d59db5473c60027974e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/zpm__zero_point_module.snbt"
-hash = "7fb0ab7a9aadbad7563ecfac1cedf3204a70761abb5b93df84f77f3a7504ceba"
+hash = "07fdeecd23d0f1d4d2ede235a58ad40868b3cf1d75997d332179733f11eeb79c"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
