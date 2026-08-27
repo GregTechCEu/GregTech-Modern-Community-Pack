@@ -362,9 +362,10 @@
 			dependencies: [
 				"6975F16F5B50F17F"
 				"16B735F9C391D260"
+				"4AFD3073C731A1E4"
 			]
 			description: [
-				"&bDigital fluid storage&r is pretty cool. Each &b1k ME Fluid Storage Cell&r holds up to &d5 types&r of fluid, and can hold &6over 8,000 buckets&r of those 5 fluid types! That's more than a &3Super Tank 2&r!"
+				"&bDigital fluid storage&r is pretty cool. Each &b1k ME Fluid Storage Cell&r holds up to &d18 types&r of fluid, and can hold &6over 8,000 buckets&r when partitioned to one fluid type! That's more than a &3Super Tank 2&r!"
 				""
 				"You may want to &4format&r Fluid Storage Cells to certain types to prevent the network from clogging. Make a &3Cell Workbench&r to do so."
 			]
