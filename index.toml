@@ -785,6 +785,11 @@ hash = "49f9d94df22724949d2ce1ae70b73461dfe7d92ce6ad6ceae9739cef0b34a089"
 metafile = true
 
 [[files]]
+file = "mods/bridging-mod.pw.toml"
+hash = "dfab7d93321e388374ad76d38b5ed6f0ccc677f8501daee6d09356c0d89a1fef"
+metafile = true
+
+[[files]]
 file = "mods/building-gadgets.pw.toml"
 hash = "528a5c2d50126e1b2906b47449b40a996fce3b4a50b9a0460533f2b7b74f5c99"
 metafile = true
@@ -812,6 +817,11 @@ metafile = true
 [[files]]
 file = "mods/controlling.pw.toml"
 hash = "cf8c5f2a139a2571d0d4b8be2b7463255cca721ae4a5741ec71595b7ab530e71"
+metafile = true
+
+[[files]]
+file = "mods/cosmetic-armor-reworked.pw.toml"
+hash = "cfa8aa9c0437721dab2057c932c9cf8ec3d3a11f672040601305238d13df85e8"
 metafile = true
 
 [[files]]
@@ -1132,6 +1142,11 @@ metafile = true
 [[files]]
 file = "mods/xtones-reworked.pw.toml"
 hash = "ca2bee7b79e843414bdc00784d79beab6eef3bd3574915c16be6c8d6a3c238cc"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "c08817fe8025a9d62c8f7abd5f56a54b90673e5ab60f39ae8fa1d70d5ace529b"
 metafile = true
 
 [[files]]
