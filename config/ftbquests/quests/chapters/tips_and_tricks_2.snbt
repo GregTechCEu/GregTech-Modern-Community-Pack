@@ -417,8 +417,6 @@
 				""
 				"If you used any &dDoor(s)&r in the structure, they can remain open. Not very realistic, but convenient!"
 				"{@pagebreak}"
-				"&9&eConfigs:&r If you dislike the Cleanroom mechanics, it can be toggled off in the config file with &5\"B:enableCleanroom\"&r. Multiblocks can be made to ignore cleanroom requirements with &5\"B:cleanMultiblocks\"&r. We encourage you to try it out before deciding."
-				"{@pagebreak}"
 				"In the real world, a Cleanroom is a well-isolated room which maintains a very low concentration of dust and airborne particles. They're normally used for scientific research, and in real-life semiconductor manufacturing. Clean rooms are specifically designed to keep out as many airborne particulates as can be. "
 				""
 				"Clean rooms are also sometimes used with the purpose of preventing materials from escaping! This is often the primary aim in fields such as pharmaceutics, nuclear work, and hazardous biology."

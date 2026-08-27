@@ -174,11 +174,11 @@ hash = "070e4c59640dc3014745eb4f2b83f918342a92c7dbec9a44c7e003500de90904"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/steam_age.snbt"
-hash = "ee1e70f4ed1b634e718380b791ec23bb0ded4ee2d0789bb56e789d1c093f3e82"
+hash = "387386fa967ae74ef8f3c7010fe0d443a035f6fa33a45430a8bae2fa14a8dd0f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks_2.snbt"
-hash = "efa0f2b09438b9ccd5bc7ac1629f9ee21d6bb24db62ebcc1c365335ff6305576"
+hash = "69dfd626ac01f62628fc2eba9ade808080fbcbca1fe9341ec6216e5837e0296d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uv__ultimate_voltage.snbt"
