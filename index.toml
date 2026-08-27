@@ -122,7 +122,7 @@ hash = "cc7b7524a1409711280d59e9af31b93d161cb654981abb0b2ea945111734fd3d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev__extreme_voltage.snbt"
-hash = "d0c6552030a59ae11105d9de2e75e393ab8a589afb4610019705483a6144ae25"
+hash = "30246b6bf3ef2174edeb22d00e1a3b3da029c5bad04875b568f1c4446bf8e3dc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gtceu.snbt"
@@ -134,15 +134,15 @@ hash = "3de3b8987fbd6652079f9a6f8ff7f0d140753eb94563b31554648a09990d89e1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv__high_voltage.snbt"
-hash = "5c2fe63f75cc01610eeef47184f35b6d1438295dd02a27b0a9bc894e61735ec8"
+hash = "bbafede434a45fbe05ed1ce7f5b2a006abbb601b20813edb651b5523c6b1a45c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv__insane_voltage.snbt"
-hash = "3e8d67a0e489ad0c423fa452dc7cc5c7f7b2033e737cd9a841d79964856c28af"
+hash = "930c7290e8aa6f14d1fd627813950603bd2ddfe4c940ff83c2b8318ec9fd863b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/luv__ludicrous_voltage.snbt"
-hash = "833e906ad614f3e1c3ea7e589e0db89c23c8021b2e8c4b867a91c955fb3015bf"
+hash = "0209d76ef29fe19a44cc5d7a1ff452062a25f747c655c9a4f73fe37806044d69"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv__low_voltage.snbt"
@@ -154,7 +154,7 @@ hash = "c597f716bb540288bd909925586087298edabb66bf5b65b8f353631f05e295ce"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mv__medium_voltage.snbt"
-hash = "a56548786776759e435b6e7a77a4da2ac285c2fe7fae7886a74d19140f9ff217"
+hash = "71dbc8eb58541be89f546c9df380d059dc5ff31a5a6559180e68eaabe930ec4b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ore_generation.snbt"
@@ -174,7 +174,7 @@ hash = "070e4c59640dc3014745eb4f2b83f918342a92c7dbec9a44c7e003500de90904"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/steam_age.snbt"
-hash = "77232cec33203139fb43919eccdb092da49d10875094453644d41ccadb7a932a"
+hash = "ee1e70f4ed1b634e718380b791ec23bb0ded4ee2d0789bb56e789d1c093f3e82"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks_2.snbt"
@@ -182,15 +182,15 @@ hash = "efa0f2b09438b9ccd5bc7ac1629f9ee21d6bb24db62ebcc1c365335ff6305576"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uv__ultimate_voltage.snbt"
-hash = "29cbbea672860c7c190eecdcfe8d9b183017a1c68b517b84c02675c0f8380f30"
+hash = "6d9f561c83caf89561ffe668a361175cbbe6b328d8d969427b14d78edb1fb0cd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/zpm__zero_point_module.snbt"
-hash = "7fb0ab7a9aadbad7563ecfac1cedf3204a70761abb5b93df84f77f3a7504ceba"
+hash = "cc435437b75c0b9a855237471c41c19ed5e332245d8b3c13b2c5c28a6c0ba604"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "f09e044050912b32b625c79a70916c35497aa989cdf852d08b847110a4c23ed7"
+hash = "0103f4264e1dccf478afc217e7eee8ade864772d43d725938030ef93d4c7e7f1"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/bronze_age.snbt"
@@ -706,7 +706,7 @@ hash = "710aa5d76a9d668be223e46891852160fc4f04399bd4d48ffb8a3ed16e53cfa4"
 
 [[files]]
 file = "kubejs/startup_scripts/machinery/greenhouse.js"
-hash = "28bbfb27626f818bb9cf0462aea77a672a1a06ce9d41d7b91e5046972d6df8e7"
+hash = "8009639bff4e54d962a519986f74ce33e0f94e5307f8ad58d9131fd7833f1d3f"
 
 [[files]]
 file = "kubejs/startup_scripts/material_testing/material.js"
@@ -1141,4 +1141,4 @@ metafile = true
 
 [[files]]
 file = "update-gtceu-snapshot.sh"
-hash = "f9d77267a4ba45c21c6511507499d54e6f97c102729f84c2253c69ee14a69069"
+hash = "cd279a9f7517b53eab35dd2bf3332aba4a3ca42a254bdfd854813595042bff09"

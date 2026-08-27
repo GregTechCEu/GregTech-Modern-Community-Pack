@@ -496,11 +496,25 @@
 			shape: "gear"
 			size: 1.3d
 			subtitle: "Stellar power"
-			tasks: [{
-				id: "48A4D39ED0E11EBC"
-				item: "gtceu:luv_fusion_reactor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "48A4D39ED0E11EBC"
+					item: "gtceu:luv_fusion_reactor"
+					type: "item"
+				}
+				{
+					count: 48L
+					id: "55A98601E295E5CE"
+					item: { Count: 48, id: "gtceu:fusion_casing" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "69ACBDD964544526"
+					item: { Count: 4, id: "gtceu:superconducting_coil" }
+					type: "item"
+				}
+			]
 			title: "Fusion Reactor I"
 			x: 5.625d
 			y: 2.25d
@@ -588,6 +602,7 @@
 				{
 					id: "6CE9FCCC37446BFD"
 					item: "gtceu:luv_energy_output_hatch"
+					optional_task: true
 					type: "item"
 				}
 			]

@@ -399,6 +399,7 @@
 				{
 					id: "2C60B79F78094E6A"
 					item: "gtceu:zpm_energy_output_hatch"
+					optional_task: true
 					type: "item"
 				}
 			]

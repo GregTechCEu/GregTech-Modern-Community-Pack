@@ -113,7 +113,7 @@
 			}]
 			title: "HSS-G"
 			x: 1.5d
-			y: 1.5d
+			y: 0.375d
 		}
 		{
 			dependencies: ["7A1E3C3A2D699C5B"]
@@ -135,7 +135,7 @@
 			}]
 			title: "HSS-E"
 			x: 0.375d
-			y: 2.625d
+			y: 0.375d
 		}
 		{
 			dependencies: [
@@ -346,7 +346,7 @@
 			}]
 			title: "Laminated Glass"
 			x: 2.625d
-			y: 4.875d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -402,6 +402,7 @@
 				"0F192D1F44B9B599"
 				"5CA86A333670A55C"
 				"528CE69DA4358B2E"
+				"7CC40BDAA803D044"
 			]
 			description: [
 				"The &aHPIC&r unlocks &3IV Energy Hatches&r and &3Dynamos&r... You know the drill!"
@@ -983,7 +984,7 @@
 			}]
 			title: "Upgrading your EBF for the millionth time"
 			x: 3.7589285714285765d
-			y: 3.767040816326528d
+			y: 3.75d
 		}
 		{
 			dependencies: ["12B4423F055BFBF5"]
@@ -1009,8 +1010,8 @@
 				}
 			]
 			title: "IV Cutting Machine"
-			x: 1.5d
-			y: 3.75d
+			x: 2.625d
+			y: 4.875d
 		}
 		{
 			dependencies: ["52D952ADBEB67454"]

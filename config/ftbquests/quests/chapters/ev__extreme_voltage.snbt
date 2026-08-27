@@ -805,7 +805,11 @@
 			y: 5.625d
 		}
 		{
-			dependencies: ["7D15EEE81B1A3100"]
+			dependencies: [
+				"7D15EEE81B1A3100"
+				"528CE69DA4358B2E"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"&aNano CPU Wafers&r are made by infusing regular &aCPU Wafers&r with &dGlowstone&r and &9Raw Carbon Fibers&r."
 				""
@@ -818,6 +822,7 @@
 			icon: "gtceu:nano_cpu_wafer"
 			id: "63A87C9303D54487"
 			size: 0.75d
+			subtitle: "Nanomachines, son!"
 			tasks: [
 				{
 					count: 16L
@@ -1802,8 +1807,8 @@
 				type: "item"
 			}]
 			title: "Multiple Fluid Hatches"
-			x: 6.75d
-			y: 5.625d
+			x: 3.37d
+			y: 6.75d
 		}
 		{
 			dependencies: [

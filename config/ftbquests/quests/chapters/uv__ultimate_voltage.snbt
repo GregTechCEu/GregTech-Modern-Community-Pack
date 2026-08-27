@@ -377,6 +377,7 @@
 				{
 					id: "62593894E98AFC45"
 					item: "gtceu:uv_energy_output_hatch"
+					optional_task: true
 					type: "item"
 				}
 			]

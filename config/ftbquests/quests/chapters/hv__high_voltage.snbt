@@ -1370,6 +1370,7 @@
 				"6EB68C28BEE24DEF"
 				"390E59F05132FCB8"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"&aAmmonia&r is &doptional&r in &6HV&r."
 				""
