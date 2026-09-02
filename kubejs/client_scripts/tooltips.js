@@ -35,9 +35,5 @@ ItemEvents.tooltip((event) => {
 
   event.add("expatternprovider:fishbig", Text.gray("Congratulations! You won Minecraft."));
 
-  event.add(["enderstorage:ender_chest", "enderstorage:ender_tank", "enderstorage:ender_pouch"],
-    Text.red("WARNING: These are deprcated and will be removed in a future update.\nPlease convert them into the GT covers in a crafting table.")
-  );
-
   event.add("storagedrawers:personal_key_ftb", Text.gray("Craft me with a regular personal key in a crafting grid."));
 });

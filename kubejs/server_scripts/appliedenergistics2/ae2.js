@@ -121,6 +121,15 @@ ServerEvents.recipes((event) => {
     H: "#gtceu:circuits/hv",
   });
 
+  // Controller
+  event.remove({ id: "ae2:network/blocks/controller"});
+  event.shaped("ae2:controller", ["PFP", "CMC", "PFP"], {
+    P: "#forge:plates/aluminium",
+    F: "#forge:plates/fluix",
+    M: "#gtceu:circuits/mv",
+    C: "#ae2:glass_cable",
+  });
+
   // Energy Acceptor
   event.remove({ id: "ae2:network/blocks/energy_energy_acceptor" });
   event.shaped("ae2:energy_acceptor", ["PFP", "FVF", "PFP"], {
@@ -366,13 +375,19 @@ ServerEvents.recipes((event) => {
     .duration(100)
     .EUt(24);
 
-
+  // Fluix Plate
   greg
-    .lathe("fluix_lathing")
-    .itemInputs("ae2:fluix_crystal")
-    .itemOutputs("gtceu:fluix_rod")
-    .duration(200)
-    .EUt(8);
+    .compressor("gtceu:fluix_plate_to_dust")
+    .itemInputs("#forge:dusts/fluix")
+    .itemOutputs(ChemicalHelper.get(TagPrefix.plate, GTMaterials.get("fluix"), 1))
+    .duration(400)
+    .EUt(2);
+  greg
+    .cutter("gtceu:fluix_block_to_plate")
+    .itemInputs("ae2:fluix_block")
+    .itemOutputs(ChemicalHelper.get(TagPrefix.plate, GTMaterials.get("fluix"), 4))
+    .duration(400)
+    .EUt(GTValues.VA[GTValues.LV]);
 
   // Logic Processor
   event.remove({ id: "ae2:inscriber/logic_processor" });

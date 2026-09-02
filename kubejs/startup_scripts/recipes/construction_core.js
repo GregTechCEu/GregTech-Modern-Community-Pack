@@ -4,7 +4,8 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", (event) => {
     .category("test")
     .setEUIO("in")
     .setMaxIOSize(2, 1, 1, 0)
-    .setSlotOverlay(false, false, GuiTextures.BOX_OVERLAY)
-    .setProgressBar(GuiTextures.PROGRESS_BAR_BATH, FillDirection.LEFT_TO_RIGHT)
+    .setProgressBar(GTGuiTextures.PROGRESS_ASSEMBLER)
+    .setItemSlotsOverlay(IO.IN, 0, 1, GTGuiTextures.BOX_OVERLAY)
+    .setItemSlotOverlay(IO.OUT, 0,  GTGuiTextures.BOX_OVERLAY)
     .setSound(GTSoundEntries.COOLING);
 });

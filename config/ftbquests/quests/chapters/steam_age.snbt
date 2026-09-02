@@ -281,13 +281,15 @@
 				""
 				"The &4Nether&r has more veins to mine, and with those veins, new ores to discover. Check the Ore Tab to learn more about the Nether Veins."
 				""
-				"Additionally, &6Nether Ores are worth two Overworld Ores&r if mined with &3Silk Touch&r. It'd be great if you could craft the book directly, huh? ;)"
+				"Additionally, &6Nether Ores have double the amount compaired to Overworld Ores&r making them worthwhile to mine for the extra resources."
 				"{@pagebreak}"
 				"&4Nether&r veins will take more effort to find - and are more dangerous to mine - than &2Overworld&r veins. Keep on top of your mining by using Waypoints - and remember that veins can be above you as well!"
 				""
 				"If you're yet to transition to &dPeaceful&r, it isn't too late to make the switch! There's no need to bother fighting Ghasts or Blazes in GTCEu."
 				""
 				"This is because the Blaze/Magma Cube and Enderman loot tables have been changed in this pack to &5Sulfur Dust&r and &5Ender Pearl Dust&r respectively, so you can't just rush the End."
+				""
+				"&l&3Lore:&r&o In the past &4Nether&r&o Ores would need to be silk touched to get the double ore bonus. Thankfully this has changed and now they drop twice as much raw ore compaired to their &2Overworld&r&o counterparts when normally mined.&r"
 			]
 			icon: "minecraft:netherrack"
 			id: "7CAD6FF241A827F7"
@@ -568,6 +570,8 @@
 				"Not many items are made in the &3Extractor&r during the &6Steam Age&r, but it's used to make &9Rubber&r, which you'll need after Steel."
 				""
 				"You can also process Dirt in the Extractor for &aBones&r, which makes getting &aBone Meal&r a lot easier for Peaceful players."
+				""
+				"&5High Pressure&r machines are now available for you to make, meaning you can skip directly to the HP Extractor."
 			]
 			id: "1436DB89E21264F3"
 			rewards: [{
@@ -582,7 +586,22 @@
 			subtitle: "The Steam Extractor extracts..."
 			tasks: [{
 				id: "12A46916B1BC17EC"
-				item: "gtceu:hp_steam_extractor"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lp_steam_extractor"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_extractor"
+							}
+						]
+					}
+				}
 				type: "item"
 			}]
 			title: "Steam Extractor"
@@ -1615,7 +1634,7 @@
 				""
 				"The &3Wooden Multiblock Tank&r&r holds &a250,000 mB&r, but you won't be able to use it to store &chot Fluids&r such as Lava, or &cGases&r such as Steam or Oxygen."
 				""
-				"The &3Bronze Multiblock Tank&r holds &a500,000 mB&r, lifiting the maximum fluid tempreture and can now store &cGases&r. "
+				"The &3Bronze Multiblock Tank&r holds &a500,000 mB&r, lifting the maximum fluid temperature and can now store &cGases&r. "
 				""
 				"The &3Steel Multiblock Tank&r holds &a1,000,000 mB&r, and lifts all the aforementioned fluid restrictions."
 				""

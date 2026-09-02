@@ -121,6 +121,11 @@ ServerEvents.recipes((event) => {
     C: "#gtceu:circuits/hv",
     s: "#forge:tools/screwdrivers"
   });
+  greg.assembler("gtceu:exae2_pattern_access")
+    .itemInputs("ae2:pattern_access_terminal", "#gtceu:circuits/hv", "ae2:logic_processor")
+    .itemOutputs("expatternprovider:ex_pattern_access_part")
+    .duration(10 * 20)
+    .EUt(GTValues.VA[GTValues.HV]);
 
   event.remove({ id: "expatternprovider:ebus_upgrade" })
   greg.assembler("gtceu:ebus_upgrade")

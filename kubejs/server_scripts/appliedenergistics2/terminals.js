@@ -1,4 +1,5 @@
 ServerEvents.recipes((event) => {
+  const greg = event.recipes.gtceu;
   // Wireless Terminal
   event.remove({ id: "ae2:network/wireless_terminal" });
   event.shaped("ae2:wireless_terminal", ["wRd", "CTC", "KLK"], {
@@ -10,6 +11,12 @@ ServerEvents.recipes((event) => {
     K: "ae2:fluix_glass_cable",
     L: "gtceu:lapotron_crystal",
   });
+  greg.assembler("gtceu:wireless_terminal")
+    .itemInputs("ae2:wireless_receiver", "ae2:terminal", "2x #gtceu:circuits/hv", "2x ae2:fluix_glass_cable")
+    .itemOutputs("ae2:wireless_terminal")
+    .duration(5 * 20)
+    .EUt(GTValues.VA[GTValues.HV]);
+
   // Wireless Crafting Terminal
   event.remove({ id: "ae2:network/wireless_crafting_terminal" });
   event.remove({ id: "ae2:network/upgrade_wireless_crafting_terminal" });
@@ -19,6 +26,11 @@ ServerEvents.recipes((event) => {
     C: "crafting_table",
     K: "ae2:fluix_glass_cable",
   });
+  greg.assembler("gtceu:wireless_crafting_terminal")
+    .itemInputs("ae2:wireless_terminal", "minecraft:crafting_table", "ae2:fluix_glass_cable")
+    .itemOutputs("ae2:wireless_crafting_terminal")
+    .duration(10 * 20)
+    .EUt(GTValues.VA[GTValues.HV]);
 
   // ME Storage Bus
   event.remove({ id: "ae2:network/parts/storage_bus" });
@@ -78,6 +90,11 @@ ServerEvents.recipes((event) => {
     P: "ae2:semi_dark_monitor",
     d: "#forge:tools/screwdrivers",
   });
+  greg.assembler("gtceu:ae2_terminal")
+    .itemInputs("ae2:calculation_processor", "ae2:logic_processor", "ae2:semi_dark_monitor")
+    .itemOutputs("ae2:terminal")
+    .duration(5 * 20)
+    .EUt(GTValues.VA[GTValues.LV]);
 
   // ME Crafting Terminal
   event.remove({ id: "ae2:network/parts/terminals_crafting" });
@@ -87,6 +104,11 @@ ServerEvents.recipes((event) => {
     C: "ae2:calculation_processor",
     d: "#forge:tools/screwdrivers",
   });
+  greg.assembler("gtceu:ae2_crafting_terminal")
+    .itemInputs("ae2:terminal", "minecraft:crafting_table", "ae2:calculation_processor")
+    .itemOutputs("ae2:crafting_terminal")
+    .duration(10 * 20)
+    .EUt(GTValues.VA[GTValues.LV]);
 
   // ME Pattern Terminal
   event.remove({ id: "ae2:network/parts/terminals_pattern_encoding" });
@@ -96,6 +118,11 @@ ServerEvents.recipes((event) => {
     C: "ae2:engineering_processor",
     d: "#forge:tools/screwdrivers",
   });
+  greg.assembler("gtceu:ae2_pattern_terminal")
+    .itemInputs("ae2:terminal", "ae2:blank_pattern", "ae2:engineering_processor")
+    .itemOutputs("ae2:pattern_encoding_terminal")
+    .duration(10 * 20)
+    .EUt(GTValues.VA[GTValues.LV]);
 
   // ME Pattern Access Terminal
   event.remove({ id: "ae2:network/parts/terminals_pattern_access" });
@@ -105,6 +132,11 @@ ServerEvents.recipes((event) => {
     C: "ae2:fluix_glass_cable",
     d: "#forge:tools/screwdrivers",
   });
+  greg.assembler("gtceu:pattern_access_terminal")
+    .itemInputs("ae2:terminal", "gtceu:polyvinyl_chloride_plate", "ae2:fluix_glass_cable")
+    .itemOutputs("ae2:pattern_access_terminal")
+    .duration(10 * 20)
+    .EUt(GTValues.VA[GTValues.LV]);
 
   // P2P Tunnel
   event.remove({ id: "ae2:network/parts/tunnels_me" });
