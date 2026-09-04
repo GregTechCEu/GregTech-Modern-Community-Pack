@@ -6,8 +6,11 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "946b28d761e4820af265f3c8d56389a7b272a899e300bced736991b4beea2141"
+hash = "8251be242068112f3fc77cddffdd999d3f982837eaca0fc9cdbc2da7f4084bd9"
 
 [versions]
-forge = "47.4.10"
-minecraft = "1.20.1"
+minecraft = "1.21.1"
+neoforge = "21.1.249"
+
+[options]
+acceptable-game-versions = ["1.21"]

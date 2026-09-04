@@ -1,11 +1,12 @@
 const $AEItems = Java.loadClass("appeng.core.definitions.AEItems");
 const $AEBlocks = Java.loadClass("appeng.core.definitions.AEBlocks");
-const setIgnoredItem = "setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,net.minecraft.world.level.ItemLike[])";
+const setIgnoredItem = "setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])";
 
 GTCEuStartupEvents.materialModification(event => {
-    TagPrefix.gem[setIgnoredItem](GTMaterials.get("fluix"), $AEItems.FLUIX_CRYSTAL);
-    TagPrefix.gemFlawless.setIgnored(GTMaterials.get("fluix"));
-    TagPrefix.gemExquisite.setIgnored(GTMaterials.get("fluix"));
-    TagPrefix.block.modifyMaterialAmount(GTMaterials.get("fluix"), 4);
-    TagPrefix.block[setIgnoredItem](GTMaterials.get("fluix"), $AEBlocks.FLUIX_BLOCK.asItem());
+    const fluix_material = GTRegistries.MATERIALS.get("gtceu:fluix");
+    TagPrefix.gem[setIgnoredItem](fluix_material, () => $AEItems.FLUIX_CRYSTAL);
+    TagPrefix.gemFlawless.setIgnored(fluix_material);
+    TagPrefix.gemExquisite.setIgnored(fluix_material);
+    TagPrefix.block.modifyMaterialAmount(fluix_material, 4);
+    TagPrefix.block[setIgnoredItem](fluix_material, (() => $AEBlocks.FLUIX_BLOCK.asItem()));
 });

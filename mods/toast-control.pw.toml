@@ -1,13 +1,13 @@
 name = "Toast Control"
-filename = "ToastControl-1.20.1-8.0.3.jar"
-side = "client"
+filename = "ToastControl-1.21.1-9.0.1.jar"
+side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "e9ef48672f01b076ea3b8c7c5e6a139c2491a67c"
+hash = "33477c2db0479c9be33d1ca3b2fa47cf6c97988c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4711316
+file-id = 6751464
 project-id = 271740

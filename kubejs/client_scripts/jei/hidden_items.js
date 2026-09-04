@@ -1,4 +1,4 @@
-JEIEvents.hideItems(event => {
+RecipeViewerEvents.addEntries("item", event => {
 
   // Hide AE2 facades
   event.hide('ae2:facade')
@@ -47,6 +47,4 @@ JEIEvents.hideItems(event => {
   event.hide('expatternprovider:assembler_matrix_glass')
 
   event.hide('expatternprovider:circuit_cutter')
-
-
 })

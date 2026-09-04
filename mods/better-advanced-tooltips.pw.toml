@@ -1,0 +1,13 @@
+name = "Better Advanced Tooltips"
+filename = "better-advanced-tooltips-2101.1.0-build.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5b73537b908764f2d3fd593a0f56a8b1b034bc50"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8576077
+project-id = 1637623
