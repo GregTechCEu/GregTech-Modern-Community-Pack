@@ -1,50 +1,50 @@
-RecipeViewerEvents.addEntries("item", event => {
+RecipeViewerEvents.removeEntries("item", event => {
 
-  // Hide AE2 facades
-  event.hide('ae2:facade')
+  // Remove AE2 facades
+  event.remove('ae2:facade')
 
-  // Hide the useless storage drawers stuff
-  event.hide('storagedrawers:personal_key_cofh')
-  event.hide('storagedrawers:portability_upgrade')
-  event.hide('storagedrawers:conversion_upgrade')
+  // Remove the useless storage drawers stuff
+  event.remove('storagedrawers:personal_key_cofh')
+  event.remove('storagedrawers:portability_upgrade')
+  event.remove('storagedrawers:conversion_upgrade')
 
-  // Hide all irrelevant stonetype ores
-  event.hide('#forge:ores_in_ground/sand')
-  event.hide('#forge:ores_in_ground/red_sand')
-  event.hide('#forge:ores_in_ground/diorite')
-  event.hide('#forge:ores_in_ground/andesite')
-  event.hide('#forge:ores_in_ground/gravel')
-  event.hide('#forge:ores_in_ground/basalt')
-  event.hide('#forge:ores_in_ground/tuff')
-  event.hide('#forge:ores_in_ground/blackstone')
-  event.hide('#forge:ores_in_ground/marble')
-  event.hide('#forge:ores_in_ground/granite')
-  event.hide('#forge:ores_in_ground/red_granite')
+  // Remove all irrelevant stonetype ores
+  event.remove('#c:ores_in_ground/sand')
+  event.remove('#c:ores_in_ground/red_sand')
+  event.remove('#c:ores_in_ground/diorite')
+  event.remove('#c:ores_in_ground/andesite')
+  event.remove('#c:ores_in_ground/gravel')
+  event.remove('#c:ores_in_ground/basalt')
+  event.remove('#c:ores_in_ground/tuff')
+  event.remove('#c:ores_in_ground/blackstone')
+  event.remove('#c:ores_in_ground/marble')
+  event.remove('#c:ores_in_ground/granite')
+  event.remove('#c:ores_in_ground/red_granite')
 
   // Miscellaneous item hiding
-  event.hide('ae2:ender_dust')
-  event.hide('ae2:certus_quartz_dust')
-  event.hide('ae2:certus_quartz_crystal')
-  event.hide('ae2:fluix_dust')
-  event.hide('ae2:silicon')
+  event.remove('ae2:ender_dust')
+  event.remove('ae2:certus_quartz_dust')
+  event.remove('ae2:certus_quartz_crystal')
+  event.remove('ae2:fluix_dust')
+  event.remove('ae2:silicon')
 
-  event.hide('ae2:flawless_budding_quartz')
-  event.hide('ae2:flawed_budding_quartz')
-  event.hide('ae2:chipped_budding_quartz')
-  event.hide('ae2:damaged_budding_quartz')
+  event.remove('ae2:flawless_budding_quartz')
+  event.remove('ae2:flawed_budding_quartz')
+  event.remove('ae2:chipped_budding_quartz')
+  event.remove('ae2:damaged_budding_quartz')
 
-  event.hide('ae2:small_quartz_bud')
-  event.hide('ae2:medium_quartz_bud')
-  event.hide('ae2:large_quartz_bud')
-  event.hide('ae2:quartz_cluster')
+  event.remove('ae2:small_quartz_bud')
+  event.remove('ae2:medium_quartz_bud')
+  event.remove('ae2:large_quartz_bud')
+  event.remove('ae2:quartz_cluster')
 
-  // Hide any evidence of the eAE multiblock
-  event.hide('expatternprovider:assembler_matrix_frame')
-  event.hide('expatternprovider:assembler_matrix_wall')
-  event.hide('expatternprovider:assembler_matrix_pattern')
-  event.hide('expatternprovider:assembler_matrix_speed')
-  event.hide('expatternprovider:assembler_matrix_crafter')
-  event.hide('expatternprovider:assembler_matrix_glass')
+  // Remove any evidence of the eAE multiblock
+  event.remove('extendedae:assembler_matrix_frame')
+  event.remove('extendedae:assembler_matrix_wall')
+  event.remove('extendedae:assembler_matrix_pattern')
+  event.remove('extendedae:assembler_matrix_speed')
+  event.remove('extendedae:assembler_matrix_crafter')
+  event.remove('extendedae:assembler_matrix_glass')
 
-  event.hide('expatternprovider:circuit_cutter')
+  event.remove('extendedae:circuit_cutter')
 })

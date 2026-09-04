@@ -622,7 +622,7 @@
 			subtitle: "To infinity, and beyond!"
 			tasks: [{
 				id: "3AC7E29D373750F8"
-				item: "expatternprovider:wireless_connect"
+				item: "extendedae:wireless_connect"
 				type: "item"
 			}]
 			title: "The Power of Wireless"
@@ -636,7 +636,7 @@
 				""
 				"Thanks to this innovation, you can automate all the &3Assembly Line&r recipes."
 			]
-			icon: "expatternprovider:ex_interface"
+			icon: "extendedae:ex_interface"
 			id: "79192BA29BE69170"
 			shape: "rsquare"
 			size: 0.66d
@@ -1101,7 +1101,7 @@
 				"{@pagebreak}"
 				"&bLore&r: Neeve, the author of the NAE2 mod which this originated from, suggested tiering this item at &eUXV&r tier, because it \"gives the player way too much power.\" For reference, &eUXV&r is 4 tiers past &3UV&r tier - two tiers before &c&lMAX&r voltage."
 			]
-			icon: "expatternprovider:pattern_modifier"
+			icon: "extendedae:pattern_modifier"
 			id: "5CE0B928479D8535"
 			rewards: [{
 				count: 64
@@ -1114,7 +1114,7 @@
 			subtitle: "The &aPattern Modifier&r does A LOT!"
 			tasks: [{
 				id: "77D0C17BBE681C85"
-				item: "expatternprovider:pattern_modifier"
+				item: "extendedae:pattern_modifier"
 				type: "item"
 			}]
 			title: "Pattern Modifier"

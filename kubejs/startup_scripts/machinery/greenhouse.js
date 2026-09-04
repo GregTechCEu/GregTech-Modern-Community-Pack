@@ -1,4 +1,7 @@
 GTCEuStartupEvents.registry("gtceu:machine", (event) => {
+  // Import Predicates explicitly to stop it attempting to use LootJS's Predicates
+  const $MultiPredicates = Java.loadClass("com.gregtechceu.gtceu.api.multiblock.Predicates");
+
   event
     .create("greenhouse", "multiblock")
     .rotationState(RotationState.NON_Y_AXIS)
@@ -12,17 +15,17 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
         .slice("BBBBB", "BDDDB", "B###B", "BGGGB")
         .slice("BBBBB", "BDDDB", "B###B", "BGGGB")
         .slice("0BBB0", "0BEB0", "0BBB0", "0BBB0")
-        .where("E", Predicates.controller(Predicates.blocks(definition.get())))
-        .where("D", Predicates.blocks("minecraft:dirt"))
-        .where("G", Predicates.blocks("gtceu:tempered_glass"))
+        .where("E", $MultiPredicates.controller($MultiPredicates.blocks(definition.get())))
+        .where("D", $MultiPredicates.blocks("minecraft:dirt"))
+        .where("G", $MultiPredicates.blocks("gtceu:tempered_glass"))
         .where(
           "B",
-          Predicates.blocks("gtceu:ulv_machine_casing")
+          $MultiPredicates.blocks("gtceu:ulv_machine_casing")
             .setMinGlobalLimited(5)
-            .or(Predicates.autoAbilities(definition.getRecipeTypes()))
+            .or($MultiPredicates.autoAbilities(definition.getRecipeTypes()))
         )
-        .where("#", Predicates.air())
-        .where("0", Predicates.any())
+        .where("#", $MultiPredicates.air())
+        .where("0", $MultiPredicates.any())
         .build()
     )
     .workableCasingModel(

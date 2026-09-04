@@ -41,8 +41,8 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "ae2:item_cell_housing" });
   event.shaped("ae2:item_cell_housing", ["GPG", "WCW", "PPP"], {
     G: "ae2:quartz_glass",
-    P: "#forge:plates/steel",
-    W: "#forge:fine_wires/red_alloy",
+    P: "#c:plates/steel",
+    W: "#c:fine_wires/red_alloy",
     C: "#gtceu:circuits/lv",
   });
 
@@ -50,7 +50,7 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "ae2:fluid_cell_housing" });
   event.shaped("2x ae2:fluid_cell_housing", ["GPG", "WCW", "PPP"], {
     G: "ae2:quartz_glass",
-    P: "#forge:plates/ruby",
+    P: "#c:plates/ruby",
     W: "gtceu:simple_soc",
     C: "#gtceu:circuits/ev",
   });

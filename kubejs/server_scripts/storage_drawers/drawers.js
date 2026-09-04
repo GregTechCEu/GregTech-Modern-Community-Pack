@@ -11,8 +11,8 @@ ServerEvents.recipes((event) => {
     "crimson",
     "bamboo",
     "cherry",
-    ["gtstoragedrawers", "gtceu_rubber", "gtceu:rubber"],
-    ["gtstoragedrawers", "gtceu_treated", "gtceu:treated_wood"]
+    // ["gtstoragedrawers", "gtceu_rubber", "gtceu:rubber"], TODO: enable when gtstorage drawers is ported
+    // ["gtstoragedrawers", "gtceu_treated", "gtceu:treated_wood"]
   ];
   woodTypes.forEach((input) => {
     let woodType = "";
@@ -33,14 +33,14 @@ ServerEvents.recipes((event) => {
       ["PPP", "sCr", "PPP"],
       {
         P: `${baseWoodType}_planks`,
-        s: "#forge:tools/saws",
-        C: "#forge:chests/wooden",
-        r: "#forge:tools/mallets",
+        s: "#c:tools/saws",
+        C: "#c:chests/wooden",
+        r: "#c:tools/mallets",
       }
     ).noMirror();
     greg
       .assembler(`${modName}:${woodType}_full_drawers_1`)
-      .itemInputs(`6x ${baseWoodType}_planks`, "#forge:chests/wooden")
+      .itemInputs(`6x ${baseWoodType}_planks`, "#c:chests/wooden")
       .itemOutputs(`${modName}:${woodType}_full_drawers_1`)
       .circuit(9)
       .duration(100)
@@ -51,14 +51,14 @@ ServerEvents.recipes((event) => {
       ["PPP", "rCs", "PPP"],
       {
         P: `${baseWoodType}_planks`,
-        s: "#forge:tools/saws",
-        C: "#forge:chests/wooden",
-        r: "#forge:tools/mallets",
+        s: "#c:tools/saws",
+        C: "#c:chests/wooden",
+        r: "#c:tools/mallets",
       }
     ).noMirror();
     greg
       .assembler(`${modName}:${woodType}_full_drawers_2`)
-      .itemInputs(`6x ${baseWoodType}_planks`, "#forge:chests/wooden")
+      .itemInputs(`6x ${baseWoodType}_planks`, "#c:chests/wooden")
       .itemOutputs(`${modName}:${woodType}_full_drawers_2`)
       .circuit(10)
       .duration(100)
@@ -69,14 +69,14 @@ ServerEvents.recipes((event) => {
       ["PsP", "PCP", "PrP"],
       {
         P: `${baseWoodType}_planks`,
-        s: "#forge:tools/saws",
-        C: "#forge:chests/wooden",
-        r: "#forge:tools/mallets",
+        s: "#c:tools/saws",
+        C: "#c:chests/wooden",
+        r: "#c:tools/mallets",
       }
     );
     greg
       .assembler(`${modName}:${woodType}_full_drawers_4`)
-      .itemInputs(`6x ${baseWoodType}_planks`, "#forge:chests/wooden")
+      .itemInputs(`6x ${baseWoodType}_planks`, "#c:chests/wooden")
       .itemOutputs(`${modName}:${woodType}_full_drawers_4`)
       .circuit(11)
       .duration(100)
@@ -88,14 +88,14 @@ ServerEvents.recipes((event) => {
       ["PPP", "sCr", "PPP"],
       {
         P: `${baseWoodType}_slab`,
-        s: "#forge:tools/saws",
-        C: "#forge:chests/wooden",
-        r: "#forge:tools/mallets",
+        s: "#c:tools/saws",
+        C: "#c:chests/wooden",
+        r: "#c:tools/mallets",
       }
     ).noMirror();
     greg
       .assembler(`${modName}:${woodType}_half_drawers_1`)
-      .itemInputs(`6x ${baseWoodType}_slab`, "#forge:chests/wooden")
+      .itemInputs(`6x ${baseWoodType}_slab`, "#c:chests/wooden")
       .itemOutputs(`${modName}:${woodType}_half_drawers_1`)
       .circuit(9)
       .duration(100)
@@ -106,14 +106,14 @@ ServerEvents.recipes((event) => {
       ["PPP", "rCs", "PPP"],
       {
         P: `${baseWoodType}_slab`,
-        s: "#forge:tools/saws",
-        C: "#forge:chests/wooden",
-        r: "#forge:tools/mallets",
+        s: "#c:tools/saws",
+        C: "#c:chests/wooden",
+        r: "#c:tools/mallets",
       }
     ).noMirror();
     greg
       .assembler(`${modName}:${woodType}_half_drawers_2`)
-      .itemInputs(`6x ${baseWoodType}_slab`, "#forge:chests/wooden")
+      .itemInputs(`6x ${baseWoodType}_slab`, "#c:chests/wooden")
       .itemOutputs(`${modName}:${woodType}_half_drawers_2`)
       .circuit(10)
       .duration(100)
@@ -124,14 +124,14 @@ ServerEvents.recipes((event) => {
       ["PsP", "PCP", "PrP"],
       {
         P: `${baseWoodType}_slab`,
-        s: "#forge:tools/saws",
-        C: "#forge:chests/wooden",
-        r: "#forge:tools/mallets",
+        s: "#c:tools/saws",
+        C: "#c:chests/wooden",
+        r: "#c:tools/mallets",
       }
     );
     greg
       .assembler(`${modName}:${woodType}_half_drawers_4`)
-      .itemInputs(`6x ${baseWoodType}_slab`, "#forge:chests/wooden")
+      .itemInputs(`6x ${baseWoodType}_slab`, "#c:chests/wooden")
       .itemOutputs(`${modName}:${woodType}_half_drawers_4`)
       .circuit(11)
       .duration(100)
@@ -142,27 +142,27 @@ ServerEvents.recipes((event) => {
       ["PPP", "PsP", "PPP"],
       {
         P: `${baseWoodType}_slab`,
-        s: "#forge:tools/saws"
+        s: "#c:tools/saws"
       }
     )
   });
 
   // Controller
-  event.remove({ output: "storagedrawers:storage_controller" });
+  event.remove({ output: "storagedrawers:controller" });
   event.shaped("storagedrawers:controller", ["PCP", "KDK", "OPO"], {
-    P: "#forge:plates/diamond",
+    P: "#c:plates/diamond",
     C: "#gtceu:circuits/lv",
     K: "gtceu:red_alloy_single_wire",
     D: "#storagedrawers:drawers",
-    O: "#forge:plates/obsidian",
+    O: "#c:plates/obsidian",
   });
   // Controller Extension
-  event.remove({ output: "storagedrawers:controller_slave" });
-  event.shaped("storagedrawers:controller_slave", ["OPO", "KDK", "PCP"], {
-    P: "#forge:plates/diamond",
+  event.remove({ output: "storagedrawers:controller_io" });
+  event.shaped("storagedrawers:controller_io", ["OPO", "KDK", "PCP"], {
+    P: "#c:plates/diamond",
     C: "#gtceu:circuits/lv",
     K: "gtceu:red_alloy_single_wire",
     D: "#storagedrawers:drawers",
-    O: "#forge:plates/obsidian",
+    O: "#c:plates/obsidian",
   });
 });

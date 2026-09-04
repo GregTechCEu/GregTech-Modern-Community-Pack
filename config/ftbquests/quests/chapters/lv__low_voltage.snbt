@@ -257,7 +257,7 @@
 							value: "forge:ingots/battery_alloy"
 						}
 					}
-					title: "Any #forge:ingots/battery_alloy"
+					title: "Any #c:ingots/battery_alloy"
 					type: "item"
 				}
 				{
@@ -2465,11 +2465,11 @@
 				"&l&3Lore:&r&o The main developer of this pack spent far too long fixing the model files to customise this thing.&7.&8. If you're wondering why there's a random Pokemon doll, it's my Minecraft skin!"
 			]
 			hide_dependency_lines: true
-			icon: "expatternprovider:fishbig"
+			icon: "extendedae:fishbig"
 			id: "59BEB2AA9598A21D"
 			rewards: [{
 				id: "03A3C108D5BCE712"
-				item: "expatternprovider:fishbig"
+				item: "extendedae:fishbig"
 				random_bonus: 63
 				type: "item"
 			}]
@@ -2478,7 +2478,7 @@
 			subtitle: "Got enough time on your hands?"
 			tasks: [{
 				id: "783D21E963174609"
-				item: "expatternprovider:fishbig"
+				item: "extendedae:fishbig"
 				type: "item"
 			}]
 			title: "And they say GregTech is grindy..."

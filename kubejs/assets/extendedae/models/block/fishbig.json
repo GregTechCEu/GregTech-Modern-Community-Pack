@@ -3,15 +3,15 @@
 	"render_type": "cutout",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "expatternprovider:block/fishbig/leg",
-		"1": "expatternprovider:block/fishbig/leg2",
-		"2": "expatternprovider:block/fishbig/button",
-		"3": "expatternprovider:block/fishbig/body",
-		"5": "expatternprovider:block/fishbig/arm",
-		"6": "expatternprovider:block/fishbig/head",
-		"7": "expatternprovider:block/fishbig/hair",
-		"8": "expatternprovider:block/fishbig/hair2",
-		"particle": "expatternprovider:block/fishbig/leg"
+		"0": "extendedae:block/fishbig/leg",
+		"1": "extendedae:block/fishbig/leg2",
+		"2": "extendedae:block/fishbig/button",
+		"3": "extendedae:block/fishbig/body",
+		"5": "extendedae:block/fishbig/arm",
+		"6": "extendedae:block/fishbig/head",
+		"7": "extendedae:block/fishbig/hair",
+		"8": "extendedae:block/fishbig/hair2",
+		"particle": "extendedae:block/fishbig/leg"
 	},
 	"elements": [
 		{

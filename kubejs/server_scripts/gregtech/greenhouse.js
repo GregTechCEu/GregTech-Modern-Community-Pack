@@ -30,7 +30,7 @@ ServerEvents.recipes((event) => {
   trees.forEach((woodType) => {
     greg
       .greenhouse(woodType[0])
-      .notConsumable(woodType[0])
+      .notConsumableItem(woodType[0])
       .inputFluids("water 1000")
       .itemOutputs(`64x ${woodType[1]}`, `6x ${woodType[0]}`)
       .duration(1200)
@@ -39,7 +39,7 @@ ServerEvents.recipes((event) => {
 
     greg
       .greenhouse(`${woodType[0]}_fertiliser`)
-      .notConsumable(woodType[0])
+      .notConsumableItem(woodType[0])
       .itemInputs("4x gtceu:fertilizer")
       .inputFluids("water 1000")
       .itemOutputs(
@@ -55,7 +55,7 @@ ServerEvents.recipes((event) => {
   plants.forEach((seedType) => {
     greg
       .greenhouse(seedType[0])
-      .notConsumable(seedType[0])
+      .notConsumableItem(seedType[0])
       .inputFluids("water 1000")
       .itemOutputs(`${seedType[2]}x ${seedType[1]}`)
       .duration(1200)
@@ -63,7 +63,7 @@ ServerEvents.recipes((event) => {
       .circuit(1);
     greg
       .greenhouse(seedType[0] + "_fertilizer")
-      .notConsumable(seedType[0])
+      .notConsumableItem(seedType[0])
       .itemInputs("4x gtceu:fertilizer")
       .inputFluids("water 1000")
       .itemOutputs(`${2 * seedType[2]}x ${seedType[1]}`)
@@ -73,7 +73,7 @@ ServerEvents.recipes((event) => {
   });
   greg
     .greenhouse("rubber_wood")
-    .notConsumable("gtceu:rubber_sapling")
+    .notConsumableItem("gtceu:rubber_sapling")
     .inputFluids("water 1000")
     .itemOutputs(
       "16x gtceu:rubber_log",
@@ -85,7 +85,7 @@ ServerEvents.recipes((event) => {
     .circuit(1);
   greg
     .greenhouse("rubber_wood_fertiliser")
-    .notConsumable("gtceu:rubber_sapling")
+    .notConsumableItem("gtceu:rubber_sapling")
     .itemInputs("4x gtceu:fertilizer")
     .inputFluids("water 1000")
     .itemOutputs(

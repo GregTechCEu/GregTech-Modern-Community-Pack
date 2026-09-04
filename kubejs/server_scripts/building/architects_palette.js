@@ -20,7 +20,7 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "architects_palette:plating_block" });
   event.recipes.gtceu
     .assembler("plating_block")
-    .itemInputs("4x #forge:plates/iron")
+    .itemInputs("4x #c:plates/iron")
     .itemOutputs("4x architects_palette:plating_block")
     .circuit(10)
     .EUt(2)
@@ -28,7 +28,7 @@ ServerEvents.recipes((event) => {
 
   event.recipes.gtceu
     .construction_core("plating_block")
-    .itemInputs("4x #forge:plates/iron")
+    .itemInputs("4x #c:plates/iron")
     .itemOutputs("16x architects_palette:plating_block")
     .inputFluids("gtceu:construction_foam 100")
     .EUt(8)
@@ -37,13 +37,13 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "architects_palette:myonite" });
   event.recipes.gtceu
     .mixer("myonite")
-    .itemInputs("minecraft:stone", "#forge:mushrooms")
+    .itemInputs("minecraft:stone", "#c:mushrooms")
     .itemOutputs("4x architects_palette:myonite")
     .EUt(2)
     .duration(20);
   event.recipes.gtceu
     .construction_core("myonite")
-    .itemInputs("minecraft:stone", "#forge:mushrooms")
+    .itemInputs("minecraft:stone", "#c:mushrooms")
     .itemOutputs("16x architects_palette:myonite")
     .inputFluids("gtceu:construction_foam 100")
     .EUt(2)
@@ -52,13 +52,13 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "architects_palette:olivestone_bricks" });
   event.recipes.gtceu
     .mixer("olivestone_bricks")
-    .itemInputs("minecraft:stone", "#forge:dyes/green")
+    .itemInputs("minecraft:stone", "#c:dyes/green")
     .itemOutputs("4x architects_palette:olivestone_bricks")
     .EUt(2)
     .duration(20);
   event.recipes.gtceu
     .construction_core("olivestone_bricks")
-    .itemInputs("minecraft:stone", "#forge:dyes/green")
+    .itemInputs("minecraft:stone", "#c:dyes/green")
     .itemOutputs("16x architects_palette:olivestone_bricks")
     .inputFluids("gtceu:construction_foam 100")
     .EUt(2)
@@ -246,13 +246,13 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "architects_palette:tread_plate" });
   event.recipes.gtceu
     .mixer("tread_plate")
-    .itemInputs("architects_palette:plating_block", "#forge:dusts/iron")
+    .itemInputs("architects_palette:plating_block", "#c:dusts/iron")
     .itemOutputs("2x architects_palette:tread_plate")
     .EUt(2)
     .duration(20);
   event.recipes.gtceu
     .construction_core("tread_plate")
-    .itemInputs("architects_palette:plating_block", "#forge:dusts/iron")
+    .itemInputs("architects_palette:plating_block", "#c:dusts/iron")
     .itemOutputs("8x architects_palette:tread_plate")
     .inputFluids("gtceu:construction_foam 100")
     .EUt(8)
@@ -306,13 +306,13 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "architects_palette:dark_oracle_bricks" });
   event.recipes.gtceu
     .mixer("dark_oracle_bricks")
-    .itemInputs("architects_palette:oracle_bricks", "#forge:dyes/black")
+    .itemInputs("architects_palette:oracle_bricks", "#c:dyes/black")
     .itemOutputs("architects_palette:dark_oracle_bricks")
     .EUt(2)
     .duration(20);
   event.recipes.gtceu
     .construction_core("dark_oracle_bricks")
-    .itemInputs("architects_palette:oracle_bricks", "#forge:dyes/black")
+    .itemInputs("architects_palette:oracle_bricks", "#c:dyes/black")
     .itemOutputs("8x architects_palette:dark_oracle_bricks")
     .inputFluids("gtceu:construction_foam 100")
     .EUt(8)
@@ -372,13 +372,13 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "architects_palette:sunmetal_blend" });
   event.recipes.gtceu
     .mixer("sunmetal_blend")
-    .itemInputs("soul_sand", "#forge:dusts/gold")
+    .itemInputs("soul_sand", "#c:dusts/gold")
     .itemOutputs("4x architects_palette:sunmetal_blend")
     .EUt(2)
     .duration(20);
   event.recipes.gtceu
     .construction_core("sunmetal_blend")
-    .itemInputs("soul_sand", "#forge:dusts/gold")
+    .itemInputs("soul_sand", "#c:dusts/gold")
     .itemOutputs("16x architects_palette:sunmetal_blend")
     .inputFluids("gtceu:construction_foam 100")
     .EUt(8)
@@ -387,13 +387,13 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "architects_palette:nether_brass_blend" });
   event.recipes.gtceu
     .mixer("nether_brass_blend")
-    .itemInputs("soul_sand", "#forge:dusts/brass")
+    .itemInputs("soul_sand", "#c:dusts/brass")
     .itemOutputs("4x architects_palette:nether_brass_blend")
     .EUt(2)
     .duration(20);
   event.recipes.gtceu
     .construction_core("nether_brass_blend")
-    .itemInputs("soul_sand", "#forge:dusts/brass")
+    .itemInputs("soul_sand", "#c:dusts/brass")
     .itemOutputs("16x architects_palette:nether_brass_blend")
     .inputFluids("gtceu:construction_foam 100")
     .EUt(8)
@@ -402,13 +402,13 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "architects_palette:wardstone" });
   event.recipes.gtceu
     .mixer("wardstone")
-    .itemInputs("nether_wart", "#forge:dusts/lapis")
+    .itemInputs("nether_wart", "#c:dusts/lapis")
     .itemOutputs("4x architects_palette:wardstone")
     .EUt(2)
     .duration(20);
   event.recipes.gtceu
     .construction_core("wardstone")
-    .itemInputs("nether_wart", "#forge:dusts/lapis")
+    .itemInputs("nether_wart", "#c:dusts/lapis")
     .itemOutputs("16x architects_palette:wardstone")
     .inputFluids("gtceu:construction_foam 100")
     .EUt(8)
@@ -417,13 +417,13 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "architects_palette:cerebral_plate" });
   event.recipes.gtceu
     .mixer("cerebral_plate")
-    .itemInputs("tuff", "#forge:dusts/nether_quartz")
+    .itemInputs("tuff", "#c:dusts/nether_quartz")
     .itemOutputs("4x architects_palette:cerebral_plate")
     .EUt(2)
     .duration(20);
   event.recipes.gtceu
     .construction_core("cerebral_plate")
-    .itemInputs("tuff", "#forge:dusts/nether_quartz")
+    .itemInputs("tuff", "#c:dusts/nether_quartz")
     .itemOutputs("16x architects_palette:cerebral_plate")
     .inputFluids("gtceu:construction_foam 100")
     .EUt(8)
@@ -432,13 +432,13 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "architects_palette:oracle_jelly" });
   event.recipes.gtceu
     .mixer("oracle_jelly")
-    .itemInputs("sugar", "#forge:dusts/amethyst")
+    .itemInputs("sugar", "#c:dusts/amethyst")
     .itemOutputs("4x architects_palette:oracle_jelly")
     .EUt(2)
     .duration(20);
   event.recipes.gtceu
     .construction_core("oracle_jelly")
-    .itemInputs("sugar", "#forge:dusts/amethyst")
+    .itemInputs("sugar", "#c:dusts/amethyst")
     .itemOutputs("16x architects_palette:oracle_jelly")
     .inputFluids("gtceu:construction_foam 100")
     .EUt(8)
@@ -452,7 +452,7 @@ ServerEvents.recipes((event) => {
       .itemOutputs(`4x ${output}`)
       .circuit(1)
       .inputFluids("gtceu:construction_foam 100")
-      .dimension(new ResourceLocation("the_nether"))
+      .dimension("minecraft:the_nether")
       .EUt(16)
       .duration(20);
   }

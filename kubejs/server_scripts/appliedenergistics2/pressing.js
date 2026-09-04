@@ -4,8 +4,8 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "ae2:inscriber/silicon_press" });
   greg
     .laser_engraver("gtceu:inscriber_silicon_press")
-    .itemInputs("#forge:plates/steel")
-    .notConsumable("#forge:lenses/blue")
+    .itemInputs("#c:plates/steel")
+    .notConsumableItem("#c:lenses/blue")
     .itemOutputs("ae2:silicon_press")
     .duration(500)
     .EUt(120);
@@ -13,8 +13,8 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "ae2:inscriber/logic_press" });
   greg
     .laser_engraver("gtceu:inscriber_logic_press")
-    .itemInputs("#forge:plates/steel")
-    .notConsumable("#forge:lenses/green")
+    .itemInputs("#c:plates/steel")
+    .notConsumableItem("#c:lenses/green")
     .itemOutputs("ae2:logic_processor_press")
     .duration(500)
     .EUt(120);
@@ -22,8 +22,8 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "ae2:inscriber/engineering_press" });
   greg
     .laser_engraver("gtceu:inscriber_engineering_press")
-    .itemInputs("#forge:plates/steel")
-    .notConsumable("#forge:lenses/red")
+    .itemInputs("#c:plates/steel")
+    .notConsumableItem("#c:lenses/red")
     .itemOutputs("ae2:engineering_processor_press")
     .duration(500)
     .EUt(120);
@@ -31,8 +31,8 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "ae2:inscriber/calculation_press" });
   greg
     .laser_engraver("gtceu:inscriber_calculation_press")
-    .itemInputs("#forge:plates/steel")
-    .notConsumable("#forge:lenses/white")
+    .itemInputs("#c:plates/steel")
+    .notConsumableItem("#c:lenses/white")
     .itemOutputs("ae2:calculation_processor_press")
     .duration(500)
     .EUt(120);

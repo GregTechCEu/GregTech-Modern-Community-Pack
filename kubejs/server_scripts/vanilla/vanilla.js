@@ -8,7 +8,7 @@ ServerEvents.recipes((event) => {
   //Ghast Tear
   greg
     .chemical_reactor("gtceu:ghast_tear")
-    .itemInputs("#forge:tiny_dusts/potassium", "#forge:tiny_dusts/lithium")
+    .itemInputs("#c:tiny_dusts/potassium", "#c:tiny_dusts/lithium")
     .inputFluids("gtceu:salt_water 1000")
     .itemOutputs("minecraft:ghast_tear")
     .duration(400)
@@ -53,7 +53,7 @@ ServerEvents.recipes((event) => {
   // Slimeballs
   greg
     .chemical_bath("gtceu:slimeball_bath")
-    .itemInputs("#forge:dusts/asbestos")
+    .itemInputs("#c:dusts/asbestos")
     .inputFluids("gtceu:glue 250")
     .itemOutputs("slime_ball")
     .duration(200)
@@ -62,44 +62,36 @@ ServerEvents.recipes((event) => {
     .centrifuge("gtceu:slimeballs_centrifuge")
     .itemInputs("slime_ball")
     .outputFluids("gtceu:glue 250")
-    .itemOutputs("#forge:dusts/asbestos")
+    .itemOutputs("#c:dusts/asbestos")
     .duration(200)
     .EUt(24);
 
   // Sponge
   greg
     .compressor("gtceu:spongebob")
-    .itemInputs("2x #forge:foils/polycaprolactam")
+    .itemInputs("2x #c:foils/polycaprolactam")
     .itemOutputs("sponge")
     .duration(200)
     .EUt(2);
 
   // Fire Resistance
   event.shapeless(
-    Item.of("minecraft:potion").withNBT({
-      Potion: "minecraft:fire_resistance",
-    }),
+    'minecraft:potion[potion_contents={potion:"minecraft:fire_resistance"}]',
     [
-      Item.of("minecraft:potion").withNBT({
-        Potion: "minecraft:water",
-      }).strongNBT(),
-      "#forge:dusts/sugar",
-      "#forge:dusts/stone",
-      "#forge:dusts/lead",
+      'minecraft:potion[potion_contents={potion:"minecraft:water"}]',
+      "#c:dusts/sugar",
+      "#c:dusts/stone",
+      "#c:dusts/lead",
     ]
   );
   event.shapeless(
-    Item.of("minecraft:potion").withNBT({
-      Potion: "minecraft:long_fire_resistance",
-    }),
+    'minecraft:potion[potion_contents={potion:"minecraft:long_fire_resistance"}]',
     [
-      Item.of("minecraft:potion").withNBT({
-        Potion: "minecraft:water",
-      }).strongNBT(),
-      "#forge:dusts/redstone",
-      "#forge:dusts/sugar",
-      "#forge:dusts/stone",
-      "#forge:dusts/lead",
+      'minecraft:potion[potion_contents={potion:"minecraft:water"}]',
+      "#c:dusts/redstone",
+      "#c:dusts/sugar",
+      "#c:dusts/stone",
+      "#c:dusts/lead",
     ]
   );
 
@@ -108,8 +100,8 @@ ServerEvents.recipes((event) => {
     .large_chemical_reactor("gtceu:bottle_o_enchanting")
     .itemInputs(
       "glass_bottle",
-      "#forge:tiny_dusts/gold",
-      "#forge:tiny_dusts/sugar"
+      "#c:tiny_dusts/gold",
+      "#c:tiny_dusts/sugar"
     )
     .inputFluids("water 100")
     .itemOutputs("experience_bottle")
@@ -119,7 +111,7 @@ ServerEvents.recipes((event) => {
   // Nether Star
   greg
     .chemical_reactor("gtceu:nether_star")
-    .itemInputs("#forge:dusts/diamond", "#forge:dusts/iridium")
+    .itemInputs("#c:dusts/diamond", "#c:dusts/iridium")
     .inputFluids("gtceu:rocket_fuel 1000", "gtceu:nether_air 8000")
     .itemOutputs("2x gtceu:nether_star_dust")
     .duration(200)
@@ -128,15 +120,15 @@ ServerEvents.recipes((event) => {
   // Netherite
   greg
     .alloy_smelter("gtceu:better_netherite")
-    .itemInputs("2x netherite_scrap", "2x #forge:ingots/gold")
+    .itemInputs("2x netherite_scrap", "2x #c:ingots/gold")
     .itemOutputs("1x netherite_ingot")
     .duration(150)
     .EUt(100);
 
   event.shaped(Item.of('minecraft:enchanted_book').enchant('minecraft:silk_touch', 1), ["RWR", "WBW", "RmR"], {
-    R: "#forge:plates/rubber",
+    R: "#c:plates/rubber",
     W: "#minecraft:wool",
     B: "minecraft:book",
-    m: "#forge:tools/mallets"
+    m: "#c:tools/mallets"
   });
 });

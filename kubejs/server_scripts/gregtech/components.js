@@ -7,7 +7,7 @@ ServerEvents.recipes((event) => {
   greg
     .assembler("fluid_voiding_cover")
     .itemInputs(
-      "2x #forge:screws/steel",
+      "2x #c:screws/steel",
       "gtceu:fluid_detector_cover",
       "gtceu:bronze_normal_fluid_pipe"
     )
@@ -19,7 +19,7 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "gtceu:macerator/macerate_item_voiding_cover" });
   greg
     .assembler("item_voiding_cover")
-    .itemInputs("2x #forge:screws/steel", "gtceu:item_detector_cover", "hopper")
+    .itemInputs("2x #c:screws/steel", "gtceu:item_detector_cover", "hopper")
     .itemOutputs("gtceu:item_voiding_cover")
     .duration(100)
     .EUt(30);

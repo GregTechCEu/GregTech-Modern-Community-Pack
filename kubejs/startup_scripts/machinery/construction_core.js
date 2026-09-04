@@ -1,4 +1,6 @@
 GTCEuStartupEvents.registry("gtceu:machine", (event) => {
+  const $MultiPredicates = Java.loadClass("com.gregtechceu.gtceu.api.multiblock.Predicates");
+
   event
     .create("construction_core", "multiblock")
     .rotationState(RotationState.NON_Y_AXIS)
@@ -10,14 +12,14 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
         .slice("BBB", "GGG", "BBB")
         .slice("BBB", "GCG", "BBB")
         .slice("BEB", "GGG", "BBB")
-        .where("E", Predicates.controller(Predicates.blocks(definition.get())))
-        .where("C", Predicates.blocks("gtceu:steel_gearbox"))
-        .where("G", Predicates.blocks("gtceu:tempered_glass"))
+        .where("E", $MultiPredicates.controller($MultiPredicates.blocks(definition.get())))
+        .where("C", $MultiPredicates.blocks("gtceu:steel_gearbox"))
+        .where("G", $MultiPredicates.blocks("gtceu:tempered_glass"))
         .where(
           "B",
-          Predicates.blocks("gtceu:lv_machine_casing")
+          $MultiPredicates.blocks("gtceu:lv_machine_casing")
             .setMinGlobalLimited(5)
-            .or(Predicates.autoAbilities(definition.getRecipeTypes()))
+            .or($MultiPredicates.autoAbilities(definition.getRecipeTypes()))
         )
         .build()
     )

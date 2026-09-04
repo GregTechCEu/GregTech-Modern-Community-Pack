@@ -10,7 +10,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu
       .assembler(`${woodType}_fence_gate`)
-      .itemInputs(`2x ${woodType}_planks`, "2x #forge:rods/wooden")
+      .itemInputs(`2x ${woodType}_planks`, "2x #c:rods/wooden")
       .itemOutputs(`${woodType}_fence_gate`)
       .circuit(2)
       .duration(100)

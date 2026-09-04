@@ -6,7 +6,7 @@ ServerEvents.recipes((event) => {
     .assembler("gtceu:1k_component")
     .itemInputs(
       "gtceu:cpu_chip",
-      "#forge:plates/certus_quartz",
+      "#c:plates/certus_quartz",
       "#gtceu:circuits/lv"
     )
     .itemOutputs("ae2:cell_component_1k")
@@ -16,7 +16,7 @@ ServerEvents.recipes((event) => {
     .assembler("gtceu:1k_component_expensive")
     .itemInputs(
       "16x #gtceu:resistors",
-      "#forge:plates/certus_quartz",
+      "#c:plates/certus_quartz",
       "2x #gtceu:circuits/lv"
     )
     .inputFluids("gtceu:red_alloy 288")

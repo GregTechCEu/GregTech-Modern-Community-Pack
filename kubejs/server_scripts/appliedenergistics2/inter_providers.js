@@ -8,14 +8,14 @@ ServerEvents.recipes((event) => {
   patpros.forEach((tier) => {
     let interProv = (materialType, blockType) => {
       event.shaped(`${tier[2]}x ${blockType}`, ["PGP", "ACF", "PGP"], {
-        P: `#forge:plates/${tier[1]}`,
+        P: `#c:plates/${tier[1]}`,
         G: materialType,
         A: "ae2:annihilation_core",
         F: "ae2:formation_core",
         C: `gtceu:${tier[0]}_conveyor_module`,
       });
     };
-    interProv("#forge:glass", "ae2:interface");
+    interProv("#c:glass", "ae2:interface");
     interProv("minecraft:crafting_table", "ae2:pattern_provider");
   });
 });

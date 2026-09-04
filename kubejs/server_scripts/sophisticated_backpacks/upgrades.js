@@ -1,17 +1,17 @@
 ServerEvents.recipes((event) => {
   event.remove({ id: "sophisticatedbackpacks:upgrade_base" });
   event.shaped("sophisticatedbackpacks:upgrade_base", ["BSB", "LWL", "BSB"], {
-    B: "#forge:bolts/iron",
+    B: "#c:bolts/iron",
     S: "minecraft:string",
     L: "minecraft:leather",
-    W: "#forge:plates/wood",
+    W: "#c:plates/wood",
   });
   event.recipes.gtceu
     .assembler("upgrade_base")
     .itemInputs(
-      "#forge:plates/wood",
+      "#c:plates/wood",
       "2x minecraft:leather",
-      "2x #forge:bolts/iron",
+      "2x #c:bolts/iron",
       "2x minecraft:string"
     )
     .itemOutputs("sophisticatedbackpacks:upgrade_base")
@@ -84,8 +84,8 @@ ServerEvents.recipes((event) => {
     .assembler("feeding_upgrade")
     .itemInputs(
       "sophisticatedbackpacks:upgrade_base",
-      "#forge:meat",
-      "#forge:crops"
+      "#c:meat",
+      "#c:crops"
     )
     .itemOutputs("sophisticatedbackpacks:feeding_upgrade")
     .duration(50)
@@ -186,7 +186,7 @@ ServerEvents.recipes((event) => {
     .assembler("everlasting_upgrade")
     .itemInputs(
       "sophisticatedbackpacks:upgrade_base",
-      "#forge:dense_plates/tungsten_steel",
+      "#c:dense_plates/tungsten_steel",
       "2x nether_star"
     )
     .itemOutputs("sophisticatedbackpacks:everlasting_upgrade")
@@ -350,9 +350,9 @@ ServerEvents.recipes((event) => {
     .assembler("tool_swapper_upgrade")
     .itemInputs(
       "sophisticatedbackpacks:upgrade_base",
-      "#forge:tools/wrenches",
-      "#forge:tools/hammers",
-      "#forge:tools/screwdrivers"
+      "#c:tools/wrenches",
+      "#c:tools/hammers",
+      "#c:tools/screwdrivers"
     )
     .itemOutputs("sophisticatedbackpacks:tool_swapper_upgrade")
     .duration(50)
@@ -362,9 +362,9 @@ ServerEvents.recipes((event) => {
     .assembler("advanced_tool_swapper_upgrade")
     .itemInputs(
       "sophisticatedbackpacks:tool_swapper_upgrade",
-      "#forge:tools/files",
-      "#forge:tools/wire_cutters",
-      "#forge:tools/mortars"
+      "#c:tools/files",
+      "#c:tools/wire_cutters",
+      "#c:tools/mortars"
     )
     .itemOutputs("sophisticatedbackpacks:advanced_tool_swapper_upgrade")
     .duration(50)

@@ -437,7 +437,7 @@
 			subtitle: "Casting a Wider Net"
 			tasks: [{
 				id: "4CEE717792412E0C"
-				item: "expatternprovider:tag_storage_bus"
+				item: "extendedae:tag_storage_bus"
 				type: "item"
 			}]
 			title: "Tag - You're It!"

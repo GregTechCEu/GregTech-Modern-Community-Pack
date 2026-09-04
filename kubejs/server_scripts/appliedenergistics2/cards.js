@@ -2,11 +2,11 @@ ServerEvents.recipes((event) => {
   // Advanced Card
   event.remove({ id: "ae2:materials/advancedcard" });
   event.shaped("2x ae2:advanced_card", ["WP ", "ACP", "SP "], {
-    W: "#forge:fine_wires/red_alloy",
-    P: "#forge:plates/stainless_steel",
+    W: "#c:fine_wires/red_alloy",
+    P: "#c:plates/stainless_steel",
     A: "ae2:engineering_processor",
     C: "#gtceu:circuits/hv",
-    S: "#forge:fine_wires/silver",
+    S: "#c:fine_wires/silver",
   });
   // Fuzzy Card
   event.remove({ id: "ae2:materials/cardfuzzy" });
@@ -18,7 +18,7 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "ae2:materials/cardinverter" });
   event.shapeless("ae2:inverter_card", [
     "ae2:advanced_card",
-    "#forge:fine_wires/red_alloy",
+    "#c:fine_wires/red_alloy",
   ]);
   // Acceleration Card
   event.remove({ id: "ae2:materials/cardspeed" });
@@ -36,11 +36,11 @@ ServerEvents.recipes((event) => {
   // Basic Card
   event.remove({ id: "ae2:materials/basiccard" });
   event.shaped("2x ae2:basic_card", ["WP ", "ACP", "SP "], {
-    W: "#forge:fine_wires/red_alloy",
-    P: "#forge:plates/aluminium",
+    W: "#c:fine_wires/red_alloy",
+    P: "#c:plates/aluminium",
     A: "ae2:engineering_processor",
     C: "#gtceu:circuits/mv",
-    S: "#forge:fine_wires/gold",
+    S: "#c:fine_wires/gold",
   });
   // Capacity Card
   event.remove({ id: "ae2:materials/cardcapacity" });
@@ -58,6 +58,6 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "ae2:materials/cardredstone" });
   event.shapeless("ae2:redstone_card", [
     "ae2:basic_card",
-    "#forge:plates/red_alloy",
+    "#c:plates/red_alloy",
   ]);
 });

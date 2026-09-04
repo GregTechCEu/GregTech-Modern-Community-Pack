@@ -326,7 +326,7 @@
 						}
 					}
 					optional_task: true
-					title: "Any #forge:lenses"
+					title: "Any #c:lenses"
 					type: "item"
 				}
 				{
@@ -618,7 +618,7 @@
 				""
 				"&2With AE2&r, place a &3ME Storage Bus&r on top of your Cover and set to very &dhigh priority&r. Any hot ingots entering your ME system will automatically be moved into the Vacuum Freezer."
 				"{@pagebreak}"
-				"&l&9Note:&r If you wish to know more tags for future automation setups, they will display if you press Shift when hovering over an item. For instance, an item tagged with &e&o#forge:plates/copper&r would be filtered as &e&lplates/copper&r."
+				"&l&9Note:&r If you wish to know more tags for future automation setups, they will display if you press Shift when hovering over an item. For instance, an item tagged with &e&o#c:plates/copper&r would be filtered as &e&lplates/copper&r."
 				""
 				"&9Other Note:&r The Item Tag Filter partially supports &dregex&r. Hover over the info icon for more information."
 			]

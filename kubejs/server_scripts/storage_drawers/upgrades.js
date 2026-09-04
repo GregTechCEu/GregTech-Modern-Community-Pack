@@ -17,15 +17,15 @@ ServerEvents.recipes((event) => {
   event.remove({ mod: "gtstoragedrawers" });
   // Upgrade Template
   event.shaped("storagedrawers:upgrade_template", ["SPS", "SWS", " d "], {
-    S: "#forge:screws/iron",
+    S: "#c:screws/iron",
     P: "gtceu:lv_electric_piston",
     W: "#minecraft:planks",
-    d: "#forge:tools/screwdrivers",
+    d: "#c:tools/screwdrivers",
   });
   event.recipes.gtceu
     .assembler("upgrade_template")
     .itemInputs(
-      "2x #forge:screws/iron",
+      "2x #c:screws/iron",
       "gtceu:lv_electric_piston",
       "#minecraft:planks"
     )
@@ -35,7 +35,7 @@ ServerEvents.recipes((event) => {
 
   // Storage Upgrade lvl 1
   event.shaped("storagedrawers:obsidian_storage_upgrade", ["PTP"], {
-    P: "#forge:plates/obsidian",
+    P: "#c:plates/obsidian",
     T: "storagedrawers:upgrade_template",
   });
 
@@ -53,8 +53,8 @@ ServerEvents.recipes((event) => {
 
   upgrades.forEach((e) => {
     event.shaped(`storagedrawers:${e.upgrade}_storage_upgrade`, ["S S", "PTP", "S S"], {
-      S: `#forge:rods/${e.rod_mat}`,
-      P: `#forge:plates/${e.plate_mat}`,
+      S: `#c:rods/${e.rod_mat}`,
+      P: `#c:plates/${e.plate_mat}`,
       T: "storagedrawers:upgrade_template",
     });
   });
@@ -67,7 +67,7 @@ ServerEvents.recipes((event) => {
 
   // Void Upgrade
   event.shaped("storagedrawers:void_upgrade", ["PPP", "PTP", "PPP"], {
-    P: "#forge:plates/obsidian",
+    P: "#c:plates/obsidian",
     T: "storagedrawers:upgrade_template",
   });
 
@@ -99,7 +99,7 @@ ServerEvents.recipes((event) => {
     }
     let gt_tier = GTValues.VN[i].toLowerCase();
     event.shaped(`storagedrawers:magnet_upgrade${sd_tier}`, ["RCR", "RTR"], {
-      R: "#forge:rods/steel",
+      R: "#c:rods/steel",
       C: `gtceu:${gt_tier}_item_collector`,
       T: "storagedrawers:upgrade_template",
     });
@@ -125,28 +125,28 @@ ServerEvents.recipes((event) => {
 
   // Drawer Key
   event.shaped("storagedrawers:drawer_key", [" BP", "TPP", "Gs "], {
-    B: "#forge:bolts/gold",
+    B: "#c:bolts/gold",
     T: "storagedrawers:upgrade_template",
-    P: "#forge:plates/steel",
-    G: "#forge:plates/gold",
-    s: "#forge:tools/saws",
+    P: "#c:plates/steel",
+    G: "#c:plates/gold",
+    s: "#c:tools/saws",
   });
 
   // Keyring
   event.shaped("storagedrawers:keyring", ["HR"], {
-    H: "#forge:tools/hammers",
-    R: "#forge:rings/iron"
+    H: "#c:tools/hammers",
+    R: "#c:rings/iron"
   });
 
   // Drawer Puller
   event.shaped("storagedrawers:drawer_puller", ["RH"], {
-    H: "#forge:tools/hammers",
-    R: "#forge:rods/long/iron"
+    H: "#c:tools/hammers",
+    R: "#c:rods/long/iron"
   });
 
   // Framing Table
   event.shaped("storagedrawers:framing_table", ["FFF", "FSF"], {
     F: "#storagedrawers:trim",
-    S: "#forge:tools/saws"
+    S: "#c:tools/saws"
   });
 });

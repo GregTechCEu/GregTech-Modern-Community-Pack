@@ -13,10 +13,10 @@ ItemEvents.modifyTooltips((event) => {
       "storagedrawers:compacting_half_drawers_3",
       "storagedrawers:fill_level_upgrade",
 
-      // "expatternprovider:caner",
+      "extendedae:caner",
       "ae2:inscriber",
-      // "expatternprovider:ex_inscriber",
-      // "expatternprovider:ingredient_buffer"
+      "extendedae:ex_inscriber",
+      "extendedae:ingredient_buffer"
     ],
     Text.red("Disabled in this modpack!").bold(true)
   );
@@ -33,7 +33,7 @@ ItemEvents.modifyTooltips((event) => {
 
   event.add("ae2:controller", Text.gray("Channels are §cdisabled§7."));
 
-  // event.add("expatternprovider:fishbig", Text.gray("Congratulations! You won Minecraft."));
+  event.add("extendedae:fishbig", Text.gray("Congratulations! You won Minecraft."));
 
   event.add("storagedrawers:personal_key_ftb", Text.gray("Craft me with a regular personal key in a crafting grid."));
 });

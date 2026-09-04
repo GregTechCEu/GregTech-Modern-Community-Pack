@@ -58,7 +58,7 @@ hash = "3de3b8987fbd6652079f9a6f8ff7f0d140753eb94563b31554648a09990d89e1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv__high_voltage.snbt"
-hash = "f0fbed60e74cbbbbb21ef9b01729a9f503ccef5ad46d8fe05b0474ee447bd5c8"
+hash = "197a4ae12ecdacd42a1266a9db566d3d978a32201e1b5e6bea9af3451fed7fed"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv__insane_voltage.snbt"
@@ -66,11 +66,11 @@ hash = "930c7290e8aa6f14d1fd627813950603bd2ddfe4c940ff83c2b8318ec9fd863b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/luv__ludicrous_voltage.snbt"
-hash = "0209d76ef29fe19a44cc5d7a1ff452062a25f747c655c9a4f73fe37806044d69"
+hash = "e6498dc507c6d9f1d87ac3cfdab859e95a1554cc2ab62e0406d95ec56a616893"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv__low_voltage.snbt"
-hash = "f3c1fddd173769681ab70af459a53398775ddd7ae006f2a2a5588d91eb0a9c50"
+hash = "b71aba71c39c2f7f62899196a25ff3f7bb590b079d6f5c2afe1301a9ed46772c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblock_dilemma.snbt"
@@ -78,7 +78,7 @@ hash = "c597f716bb540288bd909925586087298edabb66bf5b65b8f353631f05e295ce"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mv__medium_voltage.snbt"
-hash = "71dbc8eb58541be89f546c9df380d059dc5ff31a5a6559180e68eaabe930ec4b"
+hash = "9dde4397e35c673e0cd02deeb48d66dce87bfb3896552756c3e1ec9e9b8fb8e8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ore_generation.snbt"
@@ -86,7 +86,7 @@ hash = "a240a1cdcc31c0706814218f057a7a2e6850606eba8d439cdb0268b83d8437e6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ore_processing.snbt"
-hash = "e2886320cfea51d89a07db5c82e4553a79456d1fca8d2ccbe803af1c77e8c509"
+hash = "e1ba9175f53f078dfa994a1453e56182cfbd328a37bad1c9fa22958ab50fb320"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/progression.snbt"
@@ -178,11 +178,11 @@ hash = "f2cbf99c5bc62e4bde49127b0096eda483f3f5beb60e00fd40b77b5a4ee088b4"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "995df8041577988f11b60691a2351335742606e4b93f9b2b09cfca342ea47eeb"
+hash = "6b15787d174efa0ce48846af61b0b62d4bdd6f3472b4b131bd7331239e706bd0"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "d4219d903d3aed0aa44b6d33ea517df4a460b0f340286ecfc2c646d8569b4320"
+hash = "f473050a273ac234fbb525b8238dba265357bca05579ee9ba2f08b64bb6af6d0"
 
 [[files]]
 file = "config/modelfix-client.toml"
@@ -225,10 +225,6 @@ file = "defaultconfigs/sophisticatedbackpacks-server.toml"
 hash = "16064257078b72734d0d52c8c85333f06d9f017bbaf6646c366f3803a510962d"
 
 [[files]]
-file = "kubejs/README.txt"
-hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
-
-[[files]]
 file = "kubejs/assets/emi/category/properties/categories.json"
 hash = "1fec36a6d21f1141d244bb229e94879a34c648b49deb0d6458cb77f64078dc2b"
 
@@ -241,43 +237,43 @@ file = "kubejs/assets/enigmaticgraves/textures/item/grave_finder.png"
 hash = "adf9dfd51a3960daa2966c1c83e6880d83cd138b84fabcb6c3a59e9fce4572c0"
 
 [[files]]
-file = "kubejs/assets/expatternprovider/lang/en_us.json"
-hash = "ab10d53412e964000cd42d01639530f2266b83a0e0192d8d6f7c15aaf328790c"
+file = "kubejs/assets/extendedae/lang/en_us.json"
+hash = "416a030cadfe5c7b5d92f0a2652f51e852232b5ad86c9c5ed32947373ded1e72"
 
 [[files]]
-file = "kubejs/assets/expatternprovider/models/block/fishbig.json"
-hash = "9ca7a9affa9cc761fff863dec1eeb8eb6a5df69d84c802251b4910320886358d"
+file = "kubejs/assets/extendedae/models/block/fishbig.json"
+hash = "e5f081fee078fe6127ed05e96f95cda2992e67a73e2e9d216f02c15e42446923"
 
 [[files]]
-file = "kubejs/assets/expatternprovider/textures/block/fishbig/arm.png"
+file = "kubejs/assets/extendedae/textures/block/fishbig/arm.png"
 hash = "6059df32fcff5b83b8ff52a422a3a37027ff7b6885bb4b7352230fdfb3d8fe63"
 
 [[files]]
-file = "kubejs/assets/expatternprovider/textures/block/fishbig/body.png"
+file = "kubejs/assets/extendedae/textures/block/fishbig/body.png"
 hash = "d2747545b8def6b1babcbfe230a802184f18ac3355c1303c23a23a192defc423"
 
 [[files]]
-file = "kubejs/assets/expatternprovider/textures/block/fishbig/button.png"
+file = "kubejs/assets/extendedae/textures/block/fishbig/button.png"
 hash = "e8d3674f1f9a912b9cf5dc2bf82294cf9653e6c968c0ce52d3132e98c0a42d94"
 
 [[files]]
-file = "kubejs/assets/expatternprovider/textures/block/fishbig/hair.png"
+file = "kubejs/assets/extendedae/textures/block/fishbig/hair.png"
 hash = "d48e2f56e210eea8af590a9e4bd231d5435ef2d46154a2fea4d28c4282faf4ef"
 
 [[files]]
-file = "kubejs/assets/expatternprovider/textures/block/fishbig/hair2.png"
+file = "kubejs/assets/extendedae/textures/block/fishbig/hair2.png"
 hash = "bc4fae46ae923378762cb05c863a391ebd87ca6592187bdbd25ec90d8b8dfd42"
 
 [[files]]
-file = "kubejs/assets/expatternprovider/textures/block/fishbig/head.png"
+file = "kubejs/assets/extendedae/textures/block/fishbig/head.png"
 hash = "bf52436484c40ea14c8345c8973273231eb5a18ac8d0dd6374ba429f876c04e9"
 
 [[files]]
-file = "kubejs/assets/expatternprovider/textures/block/fishbig/leg.png"
+file = "kubejs/assets/extendedae/textures/block/fishbig/leg.png"
 hash = "760eb898630cdc6b5542b8e8e0bd217fa4dc1d582335364a6b32051d8ad264f2"
 
 [[files]]
-file = "kubejs/assets/expatternprovider/textures/block/fishbig/leg2.png"
+file = "kubejs/assets/extendedae/textures/block/fishbig/leg2.png"
 hash = "9c4f6d7c53389dc65afb94ee21eaa3d882c552cf4658c31a3a7d48ea92b19c75"
 
 [[files]]
@@ -326,23 +322,15 @@ hash = "ce1512055e0683e1202698e61aa3e863d1483473993e72c76bd2bd772558cb66"
 
 [[files]]
 file = "kubejs/client_scripts/jei/hidden_items.js"
-hash = "6fa9e01808c8d8d8607a55216b469195a91aefb3c969f79379ecf4df3fe53148"
+hash = "4b78f403812e5ae306137424134585cbafd44e1d236e87ac85c0ee96e57a737f"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "0e2e0e42395cf2290a17f34208f16c9c913f2ef8e99b774199648ef547b1fa6d"
-
-[[files]]
-file = "kubejs/config/client.json"
-hash = "0aeb4cb329b896e33a0777a1683b0b813a6f2f0adc5bc2cf3e6d10e18e442fef"
+hash = "eac14461c81e7bb32875c382642ca629aa55ca61aa87d9de48276ead7889413f"
 
 [[files]]
 file = "kubejs/config/client.properties"
 hash = "a3679ec0e0864a89fb4bfb989e3323fab8d9dc5c34b53cd82ea1299015f32b3f"
-
-[[files]]
-file = "kubejs/config/common.json"
-hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
 [[files]]
 file = "kubejs/config/common.properties"
@@ -353,16 +341,12 @@ file = "kubejs/config/packicon.png"
 hash = "fe4ad89f75d94bdc48319efb0a746101056d2abfae3a090319931ca6895a9c0a"
 
 [[files]]
-file = "kubejs/config/web_server.json"
-hash = "26e352b3fc9d1ea4c33c551460662025c12b5eb34b15151c96556bf9b0d3f28c"
-
-[[files]]
 file = "kubejs/server_scripts/appliedenergistics2/ae2.js"
-hash = "7ea5047878426b5aedca6c3110cb10e7b59b1fc3a46766675771ecae1a744b37"
+hash = "3dacb35f3ed84753e4132b265abe1c32883b24f43e9e83f80b34ff7cafedb7c0"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/ae2wtlib.js"
-hash = "fdf814d019b1d90784c5044820d543ddc33be68f4729d6b00118dbcdb27f49a6"
+hash = "892dde70815706f6792508d38b8ae628e213718615ffb5757e356be31256a8df"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/cables.js"
@@ -370,11 +354,11 @@ hash = "4302bb2bc893568269220caec769dbae475ffe8b21d2bf42f6819438d27fc804"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/cards.js"
-hash = "68fbc447200bd2f00e919233ca2bbb45c96fc8fa8030cb721e2d6edf4c374c76"
+hash = "5d5929914b2e2866c67d8787740816b82ec3de5d47cc7eb4b0116882cc4a717b"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/cells.js"
-hash = "a173edffac6719f3968439865bb2a658fc20c471681f225a5081ab00b0129ea8"
+hash = "696d20e1f072b198e92a64e68fa9fd693e50f1e47bacc3f5f204fc5988fa48f7"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/certus_quartz.js"
@@ -386,31 +370,31 @@ hash = "e68a97b24aa63aa8290b9891b02af7499ccd7f9a1dc2ef2cc3d183d660c48177"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/extendedae2.js"
-hash = "5d887bff0753f3784144091d56648ad54f547a3f3759d6c98ca4fa90265e58a5"
+hash = "06f30d1b8227ae938c3300af832fba855cee83cd01914dff154a7991c7fcfe71"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/inscriber.js"
-hash = "9d7b9fab086897c3448beb9a8b6120d71312d9bf382726f8d108793c33efdebb"
+hash = "97783cb969e17da8821c556a9aee81fd5bd76fe36482e1471f010741bcb1b789"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/inter_providers.js"
-hash = "0eb7125658dfa184e47ee4dce359735b4e8a0eb2bce2080eb85c50a035da9fe7"
+hash = "cb93057754d75a86a18adf5ffae47e5591194e77e5134f5da8b9715313bddc6a"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/molecular_assemblers.js"
-hash = "e1befac5352ea32dcf4a2261f4ff88f0bba327a2aaf7d4bb4230c2fbbcf85c0a"
+hash = "e747d8d1724cc52a71c29ff58ec67c63cb5ea4346f7e0624408993737e0d3732"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/patterns.js"
-hash = "1d5a65dff632046a5832d4a707b912e282aef5e5ccc7c560a849e40a8ae137d1"
+hash = "54b7808b0ef44a537032ae2e666b8a63f695f65e38acc0c16f572ad97d128dcb"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/portable_cells.js"
-hash = "ef31a184c3685322b9a0f38d7e692e352ef1da698b74f835bf120c3b709e075c"
+hash = "71b4a48851d90559fb8953cfd05d5eab7f8241182cd643bccce9cdea60bcbcdd"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/pressing.js"
-hash = "6f305c23029c58e99ffc1b30dc337a5ef312682c7207eef44ed2ba0f9efc5b42"
+hash = "e6e884b5f1bb68f9da142ef1f7ce72bc0364b6559693d30cdd5901f07db4df94"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/removals.js"
@@ -418,35 +402,35 @@ hash = "af4f2f3cc9410497eba8038ef67cc38c165d54c5460e5e4ff0bc58d185bba476"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/storage_parts.js"
-hash = "a184a4372a849553c142772f0f3a434fb59d0fa242c317deb2556451bd9880a5"
+hash = "216fe32388a8fbcc69c5108f2f84a2317754aedae656fb99cc26bc72a05b1403"
 
 [[files]]
 file = "kubejs/server_scripts/appliedenergistics2/terminals.js"
-hash = "112efce9d01676bcd0de0ab882fbeb8c114a303154b4f7e48dba37b1b7242c10"
+hash = "7947a1e0c35d3095e343f8262b41cabc58765dd2cf4022194c83fdd65ffb7c72"
 
 [[files]]
 file = "kubejs/server_scripts/building/architects_palette.js"
-hash = "f2a132715b9e7176ed12b246e291238ecd8bba198a1e7e36b5c36db09868ae39"
+hash = "fa3e1315cccdbdb157296fed62375916dde5b7948e418c4fa195e49686fa0e6b"
 
 [[files]]
 file = "kubejs/server_scripts/building/building_blocks.js"
-hash = "bab3b3344f7a891f88148ea42f6a08e0db42fd8f579273c8d8f91ecdaee91d98"
+hash = "3bc7444691ae1f5c5007695bec11c92d300c577fe7e4e0113e3ddd2302565213"
 
 [[files]]
 file = "kubejs/server_scripts/building/building_gadgets.js"
-hash = "9a309f6c36b3232028bbdf9720098913bdf8faafe7372a14cc41217f9548cd65"
+hash = "ac1b66d3c08c8170e3bfe6a6305b8532bd6b92cdf1c8295c439b5577fad09c61"
 
 [[files]]
 file = "kubejs/server_scripts/building/xtones.js"
-hash = "8b7f2f0a99a9e45d6d4997a99e984f0a8502916fd26b11ec3fca87df398d4d19"
+hash = "dbe17268dc1ab3e54e7d823eb68ef09e981be46c0a97f3394841e8536f4260ee"
 
 [[files]]
 file = "kubejs/server_scripts/gregtech/components.js"
-hash = "3479e3af0bae6fd37993b89a3a15f28161ed9b4ee2a0adbd754857421cbb7dab"
+hash = "d5963aaf28b546e23ed0987749f0b8eee36a18978997d32a2b6c3f159780ad23"
 
 [[files]]
 file = "kubejs/server_scripts/gregtech/greenhouse.js"
-hash = "adae0e40013f2c6cecd213c106f0f3f7cdafc04edda8e3bf24ab5bb856f9d06e"
+hash = "335831b56f4a15758e34e0bab211a5bd209c15b36dc34ae0b1ee0f37a3780f38"
 
 [[files]]
 file = "kubejs/server_scripts/gregtech/machines.js"
@@ -462,19 +446,19 @@ hash = "95e582854cad11a56825a4f5adce8f1944c247e41c6265b3acc69ab21b9d53f3"
 
 [[files]]
 file = "kubejs/server_scripts/gregtech/wood_unification.js"
-hash = "4b4b92765b4150ace7c1aad90b3f718e2ebbce41d6b64dc59cb37d4c5adeddb0"
+hash = "8ed3e33f5f35d3606afb4baf663513ba964900378e79b556ea6ce8473895727c"
 
 [[files]]
 file = "kubejs/server_scripts/miscellaneous.js"
-hash = "0bb9c58d3536c84b89a57ba68b39e97fa7531d1491a3e9852eca5a3e3f263878"
+hash = "24e0810f2ef9168133554c9bbb385e69b727e6b3427c93eab9a82abe6477fac4"
 
 [[files]]
 file = "kubejs/server_scripts/open_blocks/elevator.js"
-hash = "4d6982e281d7e1ea30640ac2600873a2119addb75fe26ee83459f9d5bb16e3fd"
+hash = "b5848bdbb13eca6581bcb1823348dd6c8be36e64d47d7c1fb2d62630120c6689"
 
 [[files]]
 file = "kubejs/server_scripts/open_blocks/hang_glider.js"
-hash = "c0f7355c24b9f386b34837722efd54b4205ebdb7fcd406cefd31d796a3b4a2ec"
+hash = "5885bebd13fd5b98bc87c86f2f87595084f0100237a780e5270813cca7af7d34"
 
 [[files]]
 file = "kubejs/server_scripts/removals.js"
@@ -482,19 +466,19 @@ hash = "c5509ba4f59b78c350b3a74df72ab83a7021fdaf3b3b33ad30c851ef91a7fe90"
 
 [[files]]
 file = "kubejs/server_scripts/sophisticated_backpacks/backpacks.js"
-hash = "a5e64fde318c02eba3e0958b578caf02a3d9055f6436e105d5be73843c1e329d"
+hash = "6d31ee368af02121e2fd3dc74c449b7c79f037a864802283874a6a2cfc68c32f"
 
 [[files]]
 file = "kubejs/server_scripts/sophisticated_backpacks/upgrades.js"
-hash = "a5f8f6e63d636dad1485f889a887c89ea690c245e804ba1b50ad0018d9847150"
+hash = "6c73c5fce94d0e16be09d63cd6b5d3c8a21497af338be53427cc36082d47d7dd"
 
 [[files]]
 file = "kubejs/server_scripts/storage_drawers/drawers.js"
-hash = "84fbb6dab6e29e70cbc9af1badb2d749e5be3b940d38bec3c3b364977c357037"
+hash = "14e70ccd286ab1085272ab5ac77d98b74fd5dce3e2197a7f8127867c2201ff7d"
 
 [[files]]
 file = "kubejs/server_scripts/storage_drawers/upgrades.js"
-hash = "62c275c960ecbd5e615af89a2147d46c9db3fb84224ec33678047e0fcc195276"
+hash = "270155b345d0c355c3f214f38ad3dde4382709d5e75459f0a57bfefc4fcb8a88"
 
 [[files]]
 file = "kubejs/server_scripts/tags/ae2.js"
@@ -514,15 +498,15 @@ hash = "a2d421c36c4f23ca9c86683abd6b1d19cf730eaae7af9bd4cef1be9947bfc2bb"
 
 [[files]]
 file = "kubejs/server_scripts/torchmaster.js"
-hash = "3662a4a03d284fb042e8abe6f1a6e6afcaf51bbce9aae5f1d613d6e8910a6a66"
+hash = "a1f0e4b56859e8cfab920694f311507b9bb6a1a3f4909b799875d6ea89844c3b"
 
 [[files]]
 file = "kubejs/server_scripts/vanilla/loot_drops.js"
-hash = "86a7d1aedc582604057fe23eed46a91e65484eb308945fa94d07567e61f5bf67"
+hash = "5245ad864c2768ff8af25ca05a9fab819cc914feac499eeeb6ada14ef38ec20a"
 
 [[files]]
 file = "kubejs/server_scripts/vanilla/vanilla.js"
-hash = "bdbe3251b4b39173618be5ff3450ab6abd3dc7a73db591b61d86a010eb8faabb"
+hash = "ef11a5f8a63740051b39a100ab2e998e3773f069d8d97cb7e67d6a4e56f10a70"
 
 [[files]]
 file = "kubejs/startup_scripts/components/hsla-steel.js"
@@ -538,11 +522,11 @@ hash = "509f876d9767bf536a5452021bef3dff8cf1d10345f2b4aba8d2df529763edbe"
 
 [[files]]
 file = "kubejs/startup_scripts/machinery/construction_core.js"
-hash = "710aa5d76a9d668be223e46891852160fc4f04399bd4d48ffb8a3ed16e53cfa4"
+hash = "ae3f2bd328ce65b389d21e89edc00cd433e55caa716ee248705f60f4a6c42117"
 
 [[files]]
 file = "kubejs/startup_scripts/machinery/greenhouse.js"
-hash = "8009639bff4e54d962a519986f74ce33e0f94e5307f8ad58d9131fd7833f1d3f"
+hash = "05a383a3b801474eeb906a3933062971e27b4991f961a61bd2e8cbbe055a5c7c"
 
 [[files]]
 file = "kubejs/startup_scripts/material_testing/material.js"
