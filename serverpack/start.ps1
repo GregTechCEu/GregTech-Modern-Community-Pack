@@ -5,6 +5,19 @@ $FINDME_VERSION = "1.20.1-3.2.1d"
 $PACK_TAG = "v1.14.5"
 $PACK_URI = "https://raw.githubusercontent.com/GregTechCEu/GregTech-Modern-Community-Pack/refs/tags/$PACK_TAG/pack.toml"
 
+# Optional proxy support via MC_PROXY environment variable.
+# Usage: $env:MC_PROXY="http://127.0.0.1:7890"; .\start.ps1
+$ProxyUrl = $env:MC_PROXY
+if ($ProxyUrl) {
+  Write-Host -ForegroundColor Yellow "Using proxy: $ProxyUrl"
+  $ParsedProxy = [System.Uri]$ProxyUrl
+  $env:JAVA_TOOL_OPTIONS = "-Dhttp.proxyHost=$($ParsedProxy.Host) -Dhttp.proxyPort=$($ParsedProxy.Port) -Dhttps.proxyHost=$($ParsedProxy.Host) -Dhttps.proxyPort=$($ParsedProxy.Port)"
+  [System.Net.WebRequest]::DefaultWebProxy = New-Object System.Net.WebProxy($ProxyUrl)
+  $WebRequestSplat = @{ Proxy = $ProxyUrl }
+} else {
+  $WebRequestSplat = @{}
+}
+
 # Ensure java is installed
 if (!(Get-Command java)) {
   Write-Host -ForegroundColor Red "Java 17, which is a requirement for Minecraft, was not detected on this system."
@@ -24,7 +37,7 @@ if (!(Test-Path "forge-$FORGE_VERSION-installer.jar")) {
   Get-ChildItem -Path ".\" -Filter "forge-*-installer.jar" | Remove-Item | Out-Null
 
   Write-Host -ForegroundColor Blue "Fetching Forge Version $FORGE_VERSION"
-  Invoke-WebRequest -Uri $FORGE_URI -OutFile "forge-$FORGE_VERSION-installer.jar"
+  Invoke-WebRequest -Uri $FORGE_URI -OutFile "forge-$FORGE_VERSION-installer.jar" @WebRequestSplat
 
   Write-Host -ForegroundColor Blue "Installing Forge as server, this will take a few minutes."
 
@@ -56,6 +69,7 @@ if (!(Test-Path "mods\findme-$FINDME_VERSION-forge.jar")) {
   $FINDME_DATA = Invoke-WebRequest `
     -Uri "https://api.modrinth.com/v2/project/$FINDME_ID/version" `
     -Body $FINDME_QUERY `
+    @WebRequestSplat `
     | ConvertFrom-Json `
     | Where-Object { ($_.version_number.toString() -eq $FINDME_VERSION) -and $_.files.primary }
 
@@ -68,7 +82,7 @@ if (!(Test-Path "mods\findme-$FINDME_VERSION-forge.jar")) {
 
   Write-Host -ForegroundColor Blue "Fetching the FindMe mod..."
   New-Item -ItemType Directory -Path mods -Force | Out-Null
-  Invoke-WebRequest -Uri $FINDME_URI -OutFile "mods"
+  Invoke-WebRequest -Uri $FINDME_URI -OutFile "mods" @WebRequestSplat
 }
 
 # Install packwiz-installer-bootstrap if needed.
@@ -77,13 +91,14 @@ if (!(Test-Path "packwiz-installer-bootstrap.jar")) {
   Write-Host -ForegroundColor Yellow "Finding the latest packwiz-installer-bootstrap release..."
   $BOOTSTRAP_RELEASES = "https://api.github.com/repos/packwiz/packwiz-installer-bootstrap/releases/latest"
   $BOOTSTRAP_URI = Invoke-WebRequest $BOOTSTRAP_RELEASES `
+  @WebRequestSplat `
   | ConvertFrom-Json `
   | Select-Object -Property assets `
   | ForEach-Object { $_.assets.browser_download_url } `
   | Select-Object -first 1
 
   Write-Host -ForegroundColor Blue "Fetching the packwiz-installer-bootstrap..."
-  Invoke-WebRequest -Uri $BOOTSTRAP_URI -OutFile "packwiz-installer-bootstrap.jar"
+  Invoke-WebRequest -Uri $BOOTSTRAP_URI -OutFile "packwiz-installer-bootstrap.jar" @WebRequestSplat
 
 }
 
