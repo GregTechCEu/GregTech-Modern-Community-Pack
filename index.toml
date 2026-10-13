@@ -625,6 +625,11 @@ hash = "b65ee01fec17228645121952de6dec75053b0b4c59a8c8036d6fa7829819f3f9"
 metafile = true
 
 [[files]]
+file = "mods/crafting-station-jei-edition-updated.pw.toml"
+hash = "aae87ef144aae76d529d05fa3ffd49a23de7cc6aea469c8fe0baf20164ce3331"
+metafile = true
+
+[[files]]
 file = "mods/crafting-tweaks.pw.toml"
 hash = "9942062b933fc042f551ff9539c81ca37ef8e97eec7d35f7800805a9d285b956"
 metafile = true
@@ -760,6 +765,11 @@ hash = "17b5bef818ac8c504958db422aba2f1cc79979da41a71b0ecb793f85accf30df"
 metafile = true
 
 [[files]]
+file = "mods/libx.pw.toml"
+hash = "c89eb8fc2deafc4350c3de459473e44d718fa0afdf9e39341cdd9c91da7dff5d"
+metafile = true
+
+[[files]]
 file = "mods/lootjs.pw.toml"
 hash = "2bf24ba89ee34b9c0f698a2d3ca2c64eb7676407b56ab311fa91a8dd7a1ad4a9"
 metafile = true
@@ -847,6 +857,11 @@ metafile = true
 [[files]]
 file = "mods/torchmaster.pw.toml"
 hash = "07cf012bd20436a6c3f972ae0193a5945412812798994a7b9d1905228dfcd0d3"
+metafile = true
+
+[[files]]
+file = "mods/travel-anchors-modern.pw.toml"
+hash = "92e741132691a2c98d61f11806532e8e2b7a88efbbbb547f6108773a06d5a8a8"
 metafile = true
 
 [[files]]

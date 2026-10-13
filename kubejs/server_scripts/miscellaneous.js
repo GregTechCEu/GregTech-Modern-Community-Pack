@@ -7,7 +7,6 @@ ServerEvents.recipes((event) => {
   });
 
 
-  /* TODO: Reimplment when replacement of these mods are found
   // Travel Anchors
   event.remove({ id: "travelanchors:travel_anchor" });
   event.shaped(`travelanchors:travel_anchor`, ["SGS", "GPG", "SGS"], {
@@ -26,14 +25,13 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "craftingstation:crafting_station" });
   event.shapeless("craftingstation:crafting_station", [
     "minecraft:crafting_table",
-    "#c:tools/saws",
+    "#c:tools/saw",
   ]);
   event.remove({ id: "craftingstation:crafting_station_slab" });
   event.shapeless("craftingstation:crafting_station_slab", [
     "craftingstation:crafting_station",
-    "#c:tools/saws",
+    "#c:tools/saw",
   ]);
-  */
 
   // Tool Belt
   event.remove({ id: "toolbelt:belt" });
