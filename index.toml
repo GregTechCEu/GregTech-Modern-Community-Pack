@@ -42,111 +42,115 @@ hash = "7dc50adcc0c0772ae2059c99ce4049f243bbbe26bc374c91ac27f6f928772add"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "cc7b7524a1409711280d59e9af31b93d161cb654981abb0b2ea945111734fd3d"
+hash = "edd97fec29743ed9fa3a3939c9f8f7351589652a471b2a20b865330038ba7df2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev__extreme_voltage.snbt"
-hash = "30246b6bf3ef2174edeb22d00e1a3b3da029c5bad04875b568f1c4446bf8e3dc"
+hash = "e7f37b6b4b3329475b1332dd6a5b957c2697361091455952d784d38e6d9a1d31"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gtceu.snbt"
-hash = "bd24a9ab8ee710861a5c63dbed317c243e28d92d8c716a69e9eb4a1b3ef7348e"
+hash = "902379cf6eeef0c3cf8192b9f36df79bb711a520d5bbd05b2c0c765f09289323"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/heating_coils.snbt"
-hash = "3de3b8987fbd6652079f9a6f8ff7f0d140753eb94563b31554648a09990d89e1"
+hash = "c7ec6ea2cb4e5a1185414dea40ecfd47dc8f3c3ec2694fc70802a9013b76cc22"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv__high_voltage.snbt"
-hash = "197a4ae12ecdacd42a1266a9db566d3d978a32201e1b5e6bea9af3451fed7fed"
+hash = "b6b1ea6ecc6651d058a9c990939cdcdf74863bad996403a7f53b5a082fd6bebb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv__insane_voltage.snbt"
-hash = "930c7290e8aa6f14d1fd627813950603bd2ddfe4c940ff83c2b8318ec9fd863b"
+hash = "691149e1db5b66419532011adfcbfe08b9bef4a1f0f2be5f562c95dc4d9307b9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/luv__ludicrous_voltage.snbt"
-hash = "e6498dc507c6d9f1d87ac3cfdab859e95a1554cc2ab62e0406d95ec56a616893"
+hash = "aee04f660bde9337f308b4616713172ae4d363882d6c67fbf5f7d5f10215c47a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv__low_voltage.snbt"
-hash = "b71aba71c39c2f7f62899196a25ff3f7bb590b079d6f5c2afe1301a9ed46772c"
+hash = "fb593da04deb036018d42e4dfb9652e38592a93d3877cadb388da15371fa661f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblock_dilemma.snbt"
-hash = "c597f716bb540288bd909925586087298edabb66bf5b65b8f353631f05e295ce"
+hash = "448057faab50255a2f678278608f4084920fd764b225acdb4198980cfc5db5f9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mv__medium_voltage.snbt"
-hash = "9dde4397e35c673e0cd02deeb48d66dce87bfb3896552756c3e1ec9e9b8fb8e8"
+hash = "febd50ec7f7f99a439e16e8d498bf602d7921735a108d808da0d089eb226d79f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ore_generation.snbt"
-hash = "a240a1cdcc31c0706814218f057a7a2e6850606eba8d439cdb0268b83d8437e6"
+hash = "5c30e8759bc6093615512d5d098e9fe929b146a88cdb1a5731e01cc20b27371a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ore_processing.snbt"
-hash = "e1ba9175f53f078dfa994a1453e56182cfbd328a37bad1c9fa22958ab50fb320"
+hash = "76ee391c1eb2a2843163fc123343d8a27f0570cf914ebc825b7206a5f5b349f0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/progression.snbt"
-hash = "99e172d2b42de5bdad9b4002906ace25d4a1c6f49e775529278cf3b0f86f8375"
+hash = "3c10d72b881d33d534b6c7d030409560d077142097565cb0a9cede83689b7cc2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/renewability_and_you.snbt"
-hash = "070e4c59640dc3014745eb4f2b83f918342a92c7dbec9a44c7e003500de90904"
+hash = "b360b3e73839f21a7c90bd72ef524d0d3771ee95f488e45d4dad260191c30fba"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/steam_age.snbt"
-hash = "387386fa967ae74ef8f3c7010fe0d443a035f6fa33a45430a8bae2fa14a8dd0f"
+hash = "1b6113e9491fee777db9743a5231b762c18cbf15e3f37381d2b92e7a95a0f04a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks_2.snbt"
-hash = "69dfd626ac01f62628fc2eba9ade808080fbcbca1fe9341ec6216e5837e0296d"
+hash = "b55755afbcbb99e19e19492bce4e427f333c70a319221fd0eb536d6c5b230cc1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uv__ultimate_voltage.snbt"
-hash = "6d9f561c83caf89561ffe668a361175cbbe6b328d8d969427b14d78edb1fb0cd"
+hash = "c491d37be9d1412c473fe7da77d33bfc05657c5426b362b5632c9ecf469df8f0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/zpm__zero_point_module.snbt"
-hash = "cc435437b75c0b9a855237471c41c19ed5e332245d8b3c13b2c5c28a6c0ba604"
+hash = "904855bb04ca69777d7ed16bffb57dc7e1d643700fcf59c0f5b2b5400f018dd4"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "0103f4264e1dccf478afc217e7eee8ade864772d43d725938030ef93d4c7e7f1"
+hash = "359d80a077318eb5251dea7273698edd992312418857b8dd01dbfbe273052e41"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us.snbt"
+hash = "01e0d9462cbb49cc81a9dd3d7e4fd43e75a20535afe93175fc1bceb65d9b4f4c"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/bronze_age.snbt"
-hash = "2f244ef5e65a15f5b901c66994ad7b05f02424eed022c6a54f28cd751c1f43b3"
+hash = "c9caa3eb5fa69f4fed3c6ac9b2f8bbe321fe80e712d4775fb143baa7230c06cd"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/distillation_tower.snbt"
-hash = "47b752f245fee5edfc8e7e3cfab1bca120e4f2a5b17440059d1758428f557a6c"
+hash = "94d61a99cb6577347d3823ccea3a92e6fa8d760a46d791946e7e8ec95ed127a5"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/gallium_arsenide.snbt"
-hash = "1f4af73a601ba1141e59fef434a151c842b3c6b538e427e7a8cec62f4ee31c28"
+hash = "2853347195349b90d8dc2bc3b21497aaf3ea9ca288baf24aa061abf001600353"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/hv.snbt"
-hash = "30aba890142a543fdcb40c8755578fe7e3fc105e43d8f9bfe7916e3f3ce16678"
+hash = "6dff56b57c5caaed3a2dc508264e6dd589ff67b1ae385fa6007906960849bc3d"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/hv_components.snbt"
-hash = "9b642be66ea1dfe0ec06781642f33038d0cd8f7cf0a7d14089696c98427398b1"
+hash = "ad433689004c9e4f093378fc9c54627fb181e5407907d1a1b97e8922d1a931d7"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/platinum_group_processing.snbt"
-hash = "200df4c6786fbc39eba413b02852d119bc6504d2aa69e81190a3315ad4235925"
+hash = "bdd461dbf28ed0df4ae242465ff0ddc93181898a65ec590775be78134190a2bd"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/polyethylene.snbt"
-hash = "eabe28ddac2199f5214206746cf61a607988105a7baabde195d9c38f71db78ac"
+hash = "6ebecefc75cf22e0c86fe3ec426c2535f7a38854674520f3b30ec0aa06813d88"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/titanium.snbt"
-hash = "f299e4a0caf1c1278462827f3ed1fd111ce647b58d0ef39500831acf7ccefa41"
+hash = "1ab0b8af87b07a8567756ba401d3aaa58e7f8ec0b85d1b59720eb34fe3852a17"
 
 [[files]]
 file = "config/gtceu.yaml"
@@ -450,7 +454,7 @@ hash = "8ed3e33f5f35d3606afb4baf663513ba964900378e79b556ea6ce8473895727c"
 
 [[files]]
 file = "kubejs/server_scripts/miscellaneous.js"
-hash = "24e0810f2ef9168133554c9bbb385e69b727e6b3427c93eab9a82abe6477fac4"
+hash = "42dcfc81632a52d0e74850590bbcc8e2dae8b71ade024d014d093f68eb2ea60b"
 
 [[files]]
 file = "kubejs/server_scripts/open_blocks/elevator.js"
