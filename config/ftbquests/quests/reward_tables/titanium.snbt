@@ -3,8 +3,21 @@
 	loot_size: 1
 	order_index: 4
 	rewards: [
-		{ count: 12, item: "gtceu:endstone_bauxite_ore" }
-		{ count: 12, item: "gtceu:endstone_ilmenite_ore" }
+		{
+			count: 12
+			id: "65C56CDD615B6ED6"
+			item: {
+				count: 1
+				id: "gtceu:endstone_bauxite_ore"
+			}
+		}
+		{
+			count: 12
+			id: "0ACBEE0CE33A80E3"
+			item: {
+				count: 1
+				id: "gtceu:endstone_ilmenite_ore"
+			}
+		}
 	]
-	title: "titanium"
 }

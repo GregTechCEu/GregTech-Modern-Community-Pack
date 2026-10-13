@@ -3,8 +3,11 @@
 	default_quest_shape: ""
 	filename: "multiblock_dilemma"
 	group: "1C1C4FB2AFCF489D"
-	icon: "gtceu:electric_blast_furnace"
+	icon: {
+		id: "gtceu:terminal"
+	}
 	id: "41FEC6178ABF1998"
+	images: [ ]
 	order_index: 2
 	quest_links: [
 		{
@@ -159,13 +162,7 @@
 		}
 		{
 			icon: {
-				Count: 1
 				id: "gtceu:turbine_rotor"
-				tag: {
-					GT.PartStats: {
-						Material: "neutronium"
-					}
-				}
 			}
 			id: "454772220042D94B"
 			linked_quest: "188A8C3DD38C2762"
@@ -289,6 +286,4 @@
 		}
 	]
 	quests: [ ]
-	subtitle: ["A handy reference of all the multiblocks"]
-	title: "Multiblock Dilemma"
 }

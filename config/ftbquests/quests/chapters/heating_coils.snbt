@@ -3,8 +3,11 @@
 	default_quest_shape: ""
 	filename: "heating_coils"
 	group: "1C1C4FB2AFCF489D"
-	icon: "gtceu:cupronickel_coil_block"
+	icon: {
+		id: "gtceu:cupronickel_coil_block"
+	}
 	id: "7C1306341997601D"
+	images: [ ]
 	order_index: 1
 	quest_links: [
 		{
@@ -94,18 +97,12 @@
 				"257DB4B39B2A928E"
 				"5B2696206205CB2E"
 			]
-			description: [
-				"Gotta say, Cupronickel ingots look pretty tasty."
-				""
-				"&l&3Lore:&r&o IRL, Cupronickel usually contains additional elements such as Iron or Manganese to improve its strength. The Cupronickel in GregTech is probably more like Constantan (55:45 Copper:Nickel)."
-			]
 			id: "70432F650591353C"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Legally distinct Constantan"
 			tasks: [{
 				id: "77875BBDC0A937A9"
-				item: "gtceu:cupronickel_ingot"
+				item: { count: 1, id: "gtceu:cupronickel_ingot" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -116,18 +113,12 @@
 				"2AD44111B9B39C90"
 				"4A92AFD2532EED26"
 			]
-			description: [
-				"&l&3Lore:&r&o You might find Kanthal around the home. Due to its excellent thermal conductivity and intermediate electric resistance, Kanthal is usually found in toasters and heaters!"
-				""
-				"&oBet you didn't expect your toaster to be at &bMV&f before you!"
-			]
 			id: "66805BB78A828C00"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "That's just how I FeAlCr"
 			tasks: [{
 				id: "76206DC9E7ABD07A"
-				item: "gtceu:kanthal_ingot"
+				item: { count: 1, id: "gtceu:kanthal_ingot" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -135,17 +126,14 @@
 		}
 		{
 			dependencies: ["6958029B5514D4EC"]
-			description: ["Nichrome will require your &aElectric Blast Furnace&r to be at least &6EV&r, with &bKanthal&r coils to boot."]
 			id: "1CBA5477CB7C45E7"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Operation Nichrome Dome"
 			tasks: [{
 				id: "1104AC52E0A0A472"
-				item: "gtceu:nichrome_ingot"
+				item: { count: 1, id: "gtceu:nichrome_ingot" }
 				type: "item"
 			}]
-			title: "Nichrome"
 			x: 0.5d
 			y: -6.5d
 		}
@@ -154,20 +142,16 @@
 				"2F9D9AAB27E6534D"
 				"0B25A282F677744B"
 			]
-			description: ["You're gonna need to start on your &dPlatinum&r processing, or \"&bPlatline&r\", if you want to get your hands on these."]
 			id: "3856DBCCAA6D2A58"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Tungstensteel is dead, long live RTM"
 			tasks: [{
 				id: "76DE4924186D83C2"
-				item: "gtceu:rtm_alloy_ingot"
+				item: { count: 1, id: "gtceu:rtm_alloy_ingot" }
 				type: "item"
 			}]
 			x: 2.0d
 			y: -6.5d
 		}
 	]
-	subtitle: ["Coil Headed"]
-	title: "Heating Coils"
 }

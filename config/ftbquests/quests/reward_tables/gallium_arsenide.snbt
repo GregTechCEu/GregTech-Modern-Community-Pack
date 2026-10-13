@@ -3,8 +3,21 @@
 	loot_size: 1
 	order_index: 7
 	rewards: [
-		{ count: 4, item: "gtceu:gallium_dust" }
-		{ count: 4, item: "gtceu:arsenic_dust" }
+		{
+			count: 4
+			id: "4C8AE394032162D0"
+			item: {
+				count: 1
+				id: "gtceu:gallium_dust"
+			}
+		}
+		{
+			count: 4
+			id: "2A30C531361C73D1"
+			item: {
+				count: 1
+				id: "gtceu:arsenic_dust"
+			}
+		}
 	]
-	title: "gallium_arsenide"
 }

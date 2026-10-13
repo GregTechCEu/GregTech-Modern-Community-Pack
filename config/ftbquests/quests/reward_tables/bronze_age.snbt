@@ -3,8 +3,21 @@
 	loot_size: 1
 	order_index: 0
 	rewards: [
-		{ count: 32, item: "minecraft:copper_ingot" }
-		{ count: 32, item: "gtceu:tin_ingot" }
+		{
+			count: 32
+			id: "443F5F629AD5859B"
+			item: {
+				count: 1
+				id: "minecraft:copper_ingot"
+			}
+		}
+		{
+			count: 32
+			id: "004D5B5600F0625D"
+			item: {
+				count: 1
+				id: "gtceu:tin_ingot"
+			}
+		}
 	]
-	title: "bronze_age"
 }

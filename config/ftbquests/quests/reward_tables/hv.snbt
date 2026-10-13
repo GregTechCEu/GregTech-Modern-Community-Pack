@@ -3,8 +3,21 @@
 	loot_size: 1
 	order_index: 1
 	rewards: [
-		{ count: 24, item: "gtceu:chromium_dust" }
-		{ count: 24, item: "gtceu:manganese_dust" }
+		{
+			count: 24
+			id: "0D9824A22EAD84DE"
+			item: {
+				count: 1
+				id: "gtceu:chromium_dust"
+			}
+		}
+		{
+			count: 24
+			id: "79DDADCA28A1D2F4"
+			item: {
+				count: 1
+				id: "gtceu:manganese_dust"
+			}
+		}
 	]
-	title: "hv"
 }

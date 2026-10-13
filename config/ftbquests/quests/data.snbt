@@ -9,9 +9,12 @@
 	drop_book_on_death: false
 	drop_loot_crates: false
 	emergency_items_cooldown: 300
+	fallback_locale: ""
 	grid_scale: 0.5d
 	hide_excluded_quests: false
-	icon: "kubejs:greg_icon"
+	icon: {
+		id: "kubejs:greg_icon"
+	}
 	lock_message: "eSFSDF"
 	loot_crate_no_drop: {
 		boss: 0
@@ -19,8 +22,22 @@
 		passive: 4000
 	}
 	pause_game: false
+	presets: {
+		goal: {
+			shape: "hexagon"
+			size: 2.0d
+		}
+		info: {
+			shape: "gear"
+			size: 1.0d
+		}
+		normal: {
+			shape: "square"
+			size: 1.0d
+		}
+	}
 	progression_mode: "default"
 	show_lock_icons: true
-	title: "GregTech Community Pack"
+	verify_on_load: false
 	version: 13
 }

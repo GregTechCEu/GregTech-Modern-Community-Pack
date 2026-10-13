@@ -3,12 +3,53 @@
 	loot_size: 1
 	order_index: 6
 	rewards: [
-		{ count: 20, item: "gtceu:purified_chalcopyrite_ore" }
-		{ count: 20, item: "gtceu:purified_tetrahedrite_ore" }
-		{ count: 20, item: "gtceu:purified_chalcocite_ore" }
-		{ count: 20, item: "gtceu:purified_bornite_ore" }
-		{ count: 20, item: "gtceu:purified_pentlandite_ore" }
-		{ count: 10, item: "gtceu:purified_cooperite_ore" }
+		{
+			count: 20
+			id: "3109612B3C5B6F55"
+			item: {
+				count: 1
+				id: "gtceu:purified_chalcopyrite_ore"
+			}
+		}
+		{
+			count: 20
+			id: "5997117B744FF2F9"
+			item: {
+				count: 1
+				id: "gtceu:purified_tetrahedrite_ore"
+			}
+		}
+		{
+			count: 20
+			id: "2414D5DAC7FFE512"
+			item: {
+				count: 1
+				id: "gtceu:purified_chalcocite_ore"
+			}
+		}
+		{
+			count: 20
+			id: "42F35D2F27B34C74"
+			item: {
+				count: 1
+				id: "gtceu:purified_bornite_ore"
+			}
+		}
+		{
+			count: 20
+			id: "66A5A1DD96E0DD1F"
+			item: {
+				count: 1
+				id: "gtceu:purified_pentlandite_ore"
+			}
+		}
+		{
+			count: 10
+			id: "257000A06CA1B05E"
+			item: {
+				count: 1
+				id: "gtceu:purified_cooperite_ore"
+			}
+		}
 	]
-	title: "platinum_group_processing"
 }

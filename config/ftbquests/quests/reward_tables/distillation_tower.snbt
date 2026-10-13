@@ -3,8 +3,21 @@
 	loot_size: 1
 	order_index: 5
 	rewards: [
-		{ count: 4, item: "gtceu:lv_super_tank" }
-		{ count: 16, item: "gtceu:clean_machine_casing" }
+		{
+			count: 4
+			id: "3E9AA72C66A9F238"
+			item: {
+				count: 1
+				id: "gtceu:lv_super_tank"
+			}
+		}
+		{
+			count: 16
+			id: "073B750ECE395276"
+			item: {
+				count: 1
+				id: "gtceu:clean_machine_casing"
+			}
+		}
 	]
-	title: "distillation_tower"
 }
